@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Check, RotateCcw, Volume2, X } from "lucide-react";
 import type { Exercise } from "@/lib/content/schema";
-import { cn, shuffle, speak } from "@/lib/utils";
+import { cn, shuffle, speak, speakSlow } from "@/lib/utils";
 
 export type Commit = (correct: boolean, given: string) => void;
 
@@ -145,6 +145,13 @@ export function ListenGame({ exercise, locked, picked, onCommit }: Props<"listen
     <div className="space-y-5">
       <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
       <SpeakerButton text={exercise.speak} big />
+      <button
+        type="button"
+        onClick={() => speakSlow(exercise.speak)}
+        className="mx-auto block rounded-full bg-sand px-3 py-1.5 text-xs font-bold text-plum-soft"
+      >
+        آهسته‌تر بگو
+      </button>
       <ChoiceGrid choices={exercise.choices} picked={picked} correct={correct} locked={locked} onPick={(c) => onCommit(c === correct, c)} />
     </div>
   );

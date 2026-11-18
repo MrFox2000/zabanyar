@@ -38,6 +38,7 @@ export function LessonPlayer({
   const [picked, setPicked] = useState<string | null>(null);
   const [locked, setLocked] = useState(false);
   const [result, setResult] = useState<"correct" | "wrong" | null>(null);
+  const [fx, setFx] = useState<{ kind: "correct" | "wrong"; xp?: number } | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const [combo, setCombo] = useState(0);
@@ -78,6 +79,8 @@ export function LessonPlayer({
         setCorrectCount((n) => n + 1);
         setXp((current) => current + earned);
         playCorrect(nextCombo);
+        setFx({ kind: "correct", xp: earned });
+        setTimeout(() => setFx(null), 950);
         if (nextCombo >= 3) playCombo(nextCombo);
         bumpDaily({
           answered: 1,
@@ -90,6 +93,8 @@ export function LessonPlayer({
         setWrongCount((n) => n + 1);
         bumpDaily({ answered: 1 });
         playWrong();
+        setFx({ kind: "wrong" });
+        setTimeout(() => setFx(null), 950);
         const hearts = loseHeart();
         emit({
           type: "mistake_made",
@@ -178,6 +183,22 @@ export function LessonPlayer({
           )}
         </div>
       </header>
+
+      {fx && (
+        <span
+          key={`${fx.kind}-${fx.xp ?? 0}`}
+          className={cn(
+            "float-up pointer-events-none fixed left-1/2 top-16 z-40 -translate-x-1/2 rounded-full px-3.5 py-1.5 text-sm font-extrabold text-white shadow-pop",
+            fx.kind === "correct" ? "bg-mint text-[#043d2b]" : "bg-lose",
+          )}
+        >
+          {fx.kind === "correct" ? (
+            <span dir="ltr">+{fa(fx.xp ?? 0)} XP</span>
+          ) : (
+            "یک جان کم شد"
+          )}
+        </span>
+      )}
 
       <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-6">
         {stage === "intro" && (
