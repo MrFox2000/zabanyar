@@ -45,9 +45,14 @@ export default function ProfilePage() {
     <div className="min-h-dvh">
       <Hud />
       <main className="mx-auto max-w-2xl space-y-4 px-4 pb-20 pt-5">
-        <Link href="/app" className="inline-flex items-center gap-1 text-xs font-bold text-plum-soft">
-          <ArrowRight size={14} /> نقشه
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link href="/app" className="inline-flex items-center gap-1 text-xs font-bold text-plum-soft">
+            <ArrowRight size={14} /> نقشه
+          </Link>
+          <Link href="/app/share" className="text-xs font-bold text-fox-deep underline">
+            کارت پیشرفت و اشتراک‌گذاری
+          </Link>
+        </div>
 
         <section className="card flex items-center gap-4 p-5">
           <Foxy size={84} mood={stats.lessons > 0 ? "cheer" : "happy"} className="bob shrink-0" />

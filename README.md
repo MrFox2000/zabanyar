@@ -2,6 +2,8 @@
 
 **Live:** https://zabanyar-kappa.vercel.app · **Repo:** https://github.com/MrFox2000/zabanyar
 
+**Status:** v1.0.0 — A1–B2 complete, tested end to end. See [docs/RELEASE.md](docs/RELEASE.md).
+
 A gamified English app **and** its marketing site, in one Next.js repo. Persian, RTL,
 mobile-first. Every lesson declares its prerequisites and 30–40% of its exercises come
 from them, so the language forms a web instead of a stack of unrelated lessons.
@@ -66,6 +68,22 @@ Every exercise may also carry `aiHints` (example / simplify / distractors / expl
 Those fields are ignored today and filled at runtime later — adding AI never changes the
 schema.
 
+## Gamification (earned, never sold)
+
+| Loop | How it works |
+|---|---|
+| XP + levels | XP only from real answers; 10 Persian level titles |
+| Streak + freeze | daily streak, and a freeze you can buy with gems to survive one missed day |
+| Hearts | 5 lives, one regenerates every 15 minutes |
+| Daily missions | 3 missions from real counters, plus a chest that drops XP and gems |
+| Gems | earned by learning: 2 per lesson (5 for perfect), 10 per boss, 15 per chest |
+| Skins | six background skins bought with gems — cosmetics only, learning is never gated |
+| Ranks | bronze → diamond from lifetime XP |
+| Share card | `/app/share` posts your real streak and stars |
+| Placement | `/app/start`: 8 questions, unlock the level you already handle |
+
+Design notes and monetisation plan: [docs/GROWTH.md](docs/GROWTH.md).
+
 ## AI-ready by construction, off by default
 
 Full detail: [`docs/AI.md`](docs/AI.md).
@@ -110,7 +128,8 @@ https://github.com/MrFox2000/zabanyar
 
 ## Checks
 
-- `npm run content:check` — 0 problems (schema, prerequisite graph, duplicate choices, token/answer match, 30–40% review share)
+- `npm run content:check` — 0 problems (168 lessons, 4 levels)
+- browser sweep: 168 lesson pages + 42 bosses + every screen return 200 (see docs/RELEASE.md) (schema, prerequisite graph, duplicate choices, token/answer match, 30–40% review share)
 - `npm run lint` — clean
 - `npm run build` — 47 routes prerendered
 - end-to-end (Playwright): a full lesson with all 8 game types answered correctly →

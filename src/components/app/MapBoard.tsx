@@ -30,6 +30,8 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
   }, [hydrated, progress, units]);
 
   const level = levelOf(progress.xp);
+  const studiedToday = progress.daily.lessons > 0 || progress.daily.answered > 0;
+  const showReminder = hydrated && !studiedToday && Object.keys(progress.lessons).length > 0;
   const levels = useMemo(() => [...new Set(units.map((unit) => unit.level))], [units]);
   const activeLevel =
     chosenLevel ?? units.find((unit) => unit.lessons.some((lesson) => lesson.id === nextLesson?.id))?.level ?? units[0]?.level;
@@ -58,6 +60,17 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
             </p>
           </div>
         </section>
+
+        {showReminder && (
+          <div className="mb-3 flex items-center justify-between gap-3 rounded-2xl bg-fox px-4 py-3 text-white">
+            <p className="text-xs font-extrabold">
+              امروز هنوز درس نخوانده‌ای — {fa(nextLesson?.exercises ?? 10)} تمرین، کمتر از ۵ دقیقه.
+            </p>
+            <Link href={nextLesson ? `/app/lesson/${nextLesson.id}` : "/app"} className="shrink-0 rounded-xl bg-white px-3 py-1.5 text-[11px] font-extrabold text-fox-deep">
+              شروع
+            </Link>
+          </div>
+        )}
 
         <Link
           href="/app/start"
