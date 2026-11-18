@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { DEMO, DEMO_A1_UNITS, DEMO_OTHER_UNITS } from "@/lib/demo";
 import { unitSchema, type Lesson, type Unit } from "@/lib/content/schema";
 import unit01 from "@/content/a1/unit-01.json";
 import unit02 from "@/content/a1/unit-02.json";
@@ -49,7 +50,17 @@ import b2unit12 from "@/content/b2/unit-12.json";
  */
 const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08, a2unit01, a2unit02, a2unit03, a2unit04, a2unit05, a2unit06, a2unit07, a2unit08, a2unit09, a2unit10, b1unit01, b1unit02, b1unit03, b1unit04, b1unit05, b1unit06, b1unit07, b1unit08, b1unit09, b1unit10, b1unit11, b1unit12, b2unit01, b2unit02, b2unit03, b2unit04, b2unit05, b2unit06, b2unit07, b2unit08, b2unit09, b2unit10, b2unit11, b2unit12];
 
-export const units: Unit[] = z.array(unitSchema).parse(raw);
+const allUnits: Unit[] = z.array(unitSchema).parse(raw);
+
+/** everything the app actually serves — a subset while DEMO is on */
+export const units: Unit[] = DEMO
+  ? allUnits.filter((unit) =>
+      unit.level === "A1" ? unit.index <= DEMO_A1_UNITS : unit.index <= DEMO_OTHER_UNITS,
+    )
+  : allUnits;
+
+/** the full course, used only for copy like "the whole course has 42 units" */
+export const fullUnits: Unit[] = allUnits;
 
 /** every level that actually has content, in CEFR order */
 export const LEVELS: Unit["level"][] = [...new Set(units.map((unit) => unit.level))];

@@ -9,6 +9,7 @@ import { Foxy } from "@/components/Foxy";
 import { Stars } from "@/components/Stars";
 import { Hud } from "@/components/Hud";
 import { DailyMissions } from "@/components/app/DailyMissions";
+import { DEMO, DEMO_LABEL } from "@/lib/demo";
 import { SkinBackdrop } from "@/components/SkinBackdrop";
 import { isUnlocked, levelOf, starsOf, useHydrated, useProgress } from "@/lib/store/progress";
 import { unlockLessonWithGems } from "@/lib/store/progress";
@@ -245,6 +246,13 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
               );
             })}
         </div>
+
+        {DEMO && (
+          <div className="mt-4 rounded-2xl border border-gold/40 bg-gold/10 px-4 py-3 text-[11px] leading-5 text-[#a16407]">
+            <b>{DEMO_LABEL}</b> — این نسخه برای نمونه‌کار است و فقط درس‌های ابتدایی باز است. کل دوره (A1 تا B2،
+            ۱۶۸ درس) ساخته و تست شده است.
+          </div>
+        )}
 
         <div className="mt-6 grid grid-cols-2 gap-3">
           <Link href="/app/notebook" className="card flex items-center gap-3 p-4">

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowLeft, Brain, Check, Flame, Gamepad2, Heart, Link2, Smartphone, Sparkles, Star, Zap } from "lucide-react";
 import { Foxy } from "@/components/Foxy";
-import { allLessons, totalExercises, units } from "@/lib/content";
+import { allLessons, fullUnits, totalExercises, units } from "@/lib/content";
+import { DEMO, DEMO_LABEL } from "@/lib/demo";
 import { fa } from "@/lib/utils";
 
 const GAMES = [
@@ -31,7 +32,7 @@ const FAQ = [
   },
   {
     q: "برای چه سطحی است؟",
-    a: `الان سطح‌های A1 تا B2 کامل است: ${fa(units.length)} واحد، ${fa(allLessons.length)} درس و ${fa(totalExercises)} تمرین. سطح C1 در حال اضافه شدن است.`,
+    a: `الان سطح‌های A1 تا B2 کامل است: ${fa(fullUnits.length)} واحد، ${fa(fullUnits.flatMap((unit) => unit.lessons).length)} درس و ${fa(totalExercises)} تمرین. سطح C1 در حال اضافه شدن است.`,
   },
   {
     q: "پول می‌خواهد؟",
@@ -101,9 +102,15 @@ export default function Landing() {
                 چطور کار می‌کند؟
               </a>
             </div>
+            {DEMO && (
+              <p className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-gold/20 px-3 py-1 text-[11px] font-bold text-[#a16207]">
+                {DEMO_LABEL}: {fa(units.length)} واحد و {fa(allLessons.length)} درس از دورهٔ کامل قابل بازی است
+              </p>
+            )}
+
             <dl className="mt-8 grid grid-cols-3 gap-3 text-center">
               {[
-                { n: fa(allLessons.length), l: "درس" },
+                { n: fa(fullUnits.flatMap((unit) => unit.lessons).length), l: "درس" },
                 { n: fa(totalExercises), l: "تمرین" },
                 { n: fa(GAMES.length), l: "نوع بازی" },
               ].map((item) => (
@@ -234,7 +241,7 @@ export default function Landing() {
                 <p className="text-sm font-extrabold text-plum">نسخهٔ فعلی</p>
                 <p className="mt-2 text-3xl font-extrabold text-fox-deep">رایگان</p>
                 <ul className="mt-4 space-y-2 text-xs text-plum-soft">
-                  {[`همهٔ ${fa(allLessons.length)} درس A1 تا B2`, "بدون ثبت‌نام", "نصب روی گوشی", "پیشرفت روی دستگاه خودت"].map((item) => (
+                  {[`همهٔ ${fa(fullUnits.flatMap((unit) => unit.lessons).length)} درس A1 تا B2`, "بدون ثبت‌نام", "نصب روی گوشی", "پیشرفت روی دستگاه خودت"].map((item) => (
                     <li key={item} className="flex items-center gap-1.5">
                       <Check size={14} className="text-mint" /> {item}
                     </li>
