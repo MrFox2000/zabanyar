@@ -1,0 +1,1278 @@
+{
+  "id": "a2-u5",
+  "level": "A2",
+  "index": 5,
+  "titleFa": "کار و درخواست مؤدبانه",
+  "titleEn": "Work and requests",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "a2-u5-should",
+      "title": "You should rest",
+      "titleFa": "توصیه با should",
+      "goal": "به کسی توصیه کنی",
+      "buildsOn": [
+        "a2-u4-perfect-vs-past"
+      ],
+      "vocab": [
+        {
+          "en": "should",
+          "fa": "باید (توصیه)",
+          "emoji": "✅"
+        },
+        {
+          "en": "shouldn't",
+          "fa": "نباید (توصیه)",
+          "emoji": "🚫"
+        },
+        {
+          "en": "advice",
+          "fa": "توصیه",
+          "emoji": "💡"
+        },
+        {
+          "en": "rest",
+          "fa": "استراحت کردن",
+          "emoji": "🛌"
+        },
+        {
+          "en": "early",
+          "fa": "زود",
+          "emoji": "🌅"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "should",
+          "fa": "باید (توصیه)",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "shouldn't",
+          "fa": "نباید (توصیه)",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "advice",
+          "fa": "توصیه",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "rest",
+          "fa": "استراحت کردن",
+          "emoji": "🛌"
+        },
+        {
+          "kind": "sentence",
+          "en": "You should rest more.",
+          "fa": "باید بیشتر استراحت کنی."
+        },
+        {
+          "kind": "sentence",
+          "en": "You should see a doctor.",
+          "fa": "بهتر است دکتر ببینی.",
+          "highlight": "should"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از should فعل ساده",
+          "body": "should + فعل ساده، بدون to و بدون s: you should rest.",
+          "examples": [
+            {
+              "en": "You should rest more.",
+              "fa": "باید بیشتر استراحت کنی."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u5-should.1",
+          "kind": "mcq",
+          "prompt": "معنی «should» چیست؟",
+          "promptFa": "باید (توصیه)",
+          "choices": [
+            "باید (توصیه)",
+            "مهلت",
+            "اجازه"
+          ],
+          "answer": 0,
+          "speak": "should",
+          "aiHints": {
+            "example": "I know the word \"should\".",
+            "explanation": "«should» یعنی باید (توصیه)."
+          }
+        },
+        {
+          "id": "a2-u5-should.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚫",
+          "choices": [
+            "advice",
+            "rest",
+            "shouldn't"
+          ],
+          "answer": 2,
+          "speak": "shouldn't"
+        },
+        {
+          "id": "a2-u5-should.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "advice",
+          "choices": [
+            "must",
+            "advice",
+            "explain"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u5-should.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "advice",
+              "fa": "توصیه"
+            },
+            {
+              "en": "rest",
+              "fa": "استراحت کردن"
+            },
+            {
+              "en": "should",
+              "fa": "باید (توصیه)"
+            },
+            {
+              "en": "shouldn't",
+              "fa": "نباید (توصیه)"
+            }
+          ]
+        },
+        {
+          "id": "a2-u5-should.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بهتر است دکتر ببینی.",
+          "sentence": "You ___ see a doctor.",
+          "choices": [
+            "permit",
+            "should",
+            "advice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u5-should.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "باید بیشتر استراحت کنی.",
+          "tokens": [
+            "You",
+            "rest",
+            "should",
+            "more"
+          ],
+          "answer": "You should rest more"
+        },
+        {
+          "id": "a2-u5-should.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "You",
+            "should",
+            "to",
+            "rest."
+          ],
+          "answer": 2,
+          "fix": "You should rest.",
+          "aiHints": {
+            "explanation": "درستش این است: You should rest."
+          }
+        },
+        {
+          "id": "a2-u5-should.8",
+          "kind": "speed",
+          "prompt": "سریع! «early» یعنی چه؟",
+          "speak": "early",
+          "choices": [
+            "زود",
+            "باید (توصیه)"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u5-should.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «last year»",
+          "choices": [
+            "سال پیش",
+            "می‌شود (مؤدبانه)",
+            "جلسه"
+          ],
+          "answer": 0,
+          "speak": "last year",
+          "reviewOf": "a2-u4-perfect-vs-past"
+        },
+        {
+          "id": "a2-u5-should.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "ago",
+          "choices": [
+            "salary",
+            "have to",
+            "ago"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u4-perfect-vs-past"
+        },
+        {
+          "id": "a2-u5-should.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌍",
+          "choices": [
+            "colleague",
+            "explain",
+            "been"
+          ],
+          "answer": 2,
+          "speak": "been",
+          "reviewOf": "a2-u4-perfect-vs-past"
+        },
+        {
+          "id": "a2-u5-should.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «went»",
+          "speak": "went",
+          "choices": [
+            "باید (توصیه)",
+            "رفتم"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u4-perfect-vs-past"
+        },
+        {
+          "id": "a2-u5-should.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "نباید این‌قدر شکر بخوری.",
+          "sentence": "You ___ eat so much sugar.",
+          "choices": [
+            "shouldn't",
+            "early",
+            "permit"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "You should go home and rest.",
+          "fa": "بهتر است بروی خانه و استراحت کنی."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از should فعل ساده",
+        "body": "should + فعل ساده، بدون to و بدون s: you should rest."
+      }
+    },
+    {
+      "id": "a2-u5-have-to",
+      "title": "I have to work",
+      "titleFa": "اجبار با have to",
+      "goal": "بگویی مجبوری کاری را انجام بدهی",
+      "buildsOn": [
+        "a2-u5-should"
+      ],
+      "vocab": [
+        {
+          "en": "must",
+          "fa": "باید (قانونی)",
+          "emoji": "❗"
+        },
+        {
+          "en": "have to",
+          "fa": "مجبورم",
+          "emoji": "📋"
+        },
+        {
+          "en": "deadline",
+          "fa": "مهلت",
+          "emoji": "⏰"
+        },
+        {
+          "en": "rule",
+          "fa": "قانون",
+          "emoji": "📜"
+        },
+        {
+          "en": "permit",
+          "fa": "اجازه",
+          "emoji": "🪪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "must",
+          "fa": "باید (قانونی)",
+          "emoji": "❗"
+        },
+        {
+          "kind": "word",
+          "en": "have to",
+          "fa": "مجبورم",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "deadline",
+          "fa": "مهلت",
+          "emoji": "⏰"
+        },
+        {
+          "kind": "word",
+          "en": "rule",
+          "fa": "قانون",
+          "emoji": "📜"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have to work on Saturday.",
+          "fa": "شنبه مجبورم کار کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have to finish this today.",
+          "fa": "باید این را امروز تمام کنم.",
+          "highlight": "have to"
+        },
+        {
+          "kind": "rule",
+          "title": "have to یا must",
+          "body": "have to برای اجبار بیرونی (کار، مدرسه) و must برای قانون و تصمیم خودت.",
+          "examples": [
+            {
+              "en": "I have to work on Saturday.",
+              "fa": "شنبه مجبورم کار کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u5-have-to.1",
+          "kind": "mcq",
+          "prompt": "معنی «must» چیست؟",
+          "promptFa": "باید (قانونی)",
+          "choices": [
+            "استراحت کردن",
+            "اشکالی ندارد",
+            "باید (قانونی)"
+          ],
+          "answer": 2,
+          "speak": "must",
+          "aiHints": {
+            "example": "I know the word \"must\".",
+            "explanation": "«must» یعنی باید (قانونی)."
+          }
+        },
+        {
+          "id": "a2-u5-have-to.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📋",
+          "choices": [
+            "must",
+            "have to",
+            "deadline"
+          ],
+          "answer": 1,
+          "speak": "have to"
+        },
+        {
+          "id": "a2-u5-have-to.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "deadline",
+          "choices": [
+            "deadline",
+            "colleague",
+            "borrow"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u5-have-to.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "deadline",
+              "fa": "مهلت"
+            },
+            {
+              "en": "rule",
+              "fa": "قانون"
+            },
+            {
+              "en": "have to",
+              "fa": "مجبورم"
+            },
+            {
+              "en": "must",
+              "fa": "باید (قانونی)"
+            }
+          ]
+        },
+        {
+          "id": "a2-u5-have-to.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باید این را امروز تمام کنم.",
+          "sentence": "I ___ finish this today.",
+          "choices": [
+            "must",
+            "should",
+            "have to"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u5-have-to.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شنبه مجبورم کار کنم.",
+          "tokens": [
+            "work",
+            "on",
+            "Saturday",
+            "I",
+            "to",
+            "have"
+          ],
+          "answer": "I have to work on Saturday"
+        },
+        {
+          "id": "a2-u5-have-to.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "finish",
+            "it",
+            "today."
+          ],
+          "answer": 1,
+          "fix": "I have to finish it today.",
+          "aiHints": {
+            "explanation": "درستش این است: I have to finish it today."
+          }
+        },
+        {
+          "id": "a2-u5-have-to.8",
+          "kind": "speed",
+          "prompt": "سریع! «permit» یعنی چه؟",
+          "speak": "permit",
+          "choices": [
+            "اجازه",
+            "باید (توصیه)"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u5-have-to.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «shouldn't»",
+          "choices": [
+            "اشکالی ندارد",
+            "نباید (توصیه)",
+            "کمک کردن"
+          ],
+          "answer": 1,
+          "speak": "shouldn't",
+          "reviewOf": "a2-u5-should"
+        },
+        {
+          "id": "a2-u5-have-to.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "advice",
+          "choices": [
+            "advice",
+            "colleague",
+            "rule"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u5-should"
+        },
+        {
+          "id": "a2-u5-have-to.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛌",
+          "choices": [
+            "advice",
+            "rest",
+            "salary"
+          ],
+          "answer": 1,
+          "speak": "rest",
+          "reviewOf": "a2-u5-should"
+        },
+        {
+          "id": "a2-u5-have-to.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «early»",
+          "speak": "early",
+          "choices": [
+            "باید (توصیه)",
+            "زود"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u5-should"
+        },
+        {
+          "id": "a2-u5-have-to.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اینجا پارک نکنی (قانون است).",
+          "sentence": "You ___ not park here.",
+          "choices": [
+            "shouldn't",
+            "interview",
+            "must"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have to finish it before the deadline.",
+          "fa": "باید قبل از مهلت تمامش کنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "have to یا must",
+        "body": "have to برای اجبار بیرونی (کار، مدرسه) و must برای قانون و تصمیم خودت."
+      }
+    },
+    {
+      "id": "a2-u5-polite-requests",
+      "title": "Could you…?",
+      "titleFa": "درخواست مؤدبانه",
+      "goal": "مؤدبانه از کسی کاری بخواهی",
+      "buildsOn": [
+        "a2-u5-have-to"
+      ],
+      "vocab": [
+        {
+          "en": "could you",
+          "fa": "می‌شود (مؤدبانه)",
+          "emoji": "🙏"
+        },
+        {
+          "en": "would you mind",
+          "fa": "اشکالی ندارد",
+          "emoji": "🤝"
+        },
+        {
+          "en": "help",
+          "fa": "کمک کردن",
+          "emoji": "🆘"
+        },
+        {
+          "en": "borrow",
+          "fa": "قرض گرفتن",
+          "emoji": "📚"
+        },
+        {
+          "en": "explain",
+          "fa": "توضیح دادن",
+          "emoji": "🗒️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "could you",
+          "fa": "می‌شود (مؤدبانه)",
+          "emoji": "🙏"
+        },
+        {
+          "kind": "word",
+          "en": "would you mind",
+          "fa": "اشکالی ندارد",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "word",
+          "en": "help",
+          "fa": "کمک کردن",
+          "emoji": "🆘"
+        },
+        {
+          "kind": "word",
+          "en": "borrow",
+          "fa": "قرض گرفتن",
+          "emoji": "📚"
+        },
+        {
+          "kind": "sentence",
+          "en": "Could you open the window, please?",
+          "fa": "می‌شود پنجره را باز کنی، لطفاً؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Could you help me, please?",
+          "fa": "می‌شود کمکم کنی، لطفاً؟",
+          "highlight": "Could"
+        },
+        {
+          "kind": "rule",
+          "title": "مؤدبانه‌ترین راه",
+          "body": "could you + فعل ساده = «می‌شود…؟». برای خیلی مؤدبانه: would you mind + ing.",
+          "examples": [
+            {
+              "en": "Could you open the window, please?",
+              "fa": "می‌شود پنجره را باز کنی، لطفاً؟"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u5-polite-requests.1",
+          "kind": "mcq",
+          "prompt": "معنی «could you» چیست؟",
+          "promptFa": "می‌شود (مؤدبانه)",
+          "choices": [
+            "قرض گرفتن",
+            "نباید (توصیه)",
+            "می‌شود (مؤدبانه)"
+          ],
+          "answer": 2,
+          "speak": "could you",
+          "aiHints": {
+            "example": "I know the word \"could you\".",
+            "explanation": "«could you» یعنی می‌شود (مؤدبانه)."
+          }
+        },
+        {
+          "id": "a2-u5-polite-requests.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤝",
+          "choices": [
+            "borrow",
+            "would you mind",
+            "could you"
+          ],
+          "answer": 1,
+          "speak": "would you mind"
+        },
+        {
+          "id": "a2-u5-polite-requests.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "help",
+          "choices": [
+            "explain",
+            "have to",
+            "help"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u5-polite-requests.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "help",
+              "fa": "کمک کردن"
+            },
+            {
+              "en": "could you",
+              "fa": "می‌شود (مؤدبانه)"
+            },
+            {
+              "en": "borrow",
+              "fa": "قرض گرفتن"
+            },
+            {
+              "en": "would you mind",
+              "fa": "اشکالی ندارد"
+            }
+          ]
+        },
+        {
+          "id": "a2-u5-polite-requests.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌شود کمکم کنی، لطفاً؟",
+          "sentence": "___ you help me, please?",
+          "choices": [
+            "Could",
+            "could you",
+            "rule"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u5-polite-requests.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌شود پنجره را باز کنی، لطفاً؟",
+          "tokens": [
+            "please",
+            "Could",
+            "you",
+            "the",
+            "window,",
+            "open"
+          ],
+          "answer": "Could you open the window, please"
+        },
+        {
+          "id": "a2-u5-polite-requests.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Could",
+            "you",
+            "to",
+            "help",
+            "me?"
+          ],
+          "answer": 2,
+          "fix": "Could you help me?",
+          "aiHints": {
+            "explanation": "درستش این است: Could you help me?"
+          }
+        },
+        {
+          "id": "a2-u5-polite-requests.8",
+          "kind": "speed",
+          "prompt": "سریع! «explain» یعنی چه؟",
+          "speak": "explain",
+          "choices": [
+            "توضیح دادن",
+            "باید (توصیه)"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u5-polite-requests.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «have to»",
+          "choices": [
+            "اجازه",
+            "قانون",
+            "مجبورم"
+          ],
+          "answer": 2,
+          "speak": "have to",
+          "reviewOf": "a2-u5-have-to"
+        },
+        {
+          "id": "a2-u5-polite-requests.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "deadline",
+          "choices": [
+            "deadline",
+            "help",
+            "could you"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u5-have-to"
+        },
+        {
+          "id": "a2-u5-polite-requests.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📜",
+          "choices": [
+            "early",
+            "boss",
+            "rule"
+          ],
+          "answer": 2,
+          "speak": "rule",
+          "reviewOf": "a2-u5-have-to"
+        },
+        {
+          "id": "a2-u5-polite-requests.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «permit»",
+          "speak": "permit",
+          "choices": [
+            "اجازه",
+            "باید (توصیه)"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u5-have-to"
+        },
+        {
+          "id": "a2-u5-polite-requests.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اشکالی ندارد پنجره را باز کنی؟",
+          "sentence": "Would you ___ opening the window?",
+          "choices": [
+            "early",
+            "rule",
+            "mind"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Could you explain it again, please?",
+          "fa": "می‌شود دوباره توضیح بدهی، لطفاً؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "مؤدبانه‌ترین راه",
+        "body": "could you + فعل ساده = «می‌شود…؟». برای خیلی مؤدبانه: would you mind + ing."
+      }
+    },
+    {
+      "id": "a2-u5-work-words",
+      "title": "At work",
+      "titleFa": "در محل کار",
+      "goal": "دربارهٔ کارت حرف بزنی",
+      "buildsOn": [
+        "a2-u5-polite-requests"
+      ],
+      "vocab": [
+        {
+          "en": "interview",
+          "fa": "مصاحبه",
+          "emoji": "🤵"
+        },
+        {
+          "en": "salary",
+          "fa": "حقوق",
+          "emoji": "💰"
+        },
+        {
+          "en": "colleague",
+          "fa": "همکار",
+          "emoji": "👥"
+        },
+        {
+          "en": "boss",
+          "fa": "رئیس",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "en": "meeting",
+          "fa": "جلسه",
+          "emoji": "🤝"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "interview",
+          "fa": "مصاحبه",
+          "emoji": "🤵"
+        },
+        {
+          "kind": "word",
+          "en": "salary",
+          "fa": "حقوق",
+          "emoji": "💰"
+        },
+        {
+          "kind": "word",
+          "en": "colleague",
+          "fa": "همکار",
+          "emoji": "👥"
+        },
+        {
+          "kind": "word",
+          "en": "boss",
+          "fa": "رئیس",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "kind": "sentence",
+          "en": "I work with nice colleagues.",
+          "fa": "با همکارهای خوبی کار می‌کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "My boss is very kind.",
+          "fa": "رئیسم خیلی مهربان است.",
+          "highlight": "boss"
+        },
+        {
+          "kind": "rule",
+          "title": "روزها با on",
+          "body": "برای روزهای هفته از on استفاده کن: on Monday، on Friday.",
+          "examples": [
+            {
+              "en": "I work with nice colleagues.",
+              "fa": "با همکارهای خوبی کار می‌کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u5-work-words.1",
+          "kind": "mcq",
+          "prompt": "معنی «interview» چیست؟",
+          "promptFa": "مصاحبه",
+          "choices": [
+            "کمک کردن",
+            "حقوق",
+            "مصاحبه"
+          ],
+          "answer": 2,
+          "speak": "interview",
+          "aiHints": {
+            "example": "I know the word \"interview\".",
+            "explanation": "«interview» یعنی مصاحبه."
+          }
+        },
+        {
+          "id": "a2-u5-work-words.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💰",
+          "choices": [
+            "meeting",
+            "salary",
+            "boss"
+          ],
+          "answer": 1,
+          "speak": "salary"
+        },
+        {
+          "id": "a2-u5-work-words.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "colleague",
+          "choices": [
+            "have to",
+            "rule",
+            "colleague"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u5-work-words.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "colleague",
+              "fa": "همکار"
+            },
+            {
+              "en": "salary",
+              "fa": "حقوق"
+            },
+            {
+              "en": "boss",
+              "fa": "رئیس"
+            },
+            {
+              "en": "interview",
+              "fa": "مصاحبه"
+            }
+          ]
+        },
+        {
+          "id": "a2-u5-work-words.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "رئیسم خیلی مهربان است.",
+          "sentence": "My ___ is very kind.",
+          "choices": [
+            "have to",
+            "shouldn't",
+            "boss"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u5-work-words.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "با همکارهای خوبی کار می‌کنم.",
+          "tokens": [
+            "nice",
+            "I",
+            "colleagues",
+            "work",
+            "with"
+          ],
+          "answer": "I work with nice colleagues"
+        },
+        {
+          "id": "a2-u5-work-words.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "a",
+            "meeting",
+            "in",
+            "Monday."
+          ],
+          "answer": 4,
+          "fix": "I have a meeting on Monday.",
+          "aiHints": {
+            "explanation": "درستش این است: I have a meeting on Monday."
+          }
+        },
+        {
+          "id": "a2-u5-work-words.8",
+          "kind": "speed",
+          "prompt": "سریع! «meeting» یعنی چه؟",
+          "speak": "meeting",
+          "choices": [
+            "باید (توصیه)",
+            "جلسه"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u5-work-words.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «would you mind»",
+          "choices": [
+            "قانون",
+            "استراحت کردن",
+            "اشکالی ندارد"
+          ],
+          "answer": 2,
+          "speak": "would you mind",
+          "reviewOf": "a2-u5-polite-requests"
+        },
+        {
+          "id": "a2-u5-work-words.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "help",
+          "choices": [
+            "have to",
+            "advice",
+            "help"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u5-polite-requests"
+        },
+        {
+          "id": "a2-u5-work-words.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📚",
+          "choices": [
+            "must",
+            "help",
+            "borrow"
+          ],
+          "answer": 2,
+          "speak": "borrow",
+          "reviewOf": "a2-u5-polite-requests"
+        },
+        {
+          "id": "a2-u5-work-words.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «explain»",
+          "speak": "explain",
+          "choices": [
+            "توضیح دادن",
+            "باید (توصیه)"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u5-polite-requests"
+        },
+        {
+          "id": "a2-u5-work-words.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ساعت ده جلسه داریم.",
+          "sentence": "We have a ___ at ten.",
+          "choices": [
+            "meeting",
+            "must",
+            "colleague"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have a meeting with my boss on Monday.",
+          "fa": "دوشنبه با رئیسم جلسه دارم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "روزها با on",
+        "body": "برای روزهای هفته از on استفاده کن: on Monday، on Friday."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u5-boss",
+    "titleFa": "نبرد پایانی — کار و درخواست مؤدبانه",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u5-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «shouldn't»",
+        "speak": "shouldn't",
+        "choices": [
+          "کمک کردن",
+          "نباید (توصیه)",
+          "اشکالی ندارد"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u5-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "early",
+        "choices": [
+          "early",
+          "advice",
+          "have to"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u5-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏰",
+        "choices": [
+          "deadline",
+          "permit",
+          "shouldn't"
+        ],
+        "answer": 0,
+        "speak": "deadline"
+      },
+      {
+        "id": "a2-u5-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «could you»",
+        "speak": "could you",
+        "choices": [
+          "می‌شود (مؤدبانه)",
+          "قانون"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u5-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «borrow»",
+        "speak": "borrow",
+        "choices": [
+          "قرض گرفتن",
+          "نباید (توصیه)",
+          "توصیه"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u5-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "salary",
+        "choices": [
+          "borrow",
+          "salary",
+          "meeting"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u5-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🤝",
+        "choices": [
+          "interview",
+          "should",
+          "meeting"
+        ],
+        "answer": 2,
+        "speak": "meeting"
+      },
+      {
+        "id": "a2-u5-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «advice»",
+        "speak": "advice",
+        "choices": [
+          "باید (قانونی)",
+          "توصیه"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u5-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «must»",
+        "speak": "must",
+        "choices": [
+          "باید (قانونی)",
+          "توضیح دادن",
+          "مهلت"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u5-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "rule",
+        "choices": [
+          "explain",
+          "rule",
+          "advice"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

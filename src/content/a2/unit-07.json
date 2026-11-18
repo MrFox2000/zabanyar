@@ -1,0 +1,1281 @@
+{
+  "id": "a2-u7",
+  "level": "A2",
+  "index": 7,
+  "titleFa": "خانه و خدمات",
+  "titleEn": "Home and services",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "a2-u7-repairs",
+      "title": "Something is broken",
+      "titleFa": "خرابی و تعمیر",
+      "goal": "بگویی چیزی خراب است و تعمیر لازم دارد",
+      "buildsOn": [
+        "a2-u6-appointments"
+      ],
+      "vocab": [
+        {
+          "en": "broken",
+          "fa": "خراب",
+          "emoji": "🔧"
+        },
+        {
+          "en": "fix",
+          "fa": "درست کردن",
+          "emoji": "🛠️"
+        },
+        {
+          "en": "tools",
+          "fa": "ابزار",
+          "emoji": "🧰"
+        },
+        {
+          "en": "leak",
+          "fa": "نشتی",
+          "emoji": "💧"
+        },
+        {
+          "en": "plumber",
+          "fa": "لوله‌کش",
+          "emoji": "🚿"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "broken",
+          "fa": "خراب",
+          "emoji": "🔧"
+        },
+        {
+          "kind": "word",
+          "en": "fix",
+          "fa": "درست کردن",
+          "emoji": "🛠️"
+        },
+        {
+          "kind": "word",
+          "en": "tools",
+          "fa": "ابزار",
+          "emoji": "🧰"
+        },
+        {
+          "kind": "word",
+          "en": "leak",
+          "fa": "نشتی",
+          "emoji": "💧"
+        },
+        {
+          "kind": "sentence",
+          "en": "The washing machine is broken.",
+          "fa": "ماشین لباسشویی خراب است."
+        },
+        {
+          "kind": "sentence",
+          "en": "The sink is broken.",
+          "fa": "سینک خراب است.",
+          "highlight": "broken"
+        },
+        {
+          "kind": "rule",
+          "title": "یک چیز، یک بود",
+          "body": "برای یک چیز is و برای چند چیز are: the sink is broken / the taps are broken.",
+          "examples": [
+            {
+              "en": "The washing machine is broken.",
+              "fa": "ماشین لباسشویی خراب است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u7-repairs.1",
+          "kind": "mcq",
+          "prompt": "معنی «broken» چیست؟",
+          "promptFa": "خراب",
+          "choices": [
+            "فرم",
+            "بزرگ‌ترین",
+            "خراب"
+          ],
+          "answer": 2,
+          "speak": "broken",
+          "aiHints": {
+            "example": "I know the word \"broken\".",
+            "explanation": "«broken» یعنی خراب."
+          }
+        },
+        {
+          "id": "a2-u7-repairs.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🛠️",
+          "choices": [
+            "tools",
+            "fix",
+            "broken"
+          ],
+          "answer": 1,
+          "speak": "fix"
+        },
+        {
+          "id": "a2-u7-repairs.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "tools",
+          "choices": [
+            "tools",
+            "plumber",
+            "bank"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u7-repairs.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "fix",
+              "fa": "درست کردن"
+            },
+            {
+              "en": "broken",
+              "fa": "خراب"
+            },
+            {
+              "en": "leak",
+              "fa": "نشتی"
+            },
+            {
+              "en": "tools",
+              "fa": "ابزار"
+            }
+          ]
+        },
+        {
+          "id": "a2-u7-repairs.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "سینک خراب است.",
+          "sentence": "The sink is ___.",
+          "choices": [
+            "broken",
+            "plumber",
+            "queue"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u7-repairs.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ماشین لباسشویی خراب است.",
+          "tokens": [
+            "is",
+            "The",
+            "washing",
+            "machine",
+            "broken"
+          ],
+          "answer": "The washing machine is broken"
+        },
+        {
+          "id": "a2-u7-repairs.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "sink",
+            "are",
+            "broken."
+          ],
+          "answer": 2,
+          "fix": "The sink is broken.",
+          "aiHints": {
+            "explanation": "درستش این است: The sink is broken."
+          }
+        },
+        {
+          "id": "a2-u7-repairs.8",
+          "kind": "speed",
+          "prompt": "سریع! «plumber» یعنی چه؟",
+          "speak": "plumber",
+          "choices": [
+            "خراب",
+            "لوله‌کش"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u7-repairs.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «cancel»",
+          "choices": [
+            "لغو کردن",
+            "ابزار",
+            "بانک"
+          ],
+          "answer": 0,
+          "speak": "cancel",
+          "reviewOf": "a2-u6-appointments"
+        },
+        {
+          "id": "a2-u7-repairs.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "wait",
+          "choices": [
+            "wait",
+            "biggest",
+            "try on"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u6-appointments"
+        },
+        {
+          "id": "a2-u7-repairs.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🧑‍⚕️",
+          "choices": [
+            "leak",
+            "pharmacist",
+            "never"
+          ],
+          "answer": 1,
+          "speak": "pharmacist",
+          "reviewOf": "a2-u6-appointments"
+        },
+        {
+          "id": "a2-u7-repairs.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «pain»",
+          "speak": "pain",
+          "choices": [
+            "درد",
+            "خراب"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u6-appointments"
+        },
+        {
+          "id": "a2-u7-repairs.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "باید امروز درستش کنم.",
+          "sentence": "I need to ___ it today.",
+          "choices": [
+            "tools",
+            "never",
+            "fix"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The tap is broken and there is a leak.",
+          "fa": "شیر آب خراب است و نشتی دارد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "یک چیز، یک بود",
+        "body": "برای یک چیز is و برای چند چیز are: the sink is broken / the taps are broken."
+      }
+    },
+    {
+      "id": "a2-u7-shopping",
+      "title": "Can I have a refund?",
+      "titleFa": "خرید و مرجوعی",
+      "goal": "در مغازه چیزی را عوض کنی یا پولت را بگیری",
+      "buildsOn": [
+        "a2-u7-repairs"
+      ],
+      "vocab": [
+        {
+          "en": "refund",
+          "fa": "بازگرداندن پول",
+          "emoji": "💵"
+        },
+        {
+          "en": "receipt",
+          "fa": "رسید",
+          "emoji": "🧾"
+        },
+        {
+          "en": "size",
+          "fa": "اندازه",
+          "emoji": "📏"
+        },
+        {
+          "en": "try on",
+          "fa": "پرو کردن",
+          "emoji": "👕"
+        },
+        {
+          "en": "discount",
+          "fa": "تخفیف",
+          "emoji": "🏷️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "refund",
+          "fa": "بازگرداندن پول",
+          "emoji": "💵"
+        },
+        {
+          "kind": "word",
+          "en": "receipt",
+          "fa": "رسید",
+          "emoji": "🧾"
+        },
+        {
+          "kind": "word",
+          "en": "size",
+          "fa": "اندازه",
+          "emoji": "📏"
+        },
+        {
+          "kind": "word",
+          "en": "try on",
+          "fa": "پرو کردن",
+          "emoji": "👕"
+        },
+        {
+          "kind": "sentence",
+          "en": "Can I try on this shirt?",
+          "fa": "می‌توانم این پیراهن را پرو کنم؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Can I have a refund?",
+          "fa": "می‌توانم پولم را پس بگیرم؟",
+          "highlight": "refund"
+        },
+        {
+          "kind": "rule",
+          "title": "try it on",
+          "body": "try on دو تکه است: try on the shirt یا try it on — ضمیر وسط می‌آید.",
+          "examples": [
+            {
+              "en": "Can I try on this shirt?",
+              "fa": "می‌توانم این پیراهن را پرو کنم؟"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u7-shopping.1",
+          "kind": "mcq",
+          "prompt": "معنی «refund» چیست؟",
+          "promptFa": "بازگرداندن پول",
+          "choices": [
+            "رسید",
+            "بازگرداندن پول",
+            "خواهد"
+          ],
+          "answer": 1,
+          "speak": "refund",
+          "aiHints": {
+            "example": "I know the word \"refund\".",
+            "explanation": "«refund» یعنی بازگرداندن پول."
+          }
+        },
+        {
+          "id": "a2-u7-shopping.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🧾",
+          "choices": [
+            "try on",
+            "refund",
+            "receipt"
+          ],
+          "answer": 2,
+          "speak": "receipt"
+        },
+        {
+          "id": "a2-u7-shopping.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "size",
+          "choices": [
+            "plumber",
+            "size",
+            "leak"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u7-shopping.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "receipt",
+              "fa": "رسید"
+            },
+            {
+              "en": "try on",
+              "fa": "پرو کردن"
+            },
+            {
+              "en": "refund",
+              "fa": "بازگرداندن پول"
+            },
+            {
+              "en": "size",
+              "fa": "اندازه"
+            }
+          ]
+        },
+        {
+          "id": "a2-u7-shopping.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌توانم پولم را پس بگیرم؟",
+          "sentence": "Can I have a ___?",
+          "choices": [
+            "fix",
+            "refund",
+            "will"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u7-shopping.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌توانم این پیراهن را پرو کنم؟",
+          "tokens": [
+            "Can",
+            "this",
+            "try",
+            "I",
+            "shirt",
+            "on"
+          ],
+          "answer": "Can I try on this shirt"
+        },
+        {
+          "id": "a2-u7-shopping.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "want",
+            "to",
+            "try",
+            "on",
+            "this",
+            "shirts."
+          ],
+          "answer": 6,
+          "fix": "I want to try on this shirt.",
+          "aiHints": {
+            "explanation": "درستش این است: I want to try on this shirt."
+          }
+        },
+        {
+          "id": "a2-u7-shopping.8",
+          "kind": "speed",
+          "prompt": "سریع! «discount» یعنی چه؟",
+          "speak": "discount",
+          "choices": [
+            "خراب",
+            "تخفیف"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u7-shopping.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «fix»",
+          "choices": [
+            "درست کردن",
+            "رسید",
+            "لوله‌کش"
+          ],
+          "answer": 0,
+          "speak": "fix",
+          "reviewOf": "a2-u7-repairs"
+        },
+        {
+          "id": "a2-u7-shopping.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "tools",
+          "choices": [
+            "plumber",
+            "broken",
+            "tools"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u7-repairs"
+        },
+        {
+          "id": "a2-u7-shopping.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💧",
+          "choices": [
+            "leak",
+            "queue",
+            "tools"
+          ],
+          "answer": 0,
+          "speak": "leak",
+          "reviewOf": "a2-u7-repairs"
+        },
+        {
+          "id": "a2-u7-shopping.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «plumber»",
+          "speak": "plumber",
+          "choices": [
+            "خراب",
+            "لوله‌کش"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u7-repairs"
+        },
+        {
+          "id": "a2-u7-shopping.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اندازهٔ کوچک‌تر دارید؟",
+          "sentence": "Do you have a smaller ___?",
+          "choices": [
+            "better",
+            "size",
+            "fix"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Can I try it on? It is the wrong size.",
+          "fa": "می‌توانم پرو کنم؟ اندازه‌اش اشتباه است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "try it on",
+        "body": "try on دو تکه است: try on the shirt یا try it on — ضمیر وسط می‌آید."
+      }
+    },
+    {
+      "id": "a2-u7-services",
+      "title": "At the bank",
+      "titleFa": "خدمات شهری",
+      "goal": "در بانک و اداره کارت را راه بیندازی",
+      "buildsOn": [
+        "a2-u7-shopping"
+      ],
+      "vocab": [
+        {
+          "en": "bank",
+          "fa": "بانک",
+          "emoji": "🏦"
+        },
+        {
+          "en": "post office",
+          "fa": "ادارهٔ پست",
+          "emoji": "📮"
+        },
+        {
+          "en": "pharmacy",
+          "fa": "داروخانه",
+          "emoji": "💊"
+        },
+        {
+          "en": "queue",
+          "fa": "صف",
+          "emoji": "🚶"
+        },
+        {
+          "en": "form",
+          "fa": "فرم",
+          "emoji": "📄"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "bank",
+          "fa": "بانک",
+          "emoji": "🏦"
+        },
+        {
+          "kind": "word",
+          "en": "post office",
+          "fa": "ادارهٔ پست",
+          "emoji": "📮"
+        },
+        {
+          "kind": "word",
+          "en": "pharmacy",
+          "fa": "داروخانه",
+          "emoji": "💊"
+        },
+        {
+          "kind": "word",
+          "en": "queue",
+          "fa": "صف",
+          "emoji": "🚶"
+        },
+        {
+          "kind": "sentence",
+          "en": "Where is the post office?",
+          "fa": "ادارهٔ پست کجاست؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "I need to go to the bank.",
+          "fa": "باید بروم بانک.",
+          "highlight": "bank"
+        },
+        {
+          "kind": "rule",
+          "title": "جای is",
+          "body": "در سؤال با where، فعل is قبل از فاعل می‌آید: where is the bank?",
+          "examples": [
+            {
+              "en": "Where is the post office?",
+              "fa": "ادارهٔ پست کجاست؟"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u7-services.1",
+          "kind": "mcq",
+          "prompt": "معنی «bank» چیست؟",
+          "promptFa": "بانک",
+          "choices": [
+            "بانک",
+            "تخفیف",
+            "نشتی"
+          ],
+          "answer": 0,
+          "speak": "bank",
+          "aiHints": {
+            "example": "I know the word \"bank\".",
+            "explanation": "«bank» یعنی بانک."
+          }
+        },
+        {
+          "id": "a2-u7-services.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📮",
+          "choices": [
+            "pharmacy",
+            "form",
+            "post office"
+          ],
+          "answer": 2,
+          "speak": "post office"
+        },
+        {
+          "id": "a2-u7-services.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "pharmacy",
+          "choices": [
+            "discount",
+            "post office",
+            "pharmacy"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u7-services.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "pharmacy",
+              "fa": "داروخانه"
+            },
+            {
+              "en": "post office",
+              "fa": "ادارهٔ پست"
+            },
+            {
+              "en": "queue",
+              "fa": "صف"
+            },
+            {
+              "en": "bank",
+              "fa": "بانک"
+            }
+          ]
+        },
+        {
+          "id": "a2-u7-services.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باید بروم بانک.",
+          "sentence": "I need to go to the ___.",
+          "choices": [
+            "bank",
+            "tools",
+            "biggest"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u7-services.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ادارهٔ پست کجاست؟",
+          "tokens": [
+            "office",
+            "the",
+            "is",
+            "Where",
+            "post"
+          ],
+          "answer": "Where is the post office"
+        },
+        {
+          "id": "a2-u7-services.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Where",
+            "the",
+            "post",
+            "office",
+            "is?"
+          ],
+          "answer": 1,
+          "fix": "Where is the post office?",
+          "aiHints": {
+            "explanation": "درستش این است: Where is the post office?"
+          }
+        },
+        {
+          "id": "a2-u7-services.8",
+          "kind": "speed",
+          "prompt": "سریع! «form» یعنی چه؟",
+          "speak": "form",
+          "choices": [
+            "خراب",
+            "فرم"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u7-services.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «receipt»",
+          "choices": [
+            "قبلاً",
+            "رسید",
+            "داروخانه"
+          ],
+          "answer": 1,
+          "speak": "receipt",
+          "reviewOf": "a2-u7-shopping"
+        },
+        {
+          "id": "a2-u7-services.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "size",
+          "choices": [
+            "size",
+            "biggest",
+            "refund"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u7-shopping"
+        },
+        {
+          "id": "a2-u7-services.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👕",
+          "choices": [
+            "size",
+            "try on",
+            "already"
+          ],
+          "answer": 1,
+          "speak": "try on",
+          "reviewOf": "a2-u7-shopping"
+        },
+        {
+          "id": "a2-u7-services.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «discount»",
+          "speak": "discount",
+          "choices": [
+            "تخفیف",
+            "خراب"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u7-shopping"
+        },
+        {
+          "id": "a2-u7-services.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اینجا صف طولانی است.",
+          "sentence": "There is a long ___ here.",
+          "choices": [
+            "size",
+            "queue",
+            "discount"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Excuse me, where is the pharmacy?",
+          "fa": "ببخشید، داروخانه کجاست؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "جای is",
+        "body": "در سؤال با where، فعل is قبل از فاعل می‌آید: where is the bank?"
+      }
+    },
+    {
+      "id": "a2-u7-review",
+      "title": "A2 review",
+      "titleFa": "مرور A2",
+      "goal": "چیزهای A2 را با هم مرور کنی",
+      "buildsOn": [
+        "a2-u7-services"
+      ],
+      "vocab": [
+        {
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "en": "biggest",
+          "fa": "بزرگ‌ترین",
+          "emoji": "🏙️"
+        },
+        {
+          "en": "will",
+          "fa": "خواهد",
+          "emoji": "🔮"
+        },
+        {
+          "en": "better",
+          "fa": "بهتر",
+          "emoji": "👍"
+        },
+        {
+          "en": "never",
+          "fa": "هرگز",
+          "emoji": "🚫"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "biggest",
+          "fa": "بزرگ‌ترین",
+          "emoji": "🏙️"
+        },
+        {
+          "kind": "word",
+          "en": "will",
+          "fa": "خواهد",
+          "emoji": "🔮"
+        },
+        {
+          "kind": "word",
+          "en": "better",
+          "fa": "بهتر",
+          "emoji": "👍"
+        },
+        {
+          "kind": "sentence",
+          "en": "I will go to the biggest shop.",
+          "fa": "به بزرگ‌ترین مغازه می‌روم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have already seen this film.",
+          "fa": "من قبلاً این فیلم را دیده‌ام.",
+          "highlight": "already"
+        },
+        {
+          "kind": "rule",
+          "title": "مرور سه‌تایی",
+          "body": "آینده با will، مقایسه با er/est، تجربه با have + قسمت سوم فعل.",
+          "examples": [
+            {
+              "en": "I will go to the biggest shop.",
+              "fa": "به بزرگ‌ترین مغازه می‌روم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u7-review.1",
+          "kind": "mcq",
+          "prompt": "معنی «already» چیست؟",
+          "promptFa": "قبلاً",
+          "choices": [
+            "فرم",
+            "بانک",
+            "قبلاً"
+          ],
+          "answer": 2,
+          "speak": "already",
+          "aiHints": {
+            "example": "I know the word \"already\".",
+            "explanation": "«already» یعنی قبلاً."
+          }
+        },
+        {
+          "id": "a2-u7-review.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏙️",
+          "choices": [
+            "biggest",
+            "already",
+            "better"
+          ],
+          "answer": 0,
+          "speak": "biggest"
+        },
+        {
+          "id": "a2-u7-review.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "will",
+          "choices": [
+            "will",
+            "broken",
+            "form"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u7-review.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "already",
+              "fa": "قبلاً"
+            },
+            {
+              "en": "will",
+              "fa": "خواهد"
+            },
+            {
+              "en": "biggest",
+              "fa": "بزرگ‌ترین"
+            },
+            {
+              "en": "better",
+              "fa": "بهتر"
+            }
+          ]
+        },
+        {
+          "id": "a2-u7-review.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من قبلاً این فیلم را دیده‌ام.",
+          "sentence": "I have ___ seen this film.",
+          "choices": [
+            "leak",
+            "already",
+            "better"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u7-review.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "به بزرگ‌ترین مغازه می‌روم.",
+          "tokens": [
+            "to",
+            "biggest",
+            "I",
+            "go",
+            "shop",
+            "will",
+            "the"
+          ],
+          "answer": "I will go to the biggest shop"
+        },
+        {
+          "id": "a2-u7-review.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "never",
+            "saw",
+            "it."
+          ],
+          "answer": 3,
+          "fix": "I have never seen it.",
+          "aiHints": {
+            "explanation": "درستش این است: I have never seen it."
+          }
+        },
+        {
+          "id": "a2-u7-review.8",
+          "kind": "speed",
+          "prompt": "سریع! «never» یعنی چه؟",
+          "speak": "never",
+          "choices": [
+            "خراب",
+            "هرگز"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u7-review.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «post office»",
+          "choices": [
+            "ابزار",
+            "خراب",
+            "ادارهٔ پست"
+          ],
+          "answer": 2,
+          "speak": "post office",
+          "reviewOf": "a2-u7-services"
+        },
+        {
+          "id": "a2-u7-review.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "pharmacy",
+          "choices": [
+            "better",
+            "pharmacy",
+            "receipt"
+          ],
+          "answer": 1,
+          "reviewOf": "a2-u7-services"
+        },
+        {
+          "id": "a2-u7-review.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🚶",
+          "choices": [
+            "never",
+            "queue",
+            "refund"
+          ],
+          "answer": 1,
+          "speak": "queue",
+          "reviewOf": "a2-u7-services"
+        },
+        {
+          "id": "a2-u7-review.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «form»",
+          "speak": "form",
+          "choices": [
+            "فرم",
+            "خراب"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u7-services"
+        },
+        {
+          "id": "a2-u7-review.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این بزرگ‌ترین مغازهٔ اینجاست.",
+          "sentence": "This is the ___ shop here.",
+          "choices": [
+            "already",
+            "biggest",
+            "try on"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have already been there and I will go again.",
+          "fa": "قبلاً آنجا بوده‌ام و باز هم می‌روم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "مرور سه‌تایی",
+        "body": "آینده با will، مقایسه با er/est، تجربه با have + قسمت سوم فعل."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u7-boss",
+    "titleFa": "نبرد پایانی — خانه و خدمات",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u7-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «fix»",
+        "speak": "fix",
+        "choices": [
+          "تخفیف",
+          "درست کردن",
+          "صف"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u7-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "plumber",
+        "choices": [
+          "broken",
+          "plumber",
+          "never"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u7-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📏",
+        "choices": [
+          "leak",
+          "size",
+          "will"
+        ],
+        "answer": 1,
+        "speak": "size"
+      },
+      {
+        "id": "a2-u7-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «bank»",
+        "speak": "bank",
+        "choices": [
+          "بانک",
+          "خراب"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u7-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «queue»",
+        "speak": "queue",
+        "choices": [
+          "ابزار",
+          "هرگز",
+          "صف"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u7-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "biggest",
+        "choices": [
+          "tools",
+          "biggest",
+          "broken"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u7-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚫",
+        "choices": [
+          "never",
+          "form",
+          "tools"
+        ],
+        "answer": 0,
+        "speak": "never"
+      },
+      {
+        "id": "a2-u7-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «tools»",
+        "speak": "tools",
+        "choices": [
+          "تخفیف",
+          "ابزار"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u7-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «refund»",
+        "speak": "refund",
+        "choices": [
+          "بهتر",
+          "بازگرداندن پول",
+          "ابزار"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u7-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "try on",
+        "choices": [
+          "try on",
+          "leak",
+          "receipt"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

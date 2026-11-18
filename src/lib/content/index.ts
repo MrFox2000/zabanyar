@@ -12,12 +12,15 @@ import a2unit01 from "@/content/a2/unit-01.json";
 import a2unit02 from "@/content/a2/unit-02.json";
 import a2unit03 from "@/content/a2/unit-03.json";
 import a2unit04 from "@/content/a2/unit-04.json";
+import a2unit05 from "@/content/a2/unit-05.json";
+import a2unit06 from "@/content/a2/unit-06.json";
+import a2unit07 from "@/content/a2/unit-07.json";
 
 /**
  * The content is validated once, at load. A broken JSON file fails loudly in
  * development instead of silently shipping a lesson with no right answer.
  */
-const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08, a2unit01, a2unit02, a2unit03, a2unit04];
+const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08, a2unit01, a2unit02, a2unit03, a2unit04, a2unit05, a2unit06, a2unit07];
 
 export const units: Unit[] = z.array(unitSchema).parse(raw);
 
