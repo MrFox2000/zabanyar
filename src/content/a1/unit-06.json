@@ -80,7 +80,7 @@
         {
           "kind": "rule",
           "title": "in + اتاق",
-          "body": "برای گفتن «در اتاق» از in استفاده کن: in the kitchen، in the bedroom.",
+          "body": "برای گفتن «در اتاق» از in استفاده می‌کنیم: in the kitchen.",
           "examples": [
             {
               "en": "There is a table in the kitchen.",
@@ -291,7 +291,7 @@
       "xp": 92,
       "tip": {
         "title": "in + اتاق",
-        "body": "برای گفتن «در اتاق» از in استفاده کن: in the kitchen، in the bedroom."
+        "body": "برای گفتن «در اتاق» از in استفاده می‌کنیم: in the kitchen."
       }
     },
     {
@@ -368,7 +368,7 @@
         {
           "kind": "rule",
           "title": "سه‌تای پرکاربرد",
-          "body": "in داخل، on روی سطح، under زیر. next to کنار و behind پشت.",
+          "body": "in داخل، on روی، under زیر. این سه تا بیشتر از همه استفاده می‌شوند.",
           "examples": [
             {
               "en": "The book is on the table.",
@@ -577,7 +577,7 @@
       "xp": 92,
       "tip": {
         "title": "سه‌تای پرکاربرد",
-        "body": "in داخل، on روی سطح، under زیر. next to کنار و behind پشت."
+        "body": "in داخل، on روی، under زیر. این سه تا بیشتر از همه استفاده می‌شوند."
       }
     },
     {
@@ -654,7 +654,7 @@
         {
           "kind": "rule",
           "title": "at + نقطه",
-          "body": "نقطه‌ای که می‌پیچی با at می‌آید: turn left at the bank. مسیر مستقیم: go straight.",
+          "body": "نقطه‌ای که می‌پیچیم با at می‌گوئیم: turn left at the bank. مستقیم هم go straight.",
           "examples": [
             {
               "en": "Turn right at the park.",
@@ -864,7 +864,7 @@
       "xp": 92,
       "tip": {
         "title": "at + نقطه",
-        "body": "نقطه‌ای که می‌پیچی با at می‌آید: turn left at the bank. مسیر مستقیم: go straight."
+        "body": "نقطه‌ای که می‌پیچیم با at می‌گوئیم: turn left at the bank. مستقیم هم go straight."
       }
     },
     {
@@ -941,7 +941,7 @@
         {
           "kind": "rule",
           "title": "استمراری برای «الان»",
-          "body": "am/is/are + فعل ing: I am working now. فرقش با حال ساده: every day کارِ همیشگی، now کارِ همین لحظه.",
+          "body": "برای کارِ همین لحظه: am/is/are + فعل ing. برای کار هر روز: فعل ساده.",
           "examples": [
             {
               "en": "He is working right now.",
@@ -1147,7 +1147,7 @@
       "xp": 92,
       "tip": {
         "title": "استمراری برای «الان»",
-        "body": "am/is/are + فعل ing: I am working now. فرقش با حال ساده: every day کارِ همیشگی، now کارِ همین لحظه."
+        "body": "برای کارِ همین لحظه: am/is/are + فعل ing. برای کار هر روز: فعل ساده."
       }
     }
   ],

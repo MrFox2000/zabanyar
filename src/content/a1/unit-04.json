@@ -80,7 +80,7 @@
         {
           "kind": "rule",
           "title": "حال ساده چیست؟",
-          "body": "برای کارهای تکراری: I work, you live, we study, they eat. بدون ing و بدون to.",
+          "body": "برای کارهایی که هر روز تکرار می‌شوند: I work. بدون ing و بدون to.",
           "examples": [
             {
               "en": "I work every day.",
@@ -285,7 +285,7 @@
       "xp": 92,
       "tip": {
         "title": "حال ساده چیست؟",
-        "body": "برای کارهای تکراری: I work, you live, we study, they eat. بدون ing و بدون to."
+        "body": "برای کارهایی که هر روز تکرار می‌شوند: I work. بدون ing و بدون to."
       }
     },
     {
@@ -362,7 +362,7 @@
         {
           "kind": "rule",
           "title": "s سوم‌شخص",
-          "body": "با he/she/it به فعل s اضافه می‌شود: work → works. اگر به o، sh، ch ختم شود es: go → goes.",
+          "body": "با «او» به فعل s اضافه می‌شود. اگر فعل به o یا sh یا ch ختم شود، es.",
           "examples": [
             {
               "en": "My brother plays football.",
@@ -567,7 +567,7 @@
       "xp": 92,
       "tip": {
         "title": "s سوم‌شخص",
-        "body": "با he/she/it به فعل s اضافه می‌شود: work → works. اگر به o، sh، ch ختم شود es: go → goes."
+        "body": "با «او» به فعل s اضافه می‌شود. اگر فعل به o یا sh یا ch ختم شود، es."
       }
     },
     {
@@ -644,7 +644,7 @@
         {
           "kind": "rule",
           "title": "do و does",
-          "body": "سؤال با do/does و منفی با don't/doesn't. با does، فعل دیگر s نمی‌گیرد: Does she like…?",
+          "body": "برای سؤال از do یا does استفاده می‌کنیم و برای «نه» از don't یا doesn't. بعد از does، فعل دیگر s نمی‌گیرد.",
           "examples": [
             {
               "en": "Do you speak English?",
@@ -849,7 +849,7 @@
       "xp": 92,
       "tip": {
         "title": "do و does",
-        "body": "سؤال با do/does و منفی با don't/doesn't. با does، فعل دیگر s نمی‌گیرد: Does she like…?"
+        "body": "برای سؤال از do یا does استفاده می‌کنیم و برای «نه» از don't یا doesn't. بعد از does، فعل دیگر s نمی‌گیرد."
       }
     },
     {
@@ -926,7 +926,7 @@
         {
           "kind": "rule",
           "title": "جای قید",
-          "body": "قید تکرار قبل از فعل اصلی می‌آید: I always work. ولی بعد از am/is/are: I am always late.",
+          "body": "کلمه‌هایی مثل «همیشه، هرگز» قبل از فعل اصلی می‌آیند؛ ولی بعد از am/is/are.",
           "examples": [
             {
               "en": "I always study at night.",
@@ -1132,7 +1132,7 @@
       "xp": 92,
       "tip": {
         "title": "جای قید",
-        "body": "قید تکرار قبل از فعل اصلی می‌آید: I always work. ولی بعد از am/is/are: I am always late."
+        "body": "کلمه‌هایی مثل «همیشه، هرگز» قبل از فعل اصلی می‌آیند؛ ولی بعد از am/is/are."
       }
     }
   ],

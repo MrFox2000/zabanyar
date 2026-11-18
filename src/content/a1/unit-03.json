@@ -80,7 +80,7 @@
         {
           "kind": "rule",
           "title": "جمع با s",
-          "body": "یک چیز cat، چند چیز cats. اگر کلمه به ch، sh، s، x ختم شود es می‌گیرد: boxes.",
+          "body": "برای چند چیز، به آخر کلمه s اضافه می‌کنیم. اگر کلمه به ch یا sh یا s ختم شود، es.",
           "examples": [
             {
               "en": "I have ten books.",
@@ -285,7 +285,7 @@
       "xp": 92,
       "tip": {
         "title": "جمع با s",
-        "body": "یک چیز cat، چند چیز cats. اگر کلمه به ch، sh، s، x ختم شود es می‌گیرد: boxes."
+        "body": "برای چند چیز، به آخر کلمه s اضافه می‌کنیم. اگر کلمه به ch یا sh یا s ختم شود، es."
       }
     },
     {
@@ -362,7 +362,7 @@
         {
           "kind": "rule",
           "title": "his و her",
-          "body": "برای مرد his، برای زن her: his car، her bag. برای اشیا از its استفاده می‌کنیم.",
+          "body": "برای مرد his و برای زن her می‌گوییم. برای چیزها its.",
           "examples": [
             {
               "en": "What is your name?",
@@ -567,7 +567,7 @@
       "xp": 92,
       "tip": {
         "title": "his و her",
-        "body": "برای مرد his، برای زن her: his car، her bag. برای اشیا از its استفاده می‌کنیم."
+        "body": "برای مرد his و برای زن her می‌گوییم. برای چیزها its."
       }
     },
     {
@@ -644,7 +644,7 @@
         {
           "kind": "rule",
           "title": "have یا has",
-          "body": "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم.",
+          "body": "با «من، تو، ما، آن‌ها» have و با «او» has می‌گوییم.",
           "examples": [
             {
               "en": "My sister has a pet.",
@@ -850,7 +850,7 @@
       "xp": 92,
       "tip": {
         "title": "have یا has",
-        "body": "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم."
+        "body": "با «من، تو، ما، آن‌ها» have و با «او» has می‌گوییم."
       }
     },
     {
@@ -927,7 +927,7 @@
         {
           "kind": "rule",
           "title": "is یا are",
-          "body": "برای یک چیز There is، برای چند چیز There are: There is a cat / There are two cats.",
+          "body": "برای یک چیز «is» و برای چند چیز «are». این تفاوت مهم است.",
           "examples": [
             {
               "en": "There is a book on the table.",
@@ -1135,7 +1135,7 @@
       "xp": 92,
       "tip": {
         "title": "is یا are",
-        "body": "برای یک چیز There is، برای چند چیز There are: There is a cat / There are two cats."
+        "body": "برای یک چیز «is» و برای چند چیز «are». این تفاوت مهم است."
       }
     }
   ],

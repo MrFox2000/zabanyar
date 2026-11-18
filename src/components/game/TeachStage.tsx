@@ -66,6 +66,20 @@ export function TeachStage({ steps, guide, onDone }: { steps: TeachStep[]; guide
                 <p className="text-xs text-plum-soft">{step.wordFa}</p>
               </div>
             </div>
+            <div className="flex items-center gap-1" dir="ltr">
+              {[...step.word].map((character, position) => (
+                <span
+                  key={position}
+                  className={cn(
+                    "grid size-7 place-items-center rounded-md text-sm font-extrabold",
+                    character.toLowerCase() === step.letter.toLowerCase() ? "bg-fox text-white" : "bg-white text-plum shadow-sm",
+                  )}
+                >
+                  {character}
+                </span>
+              ))}
+            </div>
+            <p className="text-[11px] text-plum-soft">این کلمه از همین حروف ساخته شده — حرف رنگی همان صدایی است که یاد می‌گیری.</p>
             <div className="mt-1 flex gap-2">
               <button type="button" onClick={() => speak(step.word)} className="btn-pop rounded-xl bg-sky/15 px-3 py-2 text-xs font-bold text-[#0369a1]">
                 <Volume2 size={14} className="inline" /> شنیدن

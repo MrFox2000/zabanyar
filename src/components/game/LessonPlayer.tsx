@@ -61,6 +61,7 @@ export function LessonPlayer({
   const [locked, setLocked] = useState(false);
   const [result, setResult] = useState<"correct" | "wrong" | null>(null);
   const [fx, setFx] = useState<{ kind: "correct" | "wrong"; xp?: number } | null>(null);
+  const [comboToast, setComboToast] = useState<string | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const [combo, setCombo] = useState(0);
@@ -104,6 +105,12 @@ export function LessonPlayer({
         setFx({ kind: "correct", xp: earned });
         setTimeout(() => setFx(null), 950);
         if (nextCombo >= 3) playCombo(nextCombo);
+        if (nextCombo === 3 || nextCombo === 5 || nextCombo === 8) {
+          setComboToast(
+            nextCombo === 3 ? "سه‌تایی پشت هم! 🔥" : nextCombo === 5 ? "پنج‌تایی! فوق‌العاده ⚡" : "هشت‌تایی! بی‌نظیر 🏆",
+          );
+          setTimeout(() => setComboToast(null), 1600);
+        }
         bumpDaily({
           answered: 1,
           correct: 1,
@@ -205,6 +212,12 @@ export function LessonPlayer({
           )}
         </div>
       </header>
+
+      {comboToast && (
+        <span className="pop-in pointer-events-none fixed left-1/2 top-28 z-40 -translate-x-1/2 rounded-full bg-plum px-4 py-1.5 text-sm font-extrabold text-cream shadow-pop">
+          {comboToast}
+        </span>
+      )}
 
       {fx && (
         <span
@@ -330,6 +343,11 @@ export function LessonPlayer({
             <Character id={guide} size={112} mood={stars >= 2 ? "cheer" : "happy"} className="bob mx-auto" />
             <div>
               <h2 className="text-2xl font-extrabold text-plum">درس تمام شد!</h2>
+              {wrongCount === 0 && (
+                <span className="pop-in mt-2 inline-block rounded-full bg-gold px-3 py-1 text-xs font-extrabold text-[#4a2c00]">
+                  بی‌عیب و نقص! هیچ اشتباهی نداشتی
+                </span>
+              )}
               <Stars earned={stars} size={30} className="mt-2 justify-center" />
             </div>
 

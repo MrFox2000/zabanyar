@@ -32,7 +32,7 @@ const units = [
         e: [[["This", "are", "my", "sister."], 1, "This is my sister."]],
         tip: {
           title: "مالِ کسی: 's",
-          body: "با اضافه‌کردن 's بگو چیزی مال کسی است: Ali's car (ماشین علی)، my sister's bag.",
+          body: "برای گفتن «مالِ کسی»، به آخر اسم s و یک آپاستروف اضافه می‌کنیم: Ali's car.",
         },
         say: [["This is my family.", "این خانوادهٔ من است."]],
       },
@@ -57,7 +57,7 @@ const units = [
         e: [[["My", "mother", "are", "kind."], 2, "My mother is kind."]],
         tip: {
           title: "صفت بعد از is",
-          body: "صفت همیشه بعد از فعل بودن می‌آید: He is tall. She is kind. بدون is نمی‌شود.",
+          body: "صفت بعد از am/is/are می‌آید: He is tall. بدون is جمله کامل نیست.",
         },
         say: [["My brother is young and funny.", "برادرم جوان و بامزه است."]],
       },
@@ -82,7 +82,7 @@ const units = [
         e: [[["She", "can", "swims", "well."], 2, "She can swim well."]],
         tip: {
           title: "بعد از can، فعل ساده",
-          body: "can + فعل بدون to و بدون s: I can swim، she can cook. منفی: can't.",
+          body: "بعد از can فعل ساده می‌آید، بدون s و بدون to: I can swim.",
         },
         say: [["I can cook but I can't drive.", "می‌توانم آشپزی کنم ولی نمی‌توانم رانندگی کنم."]],
       },
@@ -107,7 +107,7 @@ const units = [
         e: [[["I", "like", "read", "books."], 2, "I like reading books."]],
         tip: {
           title: "like / love / enjoy",
-          body: "بعد از این فعل‌ها، فعل ing می‌گیرد: I like reading، she enjoys cooking. نه «to read».",
+          body: "بعد از like، love و enjoy فعل ing می‌گیرد: I like reading.",
         },
         say: [["I like reading and I love music.", "کتاب خواندن را دوست دارم و عاشق موسیقی هستم."]],
       },
@@ -141,7 +141,7 @@ const units = [
         e: [[["There", "are", "a", "bed", "in", "the", "room."], 1, "There is a bed in the room."]],
         tip: {
           title: "in + اتاق",
-          body: "برای گفتن «در اتاق» از in استفاده کن: in the kitchen، in the bedroom.",
+          body: "برای گفتن «در اتاق» از in استفاده می‌کنیم: in the kitchen.",
         },
         say: [["There are two bedrooms and a garden.", "دو اتاق خواب و یک باغ هست."]],
       },
@@ -166,7 +166,7 @@ const units = [
         e: [[["The", "keys", "is", "in", "the", "bag."], 2, "The keys are in the bag."]],
         tip: {
           title: "سه‌تای پرکاربرد",
-          body: "in داخل، on روی سطح، under زیر. next to کنار و behind پشت.",
+          body: "in داخل، on روی، under زیر. این سه تا بیشتر از همه استفاده می‌شوند.",
         },
         say: [["My phone is on the table, next to the cup.", "گوشی‌ام روی میز، کنار فنجان است."]],
       },
@@ -191,7 +191,7 @@ const units = [
         e: [[["Go", "straight", "and", "turn", "left", "in", "the", "bank"], 5, "Go straight and turn left at the bank."]],
         tip: {
           title: "at + نقطه",
-          body: "نقطه‌ای که می‌پیچی با at می‌آید: turn left at the bank. مسیر مستقیم: go straight.",
+          body: "نقطه‌ای که می‌پیچیم با at می‌گوئیم: turn left at the bank. مستقیم هم go straight.",
         },
         say: [["Go straight, then turn right.", "مستقیم برو، بعد به راست بپیچ."]],
       },
@@ -216,7 +216,7 @@ const units = [
         e: [[["She", "are", "working", "now."], 1, "She is working now."]],
         tip: {
           title: "استمراری برای «الان»",
-          body: "am/is/are + فعل ing: I am working now. فرقش با حال ساده: every day کارِ همیشگی، now کارِ همین لحظه.",
+          body: "برای کارِ همین لحظه: am/is/are + فعل ing. برای کار هر روز: فعل ساده.",
         },
         say: [["I am going home now.", "من الان دارم به خانه می‌روم."]],
       },
@@ -250,7 +250,7 @@ const units = [
         e: [[["I", "drink", "bread", "every", "day."], 2, "I drink water every day."]],
         tip: {
           title: "eat یا drink",
-          body: "خوراکی را eat و نوشیدنی را drink: eat bread، drink milk.",
+          body: "خوراکی را eat و نوشیدنی را drink. bread می‌خوریم، milk می‌نوشیم.",
         },
         say: [["I eat bread and drink milk for breakfast.", "صبحانه نان می‌خورم و شیر می‌نوشم."]],
       },
@@ -275,7 +275,7 @@ const units = [
         e: [[["I", "don't", "have", "some", "money."], 3, "I don't have any money."]],
         tip: {
           title: "some یا any",
-          body: "در جملهٔ مثبت some، در منفی و سؤالی any: I have some rice / I don't have any rice.",
+          body: "در جملهٔ مثبت some، در سؤال و منفی any: I have some rice / Do you have any rice?",
         },
         say: [["I have some milk, but I don't have any water.", "کمی شیر دارم ولی آب ندارم."]],
       },
@@ -300,7 +300,7 @@ const units = [
         e: [[["I", "like", "would", "a", "tea."], 1, "I would like a tea."]],
         tip: {
           title: "مؤدبانه سفارش بده",
-          body: "I would like… مؤدبانه‌تر از I want است: I would like a tea. برای درخواست: Can I have…?",
+          body: "برای سفارش مؤدبانه می‌گوییم I would like… یا Can I have…?",
         },
         say: [["I would like a tea and the bill, please.", "لطفاً یک چای و صورت‌حساب می‌خواهم."]],
       },
@@ -325,7 +325,7 @@ const units = [
         e: [[["How", "many", "is", "this", "book?"], 1, "How much is this book?"]],
         tip: {
           title: "How much یا How many",
-          body: "برای قیمت How much is it? برای چیزهای شمارش‌شدنی How many: How many books?",
+          body: "برای قیمت How much و برای تعداد چیزهای شمارش‌شدنی How many.",
         },
         say: [["How much is this bag? It is too expensive.", "این کیف چند است؟ خیلی گران است."]],
       },
@@ -359,7 +359,7 @@ const units = [
         e: [[["We", "was", "at", "the", "hotel."], 1, "We were at the hotel."]],
         tip: {
           title: "was و were",
-          body: "I/he/she/it با was و you/we/they با were: I was at home، they were happy.",
+          body: "برای گذشتهٔ «بودن»: با I/he/she/it می‌گوییم was و با you/we/they می‌گوییم were.",
         },
         say: [["We were at the hotel two days ago.", "ما دو روز پیش در هتل بودیم."]],
       },
@@ -384,7 +384,7 @@ const units = [
         e: [[["I", "watch", "TV", "yesterday."], 1, "I watched TV yesterday."]],
         tip: {
           title: "قانون ed",
-          body: "بیشتر فعل‌ها با ed گذشته می‌شوند: work → worked، play → played، watch → watched.",
+          body: "بیشتر فعل‌ها در گذشته ed می‌گیرند: work → worked، play → played.",
         },
         say: [["I worked and then I watched TV.", "کار کردم و بعد تلویزیون تماشا کردم."]],
       },
@@ -409,7 +409,7 @@ const units = [
         e: [[["I", "go", "to", "the", "beach", "yesterday."], 1, "I went to the beach yesterday."]],
         tip: {
           title: "فعل‌های بی‌قاعده",
-          body: "این‌ها ed نمی‌گیرند: go → went، see → saw، eat → ate، buy → bought، come → came.",
+          body: "یک سری فعل ed نمی‌گیرند و شکلشان عوض می‌شود: go → went، see → saw.",
         },
         say: [["I went to the market and bought bread.", "به بازار رفتم و نان خریدم."]],
       },
@@ -434,7 +434,7 @@ const units = [
         e: [[["What", "are", "you", "do", "tonight?"], 3, "What are you going to do tonight?"]],
         tip: {
           title: "آیندهٔ نزدیک",
-          body: "am/is/are + going to + فعل ساده: I am going to travel. برای قرار: Can we meet…?",
+          body: "برای برنامهٔ آینده: am/is/are + going to + فعل ساده: I am going to travel.",
         },
         say: [["I am going to meet my friends tomorrow.", "قرار است فردا دوستانم را ببینم."]],
       },

@@ -80,7 +80,7 @@
         {
           "kind": "rule",
           "title": "eat یا drink",
-          "body": "خوراکی را eat و نوشیدنی را drink: eat bread، drink milk.",
+          "body": "خوراکی را eat و نوشیدنی را drink. bread می‌خوریم، milk می‌نوشیم.",
           "examples": [
             {
               "en": "I want some water, please.",
@@ -287,7 +287,7 @@
       "xp": 92,
       "tip": {
         "title": "eat یا drink",
-        "body": "خوراکی را eat و نوشیدنی را drink: eat bread، drink milk."
+        "body": "خوراکی را eat و نوشیدنی را drink. bread می‌خوریم، milk می‌نوشیم."
       }
     },
     {
@@ -364,7 +364,7 @@
         {
           "kind": "rule",
           "title": "some یا any",
-          "body": "در جملهٔ مثبت some، در منفی و سؤالی any: I have some rice / I don't have any rice.",
+          "body": "در جملهٔ مثبت some، در سؤال و منفی any: I have some rice / Do you have any rice?",
           "examples": [
             {
               "en": "How much water do you drink?",
@@ -572,7 +572,7 @@
       "xp": 92,
       "tip": {
         "title": "some یا any",
-        "body": "در جملهٔ مثبت some، در منفی و سؤالی any: I have some rice / I don't have any rice."
+        "body": "در جملهٔ مثبت some، در سؤال و منفی any: I have some rice / Do you have any rice?"
       }
     },
     {
@@ -649,7 +649,7 @@
         {
           "kind": "rule",
           "title": "مؤدبانه سفارش بده",
-          "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea. برای درخواست: Can I have…?",
+          "body": "برای سفارش مؤدبانه می‌گوییم I would like… یا Can I have…?",
           "examples": [
             {
               "en": "Can I have a coffee, please?",
@@ -857,7 +857,7 @@
       "xp": 92,
       "tip": {
         "title": "مؤدبانه سفارش بده",
-        "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea. برای درخواست: Can I have…?"
+        "body": "برای سفارش مؤدبانه می‌گوییم I would like… یا Can I have…?"
       }
     },
     {
@@ -934,7 +934,7 @@
         {
           "kind": "rule",
           "title": "How much یا How many",
-          "body": "برای قیمت How much is it? برای چیزهای شمارش‌شدنی How many: How many books?",
+          "body": "برای قیمت How much و برای تعداد چیزهای شمارش‌شدنی How many.",
           "examples": [
             {
               "en": "This shirt is very expensive.",
@@ -1141,7 +1141,7 @@
       "xp": 92,
       "tip": {
         "title": "How much یا How many",
-        "body": "برای قیمت How much is it? برای چیزهای شمارش‌شدنی How many: How many books?"
+        "body": "برای قیمت How much و برای تعداد چیزهای شمارش‌شدنی How many."
       }
     }
   ],

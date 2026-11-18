@@ -49,7 +49,7 @@ const units = [
         e: [[["This", "is", "a", "cats."], 3, "This is a cat."]],
         tip: {
           title: "هر صدادار دو صدا دارد",
-          body: "هر حرف صدادار یک صدای کوتاه دارد. کلمه‌های cat، bed، sit، dog و cup را بلند بخوان و صدای اولشان را بشنو.",
+          body: "هر حرف صدادار صداهای مختلفی دارد. این کلمه‌ها را بلند بخوان و صدای اولشان را گوش کن.",
         },
         say: [["cat, bed, dog", "کلمه‌های یک‌صدایی"]],
       },
@@ -74,7 +74,7 @@ const units = [
         e: [[["How", "you", "spell", "your", "name?"], 1, "How do you spell your name?"]],
         tip: {
           title: "۵ حرف صدادار",
-          body: "حروف صدادار a، e، i، o، u هستند؛ بقیه بی‌صدا. اسم‌ها را حرف‌به‌حرف هجی می‌کنیم.",
+          body: "حروف صدادار پنج‌تا هستند. بقیهٔ حروف بی‌صدا هستند. اسم را حرف‌به‌حرف می‌گوییم.",
         },
         say: [["How do you spell your name?", "اسمت را چطور هجی می‌کنی؟"]],
       },
@@ -104,7 +104,7 @@ const units = [
         e: [[["She", "have", "a", "chair."], 1, "She has a chair."]],
         tip: {
           title: "دو حرف، یک صدا",
-          body: "گاهی دو حرف با هم یک صدا می‌سازند: sh صدای «ش»، ch صدای «چ» و th صدای نوک زبان بین دندان‌هاست.",
+          body: "گاهی دو حرف با هم یک صدا می‌سازند، مثل ش و چ. این کلمه‌ها را گوش کن.",
         },
         say: [["This shop has three chairs.", "این مغازه سه صندلی دارد."]],
       },
@@ -129,7 +129,7 @@ const units = [
         e: [[["I", "is", "a", "student."], 1, "I am a student."]],
         tip: {
           title: "فعل بودن",
-          body: "I am · you are · he is · she is · it is · we are · they are. با این هفت شکل، نصف جمله‌های اولیه ساخته می‌شود.",
+          body: "برای گفتن «هستم، هستی، است» از سه کلمه استفاده می‌کنیم. با «من» یکی، با «او» یکی، با بقیه یکی.",
         },
         say: [["I am Ali and you are my friend.", "من علی هستم و تو دوست من هستی."]],
       },
@@ -163,7 +163,7 @@ const units = [
         e: [[["They", "is", "my", "friends."], 1, "They are my friends."]],
         tip: {
           title: "یک قانون، سه شکل",
-          body: "I → am. he/she/it → is. you/we/they → are. فقط همین.",
+          body: "فقط سه شکل داریم. برای «من» اولی، برای «او» دومی و برای «تو، ما، آن‌ها» سومی.",
         },
         say: [["He is my brother and they are my friends.", "او برادر من است و آن‌ها دوستان من‌اند."]],
       },
@@ -188,7 +188,7 @@ const units = [
         e: [[["This", "are", "a", "book."], 1, "This is a book."]],
         tip: {
           title: "a یا an",
-          body: "قبل از a، e، i، o، u از an استفاده کن: an apple، an egg. بقیه با a: a book، a cat.",
+          body: "قبل از کلمه‌ای که با صدای صدادار شروع می‌شود an می‌گذاریم، بقیه a.",
         },
         say: [["This is a book and that is an apple.", "این یک کتاب است و آن یک سیب."]],
       },
@@ -213,7 +213,7 @@ const units = [
         e: [[["You", "is", "a", "teacher?"], 1, "Are you a teacher?"]],
         tip: {
           title: "برای سؤال، جابه‌جا کن",
-          body: "You are a student → Are you a student? فعل بودن به اول جمله می‌آید.",
+          body: "برای سؤال کردن، کلمهٔ «است/هستی» را می‌آوریم اول جمله. آخر جمله هم علامت سؤال.",
         },
         say: [["Are you from Iran? Yes, I am.", "تو اهل ایران هستی؟ بله."]],
       },
@@ -238,7 +238,7 @@ const units = [
         e: [[["Where", "you", "are", "from?"], 1, "Where are you from?"]],
         tip: {
           title: "کلمه‌های پرسشی",
-          body: "where = کجا، what = چه، who = چه کسی. این کلمه‌ها همیشه اول جمله می‌آیند.",
+          body: "کلمه‌های پرسشی همیشه اول جمله می‌آیند: کجا، چه، چه کسی.",
         },
         say: [["Where are you from? I am from Iran.", "اهل کجایی؟ من اهل ایران هستم."]],
       },
@@ -272,7 +272,7 @@ const units = [
         e: [[["I", "have", "two", "cat."], 3, "I have two cats."]],
         tip: {
           title: "جمع با s",
-          body: "یک چیز cat، چند چیز cats. اگر کلمه به ch، sh، s، x ختم شود es می‌گیرد: boxes.",
+          body: "برای چند چیز، به آخر کلمه s اضافه می‌کنیم. اگر کلمه به ch یا sh یا s ختم شود، es.",
         },
         say: [["I have two sisters and ten books.", "من دو خواهر و ده کتاب دارم."]],
       },
@@ -297,7 +297,7 @@ const units = [
         e: [[["His", "name", "are", "Reza."], 2, "His name is Reza."]],
         tip: {
           title: "his و her",
-          body: "برای مرد his، برای زن her: his car، her bag. برای اشیا از its استفاده می‌کنیم.",
+          body: "برای مرد his و برای زن her می‌گوییم. برای چیزها its.",
         },
         say: [["Her brother is my friend.", "برادر او دوست من است."]],
       },
@@ -322,7 +322,7 @@ const units = [
         e: [[["She", "have", "a", "cat."], 1, "She has a cat."]],
         tip: {
           title: "have یا has",
-          body: "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم.",
+          body: "با «من، تو، ما، آن‌ها» have و با «او» has می‌گوییم.",
         },
         say: [["I have a bag and she has a phone.", "من یک کیف دارم و او یک گوشی دارد."]],
       },
@@ -347,7 +347,7 @@ const units = [
         e: [[["There", "is", "two", "chairs."], 1, "There are two chairs."]],
         tip: {
           title: "is یا are",
-          body: "برای یک چیز There is، برای چند چیز There are: There is a cat / There are two cats.",
+          body: "برای یک چیز «is» و برای چند چیز «are». این تفاوت مهم است.",
         },
         say: [["There is a phone on the table.", "یک گوشی روی میز هست."]],
       },
@@ -381,7 +381,7 @@ const units = [
         e: [[["I", "works", "every", "day."], 1, "I work every day."]],
         tip: {
           title: "حال ساده چیست؟",
-          body: "برای کارهای تکراری: I work, you live, we study, they eat. بدون ing و بدون to.",
+          body: "برای کارهایی که هر روز تکرار می‌شوند: I work. بدون ing و بدون to.",
         },
         say: [["I live in Iran and I study English.", "من در ایران زندگی می‌کنم و انگلیسی می‌خوانم."]],
       },
@@ -406,7 +406,7 @@ const units = [
         e: [[["He", "go", "to", "work."], 1, "He goes to work."]],
         tip: {
           title: "s سوم‌شخص",
-          body: "با he/she/it به فعل s اضافه می‌شود: work → works. اگر به o، sh، ch ختم شود es: go → goes.",
+          body: "با «او» به فعل s اضافه می‌شود. اگر فعل به o یا sh یا ch ختم شود، es.",
         },
         say: [["She works in a bank and he goes to school.", "او در بانک کار می‌کند و او به مدرسه می‌رود."]],
       },
@@ -431,7 +431,7 @@ const units = [
         e: [[["Does", "you", "like", "tea?"], 1, "Do you like tea?"]],
         tip: {
           title: "do و does",
-          body: "سؤال با do/does و منفی با don't/doesn't. با does، فعل دیگر s نمی‌گیرد: Does she like…?",
+          body: "برای سؤال از do یا does استفاده می‌کنیم و برای «نه» از don't یا doesn't. بعد از does، فعل دیگر s نمی‌گیرد.",
         },
         say: [["Do you like tea? No, I don't.", "چای دوست داری؟ نه."]],
       },
@@ -456,7 +456,7 @@ const units = [
         e: [[["He", "usually", "studys", "English."], 2, "He usually studies English."]],
         tip: {
           title: "جای قید",
-          body: "قید تکرار قبل از فعل اصلی می‌آید: I always work. ولی بعد از am/is/are: I am always late.",
+          body: "کلمه‌هایی مثل «همیشه، هرگز» قبل از فعل اصلی می‌آیند؛ ولی بعد از am/is/are.",
         },
         say: [["I usually study at night and I never work on Friday.", "من معمولاً شب درس می‌خوانم و هرگز جمعه کار نمی‌کنم."]],
       },

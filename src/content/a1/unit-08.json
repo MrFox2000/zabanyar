@@ -80,7 +80,7 @@
         {
           "kind": "rule",
           "title": "was و were",
-          "body": "I/he/she/it با was و you/we/they با were: I was at home، they were happy.",
+          "body": "برای گذشتهٔ «بودن»: با I/he/she/it می‌گوییم was و با you/we/they می‌گوییم were.",
           "examples": [
             {
               "en": "I was tired last night.",
@@ -287,7 +287,7 @@
       "xp": 92,
       "tip": {
         "title": "was و were",
-        "body": "I/he/she/it با was و you/we/they با were: I was at home، they were happy."
+        "body": "برای گذشتهٔ «بودن»: با I/he/she/it می‌گوییم was و با you/we/they می‌گوییم were."
       }
     },
     {
@@ -364,7 +364,7 @@
         {
           "kind": "rule",
           "title": "قانون ed",
-          "body": "بیشتر فعل‌ها با ed گذشته می‌شوند: work → worked، play → played، watch → watched.",
+          "body": "بیشتر فعل‌ها در گذشته ed می‌گیرند: work → worked، play → played.",
           "examples": [
             {
               "en": "She played tennis yesterday.",
@@ -569,7 +569,7 @@
       "xp": 92,
       "tip": {
         "title": "قانون ed",
-        "body": "بیشتر فعل‌ها با ed گذشته می‌شوند: work → worked، play → played، watch → watched."
+        "body": "بیشتر فعل‌ها در گذشته ed می‌گیرند: work → worked، play → played."
       }
     },
     {
@@ -646,7 +646,7 @@
         {
           "kind": "rule",
           "title": "فعل‌های بی‌قاعده",
-          "body": "این‌ها ed نمی‌گیرند: go → went، see → saw، eat → ate، buy → bought، come → came.",
+          "body": "یک سری فعل ed نمی‌گیرند و شکلشان عوض می‌شود: go → went، see → saw.",
           "examples": [
             {
               "en": "We ate lunch at noon.",
@@ -854,7 +854,7 @@
       "xp": 92,
       "tip": {
         "title": "فعل‌های بی‌قاعده",
-        "body": "این‌ها ed نمی‌گیرند: go → went، see → saw، eat → ate، buy → bought، come → came."
+        "body": "یک سری فعل ed نمی‌گیرند و شکلشان عوض می‌شود: go → went، see → saw."
       }
     },
     {
@@ -931,7 +931,7 @@
         {
           "kind": "rule",
           "title": "آیندهٔ نزدیک",
-          "body": "am/is/are + going to + فعل ساده: I am going to travel. برای قرار: Can we meet…?",
+          "body": "برای برنامهٔ آینده: am/is/are + going to + فعل ساده: I am going to travel.",
           "examples": [
             {
               "en": "We are going to meet tonight.",
@@ -1139,7 +1139,7 @@
       "xp": 92,
       "tip": {
         "title": "آیندهٔ نزدیک",
-        "body": "am/is/are + going to + فعل ساده: I am going to travel. برای قرار: Can we meet…?"
+        "body": "برای برنامهٔ آینده: am/is/are + going to + فعل ساده: I am going to travel."
       }
     }
   ],

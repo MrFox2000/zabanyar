@@ -80,7 +80,7 @@
         {
           "kind": "rule",
           "title": "مالِ کسی: 's",
-          "body": "با اضافه‌کردن 's بگو چیزی مال کسی است: Ali's car (ماشین علی)، my sister's bag.",
+          "body": "برای گفتن «مالِ کسی»، به آخر اسم s و یک آپاستروف اضافه می‌کنیم: Ali's car.",
           "examples": [
             {
               "en": "This is my brother.",
@@ -285,7 +285,7 @@
       "xp": 92,
       "tip": {
         "title": "مالِ کسی: 's",
-        "body": "با اضافه‌کردن 's بگو چیزی مال کسی است: Ali's car (ماشین علی)، my sister's bag."
+        "body": "برای گفتن «مالِ کسی»، به آخر اسم s و یک آپاستروف اضافه می‌کنیم: Ali's car."
       }
     },
     {
@@ -362,7 +362,7 @@
         {
           "kind": "rule",
           "title": "صفت بعد از is",
-          "body": "صفت همیشه بعد از فعل بودن می‌آید: He is tall. She is kind. بدون is نمی‌شود.",
+          "body": "صفت بعد از am/is/are می‌آید: He is tall. بدون is جمله کامل نیست.",
           "examples": [
             {
               "en": "She is kind and funny.",
@@ -568,7 +568,7 @@
       "xp": 92,
       "tip": {
         "title": "صفت بعد از is",
-        "body": "صفت همیشه بعد از فعل بودن می‌آید: He is tall. She is kind. بدون is نمی‌شود."
+        "body": "صفت بعد از am/is/are می‌آید: He is tall. بدون is جمله کامل نیست."
       }
     },
     {
@@ -645,7 +645,7 @@
         {
           "kind": "rule",
           "title": "بعد از can، فعل ساده",
-          "body": "can + فعل بدون to و بدون s: I can swim، she can cook. منفی: can't.",
+          "body": "بعد از can فعل ساده می‌آید، بدون s و بدون to: I can swim.",
           "examples": [
             {
               "en": "I can cook.",
@@ -849,7 +849,7 @@
       "xp": 92,
       "tip": {
         "title": "بعد از can، فعل ساده",
-        "body": "can + فعل بدون to و بدون s: I can swim، she can cook. منفی: can't."
+        "body": "بعد از can فعل ساده می‌آید، بدون s و بدون to: I can swim."
       }
     },
     {
@@ -926,7 +926,7 @@
         {
           "kind": "rule",
           "title": "like / love / enjoy",
-          "body": "بعد از این فعل‌ها، فعل ing می‌گیرد: I like reading، she enjoys cooking. نه «to read».",
+          "body": "بعد از like، love و enjoy فعل ing می‌گیرد: I like reading.",
           "examples": [
             {
               "en": "I enjoy watching films.",
@@ -1131,7 +1131,7 @@
       "xp": 92,
       "tip": {
         "title": "like / love / enjoy",
-        "body": "بعد از این فعل‌ها، فعل ing می‌گیرد: I like reading، she enjoys cooking. نه «to read»."
+        "body": "بعد از like، love و enjoy فعل ing می‌گیرد: I like reading."
       }
     }
   ],
