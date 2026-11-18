@@ -60,11 +60,13 @@ export function Placement({
       if (item.correct) correctByLevel[item.level] = (correctByLevel[item.level] ?? 0) + 1;
     }
 
+    // levels are passed consecutively: one weak level stops the climb
     let levelIndex = 0;
     for (let index = 0; index < levels.length; index += 1) {
       const level = levels[index];
       const ratio = (correctByLevel[level] ?? 0) / (totalByLevel[level] ?? 1);
       if (ratio >= 0.5) levelIndex = index + 1;
+      else break;
     }
 
     setStartLevel(levels[Math.min(levelIndex, levels.length - 1)] ?? levels[0]);

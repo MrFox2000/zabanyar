@@ -26,12 +26,11 @@ export default function StartPage() {
 
     for (const exercise of pick) {
       if (exercise.kind !== "mcq") continue;
-      questions.push({
-        level,
-        prompt: exercise.prompt,
-        choices: exercise.choices,
-        answer: exercise.answer,
-      });
+      // rotate the options so the correct one is not always in the same position
+      const shift = questions.length % exercise.choices.length;
+      const rotated = exercise.choices.map((_, index) => exercise.choices[(index + shift) % exercise.choices.length]);
+      const answer = (exercise.answer - shift + exercise.choices.length) % exercise.choices.length;
+      questions.push({ level, prompt: exercise.prompt, choices: rotated, answer });
     }
   }
 
