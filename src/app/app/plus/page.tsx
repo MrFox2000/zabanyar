@@ -7,6 +7,7 @@ import { ArrowRight, Check, Crown, Infinity as InfinityIcon, Lock } from "lucide
 import { Hud } from "@/components/Hud";
 import { activatePlus, cancelPlus, isPlus, useHydrated, useProgress, type Subscription } from "@/lib/store/progress";
 import { cn, fa } from "@/lib/utils";
+import { PAYMENTS_READY } from "@/lib/demo";
 
 type Plan = { id: NonNullable<Subscription["plan"]>; label: string; price: number; months: number; badge?: string };
 
@@ -128,21 +129,27 @@ export default function PlusPage() {
           })}
         </section>
 
-        <button
-          type="button"
-          onClick={activate}
-          className="btn-pop w-full rounded-2xl bg-plum py-3.5 text-sm font-extrabold text-cream"
-        >
-          فعال‌سازی پلاس (نسخهٔ آزمایشی)
-        </button>
-        <p className="text-center text-[10px] leading-5 text-plum-soft">
-          درگاه پرداخت (زرین‌پال) هنوز وصل نیست؛ این دکمه فقط برای تستِ رفتار پلاس است. پس از اتصال درگاه، همین
-          صفحه با کد رهگیری واقعی کار می‌کند.
-        </p>
+        {PAYMENTS_READY ? (
+          <button
+            type="button"
+            onClick={activate}
+            className="btn-pop w-full rounded-2xl bg-plum py-3.5 text-sm font-extrabold text-cream"
+          >
+            فعال‌سازی پلاس
+          </button>
+        ) : (
+          <div className="rounded-2xl border border-plum/10 bg-sand px-4 py-3 text-center">
+            <p className="text-sm font-extrabold text-plum">پرداخت درون‌برنامه‌ای به‌زودی</p>
+            <p className="mt-1 text-[11px] leading-5 text-plum-soft">
+              این نسخه رایگان است و همهٔ درس‌ها با ستاره و جم باز می‌شوند. پلاس پس از اتصال پرداخت بازار
+              فعال می‌شود.
+            </p>
+          </div>
+        )}
 
-        {plus && (
+        {PAYMENTS_READY && plus && (
           <button type="button" onClick={cancelPlus} className="w-full rounded-2xl bg-sand py-2.5 text-[11px] font-bold text-plum-soft">
-            لغو پلاس (برای تست)
+            لغو پلاس
           </button>
         )}
 

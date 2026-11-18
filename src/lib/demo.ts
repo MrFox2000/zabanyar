@@ -12,3 +12,10 @@ export const DEMO_A1_UNITS = 2;
 export const DEMO_OTHER_UNITS = 0;
 
 export const DEMO_LABEL = "نسخهٔ نمایشی";
+
+/**
+ * Payment integration status. Until Poolakey (Bazaar) / Myket IAP is wired and a
+ * server callback verifies receipts, the app must not offer a purchase button —
+ * a store reviewer would treat it as a fake payment.
+ */
+export const PAYMENTS_READY = false;
