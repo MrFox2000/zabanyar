@@ -12,6 +12,7 @@ import { TeachStage } from "@/components/game/TeachStage";
 import { Character, characterFor } from "@/components/Character";
 import { BiText } from "@/components/BiText";
 import { SkinBackdrop } from "@/components/SkinBackdrop";
+import { syncNow } from "@/lib/sync";
 import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
@@ -181,6 +182,8 @@ export function LessonPlayer({
     if (stage !== "done" || saved.current) return;
     saved.current = true;
     completeLesson(lesson.id, accuracy, stars, xp);
+    // logged-in learners keep the account copy in step with this device
+    void syncNow();
     emit({ type: "lesson_finished", lessonId: lesson.id, accuracy, stars, xp });
     playWin();
     confetti({

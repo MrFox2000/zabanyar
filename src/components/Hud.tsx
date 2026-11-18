@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Flame, Gem, Heart, Settings, Volume2, VolumeX, Zap } from "lucide-react";
+import { Flame, Gem, Heart, Settings, User, Volume2, VolumeX, Zap } from "lucide-react";
 import { HEART_MAX, levelOf, useHydrated, useProgress } from "@/lib/store/progress";
 import { isMuted, setMuted } from "@/lib/sound";
 import { fa } from "@/lib/utils";
@@ -75,6 +75,13 @@ export function Hud() {
             className="grid size-8 place-items-center rounded-full bg-white text-plum-soft shadow-sm"
           >
             <Settings size={15} />
+          </Link>
+          <Link
+            href="/app/account"
+            aria-label="حساب کاربری"
+            className="grid size-7 shrink-0 place-items-center rounded-full bg-white text-plum-soft shadow-sm"
+          >
+            <User size={14} />
           </Link>
           <Link
             href="/app/notebook"
