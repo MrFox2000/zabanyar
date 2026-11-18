@@ -192,21 +192,20 @@ export function FillBlankGame({ exercise, locked, picked, onCommit }: Props<"fil
 /* ── 5. spot the mistake ─────────────────────────────────────────────── */
 
 export function SpotErrorGame({ exercise, locked, picked, onCommit }: Props<"spotError">) {
-  const correct = exercise.words[exercise.answer];
   return (
     <div className="space-y-5">
       <p className="text-center text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
       <div className="flex flex-wrap justify-center gap-2 rounded-2xl bg-white p-4 shadow-sm" dir="ltr">
-        {exercise.words.map((word) => {
+        {exercise.words.map((word, position) => {
           const isPicked = picked === word;
-          const isCorrect = locked && word === correct;
-          const isWrong = locked && isPicked && word !== correct;
+          const isCorrect = locked && position === exercise.answer;
+          const isWrong = locked && isPicked && position !== exercise.answer;
           return (
             <button
-              key={word}
+              key={`${word}-${position}`}
               type="button"
               disabled={locked}
-              onClick={() => onCommit(word === correct, word)}
+              onClick={() => onCommit(position === exercise.answer, word)}
               className={cn(
                 "rounded-xl px-3 py-2 text-base font-bold transition-colors",
                 isCorrect && "bg-mint/25 text-[#065f46] ring-2 ring-mint",
@@ -325,6 +324,7 @@ export function WordOrderGame({ exercise, locked, onCommit }: Omit<Props<"wordOr
           <button
             key={token.id}
             type="button"
+            data-bank="1"
             disabled={locked}
             onClick={() => {
               setBank((current) => current.filter((t) => t.id !== token.id));

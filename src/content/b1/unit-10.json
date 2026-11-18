@@ -1,0 +1,1280 @@
+{
+  "id": "b1-u10",
+  "level": "B1",
+  "index": 10,
+  "titleFa": "حدس و توصیه",
+  "titleEn": "Deduction and advice",
+  "theme": "gold",
+  "lessons": [
+    {
+      "id": "b1-u10-deduction",
+      "title": "He must be tired",
+      "titleFa": "حدس زدن",
+      "goal": "از روی شواهد حدس بزنی",
+      "buildsOn": [
+        "b1-u9-tech-internet"
+      ],
+      "vocab": [
+        {
+          "en": "must be",
+          "fa": "باید باشد",
+          "emoji": "❗"
+        },
+        {
+          "en": "might be",
+          "fa": "شاید باشد",
+          "emoji": "🤔"
+        },
+        {
+          "en": "can't be",
+          "fa": "نمی‌تواند باشد",
+          "emoji": "🚫"
+        },
+        {
+          "en": "sure",
+          "fa": "مطمئن",
+          "emoji": "✔️"
+        },
+        {
+          "en": "probably",
+          "fa": "احتمالاً",
+          "emoji": "📊"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "must be",
+          "fa": "باید باشد",
+          "emoji": "❗"
+        },
+        {
+          "kind": "word",
+          "en": "might be",
+          "fa": "شاید باشد",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "can't be",
+          "fa": "نمی‌تواند باشد",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "sure",
+          "fa": "مطمئن",
+          "emoji": "✔️"
+        },
+        {
+          "kind": "sentence",
+          "en": "She must be at home.",
+          "fa": "او باید خانه باشد."
+        },
+        {
+          "kind": "sentence",
+          "en": "He must be tired, he worked all day.",
+          "fa": "او باید خسته باشد، تمام روز کار کرد.",
+          "highlight": "must be"
+        },
+        {
+          "kind": "rule",
+          "title": "must be / can't be",
+          "body": "برای حدس قوی must be، برای رد کردن can't be و برای احتمال might be.",
+          "examples": [
+            {
+              "en": "She must be at home.",
+              "fa": "او باید خانه باشد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u10-deduction.1",
+          "kind": "mcq",
+          "prompt": "معنی «must be» چیست؟",
+          "promptFa": "باید باشد",
+          "choices": [
+            "می‌توانم (مؤدبانه)",
+            "باید باشد",
+            "نمی‌تواند باشد"
+          ],
+          "answer": 1,
+          "speak": "must be",
+          "aiHints": {
+            "example": "I know the word \"must be\".",
+            "explanation": "«must be» یعنی باید باشد."
+          }
+        },
+        {
+          "id": "b1-u10-deduction.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤔",
+          "choices": [
+            "probably",
+            "might be",
+            "sure"
+          ],
+          "answer": 1,
+          "speak": "might be"
+        },
+        {
+          "id": "b1-u10-deduction.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "can't be",
+          "choices": [
+            "might be",
+            "can't be",
+            "otherwise"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u10-deduction.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "must be",
+              "fa": "باید باشد"
+            },
+            {
+              "en": "can't be",
+              "fa": "نمی‌تواند باشد"
+            },
+            {
+              "en": "might be",
+              "fa": "شاید باشد"
+            },
+            {
+              "en": "sure",
+              "fa": "مطمئن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u10-deduction.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او باید خسته باشد، تمام روز کار کرد.",
+          "sentence": "He ___ tired, he worked all day.",
+          "choices": [
+            "allowed",
+            "permit",
+            "must be"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u10-deduction.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او باید خانه باشد.",
+          "tokens": [
+            "home",
+            "at",
+            "must",
+            "be",
+            "She"
+          ],
+          "answer": "She must be at home"
+        },
+        {
+          "id": "b1-u10-deduction.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "must",
+            "is",
+            "tired."
+          ],
+          "answer": 2,
+          "fix": "He must be tired.",
+          "aiHints": {
+            "explanation": "درستش این است: He must be tired."
+          }
+        },
+        {
+          "id": "b1-u10-deduction.8",
+          "kind": "speed",
+          "prompt": "سریع! «probably» یعنی چه؟",
+          "speak": "probably",
+          "choices": [
+            "احتمالاً",
+            "باید باشد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u10-deduction.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «upload»",
+          "choices": [
+            "بارگذاری کردن",
+            "تابلو / امضا",
+            "می‌توانم (مؤدبانه)"
+          ],
+          "answer": 0,
+          "speak": "upload",
+          "reviewOf": "b1-u9-tech-internet"
+        },
+        {
+          "id": "b1-u10-deduction.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "search",
+          "choices": [
+            "probably",
+            "permit",
+            "search"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u9-tech-internet"
+        },
+        {
+          "id": "b1-u10-deduction.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌐",
+          "choices": [
+            "online",
+            "otherwise",
+            "rules"
+          ],
+          "answer": 0,
+          "speak": "online",
+          "reviewOf": "b1-u9-tech-internet"
+        },
+        {
+          "id": "b1-u10-deduction.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «useful»",
+          "speak": "useful",
+          "choices": [
+            "مفید",
+            "باید باشد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u9-tech-internet"
+        },
+        {
+          "id": "b1-u10-deduction.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "نمی‌تواند درست باشد، خودم دیدم.",
+          "sentence": "It ___ true, I saw it myself.",
+          "choices": [
+            "can't be",
+            "sure",
+            "might be"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "They must be tired, they worked all night.",
+          "fa": "آن‌ها باید خسته باشند، تمام شب کار کردند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "must be / can't be",
+        "body": "برای حدس قوی must be، برای رد کردن can't be و برای احتمال might be."
+      }
+    },
+    {
+      "id": "b1-u10-past-speculation",
+      "title": "I should have called",
+      "titleFa": "حدس و پشیمانی در گذشته",
+      "goal": "دربارهٔ گذشته نظر بدهی",
+      "buildsOn": [
+        "b1-u10-deduction"
+      ],
+      "vocab": [
+        {
+          "en": "could have",
+          "fa": "می‌توانست",
+          "emoji": "💭"
+        },
+        {
+          "en": "would have",
+          "fa": "می‌کرد",
+          "emoji": "🤷"
+        },
+        {
+          "en": "should have",
+          "fa": "باید می‌کرد",
+          "emoji": "😔"
+        },
+        {
+          "en": "instead",
+          "fa": "به‌جایش",
+          "emoji": "🔄"
+        },
+        {
+          "en": "forgot",
+          "fa": "فراموش کرد",
+          "emoji": "🤦"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "could have",
+          "fa": "می‌توانست",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "would have",
+          "fa": "می‌کرد",
+          "emoji": "🤷"
+        },
+        {
+          "kind": "word",
+          "en": "should have",
+          "fa": "باید می‌کرد",
+          "emoji": "😔"
+        },
+        {
+          "kind": "word",
+          "en": "instead",
+          "fa": "به‌جایش",
+          "emoji": "🔄"
+        },
+        {
+          "kind": "sentence",
+          "en": "I should have studied harder.",
+          "fa": "باید بیشتر درس می‌خواندم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I should have called you, but I forgot.",
+          "fa": "باید بهت زنگ می‌زدم، ولی فراموش کردم.",
+          "highlight": "should have"
+        },
+        {
+          "kind": "rule",
+          "title": "have + قسمت سوم",
+          "body": "should/could/would have + قسمت سوم فعل دربارهٔ گذشته است.",
+          "examples": [
+            {
+              "en": "I should have studied harder.",
+              "fa": "باید بیشتر درس می‌خواندم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u10-past-speculation.1",
+          "kind": "mcq",
+          "prompt": "معنی «could have» چیست؟",
+          "promptFa": "می‌توانست",
+          "choices": [
+            "مجاز",
+            "می‌توانست",
+            "تابلو / امضا"
+          ],
+          "answer": 1,
+          "speak": "could have",
+          "aiHints": {
+            "example": "I know the word \"could have\".",
+            "explanation": "«could have» یعنی می‌توانست."
+          }
+        },
+        {
+          "id": "b1-u10-past-speculation.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤷",
+          "choices": [
+            "forgot",
+            "should have",
+            "would have"
+          ],
+          "answer": 2,
+          "speak": "would have"
+        },
+        {
+          "id": "b1-u10-past-speculation.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "should have",
+          "choices": [
+            "careful",
+            "had better",
+            "should have"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u10-past-speculation.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "could have",
+              "fa": "می‌توانست"
+            },
+            {
+              "en": "should have",
+              "fa": "باید می‌کرد"
+            },
+            {
+              "en": "instead",
+              "fa": "به‌جایش"
+            },
+            {
+              "en": "would have",
+              "fa": "می‌کرد"
+            }
+          ]
+        },
+        {
+          "id": "b1-u10-past-speculation.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باید بهت زنگ می‌زدم، ولی فراموش کردم.",
+          "sentence": "I ___ called you, but I forgot.",
+          "choices": [
+            "instead",
+            "should have",
+            "forgot"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u10-past-speculation.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "باید بیشتر درس می‌خواندم.",
+          "tokens": [
+            "should",
+            "have",
+            "harder",
+            "studied",
+            "I"
+          ],
+          "answer": "I should have studied harder"
+        },
+        {
+          "id": "b1-u10-past-speculation.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "should",
+            "have",
+            "study",
+            "harder."
+          ],
+          "answer": 3,
+          "fix": "I should have studied harder.",
+          "aiHints": {
+            "explanation": "درستش این است: I should have studied harder."
+          }
+        },
+        {
+          "id": "b1-u10-past-speculation.8",
+          "kind": "speed",
+          "prompt": "سریع! «forgot» یعنی چه؟",
+          "speak": "forgot",
+          "choices": [
+            "باید باشد",
+            "فراموش کرد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u10-past-speculation.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «might be»",
+          "choices": [
+            "مطمئن",
+            "قوانین",
+            "شاید باشد"
+          ],
+          "answer": 2,
+          "speak": "might be",
+          "reviewOf": "b1-u10-deduction"
+        },
+        {
+          "id": "b1-u10-past-speculation.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "can't be",
+          "choices": [
+            "can't be",
+            "rules",
+            "would have"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u10-deduction"
+        },
+        {
+          "id": "b1-u10-past-speculation.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✔️",
+          "choices": [
+            "sure",
+            "rules",
+            "allowed"
+          ],
+          "answer": 0,
+          "speak": "sure",
+          "reviewOf": "b1-u10-deduction"
+        },
+        {
+          "id": "b1-u10-past-speculation.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «probably»",
+          "speak": "probably",
+          "choices": [
+            "باید باشد",
+            "احتمالاً"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u10-deduction"
+        },
+        {
+          "id": "b1-u10-past-speculation.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "می‌توانستیم برویم، ولی باران آمد.",
+          "sentence": "We ___ gone, but it rained.",
+          "choices": [
+            "could have",
+            "allowed",
+            "sure"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I should have studied instead of playing.",
+          "fa": "باید به‌جای بازی درس می‌خواندم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "have + قسمت سوم",
+        "body": "should/could/would have + قسمت سوم فعل دربارهٔ گذشته است."
+      }
+    },
+    {
+      "id": "b1-u10-had-better",
+      "title": "You had better go",
+      "titleFa": "توصیهٔ قوی",
+      "goal": "توصیهٔ جدی‌تر بکنی",
+      "buildsOn": [
+        "b1-u10-past-speculation"
+      ],
+      "vocab": [
+        {
+          "en": "had better",
+          "fa": "بهتر است",
+          "emoji": "⚠️"
+        },
+        {
+          "en": "ought to",
+          "fa": "باید",
+          "emoji": "📌"
+        },
+        {
+          "en": "otherwise",
+          "fa": "وگرنه",
+          "emoji": "↩️"
+        },
+        {
+          "en": "warn",
+          "fa": "هشدار دادن",
+          "emoji": "📣"
+        },
+        {
+          "en": "careful",
+          "fa": "مراقب",
+          "emoji": "👀"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "had better",
+          "fa": "بهتر است",
+          "emoji": "⚠️"
+        },
+        {
+          "kind": "word",
+          "en": "ought to",
+          "fa": "باید",
+          "emoji": "📌"
+        },
+        {
+          "kind": "word",
+          "en": "otherwise",
+          "fa": "وگرنه",
+          "emoji": "↩️"
+        },
+        {
+          "kind": "word",
+          "en": "warn",
+          "fa": "هشدار دادن",
+          "emoji": "📣"
+        },
+        {
+          "kind": "sentence",
+          "en": "You had better take an umbrella.",
+          "fa": "بهتر است چتر برداری."
+        },
+        {
+          "kind": "sentence",
+          "en": "You had better go now.",
+          "fa": "بهتر است الان بروی.",
+          "highlight": "had"
+        },
+        {
+          "kind": "rule",
+          "title": "بدون to",
+          "body": "had better + فعل ساده (بدون to) و ought to + فعل ساده.",
+          "examples": [
+            {
+              "en": "You had better take an umbrella.",
+              "fa": "بهتر است چتر برداری."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u10-had-better.1",
+          "kind": "mcq",
+          "prompt": "معنی «had better» چیست؟",
+          "promptFa": "بهتر است",
+          "choices": [
+            "به‌جایش",
+            "نمی‌تواند باشد",
+            "بهتر است"
+          ],
+          "answer": 2,
+          "speak": "had better",
+          "aiHints": {
+            "example": "I know the word \"had better\".",
+            "explanation": "«had better» یعنی بهتر است."
+          }
+        },
+        {
+          "id": "b1-u10-had-better.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📌",
+          "choices": [
+            "had better",
+            "careful",
+            "ought to"
+          ],
+          "answer": 2,
+          "speak": "ought to"
+        },
+        {
+          "id": "b1-u10-had-better.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "otherwise",
+          "choices": [
+            "may I",
+            "otherwise",
+            "must be"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u10-had-better.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "otherwise",
+              "fa": "وگرنه"
+            },
+            {
+              "en": "ought to",
+              "fa": "باید"
+            },
+            {
+              "en": "warn",
+              "fa": "هشدار دادن"
+            },
+            {
+              "en": "had better",
+              "fa": "بهتر است"
+            }
+          ]
+        },
+        {
+          "id": "b1-u10-had-better.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بهتر است الان بروی.",
+          "sentence": "You ___ better go now.",
+          "choices": [
+            "sure",
+            "probably",
+            "had"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u10-had-better.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "بهتر است چتر برداری.",
+          "tokens": [
+            "You",
+            "umbrella",
+            "had",
+            "an",
+            "take",
+            "better"
+          ],
+          "answer": "You had better take an umbrella"
+        },
+        {
+          "id": "b1-u10-had-better.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "You",
+            "had",
+            "better",
+            "to",
+            "go."
+          ],
+          "answer": 3,
+          "fix": "You had better go.",
+          "aiHints": {
+            "explanation": "درستش این است: You had better go."
+          }
+        },
+        {
+          "id": "b1-u10-had-better.8",
+          "kind": "speed",
+          "prompt": "سریع! «careful» یعنی چه؟",
+          "speak": "careful",
+          "choices": [
+            "مراقب",
+            "باید باشد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u10-had-better.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «would have»",
+          "choices": [
+            "می‌توانست",
+            "احتمالاً",
+            "می‌کرد"
+          ],
+          "answer": 2,
+          "speak": "would have",
+          "reviewOf": "b1-u10-past-speculation"
+        },
+        {
+          "id": "b1-u10-had-better.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "should have",
+          "choices": [
+            "warn",
+            "rules",
+            "should have"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u10-past-speculation"
+        },
+        {
+          "id": "b1-u10-had-better.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔄",
+          "choices": [
+            "instead",
+            "must be",
+            "rules"
+          ],
+          "answer": 0,
+          "speak": "instead",
+          "reviewOf": "b1-u10-past-speculation"
+        },
+        {
+          "id": "b1-u10-had-better.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «forgot»",
+          "speak": "forgot",
+          "choices": [
+            "فراموش کرد",
+            "باید باشد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u10-past-speculation"
+        },
+        {
+          "id": "b1-u10-had-better.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "باید به آن‌ها کمک کنیم.",
+          "sentence": "We ___ to help them.",
+          "choices": [
+            "may I",
+            "ought",
+            "sure"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "You had better rest, otherwise you will be tired.",
+          "fa": "بهتر است استراحت کنی، وگرنه خسته می‌شوی."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بدون to",
+        "body": "had better + فعل ساده (بدون to) و ought to + فعل ساده."
+      }
+    },
+    {
+      "id": "b1-u10-permission",
+      "title": "Are we allowed to…?",
+      "titleFa": "اجازه",
+      "goal": "اجازه گرفتن و اجازه دادن",
+      "buildsOn": [
+        "b1-u10-had-better"
+      ],
+      "vocab": [
+        {
+          "en": "allowed",
+          "fa": "مجاز",
+          "emoji": "✅"
+        },
+        {
+          "en": "permit",
+          "fa": "اجازه دادن",
+          "emoji": "🪪"
+        },
+        {
+          "en": "may I",
+          "fa": "می‌توانم (مؤدبانه)",
+          "emoji": "🙋"
+        },
+        {
+          "en": "rules",
+          "fa": "قوانین",
+          "emoji": "📜"
+        },
+        {
+          "en": "sign",
+          "fa": "تابلو / امضا",
+          "emoji": "🪧"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "allowed",
+          "fa": "مجاز",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "permit",
+          "fa": "اجازه دادن",
+          "emoji": "🪪"
+        },
+        {
+          "kind": "word",
+          "en": "may I",
+          "fa": "می‌توانم (مؤدبانه)",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "word",
+          "en": "rules",
+          "fa": "قوانین",
+          "emoji": "📜"
+        },
+        {
+          "kind": "sentence",
+          "en": "You are not allowed to smoke here.",
+          "fa": "اینجا اجازهٔ سیگار کشیدن نداری."
+        },
+        {
+          "kind": "sentence",
+          "en": "Are we allowed to park here?",
+          "fa": "اجازه داریم اینجا پارک کنیم؟",
+          "highlight": "allowed"
+        },
+        {
+          "kind": "rule",
+          "title": "be allowed to",
+          "body": "برای اجازه: am/is/are allowed to + فعل ساده.",
+          "examples": [
+            {
+              "en": "You are not allowed to smoke here.",
+              "fa": "اینجا اجازهٔ سیگار کشیدن نداری."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u10-permission.1",
+          "kind": "mcq",
+          "prompt": "معنی «allowed» چیست؟",
+          "promptFa": "مجاز",
+          "choices": [
+            "مراقب",
+            "نمی‌تواند باشد",
+            "مجاز"
+          ],
+          "answer": 2,
+          "speak": "allowed",
+          "aiHints": {
+            "example": "I know the word \"allowed\".",
+            "explanation": "«allowed» یعنی مجاز."
+          }
+        },
+        {
+          "id": "b1-u10-permission.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🪪",
+          "choices": [
+            "rules",
+            "permit",
+            "allowed"
+          ],
+          "answer": 1,
+          "speak": "permit"
+        },
+        {
+          "id": "b1-u10-permission.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "may I",
+          "choices": [
+            "could have",
+            "may I",
+            "otherwise"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u10-permission.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "permit",
+              "fa": "اجازه دادن"
+            },
+            {
+              "en": "may I",
+              "fa": "می‌توانم (مؤدبانه)"
+            },
+            {
+              "en": "allowed",
+              "fa": "مجاز"
+            },
+            {
+              "en": "rules",
+              "fa": "قوانین"
+            }
+          ]
+        },
+        {
+          "id": "b1-u10-permission.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اجازه داریم اینجا پارک کنیم؟",
+          "sentence": "Are we ___ to park here?",
+          "choices": [
+            "allowed",
+            "permit",
+            "warn"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u10-permission.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اینجا اجازهٔ سیگار کشیدن نداری.",
+          "tokens": [
+            "to",
+            "smoke",
+            "here",
+            "You",
+            "are",
+            "allowed",
+            "not"
+          ],
+          "answer": "You are not allowed to smoke here"
+        },
+        {
+          "id": "b1-u10-permission.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Are",
+            "we",
+            "allow",
+            "to",
+            "park",
+            "here?"
+          ],
+          "answer": 2,
+          "fix": "Are we allowed to park here?",
+          "aiHints": {
+            "explanation": "درستش این است: Are we allowed to park here?"
+          }
+        },
+        {
+          "id": "b1-u10-permission.8",
+          "kind": "speed",
+          "prompt": "سریع! «sign» یعنی چه؟",
+          "speak": "sign",
+          "choices": [
+            "تابلو / امضا",
+            "باید باشد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u10-permission.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «ought to»",
+          "choices": [
+            "شاید باشد",
+            "باید",
+            "مجاز"
+          ],
+          "answer": 1,
+          "speak": "ought to",
+          "reviewOf": "b1-u10-had-better"
+        },
+        {
+          "id": "b1-u10-permission.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "otherwise",
+          "choices": [
+            "forgot",
+            "could have",
+            "otherwise"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u10-had-better"
+        },
+        {
+          "id": "b1-u10-permission.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📣",
+          "choices": [
+            "warn",
+            "sign",
+            "would have"
+          ],
+          "answer": 0,
+          "speak": "warn",
+          "reviewOf": "b1-u10-had-better"
+        },
+        {
+          "id": "b1-u10-permission.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «careful»",
+          "speak": "careful",
+          "choices": [
+            "باید باشد",
+            "مراقب"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u10-had-better"
+        },
+        {
+          "id": "b1-u10-permission.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "می‌توانم داخل بیایم؟",
+          "sentence": "___ I come in?",
+          "choices": [
+            "rules",
+            "sign",
+            "May"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "May I ask a question about the rules?",
+          "fa": "می‌توانم دربارهٔ قوانین سؤال بپرسم؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "be allowed to",
+        "body": "برای اجازه: am/is/are allowed to + فعل ساده."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u10-boss",
+    "titleFa": "نبرد پایانی — حدس و توصیه",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u10-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «might be»",
+        "speak": "might be",
+        "choices": [
+          "هشدار دادن",
+          "شاید باشد",
+          "مجاز"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u10-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "probably",
+        "choices": [
+          "probably",
+          "careful",
+          "can't be"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u10-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "😔",
+        "choices": [
+          "could have",
+          "should have",
+          "had better"
+        ],
+        "answer": 1,
+        "speak": "should have"
+      },
+      {
+        "id": "b1-u10-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «had better»",
+        "speak": "had better",
+        "choices": [
+          "نمی‌تواند باشد",
+          "بهتر است"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u10-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «warn»",
+        "speak": "warn",
+        "choices": [
+          "هشدار دادن",
+          "باید",
+          "فراموش کرد"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u10-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "permit",
+        "choices": [
+          "ought to",
+          "permit",
+          "had better"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u10-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🪧",
+        "choices": [
+          "sign",
+          "could have",
+          "would have"
+        ],
+        "answer": 0,
+        "speak": "sign"
+      },
+      {
+        "id": "b1-u10-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «can't be»",
+        "speak": "can't be",
+        "choices": [
+          "نمی‌تواند باشد",
+          "باید می‌کرد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u10-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «could have»",
+        "speak": "could have",
+        "choices": [
+          "می‌توانست",
+          "باید باشد",
+          "به‌جایش"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u10-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "instead",
+        "choices": [
+          "careful",
+          "sign",
+          "instead"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

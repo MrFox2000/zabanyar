@@ -1,0 +1,1288 @@
+{
+  "id": "b1-u12",
+  "level": "B1",
+  "index": 12,
+  "titleFa": "جمع‌بندی B1",
+  "titleEn": "Putting B1 together",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "b1-u12-my-story",
+      "title": "I grew up in…",
+      "titleFa": "داستان زندگی من",
+      "goal": "از زندگی‌ات بگویی",
+      "buildsOn": [
+        "b1-u11-essay-connectors"
+      ],
+      "vocab": [
+        {
+          "en": "grew up",
+          "fa": "بزرگ شد",
+          "emoji": "🌱"
+        },
+        {
+          "en": "born",
+          "fa": "متولد شد",
+          "emoji": "👶"
+        },
+        {
+          "en": "moved",
+          "fa": "اسباب‌کشی کرد",
+          "emoji": "📦"
+        },
+        {
+          "en": "childhood",
+          "fa": "کودکی",
+          "emoji": "🧒"
+        },
+        {
+          "en": "since then",
+          "fa": "از آن موقع",
+          "emoji": "⏳"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "grew up",
+          "fa": "بزرگ شد",
+          "emoji": "🌱"
+        },
+        {
+          "kind": "word",
+          "en": "born",
+          "fa": "متولد شد",
+          "emoji": "👶"
+        },
+        {
+          "kind": "word",
+          "en": "moved",
+          "fa": "اسباب‌کشی کرد",
+          "emoji": "📦"
+        },
+        {
+          "kind": "word",
+          "en": "childhood",
+          "fa": "کودکی",
+          "emoji": "🧒"
+        },
+        {
+          "kind": "sentence",
+          "en": "I grew up in a small city.",
+          "fa": "در شهر کوچکی بزرگ شدم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I grew up in a small city.",
+          "fa": "در شهر کوچکی بزرگ شدم.",
+          "highlight": "grew"
+        },
+        {
+          "kind": "rule",
+          "title": "grew up",
+          "body": "گذشتهٔ grow up می‌شود grew up: I grew up in…",
+          "examples": [
+            {
+              "en": "I grew up in a small city.",
+              "fa": "در شهر کوچکی بزرگ شدم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u12-my-story.1",
+          "kind": "mcq",
+          "prompt": "معنی «grew up» چیست؟",
+          "promptFa": "بزرگ شد",
+          "choices": [
+            "یاد گرفتن",
+            "بزرگ شد",
+            "ای کاش"
+          ],
+          "answer": 1,
+          "speak": "grew up",
+          "aiHints": {
+            "example": "I know the word \"grew up\".",
+            "explanation": "«grew up» یعنی بزرگ شد."
+          }
+        },
+        {
+          "id": "b1-u12-my-story.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👶",
+          "choices": [
+            "grew up",
+            "childhood",
+            "born"
+          ],
+          "answer": 2,
+          "speak": "born"
+        },
+        {
+          "id": "b1-u12-my-story.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "moved",
+          "choices": [
+            "learn",
+            "improve",
+            "moved"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u12-my-story.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "born",
+              "fa": "متولد شد"
+            },
+            {
+              "en": "grew up",
+              "fa": "بزرگ شد"
+            },
+            {
+              "en": "childhood",
+              "fa": "کودکی"
+            },
+            {
+              "en": "moved",
+              "fa": "اسباب‌کشی کرد"
+            }
+          ]
+        },
+        {
+          "id": "b1-u12-my-story.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "در شهر کوچکی بزرگ شدم.",
+          "sentence": "I ___ up in a small city.",
+          "choices": [
+            "grew",
+            "abroad",
+            "since then"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u12-my-story.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "در شهر کوچکی بزرگ شدم.",
+          "tokens": [
+            "small",
+            "in",
+            "I",
+            "city",
+            "grew",
+            "up",
+            "a"
+          ],
+          "answer": "I grew up in a small city"
+        },
+        {
+          "id": "b1-u12-my-story.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "grow",
+            "up",
+            "in",
+            "a",
+            "small",
+            "city."
+          ],
+          "answer": 1,
+          "fix": "I grew up in a small city.",
+          "aiHints": {
+            "explanation": "درستش این است: I grew up in a small city."
+          }
+        },
+        {
+          "id": "b1-u12-my-story.8",
+          "kind": "speed",
+          "prompt": "سریع! «since then» یعنی چه؟",
+          "speak": "since then",
+          "choices": [
+            "از آن موقع",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u12-my-story.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «secondly»",
+          "choices": [
+            "دوم",
+            "خارج",
+            "بحث کردن"
+          ],
+          "answer": 0,
+          "speak": "secondly",
+          "reviewOf": "b1-u11-essay-connectors"
+        },
+        {
+          "id": "b1-u12-my-story.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "in addition",
+          "choices": [
+            "review",
+            "in addition",
+            "passive"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u11-essay-connectors"
+        },
+        {
+          "id": "b1-u12-my-story.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "↔️",
+          "choices": [
+            "however",
+            "plan",
+            "compare"
+          ],
+          "answer": 0,
+          "speak": "however",
+          "reviewOf": "b1-u11-essay-connectors"
+        },
+        {
+          "id": "b1-u12-my-story.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «to sum up»",
+          "speak": "to sum up",
+          "choices": [
+            "در جمع‌بندی",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u11-essay-connectors"
+        },
+        {
+          "id": "b1-u12-my-story.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ده سال است اینجا زندگی می‌کنم.",
+          "sentence": "I have ___ here for ten years.",
+          "choices": [
+            "grew up",
+            "learn",
+            "lived"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I was born there and I grew up in a small city.",
+          "fa": "آنجا به دنیا آمدم و در شهر کوچکی بزرگ شدم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "grew up",
+        "body": "گذشتهٔ grow up می‌شود grew up: I grew up in…"
+      }
+    },
+    {
+      "id": "b1-u12-hopes-plans",
+      "title": "I hope I will…",
+      "titleFa": "امید و هدف",
+      "goal": "از آینده‌ای که می‌خواهی بگویی",
+      "buildsOn": [
+        "b1-u12-my-story"
+      ],
+      "vocab": [
+        {
+          "en": "hope",
+          "fa": "امیدوار بودن",
+          "emoji": "🌟"
+        },
+        {
+          "en": "plan",
+          "fa": "برنامه",
+          "emoji": "🗒️"
+        },
+        {
+          "en": "learn",
+          "fa": "یاد گرفتن",
+          "emoji": "📚"
+        },
+        {
+          "en": "improve",
+          "fa": "بهتر کردن",
+          "emoji": "📈"
+        },
+        {
+          "en": "abroad",
+          "fa": "خارج",
+          "emoji": "🌍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "hope",
+          "fa": "امیدوار بودن",
+          "emoji": "🌟"
+        },
+        {
+          "kind": "word",
+          "en": "plan",
+          "fa": "برنامه",
+          "emoji": "🗒️"
+        },
+        {
+          "kind": "word",
+          "en": "learn",
+          "fa": "یاد گرفتن",
+          "emoji": "📚"
+        },
+        {
+          "kind": "word",
+          "en": "improve",
+          "fa": "بهتر کردن",
+          "emoji": "📈"
+        },
+        {
+          "kind": "sentence",
+          "en": "I hope I will work abroad.",
+          "fa": "امیدوارم در خارج کار کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I hope I will speak English well.",
+          "fa": "امیدوارم انگلیسی را خوب صحبت کنم.",
+          "highlight": "will"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از will ساده",
+          "body": "will + فعل ساده: will speak، will learn.",
+          "examples": [
+            {
+              "en": "I hope I will work abroad.",
+              "fa": "امیدوارم در خارج کار کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u12-hopes-plans.1",
+          "kind": "mcq",
+          "prompt": "معنی «hope» چیست؟",
+          "promptFa": "امیدوار بودن",
+          "choices": [
+            "امیدوار بودن",
+            "مرور",
+            "داستان تعریف کردن"
+          ],
+          "answer": 0,
+          "speak": "hope",
+          "aiHints": {
+            "example": "I know the word \"hope\".",
+            "explanation": "«hope» یعنی امیدوار بودن."
+          }
+        },
+        {
+          "id": "b1-u12-hopes-plans.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗒️",
+          "choices": [
+            "hope",
+            "plan",
+            "learn"
+          ],
+          "answer": 1,
+          "speak": "plan"
+        },
+        {
+          "id": "b1-u12-hopes-plans.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "learn",
+          "choices": [
+            "learn",
+            "moved",
+            "tell a story"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u12-hopes-plans.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "plan",
+              "fa": "برنامه"
+            },
+            {
+              "en": "improve",
+              "fa": "بهتر کردن"
+            },
+            {
+              "en": "hope",
+              "fa": "امیدوار بودن"
+            },
+            {
+              "en": "learn",
+              "fa": "یاد گرفتن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u12-hopes-plans.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "امیدوارم انگلیسی را خوب صحبت کنم.",
+          "sentence": "I hope I ___ speak English well.",
+          "choices": [
+            "wish",
+            "advice",
+            "will"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u12-hopes-plans.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "امیدوارم در خارج کار کنم.",
+          "tokens": [
+            "I",
+            "hope",
+            "work",
+            "abroad",
+            "will",
+            "I"
+          ],
+          "answer": "I hope I will work abroad"
+        },
+        {
+          "id": "b1-u12-hopes-plans.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "hope",
+            "I",
+            "will",
+            "speaks",
+            "English."
+          ],
+          "answer": 4,
+          "fix": "I hope I will speak English.",
+          "aiHints": {
+            "explanation": "درستش این است: I hope I will speak English."
+          }
+        },
+        {
+          "id": "b1-u12-hopes-plans.8",
+          "kind": "speed",
+          "prompt": "سریع! «abroad» یعنی چه؟",
+          "speak": "abroad",
+          "choices": [
+            "بزرگ شد",
+            "خارج"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u12-hopes-plans.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «born»",
+          "choices": [
+            "متولد شد",
+            "توصیه",
+            "توضیح دادن"
+          ],
+          "answer": 0,
+          "speak": "born",
+          "reviewOf": "b1-u12-my-story"
+        },
+        {
+          "id": "b1-u12-hopes-plans.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "moved",
+          "choices": [
+            "moved",
+            "passive",
+            "hope"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u12-my-story"
+        },
+        {
+          "id": "b1-u12-hopes-plans.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🧒",
+          "choices": [
+            "childhood",
+            "tell a story",
+            "born"
+          ],
+          "answer": 0,
+          "speak": "childhood",
+          "reviewOf": "b1-u12-my-story"
+        },
+        {
+          "id": "b1-u12-hopes-plans.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «since then»",
+          "speak": "since then",
+          "choices": [
+            "از آن موقع",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u12-my-story"
+        },
+        {
+          "id": "b1-u12-hopes-plans.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "می‌خواهم زبان جدیدی یاد بگیرم.",
+          "sentence": "I want to ___ a new language.",
+          "choices": [
+            "review",
+            "born",
+            "learn"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I plan to learn and improve my English.",
+          "fa": "قصد دارم انگلیسی‌ام را یاد بگیرم و بهتر کنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از will ساده",
+        "body": "will + فعل ساده: will speak، will learn."
+      }
+    },
+    {
+      "id": "b1-u12-what-i-can-do",
+      "title": "What I can do now",
+      "titleFa": "کاری که از پسش برمی‌آیم",
+      "goal": "مهارت‌هایت را بسنجی",
+      "buildsOn": [
+        "b1-u12-hopes-plans"
+      ],
+      "vocab": [
+        {
+          "en": "tell a story",
+          "fa": "داستان تعریف کردن",
+          "emoji": "📖"
+        },
+        {
+          "en": "describe",
+          "fa": "توصیف کردن",
+          "emoji": "🖼️"
+        },
+        {
+          "en": "explain",
+          "fa": "توضیح دادن",
+          "emoji": "🗒️"
+        },
+        {
+          "en": "compare",
+          "fa": "مقایسه کردن",
+          "emoji": "⚖️"
+        },
+        {
+          "en": "discuss",
+          "fa": "بحث کردن",
+          "emoji": "💬"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "tell a story",
+          "fa": "داستان تعریف کردن",
+          "emoji": "📖"
+        },
+        {
+          "kind": "word",
+          "en": "describe",
+          "fa": "توصیف کردن",
+          "emoji": "🖼️"
+        },
+        {
+          "kind": "word",
+          "en": "explain",
+          "fa": "توضیح دادن",
+          "emoji": "🗒️"
+        },
+        {
+          "kind": "word",
+          "en": "compare",
+          "fa": "مقایسه کردن",
+          "emoji": "⚖️"
+        },
+        {
+          "kind": "sentence",
+          "en": "I can tell a story in English now.",
+          "fa": "حالا می‌توانم به انگلیسی داستان تعریف کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have studied English for a year.",
+          "fa": "یک سال است انگلیسی می‌خوانم.",
+          "highlight": "studied"
+        },
+        {
+          "kind": "rule",
+          "title": "can + ساده",
+          "body": "بعد از can فعل ساده می‌آید: I can tell، I can describe.",
+          "examples": [
+            {
+              "en": "I can tell a story in English now.",
+              "fa": "حالا می‌توانم به انگلیسی داستان تعریف کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u12-what-i-can-do.1",
+          "kind": "mcq",
+          "prompt": "معنی «tell a story» چیست؟",
+          "promptFa": "داستان تعریف کردن",
+          "choices": [
+            "بزرگ شد",
+            "داستان تعریف کردن",
+            "بحث کردن"
+          ],
+          "answer": 1,
+          "speak": "tell a story",
+          "aiHints": {
+            "example": "I know the word \"tell a story\".",
+            "explanation": "«tell a story» یعنی داستان تعریف کردن."
+          }
+        },
+        {
+          "id": "b1-u12-what-i-can-do.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🖼️",
+          "choices": [
+            "explain",
+            "discuss",
+            "describe"
+          ],
+          "answer": 2,
+          "speak": "describe"
+        },
+        {
+          "id": "b1-u12-what-i-can-do.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "explain",
+          "choices": [
+            "childhood",
+            "review",
+            "explain"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u12-what-i-can-do.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "describe",
+              "fa": "توصیف کردن"
+            },
+            {
+              "en": "compare",
+              "fa": "مقایسه کردن"
+            },
+            {
+              "en": "explain",
+              "fa": "توضیح دادن"
+            },
+            {
+              "en": "tell a story",
+              "fa": "داستان تعریف کردن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u12-what-i-can-do.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "یک سال است انگلیسی می‌خوانم.",
+          "sentence": "I have ___ English for a year.",
+          "choices": [
+            "grew up",
+            "studied",
+            "describe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u12-what-i-can-do.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "حالا می‌توانم به انگلیسی داستان تعریف کنم.",
+          "tokens": [
+            "a",
+            "story",
+            "tell",
+            "I",
+            "now",
+            "can",
+            "English",
+            "in"
+          ],
+          "answer": "I can tell a story in English now"
+        },
+        {
+          "id": "b1-u12-what-i-can-do.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "can",
+            "tells",
+            "a",
+            "story."
+          ],
+          "answer": 2,
+          "fix": "I can tell a story.",
+          "aiHints": {
+            "explanation": "درستش این است: I can tell a story."
+          }
+        },
+        {
+          "id": "b1-u12-what-i-can-do.8",
+          "kind": "speed",
+          "prompt": "سریع! «discuss» یعنی چه؟",
+          "speak": "discuss",
+          "choices": [
+            "بحث کردن",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u12-what-i-can-do.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «plan»",
+          "choices": [
+            "متولد شد",
+            "برنامه",
+            "از آن موقع"
+          ],
+          "answer": 1,
+          "speak": "plan",
+          "reviewOf": "b1-u12-hopes-plans"
+        },
+        {
+          "id": "b1-u12-what-i-can-do.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "learn",
+          "choices": [
+            "advice",
+            "hope",
+            "learn"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u12-hopes-plans"
+        },
+        {
+          "id": "b1-u12-what-i-can-do.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📈",
+          "choices": [
+            "advice",
+            "learn",
+            "improve"
+          ],
+          "answer": 2,
+          "speak": "improve",
+          "reviewOf": "b1-u12-hopes-plans"
+        },
+        {
+          "id": "b1-u12-what-i-can-do.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «abroad»",
+          "speak": "abroad",
+          "choices": [
+            "خارج",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u12-hopes-plans"
+        },
+        {
+          "id": "b1-u12-what-i-can-do.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر وقت بیشتری داشتم، بیشتر درس می‌خواندم.",
+          "sentence": "If I had more time, I ___ study more.",
+          "choices": [
+            "would",
+            "plan",
+            "childhood"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I can describe and compare things now.",
+          "fa": "حالا می‌توانم چیزها را توصیف و مقایسه کنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "can + ساده",
+        "body": "بعد از can فعل ساده می‌آید: I can tell، I can describe."
+      }
+    },
+    {
+      "id": "b1-u12-b1-final",
+      "title": "B1 final review",
+      "titleFa": "مرور پایانی B1",
+      "goal": "آمادهٔ B2 شوی",
+      "buildsOn": [
+        "b1-u12-what-i-can-do"
+      ],
+      "vocab": [
+        {
+          "en": "passive",
+          "fa": "مجهول",
+          "emoji": "🔁"
+        },
+        {
+          "en": "reported",
+          "fa": "نقل قول",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "wish",
+          "fa": "ای کاش",
+          "emoji": "🌠"
+        },
+        {
+          "en": "advice",
+          "fa": "توصیه",
+          "emoji": "💡"
+        },
+        {
+          "en": "review",
+          "fa": "مرور",
+          "emoji": "📝"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "passive",
+          "fa": "مجهول",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "word",
+          "en": "reported",
+          "fa": "نقل قول",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "wish",
+          "fa": "ای کاش",
+          "emoji": "🌠"
+        },
+        {
+          "kind": "word",
+          "en": "advice",
+          "fa": "توصیه",
+          "emoji": "💡"
+        },
+        {
+          "kind": "sentence",
+          "en": "I wish I had started earlier.",
+          "fa": "ای کاش زودتر شروع کرده بودم."
+        },
+        {
+          "kind": "sentence",
+          "en": "The letter was sent yesterday.",
+          "fa": "نامه دیروز فرستاده شد.",
+          "highlight": "was"
+        },
+        {
+          "kind": "rule",
+          "title": "چهار ستون B1",
+          "body": "گذشتهٔ کامل، مجهول، نقل قول و wish + گذشته — این‌ها را مرور کن.",
+          "examples": [
+            {
+              "en": "I wish I had started earlier.",
+              "fa": "ای کاش زودتر شروع کرده بودم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u12-b1-final.1",
+          "kind": "mcq",
+          "prompt": "معنی «passive» چیست؟",
+          "promptFa": "مجهول",
+          "choices": [
+            "خارج",
+            "مجهول",
+            "یاد گرفتن"
+          ],
+          "answer": 1,
+          "speak": "passive",
+          "aiHints": {
+            "example": "I know the word \"passive\".",
+            "explanation": "«passive» یعنی مجهول."
+          }
+        },
+        {
+          "id": "b1-u12-b1-final.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗣️",
+          "choices": [
+            "reported",
+            "advice",
+            "wish"
+          ],
+          "answer": 0,
+          "speak": "reported"
+        },
+        {
+          "id": "b1-u12-b1-final.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "wish",
+          "choices": [
+            "describe",
+            "wish",
+            "review"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u12-b1-final.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "passive",
+              "fa": "مجهول"
+            },
+            {
+              "en": "advice",
+              "fa": "توصیه"
+            },
+            {
+              "en": "reported",
+              "fa": "نقل قول"
+            },
+            {
+              "en": "wish",
+              "fa": "ای کاش"
+            }
+          ]
+        },
+        {
+          "id": "b1-u12-b1-final.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "نامه دیروز فرستاده شد.",
+          "sentence": "The letter ___ sent yesterday.",
+          "choices": [
+            "was",
+            "describe",
+            "born"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u12-b1-final.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ای کاش زودتر شروع کرده بودم.",
+          "tokens": [
+            "had",
+            "earlier",
+            "wish",
+            "I",
+            "I",
+            "started"
+          ],
+          "answer": "I wish I had started earlier"
+        },
+        {
+          "id": "b1-u12-b1-final.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "wish",
+            "I",
+            "have",
+            "started",
+            "earlier."
+          ],
+          "answer": 3,
+          "fix": "I wish I had started earlier.",
+          "aiHints": {
+            "explanation": "درستش این است: I wish I had started earlier."
+          }
+        },
+        {
+          "id": "b1-u12-b1-final.8",
+          "kind": "speed",
+          "prompt": "سریع! «review» یعنی چه؟",
+          "speak": "review",
+          "choices": [
+            "مرور",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u12-b1-final.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «describe»",
+          "choices": [
+            "توصیف کردن",
+            "امیدوار بودن",
+            "یاد گرفتن"
+          ],
+          "answer": 0,
+          "speak": "describe",
+          "reviewOf": "b1-u12-what-i-can-do"
+        },
+        {
+          "id": "b1-u12-b1-final.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "explain",
+          "choices": [
+            "hope",
+            "explain",
+            "moved"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u12-what-i-can-do"
+        },
+        {
+          "id": "b1-u12-b1-final.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⚖️",
+          "choices": [
+            "childhood",
+            "plan",
+            "compare"
+          ],
+          "answer": 2,
+          "speak": "compare",
+          "reviewOf": "b1-u12-what-i-can-do"
+        },
+        {
+          "id": "b1-u12-b1-final.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «discuss»",
+          "speak": "discuss",
+          "choices": [
+            "بحث کردن",
+            "بزرگ شد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u12-what-i-can-do"
+        },
+        {
+          "id": "b1-u12-b1-final.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او گفت که می‌آید.",
+          "sentence": "He said he ___ come.",
+          "choices": [
+            "would",
+            "review",
+            "advice"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have reviewed everything and I am ready for B2.",
+          "fa": "همه را مرور کردم و آمادهٔ B2 هستم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "چهار ستون B1",
+        "body": "گذشتهٔ کامل، مجهول، نقل قول و wish + گذشته — این‌ها را مرور کن."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u12-boss",
+    "titleFa": "نبرد پایانی — جمع‌بندی B1",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u12-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «born»",
+        "speak": "born",
+        "choices": [
+          "داستان تعریف کردن",
+          "متولد شد",
+          "یاد گرفتن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u12-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "since then",
+        "choices": [
+          "grew up",
+          "since then",
+          "born"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u12-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📚",
+        "choices": [
+          "describe",
+          "wish",
+          "learn"
+        ],
+        "answer": 2,
+        "speak": "learn"
+      },
+      {
+        "id": "b1-u12-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «tell a story»",
+        "speak": "tell a story",
+        "choices": [
+          "داستان تعریف کردن",
+          "ای کاش"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u12-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «compare»",
+        "speak": "compare",
+        "choices": [
+          "مقایسه کردن",
+          "برنامه",
+          "بزرگ شد"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u12-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "reported",
+        "choices": [
+          "plan",
+          "reported",
+          "tell a story"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u12-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📝",
+        "choices": [
+          "describe",
+          "childhood",
+          "review"
+        ],
+        "answer": 2,
+        "speak": "review"
+      },
+      {
+        "id": "b1-u12-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «moved»",
+        "speak": "moved",
+        "choices": [
+          "بحث کردن",
+          "اسباب‌کشی کرد"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u12-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «hope»",
+        "speak": "hope",
+        "choices": [
+          "امیدوار بودن",
+          "مجهول",
+          "خارج"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u12-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "improve",
+        "choices": [
+          "passive",
+          "reported",
+          "improve"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

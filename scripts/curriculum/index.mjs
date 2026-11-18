@@ -7,12 +7,13 @@ import a2Fourth from "./units-a2-4.mjs";
 import b1First from "./units-b1-1.mjs";
 import b1Second from "./units-b1-2.mjs";
 import b1Third from "./units-b1-3.mjs";
+import b1Fourth from "./units-b1-4.mjs";
 
 /** the graded syllabus, keyed by CEFR level, in reading order */
 const a1 = [...units14, ...units58].map((unit) => ({ ...unit, level: "A1" }));
 const a2 = [...a2First, ...a2Rest, ...a2Third, ...a2Fourth];
 
-const b1 = [...b1First, ...b1Second, ...b1Third];
+const b1 = [...b1First, ...b1Second, ...b1Third, ...b1Fourth];
 
 const levels = { a1, a2, b1 };
 

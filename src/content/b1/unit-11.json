@@ -1,0 +1,1285 @@
+{
+  "id": "b1-u11",
+  "level": "B1",
+  "index": 11,
+  "titleFa": "بحث و نظر",
+  "titleEn": "Discussion",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "b1-u11-abstract-nouns",
+      "title": "Education and health",
+      "titleFa": "واژه‌های انتزاعی",
+      "goal": "دربارهٔ مفاهیم کلی حرف بزنی",
+      "buildsOn": [
+        "b1-u10-permission"
+      ],
+      "vocab": [
+        {
+          "en": "education",
+          "fa": "آموزش",
+          "emoji": "🎓"
+        },
+        {
+          "en": "freedom",
+          "fa": "آزادی",
+          "emoji": "🕊️"
+        },
+        {
+          "en": "success",
+          "fa": "موفقیت",
+          "emoji": "🏆"
+        },
+        {
+          "en": "health",
+          "fa": "سلامتی",
+          "emoji": "💚"
+        },
+        {
+          "en": "opportunity",
+          "fa": "فرصت",
+          "emoji": "🚪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "education",
+          "fa": "آموزش",
+          "emoji": "🎓"
+        },
+        {
+          "kind": "word",
+          "en": "freedom",
+          "fa": "آزادی",
+          "emoji": "🕊️"
+        },
+        {
+          "kind": "word",
+          "en": "success",
+          "fa": "موفقیت",
+          "emoji": "🏆"
+        },
+        {
+          "kind": "word",
+          "en": "health",
+          "fa": "سلامتی",
+          "emoji": "💚"
+        },
+        {
+          "kind": "sentence",
+          "en": "Health is more important than money.",
+          "fa": "سلامتی از پول مهم‌تر است."
+        },
+        {
+          "kind": "sentence",
+          "en": "Education is important for everyone.",
+          "fa": "آموزش برای همه مهم است.",
+          "highlight": "Education"
+        },
+        {
+          "kind": "rule",
+          "title": "این‌ها مفردند",
+          "body": "اسم‌های انتزاعی مثل education و health مفردند و با is می‌آیند.",
+          "examples": [
+            {
+              "en": "Health is more important than money.",
+              "fa": "سلامتی از پول مهم‌تر است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u11-abstract-nouns.1",
+          "kind": "mcq",
+          "prompt": "معنی «education» چیست؟",
+          "promptFa": "آموزش",
+          "choices": [
+            "فایده",
+            "آموزش",
+            "مخالف بودن"
+          ],
+          "answer": 1,
+          "speak": "education",
+          "aiHints": {
+            "example": "I know the word \"education\".",
+            "explanation": "«education» یعنی آموزش."
+          }
+        },
+        {
+          "id": "b1-u11-abstract-nouns.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🕊️",
+          "choices": [
+            "education",
+            "opportunity",
+            "freedom"
+          ],
+          "answer": 2,
+          "speak": "freedom"
+        },
+        {
+          "id": "b1-u11-abstract-nouns.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "success",
+          "choices": [
+            "success",
+            "freedom",
+            "opportunity"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u11-abstract-nouns.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "education",
+              "fa": "آموزش"
+            },
+            {
+              "en": "success",
+              "fa": "موفقیت"
+            },
+            {
+              "en": "health",
+              "fa": "سلامتی"
+            },
+            {
+              "en": "freedom",
+              "fa": "آزادی"
+            }
+          ]
+        },
+        {
+          "id": "b1-u11-abstract-nouns.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "آموزش برای همه مهم است.",
+          "sentence": "___ is important for everyone.",
+          "choices": [
+            "education",
+            "Education",
+            "success"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u11-abstract-nouns.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "سلامتی از پول مهم‌تر است.",
+          "tokens": [
+            "money",
+            "important",
+            "than",
+            "more",
+            "is",
+            "Health"
+          ],
+          "answer": "Health is more important than money"
+        },
+        {
+          "id": "b1-u11-abstract-nouns.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Health",
+            "are",
+            "more",
+            "important",
+            "than",
+            "money."
+          ],
+          "answer": 1,
+          "fix": "Health is more important than money.",
+          "aiHints": {
+            "explanation": "درستش این است: Health is more important than money."
+          }
+        },
+        {
+          "id": "b1-u11-abstract-nouns.8",
+          "kind": "speed",
+          "prompt": "سریع! «opportunity» یعنی چه؟",
+          "speak": "opportunity",
+          "choices": [
+            "آموزش",
+            "فرصت"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u11-abstract-nouns.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «permit»",
+          "choices": [
+            "از طرف دیگر",
+            "اجازه دادن",
+            "فایده"
+          ],
+          "answer": 1,
+          "speak": "permit",
+          "reviewOf": "b1-u10-permission"
+        },
+        {
+          "id": "b1-u11-abstract-nouns.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "may I",
+          "choices": [
+            "may I",
+            "benefit",
+            "to sum up"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u10-permission"
+        },
+        {
+          "id": "b1-u11-abstract-nouns.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📜",
+          "choices": [
+            "risk",
+            "rules",
+            "to sum up"
+          ],
+          "answer": 1,
+          "speak": "rules",
+          "reviewOf": "b1-u10-permission"
+        },
+        {
+          "id": "b1-u11-abstract-nouns.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «sign»",
+          "speak": "sign",
+          "choices": [
+            "آموزش",
+            "تابلو / امضا"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u10-permission"
+        },
+        {
+          "id": "b1-u11-abstract-nouns.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "برایت آرزوی موفقیت می‌کنم.",
+          "sentence": "I wish you ___ .",
+          "choices": [
+            "freedom",
+            "success",
+            "advantage"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Education gives people freedom and opportunity.",
+          "fa": "آموزش به مردم آزادی و فرصت می‌دهد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "این‌ها مفردند",
+        "body": "اسم‌های انتزاعی مثل education و health مفردند و با is می‌آیند."
+      }
+    },
+    {
+      "id": "b1-u11-pros-cons",
+      "title": "Advantages and risks",
+      "titleFa": "مزایا و معایب",
+      "goal": "دو طرف یک موضوع را ببینی",
+      "buildsOn": [
+        "b1-u11-abstract-nouns"
+      ],
+      "vocab": [
+        {
+          "en": "advantage",
+          "fa": "مزیت",
+          "emoji": "👍"
+        },
+        {
+          "en": "disadvantage",
+          "fa": "عیب",
+          "emoji": "👎"
+        },
+        {
+          "en": "on the other hand",
+          "fa": "از طرف دیگر",
+          "emoji": "↔️"
+        },
+        {
+          "en": "benefit",
+          "fa": "فایده",
+          "emoji": "🎁"
+        },
+        {
+          "en": "risk",
+          "fa": "خطر",
+          "emoji": "⚠️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "advantage",
+          "fa": "مزیت",
+          "emoji": "👍"
+        },
+        {
+          "kind": "word",
+          "en": "disadvantage",
+          "fa": "عیب",
+          "emoji": "👎"
+        },
+        {
+          "kind": "word",
+          "en": "on the other hand",
+          "fa": "از طرف دیگر",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "word",
+          "en": "benefit",
+          "fa": "فایده",
+          "emoji": "🎁"
+        },
+        {
+          "kind": "sentence",
+          "en": "On the other hand, it saves time.",
+          "fa": "از طرف دیگر، در وقت صرفه‌جویی می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "One disadvantage is the price.",
+          "fa": "یکی از عیب‌هایش قیمت است.",
+          "highlight": "disadvantage"
+        },
+        {
+          "kind": "rule",
+          "title": "عبارت‌های بحث",
+          "body": "برای مقایسهٔ دو طرف: on the other hand، however، in addition.",
+          "examples": [
+            {
+              "en": "On the other hand, it saves time.",
+              "fa": "از طرف دیگر، در وقت صرفه‌جویی می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u11-pros-cons.1",
+          "kind": "mcq",
+          "prompt": "معنی «advantage» چیست؟",
+          "promptFa": "مزیت",
+          "choices": [
+            "مزیت",
+            "دوم",
+            "مخالف بودن"
+          ],
+          "answer": 0,
+          "speak": "advantage",
+          "aiHints": {
+            "example": "I know the word \"advantage\".",
+            "explanation": "«advantage» یعنی مزیت."
+          }
+        },
+        {
+          "id": "b1-u11-pros-cons.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👎",
+          "choices": [
+            "advantage",
+            "on the other hand",
+            "disadvantage"
+          ],
+          "answer": 2,
+          "speak": "disadvantage"
+        },
+        {
+          "id": "b1-u11-pros-cons.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "on the other hand",
+          "choices": [
+            "disadvantage",
+            "agree",
+            "on the other hand"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u11-pros-cons.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "advantage",
+              "fa": "مزیت"
+            },
+            {
+              "en": "on the other hand",
+              "fa": "از طرف دیگر"
+            },
+            {
+              "en": "disadvantage",
+              "fa": "عیب"
+            },
+            {
+              "en": "benefit",
+              "fa": "فایده"
+            }
+          ]
+        },
+        {
+          "id": "b1-u11-pros-cons.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "یکی از عیب‌هایش قیمت است.",
+          "sentence": "One ___ is the price.",
+          "choices": [
+            "disadvantage",
+            "to sum up",
+            "advantage"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u11-pros-cons.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "از طرف دیگر، در وقت صرفه‌جویی می‌کند.",
+          "tokens": [
+            "other",
+            "time",
+            "On",
+            "the",
+            "saves",
+            "hand,",
+            "it"
+          ],
+          "answer": "On the other hand, it saves time"
+        },
+        {
+          "id": "b1-u11-pros-cons.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "On",
+            "the",
+            "other",
+            "hand,",
+            "it",
+            "save",
+            "time."
+          ],
+          "answer": 5,
+          "fix": "On the other hand, it saves time.",
+          "aiHints": {
+            "explanation": "درستش این است: On the other hand, it saves time."
+          }
+        },
+        {
+          "id": "b1-u11-pros-cons.8",
+          "kind": "speed",
+          "prompt": "سریع! «risk» یعنی چه؟",
+          "speak": "risk",
+          "choices": [
+            "خطر",
+            "آموزش"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u11-pros-cons.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «freedom»",
+          "choices": [
+            "آزادی",
+            "دوم",
+            "متأسفانه"
+          ],
+          "answer": 0,
+          "speak": "freedom",
+          "reviewOf": "b1-u11-abstract-nouns"
+        },
+        {
+          "id": "b1-u11-pros-cons.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "success",
+          "choices": [
+            "risk",
+            "firstly",
+            "success"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u11-abstract-nouns"
+        },
+        {
+          "id": "b1-u11-pros-cons.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💚",
+          "choices": [
+            "health",
+            "on the other hand",
+            "risk"
+          ],
+          "answer": 0,
+          "speak": "health",
+          "reviewOf": "b1-u11-abstract-nouns"
+        },
+        {
+          "id": "b1-u11-pros-cons.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «opportunity»",
+          "speak": "opportunity",
+          "choices": [
+            "آموزش",
+            "فرصت"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u11-abstract-nouns"
+        },
+        {
+          "id": "b1-u11-pros-cons.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "یکی دیگر از مزیت‌هایش زمان است.",
+          "sentence": "Another ___ is the time.",
+          "choices": [
+            "advantage",
+            "on the other hand",
+            "opportunity"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The main benefit is speed, but the risk is high.",
+          "fa": "فایدهٔ اصلی سرعت است، ولی خطرش زیاد است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "عبارت‌های بحث",
+        "body": "برای مقایسهٔ دو طرف: on the other hand، however، in addition."
+      }
+    },
+    {
+      "id": "b1-u11-agree-disagree",
+      "title": "I'm afraid I disagree",
+      "titleFa": "موافقت و مخالفت",
+      "goal": "مؤدبانه مخالفت کنی",
+      "buildsOn": [
+        "b1-u11-pros-cons"
+      ],
+      "vocab": [
+        {
+          "en": "agree",
+          "fa": "موافق بودن",
+          "emoji": "👍"
+        },
+        {
+          "en": "disagree",
+          "fa": "مخالف بودن",
+          "emoji": "👎"
+        },
+        {
+          "en": "afraid",
+          "fa": "متأسفانه",
+          "emoji": "😅"
+        },
+        {
+          "en": "personally",
+          "fa": "شخصاً",
+          "emoji": "🙋"
+        },
+        {
+          "en": "that's true",
+          "fa": "درست است",
+          "emoji": "✅"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "agree",
+          "fa": "موافق بودن",
+          "emoji": "👍"
+        },
+        {
+          "kind": "word",
+          "en": "disagree",
+          "fa": "مخالف بودن",
+          "emoji": "👎"
+        },
+        {
+          "kind": "word",
+          "en": "afraid",
+          "fa": "متأسفانه",
+          "emoji": "😅"
+        },
+        {
+          "kind": "word",
+          "en": "personally",
+          "fa": "شخصاً",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "sentence",
+          "en": "That's true, but I see it differently.",
+          "fa": "درست است، ولی من جور دیگری می‌بینم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I am afraid I disagree.",
+          "fa": "متأسفانه مخالفم.",
+          "highlight": "afraid"
+        },
+        {
+          "kind": "rule",
+          "title": "agree فعل است",
+          "body": "می‌گوییم I agree، نه I am agree. برای مخالفت مؤدبانه: I'm afraid I disagree.",
+          "examples": [
+            {
+              "en": "That's true, but I see it differently.",
+              "fa": "درست است، ولی من جور دیگری می‌بینم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u11-agree-disagree.1",
+          "kind": "mcq",
+          "prompt": "معنی «agree» چیست؟",
+          "promptFa": "موافق بودن",
+          "choices": [
+            "در جمع‌بندی",
+            "موافق بودن",
+            "مخالف بودن"
+          ],
+          "answer": 1,
+          "speak": "agree",
+          "aiHints": {
+            "example": "I know the word \"agree\".",
+            "explanation": "«agree» یعنی موافق بودن."
+          }
+        },
+        {
+          "id": "b1-u11-agree-disagree.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👎",
+          "choices": [
+            "that's true",
+            "disagree",
+            "afraid"
+          ],
+          "answer": 1,
+          "speak": "disagree"
+        },
+        {
+          "id": "b1-u11-agree-disagree.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "afraid",
+          "choices": [
+            "afraid",
+            "agree",
+            "advantage"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u11-agree-disagree.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "afraid",
+              "fa": "متأسفانه"
+            },
+            {
+              "en": "disagree",
+              "fa": "مخالف بودن"
+            },
+            {
+              "en": "agree",
+              "fa": "موافق بودن"
+            },
+            {
+              "en": "personally",
+              "fa": "شخصاً"
+            }
+          ]
+        },
+        {
+          "id": "b1-u11-agree-disagree.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "متأسفانه مخالفم.",
+          "sentence": "I am ___ I disagree.",
+          "choices": [
+            "firstly",
+            "agree",
+            "afraid"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u11-agree-disagree.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "درست است، ولی من جور دیگری می‌بینم.",
+          "tokens": [
+            "I",
+            "differently",
+            "see",
+            "it",
+            "true,",
+            "but",
+            "That's"
+          ],
+          "answer": "That's true, but I see it differently"
+        },
+        {
+          "id": "b1-u11-agree-disagree.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "am",
+            "agree",
+            "with",
+            "you."
+          ],
+          "answer": 2,
+          "fix": "I agree with you.",
+          "aiHints": {
+            "explanation": "درستش این است: I agree with you."
+          }
+        },
+        {
+          "id": "b1-u11-agree-disagree.8",
+          "kind": "speed",
+          "prompt": "سریع! «that's true» یعنی چه؟",
+          "speak": "that's true",
+          "choices": [
+            "آموزش",
+            "درست است"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u11-agree-disagree.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «disadvantage»",
+          "choices": [
+            "موفقیت",
+            "عیب",
+            "آموزش"
+          ],
+          "answer": 1,
+          "speak": "disadvantage",
+          "reviewOf": "b1-u11-pros-cons"
+        },
+        {
+          "id": "b1-u11-agree-disagree.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "on the other hand",
+          "choices": [
+            "on the other hand",
+            "health",
+            "success"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u11-pros-cons"
+        },
+        {
+          "id": "b1-u11-agree-disagree.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎁",
+          "choices": [
+            "personally",
+            "benefit",
+            "in addition"
+          ],
+          "answer": 1,
+          "speak": "benefit",
+          "reviewOf": "b1-u11-pros-cons"
+        },
+        {
+          "id": "b1-u11-agree-disagree.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «risk»",
+          "speak": "risk",
+          "choices": [
+            "آموزش",
+            "خطر"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u11-pros-cons"
+        },
+        {
+          "id": "b1-u11-agree-disagree.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "شخصاً فکر می‌کنم اشتباه است.",
+          "sentence": "___, I think it is wrong.",
+          "choices": [
+            "Personally",
+            "however",
+            "advantage"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Personally I disagree, but that's true.",
+          "fa": "شخصاً مخالفم، ولی این درست است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "agree فعل است",
+        "body": "می‌گوییم I agree، نه I am agree. برای مخالفت مؤدبانه: I'm afraid I disagree."
+      }
+    },
+    {
+      "id": "b1-u11-essay-connectors",
+      "title": "Firstly, however, to sum up",
+      "titleFa": "کلمه‌های نوشتار",
+      "goal": "یک متن کوتاه منظم بنویسی",
+      "buildsOn": [
+        "b1-u11-agree-disagree"
+      ],
+      "vocab": [
+        {
+          "en": "firstly",
+          "fa": "اول، نخست",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "secondly",
+          "fa": "دوم",
+          "emoji": "2️⃣"
+        },
+        {
+          "en": "in addition",
+          "fa": "علاوه بر این",
+          "emoji": "➕"
+        },
+        {
+          "en": "however",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "en": "to sum up",
+          "fa": "در جمع‌بندی",
+          "emoji": "📝"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "firstly",
+          "fa": "اول، نخست",
+          "emoji": "1️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "secondly",
+          "fa": "دوم",
+          "emoji": "2️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "in addition",
+          "fa": "علاوه بر این",
+          "emoji": "➕"
+        },
+        {
+          "kind": "word",
+          "en": "however",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "sentence",
+          "en": "In addition, it costs less.",
+          "fa": "علاوه بر این، هزینهٔ کمتری دارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "Firstly, we need more time.",
+          "fa": "اول، ما وقت بیشتری لازم داریم.",
+          "highlight": "Firstly"
+        },
+        {
+          "kind": "rule",
+          "title": "اول جمله + ویرگول",
+          "body": "این کلمه‌ها اول جمله می‌آیند و با ویرگول جدا می‌شوند.",
+          "examples": [
+            {
+              "en": "In addition, it costs less.",
+              "fa": "علاوه بر این، هزینهٔ کمتری دارد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u11-essay-connectors.1",
+          "kind": "mcq",
+          "prompt": "معنی «firstly» چیست؟",
+          "promptFa": "اول، نخست",
+          "choices": [
+            "مزیت",
+            "از طرف دیگر",
+            "اول، نخست"
+          ],
+          "answer": 2,
+          "speak": "firstly",
+          "aiHints": {
+            "example": "I know the word \"firstly\".",
+            "explanation": "«firstly» یعنی اول، نخست."
+          }
+        },
+        {
+          "id": "b1-u11-essay-connectors.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "2️⃣",
+          "choices": [
+            "firstly",
+            "however",
+            "secondly"
+          ],
+          "answer": 2,
+          "speak": "secondly"
+        },
+        {
+          "id": "b1-u11-essay-connectors.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "in addition",
+          "choices": [
+            "however",
+            "in addition",
+            "disadvantage"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u11-essay-connectors.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "secondly",
+              "fa": "دوم"
+            },
+            {
+              "en": "firstly",
+              "fa": "اول، نخست"
+            },
+            {
+              "en": "however",
+              "fa": "با این حال"
+            },
+            {
+              "en": "in addition",
+              "fa": "علاوه بر این"
+            }
+          ]
+        },
+        {
+          "id": "b1-u11-essay-connectors.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اول، ما وقت بیشتری لازم داریم.",
+          "sentence": "___, we need more time.",
+          "choices": [
+            "freedom",
+            "Firstly",
+            "to sum up"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u11-essay-connectors.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "علاوه بر این، هزینهٔ کمتری دارد.",
+          "tokens": [
+            "costs",
+            "it",
+            "In",
+            "less",
+            "addition,"
+          ],
+          "answer": "In addition, it costs less"
+        },
+        {
+          "id": "b1-u11-essay-connectors.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "In",
+            "addition,",
+            "it",
+            "cost",
+            "less."
+          ],
+          "answer": 3,
+          "fix": "In addition, it costs less.",
+          "aiHints": {
+            "explanation": "درستش این است: In addition, it costs less."
+          }
+        },
+        {
+          "id": "b1-u11-essay-connectors.8",
+          "kind": "speed",
+          "prompt": "سریع! «to sum up» یعنی چه؟",
+          "speak": "to sum up",
+          "choices": [
+            "آموزش",
+            "در جمع‌بندی"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u11-essay-connectors.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «disagree»",
+          "choices": [
+            "از طرف دیگر",
+            "مخالف بودن",
+            "موافق بودن"
+          ],
+          "answer": 1,
+          "speak": "disagree",
+          "reviewOf": "b1-u11-agree-disagree"
+        },
+        {
+          "id": "b1-u11-essay-connectors.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "afraid",
+          "choices": [
+            "afraid",
+            "to sum up",
+            "benefit"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u11-agree-disagree"
+        },
+        {
+          "id": "b1-u11-essay-connectors.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🙋",
+          "choices": [
+            "personally",
+            "that's true",
+            "firstly"
+          ],
+          "answer": 0,
+          "speak": "personally",
+          "reviewOf": "b1-u11-agree-disagree"
+        },
+        {
+          "id": "b1-u11-essay-connectors.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «that's true»",
+          "speak": "that's true",
+          "choices": [
+            "آموزش",
+            "درست است"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u11-agree-disagree"
+        },
+        {
+          "id": "b1-u11-essay-connectors.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "در جمع‌بندی، برنامه خوب است.",
+          "sentence": "___, the plan is good.",
+          "choices": [
+            "however",
+            "To sum up",
+            "that's true"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Firstly it is cheap, however it is slow.",
+          "fa": "اول اینکه ارزان است، با این حال کند است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "اول جمله + ویرگول",
+        "body": "این کلمه‌ها اول جمله می‌آیند و با ویرگول جدا می‌شوند."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u11-boss",
+    "titleFa": "نبرد پایانی — بحث و نظر",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u11-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «freedom»",
+        "speak": "freedom",
+        "choices": [
+          "فایده",
+          "موافق بودن",
+          "آزادی"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u11-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "opportunity",
+        "choices": [
+          "however",
+          "opportunity",
+          "health"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u11-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "↔️",
+        "choices": [
+          "on the other hand",
+          "disadvantage",
+          "risk"
+        ],
+        "answer": 0,
+        "speak": "on the other hand"
+      },
+      {
+        "id": "b1-u11-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «agree»",
+        "speak": "agree",
+        "choices": [
+          "عیب",
+          "موافق بودن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u11-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «personally»",
+        "speak": "personally",
+        "choices": [
+          "فرصت",
+          "شخصاً",
+          "آموزش"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u11-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "secondly",
+        "choices": [
+          "secondly",
+          "education",
+          "advantage"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u11-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📝",
+        "choices": [
+          "to sum up",
+          "advantage",
+          "success"
+        ],
+        "answer": 0,
+        "speak": "to sum up"
+      },
+      {
+        "id": "b1-u11-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «success»",
+        "speak": "success",
+        "choices": [
+          "فایده",
+          "موفقیت"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u11-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «advantage»",
+        "speak": "advantage",
+        "choices": [
+          "مزیت",
+          "مخالف بودن",
+          "دوم"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u11-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "benefit",
+        "choices": [
+          "benefit",
+          "health",
+          "disadvantage"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
