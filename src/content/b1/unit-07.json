@@ -1,0 +1,1292 @@
+{
+  "id": "b1-u7",
+  "level": "B1",
+  "index": 7,
+  "titleFa": "گذشتهٔ کامل و داستان",
+  "titleEn": "Past perfect stories",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "b1-u7-past-perfect",
+      "title": "I had left",
+      "titleFa": "گذشتهٔ کامل",
+      "goal": "بگویی کاری قبل از اتفاقی دیگر تمام شده بود",
+      "buildsOn": [
+        "b1-u6-community"
+      ],
+      "vocab": [
+        {
+          "en": "had left",
+          "fa": "رفته بود",
+          "emoji": "🚪"
+        },
+        {
+          "en": "had finished",
+          "fa": "تمام کرده بود",
+          "emoji": "✅"
+        },
+        {
+          "en": "had started",
+          "fa": "شروع شده بود",
+          "emoji": "▶️"
+        },
+        {
+          "en": "before",
+          "fa": "قبل از",
+          "emoji": "◀️"
+        },
+        {
+          "en": "after",
+          "fa": "بعد از",
+          "emoji": "▶️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "had left",
+          "fa": "رفته بود",
+          "emoji": "🚪"
+        },
+        {
+          "kind": "word",
+          "en": "had finished",
+          "fa": "تمام کرده بود",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "had started",
+          "fa": "شروع شده بود",
+          "emoji": "▶️"
+        },
+        {
+          "kind": "word",
+          "en": "before",
+          "fa": "قبل از",
+          "emoji": "◀️"
+        },
+        {
+          "kind": "sentence",
+          "en": "When I got home, everyone had eaten.",
+          "fa": "وقتی به خانه رسیدم، همه غذا خورده بودند."
+        },
+        {
+          "kind": "sentence",
+          "en": "The train had left before we arrived.",
+          "fa": "قطار قبل از رسیدن ما رفته بود.",
+          "highlight": "had left"
+        },
+        {
+          "kind": "rule",
+          "title": "قبل از گذشته",
+          "body": "برای کاری که قبل از یک اتفاق گذشته تمام شده بود: had + قسمت سوم فعل.",
+          "examples": [
+            {
+              "en": "When I got home, everyone had eaten.",
+              "fa": "وقتی به خانه رسیدم، همه غذا خورده بودند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u7-past-perfect.1",
+          "kind": "mcq",
+          "prompt": "معنی «had left» چیست؟",
+          "promptFa": "رفته بود",
+          "choices": [
+            "رفته بود",
+            "در همین حال",
+            "بعد از"
+          ],
+          "answer": 0,
+          "speak": "had left",
+          "aiHints": {
+            "example": "I know the word \"had left\".",
+            "explanation": "«had left» یعنی رفته بود."
+          }
+        },
+        {
+          "id": "b1-u7-past-perfect.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "had started",
+            "had finished",
+            "after"
+          ],
+          "answer": 1,
+          "speak": "had finished"
+        },
+        {
+          "id": "b1-u7-past-perfect.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "had started",
+          "choices": [
+            "had started",
+            "once",
+            "crowded"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u7-past-perfect.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "had started",
+              "fa": "شروع شده بود"
+            },
+            {
+              "en": "had left",
+              "fa": "رفته بود"
+            },
+            {
+              "en": "had finished",
+              "fa": "تمام کرده بود"
+            },
+            {
+              "en": "before",
+              "fa": "قبل از"
+            }
+          ]
+        },
+        {
+          "id": "b1-u7-past-perfect.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "قطار قبل از رسیدن ما رفته بود.",
+          "sentence": "The train ___ before we arrived.",
+          "choices": [
+            "as soon as",
+            "after",
+            "had left"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u7-past-perfect.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "وقتی به خانه رسیدم، همه غذا خورده بودند.",
+          "tokens": [
+            "got",
+            "When",
+            "I",
+            "home,",
+            "had",
+            "eaten",
+            "everyone"
+          ],
+          "answer": "When I got home, everyone had eaten"
+        },
+        {
+          "id": "b1-u7-past-perfect.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "When",
+            "I",
+            "arrived,",
+            "the",
+            "film",
+            "has",
+            "started."
+          ],
+          "answer": 5,
+          "fix": "When I arrived, the film had started.",
+          "aiHints": {
+            "explanation": "درستش این است: When I arrived, the film had started."
+          }
+        },
+        {
+          "id": "b1-u7-past-perfect.8",
+          "kind": "speed",
+          "prompt": "سریع! «after» یعنی چه؟",
+          "speak": "after",
+          "choices": [
+            "بعد از",
+            "رفته بود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u7-past-perfect.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «volunteer»",
+          "choices": [
+            "اشتباه",
+            "شگفت‌انگیز",
+            "داوطلب شدن"
+          ],
+          "answer": 2,
+          "speak": "volunteer",
+          "reviewOf": "b1-u6-community"
+        },
+        {
+          "id": "b1-u7-past-perfect.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "community",
+          "choices": [
+            "amazing",
+            "once",
+            "community"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u6-community"
+        },
+        {
+          "id": "b1-u7-past-perfect.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🤝",
+          "choices": [
+            "support",
+            "memorable",
+            "regret"
+          ],
+          "answer": 0,
+          "speak": "support",
+          "reviewOf": "b1-u6-community"
+        },
+        {
+          "id": "b1-u7-past-perfect.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «improve»",
+          "speak": "improve",
+          "choices": [
+            "رفته بود",
+            "بهتر کردن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u6-community"
+        },
+        {
+          "id": "b1-u7-past-perfect.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او کارش را قبل ناهار تمام کرده بود.",
+          "sentence": "She ___ her work before lunch.",
+          "choices": [
+            "had finished",
+            "had left",
+            "had started"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "When I arrived, the film had already started.",
+          "fa": "وقتی رسیدم، فیلم قبلاً شروع شده بود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "قبل از گذشته",
+        "body": "برای کاری که قبل از یک اتفاق گذشته تمام شده بود: had + قسمت سوم فعل."
+      }
+    },
+    {
+      "id": "b1-u7-narrative-time",
+      "title": "By the time…",
+      "titleFa": "ترتیب و زمان",
+      "goal": "داستانت را با زمان‌بندی دقیق تعریف کنی",
+      "buildsOn": [
+        "b1-u7-past-perfect"
+      ],
+      "vocab": [
+        {
+          "en": "by the time",
+          "fa": "تا زمانی که",
+          "emoji": "⏰"
+        },
+        {
+          "en": "as soon as",
+          "fa": "به‌محض اینکه",
+          "emoji": "⚡"
+        },
+        {
+          "en": "meanwhile",
+          "fa": "در همین حال",
+          "emoji": "⏳"
+        },
+        {
+          "en": "eventually",
+          "fa": "سرانجام",
+          "emoji": "🏁"
+        },
+        {
+          "en": "once",
+          "fa": "یک بار",
+          "emoji": "1️⃣"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "by the time",
+          "fa": "تا زمانی که",
+          "emoji": "⏰"
+        },
+        {
+          "kind": "word",
+          "en": "as soon as",
+          "fa": "به‌محض اینکه",
+          "emoji": "⚡"
+        },
+        {
+          "kind": "word",
+          "en": "meanwhile",
+          "fa": "در همین حال",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "eventually",
+          "fa": "سرانجام",
+          "emoji": "🏁"
+        },
+        {
+          "kind": "sentence",
+          "en": "Meanwhile, she was cooking dinner.",
+          "fa": "در همین حال او شام می‌پخت."
+        },
+        {
+          "kind": "sentence",
+          "en": "By the time I got there, it was closed.",
+          "fa": "تا رسیدم، بسته شده بود.",
+          "highlight": "By the time"
+        },
+        {
+          "kind": "rule",
+          "title": "by the time",
+          "body": "by the time + گذشتهٔ ساده، قسمت دیگر اغلب گذشتهٔ کامل است.",
+          "examples": [
+            {
+              "en": "Meanwhile, she was cooking dinner.",
+              "fa": "در همین حال او شام می‌پخت."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u7-narrative-time.1",
+          "kind": "mcq",
+          "prompt": "معنی «by the time» چیست؟",
+          "promptFa": "تا زمانی که",
+          "choices": [
+            "تا زمانی که",
+            "سفر",
+            "فرصت"
+          ],
+          "answer": 0,
+          "speak": "by the time",
+          "aiHints": {
+            "example": "I know the word \"by the time\".",
+            "explanation": "«by the time» یعنی تا زمانی که."
+          }
+        },
+        {
+          "id": "b1-u7-narrative-time.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⚡",
+          "choices": [
+            "by the time",
+            "as soon as",
+            "meanwhile"
+          ],
+          "answer": 1,
+          "speak": "as soon as"
+        },
+        {
+          "id": "b1-u7-narrative-time.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "meanwhile",
+          "choices": [
+            "chance",
+            "had started",
+            "meanwhile"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u7-narrative-time.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "by the time",
+              "fa": "تا زمانی که"
+            },
+            {
+              "en": "meanwhile",
+              "fa": "در همین حال"
+            },
+            {
+              "en": "as soon as",
+              "fa": "به‌محض اینکه"
+            },
+            {
+              "en": "eventually",
+              "fa": "سرانجام"
+            }
+          ]
+        },
+        {
+          "id": "b1-u7-narrative-time.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "تا رسیدم، بسته شده بود.",
+          "sentence": "___ I got there, it was closed.",
+          "choices": [
+            "regret",
+            "after",
+            "By the time"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u7-narrative-time.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "در همین حال او شام می‌پخت.",
+          "tokens": [
+            "Meanwhile,",
+            "was",
+            "she",
+            "cooking",
+            "dinner"
+          ],
+          "answer": "Meanwhile, she was cooking dinner"
+        },
+        {
+          "id": "b1-u7-narrative-time.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "By",
+            "the",
+            "time",
+            "I",
+            "arrive,",
+            "it",
+            "had",
+            "closed."
+          ],
+          "answer": 4,
+          "fix": "By the time I arrived, it had closed.",
+          "aiHints": {
+            "explanation": "درستش این است: By the time I arrived, it had closed."
+          }
+        },
+        {
+          "id": "b1-u7-narrative-time.8",
+          "kind": "speed",
+          "prompt": "سریع! «once» یعنی چه؟",
+          "speak": "once",
+          "choices": [
+            "رفته بود",
+            "یک بار"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u7-narrative-time.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «had finished»",
+          "choices": [
+            "خارج",
+            "تمام کرده بود",
+            "باید (می‌کردم)"
+          ],
+          "answer": 1,
+          "speak": "had finished",
+          "reviewOf": "b1-u7-past-perfect"
+        },
+        {
+          "id": "b1-u7-narrative-time.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "had started",
+          "choices": [
+            "had started",
+            "eventually",
+            "trip"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u7-past-perfect"
+        },
+        {
+          "id": "b1-u7-narrative-time.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "◀️",
+          "choices": [
+            "had left",
+            "before",
+            "had finished"
+          ],
+          "answer": 1,
+          "speak": "before",
+          "reviewOf": "b1-u7-past-perfect"
+        },
+        {
+          "id": "b1-u7-narrative-time.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «after»",
+          "speak": "after",
+          "choices": [
+            "رفته بود",
+            "بعد از"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u7-past-perfect"
+        },
+        {
+          "id": "b1-u7-narrative-time.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "به‌محض اینکه تمام کردیم راه افتادیم.",
+          "sentence": "We left ___ we finished.",
+          "choices": [
+            "mistake",
+            "by the time",
+            "as soon as"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "By the time we arrived, they had finished.",
+          "fa": "تا ما رسیدیم، آن‌ها تمام کرده بودند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "by the time",
+        "body": "by the time + گذشتهٔ ساده، قسمت دیگر اغلب گذشتهٔ کامل است."
+      }
+    },
+    {
+      "id": "b1-u7-wish-regret",
+      "title": "I wish I had…",
+      "titleFa": "آرزو و پشیمانی",
+      "goal": "از آرزو و پشیمانی حرف بزنی",
+      "buildsOn": [
+        "b1-u7-narrative-time"
+      ],
+      "vocab": [
+        {
+          "en": "wish",
+          "fa": "ای کاش",
+          "emoji": "🌠"
+        },
+        {
+          "en": "should have",
+          "fa": "باید (می‌کردم)",
+          "emoji": "😔"
+        },
+        {
+          "en": "regret",
+          "fa": "پشیمان بودن",
+          "emoji": "💭"
+        },
+        {
+          "en": "mistake",
+          "fa": "اشتباه",
+          "emoji": "❌"
+        },
+        {
+          "en": "chance",
+          "fa": "فرصت",
+          "emoji": "🚪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "wish",
+          "fa": "ای کاش",
+          "emoji": "🌠"
+        },
+        {
+          "kind": "word",
+          "en": "should have",
+          "fa": "باید (می‌کردم)",
+          "emoji": "😔"
+        },
+        {
+          "kind": "word",
+          "en": "regret",
+          "fa": "پشیمان بودن",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "mistake",
+          "fa": "اشتباه",
+          "emoji": "❌"
+        },
+        {
+          "kind": "sentence",
+          "en": "I wish I had more time.",
+          "fa": "ای کاش وقت بیشتری داشتم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I wish I had studied more.",
+          "fa": "ای کاش بیشتر درس خوانده بودم.",
+          "highlight": "wish"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از wish گذشته",
+          "body": "برای آرزوی حال از گذشتهٔ ساده استفاده کن: I wish I had more time.",
+          "examples": [
+            {
+              "en": "I wish I had more time.",
+              "fa": "ای کاش وقت بیشتری داشتم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u7-wish-regret.1",
+          "kind": "mcq",
+          "prompt": "معنی «wish» چیست؟",
+          "promptFa": "ای کاش",
+          "choices": [
+            "ای کاش",
+            "در همین حال",
+            "شلوغ"
+          ],
+          "answer": 0,
+          "speak": "wish",
+          "aiHints": {
+            "example": "I know the word \"wish\".",
+            "explanation": "«wish» یعنی ای کاش."
+          }
+        },
+        {
+          "id": "b1-u7-wish-regret.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "😔",
+          "choices": [
+            "regret",
+            "should have",
+            "mistake"
+          ],
+          "answer": 1,
+          "speak": "should have"
+        },
+        {
+          "id": "b1-u7-wish-regret.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "regret",
+          "choices": [
+            "should have",
+            "regret",
+            "eventually"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u7-wish-regret.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "mistake",
+              "fa": "اشتباه"
+            },
+            {
+              "en": "wish",
+              "fa": "ای کاش"
+            },
+            {
+              "en": "regret",
+              "fa": "پشیمان بودن"
+            },
+            {
+              "en": "should have",
+              "fa": "باید (می‌کردم)"
+            }
+          ]
+        },
+        {
+          "id": "b1-u7-wish-regret.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "ای کاش بیشتر درس خوانده بودم.",
+          "sentence": "I ___ I had studied more.",
+          "choices": [
+            "meanwhile",
+            "chance",
+            "wish"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u7-wish-regret.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ای کاش وقت بیشتری داشتم.",
+          "tokens": [
+            "more",
+            "I",
+            "time",
+            "I",
+            "had",
+            "wish"
+          ],
+          "answer": "I wish I had more time"
+        },
+        {
+          "id": "b1-u7-wish-regret.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "wish",
+            "I",
+            "have",
+            "more",
+            "time."
+          ],
+          "answer": 3,
+          "fix": "I wish I had more time.",
+          "aiHints": {
+            "explanation": "درستش این است: I wish I had more time."
+          }
+        },
+        {
+          "id": "b1-u7-wish-regret.8",
+          "kind": "speed",
+          "prompt": "سریع! «chance» یعنی چه؟",
+          "speak": "chance",
+          "choices": [
+            "فرصت",
+            "رفته بود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u7-wish-regret.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «as soon as»",
+          "choices": [
+            "باید (می‌کردم)",
+            "اشتباه",
+            "به‌محض اینکه"
+          ],
+          "answer": 2,
+          "speak": "as soon as",
+          "reviewOf": "b1-u7-narrative-time"
+        },
+        {
+          "id": "b1-u7-wish-regret.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "meanwhile",
+          "choices": [
+            "chance",
+            "trip",
+            "meanwhile"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u7-narrative-time"
+        },
+        {
+          "id": "b1-u7-wish-regret.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏁",
+          "choices": [
+            "mistake",
+            "memorable",
+            "eventually"
+          ],
+          "answer": 2,
+          "speak": "eventually",
+          "reviewOf": "b1-u7-narrative-time"
+        },
+        {
+          "id": "b1-u7-wish-regret.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «once»",
+          "speak": "once",
+          "choices": [
+            "رفته بود",
+            "یک بار"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u7-narrative-time"
+        },
+        {
+          "id": "b1-u7-wish-regret.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "باید بهش زنگ می‌زدم.",
+          "sentence": "I ___ have called her.",
+          "choices": [
+            "trip",
+            "should",
+            "mistake"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I regret it and I wish I had another chance.",
+          "fa": "پشیمانم و ای کاش فرصت دیگری داشتم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از wish گذشته",
+        "body": "برای آرزوی حال از گذشتهٔ ساده استفاده کن: I wish I had more time."
+      }
+    },
+    {
+      "id": "b1-u7-anecdote",
+      "title": "A story from my trip",
+      "titleFa": "خاطره‌گویی",
+      "goal": "یک خاطره را کامل تعریف کنی",
+      "buildsOn": [
+        "b1-u7-wish-regret"
+      ],
+      "vocab": [
+        {
+          "en": "trip",
+          "fa": "سفر",
+          "emoji": "🧳"
+        },
+        {
+          "en": "abroad",
+          "fa": "خارج",
+          "emoji": "🌍"
+        },
+        {
+          "en": "amazing",
+          "fa": "شگفت‌انگیز",
+          "emoji": "🤩"
+        },
+        {
+          "en": "crowded",
+          "fa": "شلوغ",
+          "emoji": "👥"
+        },
+        {
+          "en": "memorable",
+          "fa": "به‌یادماندنی",
+          "emoji": "📸"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "trip",
+          "fa": "سفر",
+          "emoji": "🧳"
+        },
+        {
+          "kind": "word",
+          "en": "abroad",
+          "fa": "خارج",
+          "emoji": "🌍"
+        },
+        {
+          "kind": "word",
+          "en": "amazing",
+          "fa": "شگفت‌انگیز",
+          "emoji": "🤩"
+        },
+        {
+          "kind": "word",
+          "en": "crowded",
+          "fa": "شلوغ",
+          "emoji": "👥"
+        },
+        {
+          "kind": "sentence",
+          "en": "It was the best trip I had ever taken.",
+          "fa": "بهترین سفری بود که تا آن موقع رفته بودم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Last year I went to India.",
+          "fa": "سال پیش به هند رفتم.",
+          "highlight": "went"
+        },
+        {
+          "kind": "rule",
+          "title": "پیشینه و رویداد",
+          "body": "رویداد اصلی گذشتهٔ ساده، پیشینهٔ قبل‌تر گذشتهٔ کامل: I went… I had never seen…",
+          "examples": [
+            {
+              "en": "It was the best trip I had ever taken.",
+              "fa": "بهترین سفری بود که تا آن موقع رفته بودم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u7-anecdote.1",
+          "kind": "mcq",
+          "prompt": "معنی «trip» چیست؟",
+          "promptFa": "سفر",
+          "choices": [
+            "سفر",
+            "پشیمان بودن",
+            "بعد از"
+          ],
+          "answer": 0,
+          "speak": "trip",
+          "aiHints": {
+            "example": "I know the word \"trip\".",
+            "explanation": "«trip» یعنی سفر."
+          }
+        },
+        {
+          "id": "b1-u7-anecdote.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌍",
+          "choices": [
+            "crowded",
+            "abroad",
+            "amazing"
+          ],
+          "answer": 1,
+          "speak": "abroad"
+        },
+        {
+          "id": "b1-u7-anecdote.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "amazing",
+          "choices": [
+            "amazing",
+            "should have",
+            "had left"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u7-anecdote.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "amazing",
+              "fa": "شگفت‌انگیز"
+            },
+            {
+              "en": "abroad",
+              "fa": "خارج"
+            },
+            {
+              "en": "trip",
+              "fa": "سفر"
+            },
+            {
+              "en": "crowded",
+              "fa": "شلوغ"
+            }
+          ]
+        },
+        {
+          "id": "b1-u7-anecdote.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "سال پیش به هند رفتم.",
+          "sentence": "Last year I ___ to India.",
+          "choices": [
+            "abroad",
+            "went",
+            "memorable"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u7-anecdote.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "بهترین سفری بود که تا آن موقع رفته بودم.",
+          "tokens": [
+            "I",
+            "taken",
+            "trip",
+            "was",
+            "the",
+            "ever",
+            "It",
+            "best",
+            "had"
+          ],
+          "answer": "It was the best trip I had ever taken"
+        },
+        {
+          "id": "b1-u7-anecdote.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "never",
+            "saw",
+            "such",
+            "a",
+            "place."
+          ],
+          "answer": 3,
+          "fix": "I had never seen such a place.",
+          "aiHints": {
+            "explanation": "درستش این است: I had never seen such a place."
+          }
+        },
+        {
+          "id": "b1-u7-anecdote.8",
+          "kind": "speed",
+          "prompt": "سریع! «memorable» یعنی چه؟",
+          "speak": "memorable",
+          "choices": [
+            "به‌یادماندنی",
+            "رفته بود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u7-anecdote.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «should have»",
+          "choices": [
+            "باید (می‌کردم)",
+            "ای کاش",
+            "شروع شده بود"
+          ],
+          "answer": 0,
+          "speak": "should have",
+          "reviewOf": "b1-u7-wish-regret"
+        },
+        {
+          "id": "b1-u7-anecdote.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "regret",
+          "choices": [
+            "regret",
+            "trip",
+            "crowded"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u7-wish-regret"
+        },
+        {
+          "id": "b1-u7-anecdote.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "❌",
+          "choices": [
+            "regret",
+            "had left",
+            "mistake"
+          ],
+          "answer": 2,
+          "speak": "mistake",
+          "reviewOf": "b1-u7-wish-regret"
+        },
+        {
+          "id": "b1-u7-anecdote.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «chance»",
+          "speak": "chance",
+          "choices": [
+            "فرصت",
+            "رفته بود"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u7-wish-regret"
+        },
+        {
+          "id": "b1-u7-anecdote.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "هرگز چنین غذایی ندیده بودم.",
+          "sentence": "I had never ___ such food.",
+          "choices": [
+            "amazing",
+            "seen",
+            "chance"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "It was a memorable trip and the streets were crowded.",
+          "fa": "سفر به‌یادماندنی بود و خیابان‌ها شلوغ بودند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "پیشینه و رویداد",
+        "body": "رویداد اصلی گذشتهٔ ساده، پیشینهٔ قبل‌تر گذشتهٔ کامل: I went… I had never seen…"
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u7-boss",
+    "titleFa": "نبرد پایانی — گذشتهٔ کامل و داستان",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u7-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «had finished»",
+        "speak": "had finished",
+        "choices": [
+          "بعد از",
+          "تا زمانی که",
+          "تمام کرده بود"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u7-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "after",
+        "choices": [
+          "had finished",
+          "after",
+          "mistake"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u7-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏳",
+        "choices": [
+          "had finished",
+          "regret",
+          "meanwhile"
+        ],
+        "answer": 2,
+        "speak": "meanwhile"
+      },
+      {
+        "id": "b1-u7-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «wish»",
+        "speak": "wish",
+        "choices": [
+          "ای کاش",
+          "بعد از"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u7-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «mistake»",
+        "speak": "mistake",
+        "choices": [
+          "به‌یادماندنی",
+          "اشتباه",
+          "تا زمانی که"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u7-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "abroad",
+        "choices": [
+          "abroad",
+          "meanwhile",
+          "should have"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u7-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📸",
+        "choices": [
+          "memorable",
+          "trip",
+          "chance"
+        ],
+        "answer": 0,
+        "speak": "memorable"
+      },
+      {
+        "id": "b1-u7-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «had started»",
+        "speak": "had started",
+        "choices": [
+          "شروع شده بود",
+          "سرانجام"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u7-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «by the time»",
+        "speak": "by the time",
+        "choices": [
+          "تا زمانی که",
+          "به‌محض اینکه",
+          "سفر"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u7-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "eventually",
+        "choices": [
+          "eventually",
+          "as soon as",
+          "amazing"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

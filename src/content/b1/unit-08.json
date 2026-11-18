@@ -1,0 +1,1285 @@
+{
+  "id": "b1-u8",
+  "level": "B1",
+  "index": 8,
+  "titleFa": "نقل قول و پیام",
+  "titleEn": "Reported speech",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "b1-u8-say-tell",
+      "title": "He told me…",
+      "titleFa": "say و tell",
+      "goal": "حرف کسی را برای دیگری تعریف کنی",
+      "buildsOn": [
+        "b1-u7-anecdote"
+      ],
+      "vocab": [
+        {
+          "en": "said",
+          "fa": "گفت",
+          "emoji": "💬"
+        },
+        {
+          "en": "told",
+          "fa": "گفت (به کسی)",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "asked",
+          "fa": "پرسید",
+          "emoji": "❓"
+        },
+        {
+          "en": "explained",
+          "fa": "توضیح داد",
+          "emoji": "🗒️"
+        },
+        {
+          "en": "according to",
+          "fa": "به گفتهٔ",
+          "emoji": "📰"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "said",
+          "fa": "گفت",
+          "emoji": "💬"
+        },
+        {
+          "kind": "word",
+          "en": "told",
+          "fa": "گفت (به کسی)",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "asked",
+          "fa": "پرسید",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "explained",
+          "fa": "توضیح داد",
+          "emoji": "🗒️"
+        },
+        {
+          "kind": "sentence",
+          "en": "He told me he would come.",
+          "fa": "او به من گفت که می‌آید."
+        },
+        {
+          "kind": "sentence",
+          "en": "He told me he was tired.",
+          "fa": "به من گفت خسته است.",
+          "highlight": "told"
+        },
+        {
+          "kind": "rule",
+          "title": "say یا tell",
+          "body": "say بدون شخص می‌آید (he said that…)، tell با شخص (he told me…).",
+          "examples": [
+            {
+              "en": "He told me he would come.",
+              "fa": "او به من گفت که می‌آید."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u8-say-tell.1",
+          "kind": "mcq",
+          "prompt": "معنی «said» چیست؟",
+          "promptFa": "گفت",
+          "choices": [
+            "گفت",
+            "پاسخ دادن",
+            "همین حالا"
+          ],
+          "answer": 0,
+          "speak": "said",
+          "aiHints": {
+            "example": "I know the word \"said\".",
+            "explanation": "«said» یعنی گفت."
+          }
+        },
+        {
+          "id": "b1-u8-say-tell.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗣️",
+          "choices": [
+            "explained",
+            "said",
+            "told"
+          ],
+          "answer": 2,
+          "speak": "told"
+        },
+        {
+          "id": "b1-u8-say-tell.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "asked",
+          "choices": [
+            "yesterday",
+            "asked",
+            "told"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u8-say-tell.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "explained",
+              "fa": "توضیح داد"
+            },
+            {
+              "en": "told",
+              "fa": "گفت (به کسی)"
+            },
+            {
+              "en": "asked",
+              "fa": "پرسید"
+            },
+            {
+              "en": "said",
+              "fa": "گفت"
+            }
+          ]
+        },
+        {
+          "id": "b1-u8-say-tell.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "به من گفت خسته است.",
+          "sentence": "He ___ me he was tired.",
+          "choices": [
+            "explained",
+            "said",
+            "told"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u8-say-tell.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او به من گفت که می‌آید.",
+          "tokens": [
+            "told",
+            "come",
+            "he",
+            "would",
+            "me",
+            "He"
+          ],
+          "answer": "He told me he would come"
+        },
+        {
+          "id": "b1-u8-say-tell.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "said",
+            "me",
+            "he",
+            "was",
+            "tired."
+          ],
+          "answer": 2,
+          "fix": "He told me he was tired.",
+          "aiHints": {
+            "explanation": "درستش این است: He told me he was tired."
+          }
+        },
+        {
+          "id": "b1-u8-say-tell.8",
+          "kind": "speed",
+          "prompt": "سریع! «according to» یعنی چه؟",
+          "speak": "according to",
+          "choices": [
+            "به گفتهٔ",
+            "گفت"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u8-say-tell.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «abroad»",
+          "choices": [
+            "پاسخ دادن",
+            "قبلاً",
+            "خارج"
+          ],
+          "answer": 2,
+          "speak": "abroad",
+          "reviewOf": "b1-u7-anecdote"
+        },
+        {
+          "id": "b1-u8-say-tell.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "amazing",
+          "choices": [
+            "ago",
+            "amazing",
+            "reply"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u7-anecdote"
+        },
+        {
+          "id": "b1-u8-say-tell.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👥",
+          "choices": [
+            "told",
+            "crowded",
+            "mention"
+          ],
+          "answer": 1,
+          "speak": "crowded",
+          "reviewOf": "b1-u7-anecdote"
+        },
+        {
+          "id": "b1-u8-say-tell.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «memorable»",
+          "speak": "memorable",
+          "choices": [
+            "به‌یادماندنی",
+            "گفت"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u7-anecdote"
+        },
+        {
+          "id": "b1-u8-say-tell.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او گفت که می‌آید.",
+          "sentence": "She ___ she would come.",
+          "choices": [
+            "ever",
+            "later",
+            "said"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "According to the news, the shop is closed.",
+          "fa": "به گفتهٔ اخبار، مغازه بسته است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "say یا tell",
+        "body": "say بدون شخص می‌آید (he said that…)، tell با شخص (he told me…)."
+      }
+    },
+    {
+      "id": "b1-u8-reported-shifts",
+      "title": "Will becomes would",
+      "titleFa": "تغییر زمان در نقل قول",
+      "goal": "نقل قول را با زمان درست بگویی",
+      "buildsOn": [
+        "b1-u8-say-tell"
+      ],
+      "vocab": [
+        {
+          "en": "then",
+          "fa": "آن موقع",
+          "emoji": "⏳"
+        },
+        {
+          "en": "that day",
+          "fa": "آن روز",
+          "emoji": "📅"
+        },
+        {
+          "en": "the next day",
+          "fa": "روز بعد",
+          "emoji": "➡️"
+        },
+        {
+          "en": "the day before",
+          "fa": "روز قبل",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "later",
+          "fa": "بعداً",
+          "emoji": "⏭️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "then",
+          "fa": "آن موقع",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "that day",
+          "fa": "آن روز",
+          "emoji": "📅"
+        },
+        {
+          "kind": "word",
+          "en": "the next day",
+          "fa": "روز بعد",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "the day before",
+          "fa": "روز قبل",
+          "emoji": "⬅️"
+        },
+        {
+          "kind": "sentence",
+          "en": "He said he was busy that day.",
+          "fa": "او گفت آن روز سرش شلوغ است."
+        },
+        {
+          "kind": "sentence",
+          "en": "He said he would come the next day.",
+          "fa": "گفت روز بعد می‌آید.",
+          "highlight": "the next day"
+        },
+        {
+          "kind": "rule",
+          "title": "یک قدم به عقب",
+          "body": "در نقل قول will به would و am/is به was تبدیل می‌شود.",
+          "examples": [
+            {
+              "en": "He said he was busy that day.",
+              "fa": "او گفت آن روز سرش شلوغ است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u8-reported-shifts.1",
+          "kind": "mcq",
+          "prompt": "معنی «then» چیست؟",
+          "promptFa": "آن موقع",
+          "choices": [
+            "آن موقع",
+            "فرستادن (بازفرست)",
+            "تأیید کردن"
+          ],
+          "answer": 0,
+          "speak": "then",
+          "aiHints": {
+            "example": "I know the word \"then\".",
+            "explanation": "«then» یعنی آن موقع."
+          }
+        },
+        {
+          "id": "b1-u8-reported-shifts.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📅",
+          "choices": [
+            "then",
+            "the next day",
+            "that day"
+          ],
+          "answer": 2,
+          "speak": "that day"
+        },
+        {
+          "id": "b1-u8-reported-shifts.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "the next day",
+          "choices": [
+            "already",
+            "the next day",
+            "according to"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u8-reported-shifts.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "that day",
+              "fa": "آن روز"
+            },
+            {
+              "en": "the next day",
+              "fa": "روز بعد"
+            },
+            {
+              "en": "then",
+              "fa": "آن موقع"
+            },
+            {
+              "en": "the day before",
+              "fa": "روز قبل"
+            }
+          ]
+        },
+        {
+          "id": "b1-u8-reported-shifts.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "گفت روز بعد می‌آید.",
+          "sentence": "He said he would come ___.",
+          "choices": [
+            "the next day",
+            "asked",
+            "forward"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u8-reported-shifts.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او گفت آن روز سرش شلوغ است.",
+          "tokens": [
+            "was",
+            "busy",
+            "He",
+            "said",
+            "he",
+            "that",
+            "day"
+          ],
+          "answer": "He said he was busy that day"
+        },
+        {
+          "id": "b1-u8-reported-shifts.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "said",
+            "she",
+            "will",
+            "come."
+          ],
+          "answer": 3,
+          "fix": "She said she would come.",
+          "aiHints": {
+            "explanation": "درستش این است: She said she would come."
+          }
+        },
+        {
+          "id": "b1-u8-reported-shifts.8",
+          "kind": "speed",
+          "prompt": "سریع! «later» یعنی چه؟",
+          "speak": "later",
+          "choices": [
+            "گفت",
+            "بعداً"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u8-reported-shifts.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «told»",
+          "choices": [
+            "روز قبل",
+            "گفت (به کسی)",
+            "پیش"
+          ],
+          "answer": 1,
+          "speak": "told",
+          "reviewOf": "b1-u8-say-tell"
+        },
+        {
+          "id": "b1-u8-reported-shifts.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "asked",
+          "choices": [
+            "asked",
+            "said",
+            "ever"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u8-say-tell"
+        },
+        {
+          "id": "b1-u8-reported-shifts.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🗒️",
+          "choices": [
+            "reply",
+            "explained",
+            "ever"
+          ],
+          "answer": 1,
+          "speak": "explained",
+          "reviewOf": "b1-u8-say-tell"
+        },
+        {
+          "id": "b1-u8-reported-shifts.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «according to»",
+          "speak": "according to",
+          "choices": [
+            "به گفتهٔ",
+            "گفت"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u8-say-tell"
+        },
+        {
+          "id": "b1-u8-reported-shifts.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "گفت آن روز سرش شلوغ است.",
+          "sentence": "She said she was busy ___ day.",
+          "choices": [
+            "that",
+            "mention",
+            "the day before"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "She said she would call me later.",
+          "fa": "گفت بعداً زنگ می‌زند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "یک قدم به عقب",
+        "body": "در نقل قول will به would و am/is به was تبدیل می‌شود."
+      }
+    },
+    {
+      "id": "b1-u8-email-phrases",
+      "title": "Please reply",
+      "titleFa": "ایمیل و پیام کاری",
+      "goal": "در ایمیل کاری چیزی بخواهی",
+      "buildsOn": [
+        "b1-u8-reported-shifts"
+      ],
+      "vocab": [
+        {
+          "en": "attach",
+          "fa": "پیوست کردن",
+          "emoji": "📎"
+        },
+        {
+          "en": "forward",
+          "fa": "فرستادن (بازفرست)",
+          "emoji": "↪️"
+        },
+        {
+          "en": "reply",
+          "fa": "پاسخ دادن",
+          "emoji": "↩️"
+        },
+        {
+          "en": "confirm",
+          "fa": "تأیید کردن",
+          "emoji": "✅"
+        },
+        {
+          "en": "mention",
+          "fa": "اشاره کردن",
+          "emoji": "💭"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "attach",
+          "fa": "پیوست کردن",
+          "emoji": "📎"
+        },
+        {
+          "kind": "word",
+          "en": "forward",
+          "fa": "فرستادن (بازفرست)",
+          "emoji": "↪️"
+        },
+        {
+          "kind": "word",
+          "en": "reply",
+          "fa": "پاسخ دادن",
+          "emoji": "↩️"
+        },
+        {
+          "kind": "word",
+          "en": "confirm",
+          "fa": "تأیید کردن",
+          "emoji": "✅"
+        },
+        {
+          "kind": "sentence",
+          "en": "I wanted to mention that the meeting moved.",
+          "fa": "می‌خواستم بگویم جلسه جابه‌جا شد."
+        },
+        {
+          "kind": "sentence",
+          "en": "I will attach the file.",
+          "fa": "فایل را پیوست می‌کنم.",
+          "highlight": "attach"
+        },
+        {
+          "kind": "rule",
+          "title": "reply to",
+          "body": "reply با to می‌آید: reply to my email. کلمهٔ in اشتباه است.",
+          "examples": [
+            {
+              "en": "I wanted to mention that the meeting moved.",
+              "fa": "می‌خواستم بگویم جلسه جابه‌جا شد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u8-email-phrases.1",
+          "kind": "mcq",
+          "prompt": "معنی «attach» چیست؟",
+          "promptFa": "پیوست کردن",
+          "choices": [
+            "توضیح داد",
+            "پیوست کردن",
+            "پاسخ دادن"
+          ],
+          "answer": 1,
+          "speak": "attach",
+          "aiHints": {
+            "example": "I know the word \"attach\".",
+            "explanation": "«attach» یعنی پیوست کردن."
+          }
+        },
+        {
+          "id": "b1-u8-email-phrases.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "↪️",
+          "choices": [
+            "attach",
+            "forward",
+            "confirm"
+          ],
+          "answer": 1,
+          "speak": "forward"
+        },
+        {
+          "id": "b1-u8-email-phrases.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "reply",
+          "choices": [
+            "the next day",
+            "later",
+            "reply"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u8-email-phrases.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "reply",
+              "fa": "پاسخ دادن"
+            },
+            {
+              "en": "confirm",
+              "fa": "تأیید کردن"
+            },
+            {
+              "en": "attach",
+              "fa": "پیوست کردن"
+            },
+            {
+              "en": "forward",
+              "fa": "فرستادن (بازفرست)"
+            }
+          ]
+        },
+        {
+          "id": "b1-u8-email-phrases.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "فایل را پیوست می‌کنم.",
+          "sentence": "I will ___ the file.",
+          "choices": [
+            "explained",
+            "attach",
+            "told"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u8-email-phrases.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌خواستم بگویم جلسه جابه‌جا شد.",
+          "tokens": [
+            "wanted",
+            "the",
+            "mention",
+            "moved",
+            "meeting",
+            "that",
+            "to",
+            "I"
+          ],
+          "answer": "I wanted to mention that the meeting moved"
+        },
+        {
+          "id": "b1-u8-email-phrases.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Please",
+            "reply",
+            "for",
+            "my",
+            "email."
+          ],
+          "answer": 2,
+          "fix": "Please reply to my email.",
+          "aiHints": {
+            "explanation": "درستش این است: Please reply to my email."
+          }
+        },
+        {
+          "id": "b1-u8-email-phrases.8",
+          "kind": "speed",
+          "prompt": "سریع! «mention» یعنی چه؟",
+          "speak": "mention",
+          "choices": [
+            "اشاره کردن",
+            "گفت"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u8-email-phrases.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «that day»",
+          "choices": [
+            "همین حالا",
+            "اشاره کردن",
+            "آن روز"
+          ],
+          "answer": 2,
+          "speak": "that day",
+          "reviewOf": "b1-u8-reported-shifts"
+        },
+        {
+          "id": "b1-u8-email-phrases.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "the next day",
+          "choices": [
+            "just",
+            "later",
+            "the next day"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u8-reported-shifts"
+        },
+        {
+          "id": "b1-u8-email-phrases.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⬅️",
+          "choices": [
+            "the day before",
+            "already",
+            "confirm"
+          ],
+          "answer": 0,
+          "speak": "the day before",
+          "reviewOf": "b1-u8-reported-shifts"
+        },
+        {
+          "id": "b1-u8-email-phrases.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «later»",
+          "speak": "later",
+          "choices": [
+            "گفت",
+            "بعداً"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u8-reported-shifts"
+        },
+        {
+          "id": "b1-u8-email-phrases.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "لطفاً به ایمیل من جواب بده.",
+          "sentence": "Please ___ to my email.",
+          "choices": [
+            "reply",
+            "confirm",
+            "mention"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Please confirm and reply to my email.",
+          "fa": "لطفاً تأیید کن و به ایمیلم جواب بده."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "reply to",
+        "body": "reply با to می‌آید: reply to my email. کلمهٔ in اشتباه است."
+      }
+    },
+    {
+      "id": "b1-u8-common-mistakes",
+      "title": "Yesterday or just?",
+      "titleFa": "اشتباه‌های رایج",
+      "goal": "گذشتهٔ ساده و حال کامل را درست انتخاب کنی",
+      "buildsOn": [
+        "b1-u8-email-phrases"
+      ],
+      "vocab": [
+        {
+          "en": "yesterday",
+          "fa": "دیروز",
+          "emoji": "📅"
+        },
+        {
+          "en": "just",
+          "fa": "همین حالا",
+          "emoji": "⏱️"
+        },
+        {
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        },
+        {
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "en": "ever",
+          "fa": "تا حالا",
+          "emoji": "❓"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "yesterday",
+          "fa": "دیروز",
+          "emoji": "📅"
+        },
+        {
+          "kind": "word",
+          "en": "just",
+          "fa": "همین حالا",
+          "emoji": "⏱️"
+        },
+        {
+          "kind": "word",
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        },
+        {
+          "kind": "word",
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "kind": "sentence",
+          "en": "I talked to him yesterday.",
+          "fa": "دیروز با او حرف زدم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I talked to him yesterday.",
+          "fa": "دیروز با او حرف زدم.",
+          "highlight": "talked"
+        },
+        {
+          "kind": "rule",
+          "title": "زمان مشخص",
+          "body": "با yesterday و ago گذشتهٔ ساده؛ با just و already حال کامل.",
+          "examples": [
+            {
+              "en": "I talked to him yesterday.",
+              "fa": "دیروز با او حرف زدم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u8-common-mistakes.1",
+          "kind": "mcq",
+          "prompt": "معنی «yesterday» چیست؟",
+          "promptFa": "دیروز",
+          "choices": [
+            "آن روز",
+            "دیروز",
+            "روز بعد"
+          ],
+          "answer": 1,
+          "speak": "yesterday",
+          "aiHints": {
+            "example": "I know the word \"yesterday\".",
+            "explanation": "«yesterday» یعنی دیروز."
+          }
+        },
+        {
+          "id": "b1-u8-common-mistakes.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⏱️",
+          "choices": [
+            "yesterday",
+            "ever",
+            "just"
+          ],
+          "answer": 2,
+          "speak": "just"
+        },
+        {
+          "id": "b1-u8-common-mistakes.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "ago",
+          "choices": [
+            "ago",
+            "asked",
+            "explained"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u8-common-mistakes.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "yesterday",
+              "fa": "دیروز"
+            },
+            {
+              "en": "already",
+              "fa": "قبلاً"
+            },
+            {
+              "en": "ago",
+              "fa": "پیش"
+            },
+            {
+              "en": "just",
+              "fa": "همین حالا"
+            }
+          ]
+        },
+        {
+          "id": "b1-u8-common-mistakes.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دیروز با او حرف زدم.",
+          "sentence": "I ___ to him yesterday.",
+          "choices": [
+            "talked",
+            "forward",
+            "asked"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u8-common-mistakes.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دیروز با او حرف زدم.",
+          "tokens": [
+            "I",
+            "to",
+            "talked",
+            "him",
+            "yesterday"
+          ],
+          "answer": "I talked to him yesterday"
+        },
+        {
+          "id": "b1-u8-common-mistakes.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "talked",
+            "to",
+            "him",
+            "yesterday."
+          ],
+          "answer": 1,
+          "fix": "I talked to him yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: I talked to him yesterday."
+          }
+        },
+        {
+          "id": "b1-u8-common-mistakes.8",
+          "kind": "speed",
+          "prompt": "سریع! «ever» یعنی چه؟",
+          "speak": "ever",
+          "choices": [
+            "تا حالا",
+            "گفت"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u8-common-mistakes.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «forward»",
+          "choices": [
+            "آن روز",
+            "دیروز",
+            "فرستادن (بازفرست)"
+          ],
+          "answer": 2,
+          "speak": "forward",
+          "reviewOf": "b1-u8-email-phrases"
+        },
+        {
+          "id": "b1-u8-common-mistakes.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "reply",
+          "choices": [
+            "said",
+            "reply",
+            "ever"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u8-email-phrases"
+        },
+        {
+          "id": "b1-u8-common-mistakes.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "just",
+            "confirm",
+            "explained"
+          ],
+          "answer": 1,
+          "speak": "confirm",
+          "reviewOf": "b1-u8-email-phrases"
+        },
+        {
+          "id": "b1-u8-common-mistakes.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «mention»",
+          "speak": "mention",
+          "choices": [
+            "اشاره کردن",
+            "گفت"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u8-email-phrases"
+        },
+        {
+          "id": "b1-u8-common-mistakes.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "همین حالا تمام کرده‌ام.",
+          "sentence": "I have ___ finished.",
+          "choices": [
+            "already",
+            "just",
+            "told"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have just finished, but I talked to him yesterday.",
+          "fa": "همین حالا تمام کردم، ولی دیروز با او حرف زدم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "زمان مشخص",
+        "body": "با yesterday و ago گذشتهٔ ساده؛ با just و already حال کامل."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u8-boss",
+    "titleFa": "نبرد پایانی — نقل قول و پیام",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u8-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «told»",
+        "speak": "told",
+        "choices": [
+          "تا حالا",
+          "گفت (به کسی)",
+          "دیروز"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u8-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "according to",
+        "choices": [
+          "ever",
+          "yesterday",
+          "according to"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u8-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "➡️",
+        "choices": [
+          "according to",
+          "the next day",
+          "attach"
+        ],
+        "answer": 1,
+        "speak": "the next day"
+      },
+      {
+        "id": "b1-u8-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «attach»",
+        "speak": "attach",
+        "choices": [
+          "گفت",
+          "پیوست کردن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u8-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «confirm»",
+        "speak": "confirm",
+        "choices": [
+          "پیوست کردن",
+          "پاسخ دادن",
+          "تأیید کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u8-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "just",
+        "choices": [
+          "later",
+          "just",
+          "that day"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u8-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "❓",
+        "choices": [
+          "ever",
+          "the day before",
+          "the next day"
+        ],
+        "answer": 0,
+        "speak": "ever"
+      },
+      {
+        "id": "b1-u8-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «asked»",
+        "speak": "asked",
+        "choices": [
+          "پرسید",
+          "توضیح داد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u8-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «then»",
+        "speak": "then",
+        "choices": [
+          "آن موقع",
+          "فرستادن (بازفرست)",
+          "به گفتهٔ"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u8-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "the day before",
+        "choices": [
+          "that day",
+          "just",
+          "the day before"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

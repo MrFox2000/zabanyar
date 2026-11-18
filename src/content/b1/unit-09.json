@@ -1,0 +1,1282 @@
+{
+  "id": "b1-u9",
+  "level": "B1",
+  "index": 9,
+  "titleFa": "مجهول و رسانه",
+  "titleEn": "Passive and media",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "b1-u9-passive-present",
+      "title": "English is used everywhere",
+      "titleFa": "مجهول حال",
+      "goal": "بگویی کاری انجام می‌شود بدون اینکه بگویی چه کسی",
+      "buildsOn": [
+        "b1-u8-common-mistakes"
+      ],
+      "vocab": [
+        {
+          "en": "is made",
+          "fa": "ساخته می‌شود",
+          "emoji": "🏭"
+        },
+        {
+          "en": "are sold",
+          "fa": "فروخته می‌شوند",
+          "emoji": "🛒"
+        },
+        {
+          "en": "is used",
+          "fa": "استفاده می‌شود",
+          "emoji": "🔧"
+        },
+        {
+          "en": "is called",
+          "fa": "نامیده می‌شود",
+          "emoji": "🏷️"
+        },
+        {
+          "en": "everywhere",
+          "fa": "همه‌جا",
+          "emoji": "🌍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "is made",
+          "fa": "ساخته می‌شود",
+          "emoji": "🏭"
+        },
+        {
+          "kind": "word",
+          "en": "are sold",
+          "fa": "فروخته می‌شوند",
+          "emoji": "🛒"
+        },
+        {
+          "kind": "word",
+          "en": "is used",
+          "fa": "استفاده می‌شود",
+          "emoji": "🔧"
+        },
+        {
+          "kind": "word",
+          "en": "is called",
+          "fa": "نامیده می‌شود",
+          "emoji": "🏷️"
+        },
+        {
+          "kind": "sentence",
+          "en": "English is used everywhere.",
+          "fa": "انگلیسی همه‌جا استفاده می‌شود."
+        },
+        {
+          "kind": "sentence",
+          "en": "This phone is made in China.",
+          "fa": "این گوشی در چین ساخته می‌شود.",
+          "highlight": "is made"
+        },
+        {
+          "kind": "rule",
+          "title": "is/are + قسمت سوم",
+          "body": "مجهول حال: is یا are + قسمت سوم فعل: is made، are sold.",
+          "examples": [
+            {
+              "en": "English is used everywhere.",
+              "fa": "انگلیسی همه‌جا استفاده می‌شود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u9-passive-present.1",
+          "kind": "mcq",
+          "prompt": "معنی «is made» چیست؟",
+          "promptFa": "ساخته می‌شود",
+          "choices": [
+            "جست‌وجو کردن",
+            "اختراع شد",
+            "ساخته می‌شود"
+          ],
+          "answer": 2,
+          "speak": "is made",
+          "aiHints": {
+            "example": "I know the word \"is made\".",
+            "explanation": "«is made» یعنی ساخته می‌شود."
+          }
+        },
+        {
+          "id": "b1-u9-passive-present.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🛒",
+          "choices": [
+            "everywhere",
+            "are sold",
+            "is called"
+          ],
+          "answer": 1,
+          "speak": "are sold"
+        },
+        {
+          "id": "b1-u9-passive-present.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "is used",
+          "choices": [
+            "was found",
+            "search",
+            "is used"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u9-passive-present.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "is called",
+              "fa": "نامیده می‌شود"
+            },
+            {
+              "en": "are sold",
+              "fa": "فروخته می‌شوند"
+            },
+            {
+              "en": "is made",
+              "fa": "ساخته می‌شود"
+            },
+            {
+              "en": "is used",
+              "fa": "استفاده می‌شود"
+            }
+          ]
+        },
+        {
+          "id": "b1-u9-passive-present.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این گوشی در چین ساخته می‌شود.",
+          "sentence": "This phone ___ in China.",
+          "choices": [
+            "is made",
+            "are sold",
+            "online"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u9-passive-present.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "انگلیسی همه‌جا استفاده می‌شود.",
+          "tokens": [
+            "English",
+            "everywhere",
+            "used",
+            "is"
+          ],
+          "answer": "English is used everywhere"
+        },
+        {
+          "id": "b1-u9-passive-present.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "English",
+            "are",
+            "used",
+            "everywhere."
+          ],
+          "answer": 1,
+          "fix": "English is used everywhere.",
+          "aiHints": {
+            "explanation": "درستش این است: English is used everywhere."
+          }
+        },
+        {
+          "id": "b1-u9-passive-present.8",
+          "kind": "speed",
+          "prompt": "سریع! «everywhere» یعنی چه؟",
+          "speak": "everywhere",
+          "choices": [
+            "همه‌جا",
+            "ساخته می‌شود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u9-passive-present.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «just»",
+          "choices": [
+            "همین حالا",
+            "فرستاده شد",
+            "مفید"
+          ],
+          "answer": 0,
+          "speak": "just",
+          "reviewOf": "b1-u8-common-mistakes"
+        },
+        {
+          "id": "b1-u9-passive-present.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "ago",
+          "choices": [
+            "report",
+            "ago",
+            "everywhere"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u8-common-mistakes"
+        },
+        {
+          "id": "b1-u9-passive-present.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "already",
+            "headline",
+            "is used"
+          ],
+          "answer": 0,
+          "speak": "already",
+          "reviewOf": "b1-u8-common-mistakes"
+        },
+        {
+          "id": "b1-u9-passive-present.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «ever»",
+          "speak": "ever",
+          "choices": [
+            "تا حالا",
+            "ساخته می‌شود"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u8-common-mistakes"
+        },
+        {
+          "id": "b1-u9-passive-present.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این کتاب‌ها آنلاین فروخته می‌شوند.",
+          "sentence": "These books ___ online.",
+          "choices": [
+            "online",
+            "are sold",
+            "report"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This app is used by many people.",
+          "fa": "این اپ توسط افراد زیادی استفاده می‌شود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "is/are + قسمت سوم",
+        "body": "مجهول حال: is یا are + قسمت سوم فعل: is made، are sold."
+      }
+    },
+    {
+      "id": "b1-u9-passive-past",
+      "title": "It was built in 1990",
+      "titleFa": "مجهول گذشته",
+      "goal": "بگویی چیزی در گذشته ساخته یا فرستاده شد",
+      "buildsOn": [
+        "b1-u9-passive-present"
+      ],
+      "vocab": [
+        {
+          "en": "was sent",
+          "fa": "فرستاده شد",
+          "emoji": "📤"
+        },
+        {
+          "en": "were built",
+          "fa": "ساخته شدند",
+          "emoji": "🏗️"
+        },
+        {
+          "en": "was written",
+          "fa": "نوشته شد",
+          "emoji": "✍️"
+        },
+        {
+          "en": "was invented",
+          "fa": "اختراع شد",
+          "emoji": "💡"
+        },
+        {
+          "en": "was found",
+          "fa": "پیدا شد",
+          "emoji": "🔍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "was sent",
+          "fa": "فرستاده شد",
+          "emoji": "📤"
+        },
+        {
+          "kind": "word",
+          "en": "were built",
+          "fa": "ساخته شدند",
+          "emoji": "🏗️"
+        },
+        {
+          "kind": "word",
+          "en": "was written",
+          "fa": "نوشته شد",
+          "emoji": "✍️"
+        },
+        {
+          "kind": "word",
+          "en": "was invented",
+          "fa": "اختراع شد",
+          "emoji": "💡"
+        },
+        {
+          "kind": "sentence",
+          "en": "The film was made in 2010.",
+          "fa": "فیلم در ۲۰۱۰ ساخته شد."
+        },
+        {
+          "kind": "sentence",
+          "en": "The letter was sent yesterday.",
+          "fa": "نامه دیروز فرستاده شد.",
+          "highlight": "was sent"
+        },
+        {
+          "kind": "rule",
+          "title": "was یا were",
+          "body": "برای یک چیز was و برای چند چیز were + قسمت سوم فعل.",
+          "examples": [
+            {
+              "en": "The film was made in 2010.",
+              "fa": "فیلم در ۲۰۱۰ ساخته شد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u9-passive-past.1",
+          "kind": "mcq",
+          "prompt": "معنی «was sent» چیست؟",
+          "promptFa": "فرستاده شد",
+          "choices": [
+            "فرستاده شد",
+            "فروخته می‌شوند",
+            "ساخته شدند"
+          ],
+          "answer": 0,
+          "speak": "was sent",
+          "aiHints": {
+            "example": "I know the word \"was sent\".",
+            "explanation": "«was sent» یعنی فرستاده شد."
+          }
+        },
+        {
+          "id": "b1-u9-passive-past.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏗️",
+          "choices": [
+            "was found",
+            "were built",
+            "was sent"
+          ],
+          "answer": 1,
+          "speak": "were built"
+        },
+        {
+          "id": "b1-u9-passive-past.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "was written",
+          "choices": [
+            "was sent",
+            "was written",
+            "download"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u9-passive-past.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "was written",
+              "fa": "نوشته شد"
+            },
+            {
+              "en": "was sent",
+              "fa": "فرستاده شد"
+            },
+            {
+              "en": "were built",
+              "fa": "ساخته شدند"
+            },
+            {
+              "en": "was invented",
+              "fa": "اختراع شد"
+            }
+          ]
+        },
+        {
+          "id": "b1-u9-passive-past.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "نامه دیروز فرستاده شد.",
+          "sentence": "The letter ___ yesterday.",
+          "choices": [
+            "report",
+            "was sent",
+            "were built"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u9-passive-past.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فیلم در ۲۰۱۰ ساخته شد.",
+          "tokens": [
+            "in",
+            "film",
+            "was",
+            "The",
+            "made",
+            "2010"
+          ],
+          "answer": "The film was made in 2010"
+        },
+        {
+          "id": "b1-u9-passive-past.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "letter",
+            "were",
+            "sent",
+            "yesterday."
+          ],
+          "answer": 2,
+          "fix": "The letter was sent yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: The letter was sent yesterday."
+          }
+        },
+        {
+          "id": "b1-u9-passive-past.8",
+          "kind": "speed",
+          "prompt": "سریع! «was found» یعنی چه؟",
+          "speak": "was found",
+          "choices": [
+            "پیدا شد",
+            "ساخته می‌شود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u9-passive-past.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «are sold»",
+          "choices": [
+            "آنلاین",
+            "اختراع شد",
+            "فروخته می‌شوند"
+          ],
+          "answer": 2,
+          "speak": "are sold",
+          "reviewOf": "b1-u9-passive-present"
+        },
+        {
+          "id": "b1-u9-passive-past.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "is used",
+          "choices": [
+            "everywhere",
+            "is used",
+            "headline"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u9-passive-present"
+        },
+        {
+          "id": "b1-u9-passive-past.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏷️",
+          "choices": [
+            "search",
+            "was found",
+            "is called"
+          ],
+          "answer": 2,
+          "speak": "is called",
+          "reviewOf": "b1-u9-passive-present"
+        },
+        {
+          "id": "b1-u9-passive-past.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «everywhere»",
+          "speak": "everywhere",
+          "choices": [
+            "همه‌جا",
+            "ساخته می‌شود"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u9-passive-present"
+        },
+        {
+          "id": "b1-u9-passive-past.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "خانه‌ها در ۱۹۹۰ ساخته شدند.",
+          "sentence": "The houses ___ in 1990.",
+          "choices": [
+            "is called",
+            "is made",
+            "were built"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The bridge was built and the car was found.",
+          "fa": "پل ساخته شد و ماشین پیدا شد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "was یا were",
+        "body": "برای یک چیز was و برای چند چیز were + قسمت سوم فعل."
+      }
+    },
+    {
+      "id": "b1-u9-news-media",
+      "title": "I read an article",
+      "titleFa": "خبر و رسانه",
+      "goal": "دربارهٔ خبر و مقاله حرف بزنی",
+      "buildsOn": [
+        "b1-u9-passive-past"
+      ],
+      "vocab": [
+        {
+          "en": "headline",
+          "fa": "تیتر",
+          "emoji": "📰"
+        },
+        {
+          "en": "article",
+          "fa": "مقاله",
+          "emoji": "📄"
+        },
+        {
+          "en": "report",
+          "fa": "گزارش",
+          "emoji": "📊"
+        },
+        {
+          "en": "journalist",
+          "fa": "روزنامه‌نگار",
+          "emoji": "🎤"
+        },
+        {
+          "en": "broadcast",
+          "fa": "پخش کردن",
+          "emoji": "📡"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "headline",
+          "fa": "تیتر",
+          "emoji": "📰"
+        },
+        {
+          "kind": "word",
+          "en": "article",
+          "fa": "مقاله",
+          "emoji": "📄"
+        },
+        {
+          "kind": "word",
+          "en": "report",
+          "fa": "گزارش",
+          "emoji": "📊"
+        },
+        {
+          "kind": "word",
+          "en": "journalist",
+          "fa": "روزنامه‌نگار",
+          "emoji": "🎤"
+        },
+        {
+          "kind": "sentence",
+          "en": "The article was written by a journalist.",
+          "fa": "مقاله توسط یک روزنامه‌نگار نوشته شد."
+        },
+        {
+          "kind": "sentence",
+          "en": "I read an interesting article.",
+          "fa": "یک مقالهٔ جالب خواندم.",
+          "highlight": "article"
+        },
+        {
+          "kind": "rule",
+          "title": "by + فاعل",
+          "body": "در جملهٔ مجهول اگر بخواهی بگویی چه کسی، از by استفاده کن: written by him.",
+          "examples": [
+            {
+              "en": "The article was written by a journalist.",
+              "fa": "مقاله توسط یک روزنامه‌نگار نوشته شد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u9-news-media.1",
+          "kind": "mcq",
+          "prompt": "معنی «headline» چیست؟",
+          "promptFa": "تیتر",
+          "choices": [
+            "فرستاده شد",
+            "تیتر",
+            "مفید"
+          ],
+          "answer": 1,
+          "speak": "headline",
+          "aiHints": {
+            "example": "I know the word \"headline\".",
+            "explanation": "«headline» یعنی تیتر."
+          }
+        },
+        {
+          "id": "b1-u9-news-media.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📄",
+          "choices": [
+            "report",
+            "article",
+            "broadcast"
+          ],
+          "answer": 1,
+          "speak": "article"
+        },
+        {
+          "id": "b1-u9-news-media.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "report",
+          "choices": [
+            "was sent",
+            "report",
+            "headline"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u9-news-media.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "journalist",
+              "fa": "روزنامه‌نگار"
+            },
+            {
+              "en": "headline",
+              "fa": "تیتر"
+            },
+            {
+              "en": "report",
+              "fa": "گزارش"
+            },
+            {
+              "en": "article",
+              "fa": "مقاله"
+            }
+          ]
+        },
+        {
+          "id": "b1-u9-news-media.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "یک مقالهٔ جالب خواندم.",
+          "sentence": "I read an interesting ___.",
+          "choices": [
+            "online",
+            "headline",
+            "article"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u9-news-media.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "مقاله توسط یک روزنامه‌نگار نوشته شد.",
+          "tokens": [
+            "The",
+            "by",
+            "written",
+            "article",
+            "a",
+            "was",
+            "journalist"
+          ],
+          "answer": "The article was written by a journalist"
+        },
+        {
+          "id": "b1-u9-news-media.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "article",
+            "were",
+            "written",
+            "by",
+            "him."
+          ],
+          "answer": 2,
+          "fix": "The article was written by him.",
+          "aiHints": {
+            "explanation": "درستش این است: The article was written by him."
+          }
+        },
+        {
+          "id": "b1-u9-news-media.8",
+          "kind": "speed",
+          "prompt": "سریع! «broadcast» یعنی چه؟",
+          "speak": "broadcast",
+          "choices": [
+            "ساخته می‌شود",
+            "پخش کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u9-news-media.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «were built»",
+          "choices": [
+            "تیتر",
+            "ساخته شدند",
+            "پیدا شد"
+          ],
+          "answer": 1,
+          "speak": "were built",
+          "reviewOf": "b1-u9-passive-past"
+        },
+        {
+          "id": "b1-u9-news-media.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "was written",
+          "choices": [
+            "journalist",
+            "report",
+            "was written"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u9-passive-past"
+        },
+        {
+          "id": "b1-u9-news-media.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "were built",
+            "report",
+            "was invented"
+          ],
+          "answer": 2,
+          "speak": "was invented",
+          "reviewOf": "b1-u9-passive-past"
+        },
+        {
+          "id": "b1-u9-news-media.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «was found»",
+          "speak": "was found",
+          "choices": [
+            "ساخته می‌شود",
+            "پیدا شد"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u9-passive-past"
+        },
+        {
+          "id": "b1-u9-news-media.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آن‌ها خبر را زنده پخش کردند.",
+          "sentence": "They ___ the news live.",
+          "choices": [
+            "broadcast",
+            "article",
+            "were built"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The headline was written by a journalist.",
+          "fa": "تیتر توسط یک روزنامه‌نگار نوشته شد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "by + فاعل",
+        "body": "در جملهٔ مجهول اگر بخواهی بگویی چه کسی، از by استفاده کن: written by him."
+      }
+    },
+    {
+      "id": "b1-u9-tech-internet",
+      "title": "Download and upload",
+      "titleFa": "فناوری و اینترنت",
+      "goal": "دربارهٔ کار با اپ و اینترنت حرف بزنی",
+      "buildsOn": [
+        "b1-u9-news-media"
+      ],
+      "vocab": [
+        {
+          "en": "download",
+          "fa": "دانلود کردن",
+          "emoji": "⬇️"
+        },
+        {
+          "en": "upload",
+          "fa": "بارگذاری کردن",
+          "emoji": "⬆️"
+        },
+        {
+          "en": "search",
+          "fa": "جست‌وجو کردن",
+          "emoji": "🔎"
+        },
+        {
+          "en": "online",
+          "fa": "آنلاین",
+          "emoji": "🌐"
+        },
+        {
+          "en": "useful",
+          "fa": "مفید",
+          "emoji": "🛠️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "download",
+          "fa": "دانلود کردن",
+          "emoji": "⬇️"
+        },
+        {
+          "kind": "word",
+          "en": "upload",
+          "fa": "بارگذاری کردن",
+          "emoji": "⬆️"
+        },
+        {
+          "kind": "word",
+          "en": "search",
+          "fa": "جست‌وجو کردن",
+          "emoji": "🔎"
+        },
+        {
+          "kind": "word",
+          "en": "online",
+          "fa": "آنلاین",
+          "emoji": "🌐"
+        },
+        {
+          "kind": "sentence",
+          "en": "The app is downloaded by many people.",
+          "fa": "اپ توسط افراد زیادی دانلود می‌شود."
+        },
+        {
+          "kind": "sentence",
+          "en": "I will download the app.",
+          "fa": "اپ را دانلود می‌کنم.",
+          "highlight": "download"
+        },
+        {
+          "kind": "rule",
+          "title": "جمع → are",
+          "body": "وقتی فاعل جمع است، are می‌آید: the videos are downloaded.",
+          "examples": [
+            {
+              "en": "The app is downloaded by many people.",
+              "fa": "اپ توسط افراد زیادی دانلود می‌شود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u9-tech-internet.1",
+          "kind": "mcq",
+          "prompt": "معنی «download» چیست؟",
+          "promptFa": "دانلود کردن",
+          "choices": [
+            "فروخته می‌شوند",
+            "دانلود کردن",
+            "پخش کردن"
+          ],
+          "answer": 1,
+          "speak": "download",
+          "aiHints": {
+            "example": "I know the word \"download\".",
+            "explanation": "«download» یعنی دانلود کردن."
+          }
+        },
+        {
+          "id": "b1-u9-tech-internet.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⬆️",
+          "choices": [
+            "online",
+            "useful",
+            "upload"
+          ],
+          "answer": 2,
+          "speak": "upload"
+        },
+        {
+          "id": "b1-u9-tech-internet.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "search",
+          "choices": [
+            "download",
+            "upload",
+            "search"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u9-tech-internet.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "upload",
+              "fa": "بارگذاری کردن"
+            },
+            {
+              "en": "online",
+              "fa": "آنلاین"
+            },
+            {
+              "en": "search",
+              "fa": "جست‌وجو کردن"
+            },
+            {
+              "en": "download",
+              "fa": "دانلود کردن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u9-tech-internet.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اپ را دانلود می‌کنم.",
+          "sentence": "I will ___ the app.",
+          "choices": [
+            "report",
+            "download",
+            "was found"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u9-tech-internet.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اپ توسط افراد زیادی دانلود می‌شود.",
+          "tokens": [
+            "downloaded",
+            "people",
+            "by",
+            "app",
+            "many",
+            "is",
+            "The"
+          ],
+          "answer": "The app is downloaded by many people"
+        },
+        {
+          "id": "b1-u9-tech-internet.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "videos",
+            "is",
+            "downloaded",
+            "every",
+            "day."
+          ],
+          "answer": 2,
+          "fix": "The videos are downloaded every day.",
+          "aiHints": {
+            "explanation": "درستش این است: The videos are downloaded every day."
+          }
+        },
+        {
+          "id": "b1-u9-tech-internet.8",
+          "kind": "speed",
+          "prompt": "سریع! «useful» یعنی چه؟",
+          "speak": "useful",
+          "choices": [
+            "ساخته می‌شود",
+            "مفید"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u9-tech-internet.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «article»",
+          "choices": [
+            "مقاله",
+            "فروخته می‌شوند",
+            "پخش کردن"
+          ],
+          "answer": 0,
+          "speak": "article",
+          "reviewOf": "b1-u9-news-media"
+        },
+        {
+          "id": "b1-u9-tech-internet.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "report",
+          "choices": [
+            "download",
+            "was sent",
+            "report"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u9-news-media"
+        },
+        {
+          "id": "b1-u9-tech-internet.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎤",
+          "choices": [
+            "report",
+            "upload",
+            "journalist"
+          ],
+          "answer": 2,
+          "speak": "journalist",
+          "reviewOf": "b1-u9-news-media"
+        },
+        {
+          "id": "b1-u9-tech-internet.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «broadcast»",
+          "speak": "broadcast",
+          "choices": [
+            "ساخته می‌شود",
+            "پخش کردن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u9-news-media"
+        },
+        {
+          "id": "b1-u9-tech-internet.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "می‌توانی آنلاین جست‌وجو کنی.",
+          "sentence": "You can ___ online.",
+          "choices": [
+            "online",
+            "search",
+            "are sold"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The videos are uploaded and downloaded online.",
+          "fa": "ویدیوها آنلاین بارگذاری و دانلود می‌شوند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "جمع → are",
+        "body": "وقتی فاعل جمع است، are می‌آید: the videos are downloaded."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u9-boss",
+    "titleFa": "نبرد پایانی — مجهول و رسانه",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u9-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «are sold»",
+        "speak": "are sold",
+        "choices": [
+          "همه‌جا",
+          "جست‌وجو کردن",
+          "فروخته می‌شوند"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u9-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "everywhere",
+        "choices": [
+          "everywhere",
+          "report",
+          "was sent"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u9-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "✍️",
+        "choices": [
+          "was written",
+          "is called",
+          "was invented"
+        ],
+        "answer": 0,
+        "speak": "was written"
+      },
+      {
+        "id": "b1-u9-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «headline»",
+        "speak": "headline",
+        "choices": [
+          "تیتر",
+          "ساخته شدند"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u9-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «journalist»",
+        "speak": "journalist",
+        "choices": [
+          "فرستاده شد",
+          "روزنامه‌نگار",
+          "مقاله"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u9-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "upload",
+        "choices": [
+          "upload",
+          "was sent",
+          "is used"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u9-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🛠️",
+        "choices": [
+          "report",
+          "search",
+          "useful"
+        ],
+        "answer": 2,
+        "speak": "useful"
+      },
+      {
+        "id": "b1-u9-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «is used»",
+        "speak": "is used",
+        "choices": [
+          "ساخته می‌شود",
+          "استفاده می‌شود"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u9-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «was sent»",
+        "speak": "was sent",
+        "choices": [
+          "اختراع شد",
+          "همه‌جا",
+          "فرستاده شد"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u9-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "was invented",
+        "choices": [
+          "broadcast",
+          "was invented",
+          "was sent"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}
