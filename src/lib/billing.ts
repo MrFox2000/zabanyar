@@ -66,3 +66,23 @@ export async function restorePlan(): Promise<string[]> {
     return [];
   }
 }
+
+const PLAN_BY_SKU: Record<PlanSku, string> = {
+  plus_monthly: "monthly",
+  plus_quarterly: "quarterly",
+  plus_biannual: "biannual",
+  plus_yearly: "yearly",
+};
+
+/**
+ * Asks Bazaar for active subscriptions and returns the plan name, if any.
+ * Used on launch so a paying user keeps plus after a reinstall or a new phone.
+ */
+export async function restoreActivePlan(): Promise<string | null> {
+  const productIds = await restorePlan();
+  for (const id of productIds) {
+    const plan = PLAN_BY_SKU[id as PlanSku];
+    if (plan) return plan;
+  }
+  return null;
+}

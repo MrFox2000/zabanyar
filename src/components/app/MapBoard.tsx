@@ -11,6 +11,7 @@ import { Hud } from "@/components/Hud";
 import { DailyMissions } from "@/components/app/DailyMissions";
 import { DEMO, DEMO_LABEL } from "@/lib/demo";
 import { SkinBackdrop } from "@/components/SkinBackdrop";
+import { StoreSync } from "@/components/StoreSync";
 import { isUnlocked, levelOf, starsOf, useHydrated, useProgress } from "@/lib/store/progress";
 import { unlockLessonWithGems } from "@/lib/store/progress";
 import { cn, fa } from "@/lib/utils";
@@ -44,6 +45,7 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
   return (
     <div className="relative min-h-dvh">
       <SkinBackdrop />
+      <StoreSync />
       <Hud />
 
       <main className="mx-auto max-w-3xl px-4 pb-24 pt-5">
