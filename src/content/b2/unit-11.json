@@ -1,0 +1,1279 @@
+{
+  "id": "b2-u11",
+  "level": "B2",
+  "index": 11,
+  "titleFa": "ارائه و دفاع از نظر",
+  "titleEn": "Presenting your case",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "b2-u11-talk-structure",
+      "title": "Opening, body, conclusion",
+      "titleFa": "ساختار سخنرانی",
+      "goal": "یک ارائه را سه‌بخشی بسازی",
+      "buildsOn": [
+        "b2-u10-formal-informal"
+      ],
+      "vocab": [
+        {
+          "en": "opening",
+          "fa": "بخش آغازین",
+          "emoji": "🎬"
+        },
+        {
+          "en": "body",
+          "fa": "بدنه",
+          "emoji": "📄"
+        },
+        {
+          "en": "conclusion",
+          "fa": "نتیجه",
+          "emoji": "🏁"
+        },
+        {
+          "en": "point",
+          "fa": "نکته",
+          "emoji": "📍"
+        },
+        {
+          "en": "audience",
+          "fa": "مخاطب",
+          "emoji": "👥"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "opening",
+          "fa": "بخش آغازین",
+          "emoji": "🎬"
+        },
+        {
+          "kind": "word",
+          "en": "body",
+          "fa": "بدنه",
+          "emoji": "📄"
+        },
+        {
+          "kind": "word",
+          "en": "conclusion",
+          "fa": "نتیجه",
+          "emoji": "🏁"
+        },
+        {
+          "kind": "word",
+          "en": "point",
+          "fa": "نکته",
+          "emoji": "📍"
+        },
+        {
+          "kind": "sentence",
+          "en": "The body has three main points.",
+          "fa": "بدنه سه نکتهٔ اصلی دارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "The opening is short and clear.",
+          "fa": "بخش آغازین کوتاه و روشن است.",
+          "highlight": "opening"
+        },
+        {
+          "kind": "rule",
+          "title": "سه بخش",
+          "body": "opening (شروع)، body (بدنه) و conclusion (پایان). هر بخش یک کار دارد.",
+          "examples": [
+            {
+              "en": "The body has three main points.",
+              "fa": "بدنه سه نکتهٔ اصلی دارد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u11-talk-structure.1",
+          "kind": "mcq",
+          "prompt": "معنی «opening» چیست؟",
+          "promptFa": "بخش آغازین",
+          "choices": [
+            "بعضی‌ها می‌گویند",
+            "تماس چشمی",
+            "بخش آغازین"
+          ],
+          "answer": 2,
+          "speak": "opening",
+          "aiHints": {
+            "example": "I know the word \"opening\".",
+            "explanation": "«opening» یعنی بخش آغازین."
+          }
+        },
+        {
+          "id": "b2-u11-talk-structure.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📄",
+          "choices": [
+            "opening",
+            "body",
+            "conclusion"
+          ],
+          "answer": 1,
+          "speak": "body"
+        },
+        {
+          "id": "b2-u11-talk-structure.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "conclusion",
+          "choices": [
+            "however",
+            "conclusion",
+            "point"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u11-talk-structure.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "body",
+              "fa": "بدنه"
+            },
+            {
+              "en": "conclusion",
+              "fa": "نتیجه"
+            },
+            {
+              "en": "opening",
+              "fa": "بخش آغازین"
+            },
+            {
+              "en": "point",
+              "fa": "نکته"
+            }
+          ]
+        },
+        {
+          "id": "b2-u11-talk-structure.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بخش آغازین کوتاه و روشن است.",
+          "sentence": "The ___ is short and clear.",
+          "choices": [
+            "could we",
+            "opening",
+            "perhaps"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u11-talk-structure.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "بدنه سه نکتهٔ اصلی دارد.",
+          "tokens": [
+            "three",
+            "has",
+            "body",
+            "points",
+            "main",
+            "The"
+          ],
+          "answer": "The body has three main points"
+        },
+        {
+          "id": "b2-u11-talk-structure.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "body",
+            "have",
+            "three",
+            "points."
+          ],
+          "answer": 2,
+          "fix": "The body has three points.",
+          "aiHints": {
+            "explanation": "درستش این است: The body has three points."
+          }
+        },
+        {
+          "id": "b2-u11-talk-structure.8",
+          "kind": "speed",
+          "prompt": "سریع! «audience» یعنی چه؟",
+          "speak": "audience",
+          "choices": [
+            "مخاطب",
+            "بخش آغازین"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u11-talk-structure.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «request»",
+          "choices": [
+            "دیدگاه دیگر",
+            "شاید",
+            "درخواست کردن (رسمی)"
+          ],
+          "answer": 2,
+          "speak": "request",
+          "reviewOf": "b2-u10-formal-informal"
+        },
+        {
+          "id": "b2-u11-talk-structure.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "sincerely",
+          "choices": [
+            "while",
+            "another view",
+            "sincerely"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u10-formal-informal"
+        },
+        {
+          "id": "b2-u11-talk-structure.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌟",
+          "choices": [
+            "best wishes",
+            "practice",
+            "could we"
+          ],
+          "answer": 0,
+          "speak": "best wishes",
+          "reviewOf": "b2-u10-formal-informal"
+        },
+        {
+          "id": "b2-u11-talk-structure.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «informal»",
+          "speak": "informal",
+          "choices": [
+            "دوستانه",
+            "بخش آغازین"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u10-formal-informal"
+        },
+        {
+          "id": "b2-u11-talk-structure.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "با یک نتیجهٔ قوی تمام کن.",
+          "sentence": "End with a strong ___.",
+          "choices": [
+            "conclusion",
+            "pause",
+            "could we"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Start with a clear opening and end with a conclusion.",
+          "fa": "با شروع روشن آغاز کن و با نتیجه‌گیری تمام کن."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "سه بخش",
+        "body": "opening (شروع)، body (بدنه) و conclusion (پایان). هر بخش یک کار دارد."
+      }
+    },
+    {
+      "id": "b2-u11-counterarguments",
+      "title": "Some people say…",
+      "titleFa": "نظر مخالف",
+      "goal": "به نظر مخالف هم جواب بدهی",
+      "buildsOn": [
+        "b2-u11-talk-structure"
+      ],
+      "vocab": [
+        {
+          "en": "some people say",
+          "fa": "بعضی‌ها می‌گویند",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "however",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "en": "while",
+          "fa": "در حالی که",
+          "emoji": "⏳"
+        },
+        {
+          "en": "another view",
+          "fa": "دیدگاه دیگر",
+          "emoji": "👀"
+        },
+        {
+          "en": "respond",
+          "fa": "پاسخ دادن",
+          "emoji": "💬"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "some people say",
+          "fa": "بعضی‌ها می‌گویند",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "however",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "word",
+          "en": "while",
+          "fa": "در حالی که",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "another view",
+          "fa": "دیدگاه دیگر",
+          "emoji": "👀"
+        },
+        {
+          "kind": "sentence",
+          "en": "While some agree, others do not.",
+          "fa": "در حالی که بعضی موافق‌اند، بعضی نه."
+        },
+        {
+          "kind": "sentence",
+          "en": "Some people say it is wrong.",
+          "fa": "بعضی‌ها می‌گویند این اشتباه است.",
+          "highlight": "say"
+        },
+        {
+          "kind": "rule",
+          "title": "some people say",
+          "body": "some people جمع است، پس فعلش say است — نه says.",
+          "examples": [
+            {
+              "en": "While some agree, others do not.",
+              "fa": "در حالی که بعضی موافق‌اند، بعضی نه."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u11-counterarguments.1",
+          "kind": "mcq",
+          "prompt": "معنی «some people say» چیست؟",
+          "promptFa": "بعضی‌ها می‌گویند",
+          "choices": [
+            "بعضی‌ها می‌گویند",
+            "پاسخ دادن",
+            "شاید"
+          ],
+          "answer": 0,
+          "speak": "some people say",
+          "aiHints": {
+            "example": "I know the word \"some people say\".",
+            "explanation": "«some people say» یعنی بعضی‌ها می‌گویند."
+          }
+        },
+        {
+          "id": "b2-u11-counterarguments.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "↔️",
+          "choices": [
+            "some people say",
+            "while",
+            "however"
+          ],
+          "answer": 2,
+          "speak": "however"
+        },
+        {
+          "id": "b2-u11-counterarguments.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "while",
+          "choices": [
+            "clear",
+            "perhaps",
+            "while"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u11-counterarguments.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "another view",
+              "fa": "دیدگاه دیگر"
+            },
+            {
+              "en": "however",
+              "fa": "با این حال"
+            },
+            {
+              "en": "some people say",
+              "fa": "بعضی‌ها می‌گویند"
+            },
+            {
+              "en": "while",
+              "fa": "در حالی که"
+            }
+          ]
+        },
+        {
+          "id": "b2-u11-counterarguments.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بعضی‌ها می‌گویند این اشتباه است.",
+          "sentence": "Some people ___ it is wrong.",
+          "choices": [
+            "opening",
+            "say",
+            "another view"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u11-counterarguments.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "در حالی که بعضی موافق‌اند، بعضی نه.",
+          "tokens": [
+            "While",
+            "do",
+            "some",
+            "others",
+            "agree,",
+            "not"
+          ],
+          "answer": "While some agree, others do not"
+        },
+        {
+          "id": "b2-u11-counterarguments.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Some",
+            "people",
+            "says",
+            "it",
+            "is",
+            "wrong."
+          ],
+          "answer": 2,
+          "fix": "Some people say it is wrong.",
+          "aiHints": {
+            "explanation": "درستش این است: Some people say it is wrong."
+          }
+        },
+        {
+          "id": "b2-u11-counterarguments.8",
+          "kind": "speed",
+          "prompt": "سریع! «respond» یعنی چه؟",
+          "speak": "respond",
+          "choices": [
+            "پاسخ دادن",
+            "بخش آغازین"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u11-counterarguments.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «body»",
+          "choices": [
+            "اعتمادبه‌نفس",
+            "بدنه",
+            "بعضی‌ها می‌گویند"
+          ],
+          "answer": 1,
+          "speak": "body",
+          "reviewOf": "b2-u11-talk-structure"
+        },
+        {
+          "id": "b2-u11-counterarguments.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "conclusion",
+          "choices": [
+            "it might be better",
+            "conclusion",
+            "confidence"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u11-talk-structure"
+        },
+        {
+          "id": "b2-u11-counterarguments.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📍",
+          "choices": [
+            "respond",
+            "point",
+            "I wonder if"
+          ],
+          "answer": 1,
+          "speak": "point",
+          "reviewOf": "b2-u11-talk-structure"
+        },
+        {
+          "id": "b2-u11-counterarguments.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «audience»",
+          "speak": "audience",
+          "choices": [
+            "مخاطب",
+            "بخش آغازین"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u11-talk-structure"
+        },
+        {
+          "id": "b2-u11-counterarguments.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "دیدگاه دیگری متفاوت است.",
+          "sentence": "Another ___ is different.",
+          "choices": [
+            "audience",
+            "view",
+            "perhaps"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Some people say it is easy; however I disagree.",
+          "fa": "بعضی‌ها می‌گویند آسان است؛ با این حال مخالفم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "some people say",
+        "body": "some people جمع است، پس فعلش say است — نه says."
+      }
+    },
+    {
+      "id": "b2-u11-diplomacy",
+      "title": "Perhaps we could…",
+      "titleFa": "مؤدبانه و دیپلماتیک",
+      "goal": "نرم و محتاطانه پیشنهاد بدهی",
+      "buildsOn": [
+        "b2-u11-counterarguments"
+      ],
+      "vocab": [
+        {
+          "en": "perhaps",
+          "fa": "شاید",
+          "emoji": "🤔"
+        },
+        {
+          "en": "it might be better",
+          "fa": "شاید بهتر باشد",
+          "emoji": "💭"
+        },
+        {
+          "en": "I wonder if",
+          "fa": "نمی‌دانم آیا",
+          "emoji": "❓"
+        },
+        {
+          "en": "could we",
+          "fa": "می‌توانیم؟",
+          "emoji": "🙏"
+        },
+        {
+          "en": "suggest",
+          "fa": "پیشنهاد کردن",
+          "emoji": "💡"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "perhaps",
+          "fa": "شاید",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "it might be better",
+          "fa": "شاید بهتر باشد",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "I wonder if",
+          "fa": "نمی‌دانم آیا",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "could we",
+          "fa": "می‌توانیم؟",
+          "emoji": "🙏"
+        },
+        {
+          "kind": "sentence",
+          "en": "It might be better to wait.",
+          "fa": "شاید بهتر باشد صبر کنیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Perhaps we could try again.",
+          "fa": "شاید بتوانیم دوباره امتحان کنیم.",
+          "highlight": "Perhaps"
+        },
+        {
+          "kind": "rule",
+          "title": "I wonder if",
+          "body": "بعد از I wonder از if استفاده می‌شود: I wonder if you agree.",
+          "examples": [
+            {
+              "en": "It might be better to wait.",
+              "fa": "شاید بهتر باشد صبر کنیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u11-diplomacy.1",
+          "kind": "mcq",
+          "prompt": "معنی «perhaps» چیست؟",
+          "promptFa": "شاید",
+          "choices": [
+            "مکث کردن",
+            "شاید",
+            "تمرین"
+          ],
+          "answer": 1,
+          "speak": "perhaps",
+          "aiHints": {
+            "example": "I know the word \"perhaps\".",
+            "explanation": "«perhaps» یعنی شاید."
+          }
+        },
+        {
+          "id": "b2-u11-diplomacy.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "suggest",
+            "I wonder if",
+            "it might be better"
+          ],
+          "answer": 2,
+          "speak": "it might be better"
+        },
+        {
+          "id": "b2-u11-diplomacy.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "I wonder if",
+          "choices": [
+            "clear",
+            "I wonder if",
+            "confidence"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u11-diplomacy.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "it might be better",
+              "fa": "شاید بهتر باشد"
+            },
+            {
+              "en": "perhaps",
+              "fa": "شاید"
+            },
+            {
+              "en": "could we",
+              "fa": "می‌توانیم؟"
+            },
+            {
+              "en": "I wonder if",
+              "fa": "نمی‌دانم آیا"
+            }
+          ]
+        },
+        {
+          "id": "b2-u11-diplomacy.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "شاید بتوانیم دوباره امتحان کنیم.",
+          "sentence": "___ we could try again.",
+          "choices": [
+            "Perhaps",
+            "perhaps",
+            "conclusion"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u11-diplomacy.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شاید بهتر باشد صبر کنیم.",
+          "tokens": [
+            "wait",
+            "It",
+            "to",
+            "be",
+            "better",
+            "might"
+          ],
+          "answer": "It might be better to wait"
+        },
+        {
+          "id": "b2-u11-diplomacy.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "wonder",
+            "that",
+            "you",
+            "agree."
+          ],
+          "answer": 2,
+          "fix": "I wonder if you agree.",
+          "aiHints": {
+            "explanation": "درستش این است: I wonder if you agree."
+          }
+        },
+        {
+          "id": "b2-u11-diplomacy.8",
+          "kind": "speed",
+          "prompt": "سریع! «suggest» یعنی چه؟",
+          "speak": "suggest",
+          "choices": [
+            "بخش آغازین",
+            "پیشنهاد کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u11-diplomacy.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «however»",
+          "choices": [
+            "مخاطب",
+            "روشن",
+            "با این حال"
+          ],
+          "answer": 2,
+          "speak": "however",
+          "reviewOf": "b2-u11-counterarguments"
+        },
+        {
+          "id": "b2-u11-diplomacy.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "while",
+          "choices": [
+            "while",
+            "however",
+            "body"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u11-counterarguments"
+        },
+        {
+          "id": "b2-u11-diplomacy.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👀",
+          "choices": [
+            "it might be better",
+            "however",
+            "another view"
+          ],
+          "answer": 2,
+          "speak": "another view",
+          "reviewOf": "b2-u11-counterarguments"
+        },
+        {
+          "id": "b2-u11-diplomacy.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «respond»",
+          "speak": "respond",
+          "choices": [
+            "بخش آغازین",
+            "پاسخ دادن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u11-counterarguments"
+        },
+        {
+          "id": "b2-u11-diplomacy.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "نمی‌دانم آیا موافقید.",
+          "sentence": "I ___ if you agree.",
+          "choices": [
+            "while",
+            "wonder",
+            "however"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Perhaps it might be better if we discuss it later.",
+          "fa": "شاید بهتر باشد بعداً دربارهٔ آن بحث کنیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "I wonder if",
+        "body": "بعد از I wonder از if استفاده می‌شود: I wonder if you agree."
+      }
+    },
+    {
+      "id": "b2-u11-delivery",
+      "title": "Speak slowly and pause",
+      "titleFa": "اجرای ارائه",
+      "goal": "ارائه‌ات را خوب اجرا کنی",
+      "buildsOn": [
+        "b2-u11-diplomacy"
+      ],
+      "vocab": [
+        {
+          "en": "confidence",
+          "fa": "اعتمادبه‌نفس",
+          "emoji": "💪"
+        },
+        {
+          "en": "pause",
+          "fa": "مکث کردن",
+          "emoji": "⏸️"
+        },
+        {
+          "en": "eye contact",
+          "fa": "تماس چشمی",
+          "emoji": "👁️"
+        },
+        {
+          "en": "clear",
+          "fa": "روشن",
+          "emoji": "💡"
+        },
+        {
+          "en": "practice",
+          "fa": "تمرین",
+          "emoji": "🔁"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "confidence",
+          "fa": "اعتمادبه‌نفس",
+          "emoji": "💪"
+        },
+        {
+          "kind": "word",
+          "en": "pause",
+          "fa": "مکث کردن",
+          "emoji": "⏸️"
+        },
+        {
+          "kind": "word",
+          "en": "eye contact",
+          "fa": "تماس چشمی",
+          "emoji": "👁️"
+        },
+        {
+          "kind": "word",
+          "en": "clear",
+          "fa": "روشن",
+          "emoji": "💡"
+        },
+        {
+          "kind": "sentence",
+          "en": "Speak slowly and pause.",
+          "fa": "آرام حرف بزن و مکث کن."
+        },
+        {
+          "kind": "sentence",
+          "en": "Make eye contact with the audience.",
+          "fa": "با مخاطب تماس چشمی بگیر.",
+          "highlight": "contact"
+        },
+        {
+          "kind": "rule",
+          "title": "جملهٔ امری",
+          "body": "در امر، فعل بدون to و بدون s می‌آید: speak، pause، practice.",
+          "examples": [
+            {
+              "en": "Speak slowly and pause.",
+              "fa": "آرام حرف بزن و مکث کن."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u11-delivery.1",
+          "kind": "mcq",
+          "prompt": "معنی «confidence» چیست؟",
+          "promptFa": "اعتمادبه‌نفس",
+          "choices": [
+            "نمی‌دانم آیا",
+            "اعتمادبه‌نفس",
+            "نکته"
+          ],
+          "answer": 1,
+          "speak": "confidence",
+          "aiHints": {
+            "example": "I know the word \"confidence\".",
+            "explanation": "«confidence» یعنی اعتمادبه‌نفس."
+          }
+        },
+        {
+          "id": "b2-u11-delivery.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⏸️",
+          "choices": [
+            "confidence",
+            "clear",
+            "pause"
+          ],
+          "answer": 2,
+          "speak": "pause"
+        },
+        {
+          "id": "b2-u11-delivery.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "eye contact",
+          "choices": [
+            "clear",
+            "confidence",
+            "eye contact"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u11-delivery.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "pause",
+              "fa": "مکث کردن"
+            },
+            {
+              "en": "confidence",
+              "fa": "اعتمادبه‌نفس"
+            },
+            {
+              "en": "eye contact",
+              "fa": "تماس چشمی"
+            },
+            {
+              "en": "clear",
+              "fa": "روشن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u11-delivery.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "با مخاطب تماس چشمی بگیر.",
+          "sentence": "Make eye ___ with the audience.",
+          "choices": [
+            "practice",
+            "eye contact",
+            "contact"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u11-delivery.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "آرام حرف بزن و مکث کن.",
+          "tokens": [
+            "pause",
+            "and",
+            "Speak",
+            "slowly"
+          ],
+          "answer": "Speak slowly and pause"
+        },
+        {
+          "id": "b2-u11-delivery.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Speak",
+            "slowly",
+            "and",
+            "pauses."
+          ],
+          "answer": 3,
+          "fix": "Speak slowly and pause.",
+          "aiHints": {
+            "explanation": "درستش این است: Speak slowly and pause."
+          }
+        },
+        {
+          "id": "b2-u11-delivery.8",
+          "kind": "speed",
+          "prompt": "سریع! «practice» یعنی چه؟",
+          "speak": "practice",
+          "choices": [
+            "تمرین",
+            "بخش آغازین"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u11-delivery.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «it might be better»",
+          "choices": [
+            "دیدگاه دیگر",
+            "شاید بهتر باشد",
+            "بدنه"
+          ],
+          "answer": 1,
+          "speak": "it might be better",
+          "reviewOf": "b2-u11-diplomacy"
+        },
+        {
+          "id": "b2-u11-delivery.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "I wonder if",
+          "choices": [
+            "I wonder if",
+            "another view",
+            "eye contact"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u11-diplomacy"
+        },
+        {
+          "id": "b2-u11-delivery.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🙏",
+          "choices": [
+            "conclusion",
+            "could we",
+            "clear"
+          ],
+          "answer": 1,
+          "speak": "could we",
+          "reviewOf": "b2-u11-diplomacy"
+        },
+        {
+          "id": "b2-u11-delivery.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «suggest»",
+          "speak": "suggest",
+          "choices": [
+            "پیشنهاد کردن",
+            "بخش آغازین"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u11-diplomacy"
+        },
+        {
+          "id": "b2-u11-delivery.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "تمرین، کار را کامل می‌کند.",
+          "sentence": "___ makes perfect.",
+          "choices": [
+            "Practice",
+            "another view",
+            "it might be better"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Practice gives you confidence and clear eye contact.",
+          "fa": "تمرین به تو اعتمادبه‌نفس و تماس چشمی روشن می‌دهد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "جملهٔ امری",
+        "body": "در امر، فعل بدون to و بدون s می‌آید: speak، pause، practice."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u11-boss",
+    "titleFa": "نبرد پایانی — ارائه و دفاع از نظر",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u11-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «body»",
+        "speak": "body",
+        "choices": [
+          "بخش آغازین",
+          "نکته",
+          "بدنه"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u11-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "audience",
+        "choices": [
+          "eye contact",
+          "respond",
+          "audience"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u11-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏳",
+        "choices": [
+          "perhaps",
+          "while",
+          "conclusion"
+        ],
+        "answer": 1,
+        "speak": "while"
+      },
+      {
+        "id": "b2-u11-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «perhaps»",
+        "speak": "perhaps",
+        "choices": [
+          "شاید",
+          "شاید بهتر باشد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u11-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «could we»",
+        "speak": "could we",
+        "choices": [
+          "می‌توانیم؟",
+          "بخش آغازین",
+          "بدنه"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u11-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "pause",
+        "choices": [
+          "respond",
+          "another view",
+          "pause"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u11-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔁",
+        "choices": [
+          "however",
+          "practice",
+          "I wonder if"
+        ],
+        "answer": 1,
+        "speak": "practice"
+      },
+      {
+        "id": "b2-u11-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «conclusion»",
+        "speak": "conclusion",
+        "choices": [
+          "نتیجه",
+          "مکث کردن"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u11-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «some people say»",
+        "speak": "some people say",
+        "choices": [
+          "شاید",
+          "نتیجه",
+          "بعضی‌ها می‌گویند"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u11-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "another view",
+        "choices": [
+          "opening",
+          "perhaps",
+          "another view"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,1282 @@
+{
+  "id": "b2-u12",
+  "level": "B2",
+  "index": 12,
+  "titleFa": "جمع‌بندی B2",
+  "titleEn": "Putting B2 together",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "b2-u12-four-skills",
+      "title": "Four skills",
+      "titleFa": "چهار مهارت",
+      "goal": "پیشرفتت را در چهار مهارت بسنجی",
+      "buildsOn": [
+        "b2-u11-delivery"
+      ],
+      "vocab": [
+        {
+          "en": "reading",
+          "fa": "خواندن",
+          "emoji": "📖"
+        },
+        {
+          "en": "listening",
+          "fa": "شنیدن",
+          "emoji": "🎧"
+        },
+        {
+          "en": "speaking",
+          "fa": "صحبت کردن",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "writing",
+          "fa": "نوشتن",
+          "emoji": "✍️"
+        },
+        {
+          "en": "vocabulary",
+          "fa": "واژگان",
+          "emoji": "🔤"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "reading",
+          "fa": "خواندن",
+          "emoji": "📖"
+        },
+        {
+          "kind": "word",
+          "en": "listening",
+          "fa": "شنیدن",
+          "emoji": "🎧"
+        },
+        {
+          "kind": "word",
+          "en": "speaking",
+          "fa": "صحبت کردن",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "writing",
+          "fa": "نوشتن",
+          "emoji": "✍️"
+        },
+        {
+          "kind": "sentence",
+          "en": "I can understand most articles now.",
+          "fa": "حالا بیشتر مقاله‌ها را می‌فهمم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I practice speaking every day.",
+          "fa": "هر روز صحبت کردن تمرین می‌کنم.",
+          "highlight": "speaking"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از can ساده",
+          "body": "can + فعل ساده: can understand، can read.",
+          "examples": [
+            {
+              "en": "I can understand most articles now.",
+              "fa": "حالا بیشتر مقاله‌ها را می‌فهمم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u12-four-skills.1",
+          "kind": "mcq",
+          "prompt": "معنی «reading» چیست؟",
+          "promptFa": "خواندن",
+          "choices": [
+            "خواندن",
+            "خریدن (روزمره)",
+            "تأکید"
+          ],
+          "answer": 0,
+          "speak": "reading",
+          "aiHints": {
+            "example": "I know the word \"reading\".",
+            "explanation": "«reading» یعنی خواندن."
+          }
+        },
+        {
+          "id": "b2-u12-four-skills.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🎧",
+          "choices": [
+            "listening",
+            "speaking",
+            "vocabulary"
+          ],
+          "answer": 0,
+          "speak": "listening"
+        },
+        {
+          "id": "b2-u12-four-skills.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "speaking",
+          "choices": [
+            "passive",
+            "buy",
+            "speaking"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u12-four-skills.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "reading",
+              "fa": "خواندن"
+            },
+            {
+              "en": "listening",
+              "fa": "شنیدن"
+            },
+            {
+              "en": "speaking",
+              "fa": "صحبت کردن"
+            },
+            {
+              "en": "writing",
+              "fa": "نوشتن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u12-four-skills.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "هر روز صحبت کردن تمرین می‌کنم.",
+          "sentence": "I practice ___ every day.",
+          "choices": [
+            "speaking",
+            "passive",
+            "example"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u12-four-skills.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "حالا بیشتر مقاله‌ها را می‌فهمم.",
+          "tokens": [
+            "most",
+            "I",
+            "can",
+            "understand",
+            "articles",
+            "now"
+          ],
+          "answer": "I can understand most articles now"
+        },
+        {
+          "id": "b2-u12-four-skills.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "can",
+            "understands",
+            "most",
+            "articles."
+          ],
+          "answer": 2,
+          "fix": "I can understand most articles.",
+          "aiHints": {
+            "explanation": "درستش این است: I can understand most articles."
+          }
+        },
+        {
+          "id": "b2-u12-four-skills.8",
+          "kind": "speed",
+          "prompt": "سریع! «vocabulary» یعنی چه؟",
+          "speak": "vocabulary",
+          "choices": [
+            "خواندن",
+            "واژگان"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u12-four-skills.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «pause»",
+          "choices": [
+            "واژگان",
+            "نوشتن",
+            "مکث کردن"
+          ],
+          "answer": 2,
+          "speak": "pause",
+          "reviewOf": "b2-u11-delivery"
+        },
+        {
+          "id": "b2-u12-four-skills.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "eye contact",
+          "choices": [
+            "eye contact",
+            "vocabulary",
+            "start"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u11-delivery"
+        },
+        {
+          "id": "b2-u12-four-skills.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "opinion",
+            "example",
+            "clear"
+          ],
+          "answer": 2,
+          "speak": "clear",
+          "reviewOf": "b2-u11-delivery"
+        },
+        {
+          "id": "b2-u12-four-skills.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «practice»",
+          "speak": "practice",
+          "choices": [
+            "خواندن",
+            "تمرین"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u11-delivery"
+        },
+        {
+          "id": "b2-u12-four-skills.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "نوشتنم بهتر می‌شود.",
+          "sentence": "My ___ is improving.",
+          "choices": [
+            "writing",
+            "inversion",
+            "listening"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I read and listen every day to improve my vocabulary.",
+          "fa": "هر روز می‌خوانم و گوش می‌دهم تا واژگانم بهتر شود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از can ساده",
+        "body": "can + فعل ساده: can understand، can read."
+      }
+    },
+    {
+      "id": "b2-u12-register",
+      "title": "Purchase or buy?",
+      "titleFa": "واژهٔ رسمی و روزمره",
+      "goal": "برای هر موقعیت واژهٔ درست انتخاب کنی",
+      "buildsOn": [
+        "b2-u12-four-skills"
+      ],
+      "vocab": [
+        {
+          "en": "purchase",
+          "fa": "خرید کردن (رسمی)",
+          "emoji": "🧾"
+        },
+        {
+          "en": "buy",
+          "fa": "خریدن (روزمره)",
+          "emoji": "🛒"
+        },
+        {
+          "en": "obtain",
+          "fa": "به دست آوردن (رسمی)",
+          "emoji": "📄"
+        },
+        {
+          "en": "begin",
+          "fa": "آغاز کردن (رسمی)",
+          "emoji": "▶️"
+        },
+        {
+          "en": "start",
+          "fa": "شروع کردن",
+          "emoji": "🏁"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "purchase",
+          "fa": "خرید کردن (رسمی)",
+          "emoji": "🧾"
+        },
+        {
+          "kind": "word",
+          "en": "buy",
+          "fa": "خریدن (روزمره)",
+          "emoji": "🛒"
+        },
+        {
+          "kind": "word",
+          "en": "obtain",
+          "fa": "به دست آوردن (رسمی)",
+          "emoji": "📄"
+        },
+        {
+          "kind": "word",
+          "en": "begin",
+          "fa": "آغاز کردن (رسمی)",
+          "emoji": "▶️"
+        },
+        {
+          "kind": "sentence",
+          "en": "We purchased a new car.",
+          "fa": "ماشین جدیدی خریدیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I purchased this book yesterday. (formal)",
+          "fa": "دیروز این کتاب را خریدم (رسمی).",
+          "highlight": "purchased"
+        },
+        {
+          "kind": "rule",
+          "title": "هم‌معنی‌های رسمی",
+          "body": "در متن رسمی purchase/obtain/begin به‌جای buy/get/start.",
+          "examples": [
+            {
+              "en": "We purchased a new car.",
+              "fa": "ماشین جدیدی خریدیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u12-register.1",
+          "kind": "mcq",
+          "prompt": "معنی «purchase» چیست؟",
+          "promptFa": "خرید کردن (رسمی)",
+          "choices": [
+            "شنیدن",
+            "تأکید",
+            "خرید کردن (رسمی)"
+          ],
+          "answer": 2,
+          "speak": "purchase",
+          "aiHints": {
+            "example": "I know the word \"purchase\".",
+            "explanation": "«purchase» یعنی خرید کردن (رسمی)."
+          }
+        },
+        {
+          "id": "b2-u12-register.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🛒",
+          "choices": [
+            "obtain",
+            "buy",
+            "start"
+          ],
+          "answer": 1,
+          "speak": "buy"
+        },
+        {
+          "id": "b2-u12-register.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "obtain",
+          "choices": [
+            "start",
+            "topic",
+            "obtain"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u12-register.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "purchase",
+              "fa": "خرید کردن (رسمی)"
+            },
+            {
+              "en": "obtain",
+              "fa": "به دست آوردن (رسمی)"
+            },
+            {
+              "en": "begin",
+              "fa": "آغاز کردن (رسمی)"
+            },
+            {
+              "en": "buy",
+              "fa": "خریدن (روزمره)"
+            }
+          ]
+        },
+        {
+          "id": "b2-u12-register.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دیروز این کتاب را خریدم (رسمی).",
+          "sentence": "I ___ this book yesterday. (formal)",
+          "choices": [
+            "purchased",
+            "support",
+            "topic"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u12-register.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ماشین جدیدی خریدیم.",
+          "tokens": [
+            "We",
+            "purchased",
+            "car",
+            "a",
+            "new"
+          ],
+          "answer": "We purchased a new car"
+        },
+        {
+          "id": "b2-u12-register.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "purchased",
+            "a",
+            "new",
+            "cars."
+          ],
+          "answer": 3,
+          "fix": "We purchased a new car.",
+          "aiHints": {
+            "explanation": "درستش این است: We purchased a new car."
+          }
+        },
+        {
+          "id": "b2-u12-register.8",
+          "kind": "speed",
+          "prompt": "سریع! «start» یعنی چه؟",
+          "speak": "start",
+          "choices": [
+            "خواندن",
+            "شروع کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u12-register.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «listening»",
+          "choices": [
+            "آغاز کردن (رسمی)",
+            "تأکید",
+            "شنیدن"
+          ],
+          "answer": 2,
+          "speak": "listening",
+          "reviewOf": "b2-u12-four-skills"
+        },
+        {
+          "id": "b2-u12-register.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "speaking",
+          "choices": [
+            "review",
+            "speaking",
+            "inversion"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u12-four-skills"
+        },
+        {
+          "id": "b2-u12-register.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✍️",
+          "choices": [
+            "emphasis",
+            "writing",
+            "review"
+          ],
+          "answer": 1,
+          "speak": "writing",
+          "reviewOf": "b2-u12-four-skills"
+        },
+        {
+          "id": "b2-u12-register.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «vocabulary»",
+          "speak": "vocabulary",
+          "choices": [
+            "واژگان",
+            "خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u12-four-skills"
+        },
+        {
+          "id": "b2-u12-register.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ساعت نه شروع می‌کنیم.",
+          "sentence": "We ___ at nine.",
+          "choices": [
+            "purchase",
+            "begin",
+            "start"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We purchased the tickets and began early.",
+          "fa": "بلیت‌ها را خریدیم و زود شروع کردیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "هم‌معنی‌های رسمی",
+        "body": "در متن رسمی purchase/obtain/begin به‌جای buy/get/start."
+      }
+    },
+    {
+      "id": "b2-u12-essay-practice",
+      "title": "Write and support",
+      "titleFa": "تمرین نوشتن",
+      "goal": "یک متن کوتاه با مثال بنویسی",
+      "buildsOn": [
+        "b2-u12-register"
+      ],
+      "vocab": [
+        {
+          "en": "topic",
+          "fa": "موضوع",
+          "emoji": "🎯"
+        },
+        {
+          "en": "linking words",
+          "fa": "کلمه‌های پیوند",
+          "emoji": "🔗"
+        },
+        {
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "en": "opinion",
+          "fa": "نظر",
+          "emoji": "💭"
+        },
+        {
+          "en": "support",
+          "fa": "پشتیبانی",
+          "emoji": "🧱"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "topic",
+          "fa": "موضوع",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "word",
+          "en": "linking words",
+          "fa": "کلمه‌های پیوند",
+          "emoji": "🔗"
+        },
+        {
+          "kind": "word",
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "kind": "word",
+          "en": "opinion",
+          "fa": "نظر",
+          "emoji": "💭"
+        },
+        {
+          "kind": "sentence",
+          "en": "Use examples to support your ideas.",
+          "fa": "برای پشتیبانی از ایده‌هایت مثال بیاور."
+        },
+        {
+          "kind": "sentence",
+          "en": "Write about the topic, with examples.",
+          "fa": "دربارهٔ موضوع، با مثال بنویس.",
+          "highlight": "topic"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از to ساده",
+          "body": "بعد از to فعل ساده می‌آید: to support، to explain.",
+          "examples": [
+            {
+              "en": "Use examples to support your ideas.",
+              "fa": "برای پشتیبانی از ایده‌هایت مثال بیاور."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u12-essay-practice.1",
+          "kind": "mcq",
+          "prompt": "معنی «topic» چیست؟",
+          "promptFa": "موضوع",
+          "choices": [
+            "موضوع",
+            "شنیدن",
+            "به دست آوردن (رسمی)"
+          ],
+          "answer": 0,
+          "speak": "topic",
+          "aiHints": {
+            "example": "I know the word \"topic\".",
+            "explanation": "«topic» یعنی موضوع."
+          }
+        },
+        {
+          "id": "b2-u12-essay-practice.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔗",
+          "choices": [
+            "opinion",
+            "linking words",
+            "topic"
+          ],
+          "answer": 1,
+          "speak": "linking words"
+        },
+        {
+          "id": "b2-u12-essay-practice.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "example",
+          "choices": [
+            "obtain",
+            "buy",
+            "example"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u12-essay-practice.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "topic",
+              "fa": "موضوع"
+            },
+            {
+              "en": "opinion",
+              "fa": "نظر"
+            },
+            {
+              "en": "linking words",
+              "fa": "کلمه‌های پیوند"
+            },
+            {
+              "en": "example",
+              "fa": "مثال"
+            }
+          ]
+        },
+        {
+          "id": "b2-u12-essay-practice.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دربارهٔ موضوع، با مثال بنویس.",
+          "sentence": "Write about the ___, with examples.",
+          "choices": [
+            "example",
+            "topic",
+            "listening"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u12-essay-practice.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "برای پشتیبانی از ایده‌هایت مثال بیاور.",
+          "tokens": [
+            "Use",
+            "your",
+            "support",
+            "ideas",
+            "examples",
+            "to"
+          ],
+          "answer": "Use examples to support your ideas"
+        },
+        {
+          "id": "b2-u12-essay-practice.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Use",
+            "examples",
+            "to",
+            "supports",
+            "your",
+            "ideas."
+          ],
+          "answer": 3,
+          "fix": "Use examples to support your ideas.",
+          "aiHints": {
+            "explanation": "درستش این است: Use examples to support your ideas."
+          }
+        },
+        {
+          "id": "b2-u12-essay-practice.8",
+          "kind": "speed",
+          "prompt": "سریع! «support» یعنی چه؟",
+          "speak": "support",
+          "choices": [
+            "پشتیبانی",
+            "خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u12-essay-practice.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «buy»",
+          "choices": [
+            "خریدن (روزمره)",
+            "شرط‌ها",
+            "شنیدن"
+          ],
+          "answer": 0,
+          "speak": "buy",
+          "reviewOf": "b2-u12-register"
+        },
+        {
+          "id": "b2-u12-essay-practice.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "obtain",
+          "choices": [
+            "writing",
+            "buy",
+            "obtain"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u12-register"
+        },
+        {
+          "id": "b2-u12-essay-practice.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "▶️",
+          "choices": [
+            "passive",
+            "linking words",
+            "begin"
+          ],
+          "answer": 2,
+          "speak": "begin",
+          "reviewOf": "b2-u12-register"
+        },
+        {
+          "id": "b2-u12-essay-practice.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «start»",
+          "speak": "start",
+          "choices": [
+            "شروع کردن",
+            "خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u12-register"
+        },
+        {
+          "id": "b2-u12-essay-practice.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "بین ایده‌ها از کلمه‌های پیوند استفاده کن.",
+          "sentence": "Use linking ___ between ideas.",
+          "choices": [
+            "support",
+            "words",
+            "purchase"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Use linking words and examples in your opinion essay.",
+          "fa": "در متن نظری‌ات کلمه‌های پیوند و مثال استفاده کن."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از to ساده",
+        "body": "بعد از to فعل ساده می‌آید: to support، to explain."
+      }
+    },
+    {
+      "id": "b2-u12-b2-final",
+      "title": "B2 final review",
+      "titleFa": "مرور پایانی B2",
+      "goal": "آمادهٔ C1 شوی",
+      "buildsOn": [
+        "b2-u12-essay-practice"
+      ],
+      "vocab": [
+        {
+          "en": "conditionals",
+          "fa": "شرط‌ها",
+          "emoji": "🔀"
+        },
+        {
+          "en": "passive",
+          "fa": "مجهول",
+          "emoji": "🔁"
+        },
+        {
+          "en": "emphasis",
+          "fa": "تأکید",
+          "emoji": "🔦"
+        },
+        {
+          "en": "inversion",
+          "fa": "وارونگی",
+          "emoji": "🔄"
+        },
+        {
+          "en": "review",
+          "fa": "مرور",
+          "emoji": "📝"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "conditionals",
+          "fa": "شرط‌ها",
+          "emoji": "🔀"
+        },
+        {
+          "kind": "word",
+          "en": "passive",
+          "fa": "مجهول",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "word",
+          "en": "emphasis",
+          "fa": "تأکید",
+          "emoji": "🔦"
+        },
+        {
+          "kind": "word",
+          "en": "inversion",
+          "fa": "وارونگی",
+          "emoji": "🔄"
+        },
+        {
+          "kind": "sentence",
+          "en": "Never have I felt so ready.",
+          "fa": "هرگز این‌قدر آماده نبوده‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had known, I would have called.",
+          "fa": "اگر می‌دانستم، زنگ می‌زدم.",
+          "highlight": "would"
+        },
+        {
+          "kind": "rule",
+          "title": "چهار ستون B2",
+          "body": "شرط سوم، مجهول، جملهٔ تأکیدی و وارونگی — این‌ها امضای سطح B2 هستند.",
+          "examples": [
+            {
+              "en": "Never have I felt so ready.",
+              "fa": "هرگز این‌قدر آماده نبوده‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u12-b2-final.1",
+          "kind": "mcq",
+          "prompt": "معنی «conditionals» چیست؟",
+          "promptFa": "شرط‌ها",
+          "choices": [
+            "نظر",
+            "شرط‌ها",
+            "مثال"
+          ],
+          "answer": 1,
+          "speak": "conditionals",
+          "aiHints": {
+            "example": "I know the word \"conditionals\".",
+            "explanation": "«conditionals» یعنی شرط‌ها."
+          }
+        },
+        {
+          "id": "b2-u12-b2-final.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔁",
+          "choices": [
+            "emphasis",
+            "review",
+            "passive"
+          ],
+          "answer": 2,
+          "speak": "passive"
+        },
+        {
+          "id": "b2-u12-b2-final.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "emphasis",
+          "choices": [
+            "emphasis",
+            "listening",
+            "purchase"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u12-b2-final.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "emphasis",
+              "fa": "تأکید"
+            },
+            {
+              "en": "conditionals",
+              "fa": "شرط‌ها"
+            },
+            {
+              "en": "inversion",
+              "fa": "وارونگی"
+            },
+            {
+              "en": "passive",
+              "fa": "مجهول"
+            }
+          ]
+        },
+        {
+          "id": "b2-u12-b2-final.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر می‌دانستم، زنگ می‌زدم.",
+          "sentence": "If I had known, I ___ have called.",
+          "choices": [
+            "speaking",
+            "would",
+            "conditionals"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u12-b2-final.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "هرگز این‌قدر آماده نبوده‌ام.",
+          "tokens": [
+            "so",
+            "Never",
+            "I",
+            "ready",
+            "have",
+            "felt"
+          ],
+          "answer": "Never have I felt so ready"
+        },
+        {
+          "id": "b2-u12-b2-final.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Never",
+            "I",
+            "have",
+            "felt",
+            "so",
+            "ready."
+          ],
+          "answer": 1,
+          "fix": "Never have I felt so ready.",
+          "aiHints": {
+            "explanation": "درستش این است: Never have I felt so ready."
+          }
+        },
+        {
+          "id": "b2-u12-b2-final.8",
+          "kind": "speed",
+          "prompt": "سریع! «review» یعنی چه؟",
+          "speak": "review",
+          "choices": [
+            "مرور",
+            "خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u12-b2-final.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «linking words»",
+          "choices": [
+            "خواندن",
+            "پشتیبانی",
+            "کلمه‌های پیوند"
+          ],
+          "answer": 2,
+          "speak": "linking words",
+          "reviewOf": "b2-u12-essay-practice"
+        },
+        {
+          "id": "b2-u12-b2-final.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "example",
+          "choices": [
+            "begin",
+            "example",
+            "reading"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u12-essay-practice"
+        },
+        {
+          "id": "b2-u12-b2-final.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "emphasis",
+            "buy",
+            "opinion"
+          ],
+          "answer": 2,
+          "speak": "opinion",
+          "reviewOf": "b2-u12-essay-practice"
+        },
+        {
+          "id": "b2-u12-b2-final.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «support»",
+          "speak": "support",
+          "choices": [
+            "پشتیبانی",
+            "خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u12-essay-practice"
+        },
+        {
+          "id": "b2-u12-b2-final.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "علی بود که کمک کرد.",
+          "sentence": "It was Ali ___ helped.",
+          "choices": [
+            "emphasis",
+            "buy",
+            "who"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have reviewed the four pillars and I am ready for C1.",
+          "fa": "چهار ستون را مرور کردم و آمادهٔ C1 هستم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "چهار ستون B2",
+        "body": "شرط سوم، مجهول، جملهٔ تأکیدی و وارونگی — این‌ها امضای سطح B2 هستند."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u12-boss",
+    "titleFa": "نبرد پایانی — جمع‌بندی B2",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u12-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «listening»",
+        "speak": "listening",
+        "choices": [
+          "مرور",
+          "شنیدن",
+          "نوشتن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u12-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "vocabulary",
+        "choices": [
+          "vocabulary",
+          "buy",
+          "inversion"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u12-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📄",
+        "choices": [
+          "obtain",
+          "start",
+          "passive"
+        ],
+        "answer": 0,
+        "speak": "obtain"
+      },
+      {
+        "id": "b2-u12-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «topic»",
+        "speak": "topic",
+        "choices": [
+          "موضوع",
+          "شروع کردن"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u12-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «opinion»",
+        "speak": "opinion",
+        "choices": [
+          "مجهول",
+          "خریدن (روزمره)",
+          "نظر"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u12-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "passive",
+        "choices": [
+          "linking words",
+          "writing",
+          "passive"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u12-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📝",
+        "choices": [
+          "writing",
+          "review",
+          "conditionals"
+        ],
+        "answer": 1,
+        "speak": "review"
+      },
+      {
+        "id": "b2-u12-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «speaking»",
+        "speak": "speaking",
+        "choices": [
+          "مثال",
+          "صحبت کردن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u12-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «purchase»",
+        "speak": "purchase",
+        "choices": [
+          "خرید کردن (رسمی)",
+          "پشتیبانی",
+          "مجهول"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u12-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "begin",
+        "choices": [
+          "begin",
+          "writing",
+          "speaking"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

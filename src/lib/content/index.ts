@@ -39,12 +39,15 @@ import b2unit06 from "@/content/b2/unit-06.json";
 import b2unit07 from "@/content/b2/unit-07.json";
 import b2unit08 from "@/content/b2/unit-08.json";
 import b2unit09 from "@/content/b2/unit-09.json";
+import b2unit10 from "@/content/b2/unit-10.json";
+import b2unit11 from "@/content/b2/unit-11.json";
+import b2unit12 from "@/content/b2/unit-12.json";
 
 /**
  * The content is validated once, at load. A broken JSON file fails loudly in
  * development instead of silently shipping a lesson with no right answer.
  */
-const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08, a2unit01, a2unit02, a2unit03, a2unit04, a2unit05, a2unit06, a2unit07, a2unit08, a2unit09, a2unit10, b1unit01, b1unit02, b1unit03, b1unit04, b1unit05, b1unit06, b1unit07, b1unit08, b1unit09, b1unit10, b1unit11, b1unit12, b2unit01, b2unit02, b2unit03, b2unit04, b2unit05, b2unit06, b2unit07, b2unit08, b2unit09];
+const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08, a2unit01, a2unit02, a2unit03, a2unit04, a2unit05, a2unit06, a2unit07, a2unit08, a2unit09, a2unit10, b1unit01, b1unit02, b1unit03, b1unit04, b1unit05, b1unit06, b1unit07, b1unit08, b1unit09, b1unit10, b1unit11, b1unit12, b2unit01, b2unit02, b2unit03, b2unit04, b2unit05, b2unit06, b2unit07, b2unit08, b2unit09, b2unit10, b2unit11, b2unit12];
 
 export const units: Unit[] = z.array(unitSchema).parse(raw);
 

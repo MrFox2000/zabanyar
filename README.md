@@ -24,7 +24,7 @@ from them, so the language forms a web instead of a stack of unrelated lessons.
 |---|---|---|
 | Marketing site | `src/app/page.tsx` | landing, features, pricing, FAQ |
 | App | `src/app/app/*` | map, lesson runner, boss battle, profile, weekly view |
-| Content | `src/content/<level>/*.json` | 30 units (A1 + A2 + B1) · 120 lessons · 1857 exercises |
+| Content | `src/content/<level>/*.json` | 42 units (A1–B2) · 168 lessons · 2601 exercises |
 | Content pipeline | `scripts/gen-content.mjs` | build-time generator for the JSON above |
 | AI layer | `src/lib/ai/*`, `src/app/api/ai/*` | flags, client, events, `useAi`, routes |
 
@@ -35,7 +35,7 @@ from them, so the language forms a web instead of a stack of unrelated lessons.
 | A1 | 8 | 32 | done |
 | A2 | 10 | 40 | done |
 | B1 | 12 | 48 | done |
-| B2 | 12 | 48 | next |
+| B2 | 12 | 48 | done |
 
 Add a level by dropping `scripts/curriculum/units-<level>-*.mjs` files, listing them in
 `scripts/curriculum/index.mjs`, and running `npm run content` — the loader, the map tabs,
@@ -43,7 +43,7 @@ the notebook grouping and the word-image downloader all pick it up automatically
 
 ## Numbers that are real
 
-- 30 units (A1 + A2 + B1), 120 lessons, **1857 exercises**, 30 boss battles
+- 42 units (A1–B2), 168 lessons, **2601 exercises**, 42 boss battles
 - 8 game types: meaning, picture, listening, fill-the-blank, sentence building,
   match pairs, spot the mistake, speed round
 - 0 image or audio assets to license: the fox is inline SVG, audio is the browser's

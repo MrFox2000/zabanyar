@@ -1,0 +1,1283 @@
+{
+  "id": "b2-u10",
+  "level": "B2",
+  "index": 10,
+  "titleFa": "مهارت نوشتن",
+  "titleEn": "Writing skills",
+  "theme": "gold",
+  "lessons": [
+    {
+      "id": "b2-u10-paragraph-development",
+      "title": "One point, one paragraph",
+      "titleFa": "ساختن پاراگراف",
+      "goal": "پاراگراف منظم بنویسی",
+      "buildsOn": [
+        "b2-u9-critical-thinking"
+      ],
+      "vocab": [
+        {
+          "en": "support",
+          "fa": "پشتیبانی کردن",
+          "emoji": "🧱"
+        },
+        {
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "en": "link",
+          "fa": "پیوند",
+          "emoji": "🔗"
+        },
+        {
+          "en": "clear",
+          "fa": "روشن",
+          "emoji": "💡"
+        },
+        {
+          "en": "structure",
+          "fa": "ساختار",
+          "emoji": "🏗️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "support",
+          "fa": "پشتیبانی کردن",
+          "emoji": "🧱"
+        },
+        {
+          "kind": "word",
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "kind": "word",
+          "en": "link",
+          "fa": "پیوند",
+          "emoji": "🔗"
+        },
+        {
+          "kind": "word",
+          "en": "clear",
+          "fa": "روشن",
+          "emoji": "💡"
+        },
+        {
+          "kind": "sentence",
+          "en": "A clear paragraph has one main point.",
+          "fa": "پاراگراف روشن یک نکتهٔ اصلی دارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "Give one example to support your point.",
+          "fa": "یک مثال برای پشتیبانی از حرفت بیاور.",
+          "highlight": "example"
+        },
+        {
+          "kind": "rule",
+          "title": "فاعل مفرد → has",
+          "body": "برای فاعل مفرد has می‌آید: a paragraph has…، a point has…",
+          "examples": [
+            {
+              "en": "A clear paragraph has one main point.",
+              "fa": "پاراگراف روشن یک نکتهٔ اصلی دارد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u10-paragraph-development.1",
+          "kind": "mcq",
+          "prompt": "معنی «support» چیست؟",
+          "promptFa": "پشتیبانی کردن",
+          "choices": [
+            "این",
+            "پشتیبانی کردن",
+            "با بهترین آرزوها"
+          ],
+          "answer": 1,
+          "speak": "support",
+          "aiHints": {
+            "example": "I know the word \"support\".",
+            "explanation": "«support» یعنی پشتیبانی کردن."
+          }
+        },
+        {
+          "id": "b2-u10-paragraph-development.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📎",
+          "choices": [
+            "link",
+            "support",
+            "example"
+          ],
+          "answer": 2,
+          "speak": "example"
+        },
+        {
+          "id": "b2-u10-paragraph-development.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "link",
+          "choices": [
+            "in addition",
+            "link",
+            "spelling"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u10-paragraph-development.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "link",
+              "fa": "پیوند"
+            },
+            {
+              "en": "clear",
+              "fa": "روشن"
+            },
+            {
+              "en": "example",
+              "fa": "مثال"
+            },
+            {
+              "en": "support",
+              "fa": "پشتیبانی کردن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u10-paragraph-development.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "یک مثال برای پشتیبانی از حرفت بیاور.",
+          "sentence": "Give one ___ to support your point.",
+          "choices": [
+            "example",
+            "support",
+            "link"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u10-paragraph-development.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "پاراگراف روشن یک نکتهٔ اصلی دارد.",
+          "tokens": [
+            "clear",
+            "point",
+            "one",
+            "main",
+            "paragraph",
+            "A",
+            "has"
+          ],
+          "answer": "A clear paragraph has one main point"
+        },
+        {
+          "id": "b2-u10-paragraph-development.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "A",
+            "clear",
+            "paragraph",
+            "have",
+            "one",
+            "point."
+          ],
+          "answer": 3,
+          "fix": "A clear paragraph has one point.",
+          "aiHints": {
+            "explanation": "درستش این است: A clear paragraph has one point."
+          }
+        },
+        {
+          "id": "b2-u10-paragraph-development.8",
+          "kind": "speed",
+          "prompt": "سریع! «structure» یعنی چه؟",
+          "speak": "structure",
+          "choices": [
+            "ساختار",
+            "پشتیبانی کردن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u10-paragraph-development.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «fact»",
+          "choices": [
+            "بنابراین",
+            "واقعیت",
+            "نیاز داشتن (رسمی)"
+          ],
+          "answer": 1,
+          "speak": "fact",
+          "reviewOf": "b2-u9-critical-thinking"
+        },
+        {
+          "id": "b2-u10-paragraph-development.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "opinion",
+          "choices": [
+            "opinion",
+            "sincerely",
+            "best wishes"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u9-critical-thinking"
+        },
+        {
+          "id": "b2-u10-paragraph-development.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⚖️",
+          "choices": [
+            "therefore",
+            "bias",
+            "clear"
+          ],
+          "answer": 1,
+          "speak": "bias",
+          "reviewOf": "b2-u9-critical-thinking"
+        },
+        {
+          "id": "b2-u10-paragraph-development.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «reliable»",
+          "speak": "reliable",
+          "choices": [
+            "پشتیبانی کردن",
+            "قابل‌اعتماد"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u9-critical-thinking"
+        },
+        {
+          "id": "b2-u10-paragraph-development.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ساختار روشن است.",
+          "sentence": "The ___ is clear.",
+          "choices": [
+            "structure",
+            "require",
+            "in addition"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Give an example and keep the structure clear.",
+          "fa": "یک مثال بیاور و ساختار را روشن نگه دار."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "فاعل مفرد → has",
+        "body": "برای فاعل مفرد has می‌آید: a paragraph has…، a point has…"
+      }
+    },
+    {
+      "id": "b2-u10-cohesion",
+      "title": "This shows that…",
+      "titleFa": "پیوند جمله‌ها",
+      "goal": "متن را به هم پیوند بدهی",
+      "buildsOn": [
+        "b2-u10-paragraph-development"
+      ],
+      "vocab": [
+        {
+          "en": "this",
+          "fa": "این",
+          "emoji": "👉"
+        },
+        {
+          "en": "such",
+          "fa": "چنین",
+          "emoji": "🔁"
+        },
+        {
+          "en": "therefore",
+          "fa": "بنابراین",
+          "emoji": "➡️"
+        },
+        {
+          "en": "in addition",
+          "fa": "علاوه بر این",
+          "emoji": "➕"
+        },
+        {
+          "en": "result",
+          "fa": "نتیجه",
+          "emoji": "📊"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "this",
+          "fa": "این",
+          "emoji": "👉"
+        },
+        {
+          "kind": "word",
+          "en": "such",
+          "fa": "چنین",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "word",
+          "en": "therefore",
+          "fa": "بنابراین",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "in addition",
+          "fa": "علاوه بر این",
+          "emoji": "➕"
+        },
+        {
+          "kind": "sentence",
+          "en": "This shows that the plan works.",
+          "fa": "این نشان می‌دهد برنامه کار می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "In addition, we need more data.",
+          "fa": "علاوه بر این، به دادهٔ بیشتری نیاز داریم.",
+          "highlight": "In addition"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از that جمله",
+          "body": "بعد از that یک جملهٔ کامل با فعل صرف‌شده می‌آید: shows that the plan works.",
+          "examples": [
+            {
+              "en": "This shows that the plan works.",
+              "fa": "این نشان می‌دهد برنامه کار می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u10-cohesion.1",
+          "kind": "mcq",
+          "prompt": "معنی «this» چیست؟",
+          "promptFa": "این",
+          "choices": [
+            "دوستانه",
+            "این",
+            "نتیجه"
+          ],
+          "answer": 1,
+          "speak": "this",
+          "aiHints": {
+            "example": "I know the word \"this\".",
+            "explanation": "«this» یعنی این."
+          }
+        },
+        {
+          "id": "b2-u10-cohesion.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔁",
+          "choices": [
+            "such",
+            "therefore",
+            "in addition"
+          ],
+          "answer": 0,
+          "speak": "such"
+        },
+        {
+          "id": "b2-u10-cohesion.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "therefore",
+          "choices": [
+            "therefore",
+            "in addition",
+            "result"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u10-cohesion.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "therefore",
+              "fa": "بنابراین"
+            },
+            {
+              "en": "this",
+              "fa": "این"
+            },
+            {
+              "en": "in addition",
+              "fa": "علاوه بر این"
+            },
+            {
+              "en": "such",
+              "fa": "چنین"
+            }
+          ]
+        },
+        {
+          "id": "b2-u10-cohesion.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "علاوه بر این، به دادهٔ بیشتری نیاز داریم.",
+          "sentence": "___, we need more data.",
+          "choices": [
+            "in addition",
+            "In addition",
+            "this"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u10-cohesion.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این نشان می‌دهد برنامه کار می‌کند.",
+          "tokens": [
+            "plan",
+            "the",
+            "works",
+            "that",
+            "shows",
+            "This"
+          ],
+          "answer": "This shows that the plan works"
+        },
+        {
+          "id": "b2-u10-cohesion.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "This",
+            "shows",
+            "that",
+            "the",
+            "plan",
+            "work."
+          ],
+          "answer": 5,
+          "fix": "This shows that the plan works.",
+          "aiHints": {
+            "explanation": "درستش این است: This shows that the plan works."
+          }
+        },
+        {
+          "id": "b2-u10-cohesion.8",
+          "kind": "speed",
+          "prompt": "سریع! «result» یعنی چه؟",
+          "speak": "result",
+          "choices": [
+            "نتیجه",
+            "پشتیبانی کردن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u10-cohesion.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «example»",
+          "choices": [
+            "مثال",
+            "ساختار",
+            "درخواست کردن (رسمی)"
+          ],
+          "answer": 0,
+          "speak": "example",
+          "reviewOf": "b2-u10-paragraph-development"
+        },
+        {
+          "id": "b2-u10-cohesion.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "link",
+          "choices": [
+            "clear",
+            "link",
+            "request"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u10-paragraph-development"
+        },
+        {
+          "id": "b2-u10-cohesion.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "sincerely",
+            "clear",
+            "therefore"
+          ],
+          "answer": 1,
+          "speak": "clear",
+          "reviewOf": "b2-u10-paragraph-development"
+        },
+        {
+          "id": "b2-u10-cohesion.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «structure»",
+          "speak": "structure",
+          "choices": [
+            "پشتیبانی کردن",
+            "ساختار"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u10-paragraph-development"
+        },
+        {
+          "id": "b2-u10-cohesion.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "چنین ایدهٔ خوبی است.",
+          "sentence": "It is ___ a good idea.",
+          "choices": [
+            "such",
+            "mistake",
+            "request"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This is such a good result, therefore we continue.",
+          "fa": "این نتیجهٔ خیلی خوبی است، بنابراین ادامه می‌دهیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از that جمله",
+        "body": "بعد از that یک جملهٔ کامل با فعل صرف‌شده می‌آید: shows that the plan works."
+      }
+    },
+    {
+      "id": "b2-u10-editing",
+      "title": "Edit before you send",
+      "titleFa": "ویرایش و نقطه‌گذاری",
+      "goal": "متن را قبل از فرستادن اصلاح کنی",
+      "buildsOn": [
+        "b2-u10-cohesion"
+      ],
+      "vocab": [
+        {
+          "en": "capital",
+          "fa": "حرف بزرگ",
+          "emoji": "🅰️"
+        },
+        {
+          "en": "comma",
+          "fa": "ویرگول",
+          "emoji": "،"
+        },
+        {
+          "en": "period",
+          "fa": "نقطه",
+          "emoji": "⚫"
+        },
+        {
+          "en": "spelling",
+          "fa": "املای کلمه",
+          "emoji": "🔤"
+        },
+        {
+          "en": "mistake",
+          "fa": "اشتباه",
+          "emoji": "❌"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "capital",
+          "fa": "حرف بزرگ",
+          "emoji": "🅰️"
+        },
+        {
+          "kind": "word",
+          "en": "comma",
+          "fa": "ویرگول",
+          "emoji": "،"
+        },
+        {
+          "kind": "word",
+          "en": "period",
+          "fa": "نقطه",
+          "emoji": "⚫"
+        },
+        {
+          "kind": "word",
+          "en": "spelling",
+          "fa": "املای کلمه",
+          "emoji": "🔤"
+        },
+        {
+          "kind": "sentence",
+          "en": "Put a period at the end.",
+          "fa": "آخر جمله نقطه بگذار."
+        },
+        {
+          "kind": "sentence",
+          "en": "Start with a capital letter.",
+          "fa": "با حرف بزرگ شروع کن.",
+          "highlight": "capital"
+        },
+        {
+          "kind": "rule",
+          "title": "حرف اول با capital",
+          "body": "اول هر جمله و اسم‌های خاص با حرف بزرگ نوشته می‌شوند.",
+          "examples": [
+            {
+              "en": "Put a period at the end.",
+              "fa": "آخر جمله نقطه بگذار."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u10-editing.1",
+          "kind": "mcq",
+          "prompt": "معنی «capital» چیست؟",
+          "promptFa": "حرف بزرگ",
+          "choices": [
+            "دوستانه",
+            "املای کلمه",
+            "حرف بزرگ"
+          ],
+          "answer": 2,
+          "speak": "capital",
+          "aiHints": {
+            "example": "I know the word \"capital\".",
+            "explanation": "«capital» یعنی حرف بزرگ."
+          }
+        },
+        {
+          "id": "b2-u10-editing.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "،",
+          "choices": [
+            "period",
+            "capital",
+            "comma"
+          ],
+          "answer": 2,
+          "speak": "comma"
+        },
+        {
+          "id": "b2-u10-editing.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "period",
+          "choices": [
+            "sincerely",
+            "capital",
+            "period"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u10-editing.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "period",
+              "fa": "نقطه"
+            },
+            {
+              "en": "capital",
+              "fa": "حرف بزرگ"
+            },
+            {
+              "en": "spelling",
+              "fa": "املای کلمه"
+            },
+            {
+              "en": "comma",
+              "fa": "ویرگول"
+            }
+          ]
+        },
+        {
+          "id": "b2-u10-editing.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "با حرف بزرگ شروع کن.",
+          "sentence": "Start with a ___ letter.",
+          "choices": [
+            "structure",
+            "spelling",
+            "capital"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u10-editing.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "آخر جمله نقطه بگذار.",
+          "tokens": [
+            "at",
+            "the",
+            "period",
+            "Put",
+            "a",
+            "end"
+          ],
+          "answer": "Put a period at the end"
+        },
+        {
+          "id": "b2-u10-editing.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Start",
+            "with",
+            "a",
+            "capital",
+            "letters."
+          ],
+          "answer": 4,
+          "fix": "Start with a capital letter.",
+          "aiHints": {
+            "explanation": "درستش این است: Start with a capital letter."
+          }
+        },
+        {
+          "id": "b2-u10-editing.8",
+          "kind": "speed",
+          "prompt": "سریع! «mistake» یعنی چه؟",
+          "speak": "mistake",
+          "choices": [
+            "اشتباه",
+            "پشتیبانی کردن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u10-editing.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «such»",
+          "choices": [
+            "بنابراین",
+            "با احترام",
+            "چنین"
+          ],
+          "answer": 2,
+          "speak": "such",
+          "reviewOf": "b2-u10-cohesion"
+        },
+        {
+          "id": "b2-u10-editing.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "therefore",
+          "choices": [
+            "in addition",
+            "therefore",
+            "structure"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u10-cohesion"
+        },
+        {
+          "id": "b2-u10-editing.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "➕",
+          "choices": [
+            "support",
+            "in addition",
+            "comma"
+          ],
+          "answer": 1,
+          "speak": "in addition",
+          "reviewOf": "b2-u10-cohesion"
+        },
+        {
+          "id": "b2-u10-editing.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «result»",
+          "speak": "result",
+          "choices": [
+            "پشتیبانی کردن",
+            "نتیجه"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u10-cohesion"
+        },
+        {
+          "id": "b2-u10-editing.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "قبل از فرستادن املا را چک کن.",
+          "sentence": "Check the ___ before sending.",
+          "choices": [
+            "spelling",
+            "capital",
+            "example"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Check spelling and add a comma where needed.",
+          "fa": "املا را چک کن و جای لازم ویرگول بگذار."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "حرف اول با capital",
+        "body": "اول هر جمله و اسم‌های خاص با حرف بزرگ نوشته می‌شوند."
+      }
+    },
+    {
+      "id": "b2-u10-formal-informal",
+      "title": "Formal or informal?",
+      "titleFa": "رسمی یا دوستانه",
+      "goal": "لحن متن را انتخاب کنی",
+      "buildsOn": [
+        "b2-u10-editing"
+      ],
+      "vocab": [
+        {
+          "en": "require",
+          "fa": "نیاز داشتن (رسمی)",
+          "emoji": "📋"
+        },
+        {
+          "en": "request",
+          "fa": "درخواست کردن (رسمی)",
+          "emoji": "📨"
+        },
+        {
+          "en": "sincerely",
+          "fa": "با احترام",
+          "emoji": "🙏"
+        },
+        {
+          "en": "best wishes",
+          "fa": "با بهترین آرزوها",
+          "emoji": "🌟"
+        },
+        {
+          "en": "informal",
+          "fa": "دوستانه",
+          "emoji": "👋"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "require",
+          "fa": "نیاز داشتن (رسمی)",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "request",
+          "fa": "درخواست کردن (رسمی)",
+          "emoji": "📨"
+        },
+        {
+          "kind": "word",
+          "en": "sincerely",
+          "fa": "با احترام",
+          "emoji": "🙏"
+        },
+        {
+          "kind": "word",
+          "en": "best wishes",
+          "fa": "با بهترین آرزوها",
+          "emoji": "🌟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Please request the form online.",
+          "fa": "لطفاً فرم را آنلاین درخواست کنید."
+        },
+        {
+          "kind": "sentence",
+          "en": "Dear Sir, (formal)",
+          "fa": "جنابعالی، (رسمی)",
+          "highlight": "Dear"
+        },
+        {
+          "kind": "rule",
+          "title": "واژهٔ رسمی",
+          "body": "در متن رسمی require و request طبیعی‌تر از need و ask هستند.",
+          "examples": [
+            {
+              "en": "Please request the form online.",
+              "fa": "لطفاً فرم را آنلاین درخواست کنید."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u10-formal-informal.1",
+          "kind": "mcq",
+          "prompt": "معنی «require» چیست؟",
+          "promptFa": "نیاز داشتن (رسمی)",
+          "choices": [
+            "نتیجه",
+            "نقطه",
+            "نیاز داشتن (رسمی)"
+          ],
+          "answer": 2,
+          "speak": "require",
+          "aiHints": {
+            "example": "I know the word \"require\".",
+            "explanation": "«require» یعنی نیاز داشتن (رسمی)."
+          }
+        },
+        {
+          "id": "b2-u10-formal-informal.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📨",
+          "choices": [
+            "request",
+            "sincerely",
+            "best wishes"
+          ],
+          "answer": 0,
+          "speak": "request"
+        },
+        {
+          "id": "b2-u10-formal-informal.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "sincerely",
+          "choices": [
+            "sincerely",
+            "spelling",
+            "in addition"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u10-formal-informal.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "sincerely",
+              "fa": "با احترام"
+            },
+            {
+              "en": "request",
+              "fa": "درخواست کردن (رسمی)"
+            },
+            {
+              "en": "best wishes",
+              "fa": "با بهترین آرزوها"
+            },
+            {
+              "en": "require",
+              "fa": "نیاز داشتن (رسمی)"
+            }
+          ]
+        },
+        {
+          "id": "b2-u10-formal-informal.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "جنابعالی، (رسمی)",
+          "sentence": "___ Sir, (formal)",
+          "choices": [
+            "therefore",
+            "Dear",
+            "structure"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u10-formal-informal.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "لطفاً فرم را آنلاین درخواست کنید.",
+          "tokens": [
+            "Please",
+            "online",
+            "form",
+            "request",
+            "the"
+          ],
+          "answer": "Please request the form online"
+        },
+        {
+          "id": "b2-u10-formal-informal.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "require",
+            "of",
+            "your",
+            "help."
+          ],
+          "answer": 2,
+          "fix": "I require your help.",
+          "aiHints": {
+            "explanation": "درستش این است: I require your help."
+          }
+        },
+        {
+          "id": "b2-u10-formal-informal.8",
+          "kind": "speed",
+          "prompt": "سریع! «informal» یعنی چه؟",
+          "speak": "informal",
+          "choices": [
+            "دوستانه",
+            "پشتیبانی کردن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u10-formal-informal.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «comma»",
+          "choices": [
+            "ویرگول",
+            "نیاز داشتن (رسمی)",
+            "بنابراین"
+          ],
+          "answer": 0,
+          "speak": "comma",
+          "reviewOf": "b2-u10-editing"
+        },
+        {
+          "id": "b2-u10-formal-informal.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "period",
+          "choices": [
+            "example",
+            "capital",
+            "period"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u10-editing"
+        },
+        {
+          "id": "b2-u10-formal-informal.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔤",
+          "choices": [
+            "support",
+            "period",
+            "spelling"
+          ],
+          "answer": 2,
+          "speak": "spelling",
+          "reviewOf": "b2-u10-editing"
+        },
+        {
+          "id": "b2-u10-formal-informal.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «mistake»",
+          "speak": "mistake",
+          "choices": [
+            "اشتباه",
+            "پشتیبانی کردن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u10-editing"
+        },
+        {
+          "id": "b2-u10-formal-informal.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "به کمکتان نیاز دارم.",
+          "sentence": "I ___ your help.",
+          "choices": [
+            "spelling",
+            "capital",
+            "require"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Dear Sir, I request a meeting; sincerely, Ali.",
+          "fa": "جنابعالی، درخواست جلسه دارم؛ با احترام، علی."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "واژهٔ رسمی",
+        "body": "در متن رسمی require و request طبیعی‌تر از need و ask هستند."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u10-boss",
+    "titleFa": "نبرد پایانی — مهارت نوشتن",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u10-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «example»",
+        "speak": "example",
+        "choices": [
+          "پشتیبانی کردن",
+          "مثال",
+          "با بهترین آرزوها"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u10-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "structure",
+        "choices": [
+          "therefore",
+          "structure",
+          "request"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u10-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "➡️",
+        "choices": [
+          "sincerely",
+          "therefore",
+          "best wishes"
+        ],
+        "answer": 1,
+        "speak": "therefore"
+      },
+      {
+        "id": "b2-u10-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «capital»",
+        "speak": "capital",
+        "choices": [
+          "بنابراین",
+          "حرف بزرگ"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u10-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «spelling»",
+        "speak": "spelling",
+        "choices": [
+          "دوستانه",
+          "ویرگول",
+          "املای کلمه"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u10-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "request",
+        "choices": [
+          "such",
+          "therefore",
+          "request"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u10-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "👋",
+        "choices": [
+          "informal",
+          "require",
+          "clear"
+        ],
+        "answer": 0,
+        "speak": "informal"
+      },
+      {
+        "id": "b2-u10-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «link»",
+        "speak": "link",
+        "choices": [
+          "ساختار",
+          "پیوند"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u10-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «this»",
+        "speak": "this",
+        "choices": [
+          "حرف بزرگ",
+          "نیاز داشتن (رسمی)",
+          "این"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u10-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "in addition",
+        "choices": [
+          "in addition",
+          "require",
+          "support"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
