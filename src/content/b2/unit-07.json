@@ -1,0 +1,1288 @@
+{
+  "id": "b2-u7",
+  "level": "B2",
+  "index": 7,
+  "titleFa": "کار حرفه‌ای",
+  "titleEn": "Professional work",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "b2-u7-professional-vocab",
+      "title": "Responsibility and feedback",
+      "titleFa": "واژگان حرفه‌ای",
+      "goal": "در محیط کار دقیق حرف بزنی",
+      "buildsOn": [
+        "b2-u6-debate-phrases"
+      ],
+      "vocab": [
+        {
+          "en": "responsibility",
+          "fa": "مسئولیت",
+          "emoji": "📋"
+        },
+        {
+          "en": "deadline",
+          "fa": "مهلت",
+          "emoji": "⏰"
+        },
+        {
+          "en": "promotion",
+          "fa": "ارتقا",
+          "emoji": "⬆️"
+        },
+        {
+          "en": "teamwork",
+          "fa": "کار تیمی",
+          "emoji": "🤝"
+        },
+        {
+          "en": "feedback",
+          "fa": "بازخورد",
+          "emoji": "💬"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "responsibility",
+          "fa": "مسئولیت",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "deadline",
+          "fa": "مهلت",
+          "emoji": "⏰"
+        },
+        {
+          "kind": "word",
+          "en": "promotion",
+          "fa": "ارتقا",
+          "emoji": "⬆️"
+        },
+        {
+          "kind": "word",
+          "en": "teamwork",
+          "fa": "کار تیمی",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "sentence",
+          "en": "I received good feedback from my manager.",
+          "fa": "از مدیرم بازخورد خوبی گرفتم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I take responsibility for this project.",
+          "fa": "مسئولیت این پروژه با من است.",
+          "highlight": "responsibility"
+        },
+        {
+          "kind": "rule",
+          "title": "take responsibility for",
+          "body": "حرف اضافهٔ درست for است: take responsibility for the project.",
+          "examples": [
+            {
+              "en": "I received good feedback from my manager.",
+              "fa": "از مدیرم بازخورد خوبی گرفتم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u7-professional-vocab.1",
+          "kind": "mcq",
+          "prompt": "معنی «responsibility» چیست؟",
+          "promptFa": "مسئولیت",
+          "choices": [
+            "دربارهٔ",
+            "مسئول",
+            "مسئولیت"
+          ],
+          "answer": 2,
+          "speak": "responsibility",
+          "aiHints": {
+            "example": "I know the word \"responsibility\".",
+            "explanation": "«responsibility» یعنی مسئولیت."
+          }
+        },
+        {
+          "id": "b2-u7-professional-vocab.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⏰",
+          "choices": [
+            "responsibility",
+            "deadline",
+            "promotion"
+          ],
+          "answer": 1,
+          "speak": "deadline"
+        },
+        {
+          "id": "b2-u7-professional-vocab.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "promotion",
+          "choices": [
+            "improve",
+            "promotion",
+            "negotiate"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u7-professional-vocab.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "promotion",
+              "fa": "ارتقا"
+            },
+            {
+              "en": "deadline",
+              "fa": "مهلت"
+            },
+            {
+              "en": "teamwork",
+              "fa": "کار تیمی"
+            },
+            {
+              "en": "responsibility",
+              "fa": "مسئولیت"
+            }
+          ]
+        },
+        {
+          "id": "b2-u7-professional-vocab.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "مسئولیت این پروژه با من است.",
+          "sentence": "I take ___ for this project.",
+          "choices": [
+            "responsibility",
+            "teamwork",
+            "look forward to"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u7-professional-vocab.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "از مدیرم بازخورد خوبی گرفتم.",
+          "tokens": [
+            "manager",
+            "good",
+            "received",
+            "from",
+            "my",
+            "feedback",
+            "I"
+          ],
+          "answer": "I received good feedback from my manager"
+        },
+        {
+          "id": "b2-u7-professional-vocab.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "take",
+            "responsibility",
+            "of",
+            "this",
+            "project."
+          ],
+          "answer": 3,
+          "fix": "I take responsibility for this project.",
+          "aiHints": {
+            "explanation": "درستش این است: I take responsibility for this project."
+          }
+        },
+        {
+          "id": "b2-u7-professional-vocab.8",
+          "kind": "speed",
+          "prompt": "سریع! «feedback» یعنی چه؟",
+          "speak": "feedback",
+          "choices": [
+            "مسئولیت",
+            "بازخورد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u7-professional-vocab.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «on balance»",
+          "choices": [
+            "کار تیمی",
+            "در مجموع",
+            "بحث کردن"
+          ],
+          "answer": 1,
+          "speak": "on balance",
+          "reviewOf": "b2-u6-debate-phrases"
+        },
+        {
+          "id": "b2-u7-professional-vocab.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "that's fair",
+          "choices": [
+            "that's fair",
+            "improve",
+            "sincerely"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u6-debate-phrases"
+        },
+        {
+          "id": "b2-u7-professional-vocab.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "↔️",
+          "choices": [
+            "negotiate",
+            "however",
+            "sincerely"
+          ],
+          "answer": 1,
+          "speak": "however",
+          "reviewOf": "b2-u6-debate-phrases"
+        },
+        {
+          "id": "b2-u7-professional-vocab.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «mainly»",
+          "speak": "mainly",
+          "choices": [
+            "عمدتاً",
+            "مسئولیت"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u6-debate-phrases"
+        },
+        {
+          "id": "b2-u7-professional-vocab.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "مهلت فردا است.",
+          "sentence": "The ___ is tomorrow.",
+          "choices": [
+            "teamwork",
+            "negotiate",
+            "deadline"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Teamwork is important and feedback helps us grow.",
+          "fa": "کار تیمی مهم است و بازخورد کمک می‌کند رشد کنیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "take responsibility for",
+        "body": "حرف اضافهٔ درست for است: take responsibility for the project."
+      }
+    },
+    {
+      "id": "b2-u7-interview-advanced",
+      "title": "My biggest achievement",
+      "titleFa": "مصاحبهٔ پیشرفته",
+      "goal": "در مصاحبه قوی جواب بدهی",
+      "buildsOn": [
+        "b2-u7-professional-vocab"
+      ],
+      "vocab": [
+        {
+          "en": "achievement",
+          "fa": "دستاورد",
+          "emoji": "🏆"
+        },
+        {
+          "en": "challenge",
+          "fa": "چالش",
+          "emoji": "⛰️"
+        },
+        {
+          "en": "goal",
+          "fa": "هدف",
+          "emoji": "🎯"
+        },
+        {
+          "en": "improve",
+          "fa": "بهتر کردن",
+          "emoji": "📈"
+        },
+        {
+          "en": "responsible",
+          "fa": "مسئول",
+          "emoji": "🔑"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "achievement",
+          "fa": "دستاورد",
+          "emoji": "🏆"
+        },
+        {
+          "kind": "word",
+          "en": "challenge",
+          "fa": "چالش",
+          "emoji": "⛰️"
+        },
+        {
+          "kind": "word",
+          "en": "goal",
+          "fa": "هدف",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "word",
+          "en": "improve",
+          "fa": "بهتر کردن",
+          "emoji": "📈"
+        },
+        {
+          "kind": "sentence",
+          "en": "I achieved my goal last year.",
+          "fa": "سال پیش به هدفم رسیدم."
+        },
+        {
+          "kind": "sentence",
+          "en": "My biggest achievement was launching the app.",
+          "fa": "بزرگ‌ترین دستاوردم راه‌اندازی اپ بود.",
+          "highlight": "achievement"
+        },
+        {
+          "kind": "rule",
+          "title": "last year بدون in",
+          "body": "می‌گوییم last year، نه in last year.",
+          "examples": [
+            {
+              "en": "I achieved my goal last year.",
+              "fa": "سال پیش به هدفم رسیدم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u7-interview-advanced.1",
+          "kind": "mcq",
+          "prompt": "معنی «achievement» چیست؟",
+          "promptFa": "دستاورد",
+          "choices": [
+            "تصمیم",
+            "دستاورد",
+            "بی‌صبرانه منتظر"
+          ],
+          "answer": 1,
+          "speak": "achievement",
+          "aiHints": {
+            "example": "I know the word \"achievement\".",
+            "explanation": "«achievement» یعنی دستاورد."
+          }
+        },
+        {
+          "id": "b2-u7-interview-advanced.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⛰️",
+          "choices": [
+            "challenge",
+            "responsible",
+            "improve"
+          ],
+          "answer": 0,
+          "speak": "challenge"
+        },
+        {
+          "id": "b2-u7-interview-advanced.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "goal",
+          "choices": [
+            "regarding",
+            "goal",
+            "teamwork"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u7-interview-advanced.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "goal",
+              "fa": "هدف"
+            },
+            {
+              "en": "improve",
+              "fa": "بهتر کردن"
+            },
+            {
+              "en": "achievement",
+              "fa": "دستاورد"
+            },
+            {
+              "en": "challenge",
+              "fa": "چالش"
+            }
+          ]
+        },
+        {
+          "id": "b2-u7-interview-advanced.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بزرگ‌ترین دستاوردم راه‌اندازی اپ بود.",
+          "sentence": "My biggest ___ was launching the app.",
+          "choices": [
+            "goal",
+            "achievement",
+            "responsible"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u7-interview-advanced.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "سال پیش به هدفم رسیدم.",
+          "tokens": [
+            "last",
+            "achieved",
+            "goal",
+            "my",
+            "I",
+            "year"
+          ],
+          "answer": "I achieved my goal last year"
+        },
+        {
+          "id": "b2-u7-interview-advanced.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "achieved",
+            "my",
+            "goals",
+            "in",
+            "last",
+            "year."
+          ],
+          "answer": 5,
+          "fix": "I achieved my goals last year.",
+          "aiHints": {
+            "explanation": "درستش این است: I achieved my goals last year."
+          }
+        },
+        {
+          "id": "b2-u7-interview-advanced.8",
+          "kind": "speed",
+          "prompt": "سریع! «responsible» یعنی چه؟",
+          "speak": "responsible",
+          "choices": [
+            "مسئولیت",
+            "مسئول"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u7-interview-advanced.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «deadline»",
+          "choices": [
+            "مهلت",
+            "ارتقا",
+            "عزیز (در نامه)"
+          ],
+          "answer": 0,
+          "speak": "deadline",
+          "reviewOf": "b2-u7-professional-vocab"
+        },
+        {
+          "id": "b2-u7-interview-advanced.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "promotion",
+          "choices": [
+            "promotion",
+            "responsible",
+            "decision"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u7-professional-vocab"
+        },
+        {
+          "id": "b2-u7-interview-advanced.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🤝",
+          "choices": [
+            "teamwork",
+            "improve",
+            "regarding"
+          ],
+          "answer": 0,
+          "speak": "teamwork",
+          "reviewOf": "b2-u7-professional-vocab"
+        },
+        {
+          "id": "b2-u7-interview-advanced.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «feedback»",
+          "speak": "feedback",
+          "choices": [
+            "بازخورد",
+            "مسئولیت"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u7-professional-vocab"
+        },
+        {
+          "id": "b2-u7-interview-advanced.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "از هر چالشی یاد می‌گیرم.",
+          "sentence": "I learn from every ___.",
+          "choices": [
+            "decision",
+            "challenge",
+            "propose"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I was responsible for the project and I achieved the goal.",
+          "fa": "مسئول پروژه بودم و به هدف رسیدم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "last year بدون in",
+        "body": "می‌گوییم last year، نه in last year."
+      }
+    },
+    {
+      "id": "b2-u7-formal-email",
+      "title": "Dear Mr. Karimi",
+      "titleFa": "ایمیل رسمی",
+      "goal": "یک ایمیل کاری رسمی بنویسی",
+      "buildsOn": [
+        "b2-u7-interview-advanced"
+      ],
+      "vocab": [
+        {
+          "en": "dear",
+          "fa": "عزیز (در نامه)",
+          "emoji": "✉️"
+        },
+        {
+          "en": "regarding",
+          "fa": "دربارهٔ",
+          "emoji": "📌"
+        },
+        {
+          "en": "attached",
+          "fa": "پیوست",
+          "emoji": "📎"
+        },
+        {
+          "en": "look forward to",
+          "fa": "بی‌صبرانه منتظر",
+          "emoji": "🔜"
+        },
+        {
+          "en": "sincerely",
+          "fa": "با احترام",
+          "emoji": "🙏"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "dear",
+          "fa": "عزیز (در نامه)",
+          "emoji": "✉️"
+        },
+        {
+          "kind": "word",
+          "en": "regarding",
+          "fa": "دربارهٔ",
+          "emoji": "📌"
+        },
+        {
+          "kind": "word",
+          "en": "attached",
+          "fa": "پیوست",
+          "emoji": "📎"
+        },
+        {
+          "kind": "word",
+          "en": "look forward to",
+          "fa": "بی‌صبرانه منتظر",
+          "emoji": "🔜"
+        },
+        {
+          "kind": "sentence",
+          "en": "Regarding your email, the report is attached.",
+          "fa": "دربارهٔ ایمیل شما، گزارش پیوست است."
+        },
+        {
+          "kind": "sentence",
+          "en": "Dear Mr. Karimi,",
+          "fa": "جناب آقای کریمی،",
+          "highlight": "Dear"
+        },
+        {
+          "kind": "rule",
+          "title": "look forward to + ing",
+          "body": "بعد از look forward to فعل ing می‌آید: hearing from you.",
+          "examples": [
+            {
+              "en": "Regarding your email, the report is attached.",
+              "fa": "دربارهٔ ایمیل شما، گزارش پیوست است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u7-formal-email.1",
+          "kind": "mcq",
+          "prompt": "معنی «dear» چیست؟",
+          "promptFa": "عزیز (در نامه)",
+          "choices": [
+            "عزیز (در نامه)",
+            "ارتقا",
+            "با احترام"
+          ],
+          "answer": 0,
+          "speak": "dear",
+          "aiHints": {
+            "example": "I know the word \"dear\".",
+            "explanation": "«dear» یعنی عزیز (در نامه)."
+          }
+        },
+        {
+          "id": "b2-u7-formal-email.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📌",
+          "choices": [
+            "dear",
+            "look forward to",
+            "regarding"
+          ],
+          "answer": 2,
+          "speak": "regarding"
+        },
+        {
+          "id": "b2-u7-formal-email.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "attached",
+          "choices": [
+            "achievement",
+            "attached",
+            "promotion"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u7-formal-email.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "regarding",
+              "fa": "دربارهٔ"
+            },
+            {
+              "en": "look forward to",
+              "fa": "بی‌صبرانه منتظر"
+            },
+            {
+              "en": "dear",
+              "fa": "عزیز (در نامه)"
+            },
+            {
+              "en": "attached",
+              "fa": "پیوست"
+            }
+          ]
+        },
+        {
+          "id": "b2-u7-formal-email.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "جناب آقای کریمی،",
+          "sentence": "___ Mr. Karimi,",
+          "choices": [
+            "Dear",
+            "sincerely",
+            "discuss"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u7-formal-email.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دربارهٔ ایمیل شما، گزارش پیوست است.",
+          "tokens": [
+            "your",
+            "email,",
+            "is",
+            "Regarding",
+            "attached",
+            "report",
+            "the"
+          ],
+          "answer": "Regarding your email, the report is attached"
+        },
+        {
+          "id": "b2-u7-formal-email.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "look",
+            "forward",
+            "to",
+            "hear",
+            "from",
+            "you."
+          ],
+          "answer": 4,
+          "fix": "I look forward to hearing from you.",
+          "aiHints": {
+            "explanation": "درستش این است: I look forward to hearing from you."
+          }
+        },
+        {
+          "id": "b2-u7-formal-email.8",
+          "kind": "speed",
+          "prompt": "سریع! «sincerely» یعنی چه؟",
+          "speak": "sincerely",
+          "choices": [
+            "مسئولیت",
+            "با احترام"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u7-formal-email.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «challenge»",
+          "choices": [
+            "چالش",
+            "مسئولیت",
+            "توافق کردن بر"
+          ],
+          "answer": 0,
+          "speak": "challenge",
+          "reviewOf": "b2-u7-interview-advanced"
+        },
+        {
+          "id": "b2-u7-formal-email.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "goal",
+          "choices": [
+            "attached",
+            "goal",
+            "look forward to"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u7-interview-advanced"
+        },
+        {
+          "id": "b2-u7-formal-email.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📈",
+          "choices": [
+            "improve",
+            "agree on",
+            "attached"
+          ],
+          "answer": 0,
+          "speak": "improve",
+          "reviewOf": "b2-u7-interview-advanced"
+        },
+        {
+          "id": "b2-u7-formal-email.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «responsible»",
+          "speak": "responsible",
+          "choices": [
+            "مسئول",
+            "مسئولیت"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u7-interview-advanced"
+        },
+        {
+          "id": "b2-u7-formal-email.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "منتظر شنیدن خبر از شما هستم.",
+          "sentence": "I look forward to ___ from you.",
+          "choices": [
+            "look forward to",
+            "hearing",
+            "negotiate"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Dear Ms. Ahmadi, regarding the meeting, I am attached.",
+          "fa": "خانم احمدی، دربارهٔ جلسه، فایل پیوست است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "look forward to + ing",
+        "body": "بعد از look forward to فعل ing می‌آید: hearing from you."
+      }
+    },
+    {
+      "id": "b2-u7-meetings",
+      "title": "Let's discuss the plan",
+      "titleFa": "جلسه و مذاکره",
+      "goal": "در جلسه پیشنهاد بدهی و تصمیم بگیری",
+      "buildsOn": [
+        "b2-u7-formal-email"
+      ],
+      "vocab": [
+        {
+          "en": "discuss",
+          "fa": "بحث کردن",
+          "emoji": "💬"
+        },
+        {
+          "en": "propose",
+          "fa": "پیشنهاد کردن",
+          "emoji": "💡"
+        },
+        {
+          "en": "agree on",
+          "fa": "توافق کردن بر",
+          "emoji": "🤝"
+        },
+        {
+          "en": "decision",
+          "fa": "تصمیم",
+          "emoji": "✅"
+        },
+        {
+          "en": "negotiate",
+          "fa": "مذاکره کردن",
+          "emoji": "⚖️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "discuss",
+          "fa": "بحث کردن",
+          "emoji": "💬"
+        },
+        {
+          "kind": "word",
+          "en": "propose",
+          "fa": "پیشنهاد کردن",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "agree on",
+          "fa": "توافق کردن بر",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "word",
+          "en": "decision",
+          "fa": "تصمیم",
+          "emoji": "✅"
+        },
+        {
+          "kind": "sentence",
+          "en": "I propose a short break.",
+          "fa": "پیشنهاد می‌کنم استراحت کوتاهی کنیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Let's discuss the plan.",
+          "fa": "بیایید دربارهٔ برنامه بحث کنیم.",
+          "highlight": "discuss"
+        },
+        {
+          "kind": "rule",
+          "title": "agree on / agree with",
+          "body": "agree on + موضوع (price) و agree with + شخص (you).",
+          "examples": [
+            {
+              "en": "I propose a short break.",
+              "fa": "پیشنهاد می‌کنم استراحت کوتاهی کنیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u7-meetings.1",
+          "kind": "mcq",
+          "prompt": "معنی «discuss» چیست؟",
+          "promptFa": "بحث کردن",
+          "choices": [
+            "بحث کردن",
+            "بی‌صبرانه منتظر",
+            "دستاورد"
+          ],
+          "answer": 0,
+          "speak": "discuss",
+          "aiHints": {
+            "example": "I know the word \"discuss\".",
+            "explanation": "«discuss» یعنی بحث کردن."
+          }
+        },
+        {
+          "id": "b2-u7-meetings.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "decision",
+            "propose",
+            "negotiate"
+          ],
+          "answer": 1,
+          "speak": "propose"
+        },
+        {
+          "id": "b2-u7-meetings.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "agree on",
+          "choices": [
+            "teamwork",
+            "negotiate",
+            "agree on"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u7-meetings.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "propose",
+              "fa": "پیشنهاد کردن"
+            },
+            {
+              "en": "decision",
+              "fa": "تصمیم"
+            },
+            {
+              "en": "agree on",
+              "fa": "توافق کردن بر"
+            },
+            {
+              "en": "discuss",
+              "fa": "بحث کردن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u7-meetings.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بیایید دربارهٔ برنامه بحث کنیم.",
+          "sentence": "Let's ___ the plan.",
+          "choices": [
+            "promotion",
+            "discuss",
+            "sincerely"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u7-meetings.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "پیشنهاد می‌کنم استراحت کوتاهی کنیم.",
+          "tokens": [
+            "a",
+            "short",
+            "propose",
+            "break",
+            "I"
+          ],
+          "answer": "I propose a short break"
+        },
+        {
+          "id": "b2-u7-meetings.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "agreed",
+            "on",
+            "to",
+            "the",
+            "price."
+          ],
+          "answer": 3,
+          "fix": "We agreed on the price.",
+          "aiHints": {
+            "explanation": "درستش این است: We agreed on the price."
+          }
+        },
+        {
+          "id": "b2-u7-meetings.8",
+          "kind": "speed",
+          "prompt": "سریع! «negotiate» یعنی چه؟",
+          "speak": "negotiate",
+          "choices": [
+            "مذاکره کردن",
+            "مسئولیت"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u7-meetings.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «regarding»",
+          "choices": [
+            "تصمیم",
+            "دربارهٔ",
+            "با احترام"
+          ],
+          "answer": 1,
+          "speak": "regarding",
+          "reviewOf": "b2-u7-formal-email"
+        },
+        {
+          "id": "b2-u7-meetings.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "attached",
+          "choices": [
+            "feedback",
+            "attached",
+            "teamwork"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u7-formal-email"
+        },
+        {
+          "id": "b2-u7-meetings.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔜",
+          "choices": [
+            "responsible",
+            "decision",
+            "look forward to"
+          ],
+          "answer": 2,
+          "speak": "look forward to",
+          "reviewOf": "b2-u7-formal-email"
+        },
+        {
+          "id": "b2-u7-meetings.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «sincerely»",
+          "speak": "sincerely",
+          "choices": [
+            "مسئولیت",
+            "با احترام"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u7-formal-email"
+        },
+        {
+          "id": "b2-u7-meetings.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "بر سر قیمت توافق کردیم.",
+          "sentence": "We agreed ___ the price.",
+          "choices": [
+            "feedback",
+            "regarding",
+            "on"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We discussed the plan and agreed on a decision.",
+          "fa": "برنامه را بحث کردیم و به تصمیم رسیدیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "agree on / agree with",
+        "body": "agree on + موضوع (price) و agree with + شخص (you)."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u7-boss",
+    "titleFa": "نبرد پایانی — کار حرفه‌ای",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u7-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «deadline»",
+        "speak": "deadline",
+        "choices": [
+          "عزیز (در نامه)",
+          "مهلت",
+          "مسئولیت"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u7-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "feedback",
+        "choices": [
+          "feedback",
+          "attached",
+          "negotiate"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u7-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🎯",
+        "choices": [
+          "promotion",
+          "dear",
+          "goal"
+        ],
+        "answer": 2,
+        "speak": "goal"
+      },
+      {
+        "id": "b2-u7-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «dear»",
+        "speak": "dear",
+        "choices": [
+          "عزیز (در نامه)",
+          "مهلت"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u7-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «look forward to»",
+        "speak": "look forward to",
+        "choices": [
+          "ارتقا",
+          "تصمیم",
+          "بی‌صبرانه منتظر"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u7-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "propose",
+        "choices": [
+          "promotion",
+          "feedback",
+          "propose"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u7-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⚖️",
+        "choices": [
+          "promotion",
+          "negotiate",
+          "achievement"
+        ],
+        "answer": 1,
+        "speak": "negotiate"
+      },
+      {
+        "id": "b2-u7-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «promotion»",
+        "speak": "promotion",
+        "choices": [
+          "ارتقا",
+          "بحث کردن"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u7-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «achievement»",
+        "speak": "achievement",
+        "choices": [
+          "توافق کردن بر",
+          "دستاورد",
+          "دربارهٔ"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u7-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "improve",
+        "choices": [
+          "improve",
+          "challenge",
+          "achievement"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

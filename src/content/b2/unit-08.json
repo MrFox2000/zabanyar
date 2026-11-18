@@ -1,0 +1,1282 @@
+{
+  "id": "b2-u8",
+  "level": "B2",
+  "index": 8,
+  "titleFa": "ارائه و سخنرانی",
+  "titleEn": "Presentations",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "b2-u8-presentation-phrases",
+      "title": "As you can see",
+      "titleFa": "عبارت‌های ارائه",
+      "goal": "یک ارائه را منظم اجرا کنی",
+      "buildsOn": [
+        "b2-u7-meetings"
+      ],
+      "vocab": [
+        {
+          "en": "first of all",
+          "fa": "اول از همه",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "as you can see",
+          "fa": "همان‌طور که می‌بینید",
+          "emoji": "👀"
+        },
+        {
+          "en": "in other words",
+          "fa": "به عبارت دیگر",
+          "emoji": "🔁"
+        },
+        {
+          "en": "to conclude",
+          "fa": "در پایان",
+          "emoji": "🏁"
+        },
+        {
+          "en": "point",
+          "fa": "نکته",
+          "emoji": "📍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "first of all",
+          "fa": "اول از همه",
+          "emoji": "1️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "as you can see",
+          "fa": "همان‌طور که می‌بینید",
+          "emoji": "👀"
+        },
+        {
+          "kind": "word",
+          "en": "in other words",
+          "fa": "به عبارت دیگر",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "word",
+          "en": "to conclude",
+          "fa": "در پایان",
+          "emoji": "🏁"
+        },
+        {
+          "kind": "sentence",
+          "en": "In other words, the plan works.",
+          "fa": "به عبارت دیگر، برنامه کار می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "First of all, let's start.",
+          "fa": "اول از همه شروع کنیم.",
+          "highlight": "First of"
+        },
+        {
+          "kind": "rule",
+          "title": "as you can see",
+          "body": "این عبارت برای اشاره به نمودار یا داده است — فعل ساده بماند.",
+          "examples": [
+            {
+              "en": "In other words, the plan works.",
+              "fa": "به عبارت دیگر، برنامه کار می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u8-presentation-phrases.1",
+          "kind": "mcq",
+          "prompt": "معنی «first of all» چیست؟",
+          "promptFa": "اول از همه",
+          "choices": [
+            "اول از همه",
+            "مطمئن نیستم",
+            "در پایان"
+          ],
+          "answer": 0,
+          "speak": "first of all",
+          "aiHints": {
+            "example": "I know the word \"first of all\".",
+            "explanation": "«first of all» یعنی اول از همه."
+          }
+        },
+        {
+          "id": "b2-u8-presentation-phrases.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👀",
+          "choices": [
+            "first of all",
+            "point",
+            "as you can see"
+          ],
+          "answer": 2,
+          "speak": "as you can see"
+        },
+        {
+          "id": "b2-u8-presentation-phrases.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "in other words",
+          "choices": [
+            "in other words",
+            "let me think",
+            "first of all"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u8-presentation-phrases.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "in other words",
+              "fa": "به عبارت دیگر"
+            },
+            {
+              "en": "as you can see",
+              "fa": "همان‌طور که می‌بینید"
+            },
+            {
+              "en": "first of all",
+              "fa": "اول از همه"
+            },
+            {
+              "en": "to conclude",
+              "fa": "در پایان"
+            }
+          ]
+        },
+        {
+          "id": "b2-u8-presentation-phrases.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اول از همه شروع کنیم.",
+          "sentence": "___ all, let's start.",
+          "choices": [
+            "First of",
+            "to be honest",
+            "experience"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u8-presentation-phrases.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "به عبارت دیگر، برنامه کار می‌کند.",
+          "tokens": [
+            "works",
+            "words,",
+            "other",
+            "plan",
+            "the",
+            "In"
+          ],
+          "answer": "In other words, the plan works"
+        },
+        {
+          "id": "b2-u8-presentation-phrases.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "As",
+            "you",
+            "can",
+            "saw,",
+            "sales",
+            "grew."
+          ],
+          "answer": 3,
+          "fix": "As you can see, sales grew.",
+          "aiHints": {
+            "explanation": "درستش این است: As you can see, sales grew."
+          }
+        },
+        {
+          "id": "b2-u8-presentation-phrases.8",
+          "kind": "speed",
+          "prompt": "سریع! «point» یعنی چه؟",
+          "speak": "point",
+          "choices": [
+            "اول از همه",
+            "نکته"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u8-presentation-phrases.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «propose»",
+          "choices": [
+            "پیشنهاد کردن",
+            "اول از همه",
+            "بگذار فکر کنم"
+          ],
+          "answer": 0,
+          "speak": "propose",
+          "reviewOf": "b2-u7-meetings"
+        },
+        {
+          "id": "b2-u8-presentation-phrases.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "agree on",
+          "choices": [
+            "sharply",
+            "check",
+            "agree on"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u7-meetings"
+        },
+        {
+          "id": "b2-u8-presentation-phrases.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "decision",
+            "let me think",
+            "to conclude"
+          ],
+          "answer": 0,
+          "speak": "decision",
+          "reviewOf": "b2-u7-meetings"
+        },
+        {
+          "id": "b2-u8-presentation-phrases.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «negotiate»",
+          "speak": "negotiate",
+          "choices": [
+            "مذاکره کردن",
+            "اول از همه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u7-meetings"
+        },
+        {
+          "id": "b2-u8-presentation-phrases.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "همان‌طور که می‌بینید فروش رشد کرد.",
+          "sentence": "As you can ___, sales grew.",
+          "choices": [
+            "first of all",
+            "see",
+            "point"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "First of all, as you can see, the data is clear.",
+          "fa": "اول از همه، همان‌طور که می‌بینید داده‌ها روشن است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "as you can see",
+        "body": "این عبارت برای اشاره به نمودار یا داده است — فعل ساده بماند."
+      }
+    },
+    {
+      "id": "b2-u8-charts",
+      "title": "It rose sharply",
+      "titleFa": "توصیف نمودار",
+      "goal": "روند نمودار را بگویی",
+      "buildsOn": [
+        "b2-u8-presentation-phrases"
+      ],
+      "vocab": [
+        {
+          "en": "rise",
+          "fa": "بالا رفتن",
+          "emoji": "📈"
+        },
+        {
+          "en": "fall",
+          "fa": "پایین آمدن",
+          "emoji": "📉"
+        },
+        {
+          "en": "peak",
+          "fa": "به اوج رسیدن",
+          "emoji": "⛰️"
+        },
+        {
+          "en": "level off",
+          "fa": "ثابت شدن",
+          "emoji": "➖"
+        },
+        {
+          "en": "sharply",
+          "fa": "به‌شدت",
+          "emoji": "⚡"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "rise",
+          "fa": "بالا رفتن",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "fall",
+          "fa": "پایین آمدن",
+          "emoji": "📉"
+        },
+        {
+          "kind": "word",
+          "en": "peak",
+          "fa": "به اوج رسیدن",
+          "emoji": "⛰️"
+        },
+        {
+          "kind": "word",
+          "en": "level off",
+          "fa": "ثابت شدن",
+          "emoji": "➖"
+        },
+        {
+          "kind": "sentence",
+          "en": "The line peaked in June.",
+          "fa": "خط در ژوئن به اوج رسید."
+        },
+        {
+          "kind": "sentence",
+          "en": "Sales rose sharply in May.",
+          "fa": "فروش در مه به‌شدت بالا رفت.",
+          "highlight": "rose"
+        },
+        {
+          "kind": "rule",
+          "title": "چهار فعل روند",
+          "body": "rise (بالا)، fall (پایین)، peak (اوج)، level off (ثابت). گذشته: rose، fell، peaked.",
+          "examples": [
+            {
+              "en": "The line peaked in June.",
+              "fa": "خط در ژوئن به اوج رسید."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u8-charts.1",
+          "kind": "mcq",
+          "prompt": "معنی «rise» چیست؟",
+          "promptFa": "بالا رفتن",
+          "choices": [
+            "پایین آمدن",
+            "بالا رفتن",
+            "بگذار فکر کنم"
+          ],
+          "answer": 1,
+          "speak": "rise",
+          "aiHints": {
+            "example": "I know the word \"rise\".",
+            "explanation": "«rise» یعنی بالا رفتن."
+          }
+        },
+        {
+          "id": "b2-u8-charts.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📉",
+          "choices": [
+            "fall",
+            "sharply",
+            "peak"
+          ],
+          "answer": 0,
+          "speak": "fall"
+        },
+        {
+          "id": "b2-u8-charts.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "peak",
+          "choices": [
+            "peak",
+            "fall",
+            "point"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u8-charts.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "peak",
+              "fa": "به اوج رسیدن"
+            },
+            {
+              "en": "fall",
+              "fa": "پایین آمدن"
+            },
+            {
+              "en": "level off",
+              "fa": "ثابت شدن"
+            },
+            {
+              "en": "rise",
+              "fa": "بالا رفتن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u8-charts.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "فروش در مه به‌شدت بالا رفت.",
+          "sentence": "Sales ___ sharply in May.",
+          "choices": [
+            "point",
+            "rose",
+            "to conclude"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u8-charts.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "خط در ژوئن به اوج رسید.",
+          "tokens": [
+            "June",
+            "The",
+            "line",
+            "peaked",
+            "in"
+          ],
+          "answer": "The line peaked in June"
+        },
+        {
+          "id": "b2-u8-charts.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "numbers",
+            "rise",
+            "sharply",
+            "last",
+            "year."
+          ],
+          "answer": 2,
+          "fix": "The numbers rose sharply last year.",
+          "aiHints": {
+            "explanation": "درستش این است: The numbers rose sharply last year."
+          }
+        },
+        {
+          "id": "b2-u8-charts.8",
+          "kind": "speed",
+          "prompt": "سریع! «sharply» یعنی چه؟",
+          "speak": "sharply",
+          "choices": [
+            "اول از همه",
+            "به‌شدت"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u8-charts.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «as you can see»",
+          "choices": [
+            "پایین آمدن",
+            "همان‌طور که می‌بینید",
+            "در پایان"
+          ],
+          "answer": 1,
+          "speak": "as you can see",
+          "reviewOf": "b2-u8-presentation-phrases"
+        },
+        {
+          "id": "b2-u8-charts.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "in other words",
+          "choices": [
+            "in other words",
+            "to be honest",
+            "point"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u8-presentation-phrases"
+        },
+        {
+          "id": "b2-u8-charts.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏁",
+          "choices": [
+            "point",
+            "to conclude",
+            "that's a good question"
+          ],
+          "answer": 1,
+          "speak": "to conclude",
+          "reviewOf": "b2-u8-presentation-phrases"
+        },
+        {
+          "id": "b2-u8-charts.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «point»",
+          "speak": "point",
+          "choices": [
+            "اول از همه",
+            "نکته"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u8-presentation-phrases"
+        },
+        {
+          "id": "b2-u8-charts.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "خط در ژوئن به اوج رسید.",
+          "sentence": "The line ___ in June.",
+          "choices": [
+            "peaked",
+            "remember",
+            "sharply"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Prices fell and then levelled off.",
+          "fa": "قیمت‌ها پایین آمد و بعد ثابت شد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "چهار فعل روند",
+        "body": "rise (بالا)، fall (پایین)، peak (اوج)، level off (ثابت). گذشته: rose، fell، peaked."
+      }
+    },
+    {
+      "id": "b2-u8-answering-questions",
+      "title": "That's a good question",
+      "titleFa": "جواب دادن به سؤال",
+      "goal": "در ارائه از سؤال غافلگیر نشوی",
+      "buildsOn": [
+        "b2-u8-charts"
+      ],
+      "vocab": [
+        {
+          "en": "that's a good question",
+          "fa": "سؤال خوبی است",
+          "emoji": "❓"
+        },
+        {
+          "en": "to be honest",
+          "fa": "راستش",
+          "emoji": "😅"
+        },
+        {
+          "en": "not sure",
+          "fa": "مطمئن نیستم",
+          "emoji": "🤔"
+        },
+        {
+          "en": "let me think",
+          "fa": "بگذار فکر کنم",
+          "emoji": "💭"
+        },
+        {
+          "en": "check",
+          "fa": "بررسی کردن",
+          "emoji": "🔍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "that's a good question",
+          "fa": "سؤال خوبی است",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "to be honest",
+          "fa": "راستش",
+          "emoji": "😅"
+        },
+        {
+          "kind": "word",
+          "en": "not sure",
+          "fa": "مطمئن نیستم",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "let me think",
+          "fa": "بگذار فکر کنم",
+          "emoji": "💭"
+        },
+        {
+          "kind": "sentence",
+          "en": "Let me think for a second.",
+          "fa": "بگذار یک لحظه فکر کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "That's a good question.",
+          "fa": "سؤال خوبی است.",
+          "highlight": "question"
+        },
+        {
+          "kind": "rule",
+          "title": "I am not sure",
+          "body": "در انگلیسی می‌گوییم I am not sure — فعل بودن لازم است.",
+          "examples": [
+            {
+              "en": "Let me think for a second.",
+              "fa": "بگذار یک لحظه فکر کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u8-answering-questions.1",
+          "kind": "mcq",
+          "prompt": "معنی «that's a good question» چیست؟",
+          "promptFa": "سؤال خوبی است",
+          "choices": [
+            "مثال",
+            "در پایان",
+            "سؤال خوبی است"
+          ],
+          "answer": 2,
+          "speak": "that's a good question",
+          "aiHints": {
+            "example": "I know the word \"that's a good question\".",
+            "explanation": "«that's a good question» یعنی سؤال خوبی است."
+          }
+        },
+        {
+          "id": "b2-u8-answering-questions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "😅",
+          "choices": [
+            "check",
+            "to be honest",
+            "that's a good question"
+          ],
+          "answer": 1,
+          "speak": "to be honest"
+        },
+        {
+          "id": "b2-u8-answering-questions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "not sure",
+          "choices": [
+            "rise",
+            "not sure",
+            "experience"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u8-answering-questions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "not sure",
+              "fa": "مطمئن نیستم"
+            },
+            {
+              "en": "that's a good question",
+              "fa": "سؤال خوبی است"
+            },
+            {
+              "en": "to be honest",
+              "fa": "راستش"
+            },
+            {
+              "en": "let me think",
+              "fa": "بگذار فکر کنم"
+            }
+          ]
+        },
+        {
+          "id": "b2-u8-answering-questions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "سؤال خوبی است.",
+          "sentence": "That's a good ___.",
+          "choices": [
+            "question",
+            "to conclude",
+            "in other words"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u8-answering-questions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "بگذار یک لحظه فکر کنم.",
+          "tokens": [
+            "second",
+            "me",
+            "think",
+            "for",
+            "Let",
+            "a"
+          ],
+          "answer": "Let me think for a second"
+        },
+        {
+          "id": "b2-u8-answering-questions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "To",
+            "be",
+            "honest,",
+            "I",
+            "not",
+            "sure."
+          ],
+          "answer": 4,
+          "fix": "To be honest, I am not sure.",
+          "aiHints": {
+            "explanation": "درستش این است: To be honest, I am not sure."
+          }
+        },
+        {
+          "id": "b2-u8-answering-questions.8",
+          "kind": "speed",
+          "prompt": "سریع! «check» یعنی چه؟",
+          "speak": "check",
+          "choices": [
+            "بررسی کردن",
+            "اول از همه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u8-answering-questions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «fall»",
+          "choices": [
+            "نکته",
+            "پایین آمدن",
+            "به عبارت دیگر"
+          ],
+          "answer": 1,
+          "speak": "fall",
+          "reviewOf": "b2-u8-charts"
+        },
+        {
+          "id": "b2-u8-answering-questions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "peak",
+          "choices": [
+            "peak",
+            "let me think",
+            "sharply"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u8-charts"
+        },
+        {
+          "id": "b2-u8-answering-questions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "➖",
+          "choices": [
+            "level off",
+            "check",
+            "experience"
+          ],
+          "answer": 0,
+          "speak": "level off",
+          "reviewOf": "b2-u8-charts"
+        },
+        {
+          "id": "b2-u8-answering-questions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «sharply»",
+          "speak": "sharply",
+          "choices": [
+            "اول از همه",
+            "به‌شدت"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u8-charts"
+        },
+        {
+          "id": "b2-u8-answering-questions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "راستش نمی‌دانم.",
+          "sentence": "To be ___, I don't know.",
+          "choices": [
+            "honest",
+            "as you can see",
+            "let me think"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "That's a good question; let me check and reply.",
+          "fa": "سؤال خوبی است؛ بگذار بررسی کنم و جواب بدهم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "I am not sure",
+        "body": "در انگلیسی می‌گوییم I am not sure — فعل بودن لازم است."
+      }
+    },
+    {
+      "id": "b2-u8-presentation-story",
+      "title": "A story with a lesson",
+      "titleFa": "داستان در ارائه",
+      "goal": "با یک خاطره ارائه‌ات را جذاب کنی",
+      "buildsOn": [
+        "b2-u8-answering-questions"
+      ],
+      "vocab": [
+        {
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "en": "experience",
+          "fa": "تجربه",
+          "emoji": "🧠"
+        },
+        {
+          "en": "remember",
+          "fa": "به‌خاطر آوردن",
+          "emoji": "💭"
+        },
+        {
+          "en": "happened",
+          "fa": "اتفاق افتاد",
+          "emoji": "⚡"
+        },
+        {
+          "en": "lesson",
+          "fa": "درس",
+          "emoji": "📚"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "kind": "word",
+          "en": "experience",
+          "fa": "تجربه",
+          "emoji": "🧠"
+        },
+        {
+          "kind": "word",
+          "en": "remember",
+          "fa": "به‌خاطر آوردن",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "happened",
+          "fa": "اتفاق افتاد",
+          "emoji": "⚡"
+        },
+        {
+          "kind": "sentence",
+          "en": "I learned an important lesson.",
+          "fa": "درس مهمی یاد گرفتم."
+        },
+        {
+          "kind": "sentence",
+          "en": "For example, last year we…",
+          "fa": "برای مثال، سال پیش ما…",
+          "highlight": "example"
+        },
+        {
+          "kind": "rule",
+          "title": "a یا an",
+          "body": "قبل از صدای صدادار an می‌آید: an important lesson.",
+          "examples": [
+            {
+              "en": "I learned an important lesson.",
+              "fa": "درس مهمی یاد گرفتم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u8-presentation-story.1",
+          "kind": "mcq",
+          "prompt": "معنی «example» چیست؟",
+          "promptFa": "مثال",
+          "choices": [
+            "به‌خاطر آوردن",
+            "همان‌طور که می‌بینید",
+            "مثال"
+          ],
+          "answer": 2,
+          "speak": "example",
+          "aiHints": {
+            "example": "I know the word \"example\".",
+            "explanation": "«example» یعنی مثال."
+          }
+        },
+        {
+          "id": "b2-u8-presentation-story.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🧠",
+          "choices": [
+            "happened",
+            "remember",
+            "experience"
+          ],
+          "answer": 2,
+          "speak": "experience"
+        },
+        {
+          "id": "b2-u8-presentation-story.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "remember",
+          "choices": [
+            "remember",
+            "that's a good question",
+            "to be honest"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u8-presentation-story.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "experience",
+              "fa": "تجربه"
+            },
+            {
+              "en": "example",
+              "fa": "مثال"
+            },
+            {
+              "en": "remember",
+              "fa": "به‌خاطر آوردن"
+            },
+            {
+              "en": "happened",
+              "fa": "اتفاق افتاد"
+            }
+          ]
+        },
+        {
+          "id": "b2-u8-presentation-story.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "برای مثال، سال پیش ما…",
+          "sentence": "For ___, last year we…",
+          "choices": [
+            "level off",
+            "to be honest",
+            "example"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u8-presentation-story.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "درس مهمی یاد گرفتم.",
+          "tokens": [
+            "lesson",
+            "an",
+            "learned",
+            "important",
+            "I"
+          ],
+          "answer": "I learned an important lesson"
+        },
+        {
+          "id": "b2-u8-presentation-story.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "learned",
+            "a",
+            "important",
+            "lesson."
+          ],
+          "answer": 2,
+          "fix": "I learned an important lesson.",
+          "aiHints": {
+            "explanation": "درستش این است: I learned an important lesson."
+          }
+        },
+        {
+          "id": "b2-u8-presentation-story.8",
+          "kind": "speed",
+          "prompt": "سریع! «lesson» یعنی چه؟",
+          "speak": "lesson",
+          "choices": [
+            "اول از همه",
+            "درس"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u8-presentation-story.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «to be honest»",
+          "choices": [
+            "مثال",
+            "اتفاق افتاد",
+            "راستش"
+          ],
+          "answer": 2,
+          "speak": "to be honest",
+          "reviewOf": "b2-u8-answering-questions"
+        },
+        {
+          "id": "b2-u8-presentation-story.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "not sure",
+          "choices": [
+            "not sure",
+            "in other words",
+            "point"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u8-answering-questions"
+        },
+        {
+          "id": "b2-u8-presentation-story.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "in other words",
+            "sharply",
+            "let me think"
+          ],
+          "answer": 2,
+          "speak": "let me think",
+          "reviewOf": "b2-u8-answering-questions"
+        },
+        {
+          "id": "b2-u8-presentation-story.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «check»",
+          "speak": "check",
+          "choices": [
+            "بررسی کردن",
+            "اول از همه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u8-answering-questions"
+        },
+        {
+          "id": "b2-u8-presentation-story.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این لحظه را واضح به یاد دارم.",
+          "sentence": "I ___ this moment clearly.",
+          "choices": [
+            "remember",
+            "happened",
+            "fall"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "For example, this experience taught me a lesson.",
+          "fa": "برای مثال، این تجربه درسی به من داد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "a یا an",
+        "body": "قبل از صدای صدادار an می‌آید: an important lesson."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u8-boss",
+    "titleFa": "نبرد پایانی — ارائه و سخنرانی",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u8-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «as you can see»",
+        "speak": "as you can see",
+        "choices": [
+          "پایین آمدن",
+          "همان‌طور که می‌بینید",
+          "درس"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u8-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "point",
+        "choices": [
+          "not sure",
+          "point",
+          "let me think"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u8-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⛰️",
+        "choices": [
+          "peak",
+          "not sure",
+          "to be honest"
+        ],
+        "answer": 0,
+        "speak": "peak"
+      },
+      {
+        "id": "b2-u8-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «that's a good question»",
+        "speak": "that's a good question",
+        "choices": [
+          "در پایان",
+          "سؤال خوبی است"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u8-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «let me think»",
+        "speak": "let me think",
+        "choices": [
+          "پایین آمدن",
+          "بگذار فکر کنم",
+          "نکته"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u8-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "experience",
+        "choices": [
+          "sharply",
+          "let me think",
+          "experience"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u8-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📚",
+        "choices": [
+          "point",
+          "lesson",
+          "fall"
+        ],
+        "answer": 1,
+        "speak": "lesson"
+      },
+      {
+        "id": "b2-u8-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «in other words»",
+        "speak": "in other words",
+        "choices": [
+          "ثابت شدن",
+          "به عبارت دیگر"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u8-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «rise»",
+        "speak": "rise",
+        "choices": [
+          "اول از همه",
+          "بالا رفتن",
+          "مطمئن نیستم"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u8-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "level off",
+        "choices": [
+          "level off",
+          "to conclude",
+          "remember"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

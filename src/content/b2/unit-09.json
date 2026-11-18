@@ -1,0 +1,1278 @@
+{
+  "id": "b2-u9",
+  "level": "B2",
+  "index": 9,
+  "titleFa": "رسانه و مسائل جهانی",
+  "titleEn": "Media and global issues",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "b2-u9-media-influence",
+      "title": "Media can persuade",
+      "titleFa": "تأثیر رسانه",
+      "goal": "دربارهٔ تأثیر رسانه حرف بزنی",
+      "buildsOn": [
+        "b2-u8-presentation-story"
+      ],
+      "vocab": [
+        {
+          "en": "influence",
+          "fa": "تأثیر گذاشتن",
+          "emoji": "🌊"
+        },
+        {
+          "en": "persuade",
+          "fa": "متقاعد کردن",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "advertise",
+          "fa": "تبلیغ کردن",
+          "emoji": "📢"
+        },
+        {
+          "en": "audience",
+          "fa": "مخاطب",
+          "emoji": "👥"
+        },
+        {
+          "en": "message",
+          "fa": "پیام",
+          "emoji": "✉️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "influence",
+          "fa": "تأثیر گذاشتن",
+          "emoji": "🌊"
+        },
+        {
+          "kind": "word",
+          "en": "persuade",
+          "fa": "متقاعد کردن",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "advertise",
+          "fa": "تبلیغ کردن",
+          "emoji": "📢"
+        },
+        {
+          "kind": "word",
+          "en": "audience",
+          "fa": "مخاطب",
+          "emoji": "👥"
+        },
+        {
+          "kind": "sentence",
+          "en": "Media can influence public opinion.",
+          "fa": "رسانه می‌تواند افکار عمومی را تحت تأثیر بگذارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "Ads persuade people to buy.",
+          "fa": "تبلیغ‌ها مردم را به خرید متقاعد می‌کنند.",
+          "highlight": "persuade"
+        },
+        {
+          "kind": "rule",
+          "title": "can + ساده",
+          "body": "بعد از can فعل ساده می‌آید: can influence، can persuade.",
+          "examples": [
+            {
+              "en": "Media can influence public opinion.",
+              "fa": "رسانه می‌تواند افکار عمومی را تحت تأثیر بگذارد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u9-media-influence.1",
+          "kind": "mcq",
+          "prompt": "معنی «influence» چیست؟",
+          "promptFa": "تأثیر گذاشتن",
+          "choices": [
+            "شک دارم",
+            "جانب‌داری",
+            "تأثیر گذاشتن"
+          ],
+          "answer": 2,
+          "speak": "influence",
+          "aiHints": {
+            "example": "I know the word \"influence\".",
+            "explanation": "«influence» یعنی تأثیر گذاشتن."
+          }
+        },
+        {
+          "id": "b2-u9-media-influence.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗣️",
+          "choices": [
+            "influence",
+            "persuade",
+            "audience"
+          ],
+          "answer": 1,
+          "speak": "persuade"
+        },
+        {
+          "id": "b2-u9-media-influence.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "advertise",
+          "choices": [
+            "definitely",
+            "fact",
+            "advertise"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u9-media-influence.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "audience",
+              "fa": "مخاطب"
+            },
+            {
+              "en": "persuade",
+              "fa": "متقاعد کردن"
+            },
+            {
+              "en": "advertise",
+              "fa": "تبلیغ کردن"
+            },
+            {
+              "en": "influence",
+              "fa": "تأثیر گذاشتن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u9-media-influence.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "تبلیغ‌ها مردم را به خرید متقاعد می‌کنند.",
+          "sentence": "Ads ___ people to buy.",
+          "choices": [
+            "persuade",
+            "development",
+            "probably not"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u9-media-influence.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "رسانه می‌تواند افکار عمومی را تحت تأثیر بگذارد.",
+          "tokens": [
+            "public",
+            "Media",
+            "opinion",
+            "can",
+            "influence"
+          ],
+          "answer": "Media can influence public opinion"
+        },
+        {
+          "id": "b2-u9-media-influence.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Media",
+            "can",
+            "influences",
+            "public",
+            "opinion."
+          ],
+          "answer": 2,
+          "fix": "Media can influence public opinion.",
+          "aiHints": {
+            "explanation": "درستش این است: Media can influence public opinion."
+          }
+        },
+        {
+          "id": "b2-u9-media-influence.8",
+          "kind": "speed",
+          "prompt": "سریع! «message» یعنی چه؟",
+          "speak": "message",
+          "choices": [
+            "پیام",
+            "تأثیر گذاشتن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u9-media-influence.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «experience»",
+          "choices": [
+            "اقلیم",
+            "تجربه",
+            "قطعاً"
+          ],
+          "answer": 1,
+          "speak": "experience",
+          "reviewOf": "b2-u8-presentation-story"
+        },
+        {
+          "id": "b2-u9-media-influence.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "remember",
+          "choices": [
+            "development",
+            "message",
+            "remember"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u8-presentation-story"
+        },
+        {
+          "id": "b2-u9-media-influence.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⚡",
+          "choices": [
+            "influence",
+            "bias",
+            "happened"
+          ],
+          "answer": 2,
+          "speak": "happened",
+          "reviewOf": "b2-u8-presentation-story"
+        },
+        {
+          "id": "b2-u9-media-influence.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «lesson»",
+          "speak": "lesson",
+          "choices": [
+            "درس",
+            "تأثیر گذاشتن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u8-presentation-story"
+        },
+        {
+          "id": "b2-u9-media-influence.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "مخاطب بسیار زیاد است.",
+          "sentence": "The ___ is very large.",
+          "choices": [
+            "fact",
+            "influence",
+            "audience"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Advertising can persuade a large audience.",
+          "fa": "تبلیغات می‌تواند مخاطب زیادی را متقاعد کند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "can + ساده",
+        "body": "بعد از can فعل ساده می‌آید: can influence، can persuade."
+      }
+    },
+    {
+      "id": "b2-u9-global-issues",
+      "title": "Poverty and climate",
+      "titleFa": "مسائل جهانی",
+      "goal": "دربارهٔ مسائل بزرگ دنیا حرف بزنی",
+      "buildsOn": [
+        "b2-u9-media-influence"
+      ],
+      "vocab": [
+        {
+          "en": "poverty",
+          "fa": "فقر",
+          "emoji": "🏚️"
+        },
+        {
+          "en": "climate",
+          "fa": "اقلیم",
+          "emoji": "🌍"
+        },
+        {
+          "en": "equality",
+          "fa": "برابری",
+          "emoji": "⚖️"
+        },
+        {
+          "en": "development",
+          "fa": "توسعه",
+          "emoji": "🏗️"
+        },
+        {
+          "en": "crisis",
+          "fa": "بحران",
+          "emoji": "⚠️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "poverty",
+          "fa": "فقر",
+          "emoji": "🏚️"
+        },
+        {
+          "kind": "word",
+          "en": "climate",
+          "fa": "اقلیم",
+          "emoji": "🌍"
+        },
+        {
+          "kind": "word",
+          "en": "equality",
+          "fa": "برابری",
+          "emoji": "⚖️"
+        },
+        {
+          "kind": "word",
+          "en": "development",
+          "fa": "توسعه",
+          "emoji": "🏗️"
+        },
+        {
+          "kind": "sentence",
+          "en": "The crisis affected millions.",
+          "fa": "بحران میلیون‌ها نفر را تحت تأثیر گذاشت."
+        },
+        {
+          "kind": "sentence",
+          "en": "Poverty is a serious problem.",
+          "fa": "فقر مشکل جدی است.",
+          "highlight": "Poverty"
+        },
+        {
+          "kind": "rule",
+          "title": "گذشتهٔ ed",
+          "body": "برای اتفاق گذشته فعل ed می‌گیرد: affected، happened.",
+          "examples": [
+            {
+              "en": "The crisis affected millions.",
+              "fa": "بحران میلیون‌ها نفر را تحت تأثیر گذاشت."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u9-global-issues.1",
+          "kind": "mcq",
+          "prompt": "معنی «poverty» چیست؟",
+          "promptFa": "فقر",
+          "choices": [
+            "نظر",
+            "فقر",
+            "بحران"
+          ],
+          "answer": 1,
+          "speak": "poverty",
+          "aiHints": {
+            "example": "I know the word \"poverty\".",
+            "explanation": "«poverty» یعنی فقر."
+          }
+        },
+        {
+          "id": "b2-u9-global-issues.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌍",
+          "choices": [
+            "poverty",
+            "equality",
+            "climate"
+          ],
+          "answer": 2,
+          "speak": "climate"
+        },
+        {
+          "id": "b2-u9-global-issues.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "equality",
+          "choices": [
+            "advertise",
+            "equality",
+            "unlikely"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u9-global-issues.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "equality",
+              "fa": "برابری"
+            },
+            {
+              "en": "development",
+              "fa": "توسعه"
+            },
+            {
+              "en": "poverty",
+              "fa": "فقر"
+            },
+            {
+              "en": "climate",
+              "fa": "اقلیم"
+            }
+          ]
+        },
+        {
+          "id": "b2-u9-global-issues.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "فقر مشکل جدی است.",
+          "sentence": "___ is a serious problem.",
+          "choices": [
+            "message",
+            "Poverty",
+            "development"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u9-global-issues.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "بحران میلیون‌ها نفر را تحت تأثیر گذاشت.",
+          "tokens": [
+            "crisis",
+            "affected",
+            "millions",
+            "The"
+          ],
+          "answer": "The crisis affected millions"
+        },
+        {
+          "id": "b2-u9-global-issues.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "crisis",
+            "affect",
+            "millions."
+          ],
+          "answer": 2,
+          "fix": "The crisis affected millions.",
+          "aiHints": {
+            "explanation": "درستش این است: The crisis affected millions."
+          }
+        },
+        {
+          "id": "b2-u9-global-issues.8",
+          "kind": "speed",
+          "prompt": "سریع! «crisis» یعنی چه؟",
+          "speak": "crisis",
+          "choices": [
+            "بحران",
+            "تأثیر گذاشتن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u9-global-issues.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «persuade»",
+          "choices": [
+            "مخاطب",
+            "بعید",
+            "متقاعد کردن"
+          ],
+          "answer": 2,
+          "speak": "persuade",
+          "reviewOf": "b2-u9-media-influence"
+        },
+        {
+          "id": "b2-u9-global-issues.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "advertise",
+          "choices": [
+            "poverty",
+            "advertise",
+            "influence"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u9-media-influence"
+        },
+        {
+          "id": "b2-u9-global-issues.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👥",
+          "choices": [
+            "poverty",
+            "reliable",
+            "audience"
+          ],
+          "answer": 2,
+          "speak": "audience",
+          "reviewOf": "b2-u9-media-influence"
+        },
+        {
+          "id": "b2-u9-global-issues.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «message»",
+          "speak": "message",
+          "choices": [
+            "تأثیر گذاشتن",
+            "پیام"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u9-media-influence"
+        },
+        {
+          "id": "b2-u9-global-issues.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "باید دربارهٔ تغییر اقلیم اقدام کنیم.",
+          "sentence": "We must act on ___ change.",
+          "choices": [
+            "advertise",
+            "climate",
+            "crisis"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Poverty and climate change are connected.",
+          "fa": "فقر و تغییر اقلیم به هم مرتبط‌اند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "گذشتهٔ ed",
+        "body": "برای اتفاق گذشته فعل ed می‌گیرد: affected، happened."
+      }
+    },
+    {
+      "id": "b2-u9-certainty",
+      "title": "Definitely or unlikely",
+      "titleFa": "قطعیت و شک",
+      "goal": "میزان اطمینانت را بگویی",
+      "buildsOn": [
+        "b2-u9-global-issues"
+      ],
+      "vocab": [
+        {
+          "en": "definitely",
+          "fa": "قطعاً",
+          "emoji": "✅"
+        },
+        {
+          "en": "certainly",
+          "fa": "مطمئناً",
+          "emoji": "🔒"
+        },
+        {
+          "en": "unlikely",
+          "fa": "بعید",
+          "emoji": "🚫"
+        },
+        {
+          "en": "probably not",
+          "fa": "احتمالاً نه",
+          "emoji": "🤔"
+        },
+        {
+          "en": "I doubt",
+          "fa": "شک دارم",
+          "emoji": "❓"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "definitely",
+          "fa": "قطعاً",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "certainly",
+          "fa": "مطمئناً",
+          "emoji": "🔒"
+        },
+        {
+          "kind": "word",
+          "en": "unlikely",
+          "fa": "بعید",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "probably not",
+          "fa": "احتمالاً نه",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "sentence",
+          "en": "I doubt that it will work.",
+          "fa": "شک دارم که کار کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "It will certainly happen.",
+          "fa": "مطمئناً اتفاق می‌افتد.",
+          "highlight": "certainly"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از will ساده",
+          "body": "will + فعل ساده: will work، will happen.",
+          "examples": [
+            {
+              "en": "I doubt that it will work.",
+              "fa": "شک دارم که کار کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u9-certainty.1",
+          "kind": "mcq",
+          "prompt": "معنی «definitely» چیست؟",
+          "promptFa": "قطعاً",
+          "choices": [
+            "قطعاً",
+            "بحران",
+            "تأثیر گذاشتن"
+          ],
+          "answer": 0,
+          "speak": "definitely",
+          "aiHints": {
+            "example": "I know the word \"definitely\".",
+            "explanation": "«definitely» یعنی قطعاً."
+          }
+        },
+        {
+          "id": "b2-u9-certainty.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔒",
+          "choices": [
+            "definitely",
+            "certainly",
+            "probably not"
+          ],
+          "answer": 1,
+          "speak": "certainly"
+        },
+        {
+          "id": "b2-u9-certainty.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "unlikely",
+          "choices": [
+            "persuade",
+            "unlikely",
+            "bias"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u9-certainty.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "certainly",
+              "fa": "مطمئناً"
+            },
+            {
+              "en": "probably not",
+              "fa": "احتمالاً نه"
+            },
+            {
+              "en": "definitely",
+              "fa": "قطعاً"
+            },
+            {
+              "en": "unlikely",
+              "fa": "بعید"
+            }
+          ]
+        },
+        {
+          "id": "b2-u9-certainty.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "مطمئناً اتفاق می‌افتد.",
+          "sentence": "It will ___ happen.",
+          "choices": [
+            "certainly",
+            "message",
+            "influence"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u9-certainty.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شک دارم که کار کند.",
+          "tokens": [
+            "it",
+            "doubt",
+            "work",
+            "I",
+            "that",
+            "will"
+          ],
+          "answer": "I doubt that it will work"
+        },
+        {
+          "id": "b2-u9-certainty.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "doubt",
+            "that",
+            "it",
+            "will",
+            "works."
+          ],
+          "answer": 5,
+          "fix": "I doubt that it will work.",
+          "aiHints": {
+            "explanation": "درستش این است: I doubt that it will work."
+          }
+        },
+        {
+          "id": "b2-u9-certainty.8",
+          "kind": "speed",
+          "prompt": "سریع! «I doubt» یعنی چه؟",
+          "speak": "I doubt",
+          "choices": [
+            "تأثیر گذاشتن",
+            "شک دارم"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u9-certainty.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «climate»",
+          "choices": [
+            "اقلیم",
+            "منبع",
+            "پیام"
+          ],
+          "answer": 0,
+          "speak": "climate",
+          "reviewOf": "b2-u9-global-issues"
+        },
+        {
+          "id": "b2-u9-certainty.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "equality",
+          "choices": [
+            "certainly",
+            "equality",
+            "source"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u9-global-issues"
+        },
+        {
+          "id": "b2-u9-certainty.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏗️",
+          "choices": [
+            "probably not",
+            "development",
+            "equality"
+          ],
+          "answer": 1,
+          "speak": "development",
+          "reviewOf": "b2-u9-global-issues"
+        },
+        {
+          "id": "b2-u9-certainty.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «crisis»",
+          "speak": "crisis",
+          "choices": [
+            "تأثیر گذاشتن",
+            "بحران"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u9-global-issues"
+        },
+        {
+          "id": "b2-u9-certainty.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "باران بعید است.",
+          "sentence": "It is ___ to rain.",
+          "choices": [
+            "unlikely",
+            "certainly",
+            "persuade"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I doubt it, but it is certainly possible.",
+          "fa": "شک دارم، ولی مطمئناً ممکن است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از will ساده",
+        "body": "will + فعل ساده: will work، will happen."
+      }
+    },
+    {
+      "id": "b2-u9-critical-thinking",
+      "title": "Fact or opinion?",
+      "titleFa": "تفکر نقاد",
+      "goal": "خبر را نقادانه بخوانی",
+      "buildsOn": [
+        "b2-u9-certainty"
+      ],
+      "vocab": [
+        {
+          "en": "source",
+          "fa": "منبع",
+          "emoji": "📰"
+        },
+        {
+          "en": "fact",
+          "fa": "واقعیت",
+          "emoji": "✅"
+        },
+        {
+          "en": "opinion",
+          "fa": "نظر",
+          "emoji": "💭"
+        },
+        {
+          "en": "bias",
+          "fa": "جانب‌داری",
+          "emoji": "⚖️"
+        },
+        {
+          "en": "reliable",
+          "fa": "قابل‌اعتماد",
+          "emoji": "🛡️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "source",
+          "fa": "منبع",
+          "emoji": "📰"
+        },
+        {
+          "kind": "word",
+          "en": "fact",
+          "fa": "واقعیت",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "opinion",
+          "fa": "نظر",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "bias",
+          "fa": "جانب‌داری",
+          "emoji": "⚖️"
+        },
+        {
+          "kind": "sentence",
+          "en": "We need reliable information.",
+          "fa": "به اطلاعات قابل‌اعتماد نیاز داریم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Always check the source.",
+          "fa": "همیشه منبع را بررسی کن.",
+          "highlight": "source"
+        },
+        {
+          "kind": "rule",
+          "title": "an opinion",
+          "body": "قبل از opinion که با صدادار شروع می‌شود، an می‌آید.",
+          "examples": [
+            {
+              "en": "We need reliable information.",
+              "fa": "به اطلاعات قابل‌اعتماد نیاز داریم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u9-critical-thinking.1",
+          "kind": "mcq",
+          "prompt": "معنی «source» چیست؟",
+          "promptFa": "منبع",
+          "choices": [
+            "واقعیت",
+            "توسعه",
+            "منبع"
+          ],
+          "answer": 2,
+          "speak": "source",
+          "aiHints": {
+            "example": "I know the word \"source\".",
+            "explanation": "«source» یعنی منبع."
+          }
+        },
+        {
+          "id": "b2-u9-critical-thinking.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "fact",
+            "bias",
+            "source"
+          ],
+          "answer": 0,
+          "speak": "fact"
+        },
+        {
+          "id": "b2-u9-critical-thinking.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "opinion",
+          "choices": [
+            "opinion",
+            "equality",
+            "message"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u9-critical-thinking.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "bias",
+              "fa": "جانب‌داری"
+            },
+            {
+              "en": "opinion",
+              "fa": "نظر"
+            },
+            {
+              "en": "fact",
+              "fa": "واقعیت"
+            },
+            {
+              "en": "source",
+              "fa": "منبع"
+            }
+          ]
+        },
+        {
+          "id": "b2-u9-critical-thinking.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "همیشه منبع را بررسی کن.",
+          "sentence": "Always check the ___.",
+          "choices": [
+            "climate",
+            "bias",
+            "source"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u9-critical-thinking.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "به اطلاعات قابل‌اعتماد نیاز داریم.",
+          "tokens": [
+            "reliable",
+            "need",
+            "information",
+            "We"
+          ],
+          "answer": "We need reliable information"
+        },
+        {
+          "id": "b2-u9-critical-thinking.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "That",
+            "is",
+            "a",
+            "opinion,",
+            "not",
+            "a",
+            "fact."
+          ],
+          "answer": 2,
+          "fix": "That is an opinion, not a fact.",
+          "aiHints": {
+            "explanation": "درستش این است: That is an opinion, not a fact."
+          }
+        },
+        {
+          "id": "b2-u9-critical-thinking.8",
+          "kind": "speed",
+          "prompt": "سریع! «reliable» یعنی چه؟",
+          "speak": "reliable",
+          "choices": [
+            "تأثیر گذاشتن",
+            "قابل‌اعتماد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u9-critical-thinking.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «certainly»",
+          "choices": [
+            "فقر",
+            "مطمئناً",
+            "برابری"
+          ],
+          "answer": 1,
+          "speak": "certainly",
+          "reviewOf": "b2-u9-certainty"
+        },
+        {
+          "id": "b2-u9-critical-thinking.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "unlikely",
+          "choices": [
+            "probably not",
+            "poverty",
+            "unlikely"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u9-certainty"
+        },
+        {
+          "id": "b2-u9-critical-thinking.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🤔",
+          "choices": [
+            "persuade",
+            "I doubt",
+            "probably not"
+          ],
+          "answer": 2,
+          "speak": "probably not",
+          "reviewOf": "b2-u9-certainty"
+        },
+        {
+          "id": "b2-u9-critical-thinking.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «I doubt»",
+          "speak": "I doubt",
+          "choices": [
+            "شک دارم",
+            "تأثیر گذاشتن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u9-certainty"
+        },
+        {
+          "id": "b2-u9-critical-thinking.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این یک نظر است، نه واقعیت.",
+          "sentence": "That is an ___, not a fact.",
+          "choices": [
+            "message",
+            "bias",
+            "opinion"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Check the source and separate fact from opinion.",
+          "fa": "منبع را بررسی کن و واقعیت را از نظر جدا کن."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "an opinion",
+        "body": "قبل از opinion که با صدادار شروع می‌شود، an می‌آید."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u9-boss",
+    "titleFa": "نبرد پایانی — رسانه و مسائل جهانی",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u9-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «persuade»",
+        "speak": "persuade",
+        "choices": [
+          "احتمالاً نه",
+          "متقاعد کردن",
+          "پیام"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u9-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "message",
+        "choices": [
+          "unlikely",
+          "message",
+          "definitely"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u9-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⚖️",
+        "choices": [
+          "bias",
+          "equality",
+          "definitely"
+        ],
+        "answer": 1,
+        "speak": "equality"
+      },
+      {
+        "id": "b2-u9-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «definitely»",
+        "speak": "definitely",
+        "choices": [
+          "جانب‌داری",
+          "قطعاً"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u9-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «probably not»",
+        "speak": "probably not",
+        "choices": [
+          "شک دارم",
+          "تأثیر گذاشتن",
+          "احتمالاً نه"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u9-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "fact",
+        "choices": [
+          "fact",
+          "I doubt",
+          "development"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u9-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🛡️",
+        "choices": [
+          "bias",
+          "definitely",
+          "reliable"
+        ],
+        "answer": 2,
+        "speak": "reliable"
+      },
+      {
+        "id": "b2-u9-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «advertise»",
+        "speak": "advertise",
+        "choices": [
+          "تبلیغ کردن",
+          "اقلیم"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u9-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «poverty»",
+        "speak": "poverty",
+        "choices": [
+          "منبع",
+          "تبلیغ کردن",
+          "فقر"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u9-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "development",
+        "choices": [
+          "audience",
+          "development",
+          "fact"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}
