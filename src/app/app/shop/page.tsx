@@ -135,8 +135,15 @@ export default function ShopPage() {
             <Sparkles size={15} /> بعدی
           </h2>
           <p className="mt-1 text-[11px] leading-5 text-plum">
-            بستهٔ آفلاین، آزمون تعیین سطح و زبان‌یار پلاس در نقشهٔ درآمد آمده‌اند؛ اول باید لایهٔ رایگان کامل بماند.
+            بستهٔ آفلاین و زبان‌یار پلاس در نقشهٔ درآمد آمده‌اند؛ اول باید لایهٔ رایگان کامل بماند.
           </p>
+          <button
+            type="button"
+            disabled
+            className="mt-2 w-full cursor-not-allowed rounded-xl bg-white/60 py-2 text-[11px] font-bold text-plum/50"
+          >
+            تماشای ویدیوی پاداش‌دار → ۲۰ جم (به‌زودی)
+          </button>
         </section>
       </main>
     </div>

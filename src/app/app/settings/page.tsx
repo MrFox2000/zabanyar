@@ -191,6 +191,17 @@ export default function SettingsPage() {
         </section>
 
         <section className="card p-4">
+          <h2 className="text-sm font-extrabold text-plum">یادآور روزانه</h2>
+          <p className="mt-1 text-[11px] leading-5 text-plum-soft">
+            اگر امروز درس نخوانی، یک نوار یادآور بالای نقشه ظاهر می‌شود. (اعلان سیستمی وقتی نسخهٔ نصب‌شدنی
+            و حساب کاربری اضافه شود فعال می‌شود.)
+          </p>
+          <p className="mt-2 rounded-xl bg-sand px-3 py-2 text-[11px] font-bold text-plum">
+            الان روشن است — روی همین دستگاه، بدون نیاز به اجازهٔ اعلان.
+          </p>
+        </section>
+
+        <section className="card p-4">
           <h2 className="text-sm font-extrabold text-plum">تصویرها</h2>
           <p className="mt-1 text-[11px] leading-5 text-plum-soft">
             تصاویر کلمه‌ها از مجموعهٔ اپن‌سورس{" "}
