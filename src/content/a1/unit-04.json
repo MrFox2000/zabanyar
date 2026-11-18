@@ -1,0 +1,870 @@
+{
+  "id": "a1-u4",
+  "level": "A1",
+  "index": 4,
+  "titleFa": "خوراک و خرید",
+  "titleEn": "Food and shopping",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "a1-u4-food",
+      "title": "At the table",
+      "titleFa": "سر سفره",
+      "goal": "خوراکی‌های روزمره را بشناسی",
+      "buildsOn": [
+        "a1-u3-routine"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u4-food.1",
+          "kind": "mcq",
+          "prompt": "معنی «bread» چیست؟",
+          "promptFa": "نان",
+          "choices": [
+            "نان",
+            "منو",
+            "آب"
+          ],
+          "answer": 0,
+          "speak": "bread",
+          "aiHints": {
+            "example": "I know the word \"bread\".",
+            "explanation": "«bread» یعنی نان."
+          }
+        },
+        {
+          "id": "a1-u4-food.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🥛",
+          "choices": [
+            "apple",
+            "milk",
+            "rice"
+          ],
+          "answer": 1,
+          "speak": "milk"
+        },
+        {
+          "id": "a1-u4-food.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "apple",
+          "choices": [
+            "apple",
+            "cheap",
+            "water"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u4-food.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "apple",
+              "fa": "سیب"
+            },
+            {
+              "en": "rice",
+              "fa": "برنج"
+            },
+            {
+              "en": "bread",
+              "fa": "نان"
+            },
+            {
+              "en": "milk",
+              "fa": "شیر"
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-food.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من هر روز آب می‌نوشم.",
+          "sentence": "I drink ___ every day.",
+          "choices": [
+            "water",
+            "bread",
+            "apple"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u4-food.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "لطفاً کمی آب می‌خواهم.",
+          "tokens": [
+            "please",
+            "I",
+            "water,",
+            "some",
+            "want"
+          ],
+          "answer": "I want some water, please"
+        },
+        {
+          "id": "a1-u4-food.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "drink",
+            "bread",
+            "every",
+            "day."
+          ],
+          "answer": 2,
+          "fix": "I drink water every day.",
+          "aiHints": {
+            "explanation": "درستش این است: I drink water every day."
+          }
+        },
+        {
+          "id": "a1-u4-food.8",
+          "kind": "speed",
+          "prompt": "سریع! «water» یعنی چه؟",
+          "speak": "water",
+          "choices": [
+            "آب",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u4-food.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «work»",
+          "choices": [
+            "آب",
+            "کار کردن",
+            "منو"
+          ],
+          "answer": 1,
+          "speak": "work",
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u4-food.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "eat",
+          "choices": [
+            "eat",
+            "money",
+            "milk"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u4-food.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ما ناهار برنج می‌خوریم.",
+          "sentence": "We eat ___ with lunch.",
+          "choices": [
+            "rice",
+            "money",
+            "apple"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I eat bread and drink milk for breakfast.",
+          "fa": "صبحانه نان می‌خورم و شیر می‌نوشم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "eat یا drink",
+        "body": "خوراکی را eat و نوشیدنی را drink: eat bread, drink milk."
+      }
+    },
+    {
+      "id": "a1-u4-some-any",
+      "title": "Some and any",
+      "titleFa": "some و any",
+      "goal": "دربارهٔ مقدار حرف بزنی",
+      "buildsOn": [
+        "food"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u4-some-any.1",
+          "kind": "mcq",
+          "prompt": "معنی «some» چیست؟",
+          "promptFa": "مقداری",
+          "choices": [
+            "قیمت",
+            "مقداری",
+            "بطری"
+          ],
+          "answer": 1,
+          "speak": "some",
+          "aiHints": {
+            "example": "I know the word \"some\".",
+            "explanation": "«some» یعنی مقداری."
+          }
+        },
+        {
+          "id": "a1-u4-some-any.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "❓",
+          "choices": [
+            "bottle",
+            "any",
+            "many"
+          ],
+          "answer": 1,
+          "speak": "any"
+        },
+        {
+          "id": "a1-u4-some-any.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "much",
+          "choices": [
+            "cheap",
+            "water",
+            "much"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u4-some-any.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "much",
+              "fa": "زیاد (بی‌شمار)"
+            },
+            {
+              "en": "any",
+              "fa": "هیچ / مقداری (سؤالی)"
+            },
+            {
+              "en": "many",
+              "fa": "زیاد (شمارش‌شدنی)"
+            },
+            {
+              "en": "some",
+              "fa": "مقداری"
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-some-any.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "سیب داری؟",
+          "sentence": "Do you have ___ apples?",
+          "choices": [
+            "any",
+            "some",
+            "bottle"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u4-some-any.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "چقدر آب می‌نوشی؟",
+          "tokens": [
+            "do",
+            "How",
+            "you",
+            "water",
+            "much",
+            "drink"
+          ],
+          "answer": "How much water do you drink"
+        },
+        {
+          "id": "a1-u4-some-any.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "don't",
+            "have",
+            "some",
+            "money."
+          ],
+          "answer": 3,
+          "fix": "I don't have any money.",
+          "aiHints": {
+            "explanation": "درستش این است: I don't have any money."
+          }
+        },
+        {
+          "id": "a1-u4-some-any.8",
+          "kind": "speed",
+          "prompt": "سریع! «bottle» یعنی چه؟",
+          "speak": "bottle",
+          "choices": [
+            "نان",
+            "بطری"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u4-some-any.9",
+          "kind": "mcq",
+          "prompt": "معنی «many» چیست؟",
+          "choices": [
+            "هیچ / مقداری (سؤالی)",
+            "زیاد (شمارش‌شدنی)",
+            "دلار"
+          ],
+          "answer": 1,
+          "speak": "many"
+        },
+        {
+          "id": "a1-u4-some-any.10",
+          "kind": "mcq",
+          "prompt": "معنی «many» چیست؟",
+          "choices": [
+            "چای",
+            "زیاد (شمارش‌شدنی)",
+            "صورت‌حساب"
+          ],
+          "answer": 1,
+          "speak": "many"
+        },
+        {
+          "id": "a1-u4-some-any.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من کمی نان دارم.",
+          "sentence": "I have ___ bread.",
+          "choices": [
+            "menu",
+            "many",
+            "some"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have some milk, but I don't have any water.",
+          "fa": "کمی شیر دارم ولی آب ندارم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "some یا any",
+        "body": "در جملهٔ مثبت some و در منفی و سؤالی any: I have some rice / I don't have any rice."
+      }
+    },
+    {
+      "id": "a1-u4-cafe",
+      "title": "At the café",
+      "titleFa": "در کافه",
+      "goal": "سفارش بدهی و صورت‌حساب بخواهی",
+      "buildsOn": [
+        "food",
+        "a1-u1-polite"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u4-cafe.1",
+          "kind": "mcq",
+          "prompt": "معنی «menu» چیست؟",
+          "promptFa": "منو",
+          "choices": [
+            "مقداری",
+            "منو",
+            "زیاد (بی‌شمار)"
+          ],
+          "answer": 1,
+          "speak": "menu",
+          "aiHints": {
+            "example": "I know the word \"menu\".",
+            "explanation": "«menu» یعنی منو."
+          }
+        },
+        {
+          "id": "a1-u4-cafe.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "☕",
+          "choices": [
+            "coffee",
+            "menu",
+            "tea"
+          ],
+          "answer": 0,
+          "speak": "coffee"
+        },
+        {
+          "id": "a1-u4-cafe.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "tea",
+          "choices": [
+            "menu",
+            "tea",
+            "expensive"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u4-cafe.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "menu",
+              "fa": "منو"
+            },
+            {
+              "en": "coffee",
+              "fa": "قهوه"
+            },
+            {
+              "en": "tea",
+              "fa": "چای"
+            },
+            {
+              "en": "bill",
+              "fa": "صورت‌حساب"
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-cafe.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "لطفاً صورت‌حساب را می‌دهید؟",
+          "sentence": "Can I have the ___, please?",
+          "choices": [
+            "bill",
+            "money",
+            "expensive"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u4-cafe.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "لطفاً یک قهوه می‌دهید؟",
+          "tokens": [
+            "Can",
+            "I",
+            "please",
+            "coffee,",
+            "a",
+            "have"
+          ],
+          "answer": "Can I have a coffee, please"
+        },
+        {
+          "id": "a1-u4-cafe.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "like",
+            "would",
+            "a",
+            "tea."
+          ],
+          "answer": 1,
+          "fix": "I would like a tea.",
+          "aiHints": {
+            "explanation": "درستش این است: I would like a tea."
+          }
+        },
+        {
+          "id": "a1-u4-cafe.8",
+          "kind": "speed",
+          "prompt": "سریع! «order» یعنی چه؟",
+          "speak": "order",
+          "choices": [
+            "سفارش دادن",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u4-cafe.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «thanks»",
+          "choices": [
+            "ممنون",
+            "گران",
+            "سیب"
+          ],
+          "answer": 0,
+          "speak": "thanks",
+          "reviewOf": "a1-u1-polite"
+        },
+        {
+          "id": "a1-u4-cafe.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "sorry",
+          "choices": [
+            "sorry",
+            "apple",
+            "milk"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u1-polite"
+        },
+        {
+          "id": "a1-u4-cafe.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من یک قهوه می‌خواهم.",
+          "sentence": "I would like a ___.",
+          "choices": [
+            "money",
+            "coffee",
+            "tea"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I would like a tea and the bill, please.",
+          "fa": "لطفاً یک چای و صورت‌حساب می‌خواهم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "مؤدبانه سفارش دادن",
+        "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea."
+      }
+    },
+    {
+      "id": "a1-u4-prices",
+      "title": "How much is it?",
+      "titleFa": "قیمت و پول",
+      "goal": "قیمت بپرسی و بگویی گران است",
+      "buildsOn": [
+        "a1-u1-numbers-age"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u4-prices.1",
+          "kind": "mcq",
+          "prompt": "معنی «price» چیست؟",
+          "promptFa": "قیمت",
+          "choices": [
+            "قیمت",
+            "سیب",
+            "ارزان"
+          ],
+          "answer": 0,
+          "speak": "price",
+          "aiHints": {
+            "example": "I know the word \"price\".",
+            "explanation": "«price» یعنی قیمت."
+          }
+        },
+        {
+          "id": "a1-u4-prices.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🪙",
+          "choices": [
+            "price",
+            "dollar",
+            "cheap"
+          ],
+          "answer": 2,
+          "speak": "cheap"
+        },
+        {
+          "id": "a1-u4-prices.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "expensive",
+          "choices": [
+            "expensive",
+            "menu",
+            "order"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u4-prices.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "dollar",
+              "fa": "دلار"
+            },
+            {
+              "en": "price",
+              "fa": "قیمت"
+            },
+            {
+              "en": "cheap",
+              "fa": "ارزان"
+            },
+            {
+              "en": "expensive",
+              "fa": "گران"
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-prices.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "قیمتش چقدر است؟",
+          "sentence": "How ___ is it?",
+          "choices": [
+            "dollar",
+            "menu",
+            "much"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u4-prices.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این پیراهن خیلی گران است.",
+          "tokens": [
+            "shirt",
+            "very",
+            "This",
+            "expensive",
+            "is"
+          ],
+          "answer": "This shirt is very expensive"
+        },
+        {
+          "id": "a1-u4-prices.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "How",
+            "many",
+            "is",
+            "this",
+            "book?"
+          ],
+          "answer": 1,
+          "fix": "How much is this book?",
+          "aiHints": {
+            "explanation": "درستش این است: How much is this book?"
+          }
+        },
+        {
+          "id": "a1-u4-prices.8",
+          "kind": "speed",
+          "prompt": "سریع! «money» یعنی چه؟",
+          "speak": "money",
+          "choices": [
+            "نان",
+            "پول"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u4-prices.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «two»",
+          "choices": [
+            "مقداری",
+            "بطری",
+            "دو"
+          ],
+          "answer": 2,
+          "speak": "two",
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u4-prices.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "five",
+          "choices": [
+            "rice",
+            "menu",
+            "five"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u4-prices.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "خیلی گران است.",
+          "sentence": "It is too ___.",
+          "choices": [
+            "bread",
+            "apple",
+            "expensive"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "How much is this bag? It is too expensive.",
+          "fa": "این کیف چند است؟ خیلی گران است."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "How much",
+        "body": "برای قیمت How much is it? و برای تعداد How many?"
+      }
+    }
+  ],
+  "boss": {
+    "id": "a1-u4-boss",
+    "titleFa": "نبرد پایانی — خوراک و خرید",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a1-u4-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «milk»",
+        "speak": "milk",
+        "choices": [
+          "شیر",
+          "آب",
+          "منو"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u4-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "water",
+        "choices": [
+          "water",
+          "coffee",
+          "bottle"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u4-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📈",
+        "choices": [
+          "much",
+          "money",
+          "many"
+        ],
+        "answer": 0,
+        "speak": "much"
+      },
+      {
+        "id": "a1-u4-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «menu»",
+        "speak": "menu",
+        "choices": [
+          "منو",
+          "بطری"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u4-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «bill»",
+        "speak": "bill",
+        "choices": [
+          "زیاد (شمارش‌شدنی)",
+          "دلار",
+          "صورت‌حساب"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u4-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "cheap",
+        "choices": [
+          "cheap",
+          "any",
+          "dollar"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u4-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "💳",
+        "choices": [
+          "money",
+          "tea",
+          "menu"
+        ],
+        "answer": 0,
+        "speak": "money"
+      },
+      {
+        "id": "a1-u4-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «apple»",
+        "speak": "apple",
+        "choices": [
+          "ارزان",
+          "سیب"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u4-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «some»",
+        "speak": "some",
+        "choices": [
+          "سیب",
+          "دلار",
+          "مقداری"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u4-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "many",
+        "choices": [
+          "menu",
+          "price",
+          "many"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

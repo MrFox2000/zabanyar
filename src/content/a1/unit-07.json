@@ -1,0 +1,862 @@
+{
+  "id": "a1-u7",
+  "level": "A1",
+  "index": 7,
+  "titleFa": "علاقه‌ها",
+  "titleEn": "Free time",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "a1-u7-hobbies",
+      "title": "My hobby",
+      "titleFa": "سرگرمی‌ها",
+      "goal": "سرگرمی‌هایت را بگویی",
+      "buildsOn": [
+        "a1-u5-there-is"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u7-hobbies.1",
+          "kind": "mcq",
+          "prompt": "معنی «reading» چیست؟",
+          "promptFa": "کتاب خواندن",
+          "choices": [
+            "کتاب خواندن",
+            "ملحق شدن",
+            "کوهنوردی"
+          ],
+          "answer": 0,
+          "speak": "reading",
+          "aiHints": {
+            "example": "I know the word \"reading\".",
+            "explanation": "«reading» یعنی کتاب خواندن."
+          }
+        },
+        {
+          "id": "a1-u7-hobbies.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🍳",
+          "choices": [
+            "cooking",
+            "painting",
+            "music"
+          ],
+          "answer": 0,
+          "speak": "cooking"
+        },
+        {
+          "id": "a1-u7-hobbies.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "painting",
+          "choices": [
+            "join",
+            "swimming",
+            "painting"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u7-hobbies.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "painting",
+              "fa": "نقاشی"
+            },
+            {
+              "en": "reading",
+              "fa": "کتاب خواندن"
+            },
+            {
+              "en": "hiking",
+              "fa": "کوهنوردی"
+            },
+            {
+              "en": "cooking",
+              "fa": "آشپزی"
+            }
+          ]
+        },
+        {
+          "id": "a1-u7-hobbies.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "سرگرمی من کتاب خواندن است.",
+          "sentence": "My hobby is ___.",
+          "choices": [
+            "reading",
+            "join",
+            "cooking"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u7-hobbies.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من کتاب خواندن را دوست دارم.",
+          "tokens": [
+            "I",
+            "reading",
+            "like",
+            "books"
+          ],
+          "answer": "I like reading books"
+        },
+        {
+          "id": "a1-u7-hobbies.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "like",
+            "read",
+            "books."
+          ],
+          "answer": 2,
+          "fix": "I like reading books.",
+          "aiHints": {
+            "explanation": "درستش این است: I like reading books."
+          }
+        },
+        {
+          "id": "a1-u7-hobbies.8",
+          "kind": "speed",
+          "prompt": "سریع! «music» یعنی چه؟",
+          "speak": "music",
+          "choices": [
+            "موسیقی",
+            "کتاب خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u7-hobbies.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «near»",
+          "choices": [
+            "آشپزی",
+            "کوهنوردی",
+            "نزدیک"
+          ],
+          "answer": 2,
+          "speak": "near",
+          "reviewOf": "a1-u5-there-is"
+        },
+        {
+          "id": "a1-u7-hobbies.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "next to",
+          "choices": [
+            "watching",
+            "playing",
+            "next to"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u5-there-is"
+        },
+        {
+          "id": "a1-u7-hobbies.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من عاشق موسیقی هستم.",
+          "sentence": "I love ___.",
+          "choices": [
+            "cooking",
+            "sure",
+            "music"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "In my free time I like cooking and music.",
+          "fa": "در وقت آزادم آشپزی و موسیقی دوست دارم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "like + ing",
+        "body": "بعد از like فعل با ing می‌آید: I like reading."
+      }
+    },
+    {
+      "id": "a1-u7-like-ing",
+      "title": "Love it, hate it",
+      "titleFa": "دوست داشتن و دوست نداشتن",
+      "goal": "علاقه‌ات را با فعل ing بگویی",
+      "buildsOn": [
+        "hobbies"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u7-like-ing.1",
+          "kind": "mcq",
+          "prompt": "معنی «playing» چیست؟",
+          "promptFa": "بازی کردن",
+          "choices": [
+            "موسیقی",
+            "بازی کردن",
+            "دعوت کردن"
+          ],
+          "answer": 1,
+          "speak": "playing",
+          "aiHints": {
+            "example": "I know the word \"playing\".",
+            "explanation": "«playing» یعنی بازی کردن."
+          }
+        },
+        {
+          "id": "a1-u7-like-ing.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📺",
+          "choices": [
+            "watching",
+            "swimming",
+            "cooking"
+          ],
+          "answer": 0,
+          "speak": "watching"
+        },
+        {
+          "id": "a1-u7-like-ing.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "swimming",
+          "choices": [
+            "sure",
+            "lose",
+            "swimming"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u7-like-ing.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "swimming",
+              "fa": "شنا کردن"
+            },
+            {
+              "en": "running",
+              "fa": "دویدن"
+            },
+            {
+              "en": "playing",
+              "fa": "بازی کردن"
+            },
+            {
+              "en": "watching",
+              "fa": "تماشا کردن"
+            }
+          ]
+        },
+        {
+          "id": "a1-u7-like-ing.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من از دویدن در پارک لذت می‌برم.",
+          "sentence": "I enjoy ___ in the park.",
+          "choices": [
+            "watching",
+            "playing",
+            "running"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u7-like-ing.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من تماشای فیلم را ترجیح می‌دهم.",
+          "tokens": [
+            "prefer",
+            "watching",
+            "films",
+            "I"
+          ],
+          "answer": "I prefer watching films"
+        },
+        {
+          "id": "a1-u7-like-ing.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "enjoy",
+            "to",
+            "swim."
+          ],
+          "answer": 2,
+          "fix": "I enjoy swimming.",
+          "aiHints": {
+            "explanation": "درستش این است: I enjoy swimming."
+          }
+        },
+        {
+          "id": "a1-u7-like-ing.8",
+          "kind": "speed",
+          "prompt": "سریع! «cooking» یعنی چه؟",
+          "speak": "cooking",
+          "choices": [
+            "آشپزی کردن",
+            "کتاب خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u7-like-ing.9",
+          "kind": "mcq",
+          "prompt": "معنی «running» چیست؟",
+          "choices": [
+            "شاید",
+            "دویدن",
+            "آشپزی کردن"
+          ],
+          "answer": 1,
+          "speak": "running"
+        },
+        {
+          "id": "a1-u7-like-ing.10",
+          "kind": "mcq",
+          "prompt": "معنی «running» چیست؟",
+          "choices": [
+            "کوهنوردی",
+            "تماشا کردن",
+            "دویدن"
+          ],
+          "answer": 2,
+          "speak": "running"
+        },
+        {
+          "id": "a1-u7-like-ing.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او عاشق کتاب خواندن است.",
+          "sentence": "She loves ___ books.",
+          "choices": [
+            "watching",
+            "reading",
+            "lose"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I enjoy watching films but I hate running.",
+          "fa": "از تماشای فیلم لذت می‌برم ولی از دویدن بدم می‌آید."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "enjoy / love / prefer",
+        "body": "این فعل‌ها با ing می‌آیند، نه با to: I enjoy swimming."
+      }
+    },
+    {
+      "id": "a1-u7-sports",
+      "title": "The match",
+      "titleFa": "ورزش",
+      "goal": "دربارهٔ مسابقه و تیم حرف بزنی",
+      "buildsOn": [
+        "hobbies"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u7-sports.1",
+          "kind": "mcq",
+          "prompt": "معنی «team» چیست؟",
+          "promptFa": "تیم",
+          "choices": [
+            "تیم",
+            "بردن",
+            "دعوت کردن"
+          ],
+          "answer": 0,
+          "speak": "team",
+          "aiHints": {
+            "example": "I know the word \"team\".",
+            "explanation": "«team» یعنی تیم."
+          }
+        },
+        {
+          "id": "a1-u7-sports.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏅",
+          "choices": [
+            "lose",
+            "team",
+            "match"
+          ],
+          "answer": 2,
+          "speak": "match"
+        },
+        {
+          "id": "a1-u7-sports.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "win",
+          "choices": [
+            "watching",
+            "match",
+            "win"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u7-sports.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "win",
+              "fa": "بردن"
+            },
+            {
+              "en": "match",
+              "fa": "مسابقه"
+            },
+            {
+              "en": "lose",
+              "fa": "باختن"
+            },
+            {
+              "en": "team",
+              "fa": "تیم"
+            }
+          ]
+        },
+        {
+          "id": "a1-u7-sports.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "تیم ما مسابقه را برد.",
+          "sentence": "Our ___ won the match.",
+          "choices": [
+            "match",
+            "team",
+            "swimming"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u7-sports.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "تیم ما مسابقه را برد.",
+          "tokens": [
+            "team",
+            "match",
+            "Our",
+            "the",
+            "won"
+          ],
+          "answer": "Our team won the match"
+        },
+        {
+          "id": "a1-u7-sports.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "play",
+            "football",
+            "every",
+            "week."
+          ],
+          "answer": 1,
+          "fix": "He plays football every week.",
+          "aiHints": {
+            "explanation": "درستش این است: He plays football every week."
+          }
+        },
+        {
+          "id": "a1-u7-sports.8",
+          "kind": "speed",
+          "prompt": "سریع! «coach» یعنی چه؟",
+          "speak": "coach",
+          "choices": [
+            "کتاب خواندن",
+            "مربی"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u7-sports.9",
+          "kind": "mcq",
+          "prompt": "معنی «lose» چیست؟",
+          "choices": [
+            "شنا کردن",
+            "کتاب خواندن",
+            "باختن"
+          ],
+          "answer": 2,
+          "speak": "lose"
+        },
+        {
+          "id": "a1-u7-sports.10",
+          "kind": "mcq",
+          "prompt": "معنی «lose» چیست؟",
+          "choices": [
+            "مسابقه",
+            "شاید",
+            "باختن"
+          ],
+          "answer": 2,
+          "speak": "lose"
+        },
+        {
+          "id": "a1-u7-sports.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من می‌خواهم مسابقه را ببرم.",
+          "sentence": "I want to ___ the match.",
+          "choices": [
+            "reading",
+            "team",
+            "win"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Our team plays on Friday and our coach is happy.",
+          "fa": "تیم ما جمعه بازی می‌کند و مربی‌مان خوشحال است."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "play + ورزش",
+        "body": "با ورزش از play استفاده کن: play football, play tennis."
+      }
+    },
+    {
+      "id": "a1-u7-invitations",
+      "title": "Join us?",
+      "titleFa": "دعوت کردن",
+      "goal": "کسی را دعوت کنی و جواب بدهی",
+      "buildsOn": [
+        "a1-u6-plans"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u7-invitations.1",
+          "kind": "mcq",
+          "prompt": "معنی «join» چیست؟",
+          "promptFa": "ملحق شدن",
+          "choices": [
+            "ملحق شدن",
+            "تیم",
+            "بازی کردن"
+          ],
+          "answer": 0,
+          "speak": "join",
+          "aiHints": {
+            "example": "I know the word \"join\".",
+            "explanation": "«join» یعنی ملحق شدن."
+          }
+        },
+        {
+          "id": "a1-u7-invitations.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✉️",
+          "choices": [
+            "invite",
+            "sure",
+            "sorry"
+          ],
+          "answer": 0,
+          "speak": "invite"
+        },
+        {
+          "id": "a1-u7-invitations.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "maybe",
+          "choices": [
+            "maybe",
+            "join",
+            "coach"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u7-invitations.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "maybe",
+              "fa": "شاید"
+            },
+            {
+              "en": "sure",
+              "fa": "حتماً"
+            },
+            {
+              "en": "invite",
+              "fa": "دعوت کردن"
+            },
+            {
+              "en": "join",
+              "fa": "ملحق شدن"
+            }
+          ]
+        },
+        {
+          "id": "a1-u7-invitations.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌خواهی به ما ملحق شوی؟",
+          "sentence": "Do you want to ___ us?",
+          "choices": [
+            "join",
+            "invite",
+            "watching"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u7-invitations.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دوست داری به ما ملحق شوی؟",
+          "tokens": [
+            "join",
+            "like",
+            "to",
+            "Would",
+            "you",
+            "us"
+          ],
+          "answer": "Would you like to join us"
+        },
+        {
+          "id": "a1-u7-invitations.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "would",
+            "likes",
+            "to",
+            "come."
+          ],
+          "answer": 2,
+          "fix": "I would like to come.",
+          "aiHints": {
+            "explanation": "درستش این است: I would like to come."
+          }
+        },
+        {
+          "id": "a1-u7-invitations.8",
+          "kind": "speed",
+          "prompt": "سریع! «sorry» یعنی چه؟",
+          "speak": "sorry",
+          "choices": [
+            "کتاب خواندن",
+            "متأسفم"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u7-invitations.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «free»",
+          "choices": [
+            "نقاشی",
+            "ملحق شدن",
+            "آزاد"
+          ],
+          "answer": 2,
+          "speak": "free",
+          "reviewOf": "a1-u6-plans"
+        },
+        {
+          "id": "a1-u7-invitations.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "busy",
+          "choices": [
+            "busy",
+            "sorry",
+            "maybe"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u6-plans"
+        },
+        {
+          "id": "a1-u7-invitations.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "متأسفم، نمی‌توانم بیایم.",
+          "sentence": "___, I can't come.",
+          "choices": [
+            "cooking",
+            "swimming",
+            "Sorry"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Would you like to join us tonight?",
+          "fa": "دوست داری امشب به ما ملحق شوی؟"
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "دعوت مؤدبانه",
+        "body": "Would you like to…? مؤدبانه‌ترین راه دعوت است."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a1-u7-boss",
+    "titleFa": "نبرد پایانی — علاقه‌ها",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a1-u7-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «cooking»",
+        "speak": "cooking",
+        "choices": [
+          "دعوت کردن",
+          "شاید",
+          "آشپزی"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u7-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "music",
+        "choices": [
+          "hiking",
+          "running",
+          "music"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u7-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🏊",
+        "choices": [
+          "swimming",
+          "coach",
+          "running"
+        ],
+        "answer": 0,
+        "speak": "swimming"
+      },
+      {
+        "id": "a1-u7-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «team»",
+        "speak": "team",
+        "choices": [
+          "بازی کردن",
+          "تیم"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u7-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «lose»",
+        "speak": "lose",
+        "choices": [
+          "ملحق شدن",
+          "باختن",
+          "بازی کردن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u7-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "invite",
+        "choices": [
+          "invite",
+          "coach",
+          "painting"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u7-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "😔",
+        "choices": [
+          "running",
+          "watching",
+          "sorry"
+        ],
+        "answer": 2,
+        "speak": "sorry"
+      },
+      {
+        "id": "a1-u7-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «painting»",
+        "speak": "painting",
+        "choices": [
+          "دویدن",
+          "نقاشی"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u7-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «playing»",
+        "speak": "playing",
+        "choices": [
+          "آشپزی کردن",
+          "بردن",
+          "بازی کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u7-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "running",
+        "choices": [
+          "invite",
+          "running",
+          "painting"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

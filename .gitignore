@@ -1,0 +1,6 @@
+node_modules/
+.next/
+shots/video/
+*.tsbuildinfo
+.env*.local
+.vercel/

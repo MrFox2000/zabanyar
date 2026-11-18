@@ -1,0 +1,863 @@
+{
+  "id": "a1-u3",
+  "level": "A1",
+  "index": 3,
+  "titleFa": "روزمره",
+  "titleEn": "Every day",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "a1-u3-routine",
+      "title": "My day",
+      "titleFa": "روز من",
+      "goal": "کارهای روزانه‌ات را بگویی",
+      "buildsOn": [
+        "a1-u2-have-got"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-routine.1",
+          "kind": "mcq",
+          "prompt": "معنی «wake up» چیست؟",
+          "promptFa": "بیدار شدن",
+          "choices": [
+            "زمان",
+            "بیدار شدن",
+            "انجام دادن"
+          ],
+          "answer": 1,
+          "speak": "wake up",
+          "aiHints": {
+            "example": "I know the word \"wake up\".",
+            "explanation": "«wake up» یعنی بیدار شدن."
+          }
+        },
+        {
+          "id": "a1-u3-routine.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💻",
+          "choices": [
+            "eat",
+            "wake up",
+            "work"
+          ],
+          "answer": 2,
+          "speak": "work"
+        },
+        {
+          "id": "a1-u3-routine.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "eat",
+          "choices": [
+            "eat",
+            "once",
+            "work"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u3-routine.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "work",
+              "fa": "کار کردن"
+            },
+            {
+              "en": "wake up",
+              "fa": "بیدار شدن"
+            },
+            {
+              "en": "sleep",
+              "fa": "خوابیدن"
+            },
+            {
+              "en": "eat",
+              "fa": "خوردن"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-routine.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من ساعت هشت صبحانه می‌خورم.",
+          "sentence": "I ___ breakfast at eight.",
+          "choices": [
+            "eat",
+            "study",
+            "once"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u3-routine.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من ساعت هفت بیدار می‌شوم.",
+          "tokens": [
+            "I",
+            "wake",
+            "at",
+            "up",
+            "seven"
+          ],
+          "answer": "I wake up at seven"
+        },
+        {
+          "id": "a1-u3-routine.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "wakes",
+            "up",
+            "at",
+            "seven."
+          ],
+          "answer": 1,
+          "fix": "I wake up at seven.",
+          "aiHints": {
+            "explanation": "درستش این است: I wake up at seven."
+          }
+        },
+        {
+          "id": "a1-u3-routine.8",
+          "kind": "speed",
+          "prompt": "سریع! «study» یعنی چه؟",
+          "speak": "study",
+          "choices": [
+            "بیدار شدن",
+            "درس خواندن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-routine.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «has»",
+          "choices": [
+            "شب",
+            "دو بار",
+            "دارد"
+          ],
+          "answer": 2,
+          "speak": "has",
+          "reviewOf": "a1-u2-have-got"
+        },
+        {
+          "id": "a1-u3-routine.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "pet",
+          "choices": [
+            "pet",
+            "do",
+            "wake up"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u2-have-got"
+        },
+        {
+          "id": "a1-u3-routine.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من هر روز انگلیسی می‌خوانم.",
+          "sentence": "I ___ English every day.",
+          "choices": [
+            "study",
+            "wake up",
+            "once"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I wake up, eat breakfast and go to work.",
+          "fa": "بیدار می‌شوم، صبحانه می‌خورم و سر کار می‌روم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "ترتیب روز",
+        "body": "wake up → eat → work → study → sleep. همین ترتیب را حفظ کن."
+      }
+    },
+    {
+      "id": "a1-u3-present-simple",
+      "title": "Every day and always",
+      "titleFa": "حال ساده",
+      "goal": "از کارهای همیشگی حرف بزنی",
+      "buildsOn": [
+        "routine"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-present-simple.1",
+          "kind": "mcq",
+          "prompt": "معنی «go» چیست؟",
+          "promptFa": "رفتن",
+          "choices": [
+            "رفتن",
+            "ساعت دیواری",
+            "دو بار"
+          ],
+          "answer": 0,
+          "speak": "go",
+          "aiHints": {
+            "example": "I know the word \"go\".",
+            "explanation": "«go» یعنی رفتن."
+          }
+        },
+        {
+          "id": "a1-u3-present-simple.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "❤️",
+          "choices": [
+            "live",
+            "play",
+            "like"
+          ],
+          "answer": 2,
+          "speak": "like"
+        },
+        {
+          "id": "a1-u3-present-simple.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "live",
+          "choices": [
+            "eat",
+            "live",
+            "night"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u3-present-simple.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "live",
+              "fa": "زندگی کردن"
+            },
+            {
+              "en": "like",
+              "fa": "دوست داشتن"
+            },
+            {
+              "en": "play",
+              "fa": "بازی کردن"
+            },
+            {
+              "en": "go",
+              "fa": "رفتن"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-present-simple.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او در تهران زندگی می‌کند.",
+          "sentence": "He ___ in Tehran.",
+          "choices": [
+            "clock",
+            "wake up",
+            "lives"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u3-present-simple.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او با اتوبوس سر کار می‌رود.",
+          "tokens": [
+            "bus",
+            "by",
+            "She",
+            "to",
+            "work",
+            "goes"
+          ],
+          "answer": "She goes to work by bus"
+        },
+        {
+          "id": "a1-u3-present-simple.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "go",
+            "to",
+            "work."
+          ],
+          "answer": 1,
+          "fix": "He goes to work.",
+          "aiHints": {
+            "explanation": "درستش این است: He goes to work."
+          }
+        },
+        {
+          "id": "a1-u3-present-simple.8",
+          "kind": "speed",
+          "prompt": "سریع! «do» یعنی چه؟",
+          "speak": "do",
+          "choices": [
+            "بیدار شدن",
+            "انجام دادن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-present-simple.9",
+          "kind": "mcq",
+          "prompt": "معنی «play» چیست؟",
+          "choices": [
+            "بازی کردن",
+            "ساعت دیواری",
+            "یک بار"
+          ],
+          "answer": 0,
+          "speak": "play"
+        },
+        {
+          "id": "a1-u3-present-simple.10",
+          "kind": "mcq",
+          "prompt": "معنی «play» چیست؟",
+          "choices": [
+            "بازی کردن",
+            "کار کردن",
+            "زندگی کردن"
+          ],
+          "answer": 0,
+          "speak": "play"
+        },
+        {
+          "id": "a1-u3-present-simple.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آن‌ها فوتبال بازی می‌کنند.",
+          "sentence": "They ___ football.",
+          "choices": [
+            "study",
+            "like",
+            "play"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "She lives in Tehran and works every day.",
+          "fa": "او در تهران زندگی می‌کند و هر روز کار می‌کند."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "s سوم‌شخص",
+        "body": "با he/she/it به فعل s اضافه می‌شود: he goes, she likes."
+      }
+    },
+    {
+      "id": "a1-u3-time",
+      "title": "What time is it?",
+      "titleFa": "ساعت و وقت",
+      "goal": "ساعت و بخش‌های روز را بگویی",
+      "buildsOn": [
+        "a1-u1-numbers-age"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-time.1",
+          "kind": "mcq",
+          "prompt": "معنی «morning» چیست؟",
+          "promptFa": "صبح",
+          "choices": [
+            "صبح",
+            "بازی کردن",
+            "رفتن"
+          ],
+          "answer": 0,
+          "speak": "morning",
+          "aiHints": {
+            "example": "I know the word \"morning\".",
+            "explanation": "«morning» یعنی صبح."
+          }
+        },
+        {
+          "id": "a1-u3-time.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌇",
+          "choices": [
+            "clock",
+            "morning",
+            "evening"
+          ],
+          "answer": 2,
+          "speak": "evening"
+        },
+        {
+          "id": "a1-u3-time.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "night",
+          "choices": [
+            "night",
+            "often",
+            "live"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u3-time.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "morning",
+              "fa": "صبح"
+            },
+            {
+              "en": "night",
+              "fa": "شب"
+            },
+            {
+              "en": "time",
+              "fa": "زمان"
+            },
+            {
+              "en": "evening",
+              "fa": "عصر"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-time.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "صبح بخیر، روز خوبی داشته باشی.",
+          "sentence": "Good ___, have a nice day.",
+          "choices": [
+            "twice",
+            "clock",
+            "morning"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u3-time.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "الان ساعت چند است؟",
+          "tokens": [
+            "is",
+            "What",
+            "it",
+            "now",
+            "time"
+          ],
+          "answer": "What time is it now"
+        },
+        {
+          "id": "a1-u3-time.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "What",
+            "time",
+            "are",
+            "it?"
+          ],
+          "answer": 2,
+          "fix": "What time is it?",
+          "aiHints": {
+            "explanation": "درستش این است: What time is it?"
+          }
+        },
+        {
+          "id": "a1-u3-time.8",
+          "kind": "speed",
+          "prompt": "سریع! «clock» یعنی چه؟",
+          "speak": "clock",
+          "choices": [
+            "بیدار شدن",
+            "ساعت دیواری"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-time.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «two»",
+          "choices": [
+            "صبح",
+            "خوابیدن",
+            "دو"
+          ],
+          "answer": 2,
+          "speak": "two",
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u3-time.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "five",
+          "choices": [
+            "sleep",
+            "five",
+            "like"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u3-time.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من هر شب درس می‌خوانم.",
+          "sentence": "I study at ___ every day.",
+          "choices": [
+            "night",
+            "early",
+            "eat"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I work from morning to evening.",
+          "fa": "من از صبح تا عصر کار می‌کنم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "سه بخش روز",
+        "body": "morning تا ظهر، afternoon بعد از ظهر، evening و night بعد از غروب."
+      }
+    },
+    {
+      "id": "a1-u3-frequency",
+      "title": "How often?",
+      "titleFa": "قیدهای تکرار",
+      "goal": "بگویی هر چند وقت یک بار کاری می‌کنی",
+      "buildsOn": [
+        "present-simple"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-frequency.1",
+          "kind": "mcq",
+          "prompt": "معنی «often» چیست؟",
+          "promptFa": "اغلب",
+          "choices": [
+            "خوردن",
+            "اغلب",
+            "شب"
+          ],
+          "answer": 1,
+          "speak": "often",
+          "aiHints": {
+            "example": "I know the word \"often\".",
+            "explanation": "«often» یعنی اغلب."
+          }
+        },
+        {
+          "id": "a1-u3-frequency.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌘",
+          "choices": [
+            "twice",
+            "rarely",
+            "often"
+          ],
+          "answer": 1,
+          "speak": "rarely"
+        },
+        {
+          "id": "a1-u3-frequency.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "twice",
+          "choices": [
+            "evening",
+            "go",
+            "twice"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u3-frequency.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "rarely",
+              "fa": "به‌ندرت"
+            },
+            {
+              "en": "often",
+              "fa": "اغلب"
+            },
+            {
+              "en": "twice",
+              "fa": "دو بار"
+            },
+            {
+              "en": "once",
+              "fa": "یک بار"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-frequency.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من اغلب به باشگاه می‌روم.",
+          "sentence": "I ___ go to the gym.",
+          "choices": [
+            "night",
+            "often",
+            "rarely"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u3-frequency.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من معمولاً شب درس می‌خوانم.",
+          "tokens": [
+            "I",
+            "night",
+            "at",
+            "study",
+            "usually"
+          ],
+          "answer": "I usually study at night"
+        },
+        {
+          "id": "a1-u3-frequency.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "usually",
+            "studys",
+            "English."
+          ],
+          "answer": 2,
+          "fix": "He usually studies English.",
+          "aiHints": {
+            "explanation": "درستش این است: He usually studies English."
+          }
+        },
+        {
+          "id": "a1-u3-frequency.8",
+          "kind": "speed",
+          "prompt": "سریع! «early» یعنی چه؟",
+          "speak": "early",
+          "choices": [
+            "زود",
+            "بیدار شدن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-frequency.9",
+          "kind": "mcq",
+          "prompt": "معنی «once» چیست؟",
+          "choices": [
+            "یک بار",
+            "زود",
+            "دوست داشتن"
+          ],
+          "answer": 0,
+          "speak": "once"
+        },
+        {
+          "id": "a1-u3-frequency.10",
+          "kind": "mcq",
+          "prompt": "معنی «once» چیست؟",
+          "choices": [
+            "خوابیدن",
+            "یک بار",
+            "درس خواندن"
+          ],
+          "answer": 1,
+          "speak": "once"
+        },
+        {
+          "id": "a1-u3-frequency.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او زود بیدار می‌شود.",
+          "sentence": "She gets up ___.",
+          "choices": [
+            "early",
+            "rarely",
+            "twice"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I go to the gym twice a week.",
+          "fa": "من هفته‌ای دو بار به باشگاه می‌روم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "جای قید",
+        "body": "قید تکرار قبل از فعل اصلی می‌آید: I always eat rice."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a1-u3-boss",
+    "titleFa": "نبرد پایانی — روزمره",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a1-u3-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «work»",
+        "speak": "work",
+        "choices": [
+          "بازی کردن",
+          "ساعت دیواری",
+          "کار کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u3-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "study",
+        "choices": [
+          "night",
+          "study",
+          "like"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u3-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🏠",
+        "choices": [
+          "go",
+          "live",
+          "clock"
+        ],
+        "answer": 1,
+        "speak": "live"
+      },
+      {
+        "id": "a1-u3-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «morning»",
+        "speak": "morning",
+        "choices": [
+          "دو بار",
+          "صبح"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u3-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «time»",
+        "speak": "time",
+        "choices": [
+          "زمان",
+          "عصر",
+          "درس خواندن"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u3-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "rarely",
+        "choices": [
+          "rarely",
+          "like",
+          "wake up"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u3-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🐓",
+        "choices": [
+          "rarely",
+          "work",
+          "early"
+        ],
+        "answer": 2,
+        "speak": "early"
+      },
+      {
+        "id": "a1-u3-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «eat»",
+        "speak": "eat",
+        "choices": [
+          "درس خواندن",
+          "خوردن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u3-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «go»",
+        "speak": "go",
+        "choices": [
+          "یک بار",
+          "دوست داشتن",
+          "رفتن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u3-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "play",
+        "choices": [
+          "early",
+          "play",
+          "once"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

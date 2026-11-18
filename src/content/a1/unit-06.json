@@ -1,0 +1,865 @@
+{
+  "id": "a1-u6",
+  "level": "A1",
+  "index": 6,
+  "titleFa": "کار و وقت",
+  "titleEn": "Work and time",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "a1-u6-jobs",
+      "title": "What do you do?",
+      "titleFa": "شغل‌ها",
+      "goal": "شغل خودت و دیگران را بگویی",
+      "buildsOn": [
+        "a1-u1-from-jobs"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u6-jobs.1",
+          "kind": "mcq",
+          "prompt": "معنی «doctor» چیست؟",
+          "promptFa": "پزشک",
+          "choices": [
+            "ماه",
+            "راننده",
+            "پزشک"
+          ],
+          "answer": 2,
+          "speak": "doctor",
+          "aiHints": {
+            "example": "I know the word \"doctor\".",
+            "explanation": "«doctor» یعنی پزشک."
+          }
+        },
+        {
+          "id": "a1-u6-jobs.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚗",
+          "choices": [
+            "doctor",
+            "driver",
+            "cook"
+          ],
+          "answer": 1,
+          "speak": "driver"
+        },
+        {
+          "id": "a1-u6-jobs.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "cook",
+          "choices": [
+            "cook",
+            "Sunday",
+            "tomorrow"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-jobs.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "driver",
+              "fa": "راننده"
+            },
+            {
+              "en": "doctor",
+              "fa": "پزشک"
+            },
+            {
+              "en": "engineer",
+              "fa": "مهندس"
+            },
+            {
+              "en": "cook",
+              "fa": "آشپز"
+            }
+          ]
+        },
+        {
+          "id": "a1-u6-jobs.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او پزشک است.",
+          "sentence": "She is a ___.",
+          "choices": [
+            "doctor",
+            "working",
+            "driver"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-jobs.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "پدرم راننده است.",
+          "tokens": [
+            "driver",
+            "father",
+            "a",
+            "My",
+            "is"
+          ],
+          "answer": "My father is a driver"
+        },
+        {
+          "id": "a1-u6-jobs.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "is",
+            "a",
+            "nurses."
+          ],
+          "answer": 3,
+          "fix": "She is a nurse.",
+          "aiHints": {
+            "explanation": "درستش این است: She is a nurse."
+          }
+        },
+        {
+          "id": "a1-u6-jobs.8",
+          "kind": "speed",
+          "prompt": "سریع! «nurse» یعنی چه؟",
+          "speak": "nurse",
+          "choices": [
+            "پزشک",
+            "پرستار"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u6-jobs.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «country»",
+          "choices": [
+            "کشور",
+            "آشپز",
+            "الان"
+          ],
+          "answer": 0,
+          "speak": "country",
+          "reviewOf": "a1-u1-from-jobs"
+        },
+        {
+          "id": "a1-u6-jobs.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "Iran",
+          "choices": [
+            "working",
+            "doing",
+            "Iran"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u1-from-jobs"
+        },
+        {
+          "id": "a1-u6-jobs.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او به‌عنوان مهندس کار می‌کند.",
+          "sentence": "He works as an ___.",
+          "choices": [
+            "waiting",
+            "now",
+            "engineer"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I am a cook and my sister is a nurse.",
+          "fa": "من آشپزم و خواهرم پرستار است."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "a / an",
+        "body": "قبل از حرف صدادار an و قبل از حرف بی‌صدا a: an engineer, a doctor."
+      }
+    },
+    {
+      "id": "a1-u6-present-continuous",
+      "title": "Right now",
+      "titleFa": "حال استمراری",
+      "goal": "بگویی الان چه کار می‌کنی",
+      "buildsOn": [
+        "a1-u3-present-simple"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u6-present-continuous.1",
+          "kind": "mcq",
+          "prompt": "معنی «now» چیست؟",
+          "promptFa": "الان",
+          "choices": [
+            "دوشنبه",
+            "الان",
+            "در حال رفتن"
+          ],
+          "answer": 1,
+          "speak": "now",
+          "aiHints": {
+            "example": "I know the word \"now\".",
+            "explanation": "«now» یعنی الان."
+          }
+        },
+        {
+          "id": "a1-u6-present-continuous.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💼",
+          "choices": [
+            "doing",
+            "now",
+            "working"
+          ],
+          "answer": 2,
+          "speak": "working"
+        },
+        {
+          "id": "a1-u6-present-continuous.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "going",
+          "choices": [
+            "Sunday",
+            "nurse",
+            "going"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u6-present-continuous.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "working",
+              "fa": "در حال کار"
+            },
+            {
+              "en": "now",
+              "fa": "الان"
+            },
+            {
+              "en": "doing",
+              "fa": "در حال انجام"
+            },
+            {
+              "en": "going",
+              "fa": "در حال رفتن"
+            }
+          ]
+        },
+        {
+          "id": "a1-u6-present-continuous.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من منتظر اتوبوس هستم.",
+          "sentence": "I am ___ for the bus.",
+          "choices": [
+            "waiting",
+            "Monday",
+            "busy"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-present-continuous.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او همین الان مشغول کار است.",
+          "tokens": [
+            "now",
+            "He",
+            "right",
+            "working",
+            "is"
+          ],
+          "answer": "He is working right now"
+        },
+        {
+          "id": "a1-u6-present-continuous.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "are",
+            "working",
+            "now."
+          ],
+          "answer": 1,
+          "fix": "She is working now.",
+          "aiHints": {
+            "explanation": "درستش این است: She is working now."
+          }
+        },
+        {
+          "id": "a1-u6-present-continuous.8",
+          "kind": "speed",
+          "prompt": "سریع! «waiting» یعنی چه؟",
+          "speak": "waiting",
+          "choices": [
+            "پزشک",
+            "در حال انتظار"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u6-present-continuous.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «like»",
+          "choices": [
+            "دوست داشتن",
+            "الان",
+            "ماه"
+          ],
+          "answer": 0,
+          "speak": "like",
+          "reviewOf": "a1-u3-present-simple"
+        },
+        {
+          "id": "a1-u6-present-continuous.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "live",
+          "choices": [
+            "working",
+            "going",
+            "live"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u3-present-simple"
+        },
+        {
+          "id": "a1-u6-present-continuous.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او الان مشغول کار است.",
+          "sentence": "She is ___ now.",
+          "choices": [
+            "working",
+            "doctor",
+            "tonight"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I am going home now.",
+          "fa": "من الان دارم به خانه می‌روم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "am/is/are + ing",
+        "body": "کاری که همین حالا در جریان است: I am working, she is waiting."
+      }
+    },
+    {
+      "id": "a1-u6-days",
+      "title": "Days of the week",
+      "titleFa": "روزهای هفته",
+      "goal": "روزها و برنامهٔ هفته را بگویی",
+      "buildsOn": [
+        "a1-u3-time"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u6-days.1",
+          "kind": "mcq",
+          "prompt": "معنی «Monday» چیست؟",
+          "promptFa": "دوشنبه",
+          "choices": [
+            "پرستار",
+            "در حال کار",
+            "دوشنبه"
+          ],
+          "answer": 2,
+          "speak": "Monday",
+          "aiHints": {
+            "example": "I know the word \"Monday\".",
+            "explanation": "«Monday» یعنی دوشنبه."
+          }
+        },
+        {
+          "id": "a1-u6-days.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌞",
+          "choices": [
+            "month",
+            "Monday",
+            "Sunday"
+          ],
+          "answer": 2,
+          "speak": "Sunday"
+        },
+        {
+          "id": "a1-u6-days.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "week",
+          "choices": [
+            "month",
+            "busy",
+            "week"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u6-days.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "week",
+              "fa": "هفته"
+            },
+            {
+              "en": "Monday",
+              "fa": "دوشنبه"
+            },
+            {
+              "en": "Sunday",
+              "fa": "یکشنبه"
+            },
+            {
+              "en": "month",
+              "fa": "ماه"
+            }
+          ]
+        },
+        {
+          "id": "a1-u6-days.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من از دوشنبه تا جمعه کار می‌کنم.",
+          "sentence": "I work from ___ to Friday.",
+          "choices": [
+            "Monday",
+            "busy",
+            "week"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-days.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من یکشنبه آزاد هستم.",
+          "tokens": [
+            "on",
+            "am",
+            "Sunday",
+            "I",
+            "free"
+          ],
+          "answer": "I am free on Sunday"
+        },
+        {
+          "id": "a1-u6-days.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "a",
+            "meeting",
+            "in",
+            "Monday."
+          ],
+          "answer": 4,
+          "fix": "I have a meeting on Monday.",
+          "aiHints": {
+            "explanation": "درستش این است: I have a meeting on Monday."
+          }
+        },
+        {
+          "id": "a1-u6-days.8",
+          "kind": "speed",
+          "prompt": "سریع! «weekend» یعنی چه؟",
+          "speak": "weekend",
+          "choices": [
+            "آخر هفته",
+            "پزشک"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u6-days.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «evening»",
+          "choices": [
+            "یکشنبه",
+            "عصر",
+            "آزاد"
+          ],
+          "answer": 1,
+          "speak": "evening",
+          "reviewOf": "a1-u3-time"
+        },
+        {
+          "id": "a1-u6-days.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "night",
+          "choices": [
+            "month",
+            "night",
+            "driver"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u3-time"
+        },
+        {
+          "id": "a1-u6-days.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آخر هفته برای خانواده است.",
+          "sentence": "The ___ is for family.",
+          "choices": [
+            "engineer",
+            "tonight",
+            "weekend"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I work on Monday and rest on the weekend.",
+          "fa": "دوشنبه کار می‌کنم و آخر هفته استراحت."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "on + روز",
+        "body": "روزهای هفته با on می‌آیند: on Monday, on Friday."
+      }
+    },
+    {
+      "id": "a1-u6-plans",
+      "title": "Making plans",
+      "titleFa": "قرار گذاشتن",
+      "goal": "قرار بگذاری و بگویی آزادی یا مشغولی",
+      "buildsOn": [
+        "present-continuous"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u6-plans.1",
+          "kind": "mcq",
+          "prompt": "معنی «meeting» چیست؟",
+          "promptFa": "جلسه",
+          "choices": [
+            "جلسه",
+            "مهندس",
+            "در حال انتظار"
+          ],
+          "answer": 0,
+          "speak": "meeting",
+          "aiHints": {
+            "example": "I know the word \"meeting\".",
+            "explanation": "«meeting» یعنی جلسه."
+          }
+        },
+        {
+          "id": "a1-u6-plans.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🕊️",
+          "choices": [
+            "tonight",
+            "free",
+            "busy"
+          ],
+          "answer": 1,
+          "speak": "free"
+        },
+        {
+          "id": "a1-u6-plans.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "busy",
+          "choices": [
+            "busy",
+            "cook",
+            "weekend"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-plans.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "meeting",
+              "fa": "جلسه"
+            },
+            {
+              "en": "busy",
+              "fa": "مشغول"
+            },
+            {
+              "en": "tonight",
+              "fa": "امشب"
+            },
+            {
+              "en": "free",
+              "fa": "آزاد"
+            }
+          ]
+        },
+        {
+          "id": "a1-u6-plans.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "امشب آزادی؟",
+          "sentence": "Are you ___ tonight?",
+          "choices": [
+            "tonight",
+            "free",
+            "tomorrow"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u6-plans.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌توانیم فردا همدیگر را ببینیم؟",
+          "tokens": [
+            "we",
+            "meet",
+            "tomorrow",
+            "Can"
+          ],
+          "answer": "Can we meet tomorrow"
+        },
+        {
+          "id": "a1-u6-plans.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "What",
+            "are",
+            "you",
+            "do",
+            "tonight?"
+          ],
+          "answer": 3,
+          "fix": "What are you doing tonight?",
+          "aiHints": {
+            "explanation": "درستش این است: What are you doing tonight?"
+          }
+        },
+        {
+          "id": "a1-u6-plans.8",
+          "kind": "speed",
+          "prompt": "سریع! «tomorrow» یعنی چه؟",
+          "speak": "tomorrow",
+          "choices": [
+            "فردا",
+            "پزشک"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u6-plans.9",
+          "kind": "mcq",
+          "prompt": "معنی «tonight» چیست؟",
+          "choices": [
+            "الان",
+            "راننده",
+            "امشب"
+          ],
+          "answer": 2,
+          "speak": "tonight"
+        },
+        {
+          "id": "a1-u6-plans.10",
+          "kind": "mcq",
+          "prompt": "معنی «tonight» چیست؟",
+          "choices": [
+            "امشب",
+            "مهندس",
+            "آشپز"
+          ],
+          "answer": 0,
+          "speak": "tonight"
+        },
+        {
+          "id": "a1-u6-plans.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "متأسفم، سرم شلوغ است.",
+          "sentence": "I am sorry, I am ___.",
+          "choices": [
+            "driver",
+            "busy",
+            "now"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I am busy tonight, but I am free tomorrow.",
+          "fa": "امشب سرم شلوغ است، ولی فردا آزادم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "قرار گذاشتن",
+        "body": "برای پیشنهاد قرار: Can we meet…? و برای پرسیدن برنامه: What are you doing…?"
+      }
+    }
+  ],
+  "boss": {
+    "id": "a1-u6-boss",
+    "titleFa": "نبرد پایانی — کار و وقت",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a1-u6-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «driver»",
+        "speak": "driver",
+        "choices": [
+          "آزاد",
+          "راننده",
+          "فردا"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u6-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "nurse",
+        "choices": [
+          "Monday",
+          "nurse",
+          "going"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u6-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚶",
+        "choices": [
+          "busy",
+          "engineer",
+          "going"
+        ],
+        "answer": 2,
+        "speak": "going"
+      },
+      {
+        "id": "a1-u6-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «Monday»",
+        "speak": "Monday",
+        "choices": [
+          "آشپز",
+          "دوشنبه"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u6-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «month»",
+        "speak": "month",
+        "choices": [
+          "در حال انجام",
+          "ماه",
+          "در حال کار"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u6-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "free",
+        "choices": [
+          "Monday",
+          "free",
+          "meeting"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u6-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "➡️",
+        "choices": [
+          "waiting",
+          "tomorrow",
+          "working"
+        ],
+        "answer": 1,
+        "speak": "tomorrow"
+      },
+      {
+        "id": "a1-u6-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «cook»",
+        "speak": "cook",
+        "choices": [
+          "آزاد",
+          "آشپز"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u6-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «now»",
+        "speak": "now",
+        "choices": [
+          "الان",
+          "پزشک",
+          "هفته"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u6-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "doing",
+        "choices": [
+          "doing",
+          "going",
+          "tomorrow"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

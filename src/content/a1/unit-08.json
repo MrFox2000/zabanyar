@@ -1,0 +1,864 @@
+{
+  "id": "a1-u8",
+  "level": "A1",
+  "index": 8,
+  "titleFa": "سفر و گذشته",
+  "titleEn": "Travel and yesterday",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "a1-u8-travel",
+      "title": "At the airport",
+      "titleFa": "سفر",
+      "goal": "واژه‌های سفر را بشناسی",
+      "buildsOn": [
+        "a1-u5-places"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u8-travel.1",
+          "kind": "mcq",
+          "prompt": "معنی «airport» چیست؟",
+          "promptFa": "فرودگاه",
+          "choices": [
+            "پیش",
+            "بود (مفرد)",
+            "فرودگاه"
+          ],
+          "answer": 2,
+          "speak": "airport",
+          "aiHints": {
+            "example": "I know the word \"airport\".",
+            "explanation": "«airport» یعنی فرودگاه."
+          }
+        },
+        {
+          "id": "a1-u8-travel.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏨",
+          "choices": [
+            "airport",
+            "hotel",
+            "ticket"
+          ],
+          "answer": 1,
+          "speak": "hotel"
+        },
+        {
+          "id": "a1-u8-travel.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "ticket",
+          "choices": [
+            "ticket",
+            "were",
+            "breakfast"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u8-travel.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "passport",
+              "fa": "پاسپورت"
+            },
+            {
+              "en": "ticket",
+              "fa": "بلیت"
+            },
+            {
+              "en": "hotel",
+              "fa": "هتل"
+            },
+            {
+              "en": "airport",
+              "fa": "فرودگاه"
+            }
+          ]
+        },
+        {
+          "id": "a1-u8-travel.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من یک بلیت به لندن لازم دارم.",
+          "sentence": "I need a ___ to London.",
+          "choices": [
+            "night",
+            "trip",
+            "ticket"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u8-travel.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فرودگاه کجاست؟",
+          "tokens": [
+            "the",
+            "airport",
+            "is",
+            "Where"
+          ],
+          "answer": "Where is the airport"
+        },
+        {
+          "id": "a1-u8-travel.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "need",
+            "a",
+            "tickets."
+          ],
+          "answer": 3,
+          "fix": "I need a ticket.",
+          "aiHints": {
+            "explanation": "درستش این است: I need a ticket."
+          }
+        },
+        {
+          "id": "a1-u8-travel.8",
+          "kind": "speed",
+          "prompt": "سریع! «trip» یعنی چه؟",
+          "speak": "trip",
+          "choices": [
+            "فرودگاه",
+            "سفر"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u8-travel.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «park»",
+          "choices": [
+            "پارک",
+            "خرید",
+            "آمد"
+          ],
+          "answer": 0,
+          "speak": "park",
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u8-travel.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "shop",
+          "choices": [
+            "went",
+            "shop",
+            "saw"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u8-travel.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ما در یک هتل کوچک ماندیم.",
+          "sentence": "We stayed in a small ___.",
+          "choices": [
+            "went",
+            "hotel",
+            "help"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have my passport and my ticket.",
+          "fa": "من پاسپورت و بلیتم را دارم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "a ticket / tickets",
+        "body": "یک بلیت a ticket و چند بلیت tickets."
+      }
+    },
+    {
+      "id": "a1-u8-was-were",
+      "title": "Yesterday",
+      "titleFa": "بودن در گذشته",
+      "goal": "بگویی دیروز کجا بودی و چه حالی داشتی",
+      "buildsOn": [
+        "travel"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u8-was-were.1",
+          "kind": "mcq",
+          "prompt": "معنی «was» چیست؟",
+          "promptFa": "بود (مفرد)",
+          "choices": [
+            "بود (مفرد)",
+            "بلیت",
+            "خرید"
+          ],
+          "answer": 0,
+          "speak": "was",
+          "aiHints": {
+            "example": "I know the word \"was\".",
+            "explanation": "«was» یعنی بود (مفرد)."
+          }
+        },
+        {
+          "id": "a1-u8-was-were.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👥",
+          "choices": [
+            "ago",
+            "last night",
+            "were"
+          ],
+          "answer": 2,
+          "speak": "were"
+        },
+        {
+          "id": "a1-u8-was-were.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "yesterday",
+          "choices": [
+            "yesterday",
+            "trip",
+            "ate"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u8-was-were.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "yesterday",
+              "fa": "دیروز"
+            },
+            {
+              "en": "was",
+              "fa": "بود (مفرد)"
+            },
+            {
+              "en": "were",
+              "fa": "بودند"
+            },
+            {
+              "en": "ago",
+              "fa": "پیش"
+            }
+          ]
+        },
+        {
+          "id": "a1-u8-was-were.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من دیروز خانه بودم.",
+          "sentence": "I ___ at home yesterday.",
+          "choices": [
+            "was",
+            "airport",
+            "night"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u8-was-were.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من دیشب خسته بودم.",
+          "tokens": [
+            "night",
+            "tired",
+            "I",
+            "last",
+            "was"
+          ],
+          "answer": "I was tired last night"
+        },
+        {
+          "id": "a1-u8-was-were.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "was",
+            "at",
+            "the",
+            "hotel."
+          ],
+          "answer": 1,
+          "fix": "We were at the hotel.",
+          "aiHints": {
+            "explanation": "درستش این است: We were at the hotel."
+          }
+        },
+        {
+          "id": "a1-u8-was-were.8",
+          "kind": "speed",
+          "prompt": "سریع! «last night» یعنی چه؟",
+          "speak": "last night",
+          "choices": [
+            "فرودگاه",
+            "دیشب"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u8-was-were.9",
+          "kind": "mcq",
+          "prompt": "معنی «ago» چیست؟",
+          "choices": [
+            "خرید",
+            "کمک",
+            "پیش"
+          ],
+          "answer": 2,
+          "speak": "ago"
+        },
+        {
+          "id": "a1-u8-was-were.10",
+          "kind": "mcq",
+          "prompt": "معنی «ago» چیست؟",
+          "choices": [
+            "صبحانه",
+            "بلیت",
+            "پیش"
+          ],
+          "answer": 2,
+          "speak": "ago"
+        },
+        {
+          "id": "a1-u8-was-were.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آن‌ها خیلی خوشحال بودند.",
+          "sentence": "They ___ very happy.",
+          "choices": [
+            "ago",
+            "last night",
+            "were"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We were at the hotel two days ago.",
+          "fa": "ما دو روز پیش در هتل بودیم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "was / were",
+        "body": "I/he/she/it با was و you/we/they با were."
+      }
+    },
+    {
+      "id": "a1-u8-past-simple",
+      "title": "Past simple",
+      "titleFa": "گذشتهٔ ساده",
+      "goal": "از کارهای تمام‌شدهٔ دیروز حرف بزنی",
+      "buildsOn": [
+        "was-were"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u8-past-simple.1",
+          "kind": "mcq",
+          "prompt": "معنی «went» چیست؟",
+          "promptFa": "رفت",
+          "choices": [
+            "رفت",
+            "شب",
+            "دیروز"
+          ],
+          "answer": 0,
+          "speak": "went",
+          "aiHints": {
+            "example": "I know the word \"went\".",
+            "explanation": "«went» یعنی رفت."
+          }
+        },
+        {
+          "id": "a1-u8-past-simple.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👀",
+          "choices": [
+            "went",
+            "saw",
+            "came"
+          ],
+          "answer": 1,
+          "speak": "saw"
+        },
+        {
+          "id": "a1-u8-past-simple.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "ate",
+          "choices": [
+            "ticket",
+            "room",
+            "ate"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u8-past-simple.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "bought",
+              "fa": "خرید"
+            },
+            {
+              "en": "went",
+              "fa": "رفت"
+            },
+            {
+              "en": "ate",
+              "fa": "خورد"
+            },
+            {
+              "en": "saw",
+              "fa": "دید"
+            }
+          ]
+        },
+        {
+          "id": "a1-u8-past-simple.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من دیروز به پارک رفتم.",
+          "sentence": "I ___ to the park yesterday.",
+          "choices": [
+            "went",
+            "were",
+            "ate"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u8-past-simple.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ما ظهر ناهار خوردیم.",
+          "tokens": [
+            "ate",
+            "lunch",
+            "at",
+            "We",
+            "noon"
+          ],
+          "answer": "We ate lunch at noon"
+        },
+        {
+          "id": "a1-u8-past-simple.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "go",
+            "to",
+            "the",
+            "beach",
+            "yesterday."
+          ],
+          "answer": 1,
+          "fix": "I went to the beach yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: I went to the beach yesterday."
+          }
+        },
+        {
+          "id": "a1-u8-past-simple.8",
+          "kind": "speed",
+          "prompt": "سریع! «came» یعنی چه؟",
+          "speak": "came",
+          "choices": [
+            "آمد",
+            "فرودگاه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u8-past-simple.9",
+          "kind": "mcq",
+          "prompt": "معنی «bought» چیست؟",
+          "choices": [
+            "هتل",
+            "خرید",
+            "کلید"
+          ],
+          "answer": 1,
+          "speak": "bought"
+        },
+        {
+          "id": "a1-u8-past-simple.10",
+          "kind": "mcq",
+          "prompt": "معنی «bought» چیست؟",
+          "choices": [
+            "رفت",
+            "کلید",
+            "خرید"
+          ],
+          "answer": 2,
+          "speak": "bought"
+        },
+        {
+          "id": "a1-u8-past-simple.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او یک گوشی نو خرید.",
+          "sentence": "She ___ a new phone.",
+          "choices": [
+            "room",
+            "bought",
+            "airport"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I went to the market and bought bread.",
+          "fa": "به بازار رفتم و نان خریدم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "فعل بی‌قاعده",
+        "body": "بعضی فعل‌ها گذشتهٔ بی‌قاعده دارند: go → went, see → saw, eat → ate."
+      }
+    },
+    {
+      "id": "a1-u8-hotel",
+      "title": "Checking in",
+      "titleFa": "در هتل",
+      "goal": "در هتل اتاق بگیری و کمک بخواهی",
+      "buildsOn": [
+        "travel"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u8-hotel.1",
+          "kind": "mcq",
+          "prompt": "معنی «key» چیست؟",
+          "promptFa": "کلید",
+          "choices": [
+            "کلید",
+            "فرودگاه",
+            "هتل"
+          ],
+          "answer": 0,
+          "speak": "key",
+          "aiHints": {
+            "example": "I know the word \"key\".",
+            "explanation": "«key» یعنی کلید."
+          }
+        },
+        {
+          "id": "a1-u8-hotel.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚪",
+          "choices": [
+            "key",
+            "room",
+            "night"
+          ],
+          "answer": 1,
+          "speak": "room"
+        },
+        {
+          "id": "a1-u8-hotel.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "breakfast",
+          "choices": [
+            "breakfast",
+            "ticket",
+            "bought"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u8-hotel.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "breakfast",
+              "fa": "صبحانه"
+            },
+            {
+              "en": "room",
+              "fa": "اتاق"
+            },
+            {
+              "en": "key",
+              "fa": "کلید"
+            },
+            {
+              "en": "help",
+              "fa": "کمک"
+            }
+          ]
+        },
+        {
+          "id": "a1-u8-hotel.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من برای یک شب یک اتاق می‌خواهم.",
+          "sentence": "I would like a ___ for one night.",
+          "choices": [
+            "were",
+            "room",
+            "ate"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u8-hotel.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "لطفاً یک اتاق می‌خواهم.",
+          "tokens": [
+            "would",
+            "I",
+            "a",
+            "room,",
+            "like",
+            "please"
+          ],
+          "answer": "I would like a room, please"
+        },
+        {
+          "id": "a1-u8-hotel.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Can",
+            "I",
+            "have",
+            "my",
+            "keys",
+            "please?"
+          ],
+          "answer": 4,
+          "fix": "Can I have my key, please?",
+          "aiHints": {
+            "explanation": "درستش این است: Can I have my key, please?"
+          }
+        },
+        {
+          "id": "a1-u8-hotel.8",
+          "kind": "speed",
+          "prompt": "سریع! «night» یعنی چه؟",
+          "speak": "night",
+          "choices": [
+            "فرودگاه",
+            "شب"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u8-hotel.9",
+          "kind": "mcq",
+          "prompt": "معنی «help» چیست؟",
+          "choices": [
+            "کمک",
+            "خورد",
+            "بود (مفرد)"
+          ],
+          "answer": 0,
+          "speak": "help"
+        },
+        {
+          "id": "a1-u8-hotel.10",
+          "kind": "mcq",
+          "prompt": "معنی «help» چیست؟",
+          "choices": [
+            "سفر",
+            "شب",
+            "کمک"
+          ],
+          "answer": 2,
+          "speak": "help"
+        },
+        {
+          "id": "a1-u8-hotel.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "لطفاً کمکم کنید.",
+          "sentence": "___ me, please.",
+          "choices": [
+            "Help",
+            "yesterday",
+            "trip"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I would like a room for two nights, please.",
+          "fa": "لطفاً یک اتاق برای دو شب می‌خواهم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "for one night",
+        "body": "مدت اقامت با for می‌آید: for two nights."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a1-u8-boss",
+    "titleFa": "نبرد پایانی — سفر و گذشته",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a1-u8-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «hotel»",
+        "speak": "hotel",
+        "choices": [
+          "هتل",
+          "رفت",
+          "دیروز"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u8-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "trip",
+        "choices": [
+          "last night",
+          "trip",
+          "bought"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u8-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📅",
+        "choices": [
+          "ate",
+          "yesterday",
+          "saw"
+        ],
+        "answer": 1,
+        "speak": "yesterday"
+      },
+      {
+        "id": "a1-u8-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «went»",
+        "speak": "went",
+        "choices": [
+          "دید",
+          "رفت"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u8-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «bought»",
+        "speak": "bought",
+        "choices": [
+          "شب",
+          "دیشب",
+          "خرید"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a1-u8-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "room",
+        "choices": [
+          "saw",
+          "room",
+          "last night"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u8-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🌙",
+        "choices": [
+          "saw",
+          "was",
+          "night"
+        ],
+        "answer": 2,
+        "speak": "night"
+      },
+      {
+        "id": "a1-u8-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «ticket»",
+        "speak": "ticket",
+        "choices": [
+          "بلیت",
+          "سفر"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u8-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «was»",
+        "speak": "was",
+        "choices": [
+          "سفر",
+          "بود (مفرد)",
+          "دیشب"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u8-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "ago",
+        "choices": [
+          "ticket",
+          "ago",
+          "airport"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

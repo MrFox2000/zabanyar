@@ -1,0 +1,861 @@
+{
+  "id": "a1-u2",
+  "level": "A1",
+  "index": 2,
+  "titleFa": "خانواده و آدم‌ها",
+  "titleEn": "Family and people",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "a1-u2-family",
+      "title": "My family",
+      "titleFa": "خانوادهٔ من",
+      "goal": "اعضای خانواده را معرفی کنی",
+      "buildsOn": [
+        "a1-u1-hello-name"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u2-family.1",
+          "kind": "mcq",
+          "prompt": "معنی «mother» چیست؟",
+          "promptFa": "مادر",
+          "choices": [
+            "مادر",
+            "حیوان خانگی",
+            "خانواده"
+          ],
+          "answer": 0,
+          "speak": "mother",
+          "aiHints": {
+            "example": "I know the word \"mother\".",
+            "explanation": "«mother» یعنی مادر."
+          }
+        },
+        {
+          "id": "a1-u2-family.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👨",
+          "choices": [
+            "sister",
+            "father",
+            "brother"
+          ],
+          "answer": 1,
+          "speak": "father"
+        },
+        {
+          "id": "a1-u2-family.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "sister",
+          "choices": [
+            "has",
+            "sister",
+            "happy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u2-family.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "father",
+              "fa": "پدر"
+            },
+            {
+              "en": "mother",
+              "fa": "مادر"
+            },
+            {
+              "en": "brother",
+              "fa": "برادر"
+            },
+            {
+              "en": "sister",
+              "fa": "خواهر"
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-family.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این مادرم است.",
+          "sentence": "This is my ___.",
+          "choices": [
+            "mother",
+            "tall",
+            "have"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u2-family.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من یک خانوادهٔ بزرگ دارم.",
+          "tokens": [
+            "have",
+            "family",
+            "I",
+            "big",
+            "a"
+          ],
+          "answer": "I have a big family"
+        },
+        {
+          "id": "a1-u2-family.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "This",
+            "are",
+            "my",
+            "sister."
+          ],
+          "answer": 1,
+          "fix": "This is my sister.",
+          "aiHints": {
+            "explanation": "درستش این است: This is my sister."
+          }
+        },
+        {
+          "id": "a1-u2-family.8",
+          "kind": "speed",
+          "prompt": "سریع! «family» یعنی چه؟",
+          "speak": "family",
+          "choices": [
+            "مادر",
+            "خانواده"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u2-family.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «name»",
+          "choices": [
+            "گربه",
+            "نام",
+            "دارد"
+          ],
+          "answer": 1,
+          "speak": "name",
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u2-family.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "friend",
+          "choices": [
+            "tall",
+            "sister",
+            "friend"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u2-family.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من یک برادر دارم.",
+          "sentence": "I have one ___.",
+          "choices": [
+            "sister",
+            "dog",
+            "brother"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This is my family.",
+          "fa": "این خانوادهٔ من است."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "This is…",
+        "body": "برای معرفی یک نفر از This is استفاده کن: This is my father."
+      }
+    },
+    {
+      "id": "a1-u2-have-got",
+      "title": "I have a pet",
+      "titleFa": "داشتن",
+      "goal": "بگویی چه چیزی داری",
+      "buildsOn": [
+        "family"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u2-have-got.1",
+          "kind": "mcq",
+          "prompt": "معنی «have» چیست؟",
+          "promptFa": "داشتن",
+          "choices": [
+            "حیوان خانگی",
+            "داشتن",
+            "جوان"
+          ],
+          "answer": 1,
+          "speak": "have",
+          "aiHints": {
+            "example": "I know the word \"have\".",
+            "explanation": "«have» یعنی داشتن."
+          }
+        },
+        {
+          "id": "a1-u2-have-got.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👉",
+          "choices": [
+            "dog",
+            "has",
+            "pet"
+          ],
+          "answer": 1,
+          "speak": "has"
+        },
+        {
+          "id": "a1-u2-have-got.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "pet",
+          "choices": [
+            "mother",
+            "pet",
+            "happy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u2-have-got.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "have",
+              "fa": "داشتن"
+            },
+            {
+              "en": "pet",
+              "fa": "حیوان خانگی"
+            },
+            {
+              "en": "has",
+              "fa": "دارد"
+            },
+            {
+              "en": "cat",
+              "fa": "گربه"
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-have-got.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من دو گربه دارم.",
+          "sentence": "I ___ two cats.",
+          "choices": [
+            "my",
+            "father",
+            "have"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u2-have-got.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "خواهرم یک حیوان خانگی دارد.",
+          "tokens": [
+            "pet",
+            "My",
+            "has",
+            "sister",
+            "a"
+          ],
+          "answer": "My sister has a pet"
+        },
+        {
+          "id": "a1-u2-have-got.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "have",
+            "a",
+            "cat."
+          ],
+          "answer": 1,
+          "fix": "She has a cat.",
+          "aiHints": {
+            "explanation": "درستش این است: She has a cat."
+          }
+        },
+        {
+          "id": "a1-u2-have-got.8",
+          "kind": "speed",
+          "prompt": "سریع! «dog» یعنی چه؟",
+          "speak": "dog",
+          "choices": [
+            "مادر",
+            "سگ"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u2-have-got.9",
+          "kind": "mcq",
+          "prompt": "معنی «cat» چیست؟",
+          "choices": [
+            "بامزه",
+            "داشتن",
+            "گربه"
+          ],
+          "answer": 2,
+          "speak": "cat"
+        },
+        {
+          "id": "a1-u2-have-got.10",
+          "kind": "mcq",
+          "prompt": "معنی «cat» چیست؟",
+          "choices": [
+            "مادر",
+            "حیوان خانگی",
+            "گربه"
+          ],
+          "answer": 2,
+          "speak": "cat"
+        },
+        {
+          "id": "a1-u2-have-got.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او یک سگ دارد.",
+          "sentence": "She ___ a dog.",
+          "choices": [
+            "sister",
+            "cat",
+            "has"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have a cat and a dog.",
+          "fa": "من یک گربه و یک سگ دارم."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "have یا has",
+        "body": "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم."
+      }
+    },
+    {
+      "id": "a1-u2-describe",
+      "title": "Describing people",
+      "titleFa": "توصیف آدم‌ها",
+      "goal": "ظاهر و اخلاق آدم‌ها را توصیف کنی",
+      "buildsOn": [
+        "family"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u2-describe.1",
+          "kind": "mcq",
+          "prompt": "معنی «tall» چیست؟",
+          "promptFa": "قدبلند",
+          "choices": [
+            "بامزه",
+            "شاد",
+            "قدبلند"
+          ],
+          "answer": 2,
+          "speak": "tall",
+          "aiHints": {
+            "example": "I know the word \"tall\".",
+            "explanation": "«tall» یعنی قدبلند."
+          }
+        },
+        {
+          "id": "a1-u2-describe.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💚",
+          "choices": [
+            "kind",
+            "funny",
+            "happy"
+          ],
+          "answer": 0,
+          "speak": "kind"
+        },
+        {
+          "id": "a1-u2-describe.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "funny",
+          "choices": [
+            "father",
+            "funny",
+            "sister"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u2-describe.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "young",
+              "fa": "جوان"
+            },
+            {
+              "en": "funny",
+              "fa": "بامزه"
+            },
+            {
+              "en": "tall",
+              "fa": "قدبلند"
+            },
+            {
+              "en": "kind",
+              "fa": "مهربان"
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-describe.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "پدرم خیلی مهربان است.",
+          "sentence": "My father is very ___.",
+          "choices": [
+            "her",
+            "young",
+            "kind"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u2-describe.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او مهربان و بامزه است.",
+          "tokens": [
+            "funny",
+            "She",
+            "kind",
+            "is",
+            "and"
+          ],
+          "answer": "She is kind and funny"
+        },
+        {
+          "id": "a1-u2-describe.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "My",
+            "mother",
+            "are",
+            "kind."
+          ],
+          "answer": 2,
+          "fix": "My mother is kind.",
+          "aiHints": {
+            "explanation": "درستش این است: My mother is kind."
+          }
+        },
+        {
+          "id": "a1-u2-describe.8",
+          "kind": "speed",
+          "prompt": "سریع! «happy» یعنی چه؟",
+          "speak": "happy",
+          "choices": [
+            "مادر",
+            "شاد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u2-describe.9",
+          "kind": "mcq",
+          "prompt": "معنی «young» چیست؟",
+          "choices": [
+            "دارد",
+            "جوان",
+            "شاد"
+          ],
+          "answer": 1,
+          "speak": "young"
+        },
+        {
+          "id": "a1-u2-describe.10",
+          "kind": "mcq",
+          "prompt": "معنی «young» چیست؟",
+          "choices": [
+            "دارد",
+            "جوان",
+            "بامزه"
+          ],
+          "answer": 1,
+          "speak": "young"
+        },
+        {
+          "id": "a1-u2-describe.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او قدبلند و بامزه است.",
+          "sentence": "She is tall and ___.",
+          "choices": [
+            "tall",
+            "happy",
+            "funny"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "My brother is young and funny.",
+          "fa": "برادرم جوان و بامزه است."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "صفت بعد از is",
+        "body": "صفت همیشه بعد از فعل to be می‌آید: He is tall. She is kind."
+      }
+    },
+    {
+      "id": "a1-u2-possessives",
+      "title": "My, your, his, her",
+      "titleFa": "مالِ کی؟",
+      "goal": "بگویی چیزی مال چه کسی است",
+      "buildsOn": [
+        "family",
+        "a1-u1-hello-name"
+      ],
+      "exercises": [
+        {
+          "id": "a1-u2-possessives.1",
+          "kind": "mcq",
+          "prompt": "معنی «my» چیست؟",
+          "promptFa": "مال من",
+          "choices": [
+            "مال او (زن)",
+            "مال من",
+            "خانواده"
+          ],
+          "answer": 1,
+          "speak": "my",
+          "aiHints": {
+            "example": "I know the word \"my\".",
+            "explanation": "«my» یعنی مال من."
+          }
+        },
+        {
+          "id": "a1-u2-possessives.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🫵",
+          "choices": [
+            "our",
+            "his",
+            "your"
+          ],
+          "answer": 2,
+          "speak": "your"
+        },
+        {
+          "id": "a1-u2-possessives.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "his",
+          "choices": [
+            "his",
+            "funny",
+            "family"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u2-possessives.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "my",
+              "fa": "مال من"
+            },
+            {
+              "en": "his",
+              "fa": "مال او (مرد)"
+            },
+            {
+              "en": "her",
+              "fa": "مال او (زن)"
+            },
+            {
+              "en": "your",
+              "fa": "مال تو"
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-possessives.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این کتاب من است.",
+          "sentence": "This is ___ book.",
+          "choices": [
+            "my",
+            "our",
+            "cat"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u2-possessives.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اسم تو چیست؟",
+          "tokens": [
+            "your",
+            "name",
+            "What",
+            "is"
+          ],
+          "answer": "What is your name"
+        },
+        {
+          "id": "a1-u2-possessives.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "His",
+            "name",
+            "are",
+            "Reza."
+          ],
+          "answer": 2,
+          "fix": "His name is Reza.",
+          "aiHints": {
+            "explanation": "درستش این است: His name is Reza."
+          }
+        },
+        {
+          "id": "a1-u2-possessives.8",
+          "kind": "speed",
+          "prompt": "سریع! «our» یعنی چه؟",
+          "speak": "our",
+          "choices": [
+            "مال ما",
+            "مادر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u2-possessives.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «name»",
+          "choices": [
+            "برادر",
+            "نام",
+            "مال ما"
+          ],
+          "answer": 1,
+          "speak": "name",
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u2-possessives.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "friend",
+          "choices": [
+            "friend",
+            "have",
+            "kind"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u2-possessives.11",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اسم او ساراست.",
+          "sentence": "___ name is Sara.",
+          "choices": [
+            "your",
+            "mother",
+            "Her"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Her brother is my friend.",
+          "fa": "برادر او دوست من است."
+        }
+      ],
+      "xp": 84,
+      "tip": {
+        "title": "his و her",
+        "body": "برای مرد his و برای زن her: his car, her bag."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a1-u2-boss",
+    "titleFa": "نبرد پایانی — خانواده و آدم‌ها",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a1-u2-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «father»",
+        "speak": "father",
+        "choices": [
+          "پدر",
+          "مادر",
+          "خواهر"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u2-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "family",
+        "choices": [
+          "father",
+          "family",
+          "sister"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u2-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🐾",
+        "choices": [
+          "father",
+          "pet",
+          "her"
+        ],
+        "answer": 1,
+        "speak": "pet"
+      },
+      {
+        "id": "a1-u2-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «tall»",
+        "speak": "tall",
+        "choices": [
+          "قدبلند",
+          "خانواده"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u2-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «young»",
+        "speak": "young",
+        "choices": [
+          "بامزه",
+          "جوان",
+          "داشتن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u2-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "your",
+        "choices": [
+          "your",
+          "his",
+          "mother"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a1-u2-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "👨‍👩‍👦",
+        "choices": [
+          "have",
+          "her",
+          "our"
+        ],
+        "answer": 2,
+        "speak": "our"
+      },
+      {
+        "id": "a1-u2-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «sister»",
+        "speak": "sister",
+        "choices": [
+          "قدبلند",
+          "خواهر"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a1-u2-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «have»",
+        "speak": "have",
+        "choices": [
+          "مال من",
+          "داشتن",
+          "قدبلند"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a1-u2-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "cat",
+        "choices": [
+          "your",
+          "cat",
+          "brother"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}
