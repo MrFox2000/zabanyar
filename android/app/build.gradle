@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 // release signing: credentials live in keystore/keystore.properties (git-ignored)
-def keystorePropsFile = rootProject.file("../keystore/keystore.properties")
+def keystorePropsFile = rootProject.file("keystore/keystore.properties")
 def keystoreProps = new Properties()
 if (keystorePropsFile.exists()) {
     keystoreProps.load(new FileInputStream(keystorePropsFile))
@@ -26,7 +26,7 @@ android {
     signingConfigs {
         release {
             if (keystoreProps['storeFile']) {
-                storeFile file("../keystore/" + keystoreProps['storeFile'])
+                storeFile rootProject.file("keystore/" + keystoreProps['storeFile'])
                 storePassword keystoreProps['storePassword']
                 keyAlias keystoreProps['keyAlias']
                 keyPassword keystoreProps['keyPassword']
