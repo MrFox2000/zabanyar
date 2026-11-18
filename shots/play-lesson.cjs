@@ -3,7 +3,11 @@ const fs = require("fs");
 
 const BASE = "http://localhost:3000";
 const OUT = "D:/Projects/zabanyar/shots";
-const lesson = JSON.parse(fs.readFileSync("D:/Projects/zabanyar/src/content/a1/unit-01.json", "utf8")).lessons[0];
+const lessonId = process.argv[2] || "a1-u1-hello-name";
+const unitNo = lessonId.split("-")[1].replace("u", "");
+const lesson = JSON.parse(
+  fs.readFileSync(`D:/Projects/zabanyar/src/content/a1/unit-0${unitNo}.json`, "utf8"),
+).lessons.find((item) => item.id === lessonId);
 
 (async () => {
   const browser = await chromium.launch({ channel: "chrome" });

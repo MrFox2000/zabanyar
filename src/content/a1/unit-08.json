@@ -162,16 +162,43 @@
         },
         {
           "id": "a1-u8-travel.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏥",
+          "choices": [
+            "hospital",
+            "passport",
+            "yesterday"
+          ],
+          "answer": 0,
+          "speak": "hospital",
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u8-travel.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «street»",
+          "speak": "street",
+          "choices": [
+            "خیابان",
+            "فرودگاه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u8-travel.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "ما در یک هتل کوچک ماندیم.",
           "sentence": "We stayed in a small ___.",
           "choices": [
-            "went",
-            "hotel",
-            "help"
+            "were",
+            "help",
+            "hotel"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -180,7 +207,7 @@
           "fa": "من پاسپورت و بلیتم را دارم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "a ticket / tickets",
         "body": "یک بلیت a ticket و چند بلیت tickets."
@@ -192,7 +219,7 @@
       "titleFa": "بودن در گذشته",
       "goal": "بگویی دیروز کجا بودی و چه حالی داشتی",
       "buildsOn": [
-        "travel"
+        "a1-u8-travel"
       ],
       "exercises": [
         {
@@ -319,36 +346,65 @@
         {
           "id": "a1-u8-was-were.9",
           "kind": "mcq",
-          "prompt": "معنی «ago» چیست؟",
+          "prompt": "یادت هست؟ معنی «hotel»",
           "choices": [
             "خرید",
             "کمک",
-            "پیش"
+            "هتل"
           ],
           "answer": 2,
-          "speak": "ago"
+          "speak": "hotel",
+          "reviewOf": "a1-u8-travel"
         },
         {
           "id": "a1-u8-was-were.10",
-          "kind": "mcq",
-          "prompt": "معنی «ago» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "ticket",
           "choices": [
-            "صبحانه",
-            "بلیت",
-            "پیش"
+            "breakfast",
+            "passport",
+            "ticket"
           ],
           "answer": 2,
-          "speak": "ago"
+          "reviewOf": "a1-u8-travel"
         },
         {
           "id": "a1-u8-was-were.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛂",
+          "choices": [
+            "ate",
+            "passport",
+            "hotel"
+          ],
+          "answer": 1,
+          "speak": "passport",
+          "reviewOf": "a1-u8-travel"
+        },
+        {
+          "id": "a1-u8-was-were.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «trip»",
+          "speak": "trip",
+          "choices": [
+            "فرودگاه",
+            "سفر"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u8-travel"
+        },
+        {
+          "id": "a1-u8-was-were.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "آن‌ها خیلی خوشحال بودند.",
           "sentence": "They ___ very happy.",
           "choices": [
-            "ago",
-            "last night",
+            "yesterday",
+            "was",
             "were"
           ],
           "answer": 2
@@ -360,7 +416,7 @@
           "fa": "ما دو روز پیش در هتل بودیم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "was / were",
         "body": "I/he/she/it با was و you/we/they با were."
@@ -372,7 +428,7 @@
       "titleFa": "گذشتهٔ ساده",
       "goal": "از کارهای تمام‌شدهٔ دیروز حرف بزنی",
       "buildsOn": [
-        "was-were"
+        "a1-u8-was-were"
       ],
       "exercises": [
         {
@@ -500,39 +556,68 @@
         {
           "id": "a1-u8-past-simple.9",
           "kind": "mcq",
-          "prompt": "معنی «bought» چیست؟",
+          "prompt": "یادت هست؟ معنی «were»",
           "choices": [
             "هتل",
-            "خرید",
+            "بودند",
             "کلید"
           ],
           "answer": 1,
-          "speak": "bought"
+          "speak": "were",
+          "reviewOf": "a1-u8-was-were"
         },
         {
           "id": "a1-u8-past-simple.10",
-          "kind": "mcq",
-          "prompt": "معنی «bought» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "yesterday",
           "choices": [
-            "رفت",
-            "کلید",
-            "خرید"
+            "went",
+            "key",
+            "yesterday"
           ],
           "answer": 2,
-          "speak": "bought"
+          "reviewOf": "a1-u8-was-were"
         },
         {
           "id": "a1-u8-past-simple.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⏪",
+          "choices": [
+            "ago",
+            "ate",
+            "airport"
+          ],
+          "answer": 0,
+          "speak": "ago",
+          "reviewOf": "a1-u8-was-were"
+        },
+        {
+          "id": "a1-u8-past-simple.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «last night»",
+          "speak": "last night",
+          "choices": [
+            "دیشب",
+            "فرودگاه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u8-was-were"
+        },
+        {
+          "id": "a1-u8-past-simple.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "او یک گوشی نو خرید.",
           "sentence": "She ___ a new phone.",
           "choices": [
-            "room",
-            "bought",
-            "airport"
+            "night",
+            "key",
+            "bought"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -541,7 +626,7 @@
           "fa": "به بازار رفتم و نان خریدم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "فعل بی‌قاعده",
         "body": "بعضی فعل‌ها گذشتهٔ بی‌قاعده دارند: go → went, see → saw, eat → ate."
@@ -553,7 +638,7 @@
       "titleFa": "در هتل",
       "goal": "در هتل اتاق بگیری و کمک بخواهی",
       "buildsOn": [
-        "travel"
+        "a1-u8-travel"
       ],
       "exercises": [
         {
@@ -682,39 +767,68 @@
         {
           "id": "a1-u8-hotel.9",
           "kind": "mcq",
-          "prompt": "معنی «help» چیست؟",
+          "prompt": "یادت هست؟ معنی «hotel»",
           "choices": [
-            "کمک",
+            "هتل",
             "خورد",
             "بود (مفرد)"
           ],
           "answer": 0,
-          "speak": "help"
+          "speak": "hotel",
+          "reviewOf": "a1-u8-travel"
         },
         {
           "id": "a1-u8-hotel.10",
-          "kind": "mcq",
-          "prompt": "معنی «help» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "ticket",
           "choices": [
-            "سفر",
-            "شب",
-            "کمک"
+            "trip",
+            "night",
+            "ticket"
           ],
           "answer": 2,
-          "speak": "help"
+          "reviewOf": "a1-u8-travel"
         },
         {
           "id": "a1-u8-hotel.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛂",
+          "choices": [
+            "room",
+            "bought",
+            "passport"
+          ],
+          "answer": 2,
+          "speak": "passport",
+          "reviewOf": "a1-u8-travel"
+        },
+        {
+          "id": "a1-u8-hotel.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «trip»",
+          "speak": "trip",
+          "choices": [
+            "سفر",
+            "فرودگاه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u8-travel"
+        },
+        {
+          "id": "a1-u8-hotel.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "لطفاً کمکم کنید.",
           "sentence": "___ me, please.",
           "choices": [
+            "night",
             "Help",
-            "yesterday",
-            "trip"
+            "bought"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "youCanSay": [
@@ -723,7 +837,7 @@
           "fa": "لطفاً یک اتاق برای دو شب می‌خواهم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "for one night",
         "body": "مدت اقامت با for می‌آید: for two nights."

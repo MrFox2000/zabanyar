@@ -177,7 +177,7 @@
       "titleFa": "اهل کجایی؟",
       "goal": "بگویی اهل کجایی و شغلت چیست",
       "buildsOn": [
-        "hello-name"
+        "a1-u1-hello-name"
       ],
       "exercises": [
         {
@@ -302,37 +302,66 @@
         {
           "id": "a1-u1-from-jobs.9",
           "kind": "mcq",
-          "prompt": "معنی «job» چیست؟",
+          "prompt": "یادت هست؟ معنی «name»",
           "choices": [
             "سال",
-            "شغل",
+            "نام",
             "از"
           ],
           "answer": 1,
-          "speak": "job"
+          "speak": "name",
+          "reviewOf": "a1-u1-hello-name"
         },
         {
           "id": "a1-u1-from-jobs.10",
-          "kind": "mcq",
-          "prompt": "معنی «job» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "friend",
           "choices": [
-            "یک",
-            "شغل",
-            "خوب"
+            "one",
+            "friend",
+            "good"
           ],
           "answer": 1,
-          "speak": "job"
+          "reviewOf": "a1-u1-hello-name"
         },
         {
           "id": "a1-u1-from-jobs.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👍",
+          "choices": [
+            "good",
+            "one",
+            "student"
+          ],
+          "answer": 0,
+          "speak": "good",
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u1-from-jobs.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «morning»",
+          "speak": "morning",
+          "choices": [
+            "سلام",
+            "صبح"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u1-from-jobs.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "او دانش‌آموز است.",
           "sentence": "She is a ___.",
           "choices": [
-            "name",
+            "hello",
             "student",
-            "Iran"
+            "thanks"
           ],
           "answer": 1
         }
@@ -343,7 +372,7 @@
           "fa": "من اهل ایران هستم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "I am from…",
         "body": "برای گفتن ملیت یا شهر از from استفاده می‌کنیم: I am from Iran."
@@ -355,7 +384,7 @@
       "titleFa": "عددها و سن",
       "goal": "تا ده بشماری و سنت را بگویی",
       "buildsOn": [
-        "hello-name"
+        "a1-u1-hello-name"
       ],
       "exercises": [
         {
@@ -480,39 +509,68 @@
         {
           "id": "a1-u1-numbers-age.9",
           "kind": "mcq",
-          "prompt": "معنی «ten» چیست؟",
+          "prompt": "یادت هست؟ معنی «name»",
           "choices": [
             "سال",
-            "ده",
+            "نام",
             "خوب"
           ],
           "answer": 1,
-          "speak": "ten"
+          "speak": "name",
+          "reviewOf": "a1-u1-hello-name"
         },
         {
           "id": "a1-u1-numbers-age.10",
-          "kind": "mcq",
-          "prompt": "معنی «ten» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "friend",
           "choices": [
-            "شغل",
-            "ده",
-            "پنج"
+            "job",
+            "friend",
+            "five"
           ],
           "answer": 1,
-          "speak": "ten"
+          "reviewOf": "a1-u1-hello-name"
         },
         {
           "id": "a1-u1-numbers-age.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👍",
+          "choices": [
+            "five",
+            "good",
+            "please"
+          ],
+          "answer": 1,
+          "speak": "good",
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u1-numbers-age.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «morning»",
+          "speak": "morning",
+          "choices": [
+            "سلام",
+            "صبح"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u1-numbers-age.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من دو گربه دارم.",
           "sentence": "I have ___ cats.",
           "choices": [
-            "sorry",
-            "two",
-            "Iran"
+            "no",
+            "one",
+            "two"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -521,7 +579,7 @@
           "fa": "من بیست ساله هستم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "جمع بستن",
         "body": "وقتی تعداد بیشتر از یکی است، اسم جمع می‌شود: two cats، five years."
@@ -533,7 +591,7 @@
       "titleFa": "ادب روزمره",
       "goal": "مؤدبانه درخواست کنی و تشکر کنی",
       "buildsOn": [
-        "hello-name"
+        "a1-u1-hello-name"
       ],
       "exercises": [
         {
@@ -658,39 +716,68 @@
         {
           "id": "a1-u1-polite.9",
           "kind": "mcq",
-          "prompt": "معنی «yes» چیست؟",
+          "prompt": "یادت هست؟ معنی «name»",
           "choices": [
-            "ببخشید",
-            "بله",
-            "خوب"
+            "خوب",
+            "نام",
+            "بله"
           ],
           "answer": 1,
-          "speak": "yes"
+          "speak": "name",
+          "reviewOf": "a1-u1-hello-name"
         },
         {
           "id": "a1-u1-polite.10",
-          "kind": "mcq",
-          "prompt": "معنی «yes» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "friend",
           "choices": [
-            "یک",
-            "شغل",
-            "بله"
+            "one",
+            "yes",
+            "friend"
           ],
           "answer": 2,
-          "speak": "yes"
+          "reviewOf": "a1-u1-hello-name"
         },
         {
           "id": "a1-u1-polite.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👍",
+          "choices": [
+            "hello",
+            "friend",
+            "good"
+          ],
+          "answer": 2,
+          "speak": "good",
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u1-polite.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «morning»",
+          "speak": "morning",
+          "choices": [
+            "صبح",
+            "سلام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u1-hello-name"
+        },
+        {
+          "id": "a1-u1-polite.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "بله، ممنون.",
           "sentence": "Yes, ___ you.",
           "choices": [
-            "no",
-            "thank",
-            "country"
+            "two",
+            "thanks",
+            "thank"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -699,7 +786,7 @@
           "fa": "ببخشید، می‌توانید کمکم کنید، لطفاً؟"
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "سه کلمهٔ جادویی",
         "body": "Please برای درخواست، Thank you برای تشکر و Sorry برای عذرخواهی."

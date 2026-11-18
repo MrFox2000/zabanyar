@@ -164,16 +164,43 @@
         },
         {
           "id": "a1-u4-food.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "😴",
+          "choices": [
+            "bread",
+            "milk",
+            "sleep"
+          ],
+          "answer": 2,
+          "speak": "sleep",
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u4-food.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «study»",
+          "speak": "study",
+          "choices": [
+            "نان",
+            "درس خواندن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u4-food.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "ما ناهار برنج می‌خوریم.",
           "sentence": "We eat ___ with lunch.",
           "choices": [
+            "bottle",
             "rice",
-            "money",
-            "apple"
+            "tea"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "youCanSay": [
@@ -182,7 +209,7 @@
           "fa": "صبحانه نان می‌خورم و شیر می‌نوشم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "eat یا drink",
         "body": "خوراکی را eat و نوشیدنی را drink: eat bread, drink milk."
@@ -194,7 +221,7 @@
       "titleFa": "some و any",
       "goal": "دربارهٔ مقدار حرف بزنی",
       "buildsOn": [
-        "food"
+        "a1-u4-food"
       ],
       "exercises": [
         {
@@ -322,39 +349,68 @@
         {
           "id": "a1-u4-some-any.9",
           "kind": "mcq",
-          "prompt": "معنی «many» چیست؟",
+          "prompt": "یادت هست؟ معنی «milk»",
           "choices": [
             "هیچ / مقداری (سؤالی)",
-            "زیاد (شمارش‌شدنی)",
+            "شیر",
             "دلار"
           ],
           "answer": 1,
-          "speak": "many"
+          "speak": "milk",
+          "reviewOf": "a1-u4-food"
         },
         {
           "id": "a1-u4-some-any.10",
-          "kind": "mcq",
-          "prompt": "معنی «many» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "apple",
           "choices": [
-            "چای",
-            "زیاد (شمارش‌شدنی)",
-            "صورت‌حساب"
+            "bill",
+            "apple",
+            "many"
           ],
           "answer": 1,
-          "speak": "many"
+          "reviewOf": "a1-u4-food"
         },
         {
           "id": "a1-u4-some-any.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🍚",
+          "choices": [
+            "rice",
+            "dollar",
+            "some"
+          ],
+          "answer": 0,
+          "speak": "rice",
+          "reviewOf": "a1-u4-food"
+        },
+        {
+          "id": "a1-u4-some-any.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «water»",
+          "speak": "water",
+          "choices": [
+            "نان",
+            "آب"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u4-food"
+        },
+        {
+          "id": "a1-u4-some-any.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من کمی نان دارم.",
           "sentence": "I have ___ bread.",
           "choices": [
-            "menu",
-            "many",
-            "some"
+            "tea",
+            "some",
+            "water"
           ],
-          "answer": 2
+          "answer": 1
         }
       ],
       "youCanSay": [
@@ -363,7 +419,7 @@
           "fa": "کمی شیر دارم ولی آب ندارم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "some یا any",
         "body": "در جملهٔ مثبت some و در منفی و سؤالی any: I have some rice / I don't have any rice."
@@ -375,7 +431,7 @@
       "titleFa": "در کافه",
       "goal": "سفارش بدهی و صورت‌حساب بخواهی",
       "buildsOn": [
-        "food",
+        "a1-u4-food",
         "a1-u1-polite"
       ],
       "exercises": [
@@ -504,15 +560,15 @@
         {
           "id": "a1-u4-cafe.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «thanks»",
+          "prompt": "یادت هست؟ معنی «milk»",
           "choices": [
-            "ممنون",
+            "شیر",
             "گران",
             "سیب"
           ],
           "answer": 0,
-          "speak": "thanks",
-          "reviewOf": "a1-u1-polite"
+          "speak": "milk",
+          "reviewOf": "a1-u4-food"
         },
         {
           "id": "a1-u4-cafe.10",
@@ -529,16 +585,43 @@
         },
         {
           "id": "a1-u4-cafe.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🍚",
+          "choices": [
+            "menu",
+            "rice",
+            "money"
+          ],
+          "answer": 1,
+          "speak": "rice",
+          "reviewOf": "a1-u4-food"
+        },
+        {
+          "id": "a1-u4-cafe.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «no»",
+          "speak": "no",
+          "choices": [
+            "نه",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u1-polite"
+        },
+        {
+          "id": "a1-u4-cafe.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من یک قهوه می‌خواهم.",
           "sentence": "I would like a ___.",
           "choices": [
-            "money",
             "coffee",
+            "apple",
             "tea"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "youCanSay": [
@@ -547,7 +630,7 @@
           "fa": "لطفاً یک چای و صورت‌حساب می‌خواهم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "مؤدبانه سفارش دادن",
         "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea."
@@ -711,13 +794,40 @@
         },
         {
           "id": "a1-u4-prices.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔟",
+          "choices": [
+            "some",
+            "bill",
+            "ten"
+          ],
+          "answer": 2,
+          "speak": "ten",
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u4-prices.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «year»",
+          "speak": "year",
+          "choices": [
+            "سال",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u4-prices.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "خیلی گران است.",
           "sentence": "It is too ___.",
           "choices": [
-            "bread",
-            "apple",
+            "much",
+            "coffee",
             "expensive"
           ],
           "answer": 2
@@ -729,7 +839,7 @@
           "fa": "این کیف چند است؟ خیلی گران است."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "How much",
         "body": "برای قیمت How much is it? و برای تعداد How many?"

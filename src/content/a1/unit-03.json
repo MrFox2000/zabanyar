@@ -164,16 +164,43 @@
         },
         {
           "id": "a1-u3-routine.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🐱",
+          "choices": [
+            "once",
+            "cat",
+            "play"
+          ],
+          "answer": 1,
+          "speak": "cat",
+          "reviewOf": "a1-u2-have-got"
+        },
+        {
+          "id": "a1-u3-routine.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «dog»",
+          "speak": "dog",
+          "choices": [
+            "بیدار شدن",
+            "سگ"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u2-have-got"
+        },
+        {
+          "id": "a1-u3-routine.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من هر روز انگلیسی می‌خوانم.",
           "sentence": "I ___ English every day.",
           "choices": [
-            "study",
-            "wake up",
-            "once"
+            "live",
+            "twice",
+            "study"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -182,7 +209,7 @@
           "fa": "بیدار می‌شوم، صبحانه می‌خورم و سر کار می‌روم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "ترتیب روز",
         "body": "wake up → eat → work → study → sleep. همین ترتیب را حفظ کن."
@@ -194,7 +221,7 @@
       "titleFa": "حال ساده",
       "goal": "از کارهای همیشگی حرف بزنی",
       "buildsOn": [
-        "routine"
+        "a1-u3-routine"
       ],
       "exercises": [
         {
@@ -321,39 +348,68 @@
         {
           "id": "a1-u3-present-simple.9",
           "kind": "mcq",
-          "prompt": "معنی «play» چیست؟",
+          "prompt": "یادت هست؟ معنی «work»",
           "choices": [
+            "کار کردن",
             "بازی کردن",
-            "ساعت دیواری",
-            "یک بار"
+            "ساعت دیواری"
           ],
           "answer": 0,
-          "speak": "play"
+          "speak": "work",
+          "reviewOf": "a1-u3-routine"
         },
         {
           "id": "a1-u3-present-simple.10",
-          "kind": "mcq",
-          "prompt": "معنی «play» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "eat",
           "choices": [
-            "بازی کردن",
-            "کار کردن",
-            "زندگی کردن"
+            "eat",
+            "work",
+            "live"
           ],
           "answer": 0,
-          "speak": "play"
+          "reviewOf": "a1-u3-routine"
         },
         {
           "id": "a1-u3-present-simple.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "😴",
+          "choices": [
+            "sleep",
+            "study",
+            "twice"
+          ],
+          "answer": 0,
+          "speak": "sleep",
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u3-present-simple.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «study»",
+          "speak": "study",
+          "choices": [
+            "بیدار شدن",
+            "درس خواندن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u3-present-simple.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "آن‌ها فوتبال بازی می‌کنند.",
           "sentence": "They ___ football.",
           "choices": [
-            "study",
-            "like",
-            "play"
+            "play",
+            "evening",
+            "rarely"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "youCanSay": [
@@ -362,7 +418,7 @@
           "fa": "او در تهران زندگی می‌کند و هر روز کار می‌کند."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "s سوم‌شخص",
         "body": "با he/she/it به فعل s اضافه می‌شود: he goes, she likes."
@@ -525,16 +581,43 @@
         },
         {
           "id": "a1-u3-time.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔟",
+          "choices": [
+            "sleep",
+            "work",
+            "ten"
+          ],
+          "answer": 2,
+          "speak": "ten",
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u3-time.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «year»",
+          "speak": "year",
+          "choices": [
+            "بیدار شدن",
+            "سال"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u1-numbers-age"
+        },
+        {
+          "id": "a1-u3-time.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من هر شب درس می‌خوانم.",
           "sentence": "I study at ___ every day.",
           "choices": [
+            "play",
             "night",
-            "early",
-            "eat"
+            "morning"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "youCanSay": [
@@ -543,7 +626,7 @@
           "fa": "من از صبح تا عصر کار می‌کنم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "سه بخش روز",
         "body": "morning تا ظهر، afternoon بعد از ظهر، evening و night بعد از غروب."
@@ -555,7 +638,7 @@
       "titleFa": "قیدهای تکرار",
       "goal": "بگویی هر چند وقت یک بار کاری می‌کنی",
       "buildsOn": [
-        "present-simple"
+        "a1-u3-present-simple"
       ],
       "exercises": [
         {
@@ -681,39 +764,68 @@
         {
           "id": "a1-u3-frequency.9",
           "kind": "mcq",
-          "prompt": "معنی «once» چیست؟",
+          "prompt": "یادت هست؟ معنی «like»",
           "choices": [
-            "یک بار",
+            "دوست داشتن",
             "زود",
-            "دوست داشتن"
+            "عصر"
           ],
           "answer": 0,
-          "speak": "once"
+          "speak": "like",
+          "reviewOf": "a1-u3-present-simple"
         },
         {
           "id": "a1-u3-frequency.10",
-          "kind": "mcq",
-          "prompt": "معنی «once» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "live",
           "choices": [
-            "خوابیدن",
-            "یک بار",
-            "درس خواندن"
+            "sleep",
+            "live",
+            "study"
           ],
           "answer": 1,
-          "speak": "once"
+          "reviewOf": "a1-u3-present-simple"
         },
         {
           "id": "a1-u3-frequency.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⚽",
+          "choices": [
+            "twice",
+            "play",
+            "often"
+          ],
+          "answer": 1,
+          "speak": "play",
+          "reviewOf": "a1-u3-present-simple"
+        },
+        {
+          "id": "a1-u3-frequency.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «do»",
+          "speak": "do",
+          "choices": [
+            "انجام دادن",
+            "بیدار شدن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u3-present-simple"
+        },
+        {
+          "id": "a1-u3-frequency.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "او زود بیدار می‌شود.",
           "sentence": "She gets up ___.",
           "choices": [
-            "early",
-            "rarely",
-            "twice"
+            "like",
+            "study",
+            "early"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -722,7 +834,7 @@
           "fa": "من هفته‌ای دو بار به باشگاه می‌روم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "جای قید",
         "body": "قید تکرار قبل از فعل اصلی می‌آید: I always eat rice."

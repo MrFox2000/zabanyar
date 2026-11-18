@@ -163,13 +163,40 @@
         },
         {
           "id": "a1-u6-jobs.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💼",
+          "choices": [
+            "tomorrow",
+            "job",
+            "Monday"
+          ],
+          "answer": 1,
+          "speak": "job",
+          "reviewOf": "a1-u1-from-jobs"
+        },
+        {
+          "id": "a1-u6-jobs.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «student»",
+          "speak": "student",
+          "choices": [
+            "پزشک",
+            "دانش‌آموز"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u1-from-jobs"
+        },
+        {
+          "id": "a1-u6-jobs.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "او به‌عنوان مهندس کار می‌کند.",
           "sentence": "He works as an ___.",
           "choices": [
-            "waiting",
-            "now",
+            "month",
+            "weekend",
             "engineer"
           ],
           "answer": 2
@@ -181,7 +208,7 @@
           "fa": "من آشپزم و خواهرم پرستار است."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "a / an",
         "body": "قبل از حرف صدادار an و قبل از حرف بی‌صدا a: an engineer, a doctor."
@@ -344,16 +371,43 @@
         },
         {
           "id": "a1-u6-present-continuous.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⚽",
+          "choices": [
+            "play",
+            "Sunday",
+            "doctor"
+          ],
+          "answer": 0,
+          "speak": "play",
+          "reviewOf": "a1-u3-present-simple"
+        },
+        {
+          "id": "a1-u6-present-continuous.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «do»",
+          "speak": "do",
+          "choices": [
+            "پزشک",
+            "انجام دادن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u3-present-simple"
+        },
+        {
+          "id": "a1-u6-present-continuous.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "او الان مشغول کار است.",
           "sentence": "She is ___ now.",
           "choices": [
-            "working",
-            "doctor",
-            "tonight"
+            "now",
+            "Monday",
+            "working"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -362,7 +416,7 @@
           "fa": "من الان دارم به خانه می‌روم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "am/is/are + ing",
         "body": "کاری که همین حالا در جریان است: I am working, she is waiting."
@@ -527,16 +581,43 @@
         },
         {
           "id": "a1-u6-days.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⏱️",
+          "choices": [
+            "tonight",
+            "driver",
+            "time"
+          ],
+          "answer": 2,
+          "speak": "time",
+          "reviewOf": "a1-u3-time"
+        },
+        {
+          "id": "a1-u6-days.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «clock»",
+          "speak": "clock",
+          "choices": [
+            "پزشک",
+            "ساعت دیواری"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u3-time"
+        },
+        {
+          "id": "a1-u6-days.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "آخر هفته برای خانواده است.",
           "sentence": "The ___ is for family.",
           "choices": [
-            "engineer",
-            "tonight",
-            "weekend"
+            "weekend",
+            "working",
+            "tonight"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "youCanSay": [
@@ -545,7 +626,7 @@
           "fa": "دوشنبه کار می‌کنم و آخر هفته استراحت."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "on + روز",
         "body": "روزهای هفته با on می‌آیند: on Monday, on Friday."
@@ -557,7 +638,7 @@
       "titleFa": "قرار گذاشتن",
       "goal": "قرار بگذاری و بگویی آزادی یا مشغولی",
       "buildsOn": [
-        "present-continuous"
+        "a1-u6-present-continuous"
       ],
       "exercises": [
         {
@@ -683,39 +764,68 @@
         {
           "id": "a1-u6-plans.9",
           "kind": "mcq",
-          "prompt": "معنی «tonight» چیست؟",
+          "prompt": "یادت هست؟ معنی «working»",
           "choices": [
             "الان",
             "راننده",
-            "امشب"
+            "در حال کار"
           ],
           "answer": 2,
-          "speak": "tonight"
+          "speak": "working",
+          "reviewOf": "a1-u6-present-continuous"
         },
         {
           "id": "a1-u6-plans.10",
-          "kind": "mcq",
-          "prompt": "معنی «tonight» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "going",
           "choices": [
-            "امشب",
-            "مهندس",
-            "آشپز"
+            "going",
+            "engineer",
+            "cook"
           ],
           "answer": 0,
-          "speak": "tonight"
+          "reviewOf": "a1-u6-present-continuous"
         },
         {
           "id": "a1-u6-plans.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛠️",
+          "choices": [
+            "driver",
+            "doing",
+            "cook"
+          ],
+          "answer": 1,
+          "speak": "doing",
+          "reviewOf": "a1-u6-present-continuous"
+        },
+        {
+          "id": "a1-u6-plans.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «waiting»",
+          "speak": "waiting",
+          "choices": [
+            "در حال انتظار",
+            "پزشک"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u6-present-continuous"
+        },
+        {
+          "id": "a1-u6-plans.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "متأسفم، سرم شلوغ است.",
           "sentence": "I am sorry, I am ___.",
           "choices": [
-            "driver",
             "busy",
-            "now"
+            "tomorrow",
+            "engineer"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "youCanSay": [
@@ -724,7 +834,7 @@
           "fa": "امشب سرم شلوغ است، ولی فردا آزادم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "قرار گذاشتن",
         "body": "برای پیشنهاد قرار: Can we meet…? و برای پرسیدن برنامه: What are you doing…?"

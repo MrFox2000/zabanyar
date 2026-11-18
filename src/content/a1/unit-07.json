@@ -162,13 +162,40 @@
         },
         {
           "id": "a1-u7-hobbies.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "↕️",
+          "choices": [
+            "between",
+            "lose",
+            "invite"
+          ],
+          "answer": 0,
+          "speak": "between",
+          "reviewOf": "a1-u5-there-is"
+        },
+        {
+          "id": "a1-u7-hobbies.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «here»",
+          "speak": "here",
+          "choices": [
+            "اینجا",
+            "کتاب خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u5-there-is"
+        },
+        {
+          "id": "a1-u7-hobbies.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من عاشق موسیقی هستم.",
           "sentence": "I love ___.",
           "choices": [
-            "cooking",
             "sure",
+            "join",
             "music"
           ],
           "answer": 2
@@ -180,7 +207,7 @@
           "fa": "در وقت آزادم آشپزی و موسیقی دوست دارم."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "like + ing",
         "body": "بعد از like فعل با ing می‌آید: I like reading."
@@ -192,7 +219,7 @@
       "titleFa": "دوست داشتن و دوست نداشتن",
       "goal": "علاقه‌ات را با فعل ing بگویی",
       "buildsOn": [
-        "hobbies"
+        "a1-u7-hobbies"
       ],
       "exercises": [
         {
@@ -317,37 +344,66 @@
         {
           "id": "a1-u7-like-ing.9",
           "kind": "mcq",
-          "prompt": "معنی «running» چیست؟",
+          "prompt": "یادت هست؟ معنی «cooking»",
           "choices": [
             "شاید",
-            "دویدن",
+            "آشپزی",
             "آشپزی کردن"
           ],
           "answer": 1,
-          "speak": "running"
+          "speak": "cooking",
+          "reviewOf": "a1-u7-hobbies"
         },
         {
           "id": "a1-u7-like-ing.10",
-          "kind": "mcq",
-          "prompt": "معنی «running» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "painting",
           "choices": [
-            "کوهنوردی",
-            "تماشا کردن",
-            "دویدن"
+            "playing",
+            "hiking",
+            "painting"
           ],
           "answer": 2,
-          "speak": "running"
+          "reviewOf": "a1-u7-hobbies"
         },
         {
           "id": "a1-u7-like-ing.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🥾",
+          "choices": [
+            "maybe",
+            "team",
+            "hiking"
+          ],
+          "answer": 2,
+          "speak": "hiking",
+          "reviewOf": "a1-u7-hobbies"
+        },
+        {
+          "id": "a1-u7-like-ing.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «music»",
+          "speak": "music",
+          "choices": [
+            "موسیقی",
+            "کتاب خواندن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u7-hobbies"
+        },
+        {
+          "id": "a1-u7-like-ing.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "او عاشق کتاب خواندن است.",
           "sentence": "She loves ___ books.",
           "choices": [
-            "watching",
+            "playing",
             "reading",
-            "lose"
+            "cooking"
           ],
           "answer": 1
         }
@@ -358,7 +414,7 @@
           "fa": "از تماشای فیلم لذت می‌برم ولی از دویدن بدم می‌آید."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "enjoy / love / prefer",
         "body": "این فعل‌ها با ing می‌آیند، نه با to: I enjoy swimming."
@@ -370,7 +426,7 @@
       "titleFa": "ورزش",
       "goal": "دربارهٔ مسابقه و تیم حرف بزنی",
       "buildsOn": [
-        "hobbies"
+        "a1-u7-hobbies"
       ],
       "exercises": [
         {
@@ -497,39 +553,68 @@
         {
           "id": "a1-u7-sports.9",
           "kind": "mcq",
-          "prompt": "معنی «lose» چیست؟",
+          "prompt": "یادت هست؟ معنی «cooking»",
           "choices": [
-            "شنا کردن",
             "کتاب خواندن",
-            "باختن"
+            "باختن",
+            "آشپزی"
           ],
           "answer": 2,
-          "speak": "lose"
+          "speak": "cooking",
+          "reviewOf": "a1-u7-hobbies"
         },
         {
           "id": "a1-u7-sports.10",
-          "kind": "mcq",
-          "prompt": "معنی «lose» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "painting",
           "choices": [
-            "مسابقه",
-            "شاید",
-            "باختن"
+            "maybe",
+            "match",
+            "painting"
           ],
           "answer": 2,
-          "speak": "lose"
+          "reviewOf": "a1-u7-hobbies"
         },
         {
           "id": "a1-u7-sports.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🥾",
+          "choices": [
+            "hiking",
+            "reading",
+            "playing"
+          ],
+          "answer": 0,
+          "speak": "hiking",
+          "reviewOf": "a1-u7-hobbies"
+        },
+        {
+          "id": "a1-u7-sports.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «music»",
+          "speak": "music",
+          "choices": [
+            "کتاب خواندن",
+            "موسیقی"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u7-hobbies"
+        },
+        {
+          "id": "a1-u7-sports.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من می‌خواهم مسابقه را ببرم.",
           "sentence": "I want to ___ the match.",
           "choices": [
-            "reading",
-            "team",
-            "win"
+            "win",
+            "join",
+            "playing"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "youCanSay": [
@@ -538,7 +623,7 @@
           "fa": "تیم ما جمعه بازی می‌کند و مربی‌مان خوشحال است."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "play + ورزش",
         "body": "با ورزش از play استفاده کن: play football, play tennis."
@@ -703,16 +788,43 @@
         },
         {
           "id": "a1-u7-invitations.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌃",
+          "choices": [
+            "tonight",
+            "watching",
+            "maybe"
+          ],
+          "answer": 0,
+          "speak": "tonight",
+          "reviewOf": "a1-u6-plans"
+        },
+        {
+          "id": "a1-u7-invitations.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «tomorrow»",
+          "speak": "tomorrow",
+          "choices": [
+            "کتاب خواندن",
+            "فردا"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u6-plans"
+        },
+        {
+          "id": "a1-u7-invitations.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "متأسفم، نمی‌توانم بیایم.",
           "sentence": "___, I can't come.",
           "choices": [
-            "cooking",
-            "swimming",
-            "Sorry"
+            "Sorry",
+            "team",
+            "maybe"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "youCanSay": [
@@ -721,7 +833,7 @@
           "fa": "دوست داری امشب به ما ملحق شوی؟"
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "دعوت مؤدبانه",
         "body": "Would you like to…? مؤدبانه‌ترین راه دعوت است."

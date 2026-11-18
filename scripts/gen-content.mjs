@@ -841,6 +841,18 @@ function allWords(unit) {
   return unit.lessons.flatMap((l) => l.w);
 }
 
+/**
+ * Curated data may refer to a prerequisite by bare slug ("family") or by full id
+ * ("a1-u1-hello-name"). Everything ships with full ids, so resolve here — a
+ * dangling buildsOn would silently lock a lesson forever.
+ */
+function resolveId(unitId, reference) {
+  if (lessonIndex.has(reference)) return reference;
+  const sameUnit = `${unitId}-${reference}`;
+  if (lessonIndex.has(sameUnit)) return sameUnit;
+  return reference;
+}
+
 function buildExercises(unit, lesson) {
   const id = `${unit.id}-${lesson.slug}`;
   const rng = makeRng(hash(lesson.slug + unit.id));
@@ -849,7 +861,8 @@ function buildExercises(unit, lesson) {
   const unitEn = [...new Set(allWords(unit).map((w) => w[0]))];
   const exercises = [];
   const reviewSource = [];
-  for (const prereq of lesson.buildsOn) {
+  for (const prerequisite of lesson.buildsOn) {
+    const prereq = resolveId(unit.id, prerequisite);
     const found = lessonIndex.get(prereq);
     if (found) reviewSource.push({ id: prereq, words: found.lesson.w });
   }
@@ -962,13 +975,14 @@ function buildExercises(unit, lesson) {
     });
   }
 
-  // 9–10. interleaved review: 30% of the lesson comes from prerequisites
-  const reviewCount = lesson.buildsOn.length === 0 ? 1 : 2;
+  // 9–12. interleaved review: 30–40% of the lesson re-uses the prerequisites
+  const reviewCount = lesson.buildsOn.length > 0 ? 4 : 1;
   for (let i = 0; i < reviewCount; i += 1) {
     if (reviewSource.length > 0) {
       const source = reviewSource[i % reviewSource.length];
       const word = source.words[(i + 1) % source.words.length];
-      if (i % 2 === 0) {
+      const kind = ["mcq", "listen", "imageWord", "speed"][i % 4];
+      if (kind === "mcq") {
         const { choices, answer } = pickChoices(rng, word[1], unitFa, 3);
         push({
           kind: "mcq",
@@ -978,9 +992,32 @@ function buildExercises(unit, lesson) {
           speak: word[0],
           reviewOf: source.id,
         });
-      } else {
+      } else if (kind === "listen") {
         const { choices, answer } = pickChoices(rng, word[0], unitEn, 3);
         push({ kind: "listen", prompt: "مرور — چه شنیدی؟", speak: word[0], choices, answer, reviewOf: source.id });
+      } else if (kind === "imageWord") {
+        const { choices, answer } = pickChoices(rng, word[0], unitEn, 3);
+        push({
+          kind: "imageWord",
+          prompt: "مرور — این تصویر کدام کلمه است؟",
+          emoji: word[2],
+          choices,
+          answer,
+          speak: word[0],
+          reviewOf: source.id,
+        });
+      } else {
+        const other = unitFa.find((fa) => fa !== word[1]) ?? "—";
+        const ordered = shuffle(rng, [word[1], other]);
+        push({
+          kind: "speed",
+          prompt: `مرور سریع! «${word[0]}»`,
+          speak: word[0],
+          choices: ordered,
+          answer: ordered.indexOf(word[1]),
+          ms: 6000,
+          reviewOf: source.id,
+        });
       }
     } else {
       const word = lesson.w[3];
@@ -1055,7 +1092,7 @@ UNITS.forEach((unit, position) => {
       title: lesson.title,
       titleFa: lesson.titleFa,
       goal: lesson.goal,
-      buildsOn: lesson.buildsOn,
+      buildsOn: lesson.buildsOn.map((reference) => resolveId(unit.id, reference)),
       exercises,
       youCanSay: lesson.say.map(([en, fa]) => ({ en, fa })),
       xp: 40 + exercises.length * 4,

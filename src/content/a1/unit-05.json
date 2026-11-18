@@ -164,13 +164,40 @@
         },
         {
           "id": "a1-u5-places.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "😴",
+          "choices": [
+            "near",
+            "hospital",
+            "sleep"
+          ],
+          "answer": 2,
+          "speak": "sleep",
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u5-places.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «study»",
+          "speak": "study",
+          "choices": [
+            "درس خواندن",
+            "بانک"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u3-routine"
+        },
+        {
+          "id": "a1-u5-places.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "من هر روز به مغازه می‌روم.",
           "sentence": "I go to the ___ every day.",
           "choices": [
             "behind",
-            "in",
+            "park",
             "shop"
           ],
           "answer": 2
@@ -182,7 +209,7 @@
           "fa": "در خیابان من یک مغازه هست."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "the",
         "body": "وقتی از یک جای مشخص حرف می‌زنی از the استفاده کن: the bank, the park."
@@ -194,7 +221,7 @@
       "titleFa": "هست / هستند",
       "goal": "بگویی چیزی جایی هست",
       "buildsOn": [
-        "places"
+        "a1-u5-places"
       ],
       "exercises": [
         {
@@ -321,39 +348,68 @@
         {
           "id": "a1-u5-there-is.9",
           "kind": "mcq",
-          "prompt": "معنی «between» چیست؟",
+          "prompt": "یادت هست؟ معنی «park»",
           "choices": [
-            "بینِ",
+            "پارک",
             "راست",
             "جلوی"
           ],
           "answer": 0,
-          "speak": "between"
+          "speak": "park",
+          "reviewOf": "a1-u5-places"
         },
         {
           "id": "a1-u5-there-is.10",
-          "kind": "mcq",
-          "prompt": "معنی «between» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "shop",
           "choices": [
-            "پیچیدن",
-            "جلوی",
-            "بینِ"
+            "turn",
+            "in front of",
+            "shop"
           ],
           "answer": 2,
-          "speak": "between"
+          "reviewOf": "a1-u5-places"
         },
         {
           "id": "a1-u5-there-is.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏥",
+          "choices": [
+            "turn",
+            "on",
+            "hospital"
+          ],
+          "answer": 2,
+          "speak": "hospital",
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u5-there-is.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «street»",
+          "speak": "street",
+          "choices": [
+            "بانک",
+            "خیابان"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u5-there-is.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "مغازه کنار بانک است.",
           "sentence": "The shop is ___ the bank.",
           "choices": [
             "straight",
-            "next to",
-            "there"
+            "there",
+            "next to"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -362,7 +418,7 @@
           "fa": "کنار بانک یک کافه هست."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "is یا are",
         "body": "برای یک چیز There is و برای چند چیز There are: There is a park / There are two parks."
@@ -374,7 +430,7 @@
       "titleFa": "مسیر پرسیدن",
       "goal": "راه را بپرسی و مسیر بدهی",
       "buildsOn": [
-        "places"
+        "a1-u5-places"
       ],
       "exercises": [
         {
@@ -504,39 +560,68 @@
         {
           "id": "a1-u5-directions.9",
           "kind": "mcq",
-          "prompt": "معنی «turn» چیست؟",
+          "prompt": "یادت هست؟ معنی «park»",
           "choices": [
             "مغازه",
-            "پیچیدن",
+            "پارک",
             "چپ"
           ],
           "answer": 1,
-          "speak": "turn"
+          "speak": "park",
+          "reviewOf": "a1-u5-places"
         },
         {
           "id": "a1-u5-directions.10",
-          "kind": "mcq",
-          "prompt": "معنی «turn» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "shop",
           "choices": [
-            "مغازه",
-            "پشت",
-            "پیچیدن"
+            "behind",
+            "straight",
+            "shop"
           ],
           "answer": 2,
-          "speak": "turn"
+          "reviewOf": "a1-u5-places"
         },
         {
           "id": "a1-u5-directions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏥",
+          "choices": [
+            "hospital",
+            "shop",
+            "next to"
+          ],
+          "answer": 0,
+          "speak": "hospital",
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u5-directions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «street»",
+          "speak": "street",
+          "choices": [
+            "خیابان",
+            "بانک"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u5-directions.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "سر بانک به چپ بپیچ.",
           "sentence": "___ left at the bank.",
           "choices": [
-            "here",
-            "Turn",
-            "straight"
+            "behind",
+            "under",
+            "Turn"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -545,7 +630,7 @@
           "fa": "مستقیم برو، بعد به راست بپیچ."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "at",
         "body": "نقطهٔ پیچیدن با at می‌آید: turn left at the bank."
@@ -557,7 +642,7 @@
       "titleFa": "حروف مکان",
       "goal": "بگویی چیزی کجاست",
       "buildsOn": [
-        "places"
+        "a1-u5-places"
       ],
       "exercises": [
         {
@@ -686,39 +771,68 @@
         {
           "id": "a1-u5-prepositions.9",
           "kind": "mcq",
-          "prompt": "معنی «behind» چیست؟",
+          "prompt": "یادت هست؟ معنی «park»",
           "choices": [
-            "پشت",
-            "نزدیک",
-            "پارک"
+            "پارک",
+            "جلوی",
+            "نزدیک"
           ],
           "answer": 0,
-          "speak": "behind"
+          "speak": "park",
+          "reviewOf": "a1-u5-places"
         },
         {
           "id": "a1-u5-prepositions.10",
-          "kind": "mcq",
-          "prompt": "معنی «behind» چیست؟",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "shop",
           "choices": [
-            "پیچیدن",
-            "در / داخل",
-            "پشت"
+            "turn",
+            "in",
+            "shop"
           ],
           "answer": 2,
-          "speak": "behind"
+          "reviewOf": "a1-u5-places"
         },
         {
           "id": "a1-u5-prepositions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏥",
+          "choices": [
+            "on",
+            "there",
+            "hospital"
+          ],
+          "answer": 2,
+          "speak": "hospital",
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u5-prepositions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «street»",
+          "speak": "street",
+          "choices": [
+            "خیابان",
+            "بانک"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u5-places"
+        },
+        {
+          "id": "a1-u5-prepositions.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
           "promptFa": "کلیدهایم داخل کیفم هستند.",
           "sentence": "My keys are ___ my bag.",
           "choices": [
-            "in",
-            "left",
-            "next to"
+            "on",
+            "street",
+            "in"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "youCanSay": [
@@ -727,7 +841,7 @@
           "fa": "گوشی‌ام روی میز، پشت فنجان است."
         }
       ],
-      "xp": 84,
+      "xp": 92,
       "tip": {
         "title": "in / on / under",
         "body": "in داخل، on روی سطح و under زیر چیزی."
