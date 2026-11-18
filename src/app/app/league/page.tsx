@@ -2,17 +2,19 @@
 
 import Link from "next/link";
 import { useMemo } from "react";
-import { ArrowRight, CalendarClock, Info, Star, Zap } from "lucide-react";
+import { ArrowRight, CalendarClock, Info, Star, Trophy, Zap } from "lucide-react";
 import { Hud } from "@/components/Hud";
 import { Foxy } from "@/components/Foxy";
 import { allLessons, lessonsById, units } from "@/lib/content";
 import { useHydrated, useProgress } from "@/lib/store/progress";
-import { fa } from "@/lib/utils";
+import { RANKS, rankOf } from "@/lib/skins";
+import { cn, fa } from "@/lib/utils";
 
 /** seven real days, computed from the timestamps we actually store */
 export default function LeaguePage() {
   const progress = useProgress();
   const hydrated = useHydrated();
+  const rank = rankOf(progress.xp);
 
   const week = useMemo(() => {
     // This view is explicitly about *now* — the clock is the input, not hidden
@@ -58,6 +60,33 @@ export default function LeaguePage() {
         <Link href="/app" className="inline-flex items-center gap-1 text-xs font-bold text-plum-soft">
           <ArrowRight size={14} /> نقشه
         </Link>
+
+        <section className="card p-4">
+          <h2 className="flex items-center gap-1.5 text-sm font-extrabold text-plum">
+            <Trophy size={15} className="text-gold" /> رتبهٔ تو
+          </h2>
+          <div className="mt-2 flex items-center justify-between rounded-xl bg-sand px-3 py-2">
+            <span className="text-sm font-extrabold text-plum">
+              {rank.current.emoji} {rank.current.nameFa}
+            </span>
+            <span className="num text-[11px] text-plum-soft">
+              {rank.next ? `${fa(rank.toNext)} XP تا ${rank.next.nameFa}` : "بالاترین رتبه"}
+            </span>
+          </div>
+          <div className="mt-2 flex items-center gap-1">
+            {RANKS.map((item) => (
+              <span
+                key={item.id}
+                className={cn(
+                  "flex-1 rounded-lg py-1 text-center text-[10px] font-bold",
+                  progress.xp >= item.min ? "bg-gold/25 text-[#a16207]" : "bg-sand text-plum/40",
+                )}
+              >
+                {item.emoji} {item.nameFa}
+              </span>
+            ))}
+          </div>
+        </section>
 
         <section className="card flex items-center gap-3 p-5">
           <Foxy size={64} mood="think" className="shrink-0" />

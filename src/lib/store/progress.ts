@@ -40,6 +40,12 @@ export type Progress = {
   daily: DailyCounters;
   /** lessonId → how many answers went wrong there */
   mistakes: Record<string, { count: number; at: number }>;
+  /** soft currency, only ever earned by learning (or a rewarded ad later) */
+  gems: number;
+  ownedSkins: string[];
+  activeSkin: string;
+  /** streak freezes: buy with gems, spend to keep the streak alive */
+  freezes: number;
 };
 
 const KEY = "zabanyar.progress.v1";
@@ -67,6 +73,10 @@ export const EMPTY: Progress = {
   badges: [],
   daily: emptyDaily(),
   mistakes: {},
+  gems: 0,
+  ownedSkins: ["classic"],
+  activeSkin: "classic",
+  freezes: 0,
 };
 
 function today(): string {
@@ -177,14 +187,14 @@ export function completeLesson(lessonId: string, accuracy: number, stars: 1 | 2 
       xp: p.xp + gainedXp,
       lessons: { ...p.lessons, [lessonId]: best },
     });
-    return withDaily(next, { lessons: 1 });
+    return withDaily({ ...next, gems: next.gems + (accuracy >= 0.95 ? 5 : 2) }, { lessons: 1 });
   });
 }
 
 export function completeBoss(bossId: string, stars: 1 | 2 | 3, xp: number) {
   return update((p) =>
     withDaily(
-      bumpStreak({ ...p, xp: p.xp + xp, bosses: { ...p.bosses, [bossId]: { stars, at: Date.now() } } }),
+      bumpStreak({ ...p, xp: p.xp + xp, gems: p.gems + 10, bosses: { ...p.bosses, [bossId]: { stars, at: Date.now() } } }),
       { bossWins: 1 },
     ),
   );
@@ -205,7 +215,7 @@ export function openDailyChest(reward = 60) {
     const base = rollDaily(p);
     if (base.daily.chestOpened) return base;
     opened = true;
-    return { ...base, xp: base.xp + reward, daily: { ...base.daily, chestOpened: true } };
+    return { ...base, xp: base.xp + reward, gems: base.gems + 15, daily: { ...base.daily, chestOpened: true } };
   });
   return opened;
 }
@@ -237,6 +247,70 @@ export function recordMistake(lessonId: string) {
       },
     };
   });
+}
+
+/** gems are earned, never bought with real money */
+export function addGems(amount: number) {
+  return update((p) => ({ ...p, gems: Math.max(0, p.gems + amount) }));
+}
+
+export function spendGems(amount: number): boolean {
+  let ok = false;
+  update((p) => {
+    if (p.gems < amount) return p;
+    ok = true;
+    return { ...p, gems: p.gems - amount };
+  });
+  return ok;
+}
+
+export function buySkin(id: string, price: number): boolean {
+  let ok = false;
+  update((p) => {
+    if (p.ownedSkins.includes(id) || p.gems < price) return p;
+    ok = true;
+    return { ...p, gems: p.gems - price, ownedSkins: [...p.ownedSkins, id], activeSkin: id };
+  });
+  return ok;
+}
+
+/**
+ * Placement result: lessons the learner demonstrably already handles are recorded
+ * with 2 stars — enough to unlock the path, not a perfect score.
+ */
+export function markPlaced(lessonIds: string[]) {
+  return update((p) => {
+    const lessons = { ...p.lessons };
+    for (const id of lessonIds) {
+      if (!lessons[id]) lessons[id] = { stars: 2, accuracy: 0.8, xp: 0, at: Date.now() };
+    }
+    return { ...p, lessons };
+  });
+}
+
+export function activateSkin(id: string) {
+  return update((p) => (p.ownedSkins.includes(id) ? { ...p, activeSkin: id } : p));
+}
+
+export function buyFreeze(price = 30): boolean {
+  let ok = false;
+  update((p) => {
+    if (p.gems < price || p.freezes >= 2) return p;
+    ok = true;
+    return { ...p, gems: p.gems - price, freezes: p.freezes + 1 };
+  });
+  return ok;
+}
+
+/** called when a day passes without study: spend a freeze instead of the streak */
+export function useFreeze(): boolean {
+  let used = false;
+  update((p) => {
+    if (p.freezes <= 0) return p;
+    used = true;
+    return { ...p, freezes: p.freezes - 1 };
+  });
+  return used;
 }
 
 export function awardBadge(badge: string) {

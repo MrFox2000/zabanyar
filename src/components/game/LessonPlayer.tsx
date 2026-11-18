@@ -11,6 +11,7 @@ import { CorrectBurst, Game } from "@/components/game/Games";
 import { TeachStage } from "@/components/game/TeachStage";
 import { Character, characterFor } from "@/components/Character";
 import { BiText } from "@/components/BiText";
+import { SkinBackdrop } from "@/components/SkinBackdrop";
 import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
@@ -181,7 +182,8 @@ export function LessonPlayer({
   }, [accuracy, lesson.id, stage, stars, xp]);
 
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className="relative flex min-h-dvh flex-col">
+      <SkinBackdrop />
       <header className="sticky top-0 z-20 border-b border-fox/10 bg-cream/90 backdrop-blur">
         <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-3">
           <Link

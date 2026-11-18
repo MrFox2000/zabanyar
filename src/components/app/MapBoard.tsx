@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { ChevronLeft, Flame, Lock, Play, Star, Swords, Trophy, BookOpen } from "lucide-react";
+import { ChevronLeft, Flame, Gem, Lock, Play, Star, Swords, Trophy, BookOpen } from "lucide-react";
 import type { MapUnit } from "@/lib/content/map";
 import { THEME_CLASS } from "@/lib/content";
 import { Foxy } from "@/components/Foxy";
 import { Stars } from "@/components/Stars";
 import { Hud } from "@/components/Hud";
 import { DailyMissions } from "@/components/app/DailyMissions";
+import { SkinBackdrop } from "@/components/SkinBackdrop";
 import { isUnlocked, levelOf, starsOf, useHydrated, useProgress } from "@/lib/store/progress";
 import { cn, fa } from "@/lib/utils";
 
@@ -37,7 +38,8 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
     openUnit ?? levelUnits.find((unit) => unit.lessons.some((lesson) => lesson.id === nextLesson?.id))?.id ?? levelUnits[0]?.id;
 
   return (
-    <div className="min-h-dvh">
+    <div className="relative min-h-dvh">
+      <SkinBackdrop />
       <Hud />
 
       <main className="mx-auto max-w-3xl px-4 pb-24 pt-5">
@@ -56,6 +58,17 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
             </p>
           </div>
         </section>
+
+        <Link
+          href="/app/start"
+          className="mb-3 flex items-center justify-between gap-3 rounded-2xl border border-fox/20 bg-white px-4 py-3"
+        >
+          <span className="flex items-center gap-2 text-xs font-extrabold text-plum">
+            <span className="grid size-8 place-items-center rounded-xl bg-fox/15 text-fox-deep">🎯</span>
+            تعیین سطح — اگر انگلیسی‌ات خوب است، از جای درست شروع کن
+          </span>
+          <ChevronLeft size={16} className="shrink-0 text-plum/30" />
+        </Link>
 
         <DailyMissions />
 
@@ -213,6 +226,15 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
             <div>
               <p className="text-sm font-extrabold text-plum">دفتر من</p>
               <p className="text-[11px] text-plum-soft">کلمه‌ها و نکته‌ها</p>
+            </div>
+          </Link>
+          <Link href="/app/shop" className="card flex items-center gap-3 p-4">
+            <span className="grid size-10 place-items-center rounded-xl bg-fox/15 text-fox-deep">
+              <Gem size={18} />
+            </span>
+            <div>
+              <p className="text-sm font-extrabold text-plum">فروشگاه</p>
+              <p className="num text-[11px] text-plum-soft">{fa(progress.gems)} جم · اسکین</p>
             </div>
           </Link>
           <Link href="/app/league" className="card flex items-center gap-3 p-4">
