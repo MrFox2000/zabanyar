@@ -1,0 +1,1287 @@
+{
+  "id": "b1-u2",
+  "level": "B1",
+  "index": 2,
+  "titleFa": "هر چه تا حالا",
+  "titleEn": "Up to now",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "b1-u2-perfect-continuous",
+      "title": "I have been waiting",
+      "titleFa": "حال کامل استمراری",
+      "goal": "بگویی کاری از قبل شروع شده و ادامه دارد",
+      "buildsOn": [
+        "b1-u1-describing-scene"
+      ],
+      "vocab": [
+        {
+          "en": "have been waiting",
+          "fa": "منتظر بوده‌ام",
+          "emoji": "⏳"
+        },
+        {
+          "en": "working",
+          "fa": "در حال کار",
+          "emoji": "💼"
+        },
+        {
+          "en": "raining",
+          "fa": "باران آمدن",
+          "emoji": "🌧️"
+        },
+        {
+          "en": "studying",
+          "fa": "درس خواندن",
+          "emoji": "📚"
+        },
+        {
+          "en": "feeling",
+          "fa": "احساس کردن",
+          "emoji": "💭"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "have been waiting",
+          "fa": "منتظر بوده‌ام",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "working",
+          "fa": "در حال کار",
+          "emoji": "💼"
+        },
+        {
+          "kind": "word",
+          "en": "raining",
+          "fa": "باران آمدن",
+          "emoji": "🌧️"
+        },
+        {
+          "kind": "word",
+          "en": "studying",
+          "fa": "درس خواندن",
+          "emoji": "📚"
+        },
+        {
+          "kind": "sentence",
+          "en": "She has been working since morning.",
+          "fa": "از صبح کار می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have been waiting for two hours.",
+          "fa": "دو ساعت است منتظرم.",
+          "highlight": "waiting"
+        },
+        {
+          "kind": "rule",
+          "title": "شروع در گذشته، ادامه تا الان",
+          "body": "have/has been + فعل ing: I have been working.",
+          "examples": [
+            {
+              "en": "She has been working since morning.",
+              "fa": "از صبح کار می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u2-perfect-continuous.1",
+          "kind": "mcq",
+          "prompt": "معنی «have been waiting» چیست؟",
+          "promptFa": "منتظر بوده‌ام",
+          "choices": [
+            "مهارت",
+            "منتظر بوده‌ام",
+            "درس خواندن"
+          ],
+          "answer": 1,
+          "speak": "have been waiting",
+          "aiHints": {
+            "example": "I know the word \"have been waiting\".",
+            "explanation": "«have been waiting» یعنی منتظر بوده‌ام."
+          }
+        },
+        {
+          "id": "b1-u2-perfect-continuous.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💼",
+          "choices": [
+            "working",
+            "studying",
+            "raining"
+          ],
+          "answer": 0,
+          "speak": "working"
+        },
+        {
+          "id": "b1-u2-perfect-continuous.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "raining",
+          "choices": [
+            "raining",
+            "practice",
+            "skill"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u2-perfect-continuous.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "working",
+              "fa": "در حال کار"
+            },
+            {
+              "en": "raining",
+              "fa": "باران آمدن"
+            },
+            {
+              "en": "have been waiting",
+              "fa": "منتظر بوده‌ام"
+            },
+            {
+              "en": "studying",
+              "fa": "درس خواندن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-perfect-continuous.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دو ساعت است منتظرم.",
+          "sentence": "I have been ___ for two hours.",
+          "choices": [
+            "for",
+            "waiting",
+            "raining"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u2-perfect-continuous.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "از صبح کار می‌کند.",
+          "tokens": [
+            "She",
+            "morning",
+            "working",
+            "been",
+            "has",
+            "since"
+          ],
+          "answer": "She has been working since morning"
+        },
+        {
+          "id": "b1-u2-perfect-continuous.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "been",
+            "work",
+            "all",
+            "day."
+          ],
+          "answer": 3,
+          "fix": "I have been working all day.",
+          "aiHints": {
+            "explanation": "درستش این است: I have been working all day."
+          }
+        },
+        {
+          "id": "b1-u2-perfect-continuous.8",
+          "kind": "speed",
+          "prompt": "سریع! «feeling» یعنی چه؟",
+          "speak": "feeling",
+          "choices": [
+            "احساس کردن",
+            "منتظر بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u2-perfect-continuous.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «lights»",
+          "choices": [
+            "چالش",
+            "چراغ‌ها",
+            "درس خواندن"
+          ],
+          "answer": 1,
+          "speak": "lights",
+          "reviewOf": "b1-u1-describing-scene"
+        },
+        {
+          "id": "b1-u2-perfect-continuous.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "street",
+          "choices": [
+            "have been waiting",
+            "hours",
+            "street"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u1-describing-scene"
+        },
+        {
+          "id": "b1-u2-perfect-continuous.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌑",
+          "choices": [
+            "feeling",
+            "months",
+            "dark"
+          ],
+          "answer": 2,
+          "speak": "dark",
+          "reviewOf": "b1-u1-describing-scene"
+        },
+        {
+          "id": "b1-u2-perfect-continuous.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «quiet»",
+          "speak": "quiet",
+          "choices": [
+            "ساکت",
+            "منتظر بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u1-describing-scene"
+        },
+        {
+          "id": "b1-u2-perfect-continuous.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "تمام روز باران می‌بارد.",
+          "sentence": "It has been ___ all day.",
+          "choices": [
+            "improve",
+            "progress",
+            "raining"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have been studying for three hours.",
+          "fa": "سه ساعت است درس می‌خوانم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "شروع در گذشته، ادامه تا الان",
+        "body": "have/has been + فعل ing: I have been working."
+      }
+    },
+    {
+      "id": "b1-u2-how-long",
+      "title": "How long have you…?",
+      "titleFa": "چه مدت است…؟",
+      "goal": "مدت زمان کاری را بپرسی",
+      "buildsOn": [
+        "b1-u2-perfect-continuous"
+      ],
+      "vocab": [
+        {
+          "en": "how long",
+          "fa": "چه مدت",
+          "emoji": "❓"
+        },
+        {
+          "en": "since",
+          "fa": "از",
+          "emoji": "📅"
+        },
+        {
+          "en": "for",
+          "fa": "به مدت",
+          "emoji": "⏳"
+        },
+        {
+          "en": "hours",
+          "fa": "ساعت‌ها",
+          "emoji": "🕒"
+        },
+        {
+          "en": "months",
+          "fa": "ماه‌ها",
+          "emoji": "📆"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "how long",
+          "fa": "چه مدت",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "since",
+          "fa": "از",
+          "emoji": "📅"
+        },
+        {
+          "kind": "word",
+          "en": "for",
+          "fa": "به مدت",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "hours",
+          "fa": "ساعت‌ها",
+          "emoji": "🕒"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have been studying English for two years.",
+          "fa": "دو سال است انگلیسی می‌خوانم."
+        },
+        {
+          "kind": "sentence",
+          "en": "How long have you been learning English?",
+          "fa": "چه مدت است انگلیسی یاد می‌گیری؟",
+          "highlight": "How long"
+        },
+        {
+          "kind": "rule",
+          "title": "for یا since",
+          "body": "for + مدت (for two years) و since + نقطهٔ شروع (since 2020).",
+          "examples": [
+            {
+              "en": "I have been studying English for two years.",
+              "fa": "دو سال است انگلیسی می‌خوانم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u2-how-long.1",
+          "kind": "mcq",
+          "prompt": "معنی «how long» چیست؟",
+          "promptFa": "چه مدت",
+          "choices": [
+            "به دست آوردن",
+            "مهارت",
+            "چه مدت"
+          ],
+          "answer": 2,
+          "speak": "how long",
+          "aiHints": {
+            "example": "I know the word \"how long\".",
+            "explanation": "«how long» یعنی چه مدت."
+          }
+        },
+        {
+          "id": "b1-u2-how-long.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📅",
+          "choices": [
+            "hours",
+            "since",
+            "for"
+          ],
+          "answer": 1,
+          "speak": "since"
+        },
+        {
+          "id": "b1-u2-how-long.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "for",
+          "choices": [
+            "for",
+            "change",
+            "achieve"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u2-how-long.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "hours",
+              "fa": "ساعت‌ها"
+            },
+            {
+              "en": "since",
+              "fa": "از"
+            },
+            {
+              "en": "how long",
+              "fa": "چه مدت"
+            },
+            {
+              "en": "for",
+              "fa": "به مدت"
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-how-long.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "چه مدت است انگلیسی یاد می‌گیری؟",
+          "sentence": "___ have you been learning English?",
+          "choices": [
+            "change",
+            "since",
+            "How long"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u2-how-long.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دو سال است انگلیسی می‌خوانم.",
+          "tokens": [
+            "years",
+            "for",
+            "two",
+            "I",
+            "been",
+            "have",
+            "English",
+            "studying"
+          ],
+          "answer": "I have been studying English for two years"
+        },
+        {
+          "id": "b1-u2-how-long.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "How",
+            "long",
+            "you",
+            "have",
+            "been",
+            "waiting?"
+          ],
+          "answer": 2,
+          "fix": "How long have you been waiting?",
+          "aiHints": {
+            "explanation": "درستش این است: How long have you been waiting?"
+          }
+        },
+        {
+          "id": "b1-u2-how-long.8",
+          "kind": "speed",
+          "prompt": "سریع! «months» یعنی چه؟",
+          "speak": "months",
+          "choices": [
+            "منتظر بوده‌ام",
+            "ماه‌ها"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u2-how-long.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «working»",
+          "choices": [
+            "به دست آوردن",
+            "چه مدت",
+            "در حال کار"
+          ],
+          "answer": 2,
+          "speak": "working",
+          "reviewOf": "b1-u2-perfect-continuous"
+        },
+        {
+          "id": "b1-u2-how-long.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "raining",
+          "choices": [
+            "raining",
+            "how long",
+            "feeling"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u2-perfect-continuous"
+        },
+        {
+          "id": "b1-u2-how-long.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📚",
+          "choices": [
+            "raining",
+            "studying",
+            "change"
+          ],
+          "answer": 1,
+          "speak": "studying",
+          "reviewOf": "b1-u2-perfect-continuous"
+        },
+        {
+          "id": "b1-u2-how-long.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «feeling»",
+          "speak": "feeling",
+          "choices": [
+            "احساس کردن",
+            "منتظر بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u2-perfect-continuous"
+        },
+        {
+          "id": "b1-u2-how-long.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "سه ساعت است اینجا هستم.",
+          "sentence": "I have been here ___ three hours.",
+          "choices": [
+            "skill",
+            "since",
+            "for"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "How long have you been working here?",
+          "fa": "چه مدت است اینجا کار می‌کنی؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "for یا since",
+        "body": "for + مدت (for two years) و since + نقطهٔ شروع (since 2020)."
+      }
+    },
+    {
+      "id": "b1-u2-life-changes",
+      "title": "Recently, lately",
+      "titleFa": "تغییرهای زندگی",
+      "goal": "از تغییرهایی که اخیراً داشته‌ای بگویی",
+      "buildsOn": [
+        "b1-u2-how-long"
+      ],
+      "vocab": [
+        {
+          "en": "recently",
+          "fa": "اخیراً",
+          "emoji": "🆕"
+        },
+        {
+          "en": "change",
+          "fa": "تغییر",
+          "emoji": "🔄"
+        },
+        {
+          "en": "improve",
+          "fa": "بهتر شدن",
+          "emoji": "📈"
+        },
+        {
+          "en": "decision",
+          "fa": "تصمیم",
+          "emoji": "✅"
+        },
+        {
+          "en": "goal",
+          "fa": "هدف",
+          "emoji": "🎯"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "recently",
+          "fa": "اخیراً",
+          "emoji": "🆕"
+        },
+        {
+          "kind": "word",
+          "en": "change",
+          "fa": "تغییر",
+          "emoji": "🔄"
+        },
+        {
+          "kind": "word",
+          "en": "improve",
+          "fa": "بهتر شدن",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "decision",
+          "fa": "تصمیم",
+          "emoji": "✅"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have changed a lot recently.",
+          "fa": "اخیراً خیلی تغییر کرده‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have recently changed my job.",
+          "fa": "اخیراً شغلم را عوض کرده‌ام.",
+          "highlight": "recently"
+        },
+        {
+          "kind": "rule",
+          "title": "با حال کامل",
+          "body": "recently و lately بیشتر با حال کامل می‌آیند: I have recently changed…",
+          "examples": [
+            {
+              "en": "I have changed a lot recently.",
+              "fa": "اخیراً خیلی تغییر کرده‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u2-life-changes.1",
+          "kind": "mcq",
+          "prompt": "معنی «recently» چیست؟",
+          "promptFa": "اخیراً",
+          "choices": [
+            "بهتر شدن",
+            "هدف",
+            "اخیراً"
+          ],
+          "answer": 2,
+          "speak": "recently",
+          "aiHints": {
+            "example": "I know the word \"recently\".",
+            "explanation": "«recently» یعنی اخیراً."
+          }
+        },
+        {
+          "id": "b1-u2-life-changes.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔄",
+          "choices": [
+            "change",
+            "recently",
+            "goal"
+          ],
+          "answer": 0,
+          "speak": "change"
+        },
+        {
+          "id": "b1-u2-life-changes.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "improve",
+          "choices": [
+            "practice",
+            "challenge",
+            "improve"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u2-life-changes.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "decision",
+              "fa": "تصمیم"
+            },
+            {
+              "en": "recently",
+              "fa": "اخیراً"
+            },
+            {
+              "en": "change",
+              "fa": "تغییر"
+            },
+            {
+              "en": "improve",
+              "fa": "بهتر شدن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-life-changes.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اخیراً شغلم را عوض کرده‌ام.",
+          "sentence": "I have ___ changed my job.",
+          "choices": [
+            "recently",
+            "decision",
+            "progress"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u2-life-changes.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اخیراً خیلی تغییر کرده‌ام.",
+          "tokens": [
+            "a",
+            "recently",
+            "I",
+            "changed",
+            "have",
+            "lot"
+          ],
+          "answer": "I have changed a lot recently"
+        },
+        {
+          "id": "b1-u2-life-changes.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "recently",
+            "change",
+            "my",
+            "job."
+          ],
+          "answer": 3,
+          "fix": "I have recently changed my job.",
+          "aiHints": {
+            "explanation": "درستش این است: I have recently changed my job."
+          }
+        },
+        {
+          "id": "b1-u2-life-changes.8",
+          "kind": "speed",
+          "prompt": "سریع! «goal» یعنی چه؟",
+          "speak": "goal",
+          "choices": [
+            "هدف",
+            "منتظر بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u2-life-changes.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «since»",
+          "choices": [
+            "در حال کار",
+            "تغییر",
+            "از"
+          ],
+          "answer": 2,
+          "speak": "since",
+          "reviewOf": "b1-u2-how-long"
+        },
+        {
+          "id": "b1-u2-life-changes.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "for",
+          "choices": [
+            "hours",
+            "for",
+            "since"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u2-how-long"
+        },
+        {
+          "id": "b1-u2-life-changes.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🕒",
+          "choices": [
+            "hours",
+            "raining",
+            "improve"
+          ],
+          "answer": 0,
+          "speak": "hours",
+          "reviewOf": "b1-u2-how-long"
+        },
+        {
+          "id": "b1-u2-life-changes.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «months»",
+          "speak": "months",
+          "choices": [
+            "منتظر بوده‌ام",
+            "ماه‌ها"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u2-how-long"
+        },
+        {
+          "id": "b1-u2-life-changes.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "هدفم بهتر کردن انگلیسی‌ام است.",
+          "sentence": "My goal is to ___ my English.",
+          "choices": [
+            "goal",
+            "raining",
+            "improve"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have recently decided to improve my English.",
+          "fa": "اخیراً تصمیم گرفته‌ام انگلیسی‌ام را بهتر کنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "با حال کامل",
+        "body": "recently و lately بیشتر با حال کامل می‌آیند: I have recently changed…"
+      }
+    },
+    {
+      "id": "b1-u2-achievements",
+      "title": "Make progress",
+      "titleFa": "پیشرفت و دستاورد",
+      "goal": "از پیشرفت و هدف‌هایت حرف بزنی",
+      "buildsOn": [
+        "b1-u2-life-changes"
+      ],
+      "vocab": [
+        {
+          "en": "achieve",
+          "fa": "به دست آوردن",
+          "emoji": "🏆"
+        },
+        {
+          "en": "progress",
+          "fa": "پیشرفت",
+          "emoji": "📈"
+        },
+        {
+          "en": "skill",
+          "fa": "مهارت",
+          "emoji": "🛠️"
+        },
+        {
+          "en": "practice",
+          "fa": "تمرین",
+          "emoji": "🔁"
+        },
+        {
+          "en": "challenge",
+          "fa": "چالش",
+          "emoji": "⛰️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "achieve",
+          "fa": "به دست آوردن",
+          "emoji": "🏆"
+        },
+        {
+          "kind": "word",
+          "en": "progress",
+          "fa": "پیشرفت",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "skill",
+          "fa": "مهارت",
+          "emoji": "🛠️"
+        },
+        {
+          "kind": "word",
+          "en": "practice",
+          "fa": "تمرین",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have made progress this year.",
+          "fa": "امسال پیشرفت کرده‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "I want to achieve this goal.",
+          "fa": "می‌خواهم به این هدف برسم.",
+          "highlight": "achieve"
+        },
+        {
+          "kind": "rule",
+          "title": "make progress",
+          "body": "در انگلیسی می‌گوییم make progress، نه do progress.",
+          "examples": [
+            {
+              "en": "I have made progress this year.",
+              "fa": "امسال پیشرفت کرده‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u2-achievements.1",
+          "kind": "mcq",
+          "prompt": "معنی «achieve» چیست؟",
+          "promptFa": "به دست آوردن",
+          "choices": [
+            "تغییر",
+            "به دست آوردن",
+            "چالش"
+          ],
+          "answer": 1,
+          "speak": "achieve",
+          "aiHints": {
+            "example": "I know the word \"achieve\".",
+            "explanation": "«achieve» یعنی به دست آوردن."
+          }
+        },
+        {
+          "id": "b1-u2-achievements.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📈",
+          "choices": [
+            "progress",
+            "achieve",
+            "skill"
+          ],
+          "answer": 0,
+          "speak": "progress"
+        },
+        {
+          "id": "b1-u2-achievements.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "skill",
+          "choices": [
+            "achieve",
+            "skill",
+            "since"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u2-achievements.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "achieve",
+              "fa": "به دست آوردن"
+            },
+            {
+              "en": "practice",
+              "fa": "تمرین"
+            },
+            {
+              "en": "skill",
+              "fa": "مهارت"
+            },
+            {
+              "en": "progress",
+              "fa": "پیشرفت"
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-achievements.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌خواهم به این هدف برسم.",
+          "sentence": "I want to ___ this goal.",
+          "choices": [
+            "achieve",
+            "have been waiting",
+            "skill"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u2-achievements.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "امسال پیشرفت کرده‌ام.",
+          "tokens": [
+            "progress",
+            "year",
+            "this",
+            "made",
+            "have",
+            "I"
+          ],
+          "answer": "I have made progress this year"
+        },
+        {
+          "id": "b1-u2-achievements.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "make",
+            "progress",
+            "this",
+            "year."
+          ],
+          "answer": 2,
+          "fix": "I have made progress this year.",
+          "aiHints": {
+            "explanation": "درستش این است: I have made progress this year."
+          }
+        },
+        {
+          "id": "b1-u2-achievements.8",
+          "kind": "speed",
+          "prompt": "سریع! «challenge» یعنی چه؟",
+          "speak": "challenge",
+          "choices": [
+            "منتظر بوده‌ام",
+            "چالش"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u2-achievements.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «change»",
+          "choices": [
+            "تغییر",
+            "چالش",
+            "احساس کردن"
+          ],
+          "answer": 0,
+          "speak": "change",
+          "reviewOf": "b1-u2-life-changes"
+        },
+        {
+          "id": "b1-u2-achievements.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "improve",
+          "choices": [
+            "improve",
+            "goal",
+            "months"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u2-life-changes"
+        },
+        {
+          "id": "b1-u2-achievements.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "since",
+            "decision",
+            "working"
+          ],
+          "answer": 1,
+          "speak": "decision",
+          "reviewOf": "b1-u2-life-changes"
+        },
+        {
+          "id": "b1-u2-achievements.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «goal»",
+          "speak": "goal",
+          "choices": [
+            "منتظر بوده‌ام",
+            "هدف"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u2-life-changes"
+        },
+        {
+          "id": "b1-u2-achievements.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "انگلیسی‌ام با تمرین بهتر می‌شود.",
+          "sentence": "My English is improving with ___.",
+          "choices": [
+            "challenge",
+            "practice",
+            "improve"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I practice every day because it is a challenge.",
+          "fa": "هر روز تمرین می‌کنم چون چالش است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "make progress",
+        "body": "در انگلیسی می‌گوییم make progress، نه do progress."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u2-boss",
+    "titleFa": "نبرد پایانی — هر چه تا حالا",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u2-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «working»",
+        "speak": "working",
+        "choices": [
+          "تغییر",
+          "تصمیم",
+          "در حال کار"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u2-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "feeling",
+        "choices": [
+          "studying",
+          "raining",
+          "feeling"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u2-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏳",
+        "choices": [
+          "practice",
+          "since",
+          "for"
+        ],
+        "answer": 2,
+        "speak": "for"
+      },
+      {
+        "id": "b1-u2-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «recently»",
+        "speak": "recently",
+        "choices": [
+          "اخیراً",
+          "چالش"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u2-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «decision»",
+        "speak": "decision",
+        "choices": [
+          "تصمیم",
+          "تمرین",
+          "هدف"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u2-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "progress",
+        "choices": [
+          "goal",
+          "months",
+          "progress"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u2-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⛰️",
+        "choices": [
+          "working",
+          "challenge",
+          "for"
+        ],
+        "answer": 1,
+        "speak": "challenge"
+      },
+      {
+        "id": "b1-u2-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «raining»",
+        "speak": "raining",
+        "choices": [
+          "تغییر",
+          "باران آمدن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u2-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «how long»",
+        "speak": "how long",
+        "choices": [
+          "باران آمدن",
+          "چه مدت",
+          "از"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u2-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "hours",
+        "choices": [
+          "since",
+          "hours",
+          "skill"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

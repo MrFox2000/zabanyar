@@ -1,0 +1,1286 @@
+{
+  "id": "b1-u3",
+  "level": "B1",
+  "index": 3,
+  "titleFa": "آینده و اگر",
+  "titleEn": "Future and if",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "b1-u3-future-continuous",
+      "title": "I will be working",
+      "titleFa": "آیندهٔ استمراری",
+      "goal": "بگویی در آینده در چه کاری مشغول خواهی بود",
+      "buildsOn": [
+        "b1-u2-achievements"
+      ],
+      "vocab": [
+        {
+          "en": "will be working",
+          "fa": "مشغول کار خواهم بود",
+          "emoji": "💼"
+        },
+        {
+          "en": "will be travelling",
+          "fa": "در سفر خواهم بود",
+          "emoji": "✈️"
+        },
+        {
+          "en": "this time tomorrow",
+          "fa": "فردا همین وقت",
+          "emoji": "🕐"
+        },
+        {
+          "en": "next week",
+          "fa": "هفتهٔ آینده",
+          "emoji": "📅"
+        },
+        {
+          "en": "arrive",
+          "fa": "رسیدن",
+          "emoji": "🛬"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "will be working",
+          "fa": "مشغول کار خواهم بود",
+          "emoji": "💼"
+        },
+        {
+          "kind": "word",
+          "en": "will be travelling",
+          "fa": "در سفر خواهم بود",
+          "emoji": "✈️"
+        },
+        {
+          "kind": "word",
+          "en": "this time tomorrow",
+          "fa": "فردا همین وقت",
+          "emoji": "🕐"
+        },
+        {
+          "kind": "word",
+          "en": "next week",
+          "fa": "هفتهٔ آینده",
+          "emoji": "📅"
+        },
+        {
+          "kind": "sentence",
+          "en": "I will be working at ten tomorrow.",
+          "fa": "فردا ساعت ده مشغول کار خواهم بود."
+        },
+        {
+          "kind": "sentence",
+          "en": "This time tomorrow I will be travelling to Tehran.",
+          "fa": "فردا همین وقت در راه تهران خواهم بود.",
+          "highlight": "will be travelling"
+        },
+        {
+          "kind": "rule",
+          "title": "در آینده در جریان",
+          "body": "برای کاری که در آینده مدتی ادامه دارد: will be + فعل ing.",
+          "examples": [
+            {
+              "en": "I will be working at ten tomorrow.",
+              "fa": "فردا ساعت ده مشغول کار خواهم بود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u3-future-continuous.1",
+          "kind": "mcq",
+          "prompt": "معنی «will be working» چیست؟",
+          "promptFa": "مشغول کار خواهم بود",
+          "choices": [
+            "مشغول کار خواهم بود",
+            "درس خواندن",
+            "در سفر خواهم بود"
+          ],
+          "answer": 0,
+          "speak": "will be working",
+          "aiHints": {
+            "example": "I know the word \"will be working\".",
+            "explanation": "«will be working» یعنی مشغول کار خواهم بود."
+          }
+        },
+        {
+          "id": "b1-u3-future-continuous.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✈️",
+          "choices": [
+            "arrive",
+            "will be travelling",
+            "this time tomorrow"
+          ],
+          "answer": 1,
+          "speak": "will be travelling"
+        },
+        {
+          "id": "b1-u3-future-continuous.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "this time tomorrow",
+          "choices": [
+            "this time tomorrow",
+            "study",
+            "real"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u3-future-continuous.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "will be travelling",
+              "fa": "در سفر خواهم بود"
+            },
+            {
+              "en": "this time tomorrow",
+              "fa": "فردا همین وقت"
+            },
+            {
+              "en": "will be working",
+              "fa": "مشغول کار خواهم بود"
+            },
+            {
+              "en": "next week",
+              "fa": "هفتهٔ آینده"
+            }
+          ]
+        },
+        {
+          "id": "b1-u3-future-continuous.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "فردا همین وقت در راه تهران خواهم بود.",
+          "sentence": "This time tomorrow I ___ to Tehran.",
+          "choices": [
+            "arrive",
+            "this time tomorrow",
+            "will be travelling"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u3-future-continuous.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فردا ساعت ده مشغول کار خواهم بود.",
+          "tokens": [
+            "be",
+            "will",
+            "working",
+            "I",
+            "tomorrow",
+            "ten",
+            "at"
+          ],
+          "answer": "I will be working at ten tomorrow"
+        },
+        {
+          "id": "b1-u3-future-continuous.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "will",
+            "be",
+            "work",
+            "at",
+            "ten."
+          ],
+          "answer": 3,
+          "fix": "I will be working at ten.",
+          "aiHints": {
+            "explanation": "درستش این است: I will be working at ten."
+          }
+        },
+        {
+          "id": "b1-u3-future-continuous.8",
+          "kind": "speed",
+          "prompt": "سریع! «arrive» یعنی چه؟",
+          "speak": "arrive",
+          "choices": [
+            "مشغول کار خواهم بود",
+            "رسیدن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u3-future-continuous.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «progress»",
+          "choices": [
+            "ممکن است (رسمی)",
+            "خیالی",
+            "پیشرفت"
+          ],
+          "answer": 2,
+          "speak": "progress",
+          "reviewOf": "b1-u2-achievements"
+        },
+        {
+          "id": "b1-u3-future-continuous.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "skill",
+          "choices": [
+            "maybe",
+            "skill",
+            "travel"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u2-achievements"
+        },
+        {
+          "id": "b1-u3-future-continuous.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔁",
+          "choices": [
+            "would",
+            "practice",
+            "maybe"
+          ],
+          "answer": 1,
+          "speak": "practice",
+          "reviewOf": "b1-u2-achievements"
+        },
+        {
+          "id": "b1-u3-future-continuous.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «challenge»",
+          "speak": "challenge",
+          "choices": [
+            "چالش",
+            "مشغول کار خواهم بود"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u2-achievements"
+        },
+        {
+          "id": "b1-u3-future-continuous.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ساعت نه می‌رسم.",
+          "sentence": "I ___ at nine.",
+          "choices": [
+            "will be working",
+            "will arrive",
+            "rich"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This time tomorrow I will be flying.",
+          "fa": "فردا همین وقت در حال پرواز خواهم بود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "در آینده در جریان",
+        "body": "برای کاری که در آینده مدتی ادامه دارد: will be + فعل ing."
+      }
+    },
+    {
+      "id": "b1-u3-possibility",
+      "title": "It might snow",
+      "titleFa": "احتمال",
+      "goal": "دربارهٔ چیزهای احتمالی حرف بزنی",
+      "buildsOn": [
+        "b1-u3-future-continuous"
+      ],
+      "vocab": [
+        {
+          "en": "might",
+          "fa": "ممکن است",
+          "emoji": "🤔"
+        },
+        {
+          "en": "may",
+          "fa": "ممکن است (رسمی)",
+          "emoji": "📋"
+        },
+        {
+          "en": "could",
+          "fa": "می‌تواند / ممکن است",
+          "emoji": "💭"
+        },
+        {
+          "en": "probably",
+          "fa": "احتمالاً",
+          "emoji": "📊"
+        },
+        {
+          "en": "maybe",
+          "fa": "شاید",
+          "emoji": "🎲"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "might",
+          "fa": "ممکن است",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "may",
+          "fa": "ممکن است (رسمی)",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "could",
+          "fa": "می‌تواند / ممکن است",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "probably",
+          "fa": "احتمالاً",
+          "emoji": "📊"
+        },
+        {
+          "kind": "sentence",
+          "en": "It may rain later.",
+          "fa": "شاید بعداً باران بیاید."
+        },
+        {
+          "kind": "sentence",
+          "en": "It might snow tonight.",
+          "fa": "شاید امشب برف بیاید.",
+          "highlight": "might"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از این‌ها ساده",
+          "body": "might / may / could + فعل ساده، بدون s و بدون to.",
+          "examples": [
+            {
+              "en": "It may rain later.",
+              "fa": "شاید بعداً باران بیاید."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u3-possibility.1",
+          "kind": "mcq",
+          "prompt": "معنی «might» چیست؟",
+          "promptFa": "ممکن است",
+          "choices": [
+            "ممکن است",
+            "خیالی",
+            "هفتهٔ آینده"
+          ],
+          "answer": 0,
+          "speak": "might",
+          "aiHints": {
+            "example": "I know the word \"might\".",
+            "explanation": "«might» یعنی ممکن است."
+          }
+        },
+        {
+          "id": "b1-u3-possibility.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📋",
+          "choices": [
+            "probably",
+            "may",
+            "could"
+          ],
+          "answer": 1,
+          "speak": "may"
+        },
+        {
+          "id": "b1-u3-possibility.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "could",
+          "choices": [
+            "money",
+            "would",
+            "could"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u3-possibility.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "may",
+              "fa": "ممکن است (رسمی)"
+            },
+            {
+              "en": "probably",
+              "fa": "احتمالاً"
+            },
+            {
+              "en": "could",
+              "fa": "می‌تواند / ممکن است"
+            },
+            {
+              "en": "might",
+              "fa": "ممکن است"
+            }
+          ]
+        },
+        {
+          "id": "b1-u3-possibility.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "شاید امشب برف بیاید.",
+          "sentence": "It ___ snow tonight.",
+          "choices": [
+            "will be working",
+            "maybe",
+            "might"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u3-possibility.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شاید بعداً باران بیاید.",
+          "tokens": [
+            "rain",
+            "It",
+            "may",
+            "later"
+          ],
+          "answer": "It may rain later"
+        },
+        {
+          "id": "b1-u3-possibility.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "might",
+            "snows",
+            "tonight."
+          ],
+          "answer": 2,
+          "fix": "It might snow tonight.",
+          "aiHints": {
+            "explanation": "درستش این است: It might snow tonight."
+          }
+        },
+        {
+          "id": "b1-u3-possibility.8",
+          "kind": "speed",
+          "prompt": "سریع! «maybe» یعنی چه؟",
+          "speak": "maybe",
+          "choices": [
+            "شاید",
+            "مشغول کار خواهم بود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u3-possibility.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «will be travelling»",
+          "choices": [
+            "در سفر خواهم بود",
+            "سفر کردن",
+            "ممکن است"
+          ],
+          "answer": 0,
+          "speak": "will be travelling",
+          "reviewOf": "b1-u3-future-continuous"
+        },
+        {
+          "id": "b1-u3-possibility.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "this time tomorrow",
+          "choices": [
+            "probably",
+            "this time tomorrow",
+            "maybe"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u3-future-continuous"
+        },
+        {
+          "id": "b1-u3-possibility.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📅",
+          "choices": [
+            "next week",
+            "dream",
+            "study"
+          ],
+          "answer": 0,
+          "speak": "next week",
+          "reviewOf": "b1-u3-future-continuous"
+        },
+        {
+          "id": "b1-u3-possibility.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «arrive»",
+          "speak": "arrive",
+          "choices": [
+            "مشغول کار خواهم بود",
+            "رسیدن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u3-future-continuous"
+        },
+        {
+          "id": "b1-u3-possibility.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "شاید الان خانه باشد.",
+          "sentence": "She ___ be at home now.",
+          "choices": [
+            "imaginary",
+            "could",
+            "real"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "It might rain, so maybe we should stay.",
+          "fa": "شاید باران بیاید، پس شاید بمانیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از این‌ها ساده",
+        "body": "might / may / could + فعل ساده، بدون s و بدون to."
+      }
+    },
+    {
+      "id": "b1-u3-second-conditional",
+      "title": "If I had money",
+      "titleFa": "شرط خیالی",
+      "goal": "دربارهٔ چیزی که واقعی نیست حرف بزنی",
+      "buildsOn": [
+        "b1-u3-possibility"
+      ],
+      "vocab": [
+        {
+          "en": "would",
+          "fa": "می‌کردم",
+          "emoji": "💭"
+        },
+        {
+          "en": "had",
+          "fa": "داشت",
+          "emoji": "🤲"
+        },
+        {
+          "en": "money",
+          "fa": "پول",
+          "emoji": "💵"
+        },
+        {
+          "en": "travel",
+          "fa": "سفر کردن",
+          "emoji": "✈️"
+        },
+        {
+          "en": "dream",
+          "fa": "رویا",
+          "emoji": "💫"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "would",
+          "fa": "می‌کردم",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "had",
+          "fa": "داشت",
+          "emoji": "🤲"
+        },
+        {
+          "kind": "word",
+          "en": "money",
+          "fa": "پول",
+          "emoji": "💵"
+        },
+        {
+          "kind": "word",
+          "en": "travel",
+          "fa": "سفر کردن",
+          "emoji": "✈️"
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had time, I would learn piano.",
+          "fa": "اگر وقت داشتم، پیانو یاد می‌گرفتم."
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had money, I would travel.",
+          "fa": "اگر پول داشتم، سفر می‌کردم.",
+          "highlight": "would"
+        },
+        {
+          "kind": "rule",
+          "title": "غیرواقعی",
+          "body": "برای آرزوهای غیرواقعی: if + گذشتهٔ ساده، بعد would + فعل ساده.",
+          "examples": [
+            {
+              "en": "If I had time, I would learn piano.",
+              "fa": "اگر وقت داشتم، پیانو یاد می‌گرفتم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u3-second-conditional.1",
+          "kind": "mcq",
+          "prompt": "معنی «would» چیست؟",
+          "promptFa": "می‌کردم",
+          "choices": [
+            "ثروتمند",
+            "می‌کردم",
+            "پول"
+          ],
+          "answer": 1,
+          "speak": "would",
+          "aiHints": {
+            "example": "I know the word \"would\".",
+            "explanation": "«would» یعنی می‌کردم."
+          }
+        },
+        {
+          "id": "b1-u3-second-conditional.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤲",
+          "choices": [
+            "had",
+            "would",
+            "travel"
+          ],
+          "answer": 0,
+          "speak": "had"
+        },
+        {
+          "id": "b1-u3-second-conditional.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "money",
+          "choices": [
+            "had",
+            "money",
+            "this time tomorrow"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u3-second-conditional.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "money",
+              "fa": "پول"
+            },
+            {
+              "en": "had",
+              "fa": "داشت"
+            },
+            {
+              "en": "would",
+              "fa": "می‌کردم"
+            },
+            {
+              "en": "travel",
+              "fa": "سفر کردن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u3-second-conditional.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر پول داشتم، سفر می‌کردم.",
+          "sentence": "If I had money, I ___ travel.",
+          "choices": [
+            "next week",
+            "would",
+            "maybe"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u3-second-conditional.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اگر وقت داشتم، پیانو یاد می‌گرفتم.",
+          "tokens": [
+            "would",
+            "I",
+            "had",
+            "time,",
+            "piano",
+            "learn",
+            "If",
+            "I"
+          ],
+          "answer": "If I had time, I would learn piano"
+        },
+        {
+          "id": "b1-u3-second-conditional.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "If",
+            "I",
+            "have",
+            "money,",
+            "I",
+            "would",
+            "travel."
+          ],
+          "answer": 2,
+          "fix": "If I had money, I would travel.",
+          "aiHints": {
+            "explanation": "درستش این است: If I had money, I would travel."
+          }
+        },
+        {
+          "id": "b1-u3-second-conditional.8",
+          "kind": "speed",
+          "prompt": "سریع! «dream» یعنی چه؟",
+          "speak": "dream",
+          "choices": [
+            "رویا",
+            "مشغول کار خواهم بود"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u3-second-conditional.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «may»",
+          "choices": [
+            "در سفر خواهم بود",
+            "ممکن است (رسمی)",
+            "واقعی"
+          ],
+          "answer": 1,
+          "speak": "may",
+          "reviewOf": "b1-u3-possibility"
+        },
+        {
+          "id": "b1-u3-second-conditional.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "could",
+          "choices": [
+            "arrive",
+            "could",
+            "maybe"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u3-possibility"
+        },
+        {
+          "id": "b1-u3-second-conditional.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📊",
+          "choices": [
+            "maybe",
+            "had",
+            "probably"
+          ],
+          "answer": 2,
+          "speak": "probably",
+          "reviewOf": "b1-u3-possibility"
+        },
+        {
+          "id": "b1-u3-second-conditional.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «maybe»",
+          "speak": "maybe",
+          "choices": [
+            "مشغول کار خواهم بود",
+            "شاید"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u3-possibility"
+        },
+        {
+          "id": "b1-u3-second-conditional.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر جای تو بودم، می‌رفتم.",
+          "sentence": "If I ___ you, I would go.",
+          "choices": [
+            "were",
+            "next week",
+            "travel"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "If I were you, I would start today.",
+          "fa": "اگر جای تو بودم، امروز شروع می‌کردم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "غیرواقعی",
+        "body": "برای آرزوهای غیرواقعی: if + گذشتهٔ ساده، بعد would + فعل ساده."
+      }
+    },
+    {
+      "id": "b1-u3-conditionals-compare",
+      "title": "Will or would?",
+      "titleFa": "واقعی یا خیالی",
+      "goal": "شرط واقعی و خیالی را از هم تشخیص بدهی",
+      "buildsOn": [
+        "b1-u3-second-conditional"
+      ],
+      "vocab": [
+        {
+          "en": "real",
+          "fa": "واقعی",
+          "emoji": "✅"
+        },
+        {
+          "en": "imaginary",
+          "fa": "خیالی",
+          "emoji": "💭"
+        },
+        {
+          "en": "study",
+          "fa": "درس خواندن",
+          "emoji": "📚"
+        },
+        {
+          "en": "pass",
+          "fa": "قبول شدن",
+          "emoji": "🎓"
+        },
+        {
+          "en": "rich",
+          "fa": "ثروتمند",
+          "emoji": "💰"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "real",
+          "fa": "واقعی",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "imaginary",
+          "fa": "خیالی",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "study",
+          "fa": "درس خواندن",
+          "emoji": "📚"
+        },
+        {
+          "kind": "word",
+          "en": "pass",
+          "fa": "قبول شدن",
+          "emoji": "🎓"
+        },
+        {
+          "kind": "sentence",
+          "en": "If I study, I will pass.",
+          "fa": "اگر درس بخوانم، قبول می‌شوم."
+        },
+        {
+          "kind": "sentence",
+          "en": "If it rains, I will stay home.",
+          "fa": "اگر باران بیاید، خانه می‌مانم.",
+          "highlight": "will"
+        },
+        {
+          "kind": "rule",
+          "title": "دو الگو",
+          "body": "واقعی: if + حال ساده + will. خیالی: if + گذشته + would.",
+          "examples": [
+            {
+              "en": "If I study, I will pass.",
+              "fa": "اگر درس بخوانم، قبول می‌شوم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u3-conditionals-compare.1",
+          "kind": "mcq",
+          "prompt": "معنی «real» چیست؟",
+          "promptFa": "واقعی",
+          "choices": [
+            "شاید",
+            "رویا",
+            "واقعی"
+          ],
+          "answer": 2,
+          "speak": "real",
+          "aiHints": {
+            "example": "I know the word \"real\".",
+            "explanation": "«real» یعنی واقعی."
+          }
+        },
+        {
+          "id": "b1-u3-conditionals-compare.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "rich",
+            "real",
+            "imaginary"
+          ],
+          "answer": 2,
+          "speak": "imaginary"
+        },
+        {
+          "id": "b1-u3-conditionals-compare.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "study",
+          "choices": [
+            "may",
+            "study",
+            "imaginary"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u3-conditionals-compare.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "pass",
+              "fa": "قبول شدن"
+            },
+            {
+              "en": "study",
+              "fa": "درس خواندن"
+            },
+            {
+              "en": "real",
+              "fa": "واقعی"
+            },
+            {
+              "en": "imaginary",
+              "fa": "خیالی"
+            }
+          ]
+        },
+        {
+          "id": "b1-u3-conditionals-compare.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر باران بیاید، خانه می‌مانم.",
+          "sentence": "If it rains, I ___ stay home.",
+          "choices": [
+            "will",
+            "travel",
+            "study"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u3-conditionals-compare.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اگر درس بخوانم، قبول می‌شوم.",
+          "tokens": [
+            "pass",
+            "I",
+            "will",
+            "If",
+            "I",
+            "study,"
+          ],
+          "answer": "If I study, I will pass"
+        },
+        {
+          "id": "b1-u3-conditionals-compare.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "If",
+            "I",
+            "would",
+            "study,",
+            "I",
+            "will",
+            "pass."
+          ],
+          "answer": 2,
+          "fix": "If I study, I will pass.",
+          "aiHints": {
+            "explanation": "درستش این است: If I study, I will pass."
+          }
+        },
+        {
+          "id": "b1-u3-conditionals-compare.8",
+          "kind": "speed",
+          "prompt": "سریع! «rich» یعنی چه؟",
+          "speak": "rich",
+          "choices": [
+            "مشغول کار خواهم بود",
+            "ثروتمند"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u3-conditionals-compare.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «had»",
+          "choices": [
+            "شاید",
+            "قبول شدن",
+            "داشت"
+          ],
+          "answer": 2,
+          "speak": "had",
+          "reviewOf": "b1-u3-second-conditional"
+        },
+        {
+          "id": "b1-u3-conditionals-compare.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "money",
+          "choices": [
+            "money",
+            "may",
+            "maybe"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u3-second-conditional"
+        },
+        {
+          "id": "b1-u3-conditionals-compare.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✈️",
+          "choices": [
+            "pass",
+            "travel",
+            "will be working"
+          ],
+          "answer": 1,
+          "speak": "travel",
+          "reviewOf": "b1-u3-second-conditional"
+        },
+        {
+          "id": "b1-u3-conditionals-compare.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «dream»",
+          "speak": "dream",
+          "choices": [
+            "رویا",
+            "مشغول کار خواهم بود"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u3-second-conditional"
+        },
+        {
+          "id": "b1-u3-conditionals-compare.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر ثروتمند بودم، به همه کمک می‌کردم.",
+          "sentence": "If I were rich, I ___ help everyone.",
+          "choices": [
+            "would",
+            "money",
+            "real"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "If I pass, I will celebrate.",
+          "fa": "اگر قبول شوم، جشن می‌گیرم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "دو الگو",
+        "body": "واقعی: if + حال ساده + will. خیالی: if + گذشته + would."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u3-boss",
+    "titleFa": "نبرد پایانی — آینده و اگر",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u3-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «will be travelling»",
+        "speak": "will be travelling",
+        "choices": [
+          "در سفر خواهم بود",
+          "می‌تواند / ممکن است",
+          "رویا"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u3-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "arrive",
+        "choices": [
+          "arrive",
+          "maybe",
+          "could"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u3-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "💭",
+        "choices": [
+          "might",
+          "could",
+          "dream"
+        ],
+        "answer": 1,
+        "speak": "could"
+      },
+      {
+        "id": "b1-u3-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «would»",
+        "speak": "would",
+        "choices": [
+          "احتمالاً",
+          "می‌کردم"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u3-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «travel»",
+        "speak": "travel",
+        "choices": [
+          "می‌کردم",
+          "ممکن است",
+          "سفر کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u3-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "imaginary",
+        "choices": [
+          "study",
+          "pass",
+          "imaginary"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u3-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "💰",
+        "choices": [
+          "next week",
+          "maybe",
+          "rich"
+        ],
+        "answer": 2,
+        "speak": "rich"
+      },
+      {
+        "id": "b1-u3-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «this time tomorrow»",
+        "speak": "this time tomorrow",
+        "choices": [
+          "فردا همین وقت",
+          "می‌تواند / ممکن است"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u3-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «might»",
+        "speak": "might",
+        "choices": [
+          "داشت",
+          "ممکن است",
+          "در سفر خواهم بود"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u3-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "probably",
+        "choices": [
+          "imaginary",
+          "probably",
+          "arrive"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,1292 @@
+{
+  "id": "b1-u1",
+  "level": "B1",
+  "index": 1,
+  "titleFa": "داستان‌گویی در گذشته",
+  "titleEn": "Telling a story",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "b1-u1-past-continuous",
+      "title": "I was walking…",
+      "titleFa": "گذشتهٔ استمراری",
+      "goal": "بگویی کاری در گذشته در جریان بود",
+      "buildsOn": [
+        "a2-u10-a2-final"
+      ],
+      "vocab": [
+        {
+          "en": "was walking",
+          "fa": "قدم می‌زدم",
+          "emoji": "🚶"
+        },
+        {
+          "en": "were talking",
+          "fa": "حرف می‌زدند",
+          "emoji": "💬"
+        },
+        {
+          "en": "while",
+          "fa": "در حالی که",
+          "emoji": "⏳"
+        },
+        {
+          "en": "when",
+          "fa": "وقتی که",
+          "emoji": "⏰"
+        },
+        {
+          "en": "noise",
+          "fa": "صدا",
+          "emoji": "🔊"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "was walking",
+          "fa": "قدم می‌زدم",
+          "emoji": "🚶"
+        },
+        {
+          "kind": "word",
+          "en": "were talking",
+          "fa": "حرف می‌زدند",
+          "emoji": "💬"
+        },
+        {
+          "kind": "word",
+          "en": "while",
+          "fa": "در حالی که",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "when",
+          "fa": "وقتی که",
+          "emoji": "⏰"
+        },
+        {
+          "kind": "sentence",
+          "en": "I was reading when the phone rang.",
+          "fa": "داشتم می‌خواندم که تلفن زنگ زد."
+        },
+        {
+          "kind": "sentence",
+          "en": "I was walking home when it started to rain.",
+          "fa": "داشتم به خانه می‌رفتم که باران شروع شد.",
+          "highlight": "was walking"
+        },
+        {
+          "kind": "rule",
+          "title": "کارِ در جریان",
+          "body": "برای کاری که در گذشته مدتی ادامه داشت: was/were + فعل ing.",
+          "examples": [
+            {
+              "en": "I was reading when the phone rang.",
+              "fa": "داشتم می‌خواندم که تلفن زنگ زد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u1-past-continuous.1",
+          "kind": "mcq",
+          "prompt": "معنی «was walking» چیست؟",
+          "promptFa": "قدم می‌زدم",
+          "choices": [
+            "متوقف شد",
+            "قدم می‌زدم",
+            "رسید"
+          ],
+          "answer": 1,
+          "speak": "was walking",
+          "aiHints": {
+            "example": "I know the word \"was walking\".",
+            "explanation": "«was walking» یعنی قدم می‌زدم."
+          }
+        },
+        {
+          "id": "b1-u1-past-continuous.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💬",
+          "choices": [
+            "were talking",
+            "noise",
+            "when"
+          ],
+          "answer": 0,
+          "speak": "were talking"
+        },
+        {
+          "id": "b1-u1-past-continuous.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "while",
+          "choices": [
+            "dark",
+            "while",
+            "quiet"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u1-past-continuous.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "was walking",
+              "fa": "قدم می‌زدم"
+            },
+            {
+              "en": "when",
+              "fa": "وقتی که"
+            },
+            {
+              "en": "while",
+              "fa": "در حالی که"
+            },
+            {
+              "en": "were talking",
+              "fa": "حرف می‌زدند"
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-past-continuous.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "داشتم به خانه می‌رفتم که باران شروع شد.",
+          "sentence": "I ___ home when it started to rain.",
+          "choices": [
+            "suddenly",
+            "rang",
+            "was walking"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u1-past-continuous.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "داشتم می‌خواندم که تلفن زنگ زد.",
+          "tokens": [
+            "rang",
+            "phone",
+            "I",
+            "when",
+            "reading",
+            "was",
+            "the"
+          ],
+          "answer": "I was reading when the phone rang"
+        },
+        {
+          "id": "b1-u1-past-continuous.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "was",
+            "walk",
+            "home",
+            "when",
+            "it",
+            "rained."
+          ],
+          "answer": 2,
+          "fix": "I was walking home when it rained.",
+          "aiHints": {
+            "explanation": "درستش این است: I was walking home when it rained."
+          }
+        },
+        {
+          "id": "b1-u1-past-continuous.8",
+          "kind": "speed",
+          "prompt": "سریع! «noise» یعنی چه؟",
+          "speak": "noise",
+          "choices": [
+            "صدا",
+            "قدم می‌زدم"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u1-past-continuous.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «already»",
+          "choices": [
+            "قبلاً",
+            "خوشبختانه",
+            "تاریک"
+          ],
+          "answer": 0,
+          "speak": "already",
+          "reviewOf": "a2-u10-a2-final"
+        },
+        {
+          "id": "b1-u1-past-continuous.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "will",
+          "choices": [
+            "will",
+            "suddenly",
+            "dark"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u10-a2-final"
+        },
+        {
+          "id": "b1-u1-past-continuous.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👍",
+          "choices": [
+            "when",
+            "better",
+            "quiet"
+          ],
+          "answer": 1,
+          "speak": "better",
+          "reviewOf": "a2-u10-a2-final"
+        },
+        {
+          "id": "b1-u1-past-continuous.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «because»",
+          "speak": "because",
+          "choices": [
+            "چون",
+            "قدم می‌زدم"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u10-a2-final"
+        },
+        {
+          "id": "b1-u1-past-continuous.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "وقتی رسیدم داشتند حرف می‌زدند.",
+          "sentence": "They ___ when I arrived.",
+          "choices": [
+            "noise",
+            "while",
+            "were talking"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I was cooking when you called.",
+          "fa": "داشتم غذا می‌پختم که زنگ زدی."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "کارِ در جریان",
+        "body": "برای کاری که در گذشته مدتی ادامه داشت: was/were + فعل ing."
+      }
+    },
+    {
+      "id": "b1-u1-interruptions",
+      "title": "While I was sleeping",
+      "titleFa": "وقتی کارِ دیگری آن را قطع کرد",
+      "goal": "بگویی کاری در چه لحظه‌ای اتفاق افتاد",
+      "buildsOn": [
+        "b1-u1-past-continuous"
+      ],
+      "vocab": [
+        {
+          "en": "started",
+          "fa": "شروع شد",
+          "emoji": "▶️"
+        },
+        {
+          "en": "stopped",
+          "fa": "متوقف شد",
+          "emoji": "⏹️"
+        },
+        {
+          "en": "rang",
+          "fa": "زنگ زد",
+          "emoji": "🔔"
+        },
+        {
+          "en": "arrived",
+          "fa": "رسید",
+          "emoji": "🛬"
+        },
+        {
+          "en": "happened",
+          "fa": "اتفاق افتاد",
+          "emoji": "⚡"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "started",
+          "fa": "شروع شد",
+          "emoji": "▶️"
+        },
+        {
+          "kind": "word",
+          "en": "stopped",
+          "fa": "متوقف شد",
+          "emoji": "⏹️"
+        },
+        {
+          "kind": "word",
+          "en": "rang",
+          "fa": "زنگ زد",
+          "emoji": "🔔"
+        },
+        {
+          "kind": "word",
+          "en": "arrived",
+          "fa": "رسید",
+          "emoji": "🛬"
+        },
+        {
+          "kind": "sentence",
+          "en": "It started to rain while we were playing.",
+          "fa": "وقتی داشتیم بازی می‌کردیم باران شروع شد."
+        },
+        {
+          "kind": "sentence",
+          "en": "The phone rang while I was sleeping.",
+          "fa": "وقتی خواب بودم تلفن زنگ زد.",
+          "highlight": "rang"
+        },
+        {
+          "kind": "rule",
+          "title": "طولانی یا کوتاه",
+          "body": "کار طولانی با ing و کار کوتاهی که آن را قطع کرد با گذشتهٔ ساده می‌آید.",
+          "examples": [
+            {
+              "en": "It started to rain while we were playing.",
+              "fa": "وقتی داشتیم بازی می‌کردیم باران شروع شد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u1-interruptions.1",
+          "kind": "mcq",
+          "prompt": "معنی «started» چیست؟",
+          "promptFa": "شروع شد",
+          "choices": [
+            "شروع شد",
+            "اتفاق افتاد",
+            "خوشبختانه"
+          ],
+          "answer": 0,
+          "speak": "started",
+          "aiHints": {
+            "example": "I know the word \"started\".",
+            "explanation": "«started» یعنی شروع شد."
+          }
+        },
+        {
+          "id": "b1-u1-interruptions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⏹️",
+          "choices": [
+            "stopped",
+            "happened",
+            "started"
+          ],
+          "answer": 0,
+          "speak": "stopped"
+        },
+        {
+          "id": "b1-u1-interruptions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "rang",
+          "choices": [
+            "rang",
+            "crowd",
+            "stopped"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u1-interruptions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "started",
+              "fa": "شروع شد"
+            },
+            {
+              "en": "arrived",
+              "fa": "رسید"
+            },
+            {
+              "en": "stopped",
+              "fa": "متوقف شد"
+            },
+            {
+              "en": "rang",
+              "fa": "زنگ زد"
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-interruptions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "وقتی خواب بودم تلفن زنگ زد.",
+          "sentence": "The phone ___ while I was sleeping.",
+          "choices": [
+            "rang",
+            "quiet",
+            "street"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u1-interruptions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "وقتی داشتیم بازی می‌کردیم باران شروع شد.",
+          "tokens": [
+            "started",
+            "rain",
+            "were",
+            "It",
+            "we",
+            "while",
+            "to",
+            "playing"
+          ],
+          "answer": "It started to rain while we were playing"
+        },
+        {
+          "id": "b1-u1-interruptions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "While",
+            "I",
+            "was",
+            "sleep",
+            "the",
+            "phone",
+            "rang."
+          ],
+          "answer": 3,
+          "fix": "While I was sleeping, the phone rang.",
+          "aiHints": {
+            "explanation": "درستش این است: While I was sleeping, the phone rang."
+          }
+        },
+        {
+          "id": "b1-u1-interruptions.8",
+          "kind": "speed",
+          "prompt": "سریع! «happened» یعنی چه؟",
+          "speak": "happened",
+          "choices": [
+            "قدم می‌زدم",
+            "اتفاق افتاد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u1-interruptions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «were talking»",
+          "choices": [
+            "یک‌هو",
+            "حرف می‌زدند",
+            "صدا"
+          ],
+          "answer": 1,
+          "speak": "were talking",
+          "reviewOf": "b1-u1-past-continuous"
+        },
+        {
+          "id": "b1-u1-interruptions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "while",
+          "choices": [
+            "started",
+            "lights",
+            "while"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u1-past-continuous"
+        },
+        {
+          "id": "b1-u1-interruptions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⏰",
+          "choices": [
+            "when",
+            "quiet",
+            "crowd"
+          ],
+          "answer": 0,
+          "speak": "when",
+          "reviewOf": "b1-u1-past-continuous"
+        },
+        {
+          "id": "b1-u1-interruptions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «noise»",
+          "speak": "noise",
+          "choices": [
+            "قدم می‌زدم",
+            "صدا"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u1-past-continuous"
+        },
+        {
+          "id": "b1-u1-interruptions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "وقتی داشتیم غذا می‌خوردیم او رسید.",
+          "sentence": "She ___ while we were eating.",
+          "choices": [
+            "arrived",
+            "stopped",
+            "street"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "She called me while I was working.",
+          "fa": "وقتی کار می‌کردم به من زنگ زد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "طولانی یا کوتاه",
+        "body": "کار طولانی با ing و کار کوتاهی که آن را قطع کرد با گذشتهٔ ساده می‌آید."
+      }
+    },
+    {
+      "id": "b1-u1-story-connectors",
+      "title": "Suddenly, luckily",
+      "titleFa": "کلمه‌های داستان",
+      "goal": "داستانت را جذاب‌تر تعریف کنی",
+      "buildsOn": [
+        "b1-u1-interruptions"
+      ],
+      "vocab": [
+        {
+          "en": "suddenly",
+          "fa": "یک‌هو",
+          "emoji": "💥"
+        },
+        {
+          "en": "at that moment",
+          "fa": "در همان لحظه",
+          "emoji": "⏱️"
+        },
+        {
+          "en": "in the end",
+          "fa": "در آخر",
+          "emoji": "🏁"
+        },
+        {
+          "en": "luckily",
+          "fa": "خوشبختانه",
+          "emoji": "🍀"
+        },
+        {
+          "en": "unfortunately",
+          "fa": "متأسفانه",
+          "emoji": "😔"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "suddenly",
+          "fa": "یک‌هو",
+          "emoji": "💥"
+        },
+        {
+          "kind": "word",
+          "en": "at that moment",
+          "fa": "در همان لحظه",
+          "emoji": "⏱️"
+        },
+        {
+          "kind": "word",
+          "en": "in the end",
+          "fa": "در آخر",
+          "emoji": "🏁"
+        },
+        {
+          "kind": "word",
+          "en": "luckily",
+          "fa": "خوشبختانه",
+          "emoji": "🍀"
+        },
+        {
+          "kind": "sentence",
+          "en": "In the end, everything was fine.",
+          "fa": "در آخر همه‌چیز خوب شد."
+        },
+        {
+          "kind": "sentence",
+          "en": "Suddenly, the lights went out.",
+          "fa": "یک‌هو چراغ‌ها خاموش شد.",
+          "highlight": "Suddenly"
+        },
+        {
+          "kind": "rule",
+          "title": "اول جمله بیاید",
+          "body": "این کلمه‌ها معمولاً اول جمله می‌آیند و با ویرگول جدا می‌شوند.",
+          "examples": [
+            {
+              "en": "In the end, everything was fine.",
+              "fa": "در آخر همه‌چیز خوب شد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u1-story-connectors.1",
+          "kind": "mcq",
+          "prompt": "معنی «suddenly» چیست؟",
+          "promptFa": "یک‌هو",
+          "choices": [
+            "اتفاق افتاد",
+            "متأسفانه",
+            "یک‌هو"
+          ],
+          "answer": 2,
+          "speak": "suddenly",
+          "aiHints": {
+            "example": "I know the word \"suddenly\".",
+            "explanation": "«suddenly» یعنی یک‌هو."
+          }
+        },
+        {
+          "id": "b1-u1-story-connectors.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⏱️",
+          "choices": [
+            "suddenly",
+            "at that moment",
+            "luckily"
+          ],
+          "answer": 1,
+          "speak": "at that moment"
+        },
+        {
+          "id": "b1-u1-story-connectors.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "in the end",
+          "choices": [
+            "quiet",
+            "in the end",
+            "started"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u1-story-connectors.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "in the end",
+              "fa": "در آخر"
+            },
+            {
+              "en": "suddenly",
+              "fa": "یک‌هو"
+            },
+            {
+              "en": "at that moment",
+              "fa": "در همان لحظه"
+            },
+            {
+              "en": "luckily",
+              "fa": "خوشبختانه"
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-story-connectors.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "یک‌هو چراغ‌ها خاموش شد.",
+          "sentence": "___, the lights went out.",
+          "choices": [
+            "Suddenly",
+            "dark",
+            "happened"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u1-story-connectors.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "در آخر همه‌چیز خوب شد.",
+          "tokens": [
+            "was",
+            "everything",
+            "In",
+            "fine",
+            "end,",
+            "the"
+          ],
+          "answer": "In the end, everything was fine"
+        },
+        {
+          "id": "b1-u1-story-connectors.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "In",
+            "the",
+            "end,",
+            "everything",
+            "were",
+            "fine."
+          ],
+          "answer": 4,
+          "fix": "In the end, everything was fine.",
+          "aiHints": {
+            "explanation": "درستش این است: In the end, everything was fine."
+          }
+        },
+        {
+          "id": "b1-u1-story-connectors.8",
+          "kind": "speed",
+          "prompt": "سریع! «unfortunately» یعنی چه؟",
+          "speak": "unfortunately",
+          "choices": [
+            "قدم می‌زدم",
+            "متأسفانه"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u1-story-connectors.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «stopped»",
+          "choices": [
+            "زنگ زد",
+            "اتفاق افتاد",
+            "متوقف شد"
+          ],
+          "answer": 2,
+          "speak": "stopped",
+          "reviewOf": "b1-u1-interruptions"
+        },
+        {
+          "id": "b1-u1-story-connectors.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "rang",
+          "choices": [
+            "rang",
+            "quiet",
+            "was walking"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u1-interruptions"
+        },
+        {
+          "id": "b1-u1-story-connectors.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛬",
+          "choices": [
+            "while",
+            "in the end",
+            "arrived"
+          ],
+          "answer": 2,
+          "speak": "arrived",
+          "reviewOf": "b1-u1-interruptions"
+        },
+        {
+          "id": "b1-u1-story-connectors.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «happened»",
+          "speak": "happened",
+          "choices": [
+            "اتفاق افتاد",
+            "قدم می‌زدم"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u1-interruptions"
+        },
+        {
+          "id": "b1-u1-story-connectors.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "خوشبختانه کلید را پیدا کردیم.",
+          "sentence": "___, we found the key.",
+          "choices": [
+            "stopped",
+            "unfortunately",
+            "Luckily"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Suddenly the phone rang and luckily I answered.",
+          "fa": "یک‌هو تلفن زنگ زد و خوشبختانه جواب دادم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "اول جمله بیاید",
+        "body": "این کلمه‌ها معمولاً اول جمله می‌آیند و با ویرگول جدا می‌شوند."
+      }
+    },
+    {
+      "id": "b1-u1-describing-scene",
+      "title": "The street was quiet",
+      "titleFa": "توصیف صحنه",
+      "goal": "یک صحنه را در گذشته توصیف کنی",
+      "buildsOn": [
+        "b1-u1-story-connectors"
+      ],
+      "vocab": [
+        {
+          "en": "crowd",
+          "fa": "جمعیت",
+          "emoji": "👥"
+        },
+        {
+          "en": "lights",
+          "fa": "چراغ‌ها",
+          "emoji": "💡"
+        },
+        {
+          "en": "street",
+          "fa": "خیابان",
+          "emoji": "🛣️"
+        },
+        {
+          "en": "dark",
+          "fa": "تاریک",
+          "emoji": "🌑"
+        },
+        {
+          "en": "quiet",
+          "fa": "ساکت",
+          "emoji": "🤫"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "crowd",
+          "fa": "جمعیت",
+          "emoji": "👥"
+        },
+        {
+          "kind": "word",
+          "en": "lights",
+          "fa": "چراغ‌ها",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "street",
+          "fa": "خیابان",
+          "emoji": "🛣️"
+        },
+        {
+          "kind": "word",
+          "en": "dark",
+          "fa": "تاریک",
+          "emoji": "🌑"
+        },
+        {
+          "kind": "sentence",
+          "en": "The street was quiet and dark.",
+          "fa": "خیابان ساکت و تاریک بود."
+        },
+        {
+          "kind": "sentence",
+          "en": "There was a big crowd in the square.",
+          "fa": "در میدان جمعیت زیادی بود.",
+          "highlight": "crowd"
+        },
+        {
+          "kind": "rule",
+          "title": "صحنه را بساز",
+          "body": "با there was / there were شروع کن و صفت اضافه کن: there was a big crowd.",
+          "examples": [
+            {
+              "en": "The street was quiet and dark.",
+              "fa": "خیابان ساکت و تاریک بود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u1-describing-scene.1",
+          "kind": "mcq",
+          "prompt": "معنی «crowd» چیست؟",
+          "promptFa": "جمعیت",
+          "choices": [
+            "خیابان",
+            "جمعیت",
+            "در آخر"
+          ],
+          "answer": 1,
+          "speak": "crowd",
+          "aiHints": {
+            "example": "I know the word \"crowd\".",
+            "explanation": "«crowd» یعنی جمعیت."
+          }
+        },
+        {
+          "id": "b1-u1-describing-scene.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "dark",
+            "quiet",
+            "lights"
+          ],
+          "answer": 2,
+          "speak": "lights"
+        },
+        {
+          "id": "b1-u1-describing-scene.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "street",
+          "choices": [
+            "rang",
+            "street",
+            "while"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u1-describing-scene.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "street",
+              "fa": "خیابان"
+            },
+            {
+              "en": "dark",
+              "fa": "تاریک"
+            },
+            {
+              "en": "crowd",
+              "fa": "جمعیت"
+            },
+            {
+              "en": "lights",
+              "fa": "چراغ‌ها"
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-describing-scene.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "در میدان جمعیت زیادی بود.",
+          "sentence": "There was a big ___ in the square.",
+          "choices": [
+            "crowd",
+            "dark",
+            "lights"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u1-describing-scene.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "خیابان ساکت و تاریک بود.",
+          "tokens": [
+            "and",
+            "street",
+            "was",
+            "quiet",
+            "dark",
+            "The"
+          ],
+          "answer": "The street was quiet and dark"
+        },
+        {
+          "id": "b1-u1-describing-scene.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "There",
+            "were",
+            "a",
+            "big",
+            "crowd",
+            "in",
+            "the",
+            "square."
+          ],
+          "answer": 1,
+          "fix": "There was a big crowd in the square.",
+          "aiHints": {
+            "explanation": "درستش این است: There was a big crowd in the square."
+          }
+        },
+        {
+          "id": "b1-u1-describing-scene.8",
+          "kind": "speed",
+          "prompt": "سریع! «quiet» یعنی چه؟",
+          "speak": "quiet",
+          "choices": [
+            "ساکت",
+            "قدم می‌زدم"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u1-describing-scene.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «at that moment»",
+          "choices": [
+            "صدا",
+            "وقتی که",
+            "در همان لحظه"
+          ],
+          "answer": 2,
+          "speak": "at that moment",
+          "reviewOf": "b1-u1-story-connectors"
+        },
+        {
+          "id": "b1-u1-describing-scene.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "in the end",
+          "choices": [
+            "in the end",
+            "were talking",
+            "stopped"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u1-story-connectors"
+        },
+        {
+          "id": "b1-u1-describing-scene.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🍀",
+          "choices": [
+            "lights",
+            "suddenly",
+            "luckily"
+          ],
+          "answer": 2,
+          "speak": "luckily",
+          "reviewOf": "b1-u1-story-connectors"
+        },
+        {
+          "id": "b1-u1-describing-scene.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «unfortunately»",
+          "speak": "unfortunately",
+          "choices": [
+            "قدم می‌زدم",
+            "متأسفانه"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u1-story-connectors"
+        },
+        {
+          "id": "b1-u1-describing-scene.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "چراغ‌ها روشن بودند.",
+          "sentence": "The ___ were bright.",
+          "choices": [
+            "lights",
+            "happened",
+            "crowd"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "There were lights and a big crowd.",
+          "fa": "چراغ‌ها و جمعیت زیادی بود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "صحنه را بساز",
+        "body": "با there was / there were شروع کن و صفت اضافه کن: there was a big crowd."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u1-boss",
+    "titleFa": "نبرد پایانی — داستان‌گویی در گذشته",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u1-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «were talking»",
+        "speak": "were talking",
+        "choices": [
+          "اتفاق افتاد",
+          "حرف می‌زدند",
+          "رسید"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u1-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "noise",
+        "choices": [
+          "luckily",
+          "noise",
+          "happened"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u1-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔔",
+        "choices": [
+          "rang",
+          "in the end",
+          "noise"
+        ],
+        "answer": 0,
+        "speak": "rang"
+      },
+      {
+        "id": "b1-u1-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «suddenly»",
+        "speak": "suddenly",
+        "choices": [
+          "یک‌هو",
+          "شروع شد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u1-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «luckily»",
+        "speak": "luckily",
+        "choices": [
+          "رسید",
+          "چراغ‌ها",
+          "خوشبختانه"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u1-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "lights",
+        "choices": [
+          "in the end",
+          "lights",
+          "at that moment"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u1-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🤫",
+        "choices": [
+          "stopped",
+          "quiet",
+          "luckily"
+        ],
+        "answer": 1,
+        "speak": "quiet"
+      },
+      {
+        "id": "b1-u1-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «while»",
+        "speak": "while",
+        "choices": [
+          "در حالی که",
+          "اتفاق افتاد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u1-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «started»",
+        "speak": "started",
+        "choices": [
+          "رسید",
+          "در حالی که",
+          "شروع شد"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u1-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "arrived",
+        "choices": [
+          "arrived",
+          "rang",
+          "luckily"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}
