@@ -1,0 +1,22 @@
+const { chromium } = require("playwright");
+(async () => {
+  const b = await chromium.launch({ channel: "chrome" });
+  const p = await b.newPage({ viewport: { width: 430, height: 940 }, locale: "fa-IR" });
+  const errors = [];
+  p.on("pageerror", (e) => errors.push(e.message.slice(0, 160)));
+  p.on("console", (m) => m.type() === "error" && errors.push("console: " + m.text().slice(0, 160)));
+  await p.goto("http://localhost:3200/", { waitUntil: "networkidle" });
+  await p.waitForTimeout(600);
+  const title = await p.title();
+  await p.goto("http://localhost:3200/app/", { waitUntil: "networkidle" });
+  await p.waitForTimeout(800);
+  const hearts = await p.evaluate(() => document.querySelectorAll("svg.lucide-heart.fill-coral").length);
+  await p.locator('a:has-text("سلام کردن")').first().click();
+  await p.waitForTimeout(800);
+  await p.getByRole("button", { name: /شروع/ }).first().click();
+  await p.waitForTimeout(700);
+  const hasChoices = await p.evaluate(() => document.querySelectorAll("main button").length);
+  await p.screenshot({ path: "D:/Projects/zabanyar/shots/24-static-export.png" });
+  console.log(JSON.stringify({ title, hearts, hasChoices, url: p.url(), errors }, null, 2));
+  await b.close();
+})();

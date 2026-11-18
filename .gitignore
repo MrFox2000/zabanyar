@@ -4,3 +4,7 @@ shots/video/
 *.tsbuildinfo
 .env*.local
 .vercel/
+out/
+.vercel/
+.api-parked/
+build-static.log

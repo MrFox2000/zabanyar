@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { allLessons, units } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 /** every lesson is a real, indexable page — 32 of them, plus the app shell */
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

@@ -67,6 +67,8 @@ npm run dev        # http://localhost:3000
 npm run build      # next build --webpack
 npm run content        # regenerate src/content/a1/*.json
 npm run content:check  # 0 problems expected
+npm run build:static   # static export to out/ (no server routes)
+npm run serve:static   # serve out/ on :3200
 ```
 
 Progress is stored in `localStorage` (`zabanyar.progress.v1`); hearts regenerate one per

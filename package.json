@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "content": "node scripts/gen-content.mjs",
-    "content:check": "node scripts/check-content.mjs"
+    "content:check": "node scripts/check-content.mjs",
+    "build:static": "node scripts/build-static.mjs",
+    "serve:static": "node scripts/serve-out.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
