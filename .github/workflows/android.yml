@@ -22,12 +22,16 @@ jobs:
           cache: npm
       - run: npm ci
 
+      # the runner image already ships the Android SDK; no extra setup action
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "21"
 
-      - uses: android-actions/setup-android@v3
+      - name: Point Gradle at the runner SDK
+        run: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties
+          echo "sdk=$ANDROID_SDK_ROOT"
 
       - name: Sync Capacitor
         run: npx cap sync android
@@ -41,21 +45,17 @@ jobs:
         run: |
           mkdir -p android/keystore
           echo "$KEYSTORE_BASE64" | base64 -d > android/keystore/zabanyar-release.jks
-          cat > android/keystore/keystore.properties <<EOF
-          storePassword=$KEYSTORE_PASSWORD
-          keyPassword=$KEY_PASSWORD
-          keyAlias=$KEY_ALIAS
-          storeFile=zabanyar-release.jks
-          EOF
+          printf 'storePassword=%s\nkeyPassword=%s\nkeyAlias=%s\nstoreFile=zabanyar-release.jks\n' \
+            "$KEYSTORE_PASSWORD" "$KEY_PASSWORD" "$KEY_ALIAS" > android/keystore/keystore.properties
 
       - name: Build signed APK
         working-directory: android
         run: |
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew assembleRelease --no-daemon --stacktrace
 
       - name: Show artifact
-        run: ls -lh app/build/outputs/apk/release/ 2>/dev/null || ls -lh android/app/build/outputs/apk/release/
+        run: ls -lh android/app/build/outputs/apk/release/ || true
 
       - uses: actions/upload-artifact@v4
         with:
