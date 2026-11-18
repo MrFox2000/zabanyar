@@ -10,13 +10,13 @@ from them, so the language forms a web instead of a stack of unrelated lessons.
 |---|---|---|
 | Marketing site | `src/app/page.tsx` | landing, features, pricing, FAQ |
 | App | `src/app/app/*` | map, lesson runner, boss battle, profile, weekly view |
-| Content | `src/content/a1/*.json` | 8 units · 32 lessons · 431 exercises |
+| Content | `src/content/a1/*.json` | 8 units · 32 lessons · 493 exercises |
 | Content pipeline | `scripts/gen-content.mjs` | build-time generator for the JSON above |
 | AI layer | `src/lib/ai/*`, `src/app/api/ai/*` | flags, client, events, `useAi`, routes |
 
 ## Numbers that are real
 
-- 8 units, 32 lessons, **431 exercises**, 8 boss battles
+- 8 units, 32 lessons, **493 exercises**, 8 boss battles
 - 8 game types: meaning, picture, listening, fill-the-blank, sentence building,
   match pairs, spot the mistake, speed round
 - 0 image or audio assets to license: the fox is inline SVG, audio is the browser's
@@ -65,15 +65,21 @@ NEXT_PUBLIC_AI_ENABLED=1
 npm install
 npm run dev        # http://localhost:3000
 npm run build      # next build --webpack
-npm run content    # regenerate src/content/a1/*.json
+npm run content        # regenerate src/content/a1/*.json
+npm run content:check  # 0 problems expected
 ```
 
 Progress is stored in `localStorage` (`zabanyar.progress.v1`); hearts regenerate one per
 15 minutes; stars are 95% / 80% accuracy thresholds; a lesson unlocks at ≥2 stars on its
 prerequisites.
 
+## Repo
+
+https://github.com/MrFox2000/zabanyar
+
 ## Checks
 
+- `npm run content:check` — 0 problems (schema, prerequisite graph, duplicate choices, token/answer match, 30–40% review share)
 - `npm run lint` — clean
 - `npm run build` — 47 routes prerendered
 - end-to-end (Playwright): a full lesson with all 8 game types answered correctly →

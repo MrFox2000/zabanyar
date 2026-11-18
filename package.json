@@ -7,7 +7,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "content": "node scripts/gen-content.mjs"
+    "content": "node scripts/gen-content.mjs",
+    "content:check": "node scripts/check-content.mjs"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
@@ -32,4 +33,3 @@
     "typescript": "^5"
   }
 }
-
