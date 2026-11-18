@@ -31,10 +31,17 @@ const TABS: { id: Tab; label: string; icon: string }[] = [
   { id: "weak", label: "ضعف‌های من", icon: "🎯" },
 ];
 
+type LevelGroup = {
+  level: string;
+  lessons: number;
+  units: { index: number; title: string; lessons: NotebookEntry[] }[];
+};
+
 /**
- * «دفتر من» — everything the learner has unlocked, grouped level → unit → lesson
- * instead of one endless list. The weak-spot tab reads the mistakes the lesson
- * runner records, and every row links straight back to its lesson.
+ * «دفتر من» — three levels of navigation, in this order:
+ *   سطح (A1/A2) → فصل/واحد → درس → آیتم‌ها
+ * so the learner can reach anything they have learned in two taps, and the
+ * weak-spot tab links every recorded mistake back to its lesson.
  */
 export function Notebook({ entries }: { entries: NotebookEntry[] }) {
   const progress = useProgress();
@@ -49,23 +56,30 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
 
   const needle = query.trim().toLowerCase();
   const matches = (text: string) => !needle || text.toLowerCase().includes(needle);
+  const matchesFa = (text: string) => !needle || text.includes(query.trim());
 
   const visible = useMemo(
     () => entries.filter((entry) => !onlyLearned || !hydrated || learned.has(entry.id)),
     [entries, hydrated, learned, onlyLearned],
   );
 
-  const groups = useMemo(() => {
-    const map = new Map<string, { level: string; unitIndex: number; unitTitle: string; lessons: NotebookEntry[] }>();
+  const tree = useMemo<LevelGroup[]>(() => {
+    const byLevel = new Map<string, Map<number, LevelGroup["units"][number]>>();
     for (const entry of visible) {
-      const key = `${entry.level}-${entry.unitIndex}`;
-      const group = map.get(key) ?? { level: entry.level, unitIndex: entry.unitIndex, unitTitle: entry.unitTitle, lessons: [] };
-      group.lessons.push(entry);
-      map.set(key, group);
+      const units = byLevel.get(entry.level) ?? new Map();
+      const unit = units.get(entry.unitIndex) ?? { index: entry.unitIndex, title: entry.unitTitle, lessons: [] };
+      unit.lessons.push(entry);
+      units.set(entry.unitIndex, unit);
+      byLevel.set(entry.level, units);
     }
-    return [...map.values()]
-      .map((group) => ({ ...group, lessons: group.lessons.sort((a, b) => a.order - b.order) }))
-      .sort((a, b) => a.level.localeCompare(b.level) || a.unitIndex - b.unitIndex);
+    return [...byLevel.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([level, units]) => {
+        const list = [...units.values()]
+          .sort((a, b) => a.index - b.index)
+          .map((unit) => ({ ...unit, lessons: unit.lessons.sort((a, b) => a.order - b.order) }));
+        return { level, units: list, lessons: list.reduce((sum, unit) => sum + unit.lessons.length, 0) };
+      });
   }, [visible]);
 
   const weakSpots = useMemo(
@@ -87,21 +101,22 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
     [visible, weakSpots],
   );
 
-  const lessonItems = (entry: NotebookEntry) => {
+  const itemsOf = (entry: NotebookEntry) => {
     if (tab === "words") {
-      return entry.vocab
-        .filter((item) => matches(item.en) || item.fa.includes(query.trim()))
-        .map((item) => ({ kind: "word" as const, item }));
+      return entry.vocab.filter((item) => matches(item.en) || matchesFa(item.fa)).map((item) => ({ kind: "word" as const, item }));
     }
     if (tab === "sentences") {
-      return entry.sentences.filter((item) => matches(item.en) || item.fa.includes(query.trim())).map((item) => ({ kind: "sentence" as const, item }));
+      return entry.sentences
+        .filter((item) => matches(item.en) || matchesFa(item.fa))
+        .map((item) => ({ kind: "sentence" as const, item }));
     }
-    if (tab === "tips") {
-      if (!entry.tip) return [];
+    if (tab === "tips" && entry.tip) {
       return matches(entry.tip.title) || matches(entry.tip.body) ? [{ kind: "tip" as const, item: entry.tip }] : [];
     }
     return [];
   };
+
+  const toggle = (key: string) => setClosed((current) => ({ ...current, [key]: !current[key] }));
 
   return (
     <div className="min-h-dvh">
@@ -119,7 +134,7 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
             <div>
               <h1 className="text-lg font-extrabold text-plum">دفتر من</h1>
               <p className="text-xs leading-5 text-plum-soft">
-                همه‌چیز به‌ترتیب سطح و واحد، با جست‌وجو — و هر چیزی که غلط زدی، این‌جا به همان درس وصل است.
+                هر چه یاد گرفته‌ای: <b>سطح → فصل (واحد) → درس</b>. هر جواب غلط هم به همان درس وصل است.
               </p>
             </div>
           </div>
@@ -147,8 +162,7 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
               >
                 <span className="block text-sm">{item.icon}</span>
                 {item.label}
-                {item.id !== "weak" && <span className="num block text-[9px] opacity-70">{fa(counts[item.id])}</span>}
-                {item.id === "weak" && counts.weak > 0 && <span className="num block text-[9px] opacity-70">{fa(counts.weak)}</span>}
+                <span className="num block text-[9px] opacity-70">{fa(counts[item.id])}</span>
               </button>
             ))}
           </div>
@@ -180,7 +194,7 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-sm font-extrabold text-plum">{entry!.titleFa}</p>
                     <p className="text-[11px] text-plum-soft">
-                      {fa(record.count)} اشتباه · {entry!.level} · واحد {fa(entry!.unitIndex)} · {entry!.unitTitle}
+                      {fa(record.count)} اشتباه · {entry!.level} · فصل {fa(entry!.unitIndex)} · {entry!.unitTitle}
                     </p>
                   </div>
                   <Link
@@ -194,104 +208,134 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
             )}
           </section>
         ) : (
-          <div className="space-y-3">
-            {groups.map((group) => {
-              const key = `${group.level}-${group.unitIndex}`;
-              const isClosed = closed[key];
-              const lessonRows = group.lessons
-                .map((entry) => ({ entry, items: lessonItems(entry) }))
-                .filter((row) => row.items.length > 0);
+          <div className="space-y-4">
+            {tree.map((level) => {
+              const levelOpen = !closed[`level-${level.level}`];
+              const levelWords = level.units.reduce(
+                (sum, unit) => sum + unit.lessons.reduce((n, lesson) => n + lesson.vocab.length, 0),
+                0,
+              );
 
               return (
-                <section key={key} className="card overflow-hidden">
+                <section key={level.level}>
+                  {/* سطح */}
                   <button
                     type="button"
-                    onClick={() => setClosed((current) => ({ ...current, [key]: !current[key] }))}
-                    className="flex w-full items-center justify-between gap-2 bg-sand/60 px-4 py-3 text-right"
+                    onClick={() => toggle(`level-${level.level}`)}
+                    className="sticky top-14 z-10 flex w-full items-center justify-between gap-2 rounded-2xl bg-plum px-4 py-2.5 text-cream shadow-pop"
                   >
-                    <span className="min-w-0">
-                      <span className="text-sm font-extrabold text-plum">
-                        {group.unitTitle}
-                      </span>
-                      <span className="mr-2 rounded-full bg-white px-2 py-0.5 text-[10px] font-bold text-plum-soft">
-                        {group.level} · واحد {fa(group.unitIndex)}
+                    <span className="flex items-center gap-2 text-sm font-extrabold">
+                      سطح {level.level}
+                      <span className="num rounded-full bg-white/15 px-2 py-0.5 text-[10px]">
+                        {fa(level.lessons)} درس · {fa(levelWords)} کلمه
                       </span>
                     </span>
-                    <span className="flex shrink-0 items-center gap-1 text-[11px] text-plum-soft">
-                      {fa(lessonRows.length)} درس
-                      <ChevronDown size={15} className={cn("transition-transform", isClosed && "-rotate-90")} />
-                    </span>
+                    <ChevronDown size={16} className={cn("transition-transform", !levelOpen && "-rotate-90")} />
                   </button>
 
-                  {!isClosed && (
-                    <div className="space-y-3 p-3">
-                      {lessonRows.map(({ entry, items }) => (
-                        <div key={entry.id} className="rounded-2xl bg-white/70 p-2.5">
-                          <div className="mb-1.5 flex items-center justify-between gap-2">
-                            <p className="truncate text-xs font-extrabold text-plum">{entry.titleFa}</p>
-                            <Link href={`/app/lesson/${entry.id}`} className="shrink-0 text-[10px] font-bold text-fox-deep underline">
-                              {learned.has(entry.id) ? "مرور" : "برو به درس"}
-                            </Link>
-                          </div>
+                  {levelOpen && (
+                    <div className="mt-2 space-y-2">
+                      {level.units.map((unit) => {
+                        const unitKey = `${level.level}-${unit.index}`;
+                        const unitOpen = !closed[unitKey];
+                        const lessonRows = unit.lessons
+                          .map((entry) => ({ entry, items: itemsOf(entry) }))
+                          .filter((row) => row.items.length > 0);
 
-                          <ul className="space-y-1.5">
-                            {items.map((row, position) => {
-                              if (row.kind === "word") {
-                                return (
-                                  <li key={`${entry.id}-w-${position}`} className="flex items-center gap-2 rounded-xl bg-sand/50 px-2 py-1.5">
-                                    <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-white">
-                                      <WordImage word={row.item.en} emoji={row.item.emoji} size={24} />
-                                    </span>
-                                    <span className="en text-xs font-extrabold text-plum">{row.item.en}</span>
-                                    <span className="truncate text-[11px] text-plum-soft">{row.item.fa}</span>
-                                    <button
-                                      type="button"
-                                      onClick={() => speak(row.item.en)}
-                                      aria-label={`تلفظ ${row.item.en}`}
-                                      className="mr-auto grid size-7 shrink-0 place-items-center rounded-lg bg-sky/15 text-[#0369a1]"
-                                    >
-                                      <Volume2 size={12} />
-                                    </button>
-                                  </li>
-                                );
-                              }
-                              if (row.kind === "sentence") {
-                                return (
-                                  <li key={`${entry.id}-s-${position}`} className="flex items-start gap-2 rounded-xl bg-sand/50 px-2 py-1.5">
-                                    <div className="min-w-0 flex-1">
-                                      <p className="en text-xs font-bold text-plum">{row.item.en}</p>
-                                      <p className="text-[10px] text-plum-soft">{row.item.fa}</p>
+                        return (
+                          <div key={unitKey} className="card overflow-hidden">
+                            {/* فصل / واحد */}
+                            <button
+                              type="button"
+                              onClick={() => toggle(unitKey)}
+                              className="flex w-full items-center justify-between gap-2 bg-sand/60 px-4 py-2.5 text-right"
+                            >
+                              <span className="min-w-0 truncate text-xs font-extrabold text-plum">
+                                فصل {fa(unit.index)} · {unit.title}
+                              </span>
+                              <span className="flex shrink-0 items-center gap-1 text-[10px] text-plum-soft">
+                                {fa(lessonRows.length)} درس
+                                <ChevronDown size={14} className={cn("transition-transform", !unitOpen && "-rotate-90")} />
+                              </span>
+                            </button>
+
+                            {unitOpen && (
+                              <div className="space-y-2.5 p-2.5">
+                                {lessonRows.map(({ entry, items }) => (
+                                  <div key={entry.id} className="rounded-2xl bg-white/70 p-2.5">
+                                    <div className="mb-1.5 flex items-center justify-between gap-2">
+                                      <p className="truncate text-xs font-extrabold text-plum">
+                                        <span className="num text-plum-soft">{fa(entry.order + 1)}. </span>
+                                        {entry.titleFa}
+                                      </p>
+                                      <Link href={`/app/lesson/${entry.id}`} className="shrink-0 text-[10px] font-bold text-fox-deep underline">
+                                        {learned.has(entry.id) ? "مرور" : "برو به درس"}
+                                      </Link>
                                     </div>
-                                    <button
-                                      type="button"
-                                      onClick={() => speak(row.item.en)}
-                                      aria-label={`تلفظ ${row.item.en}`}
-                                      className="grid size-7 shrink-0 place-items-center rounded-lg bg-sky/15 text-[#0369a1]"
-                                    >
-                                      <Volume2 size={12} />
-                                    </button>
-                                  </li>
-                                );
-                              }
-                              return (
-                                <li key={`${entry.id}-t-${position}`} className="rounded-xl bg-gold/15 px-2 py-1.5">
-                                  <p className="text-[11px] font-extrabold text-[#a16207]">{row.item.title}</p>
-                                  <p className="mt-0.5 text-[11px] leading-5 text-plum" dir="rtl">
-                                    <BiText text={row.item.body} />
-                                  </p>
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      ))}
+
+                                    <ul className="space-y-1.5">
+                                      {items.map((row, position) => {
+                                        if (row.kind === "word") {
+                                          return (
+                                            <li key={`${entry.id}-w-${position}`} className="flex items-center gap-2 rounded-xl bg-sand/50 px-2 py-1.5">
+                                              <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-white">
+                                                <WordImage word={row.item.en} emoji={row.item.emoji} size={24} />
+                                              </span>
+                                              <span className="en text-xs font-extrabold text-plum">{row.item.en}</span>
+                                              <span className="truncate text-[11px] text-plum-soft">{row.item.fa}</span>
+                                              <button
+                                                type="button"
+                                                onClick={() => speak(row.item.en)}
+                                                aria-label={`تلفظ ${row.item.en}`}
+                                                className="mr-auto grid size-7 shrink-0 place-items-center rounded-lg bg-sky/15 text-[#0369a1]"
+                                              >
+                                                <Volume2 size={12} />
+                                              </button>
+                                            </li>
+                                          );
+                                        }
+                                        if (row.kind === "sentence") {
+                                          return (
+                                            <li key={`${entry.id}-s-${position}`} className="flex items-start gap-2 rounded-xl bg-sand/50 px-2 py-1.5">
+                                              <div className="min-w-0 flex-1">
+                                                <p className="en text-xs font-bold text-plum">{row.item.en}</p>
+                                                <p className="text-[10px] text-plum-soft">{row.item.fa}</p>
+                                              </div>
+                                              <button
+                                                type="button"
+                                                onClick={() => speak(row.item.en)}
+                                                aria-label={`تلفظ ${row.item.en}`}
+                                                className="grid size-7 shrink-0 place-items-center rounded-lg bg-sky/15 text-[#0369a1]"
+                                              >
+                                                <Volume2 size={12} />
+                                              </button>
+                                            </li>
+                                          );
+                                        }
+                                        return (
+                                          <li key={`${entry.id}-t-${position}`} className="rounded-xl bg-gold/15 px-2 py-1.5">
+                                            <p className="text-[11px] font-extrabold text-[#a16207]">{row.item.title}</p>
+                                            <p className="mt-0.5 text-[11px] leading-5 text-plum" dir="rtl">
+                                              <BiText text={row.item.body} />
+                                            </p>
+                                          </li>
+                                        );
+                                      })}
+                                    </ul>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   )}
                 </section>
               );
             })}
 
-            {groups.length === 0 && (
+            {tree.length === 0 && (
               <div className="card p-6 text-center text-sm text-plum-soft">
                 چیزی برای نمایش نیست. یک درس را کامل کن تا کلمه‌ها و جمله‌هایش این‌جا بیاید.
               </div>

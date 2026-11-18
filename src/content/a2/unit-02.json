@@ -1,0 +1,1278 @@
+{
+  "id": "a2-u2",
+  "level": "A2",
+  "index": 2,
+  "titleFa": "آینده و قرارها",
+  "titleEn": "Tomorrow and plans",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "a2-u2-will",
+      "title": "I will call you",
+      "titleFa": "آینده با will",
+      "goal": "از کاری که فردا می‌کنی حرف بزنی",
+      "buildsOn": [
+        "a2-u1-feelings-past"
+      ],
+      "vocab": [
+        {
+          "en": "will",
+          "fa": "خواهد",
+          "emoji": "🔮"
+        },
+        {
+          "en": "won't",
+          "fa": "نخواهد",
+          "emoji": "🚫"
+        },
+        {
+          "en": "probably",
+          "fa": "احتمالاً",
+          "emoji": "📊"
+        },
+        {
+          "en": "soon",
+          "fa": "به‌زودی",
+          "emoji": "⏳"
+        },
+        {
+          "en": "later",
+          "fa": "بعداً",
+          "emoji": "⏭️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "will",
+          "fa": "خواهد",
+          "emoji": "🔮"
+        },
+        {
+          "kind": "word",
+          "en": "won't",
+          "fa": "نخواهد",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "probably",
+          "fa": "احتمالاً",
+          "emoji": "📊"
+        },
+        {
+          "kind": "word",
+          "en": "soon",
+          "fa": "به‌زودی",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "sentence",
+          "en": "I will see you soon.",
+          "fa": "به‌زودی می‌بینمت."
+        },
+        {
+          "kind": "sentence",
+          "en": "I will call you tomorrow.",
+          "fa": "فردا بهت زنگ می‌زنم.",
+          "highlight": "will"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از will، فعل ساده",
+          "body": "برای آینده می‌گوییم will + فعل ساده: will go، will call. فعل s نمی‌گیرد.",
+          "examples": [
+            {
+              "en": "I will see you soon.",
+              "fa": "به‌زودی می‌بینمت."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u2-will.1",
+          "kind": "mcq",
+          "prompt": "معنی «will» چیست؟",
+          "promptFa": "خواهد",
+          "choices": [
+            "خواهد",
+            "ملحق شدن",
+            "پیشنهاد دادن"
+          ],
+          "answer": 0,
+          "speak": "will",
+          "aiHints": {
+            "example": "I know the word \"will\".",
+            "explanation": "«will» یعنی خواهد."
+          }
+        },
+        {
+          "id": "a2-u2-will.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚫",
+          "choices": [
+            "probably",
+            "won't",
+            "will"
+          ],
+          "answer": 1,
+          "speak": "won't"
+        },
+        {
+          "id": "a2-u2-will.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "probably",
+          "choices": [
+            "how about",
+            "probably",
+            "offer"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u2-will.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "soon",
+              "fa": "به‌زودی"
+            },
+            {
+              "en": "won't",
+              "fa": "نخواهد"
+            },
+            {
+              "en": "will",
+              "fa": "خواهد"
+            },
+            {
+              "en": "probably",
+              "fa": "احتمالاً"
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-will.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "فردا بهت زنگ می‌زنم.",
+          "sentence": "I ___ call you tomorrow.",
+          "choices": [
+            "invite",
+            "will",
+            "would you like"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u2-will.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "به‌زودی می‌بینمت.",
+          "tokens": [
+            "see",
+            "will",
+            "I",
+            "you",
+            "soon"
+          ],
+          "answer": "I will see you soon"
+        },
+        {
+          "id": "a2-u2-will.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "will",
+            "goes",
+            "home."
+          ],
+          "answer": 2,
+          "fix": "I will go home.",
+          "aiHints": {
+            "explanation": "درستش این است: I will go home."
+          }
+        },
+        {
+          "id": "a2-u2-will.8",
+          "kind": "speed",
+          "prompt": "سریع! «later» یعنی چه؟",
+          "speak": "later",
+          "choices": [
+            "خواهد",
+            "بعداً"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u2-will.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «excited»",
+          "choices": [
+            "به‌زودی",
+            "هیجان‌زده",
+            "مطمئن"
+          ],
+          "answer": 1,
+          "speak": "excited",
+          "reviewOf": "a2-u1-feelings-past"
+        },
+        {
+          "id": "a2-u2-will.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "bored",
+          "choices": [
+            "leave",
+            "think",
+            "bored"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u1-feelings-past"
+        },
+        {
+          "id": "a2-u2-will.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "😨",
+          "choices": [
+            "plan",
+            "scared",
+            "think"
+          ],
+          "answer": 1,
+          "speak": "scared",
+          "reviewOf": "a2-u1-feelings-past"
+        },
+        {
+          "id": "a2-u2-will.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «surprised»",
+          "speak": "surprised",
+          "choices": [
+            "شگفت‌زده",
+            "خواهد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u1-feelings-past"
+        },
+        {
+          "id": "a2-u2-will.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او امشب نمی‌آید.",
+          "sentence": "She ___ come tonight.",
+          "choices": [
+            "how about",
+            "offer",
+            "won't"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I will call you later.",
+          "fa": "بعداً بهت زنگ می‌زنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از will، فعل ساده",
+        "body": "برای آینده می‌گوییم will + فعل ساده: will go، will call. فعل s نمی‌گیرد."
+      }
+    },
+    {
+      "id": "a2-u2-going-to-plans",
+      "title": "We are going to…",
+      "titleFa": "برنامهٔ قطعی",
+      "goal": "برنامه‌ات را بگویی",
+      "buildsOn": [
+        "a2-u2-will"
+      ],
+      "vocab": [
+        {
+          "en": "plan",
+          "fa": "برنامه",
+          "emoji": "🗒️"
+        },
+        {
+          "en": "decide",
+          "fa": "تصمیم گرفتن",
+          "emoji": "✅"
+        },
+        {
+          "en": "invite",
+          "fa": "دعوت کردن",
+          "emoji": "✉️"
+        },
+        {
+          "en": "arrive",
+          "fa": "رسیدن",
+          "emoji": "🛬"
+        },
+        {
+          "en": "leave",
+          "fa": "ترک کردن",
+          "emoji": "🚪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "plan",
+          "fa": "برنامه",
+          "emoji": "🗒️"
+        },
+        {
+          "kind": "word",
+          "en": "decide",
+          "fa": "تصمیم گرفتن",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "invite",
+          "fa": "دعوت کردن",
+          "emoji": "✉️"
+        },
+        {
+          "kind": "word",
+          "en": "arrive",
+          "fa": "رسیدن",
+          "emoji": "🛬"
+        },
+        {
+          "kind": "sentence",
+          "en": "We are going to arrive at nine.",
+          "fa": "قرار است ساعت نه برسیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I need to plan my trip.",
+          "fa": "باید سفرم را برنامه‌ریزی کنم.",
+          "highlight": "plan"
+        },
+        {
+          "kind": "rule",
+          "title": "برنامهٔ قطعی",
+          "body": "برای کاری که تصمیم گرفته‌ای: am/is/are + going to + فعل ساده.",
+          "examples": [
+            {
+              "en": "We are going to arrive at nine.",
+              "fa": "قرار است ساعت نه برسیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u2-going-to-plans.1",
+          "kind": "mcq",
+          "prompt": "معنی «plan» چیست؟",
+          "promptFa": "برنامه",
+          "choices": [
+            "برنامه",
+            "ترک کردن",
+            "دوست داری"
+          ],
+          "answer": 0,
+          "speak": "plan",
+          "aiHints": {
+            "example": "I know the word \"plan\".",
+            "explanation": "«plan» یعنی برنامه."
+          }
+        },
+        {
+          "id": "a2-u2-going-to-plans.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "leave",
+            "arrive",
+            "decide"
+          ],
+          "answer": 2,
+          "speak": "decide"
+        },
+        {
+          "id": "a2-u2-going-to-plans.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "invite",
+          "choices": [
+            "join",
+            "invite",
+            "how about"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u2-going-to-plans.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "plan",
+              "fa": "برنامه"
+            },
+            {
+              "en": "invite",
+              "fa": "دعوت کردن"
+            },
+            {
+              "en": "arrive",
+              "fa": "رسیدن"
+            },
+            {
+              "en": "decide",
+              "fa": "تصمیم گرفتن"
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-going-to-plans.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باید سفرم را برنامه‌ریزی کنم.",
+          "sentence": "I need to ___ my trip.",
+          "choices": [
+            "plan",
+            "might",
+            "maybe"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u2-going-to-plans.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "قرار است ساعت نه برسیم.",
+          "tokens": [
+            "are",
+            "We",
+            "nine",
+            "going",
+            "arrive",
+            "at",
+            "to"
+          ],
+          "answer": "We are going to arrive at nine"
+        },
+        {
+          "id": "a2-u2-going-to-plans.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "are",
+            "going",
+            "to",
+            "arrives",
+            "early."
+          ],
+          "answer": 4,
+          "fix": "We are going to arrive early.",
+          "aiHints": {
+            "explanation": "درستش این است: We are going to arrive early."
+          }
+        },
+        {
+          "id": "a2-u2-going-to-plans.8",
+          "kind": "speed",
+          "prompt": "سریع! «leave» یعنی چه؟",
+          "speak": "leave",
+          "choices": [
+            "خواهد",
+            "ترک کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u2-going-to-plans.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «won't»",
+          "choices": [
+            "تصمیم گرفتن",
+            "ترک کردن",
+            "نخواهد"
+          ],
+          "answer": 2,
+          "speak": "won't",
+          "reviewOf": "a2-u2-will"
+        },
+        {
+          "id": "a2-u2-going-to-plans.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "probably",
+          "choices": [
+            "probably",
+            "might",
+            "decide"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u2-will"
+        },
+        {
+          "id": "a2-u2-going-to-plans.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⏳",
+          "choices": [
+            "how about",
+            "soon",
+            "later"
+          ],
+          "answer": 1,
+          "speak": "soon",
+          "reviewOf": "a2-u2-will"
+        },
+        {
+          "id": "a2-u2-going-to-plans.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «later»",
+          "speak": "later",
+          "choices": [
+            "بعداً",
+            "خواهد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u2-will"
+        },
+        {
+          "id": "a2-u2-going-to-plans.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آن‌ها ساعت نه می‌رسند.",
+          "sentence": "They will ___ at nine.",
+          "choices": [
+            "would you like",
+            "arrive",
+            "won't"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We are going to leave early.",
+          "fa": "قرار است زود راه بیفتیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "برنامهٔ قطعی",
+        "body": "برای کاری که تصمیم گرفته‌ای: am/is/are + going to + فعل ساده."
+      }
+    },
+    {
+      "id": "a2-u2-invitations",
+      "title": "Would you like…?",
+      "titleFa": "دعوت کردن",
+      "goal": "کسی را دعوت کنی یا پیشنهاد بدهی",
+      "buildsOn": [
+        "a2-u2-going-to-plans"
+      ],
+      "vocab": [
+        {
+          "en": "would you like",
+          "fa": "دوست داری",
+          "emoji": "🙋"
+        },
+        {
+          "en": "let's",
+          "fa": "بیا",
+          "emoji": "🤝"
+        },
+        {
+          "en": "how about",
+          "fa": "چه‌طور",
+          "emoji": "💡"
+        },
+        {
+          "en": "offer",
+          "fa": "پیشنهاد دادن",
+          "emoji": "🎁"
+        },
+        {
+          "en": "join",
+          "fa": "ملحق شدن",
+          "emoji": "➕"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "would you like",
+          "fa": "دوست داری",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "word",
+          "en": "let's",
+          "fa": "بیا",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "word",
+          "en": "how about",
+          "fa": "چه‌طور",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "offer",
+          "fa": "پیشنهاد دادن",
+          "emoji": "🎁"
+        },
+        {
+          "kind": "sentence",
+          "en": "Would you like to join us?",
+          "fa": "دوست داری به ما ملحق شوی؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Would you like some tea?",
+          "fa": "چای میل داری؟",
+          "highlight": "Would"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از let's فعل ساده",
+          "body": "let's + فعل ساده، بدون to: let's go، let's eat.",
+          "examples": [
+            {
+              "en": "Would you like to join us?",
+              "fa": "دوست داری به ما ملحق شوی؟"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u2-invitations.1",
+          "kind": "mcq",
+          "prompt": "معنی «would you like» چیست؟",
+          "promptFa": "دوست داری",
+          "choices": [
+            "دوست داری",
+            "شاید",
+            "ملحق شدن"
+          ],
+          "answer": 0,
+          "speak": "would you like",
+          "aiHints": {
+            "example": "I know the word \"would you like\".",
+            "explanation": "«would you like» یعنی دوست داری."
+          }
+        },
+        {
+          "id": "a2-u2-invitations.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤝",
+          "choices": [
+            "let's",
+            "how about",
+            "join"
+          ],
+          "answer": 0,
+          "speak": "let's"
+        },
+        {
+          "id": "a2-u2-invitations.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "how about",
+          "choices": [
+            "how about",
+            "invite",
+            "will"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u2-invitations.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "let's",
+              "fa": "بیا"
+            },
+            {
+              "en": "offer",
+              "fa": "پیشنهاد دادن"
+            },
+            {
+              "en": "would you like",
+              "fa": "دوست داری"
+            },
+            {
+              "en": "how about",
+              "fa": "چه‌طور"
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-invitations.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "چای میل داری؟",
+          "sentence": "___ you like some tea?",
+          "choices": [
+            "join",
+            "Would",
+            "think"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u2-invitations.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دوست داری به ما ملحق شوی؟",
+          "tokens": [
+            "like",
+            "Would",
+            "you",
+            "join",
+            "to",
+            "us"
+          ],
+          "answer": "Would you like to join us"
+        },
+        {
+          "id": "a2-u2-invitations.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Let's",
+            "to",
+            "go",
+            "home."
+          ],
+          "answer": 1,
+          "fix": "Let's go home.",
+          "aiHints": {
+            "explanation": "درستش این است: Let's go home."
+          }
+        },
+        {
+          "id": "a2-u2-invitations.8",
+          "kind": "speed",
+          "prompt": "سریع! «join» یعنی چه؟",
+          "speak": "join",
+          "choices": [
+            "خواهد",
+            "ملحق شدن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u2-invitations.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «decide»",
+          "choices": [
+            "احتمالاً",
+            "شاید",
+            "تصمیم گرفتن"
+          ],
+          "answer": 2,
+          "speak": "decide",
+          "reviewOf": "a2-u2-going-to-plans"
+        },
+        {
+          "id": "a2-u2-invitations.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "invite",
+          "choices": [
+            "plan",
+            "might",
+            "invite"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u2-going-to-plans"
+        },
+        {
+          "id": "a2-u2-invitations.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛬",
+          "choices": [
+            "arrive",
+            "later",
+            "let's"
+          ],
+          "answer": 0,
+          "speak": "arrive",
+          "reviewOf": "a2-u2-going-to-plans"
+        },
+        {
+          "id": "a2-u2-invitations.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «leave»",
+          "speak": "leave",
+          "choices": [
+            "ترک کردن",
+            "خواهد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u2-going-to-plans"
+        },
+        {
+          "id": "a2-u2-invitations.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "بیا به پارک برویم.",
+          "sentence": "___ go to the park.",
+          "choices": [
+            "how about",
+            "Let's",
+            "join"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Would you like to join us tonight?",
+          "fa": "دوست داری امشب به ما ملحق شوی؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از let's فعل ساده",
+        "body": "let's + فعل ساده، بدون to: let's go، let's eat."
+      }
+    },
+    {
+      "id": "a2-u2-predictions",
+      "title": "It might rain",
+      "titleFa": "پیش‌بینی",
+      "goal": "حدس بزنی فردا چه می‌شود",
+      "buildsOn": [
+        "a2-u2-invitations"
+      ],
+      "vocab": [
+        {
+          "en": "might",
+          "fa": "ممکن است",
+          "emoji": "🤔"
+        },
+        {
+          "en": "think",
+          "fa": "فکر کردن",
+          "emoji": "💭"
+        },
+        {
+          "en": "sure",
+          "fa": "مطمئن",
+          "emoji": "✔️"
+        },
+        {
+          "en": "maybe",
+          "fa": "شاید",
+          "emoji": "🎲"
+        },
+        {
+          "en": "weather",
+          "fa": "هوا",
+          "emoji": "🌤️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "might",
+          "fa": "ممکن است",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "think",
+          "fa": "فکر کردن",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "sure",
+          "fa": "مطمئن",
+          "emoji": "✔️"
+        },
+        {
+          "kind": "word",
+          "en": "maybe",
+          "fa": "شاید",
+          "emoji": "🎲"
+        },
+        {
+          "kind": "sentence",
+          "en": "I think it will rain.",
+          "fa": "فکر می‌کنم باران می‌آید."
+        },
+        {
+          "kind": "sentence",
+          "en": "It might rain tomorrow.",
+          "fa": "شاید فردا باران بیاید.",
+          "highlight": "might"
+        },
+        {
+          "kind": "rule",
+          "title": "مطمئن یا شاید",
+          "body": "برای احتمال از might و برای حرف مطمئن‌تر از will استفاده کن. هر دو با فعل ساده.",
+          "examples": [
+            {
+              "en": "I think it will rain.",
+              "fa": "فکر می‌کنم باران می‌آید."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u2-predictions.1",
+          "kind": "mcq",
+          "prompt": "معنی «might» چیست؟",
+          "promptFa": "ممکن است",
+          "choices": [
+            "دعوت کردن",
+            "ممکن است",
+            "پیشنهاد دادن"
+          ],
+          "answer": 1,
+          "speak": "might",
+          "aiHints": {
+            "example": "I know the word \"might\".",
+            "explanation": "«might» یعنی ممکن است."
+          }
+        },
+        {
+          "id": "a2-u2-predictions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "think",
+            "might",
+            "maybe"
+          ],
+          "answer": 0,
+          "speak": "think"
+        },
+        {
+          "id": "a2-u2-predictions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "sure",
+          "choices": [
+            "sure",
+            "won't",
+            "maybe"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u2-predictions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "think",
+              "fa": "فکر کردن"
+            },
+            {
+              "en": "might",
+              "fa": "ممکن است"
+            },
+            {
+              "en": "sure",
+              "fa": "مطمئن"
+            },
+            {
+              "en": "maybe",
+              "fa": "شاید"
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-predictions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "شاید فردا باران بیاید.",
+          "sentence": "It ___ rain tomorrow.",
+          "choices": [
+            "soon",
+            "might",
+            "decide"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u2-predictions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فکر می‌کنم باران می‌آید.",
+          "tokens": [
+            "think",
+            "I",
+            "it",
+            "rain",
+            "will"
+          ],
+          "answer": "I think it will rain"
+        },
+        {
+          "id": "a2-u2-predictions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "might",
+            "rains",
+            "tomorrow."
+          ],
+          "answer": 2,
+          "fix": "It might rain tomorrow.",
+          "aiHints": {
+            "explanation": "درستش این است: It might rain tomorrow."
+          }
+        },
+        {
+          "id": "a2-u2-predictions.8",
+          "kind": "speed",
+          "prompt": "سریع! «weather» یعنی چه؟",
+          "speak": "weather",
+          "choices": [
+            "خواهد",
+            "هوا"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u2-predictions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «let's»",
+          "choices": [
+            "بیا",
+            "نخواهد",
+            "خواهد"
+          ],
+          "answer": 0,
+          "speak": "let's",
+          "reviewOf": "a2-u2-invitations"
+        },
+        {
+          "id": "a2-u2-predictions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "how about",
+          "choices": [
+            "how about",
+            "let's",
+            "invite"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u2-invitations"
+        },
+        {
+          "id": "a2-u2-predictions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎁",
+          "choices": [
+            "would you like",
+            "offer",
+            "join"
+          ],
+          "answer": 1,
+          "speak": "offer",
+          "reviewOf": "a2-u2-invitations"
+        },
+        {
+          "id": "a2-u2-predictions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «join»",
+          "speak": "join",
+          "choices": [
+            "خواهد",
+            "ملحق شدن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u2-invitations"
+        },
+        {
+          "id": "a2-u2-predictions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "فکر می‌کنم سرد می‌شود.",
+          "sentence": "I think it ___ be cold.",
+          "choices": [
+            "soon",
+            "sure",
+            "will"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I think it might rain later.",
+          "fa": "فکر می‌کنم بعداً شاید باران بیاید."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "مطمئن یا شاید",
+        "body": "برای احتمال از might و برای حرف مطمئن‌تر از will استفاده کن. هر دو با فعل ساده."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u2-boss",
+    "titleFa": "نبرد پایانی — آینده و قرارها",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u2-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «won't»",
+        "speak": "won't",
+        "choices": [
+          "دوست داری",
+          "نخواهد",
+          "فکر کردن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u2-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "later",
+        "choices": [
+          "later",
+          "weather",
+          "think"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u2-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "✉️",
+        "choices": [
+          "join",
+          "sure",
+          "invite"
+        ],
+        "answer": 2,
+        "speak": "invite"
+      },
+      {
+        "id": "a2-u2-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «would you like»",
+        "speak": "would you like",
+        "choices": [
+          "دوست داری",
+          "خواهد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u2-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «offer»",
+        "speak": "offer",
+        "choices": [
+          "هوا",
+          "پیشنهاد دادن",
+          "دعوت کردن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u2-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "think",
+        "choices": [
+          "soon",
+          "think",
+          "join"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u2-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🌤️",
+        "choices": [
+          "weather",
+          "join",
+          "invite"
+        ],
+        "answer": 0,
+        "speak": "weather"
+      },
+      {
+        "id": "a2-u2-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «probably»",
+        "speak": "probably",
+        "choices": [
+          "دعوت کردن",
+          "احتمالاً"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u2-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «plan»",
+        "speak": "plan",
+        "choices": [
+          "نخواهد",
+          "برنامه",
+          "بیا"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u2-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "arrive",
+        "choices": [
+          "arrive",
+          "offer",
+          "weather"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

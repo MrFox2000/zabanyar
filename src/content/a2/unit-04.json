@@ -1,0 +1,1283 @@
+{
+  "id": "a2-u4",
+  "level": "A2",
+  "index": 4,
+  "titleFa": "تجربه‌های من",
+  "titleEn": "Experiences",
+  "theme": "gold",
+  "lessons": [
+    {
+      "id": "a2-u4-present-perfect",
+      "title": "Have you ever…?",
+      "titleFa": "تجربهٔ زندگی",
+      "goal": "بگویی کاری را تا حالا انجام داده‌ای یا نه",
+      "buildsOn": [
+        "a2-u3-places"
+      ],
+      "vocab": [
+        {
+          "en": "been",
+          "fa": "بوده‌ام",
+          "emoji": "🌍"
+        },
+        {
+          "en": "seen",
+          "fa": "دیده‌ام",
+          "emoji": "👀"
+        },
+        {
+          "en": "eaten",
+          "fa": "خورده‌ام",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "ever",
+          "fa": "تا حالا",
+          "emoji": "❓"
+        },
+        {
+          "en": "never",
+          "fa": "هرگز",
+          "emoji": "🚫"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "been",
+          "fa": "بوده‌ام",
+          "emoji": "🌍"
+        },
+        {
+          "kind": "word",
+          "en": "seen",
+          "fa": "دیده‌ام",
+          "emoji": "👀"
+        },
+        {
+          "kind": "word",
+          "en": "eaten",
+          "fa": "خورده‌ام",
+          "emoji": "🍽️"
+        },
+        {
+          "kind": "word",
+          "en": "ever",
+          "fa": "تا حالا",
+          "emoji": "❓"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have never been to London.",
+          "fa": "من هرگز به لندن نرفته‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "Have you ever been to Turkey?",
+          "fa": "تا حالا به ترکیه رفته‌ای؟",
+          "highlight": "ever"
+        },
+        {
+          "kind": "rule",
+          "title": "have + قسمت سوم فعل",
+          "body": "برای تجربهٔ زندگی: have/has + قسمت سوم فعل: have been، has seen.",
+          "examples": [
+            {
+              "en": "I have never been to London.",
+              "fa": "من هرگز به لندن نرفته‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u4-present-perfect.1",
+          "kind": "mcq",
+          "prompt": "معنی «been» چیست؟",
+          "promptFa": "بوده‌ام",
+          "choices": [
+            "اخیراً",
+            "بوده‌ام",
+            "تمام کرده"
+          ],
+          "answer": 1,
+          "speak": "been",
+          "aiHints": {
+            "example": "I know the word \"been\".",
+            "explanation": "«been» یعنی بوده‌ام."
+          }
+        },
+        {
+          "id": "a2-u4-present-perfect.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👀",
+          "choices": [
+            "never",
+            "seen",
+            "ever"
+          ],
+          "answer": 1,
+          "speak": "seen"
+        },
+        {
+          "id": "a2-u4-present-perfect.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "eaten",
+          "choices": [
+            "eaten",
+            "last year",
+            "yet"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u4-present-perfect.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "ever",
+              "fa": "تا حالا"
+            },
+            {
+              "en": "eaten",
+              "fa": "خورده‌ام"
+            },
+            {
+              "en": "seen",
+              "fa": "دیده‌ام"
+            },
+            {
+              "en": "been",
+              "fa": "بوده‌ام"
+            }
+          ]
+        },
+        {
+          "id": "a2-u4-present-perfect.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "تا حالا به ترکیه رفته‌ای؟",
+          "sentence": "Have you ___ been to Turkey?",
+          "choices": [
+            "worked",
+            "ever",
+            "since"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u4-present-perfect.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من هرگز به لندن نرفته‌ام.",
+          "tokens": [
+            "London",
+            "I",
+            "never",
+            "have",
+            "been",
+            "to"
+          ],
+          "answer": "I have never been to London"
+        },
+        {
+          "id": "a2-u4-present-perfect.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "ever",
+            "been",
+            "to",
+            "Turkey."
+          ],
+          "answer": 2,
+          "fix": "I have never been to Turkey.",
+          "aiHints": {
+            "explanation": "درستش این است: I have never been to Turkey."
+          }
+        },
+        {
+          "id": "a2-u4-present-perfect.8",
+          "kind": "speed",
+          "prompt": "سریع! «never» یعنی چه؟",
+          "speak": "never",
+          "choices": [
+            "بوده‌ام",
+            "هرگز"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u4-present-perfect.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «quiet»",
+          "choices": [
+            "ساکت",
+            "ماه‌ها",
+            "خورده‌ام"
+          ],
+          "answer": 0,
+          "speak": "quiet",
+          "reviewOf": "a2-u3-places"
+        },
+        {
+          "id": "a2-u4-present-perfect.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "modern",
+          "choices": [
+            "eaten",
+            "modern",
+            "went"
+          ],
+          "answer": 1,
+          "reviewOf": "a2-u3-places"
+        },
+        {
+          "id": "a2-u4-present-perfect.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌸",
+          "choices": [
+            "ago",
+            "been",
+            "beautiful"
+          ],
+          "answer": 2,
+          "speak": "beautiful",
+          "reviewOf": "a2-u3-places"
+        },
+        {
+          "id": "a2-u4-present-perfect.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «noisy»",
+          "speak": "noisy",
+          "choices": [
+            "پرسروصدا",
+            "بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u3-places"
+        },
+        {
+          "id": "a2-u4-present-perfect.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من هرگز سوشی نخورده‌ام.",
+          "sentence": "I have ___ eaten sushi.",
+          "choices": [
+            "eaten",
+            "last year",
+            "never"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Have you ever been to Turkey?",
+          "fa": "تا حالا به ترکیه رفته‌ای؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "have + قسمت سوم فعل",
+        "body": "برای تجربهٔ زندگی: have/has + قسمت سوم فعل: have been، has seen."
+      }
+    },
+    {
+      "id": "a2-u4-just-already-yet",
+      "title": "Just, already, yet",
+      "titleFa": "همین حالا، قبلاً، هنوز",
+      "goal": "بگویی کاری تازه تمام شد یا هنوز نه",
+      "buildsOn": [
+        "a2-u4-present-perfect"
+      ],
+      "vocab": [
+        {
+          "en": "just",
+          "fa": "همین حالا",
+          "emoji": "⏱️"
+        },
+        {
+          "en": "already",
+          "fa": "قبلاً / زودتر",
+          "emoji": "✅"
+        },
+        {
+          "en": "yet",
+          "fa": "هنوز",
+          "emoji": "⏳"
+        },
+        {
+          "en": "recently",
+          "fa": "اخیراً",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "finished",
+          "fa": "تمام کرده",
+          "emoji": "🏁"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "just",
+          "fa": "همین حالا",
+          "emoji": "⏱️"
+        },
+        {
+          "kind": "word",
+          "en": "already",
+          "fa": "قبلاً / زودتر",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "yet",
+          "fa": "هنوز",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "recently",
+          "fa": "اخیراً",
+          "emoji": "🗓️"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have already eaten.",
+          "fa": "من قبلاً غذا خورده‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have just finished my work.",
+          "fa": "همین حالا کارم را تمام کردم.",
+          "highlight": "just"
+        },
+        {
+          "kind": "rule",
+          "title": "جای این سه کلمه",
+          "body": "just و already بین have و فعل می‌آیند؛ yet آخر جملهٔ منفی و سؤالی.",
+          "examples": [
+            {
+              "en": "I have already eaten.",
+              "fa": "من قبلاً غذا خورده‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u4-just-already-yet.1",
+          "kind": "mcq",
+          "prompt": "معنی «just» چیست؟",
+          "promptFa": "همین حالا",
+          "choices": [
+            "همین حالا",
+            "سال پیش",
+            "تمام کرده"
+          ],
+          "answer": 0,
+          "speak": "just",
+          "aiHints": {
+            "example": "I know the word \"just\".",
+            "explanation": "«just» یعنی همین حالا."
+          }
+        },
+        {
+          "id": "a2-u4-just-already-yet.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "yet",
+            "already",
+            "just"
+          ],
+          "answer": 1,
+          "speak": "already"
+        },
+        {
+          "id": "a2-u4-just-already-yet.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "yet",
+          "choices": [
+            "yet",
+            "ago",
+            "since"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u4-just-already-yet.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "recently",
+              "fa": "اخیراً"
+            },
+            {
+              "en": "already",
+              "fa": "قبلاً / زودتر"
+            },
+            {
+              "en": "just",
+              "fa": "همین حالا"
+            },
+            {
+              "en": "yet",
+              "fa": "هنوز"
+            }
+          ]
+        },
+        {
+          "id": "a2-u4-just-already-yet.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "همین حالا کارم را تمام کردم.",
+          "sentence": "I have ___ finished my work.",
+          "choices": [
+            "seen",
+            "just",
+            "went"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u4-just-already-yet.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من قبلاً غذا خورده‌ام.",
+          "tokens": [
+            "already",
+            "have",
+            "eaten",
+            "I"
+          ],
+          "answer": "I have already eaten"
+        },
+        {
+          "id": "a2-u4-just-already-yet.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "already",
+            "eat",
+            "lunch."
+          ],
+          "answer": 3,
+          "fix": "I have already eaten lunch.",
+          "aiHints": {
+            "explanation": "درستش این است: I have already eaten lunch."
+          }
+        },
+        {
+          "id": "a2-u4-just-already-yet.8",
+          "kind": "speed",
+          "prompt": "سریع! «finished» یعنی چه؟",
+          "speak": "finished",
+          "choices": [
+            "بوده‌ام",
+            "تمام کرده"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u4-just-already-yet.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «seen»",
+          "choices": [
+            "سال‌ها",
+            "خورده‌ام",
+            "دیده‌ام"
+          ],
+          "answer": 2,
+          "speak": "seen",
+          "reviewOf": "a2-u4-present-perfect"
+        },
+        {
+          "id": "a2-u4-just-already-yet.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "eaten",
+          "choices": [
+            "already",
+            "finished",
+            "eaten"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u4-present-perfect"
+        },
+        {
+          "id": "a2-u4-just-already-yet.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "❓",
+          "choices": [
+            "seen",
+            "ever",
+            "went"
+          ],
+          "answer": 1,
+          "speak": "ever",
+          "reviewOf": "a2-u4-present-perfect"
+        },
+        {
+          "id": "a2-u4-just-already-yet.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «never»",
+          "speak": "never",
+          "choices": [
+            "هرگز",
+            "بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u4-present-perfect"
+        },
+        {
+          "id": "a2-u4-just-already-yet.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او هنوز زنگ نزده.",
+          "sentence": "She hasn't called ___.",
+          "choices": [
+            "yet",
+            "never",
+            "already"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have just finished and I am free.",
+          "fa": "همین حالا تمام کردم و آزادم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "جای این سه کلمه",
+        "body": "just و already بین have و فعل می‌آیند؛ yet آخر جملهٔ منفی و سؤالی."
+      }
+    },
+    {
+      "id": "a2-u4-for-since",
+      "title": "For two years, since 2019",
+      "titleFa": "for و since",
+      "goal": "بگویی چند وقت است کاری را انجام می‌دهی",
+      "buildsOn": [
+        "a2-u4-just-already-yet"
+      ],
+      "vocab": [
+        {
+          "en": "for",
+          "fa": "به مدت",
+          "emoji": "⏳"
+        },
+        {
+          "en": "since",
+          "fa": "از زمان",
+          "emoji": "📅"
+        },
+        {
+          "en": "years",
+          "fa": "سال‌ها",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "months",
+          "fa": "ماه‌ها",
+          "emoji": "📆"
+        },
+        {
+          "en": "worked",
+          "fa": "کار کرده",
+          "emoji": "💼"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "for",
+          "fa": "به مدت",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "since",
+          "fa": "از زمان",
+          "emoji": "📅"
+        },
+        {
+          "kind": "word",
+          "en": "years",
+          "fa": "سال‌ها",
+          "emoji": "🗓️"
+        },
+        {
+          "kind": "word",
+          "en": "months",
+          "fa": "ماه‌ها",
+          "emoji": "📆"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have studied English for two years.",
+          "fa": "دو سال است انگلیسی می‌خوانم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have lived here since 2019.",
+          "fa": "از ۲۰۱۹ اینجا زندگی می‌کنم.",
+          "highlight": "since"
+        },
+        {
+          "kind": "rule",
+          "title": "مدت یا نقطهٔ شروع",
+          "body": "for برای مدت (for three years) و since برای نقطهٔ شروع (since 2019).",
+          "examples": [
+            {
+              "en": "I have studied English for two years.",
+              "fa": "دو سال است انگلیسی می‌خوانم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u4-for-since.1",
+          "kind": "mcq",
+          "prompt": "معنی «for» چیست؟",
+          "promptFa": "به مدت",
+          "choices": [
+            "همین حالا",
+            "هنوز",
+            "به مدت"
+          ],
+          "answer": 2,
+          "speak": "for",
+          "aiHints": {
+            "example": "I know the word \"for\".",
+            "explanation": "«for» یعنی به مدت."
+          }
+        },
+        {
+          "id": "a2-u4-for-since.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📅",
+          "choices": [
+            "since",
+            "months",
+            "worked"
+          ],
+          "answer": 0,
+          "speak": "since"
+        },
+        {
+          "id": "a2-u4-for-since.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "years",
+          "choices": [
+            "years",
+            "been",
+            "for"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u4-for-since.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "for",
+              "fa": "به مدت"
+            },
+            {
+              "en": "months",
+              "fa": "ماه‌ها"
+            },
+            {
+              "en": "years",
+              "fa": "سال‌ها"
+            },
+            {
+              "en": "since",
+              "fa": "از زمان"
+            }
+          ]
+        },
+        {
+          "id": "a2-u4-for-since.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "از ۲۰۱۹ اینجا زندگی می‌کنم.",
+          "sentence": "I have lived here ___ 2019.",
+          "choices": [
+            "since",
+            "twice",
+            "for"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u4-for-since.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دو سال است انگلیسی می‌خوانم.",
+          "tokens": [
+            "studied",
+            "have",
+            "for",
+            "years",
+            "two",
+            "I",
+            "English"
+          ],
+          "answer": "I have studied English for two years"
+        },
+        {
+          "id": "a2-u4-for-since.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "live",
+            "here",
+            "for",
+            "two",
+            "years."
+          ],
+          "answer": 2,
+          "fix": "I have lived here for two years.",
+          "aiHints": {
+            "explanation": "درستش این است: I have lived here for two years."
+          }
+        },
+        {
+          "id": "a2-u4-for-since.8",
+          "kind": "speed",
+          "prompt": "سریع! «worked» یعنی چه؟",
+          "speak": "worked",
+          "choices": [
+            "بوده‌ام",
+            "کار کرده"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u4-for-since.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «already»",
+          "choices": [
+            "تمام کرده",
+            "قبلاً / زودتر",
+            "سال پیش"
+          ],
+          "answer": 1,
+          "speak": "already",
+          "reviewOf": "a2-u4-just-already-yet"
+        },
+        {
+          "id": "a2-u4-for-since.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "yet",
+          "choices": [
+            "for",
+            "yet",
+            "since"
+          ],
+          "answer": 1,
+          "reviewOf": "a2-u4-just-already-yet"
+        },
+        {
+          "id": "a2-u4-for-since.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🗓️",
+          "choices": [
+            "been",
+            "just",
+            "recently"
+          ],
+          "answer": 2,
+          "speak": "recently",
+          "reviewOf": "a2-u4-just-already-yet"
+        },
+        {
+          "id": "a2-u4-for-since.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «finished»",
+          "speak": "finished",
+          "choices": [
+            "بوده‌ام",
+            "تمام کرده"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u4-just-already-yet"
+        },
+        {
+          "id": "a2-u4-for-since.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "سه سال است اینجا کار می‌کند.",
+          "sentence": "She has worked here ___ three years.",
+          "choices": [
+            "for",
+            "been",
+            "yet"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have worked here for six months.",
+          "fa": "شش ماه است اینجا کار می‌کنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "مدت یا نقطهٔ شروع",
+        "body": "for برای مدت (for three years) و since برای نقطهٔ شروع (since 2019)."
+      }
+    },
+    {
+      "id": "a2-u4-perfect-vs-past",
+      "title": "Been or went?",
+      "titleFa": "تجربه یا دیروز؟",
+      "goal": "تفاوت گذشتهٔ ساده و حال کامل را تشخیص بدهی",
+      "buildsOn": [
+        "a2-u4-for-since"
+      ],
+      "vocab": [
+        {
+          "en": "twice",
+          "fa": "دو بار",
+          "emoji": "✌️"
+        },
+        {
+          "en": "last year",
+          "fa": "سال پیش",
+          "emoji": "📆"
+        },
+        {
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        },
+        {
+          "en": "been",
+          "fa": "رفته‌ام",
+          "emoji": "🌍"
+        },
+        {
+          "en": "went",
+          "fa": "رفتم",
+          "emoji": "🚶"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "twice",
+          "fa": "دو بار",
+          "emoji": "✌️"
+        },
+        {
+          "kind": "word",
+          "en": "last year",
+          "fa": "سال پیش",
+          "emoji": "📆"
+        },
+        {
+          "kind": "word",
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        },
+        {
+          "kind": "word",
+          "en": "been",
+          "fa": "رفته‌ام",
+          "emoji": "🌍"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have been to Turkey twice.",
+          "fa": "دو بار به ترکیه رفته‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "I went to Turkey in 2020.",
+          "fa": "سال ۲۰۲۰ به ترکیه رفتم.",
+          "highlight": "went"
+        },
+        {
+          "kind": "rule",
+          "title": "زمان مشخص یا تجربه",
+          "body": "اگر زمان مشخص است (in 2020، yesterday) از گذشتهٔ ساده استفاده کن. اگر فقط تجربه است، حال کامل.",
+          "examples": [
+            {
+              "en": "I have been to Turkey twice.",
+              "fa": "دو بار به ترکیه رفته‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u4-perfect-vs-past.1",
+          "kind": "mcq",
+          "prompt": "معنی «twice» چیست؟",
+          "promptFa": "دو بار",
+          "choices": [
+            "بوده‌ام",
+            "دیده‌ام",
+            "دو بار"
+          ],
+          "answer": 2,
+          "speak": "twice",
+          "aiHints": {
+            "example": "I know the word \"twice\".",
+            "explanation": "«twice» یعنی دو بار."
+          }
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📆",
+          "choices": [
+            "last year",
+            "twice",
+            "ago"
+          ],
+          "answer": 0,
+          "speak": "last year"
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "ago",
+          "choices": [
+            "finished",
+            "ago",
+            "went"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "twice",
+              "fa": "دو بار"
+            },
+            {
+              "en": "ago",
+              "fa": "پیش"
+            },
+            {
+              "en": "been",
+              "fa": "رفته‌ام"
+            },
+            {
+              "en": "last year",
+              "fa": "سال پیش"
+            }
+          ]
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "سال ۲۰۲۰ به ترکیه رفتم.",
+          "sentence": "I ___ to Turkey in 2020.",
+          "choices": [
+            "twice",
+            "went",
+            "been"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "دو بار به ترکیه رفته‌ام.",
+          "tokens": [
+            "to",
+            "twice",
+            "have",
+            "Turkey",
+            "been",
+            "I"
+          ],
+          "answer": "I have been to Turkey twice"
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "went",
+            "to",
+            "Turkey."
+          ],
+          "answer": 2,
+          "fix": "I have been to Turkey.",
+          "aiHints": {
+            "explanation": "درستش این است: I have been to Turkey."
+          }
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.8",
+          "kind": "speed",
+          "prompt": "سریع! «went» یعنی چه؟",
+          "speak": "went",
+          "choices": [
+            "رفتم",
+            "بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «since»",
+          "choices": [
+            "همین حالا",
+            "هرگز",
+            "از زمان"
+          ],
+          "answer": 2,
+          "speak": "since",
+          "reviewOf": "a2-u4-for-since"
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "years",
+          "choices": [
+            "years",
+            "recently",
+            "yet"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u4-for-since"
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📆",
+          "choices": [
+            "for",
+            "been",
+            "months"
+          ],
+          "answer": 2,
+          "speak": "months",
+          "reviewOf": "a2-u4-for-since"
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «worked»",
+          "speak": "worked",
+          "choices": [
+            "کار کرده",
+            "بوده‌ام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u4-for-since"
+        },
+        {
+          "id": "a2-u4-perfect-vs-past.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "دو بار ترکیه بوده‌ام.",
+          "sentence": "I have ___ to Turkey twice.",
+          "choices": [
+            "ago",
+            "been",
+            "last year"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I went there in 2020 and I have been there twice.",
+          "fa": "سال ۲۰۲۰ رفتم و دو بار آنجا بوده‌ام."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "زمان مشخص یا تجربه",
+        "body": "اگر زمان مشخص است (in 2020، yesterday) از گذشتهٔ ساده استفاده کن. اگر فقط تجربه است، حال کامل."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u4-boss",
+    "titleFa": "نبرد پایانی — تجربه‌های من",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u4-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «seen»",
+        "speak": "seen",
+        "choices": [
+          "دیده‌ام",
+          "رفته‌ام",
+          "هرگز"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u4-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "never",
+        "choices": [
+          "years",
+          "never",
+          "last year"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u4-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏳",
+        "choices": [
+          "since",
+          "seen",
+          "yet"
+        ],
+        "answer": 2,
+        "speak": "yet"
+      },
+      {
+        "id": "a2-u4-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «for»",
+        "speak": "for",
+        "choices": [
+          "به مدت",
+          "رفتم"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u4-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «months»",
+        "speak": "months",
+        "choices": [
+          "ماه‌ها",
+          "هرگز",
+          "سال پیش"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u4-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "last year",
+        "choices": [
+          "already",
+          "seen",
+          "last year"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u4-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚶",
+        "choices": [
+          "went",
+          "for",
+          "ago"
+        ],
+        "answer": 0,
+        "speak": "went"
+      },
+      {
+        "id": "a2-u4-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «eaten»",
+        "speak": "eaten",
+        "choices": [
+          "رفتم",
+          "خورده‌ام"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u4-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «just»",
+        "speak": "just",
+        "choices": [
+          "همین حالا",
+          "خورده‌ام",
+          "سال پیش"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u4-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "recently",
+        "choices": [
+          "recently",
+          "yet",
+          "last year"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

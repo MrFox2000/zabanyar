@@ -303,22 +303,22 @@
         {
           "en": "first",
           "fa": "اول",
-          "emoji": "1️⃣"
+          "emoji": "🥇"
         },
         {
           "en": "then",
           "fa": "بعد",
-          "emoji": "2️⃣"
+          "emoji": "➡️"
         },
         {
           "en": "after that",
           "fa": "بعد از آن",
-          "emoji": "3️⃣"
+          "emoji": "⏭️"
         },
         {
           "en": "finally",
           "fa": "در آخر",
-          "emoji": "4️⃣"
+          "emoji": "🏁"
         },
         {
           "en": "later",
@@ -331,25 +331,25 @@
           "kind": "word",
           "en": "first",
           "fa": "اول",
-          "emoji": "1️⃣"
+          "emoji": "🥇"
         },
         {
           "kind": "word",
           "en": "then",
           "fa": "بعد",
-          "emoji": "2️⃣"
+          "emoji": "➡️"
         },
         {
           "kind": "word",
           "en": "after that",
           "fa": "بعد از آن",
-          "emoji": "3️⃣"
+          "emoji": "⏭️"
         },
         {
           "kind": "word",
           "en": "finally",
           "fa": "در آخر",
-          "emoji": "4️⃣"
+          "emoji": "🏁"
         },
         {
           "kind": "sentence",
@@ -396,7 +396,7 @@
           "id": "a2-u1-story-links.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "2️⃣",
+          "emoji": "➡️",
           "choices": [
             "finally",
             "later",
@@ -808,7 +808,7 @@
           "id": "a2-u1-past-questions.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "4️⃣",
+          "emoji": "🏁",
           "choices": [
             "bored",
             "finally",
@@ -1177,7 +1177,7 @@
         "id": "a2-u1-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "3️⃣",
+        "emoji": "⏭️",
         "choices": [
           "bored",
           "after that",

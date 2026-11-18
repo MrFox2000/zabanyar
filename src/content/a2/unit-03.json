@@ -1,0 +1,1284 @@
+{
+  "id": "a2-u3",
+  "level": "A2",
+  "index": 3,
+  "titleFa": "مقایسه‌ها",
+  "titleEn": "Comparisons",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "a2-u3-comparatives",
+      "title": "Bigger than…",
+      "titleFa": "مقایسه با than",
+      "goal": "دو چیز را با هم مقایسه کنی",
+      "buildsOn": [
+        "a2-u2-predictions"
+      ],
+      "vocab": [
+        {
+          "en": "bigger",
+          "fa": "بزرگ‌تر",
+          "emoji": "📈"
+        },
+        {
+          "en": "smaller",
+          "fa": "کوچک‌تر",
+          "emoji": "📉"
+        },
+        {
+          "en": "older",
+          "fa": "قدیمی‌تر / مسن‌تر",
+          "emoji": "🧓"
+        },
+        {
+          "en": "better",
+          "fa": "بهتر",
+          "emoji": "👍"
+        },
+        {
+          "en": "worse",
+          "fa": "بدتر",
+          "emoji": "👎"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "bigger",
+          "fa": "بزرگ‌تر",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "smaller",
+          "fa": "کوچک‌تر",
+          "emoji": "📉"
+        },
+        {
+          "kind": "word",
+          "en": "older",
+          "fa": "قدیمی‌تر / مسن‌تر",
+          "emoji": "🧓"
+        },
+        {
+          "kind": "word",
+          "en": "better",
+          "fa": "بهتر",
+          "emoji": "👍"
+        },
+        {
+          "kind": "sentence",
+          "en": "My city is smaller than Tehran.",
+          "fa": "شهر من از تهران کوچک‌تر است."
+        },
+        {
+          "kind": "sentence",
+          "en": "This bag is bigger than that one.",
+          "fa": "این کیف از آن یکی بزرگ‌تر است.",
+          "highlight": "bigger"
+        },
+        {
+          "kind": "rule",
+          "title": "er + than",
+          "body": "کلمه‌های کوتاه er می‌گیرند: big → bigger. کلمه‌های بلند با more می‌آیند: more expensive.",
+          "examples": [
+            {
+              "en": "My city is smaller than Tehran.",
+              "fa": "شهر من از تهران کوچک‌تر است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u3-comparatives.1",
+          "kind": "mcq",
+          "prompt": "معنی «bigger» چیست؟",
+          "promptFa": "بزرگ‌تر",
+          "choices": [
+            "پرسروصدا",
+            "محبوب",
+            "بزرگ‌تر"
+          ],
+          "answer": 2,
+          "speak": "bigger",
+          "aiHints": {
+            "example": "I know the word \"bigger\".",
+            "explanation": "«bigger» یعنی بزرگ‌تر."
+          }
+        },
+        {
+          "id": "a2-u3-comparatives.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📉",
+          "choices": [
+            "bigger",
+            "smaller",
+            "better"
+          ],
+          "answer": 1,
+          "speak": "smaller"
+        },
+        {
+          "id": "a2-u3-comparatives.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "older",
+          "choices": [
+            "bigger",
+            "not as",
+            "older"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u3-comparatives.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "bigger",
+              "fa": "بزرگ‌تر"
+            },
+            {
+              "en": "smaller",
+              "fa": "کوچک‌تر"
+            },
+            {
+              "en": "better",
+              "fa": "بهتر"
+            },
+            {
+              "en": "older",
+              "fa": "قدیمی‌تر / مسن‌تر"
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-comparatives.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این کیف از آن یکی بزرگ‌تر است.",
+          "sentence": "This bag is ___ than that one.",
+          "choices": [
+            "smaller",
+            "bigger",
+            "quiet"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u3-comparatives.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شهر من از تهران کوچک‌تر است.",
+          "tokens": [
+            "city",
+            "than",
+            "Tehran",
+            "is",
+            "smaller",
+            "My"
+          ],
+          "answer": "My city is smaller than Tehran"
+        },
+        {
+          "id": "a2-u3-comparatives.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "This",
+            "is",
+            "more",
+            "big",
+            "than",
+            "that."
+          ],
+          "answer": 3,
+          "fix": "This is bigger than that.",
+          "aiHints": {
+            "explanation": "درستش این است: This is bigger than that."
+          }
+        },
+        {
+          "id": "a2-u3-comparatives.8",
+          "kind": "speed",
+          "prompt": "سریع! «worse» یعنی چه؟",
+          "speak": "worse",
+          "choices": [
+            "بدتر",
+            "بزرگ‌تر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u3-comparatives.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «think»",
+          "choices": [
+            "نسبتاً",
+            "فکر کردن",
+            "متفاوت"
+          ],
+          "answer": 1,
+          "speak": "think",
+          "reviewOf": "a2-u2-predictions"
+        },
+        {
+          "id": "a2-u3-comparatives.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "sure",
+          "choices": [
+            "quiet",
+            "better",
+            "sure"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u2-predictions"
+        },
+        {
+          "id": "a2-u3-comparatives.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎲",
+          "choices": [
+            "maybe",
+            "older",
+            "better"
+          ],
+          "answer": 0,
+          "speak": "maybe",
+          "reviewOf": "a2-u2-predictions"
+        },
+        {
+          "id": "a2-u3-comparatives.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «weather»",
+          "speak": "weather",
+          "choices": [
+            "هوا",
+            "بزرگ‌تر"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u2-predictions"
+        },
+        {
+          "id": "a2-u3-comparatives.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "گوشی من از مال تو بهتر است.",
+          "sentence": "My phone is ___ than yours.",
+          "choices": [
+            "older",
+            "not as",
+            "better"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "My bag is smaller and cheaper.",
+          "fa": "کیف من کوچک‌تر و ارزان‌تر است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "er + than",
+        "body": "کلمه‌های کوتاه er می‌گیرند: big → bigger. کلمه‌های بلند با more می‌آیند: more expensive."
+      }
+    },
+    {
+      "id": "a2-u3-superlatives",
+      "title": "The biggest",
+      "titleFa": "بهترین و بزرگ‌ترین",
+      "goal": "بگویی یک چیز از همه بهتر یا بزرگ‌تر است",
+      "buildsOn": [
+        "a2-u3-comparatives"
+      ],
+      "vocab": [
+        {
+          "en": "best",
+          "fa": "بهترین",
+          "emoji": "🥇"
+        },
+        {
+          "en": "biggest",
+          "fa": "بزرگ‌ترین",
+          "emoji": "🏙️"
+        },
+        {
+          "en": "most",
+          "fa": "بیشترین",
+          "emoji": "🔝"
+        },
+        {
+          "en": "famous",
+          "fa": "معروف",
+          "emoji": "⭐"
+        },
+        {
+          "en": "popular",
+          "fa": "محبوب",
+          "emoji": "❤️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "best",
+          "fa": "بهترین",
+          "emoji": "🥇"
+        },
+        {
+          "kind": "word",
+          "en": "biggest",
+          "fa": "بزرگ‌ترین",
+          "emoji": "🏙️"
+        },
+        {
+          "kind": "word",
+          "en": "most",
+          "fa": "بیشترین",
+          "emoji": "🔝"
+        },
+        {
+          "kind": "word",
+          "en": "famous",
+          "fa": "معروف",
+          "emoji": "⭐"
+        },
+        {
+          "kind": "sentence",
+          "en": "She is the best teacher.",
+          "fa": "او بهترین معلم است."
+        },
+        {
+          "kind": "sentence",
+          "en": "It is the biggest city in Iran.",
+          "fa": "این بزرگ‌ترین شهر ایران است.",
+          "highlight": "the biggest"
+        },
+        {
+          "kind": "rule",
+          "title": "the + est",
+          "body": "برای «بهترین/بزرگ‌ترین» از the و est استفاده کن: the biggest، the best.",
+          "examples": [
+            {
+              "en": "She is the best teacher.",
+              "fa": "او بهترین معلم است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u3-superlatives.1",
+          "kind": "mcq",
+          "prompt": "معنی «best» چیست؟",
+          "promptFa": "بهترین",
+          "choices": [
+            "پرسروصدا",
+            "بهترین",
+            "مدرن"
+          ],
+          "answer": 1,
+          "speak": "best",
+          "aiHints": {
+            "example": "I know the word \"best\".",
+            "explanation": "«best» یعنی بهترین."
+          }
+        },
+        {
+          "id": "a2-u3-superlatives.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏙️",
+          "choices": [
+            "popular",
+            "most",
+            "biggest"
+          ],
+          "answer": 2,
+          "speak": "biggest"
+        },
+        {
+          "id": "a2-u3-superlatives.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "most",
+          "choices": [
+            "most",
+            "quiet",
+            "older"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u3-superlatives.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "famous",
+              "fa": "معروف"
+            },
+            {
+              "en": "most",
+              "fa": "بیشترین"
+            },
+            {
+              "en": "biggest",
+              "fa": "بزرگ‌ترین"
+            },
+            {
+              "en": "best",
+              "fa": "بهترین"
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-superlatives.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این بزرگ‌ترین شهر ایران است.",
+          "sentence": "It is ___ city in Iran.",
+          "choices": [
+            "the biggest",
+            "crowded",
+            "smaller"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u3-superlatives.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او بهترین معلم است.",
+          "tokens": [
+            "She",
+            "the",
+            "is",
+            "teacher",
+            "best"
+          ],
+          "answer": "She is the best teacher"
+        },
+        {
+          "id": "a2-u3-superlatives.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "is",
+            "the",
+            "most",
+            "tall",
+            "boy."
+          ],
+          "answer": 3,
+          "fix": "He is the tallest boy.",
+          "aiHints": {
+            "explanation": "درستش این است: He is the tallest boy."
+          }
+        },
+        {
+          "id": "a2-u3-superlatives.8",
+          "kind": "speed",
+          "prompt": "سریع! «popular» یعنی چه؟",
+          "speak": "popular",
+          "choices": [
+            "بزرگ‌تر",
+            "محبوب"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u3-superlatives.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «smaller»",
+          "choices": [
+            "بدتر",
+            "کوچک‌تر",
+            "بیشترین"
+          ],
+          "answer": 1,
+          "speak": "smaller",
+          "reviewOf": "a2-u3-comparatives"
+        },
+        {
+          "id": "a2-u3-superlatives.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "older",
+          "choices": [
+            "older",
+            "modern",
+            "most"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u3-comparatives"
+        },
+        {
+          "id": "a2-u3-superlatives.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👍",
+          "choices": [
+            "noisy",
+            "same",
+            "better"
+          ],
+          "answer": 2,
+          "speak": "better",
+          "reviewOf": "a2-u3-comparatives"
+        },
+        {
+          "id": "a2-u3-superlatives.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «worse»",
+          "speak": "worse",
+          "choices": [
+            "بزرگ‌تر",
+            "بدتر"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u3-comparatives"
+        },
+        {
+          "id": "a2-u3-superlatives.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این بهترین فیلمی است که می‌شناسم.",
+          "sentence": "This is ___ film I know.",
+          "choices": [
+            "famous",
+            "the best",
+            "quite"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This is the most popular café here.",
+          "fa": "این محبوب‌ترین کافهٔ اینجاست."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "the + est",
+        "body": "برای «بهترین/بزرگ‌ترین» از the و est استفاده کن: the biggest، the best."
+      }
+    },
+    {
+      "id": "a2-u3-as-as",
+      "title": "As tall as",
+      "titleFa": "به‌اندازهٔ هم",
+      "goal": "بگویی دو چیز با هم برابرند",
+      "buildsOn": [
+        "a2-u3-superlatives"
+      ],
+      "vocab": [
+        {
+          "en": "as … as",
+          "fa": "به‌اندازهٔ",
+          "emoji": "⚖️"
+        },
+        {
+          "en": "not as",
+          "fa": "به‌اندازهٔ … نه",
+          "emoji": "🚫"
+        },
+        {
+          "en": "same",
+          "fa": "یکسان",
+          "emoji": "🟰"
+        },
+        {
+          "en": "different",
+          "fa": "متفاوت",
+          "emoji": "🔀"
+        },
+        {
+          "en": "quite",
+          "fa": "نسبتاً",
+          "emoji": "🙂"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "as … as",
+          "fa": "به‌اندازهٔ",
+          "emoji": "⚖️"
+        },
+        {
+          "kind": "word",
+          "en": "not as",
+          "fa": "به‌اندازهٔ … نه",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "same",
+          "fa": "یکسان",
+          "emoji": "🟰"
+        },
+        {
+          "kind": "word",
+          "en": "different",
+          "fa": "متفاوت",
+          "emoji": "🔀"
+        },
+        {
+          "kind": "sentence",
+          "en": "My car is as fast as yours.",
+          "fa": "ماشین من به‌اندازهٔ مال تو سریع است."
+        },
+        {
+          "kind": "sentence",
+          "en": "She is as tall as me.",
+          "fa": "او به‌اندازهٔ من بلند است.",
+          "highlight": "as"
+        },
+        {
+          "kind": "rule",
+          "title": "دو as",
+          "body": "برای برابری: as + صفت + as. برای نابرابری: not as + صفت + as.",
+          "examples": [
+            {
+              "en": "My car is as fast as yours.",
+              "fa": "ماشین من به‌اندازهٔ مال تو سریع است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u3-as-as.1",
+          "kind": "mcq",
+          "prompt": "معنی «as … as» چیست؟",
+          "promptFa": "به‌اندازهٔ",
+          "choices": [
+            "نسبتاً",
+            "معروف",
+            "به‌اندازهٔ"
+          ],
+          "answer": 2,
+          "speak": "as … as",
+          "aiHints": {
+            "example": "I know the word \"as … as\".",
+            "explanation": "«as … as» یعنی به‌اندازهٔ."
+          }
+        },
+        {
+          "id": "a2-u3-as-as.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚫",
+          "choices": [
+            "quite",
+            "same",
+            "not as"
+          ],
+          "answer": 2,
+          "speak": "not as"
+        },
+        {
+          "id": "a2-u3-as-as.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "same",
+          "choices": [
+            "older",
+            "same",
+            "best"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u3-as-as.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "same",
+              "fa": "یکسان"
+            },
+            {
+              "en": "not as",
+              "fa": "به‌اندازهٔ … نه"
+            },
+            {
+              "en": "as … as",
+              "fa": "به‌اندازهٔ"
+            },
+            {
+              "en": "different",
+              "fa": "متفاوت"
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-as-as.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او به‌اندازهٔ من بلند است.",
+          "sentence": "She is as tall ___ me.",
+          "choices": [
+            "quite",
+            "not as",
+            "as"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u3-as-as.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ماشین من به‌اندازهٔ مال تو سریع است.",
+          "tokens": [
+            "My",
+            "fast",
+            "car",
+            "as",
+            "yours",
+            "as",
+            "is"
+          ],
+          "answer": "My car is as fast as yours"
+        },
+        {
+          "id": "a2-u3-as-as.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "is",
+            "as",
+            "tall",
+            "than",
+            "me."
+          ],
+          "answer": 4,
+          "fix": "He is as tall as me.",
+          "aiHints": {
+            "explanation": "درستش این است: He is as tall as me."
+          }
+        },
+        {
+          "id": "a2-u3-as-as.8",
+          "kind": "speed",
+          "prompt": "سریع! «quite» یعنی چه؟",
+          "speak": "quite",
+          "choices": [
+            "نسبتاً",
+            "بزرگ‌تر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u3-as-as.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «biggest»",
+          "choices": [
+            "به‌اندازهٔ",
+            "بزرگ‌ترین",
+            "متفاوت"
+          ],
+          "answer": 1,
+          "speak": "biggest",
+          "reviewOf": "a2-u3-superlatives"
+        },
+        {
+          "id": "a2-u3-as-as.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "most",
+          "choices": [
+            "modern",
+            "quite",
+            "most"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u3-superlatives"
+        },
+        {
+          "id": "a2-u3-as-as.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⭐",
+          "choices": [
+            "better",
+            "famous",
+            "noisy"
+          ],
+          "answer": 1,
+          "speak": "famous",
+          "reviewOf": "a2-u3-superlatives"
+        },
+        {
+          "id": "a2-u3-as-as.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «popular»",
+          "speak": "popular",
+          "choices": [
+            "بزرگ‌تر",
+            "محبوب"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u3-superlatives"
+        },
+        {
+          "id": "a2-u3-as-as.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این اتاق به بزرگی آن یکی نیست.",
+          "sentence": "This room is not as big ___ that one.",
+          "choices": [
+            "as … as",
+            "biggest",
+            "as"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "My phone is not as fast as yours.",
+          "fa": "گوشی من به‌سرعت مال تو نیست."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "دو as",
+        "body": "برای برابری: as + صفت + as. برای نابرابری: not as + صفت + as."
+      }
+    },
+    {
+      "id": "a2-u3-places",
+      "title": "A quiet street",
+      "titleFa": "توصیف جاها",
+      "goal": "یک جا را توصیف کنی",
+      "buildsOn": [
+        "a2-u3-as-as"
+      ],
+      "vocab": [
+        {
+          "en": "crowded",
+          "fa": "شلوغ",
+          "emoji": "👥"
+        },
+        {
+          "en": "quiet",
+          "fa": "ساکت",
+          "emoji": "🤫"
+        },
+        {
+          "en": "modern",
+          "fa": "مدرن",
+          "emoji": "🏢"
+        },
+        {
+          "en": "beautiful",
+          "fa": "زیبا",
+          "emoji": "🌸"
+        },
+        {
+          "en": "noisy",
+          "fa": "پرسروصدا",
+          "emoji": "🔊"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "crowded",
+          "fa": "شلوغ",
+          "emoji": "👥"
+        },
+        {
+          "kind": "word",
+          "en": "quiet",
+          "fa": "ساکت",
+          "emoji": "🤫"
+        },
+        {
+          "kind": "word",
+          "en": "modern",
+          "fa": "مدرن",
+          "emoji": "🏢"
+        },
+        {
+          "kind": "word",
+          "en": "beautiful",
+          "fa": "زیبا",
+          "emoji": "🌸"
+        },
+        {
+          "kind": "sentence",
+          "en": "The city is modern and beautiful.",
+          "fa": "شهر مدرن و زیباست."
+        },
+        {
+          "kind": "sentence",
+          "en": "The park is very crowded in the evening.",
+          "fa": "پارک عصر خیلی شلوغ است.",
+          "highlight": "crowded"
+        },
+        {
+          "kind": "rule",
+          "title": "صفت را قوی‌تر کن",
+          "body": "قبل از صفت می‌توانی very یا really بگذاری: very quiet، really modern.",
+          "examples": [
+            {
+              "en": "The city is modern and beautiful.",
+              "fa": "شهر مدرن و زیباست."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u3-places.1",
+          "kind": "mcq",
+          "prompt": "معنی «crowded» چیست؟",
+          "promptFa": "شلوغ",
+          "choices": [
+            "شلوغ",
+            "ساکت",
+            "معروف"
+          ],
+          "answer": 0,
+          "speak": "crowded",
+          "aiHints": {
+            "example": "I know the word \"crowded\".",
+            "explanation": "«crowded» یعنی شلوغ."
+          }
+        },
+        {
+          "id": "a2-u3-places.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤫",
+          "choices": [
+            "noisy",
+            "quiet",
+            "modern"
+          ],
+          "answer": 1,
+          "speak": "quiet"
+        },
+        {
+          "id": "a2-u3-places.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "modern",
+          "choices": [
+            "worse",
+            "better",
+            "modern"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u3-places.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "modern",
+              "fa": "مدرن"
+            },
+            {
+              "en": "crowded",
+              "fa": "شلوغ"
+            },
+            {
+              "en": "quiet",
+              "fa": "ساکت"
+            },
+            {
+              "en": "beautiful",
+              "fa": "زیبا"
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-places.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "پارک عصر خیلی شلوغ است.",
+          "sentence": "The park is very ___ in the evening.",
+          "choices": [
+            "crowded",
+            "different",
+            "modern"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u3-places.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شهر مدرن و زیباست.",
+          "tokens": [
+            "city",
+            "beautiful",
+            "is",
+            "The",
+            "and",
+            "modern"
+          ],
+          "answer": "The city is modern and beautiful"
+        },
+        {
+          "id": "a2-u3-places.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "city",
+            "are",
+            "very",
+            "old."
+          ],
+          "answer": 2,
+          "fix": "The city is very old.",
+          "aiHints": {
+            "explanation": "درستش این است: The city is very old."
+          }
+        },
+        {
+          "id": "a2-u3-places.8",
+          "kind": "speed",
+          "prompt": "سریع! «noisy» یعنی چه؟",
+          "speak": "noisy",
+          "choices": [
+            "پرسروصدا",
+            "بزرگ‌تر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u3-places.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «not as»",
+          "choices": [
+            "بدتر",
+            "محبوب",
+            "به‌اندازهٔ … نه"
+          ],
+          "answer": 2,
+          "speak": "not as",
+          "reviewOf": "a2-u3-as-as"
+        },
+        {
+          "id": "a2-u3-places.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "same",
+          "choices": [
+            "same",
+            "most",
+            "quiet"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u3-as-as"
+        },
+        {
+          "id": "a2-u3-places.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔀",
+          "choices": [
+            "crowded",
+            "different",
+            "most"
+          ],
+          "answer": 1,
+          "speak": "different",
+          "reviewOf": "a2-u3-as-as"
+        },
+        {
+          "id": "a2-u3-places.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «quite»",
+          "speak": "quite",
+          "choices": [
+            "بزرگ‌تر",
+            "نسبتاً"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u3-as-as"
+        },
+        {
+          "id": "a2-u3-places.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این خیابان شب ساکت است.",
+          "sentence": "This street is ___ at night.",
+          "choices": [
+            "quiet",
+            "quite",
+            "most"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The old street is quiet and beautiful.",
+          "fa": "خیابان قدیمی ساکت و زیباست."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "صفت را قوی‌تر کن",
+        "body": "قبل از صفت می‌توانی very یا really بگذاری: very quiet، really modern."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u3-boss",
+    "titleFa": "نبرد پایانی — مقایسه‌ها",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u3-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «smaller»",
+        "speak": "smaller",
+        "choices": [
+          "کوچک‌تر",
+          "متفاوت",
+          "بهتر"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u3-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "worse",
+        "choices": [
+          "bigger",
+          "worse",
+          "noisy"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u3-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔝",
+        "choices": [
+          "most",
+          "as … as",
+          "quiet"
+        ],
+        "answer": 0,
+        "speak": "most"
+      },
+      {
+        "id": "a2-u3-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «as … as»",
+        "speak": "as … as",
+        "choices": [
+          "به‌اندازهٔ",
+          "کوچک‌تر"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u3-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «different»",
+        "speak": "different",
+        "choices": [
+          "بزرگ‌ترین",
+          "کوچک‌تر",
+          "متفاوت"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u3-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "quiet",
+        "choices": [
+          "best",
+          "crowded",
+          "quiet"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u3-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔊",
+        "choices": [
+          "most",
+          "crowded",
+          "noisy"
+        ],
+        "answer": 2,
+        "speak": "noisy"
+      },
+      {
+        "id": "a2-u3-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «older»",
+        "speak": "older",
+        "choices": [
+          "بزرگ‌تر",
+          "قدیمی‌تر / مسن‌تر"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u3-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «best»",
+        "speak": "best",
+        "choices": [
+          "به‌اندازهٔ … نه",
+          "بهترین",
+          "قدیمی‌تر / مسن‌تر"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u3-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "famous",
+        "choices": [
+          "biggest",
+          "famous",
+          "bigger"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

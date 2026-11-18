@@ -4,10 +4,17 @@ const fs = require("fs");
 const BASE = "http://localhost:3000";
 const OUT = "D:/Projects/zabanyar/shots";
 const lessonId = process.argv[2] || "a1-u1-hello-name";
-const unitNo = lessonId.split("-")[1].replace("u", "");
-const lesson = JSON.parse(
-  fs.readFileSync(`D:/Projects/zabanyar/src/content/a1/unit-0${unitNo}.json`, "utf8"),
-).lessons.find((item) => item.id === lessonId);
+const contentRoot = "D:/Projects/zabanyar/src/content";
+const lesson = fs
+  .readdirSync(contentRoot)
+  .flatMap((level) =>
+    fs
+      .readdirSync(`${contentRoot}/${level}`)
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => JSON.parse(fs.readFileSync(`${contentRoot}/${level}/${file}`, "utf8"))),
+  )
+  .flatMap((unit) => unit.lessons)
+  .find((item) => item.id === lessonId);
 
 (async () => {
   const browser = await chromium.launch({ channel: "chrome" });
@@ -25,6 +32,19 @@ const lesson = JSON.parse(
   await page.goto(`${BASE}/app/lesson/${lesson.id}`, { waitUntil: "networkidle" });
   await page.getByRole("button", { name: /شروع/ }).first().click();
   await page.waitForTimeout(500);
+
+  // walk the teaching deck first — the exercises only exist after it
+  for (let step = 0; step < 14; step += 1) {
+    if ((await page.getByRole("button", { name: /شروع تمرین/ }).count()) > 0) break;
+    const next = page.getByRole("button", { name: /بعدی/ });
+    if ((await next.count()) === 0) break;
+    await next.first().click();
+    await page.waitForTimeout(200);
+  }
+  if ((await page.getByRole("button", { name: /شروع تمرین/ }).count()) > 0) {
+    await page.getByRole("button", { name: /شروع تمرین/ }).click();
+    await page.waitForTimeout(400);
+  }
 
   for (let index = 0; index < lesson.exercises.length; index += 1) {
     const exercise = lesson.exercises[index];
