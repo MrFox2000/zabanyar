@@ -1,0 +1,1284 @@
+{
+  "id": "b2-u2",
+  "level": "B2",
+  "index": 2,
+  "titleFa": "مجهول و نقل پیشرفته",
+  "titleEn": "Passive and reporting",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "b2-u2-passive-tenses",
+      "title": "Has been done",
+      "titleFa": "مجهول در زمان‌های مختلف",
+      "goal": "مجهول را در زمان‌های مختلف بسازی",
+      "buildsOn": [
+        "b2-u1-wish-hope"
+      ],
+      "vocab": [
+        {
+          "en": "has been done",
+          "fa": "انجام شده است",
+          "emoji": "✅"
+        },
+        {
+          "en": "will be done",
+          "fa": "انجام خواهد شد",
+          "emoji": "🔜"
+        },
+        {
+          "en": "is being built",
+          "fa": "در حال ساخت است",
+          "emoji": "🏗️"
+        },
+        {
+          "en": "by",
+          "fa": "توسط",
+          "emoji": "👤"
+        },
+        {
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "⏮️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "has been done",
+          "fa": "انجام شده است",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "will be done",
+          "fa": "انجام خواهد شد",
+          "emoji": "🔜"
+        },
+        {
+          "kind": "word",
+          "en": "is being built",
+          "fa": "در حال ساخت است",
+          "emoji": "🏗️"
+        },
+        {
+          "kind": "word",
+          "en": "by",
+          "fa": "توسط",
+          "emoji": "👤"
+        },
+        {
+          "kind": "sentence",
+          "en": "The report has been written.",
+          "fa": "گزارش نوشته شده است."
+        },
+        {
+          "kind": "sentence",
+          "en": "The work has been finished.",
+          "fa": "کار تمام شده است.",
+          "highlight": "has been"
+        },
+        {
+          "kind": "rule",
+          "title": "has/have been + قسمت سوم",
+          "body": "مجهول حال کامل: has been built، have been sent. برای در حال انجام: is being built.",
+          "examples": [
+            {
+              "en": "The report has been written.",
+              "fa": "گزارش نوشته شده است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u2-passive-tenses.1",
+          "kind": "mcq",
+          "prompt": "معنی «has been done» چیست؟",
+          "promptFa": "انجام شده است",
+          "choices": [
+            "به گفتهٔ",
+            "اعتراف کردن",
+            "انجام شده است"
+          ],
+          "answer": 2,
+          "speak": "has been done",
+          "aiHints": {
+            "example": "I know the word \"has been done\".",
+            "explanation": "«has been done» یعنی انجام شده است."
+          }
+        },
+        {
+          "id": "b2-u2-passive-tenses.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔜",
+          "choices": [
+            "has been done",
+            "will be done",
+            "is being built"
+          ],
+          "answer": 1,
+          "speak": "will be done"
+        },
+        {
+          "id": "b2-u2-passive-tenses.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "is being built",
+          "choices": [
+            "is being built",
+            "is known",
+            "consequently"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u2-passive-tenses.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "is being built",
+              "fa": "در حال ساخت است"
+            },
+            {
+              "en": "will be done",
+              "fa": "انجام خواهد شد"
+            },
+            {
+              "en": "by",
+              "fa": "توسط"
+            },
+            {
+              "en": "has been done",
+              "fa": "انجام شده است"
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-passive-tenses.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "کار تمام شده است.",
+          "sentence": "The work ___ finished.",
+          "choices": [
+            "has been",
+            "moreover",
+            "is being built"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u2-passive-tenses.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "گزارش نوشته شده است.",
+          "tokens": [
+            "report",
+            "been",
+            "written",
+            "The",
+            "has"
+          ],
+          "answer": "The report has been written"
+        },
+        {
+          "id": "b2-u2-passive-tenses.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "report",
+            "have",
+            "been",
+            "written."
+          ],
+          "answer": 2,
+          "fix": "The report has been written.",
+          "aiHints": {
+            "explanation": "درستش این است: The report has been written."
+          }
+        },
+        {
+          "id": "b2-u2-passive-tenses.8",
+          "kind": "speed",
+          "prompt": "سریع! «already» یعنی چه؟",
+          "speak": "already",
+          "choices": [
+            "قبلاً",
+            "انجام شده است"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u2-passive-tenses.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «hope»",
+          "choices": [
+            "انتظار می‌رود",
+            "انکار کردن",
+            "امید"
+          ],
+          "answer": 2,
+          "speak": "hope",
+          "reviewOf": "b2-u1-wish-hope"
+        },
+        {
+          "id": "b2-u2-passive-tenses.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "would stop",
+          "choices": [
+            "would stop",
+            "admit",
+            "it is said"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u1-wish-hope"
+        },
+        {
+          "id": "b2-u2-passive-tenses.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💪",
+          "choices": [
+            "claim",
+            "could",
+            "is known"
+          ],
+          "answer": 1,
+          "speak": "could",
+          "reviewOf": "b2-u1-wish-hope"
+        },
+        {
+          "id": "b2-u2-passive-tenses.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «noisy»",
+          "speak": "noisy",
+          "choices": [
+            "انجام شده است",
+            "پرسروصدا"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u1-wish-hope"
+        },
+        {
+          "id": "b2-u2-passive-tenses.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "پل در حال ساخت است.",
+          "sentence": "The bridge ___ built.",
+          "choices": [
+            "is being",
+            "consequently",
+            "is known"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The plan has been approved and will be done soon.",
+          "fa": "برنامه تأیید شده و به‌زودی انجام می‌شود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "has/have been + قسمت سوم",
+        "body": "مجهول حال کامل: has been built، have been sent. برای در حال انجام: is being built."
+      }
+    },
+    {
+      "id": "b2-u2-reporting-verbs",
+      "title": "Claim, admit, deny",
+      "titleFa": "افعال نقل قول",
+      "goal": "حرف دیگران را با فعل دقیق نقل کنی",
+      "buildsOn": [
+        "b2-u2-passive-tenses"
+      ],
+      "vocab": [
+        {
+          "en": "claim",
+          "fa": "ادعا کردن",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "admit",
+          "fa": "اعتراف کردن",
+          "emoji": "😅"
+        },
+        {
+          "en": "deny",
+          "fa": "انکار کردن",
+          "emoji": "🚫"
+        },
+        {
+          "en": "suggest",
+          "fa": "پیشنهاد دادن",
+          "emoji": "💡"
+        },
+        {
+          "en": "insist",
+          "fa": "اصرار کردن",
+          "emoji": "📌"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "claim",
+          "fa": "ادعا کردن",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "admit",
+          "fa": "اعتراف کردن",
+          "emoji": "😅"
+        },
+        {
+          "kind": "word",
+          "en": "deny",
+          "fa": "انکار کردن",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "suggest",
+          "fa": "پیشنهاد دادن",
+          "emoji": "💡"
+        },
+        {
+          "kind": "sentence",
+          "en": "They suggested taking a break.",
+          "fa": "پیشنهاد دادند استراحت کنیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "He claimed that he was innocent.",
+          "fa": "ادعا کرد بی‌گناه است.",
+          "highlight": "claimed"
+        },
+        {
+          "kind": "rule",
+          "title": "suggest + ing",
+          "body": "suggest و deny با فعل ing می‌آیند: suggest taking، deny going.",
+          "examples": [
+            {
+              "en": "They suggested taking a break.",
+              "fa": "پیشنهاد دادند استراحت کنیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u2-reporting-verbs.1",
+          "kind": "mcq",
+          "prompt": "معنی «claim» چیست؟",
+          "promptFa": "ادعا کردن",
+          "choices": [
+            "انجام شده است",
+            "انجام خواهد شد",
+            "ادعا کردن"
+          ],
+          "answer": 2,
+          "speak": "claim",
+          "aiHints": {
+            "example": "I know the word \"claim\".",
+            "explanation": "«claim» یعنی ادعا کردن."
+          }
+        },
+        {
+          "id": "b2-u2-reporting-verbs.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "😅",
+          "choices": [
+            "suggest",
+            "admit",
+            "claim"
+          ],
+          "answer": 1,
+          "speak": "admit"
+        },
+        {
+          "id": "b2-u2-reporting-verbs.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "deny",
+          "choices": [
+            "consequently",
+            "has been done",
+            "deny"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u2-reporting-verbs.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "admit",
+              "fa": "اعتراف کردن"
+            },
+            {
+              "en": "deny",
+              "fa": "انکار کردن"
+            },
+            {
+              "en": "suggest",
+              "fa": "پیشنهاد دادن"
+            },
+            {
+              "en": "claim",
+              "fa": "ادعا کردن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-reporting-verbs.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "ادعا کرد بی‌گناه است.",
+          "sentence": "He ___ that he was innocent.",
+          "choices": [
+            "moreover",
+            "claimed",
+            "claim"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u2-reporting-verbs.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "پیشنهاد دادند استراحت کنیم.",
+          "tokens": [
+            "break",
+            "They",
+            "a",
+            "suggested",
+            "taking"
+          ],
+          "answer": "They suggested taking a break"
+        },
+        {
+          "id": "b2-u2-reporting-verbs.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "deny",
+            "that",
+            "he",
+            "was",
+            "there."
+          ],
+          "answer": 1,
+          "fix": "He denied that he was there.",
+          "aiHints": {
+            "explanation": "درستش این است: He denied that he was there."
+          }
+        },
+        {
+          "id": "b2-u2-reporting-verbs.8",
+          "kind": "speed",
+          "prompt": "سریع! «insist» یعنی چه؟",
+          "speak": "insist",
+          "choices": [
+            "انجام شده است",
+            "اصرار کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u2-reporting-verbs.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «will be done»",
+          "choices": [
+            "اصرار کردن",
+            "انجام خواهد شد",
+            "انتظار می‌رود"
+          ],
+          "answer": 1,
+          "speak": "will be done",
+          "reviewOf": "b2-u2-passive-tenses"
+        },
+        {
+          "id": "b2-u2-reporting-verbs.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "is being built",
+          "choices": [
+            "it is said",
+            "claim",
+            "is being built"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u2-passive-tenses"
+        },
+        {
+          "id": "b2-u2-reporting-verbs.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👤",
+          "choices": [
+            "is expected",
+            "deny",
+            "by"
+          ],
+          "answer": 2,
+          "speak": "by",
+          "reviewOf": "b2-u2-passive-tenses"
+        },
+        {
+          "id": "b2-u2-reporting-verbs.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «already»",
+          "speak": "already",
+          "choices": [
+            "قبلاً",
+            "انجام شده است"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u2-passive-tenses"
+        },
+        {
+          "id": "b2-u2-reporting-verbs.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "انکار کرد که آنجا رفته.",
+          "sentence": "She ___ going there.",
+          "choices": [
+            "admit",
+            "already",
+            "denied"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "He admitted the mistake and suggested a new plan.",
+          "fa": "به اشتباه اعتراف کرد و برنامهٔ جدیدی پیشنهاد داد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "suggest + ing",
+        "body": "suggest و deny با فعل ing می‌آیند: suggest taking، deny going."
+      }
+    },
+    {
+      "id": "b2-u2-reporting-passive",
+      "title": "It is said that…",
+      "titleFa": "نقل مجهول",
+      "goal": "خبرهای غیرمستقیم را بگویی",
+      "buildsOn": [
+        "b2-u2-reporting-verbs"
+      ],
+      "vocab": [
+        {
+          "en": "it is said",
+          "fa": "گفته می‌شود",
+          "emoji": "💬"
+        },
+        {
+          "en": "is believed",
+          "fa": "باور می‌شود",
+          "emoji": "🧠"
+        },
+        {
+          "en": "is known",
+          "fa": "شناخته شده است",
+          "emoji": "📖"
+        },
+        {
+          "en": "is expected",
+          "fa": "انتظار می‌رود",
+          "emoji": "📈"
+        },
+        {
+          "en": "according to",
+          "fa": "به گفتهٔ",
+          "emoji": "📰"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "it is said",
+          "fa": "گفته می‌شود",
+          "emoji": "💬"
+        },
+        {
+          "kind": "word",
+          "en": "is believed",
+          "fa": "باور می‌شود",
+          "emoji": "🧠"
+        },
+        {
+          "kind": "word",
+          "en": "is known",
+          "fa": "شناخته شده است",
+          "emoji": "📖"
+        },
+        {
+          "kind": "word",
+          "en": "is expected",
+          "fa": "انتظار می‌رود",
+          "emoji": "📈"
+        },
+        {
+          "kind": "sentence",
+          "en": "It is said that the shop is closing.",
+          "fa": "می‌گویند مغازه بسته می‌شود."
+        },
+        {
+          "kind": "sentence",
+          "en": "It is said that he is rich.",
+          "fa": "می‌گویند که او ثروتمند است.",
+          "highlight": "It"
+        },
+        {
+          "kind": "rule",
+          "title": "دو شکل خبر",
+          "body": "it is said that + جمله، یا he is said to + فعل ساده.",
+          "examples": [
+            {
+              "en": "It is said that the shop is closing.",
+              "fa": "می‌گویند مغازه بسته می‌شود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u2-reporting-passive.1",
+          "kind": "mcq",
+          "prompt": "معنی «it is said» چیست؟",
+          "promptFa": "گفته می‌شود",
+          "choices": [
+            "گفته می‌شود",
+            "علاوه بر این",
+            "باور می‌شود"
+          ],
+          "answer": 0,
+          "speak": "it is said",
+          "aiHints": {
+            "example": "I know the word \"it is said\".",
+            "explanation": "«it is said» یعنی گفته می‌شود."
+          }
+        },
+        {
+          "id": "b2-u2-reporting-passive.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🧠",
+          "choices": [
+            "it is said",
+            "is expected",
+            "is believed"
+          ],
+          "answer": 2,
+          "speak": "is believed"
+        },
+        {
+          "id": "b2-u2-reporting-passive.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "is known",
+          "choices": [
+            "has been done",
+            "is known",
+            "will be done"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u2-reporting-passive.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "it is said",
+              "fa": "گفته می‌شود"
+            },
+            {
+              "en": "is expected",
+              "fa": "انتظار می‌رود"
+            },
+            {
+              "en": "is believed",
+              "fa": "باور می‌شود"
+            },
+            {
+              "en": "is known",
+              "fa": "شناخته شده است"
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-reporting-passive.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌گویند که او ثروتمند است.",
+          "sentence": "___ is said that he is rich.",
+          "choices": [
+            "therefore",
+            "is expected",
+            "It"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u2-reporting-passive.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌گویند مغازه بسته می‌شود.",
+          "tokens": [
+            "is",
+            "said",
+            "shop",
+            "is",
+            "the",
+            "closing",
+            "It",
+            "that"
+          ],
+          "answer": "It is said that the shop is closing"
+        },
+        {
+          "id": "b2-u2-reporting-passive.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "is",
+            "say",
+            "that",
+            "he",
+            "is",
+            "rich."
+          ],
+          "answer": 2,
+          "fix": "It is said that he is rich.",
+          "aiHints": {
+            "explanation": "درستش این است: It is said that he is rich."
+          }
+        },
+        {
+          "id": "b2-u2-reporting-passive.8",
+          "kind": "speed",
+          "prompt": "سریع! «according to» یعنی چه؟",
+          "speak": "according to",
+          "choices": [
+            "به گفتهٔ",
+            "انجام شده است"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u2-reporting-passive.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «admit»",
+          "choices": [
+            "شناخته شده است",
+            "با این حال",
+            "اعتراف کردن"
+          ],
+          "answer": 2,
+          "speak": "admit",
+          "reviewOf": "b2-u2-reporting-verbs"
+        },
+        {
+          "id": "b2-u2-reporting-passive.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "deny",
+          "choices": [
+            "is being built",
+            "admit",
+            "deny"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u2-reporting-verbs"
+        },
+        {
+          "id": "b2-u2-reporting-passive.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "deny",
+            "suggest",
+            "is known"
+          ],
+          "answer": 1,
+          "speak": "suggest",
+          "reviewOf": "b2-u2-reporting-verbs"
+        },
+        {
+          "id": "b2-u2-reporting-passive.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «insist»",
+          "speak": "insist",
+          "choices": [
+            "انجام شده است",
+            "اصرار کردن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u2-reporting-verbs"
+        },
+        {
+          "id": "b2-u2-reporting-passive.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "گفته می‌شود ثروتمند است.",
+          "sentence": "He is ___ to be rich.",
+          "choices": [
+            "moreover",
+            "has been done",
+            "said"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "According to the news, prices are expected to rise.",
+          "fa": "به گفتهٔ اخبار انتظار می‌رود قیمت‌ها بالا بروند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "دو شکل خبر",
+        "body": "it is said that + جمله، یا he is said to + فعل ساده."
+      }
+    },
+    {
+      "id": "b2-u2-academic-linking",
+      "title": "Therefore, moreover",
+      "titleFa": "کلمه‌های متن رسمی",
+      "goal": "متن رسمی و منظم بنویسی",
+      "buildsOn": [
+        "b2-u2-reporting-passive"
+      ],
+      "vocab": [
+        {
+          "en": "therefore",
+          "fa": "بنابراین",
+          "emoji": "➡️"
+        },
+        {
+          "en": "moreover",
+          "fa": "علاوه بر این",
+          "emoji": "➕"
+        },
+        {
+          "en": "nevertheless",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "en": "consequently",
+          "fa": "در نتیجه",
+          "emoji": "📉"
+        },
+        {
+          "en": "in contrast",
+          "fa": "در مقابل",
+          "emoji": "🔀"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "therefore",
+          "fa": "بنابراین",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "moreover",
+          "fa": "علاوه بر این",
+          "emoji": "➕"
+        },
+        {
+          "kind": "word",
+          "en": "nevertheless",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "word",
+          "en": "consequently",
+          "fa": "در نتیجه",
+          "emoji": "📉"
+        },
+        {
+          "kind": "sentence",
+          "en": "Moreover, the cost is lower.",
+          "fa": "علاوه بر این، هزینه کمتر است."
+        },
+        {
+          "kind": "sentence",
+          "en": "It rained; therefore, we stayed home.",
+          "fa": "باران آمد؛ بنابراین خانه ماندیم.",
+          "highlight": "therefore"
+        },
+        {
+          "kind": "rule",
+          "title": "با ویرگول",
+          "body": "این قیدها معمولاً بعد از ویرگول یا نقطه‌ویرگول می‌آیند.",
+          "examples": [
+            {
+              "en": "Moreover, the cost is lower.",
+              "fa": "علاوه بر این، هزینه کمتر است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u2-academic-linking.1",
+          "kind": "mcq",
+          "prompt": "معنی «therefore» چیست؟",
+          "promptFa": "بنابراین",
+          "choices": [
+            "بنابراین",
+            "انجام شده است",
+            "انجام خواهد شد"
+          ],
+          "answer": 0,
+          "speak": "therefore",
+          "aiHints": {
+            "example": "I know the word \"therefore\".",
+            "explanation": "«therefore» یعنی بنابراین."
+          }
+        },
+        {
+          "id": "b2-u2-academic-linking.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "➕",
+          "choices": [
+            "nevertheless",
+            "consequently",
+            "moreover"
+          ],
+          "answer": 2,
+          "speak": "moreover"
+        },
+        {
+          "id": "b2-u2-academic-linking.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "nevertheless",
+          "choices": [
+            "already",
+            "nevertheless",
+            "insist"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u2-academic-linking.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "consequently",
+              "fa": "در نتیجه"
+            },
+            {
+              "en": "moreover",
+              "fa": "علاوه بر این"
+            },
+            {
+              "en": "therefore",
+              "fa": "بنابراین"
+            },
+            {
+              "en": "nevertheless",
+              "fa": "با این حال"
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-academic-linking.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باران آمد؛ بنابراین خانه ماندیم.",
+          "sentence": "It rained; ___, we stayed home.",
+          "choices": [
+            "therefore",
+            "admit",
+            "deny"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u2-academic-linking.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "علاوه بر این، هزینه کمتر است.",
+          "tokens": [
+            "cost",
+            "is",
+            "Moreover,",
+            "the",
+            "lower"
+          ],
+          "answer": "Moreover, the cost is lower"
+        },
+        {
+          "id": "b2-u2-academic-linking.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "rained;",
+            "therefore,",
+            "we",
+            "stay",
+            "home."
+          ],
+          "answer": 4,
+          "fix": "It rained; therefore, we stayed home.",
+          "aiHints": {
+            "explanation": "درستش این است: It rained; therefore, we stayed home."
+          }
+        },
+        {
+          "id": "b2-u2-academic-linking.8",
+          "kind": "speed",
+          "prompt": "سریع! «in contrast» یعنی چه؟",
+          "speak": "in contrast",
+          "choices": [
+            "در مقابل",
+            "انجام شده است"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u2-academic-linking.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «is believed»",
+          "choices": [
+            "باور می‌شود",
+            "قبلاً",
+            "اصرار کردن"
+          ],
+          "answer": 0,
+          "speak": "is believed",
+          "reviewOf": "b2-u2-reporting-passive"
+        },
+        {
+          "id": "b2-u2-academic-linking.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "is known",
+          "choices": [
+            "in contrast",
+            "claim",
+            "is known"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u2-reporting-passive"
+        },
+        {
+          "id": "b2-u2-academic-linking.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📈",
+          "choices": [
+            "by",
+            "it is said",
+            "is expected"
+          ],
+          "answer": 2,
+          "speak": "is expected",
+          "reviewOf": "b2-u2-reporting-passive"
+        },
+        {
+          "id": "b2-u2-academic-linking.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «according to»",
+          "speak": "according to",
+          "choices": [
+            "انجام شده است",
+            "به گفتهٔ"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u2-reporting-passive"
+        },
+        {
+          "id": "b2-u2-academic-linking.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "با این حال، برنامه ریسک دارد.",
+          "sentence": "___, the plan has risks.",
+          "choices": [
+            "Nevertheless",
+            "suggest",
+            "insist"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The plan is cheap; nevertheless, it has risks.",
+          "fa": "برنامه ارزان است، با این حال ریسک دارد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "با ویرگول",
+        "body": "این قیدها معمولاً بعد از ویرگول یا نقطه‌ویرگول می‌آیند."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u2-boss",
+    "titleFa": "نبرد پایانی — مجهول و نقل پیشرفته",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u2-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «will be done»",
+        "speak": "will be done",
+        "choices": [
+          "انجام خواهد شد",
+          "با این حال",
+          "توسط"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u2-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "already",
+        "choices": [
+          "has been done",
+          "already",
+          "claim"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u2-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚫",
+        "choices": [
+          "by",
+          "deny",
+          "is being built"
+        ],
+        "answer": 1,
+        "speak": "deny"
+      },
+      {
+        "id": "b2-u2-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «it is said»",
+        "speak": "it is said",
+        "choices": [
+          "گفته می‌شود",
+          "ادعا کردن"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u2-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «is expected»",
+        "speak": "is expected",
+        "choices": [
+          "در مقابل",
+          "بنابراین",
+          "انتظار می‌رود"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u2-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "moreover",
+        "choices": [
+          "moreover",
+          "is believed",
+          "therefore"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u2-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔀",
+        "choices": [
+          "in contrast",
+          "moreover",
+          "deny"
+        ],
+        "answer": 0,
+        "speak": "in contrast"
+      },
+      {
+        "id": "b2-u2-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «is being built»",
+        "speak": "is being built",
+        "choices": [
+          "در حال ساخت است",
+          "در مقابل"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u2-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «claim»",
+        "speak": "claim",
+        "choices": [
+          "علاوه بر این",
+          "با این حال",
+          "ادعا کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u2-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "suggest",
+        "choices": [
+          "therefore",
+          "claim",
+          "suggest"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

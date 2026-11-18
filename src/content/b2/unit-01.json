@@ -1,0 +1,1294 @@
+{
+  "id": "b2-u1",
+  "level": "B2",
+  "index": 1,
+  "titleFa": "شرط‌های پیشرفته",
+  "titleEn": "Advanced conditionals",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "b2-u1-third-conditional",
+      "title": "If I had known",
+      "titleFa": "شرط سوم",
+      "goal": "دربارهٔ گذشتهٔ غیرواقعی حرف بزنی",
+      "buildsOn": [
+        "b1-u12-b1-final"
+      ],
+      "vocab": [
+        {
+          "en": "had known",
+          "fa": "می‌دانستم",
+          "emoji": "🤔"
+        },
+        {
+          "en": "would have",
+          "fa": "می‌کردم",
+          "emoji": "💭"
+        },
+        {
+          "en": "if only",
+          "fa": "ای کاش",
+          "emoji": "🌠"
+        },
+        {
+          "en": "otherwise",
+          "fa": "وگرنه",
+          "emoji": "↩️"
+        },
+        {
+          "en": "regret",
+          "fa": "پشیمانی",
+          "emoji": "😔"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "had known",
+          "fa": "می‌دانستم",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "would have",
+          "fa": "می‌کردم",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "if only",
+          "fa": "ای کاش",
+          "emoji": "🌠"
+        },
+        {
+          "kind": "word",
+          "en": "otherwise",
+          "fa": "وگرنه",
+          "emoji": "↩️"
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had known, I would have helped.",
+          "fa": "اگر می‌دانستم، کمک می‌کردم."
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had known, I would have come.",
+          "fa": "اگر می‌دانستم، می‌آمدم.",
+          "highlight": "would have"
+        },
+        {
+          "kind": "rule",
+          "title": "گذشتهٔ غیرواقعی",
+          "body": "if + had + قسمت سوم فعل، بعد would have + قسمت سوم: if I had known, I would have come.",
+          "examples": [
+            {
+              "en": "If I had known, I would have helped.",
+              "fa": "اگر می‌دانستم، کمک می‌کردم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u1-third-conditional.1",
+          "kind": "mcq",
+          "prompt": "معنی «had known» چیست؟",
+          "promptFa": "می‌دانستم",
+          "choices": [
+            "تغییر",
+            "امید",
+            "می‌دانستم"
+          ],
+          "answer": 2,
+          "speak": "had known",
+          "aiHints": {
+            "example": "I know the word \"had known\".",
+            "explanation": "«had known» یعنی می‌دانستم."
+          }
+        },
+        {
+          "id": "b2-u1-third-conditional.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "would have",
+            "had known",
+            "otherwise"
+          ],
+          "answer": 0,
+          "speak": "would have"
+        },
+        {
+          "id": "b2-u1-third-conditional.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "if only",
+          "choices": [
+            "noisy",
+            "in case",
+            "if only"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u1-third-conditional.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "if only",
+              "fa": "ای کاش"
+            },
+            {
+              "en": "otherwise",
+              "fa": "وگرنه"
+            },
+            {
+              "en": "would have",
+              "fa": "می‌کردم"
+            },
+            {
+              "en": "had known",
+              "fa": "می‌دانستم"
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-third-conditional.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر می‌دانستم، می‌آمدم.",
+          "sentence": "If I had known, I ___ come.",
+          "choices": [
+            "would have",
+            "would stop",
+            "hope"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u1-third-conditional.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اگر می‌دانستم، کمک می‌کردم.",
+          "tokens": [
+            "I",
+            "I",
+            "known,",
+            "helped",
+            "had",
+            "If",
+            "have",
+            "would"
+          ],
+          "answer": "If I had known, I would have helped"
+        },
+        {
+          "id": "b2-u1-third-conditional.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "If",
+            "I",
+            "had",
+            "know,",
+            "I",
+            "would",
+            "have",
+            "helped."
+          ],
+          "answer": 3,
+          "fix": "If I had known, I would have helped.",
+          "aiHints": {
+            "explanation": "درستش این است: If I had known, I would have helped."
+          }
+        },
+        {
+          "id": "b2-u1-third-conditional.8",
+          "kind": "speed",
+          "prompt": "سریع! «regret» یعنی چه؟",
+          "speak": "regret",
+          "choices": [
+            "پشیمانی",
+            "می‌دانستم"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u1-third-conditional.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «reported»",
+          "choices": [
+            "نقل قول",
+            "الان",
+            "آرزو"
+          ],
+          "answer": 0,
+          "speak": "reported",
+          "reviewOf": "b1-u12-b1-final"
+        },
+        {
+          "id": "b2-u1-third-conditional.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "wish",
+          "choices": [
+            "otherwise",
+            "wish",
+            "in case"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u12-b1-final"
+        },
+        {
+          "id": "b2-u1-third-conditional.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "advice",
+            "still",
+            "otherwise"
+          ],
+          "answer": 0,
+          "speak": "advice",
+          "reviewOf": "b1-u12-b1-final"
+        },
+        {
+          "id": "b2-u1-third-conditional.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «review»",
+          "speak": "review",
+          "choices": [
+            "مرور",
+            "می‌دانستم"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u12-b1-final"
+        },
+        {
+          "id": "b2-u1-third-conditional.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر درس خوانده بود، قبول می‌شد.",
+          "sentence": "If she ___ studied, she would have passed.",
+          "choices": [
+            "unless",
+            "decision",
+            "had"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "If only I had left earlier, I would not have missed it.",
+          "fa": "ای کاش زودتر راه افتاده بودم، از دستش نمی‌دادم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "گذشتهٔ غیرواقعی",
+        "body": "if + had + قسمت سوم فعل، بعد would have + قسمت سوم: if I had known, I would have come."
+      }
+    },
+    {
+      "id": "b2-u1-mixed-conditionals",
+      "title": "Past and now",
+      "titleFa": "گذشته و حال با هم",
+      "goal": "نتیجهٔ الانِ یک تصمیم گذشته را بگویی",
+      "buildsOn": [
+        "b2-u1-third-conditional"
+      ],
+      "vocab": [
+        {
+          "en": "now",
+          "fa": "الان",
+          "emoji": "🕐"
+        },
+        {
+          "en": "would be",
+          "fa": "می‌بود",
+          "emoji": "💭"
+        },
+        {
+          "en": "still",
+          "fa": "هنوز",
+          "emoji": "⏳"
+        },
+        {
+          "en": "change",
+          "fa": "تغییر",
+          "emoji": "🔄"
+        },
+        {
+          "en": "decision",
+          "fa": "تصمیم",
+          "emoji": "✅"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "now",
+          "fa": "الان",
+          "emoji": "🕐"
+        },
+        {
+          "kind": "word",
+          "en": "would be",
+          "fa": "می‌بود",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "still",
+          "fa": "هنوز",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "change",
+          "fa": "تغییر",
+          "emoji": "🔄"
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had slept, I would feel better.",
+          "fa": "اگر خوابیده بودم، بهتر بودم."
+        },
+        {
+          "kind": "sentence",
+          "en": "If I had studied medicine, I would be a doctor now.",
+          "fa": "اگر پزشکی خوانده بودم، الان دکتر بودم.",
+          "highlight": "would be"
+        },
+        {
+          "kind": "rule",
+          "title": "گذشته در شرط، حال در نتیجه",
+          "body": "if + had + قسمت سوم (گذشته)، ولی نتیجه با would + فعل ساده (حال).",
+          "examples": [
+            {
+              "en": "If I had slept, I would feel better.",
+              "fa": "اگر خوابیده بودم، بهتر بودم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u1-mixed-conditionals.1",
+          "kind": "mcq",
+          "prompt": "معنی «now» چیست؟",
+          "promptFa": "الان",
+          "choices": [
+            "الان",
+            "می‌دانستم",
+            "امید"
+          ],
+          "answer": 0,
+          "speak": "now",
+          "aiHints": {
+            "example": "I know the word \"now\".",
+            "explanation": "«now» یعنی الان."
+          }
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "would be",
+            "now",
+            "change"
+          ],
+          "answer": 0,
+          "speak": "would be"
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "still",
+          "choices": [
+            "regret",
+            "in case",
+            "still"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "still",
+              "fa": "هنوز"
+            },
+            {
+              "en": "now",
+              "fa": "الان"
+            },
+            {
+              "en": "would be",
+              "fa": "می‌بود"
+            },
+            {
+              "en": "change",
+              "fa": "تغییر"
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر پزشکی خوانده بودم، الان دکتر بودم.",
+          "sentence": "If I had studied medicine, I ___ a doctor now.",
+          "choices": [
+            "could",
+            "would be",
+            "as long as"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اگر خوابیده بودم، بهتر بودم.",
+          "tokens": [
+            "had",
+            "feel",
+            "I",
+            "better",
+            "would",
+            "If",
+            "I",
+            "slept,"
+          ],
+          "answer": "If I had slept, I would feel better"
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "If",
+            "I",
+            "have",
+            "slept,",
+            "I",
+            "would",
+            "feel",
+            "better."
+          ],
+          "answer": 2,
+          "fix": "If I had slept, I would feel better.",
+          "aiHints": {
+            "explanation": "درستش این است: If I had slept, I would feel better."
+          }
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.8",
+          "kind": "speed",
+          "prompt": "سریع! «decision» یعنی چه؟",
+          "speak": "decision",
+          "choices": [
+            "می‌دانستم",
+            "تصمیم"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «would have»",
+          "choices": [
+            "مگر اینکه",
+            "می‌کردم",
+            "آرزو"
+          ],
+          "answer": 1,
+          "speak": "would have",
+          "reviewOf": "b2-u1-third-conditional"
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "if only",
+          "choices": [
+            "if only",
+            "otherwise",
+            "provided that"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u1-third-conditional"
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "↩️",
+          "choices": [
+            "otherwise",
+            "even if",
+            "regret"
+          ],
+          "answer": 0,
+          "speak": "otherwise",
+          "reviewOf": "b2-u1-third-conditional"
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «regret»",
+          "speak": "regret",
+          "choices": [
+            "می‌دانستم",
+            "پشیمانی"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u1-third-conditional"
+        },
+        {
+          "id": "b2-u1-mixed-conditionals.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر پول پس‌انداز کرده بودم، الان ماشین داشتم.",
+          "sentence": "If I had saved money, I ___ have a car now.",
+          "choices": [
+            "would",
+            "decision",
+            "could"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "If I had not moved, I would still work there.",
+          "fa": "اگر اسباب‌کشی نکرده بودم، هنوز آنجا کار می‌کردم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "گذشته در شرط، حال در نتیجه",
+        "body": "if + had + قسمت سوم (گذشته)، ولی نتیجه با would + فعل ساده (حال)."
+      }
+    },
+    {
+      "id": "b2-u1-unless-if",
+      "title": "Unless and as long as",
+      "titleFa": "unless و as long as",
+      "goal": "شرط را دقیق‌تر بیان کنی",
+      "buildsOn": [
+        "b2-u1-mixed-conditionals"
+      ],
+      "vocab": [
+        {
+          "en": "unless",
+          "fa": "مگر اینکه",
+          "emoji": "🚫"
+        },
+        {
+          "en": "as long as",
+          "fa": "تا وقتی که",
+          "emoji": "⏳"
+        },
+        {
+          "en": "provided that",
+          "fa": "به شرطی که",
+          "emoji": "📋"
+        },
+        {
+          "en": "even if",
+          "fa": "حتی اگر",
+          "emoji": "🤷"
+        },
+        {
+          "en": "in case",
+          "fa": "در صورتی که",
+          "emoji": "🎒"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "unless",
+          "fa": "مگر اینکه",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "as long as",
+          "fa": "تا وقتی که",
+          "emoji": "⏳"
+        },
+        {
+          "kind": "word",
+          "en": "provided that",
+          "fa": "به شرطی که",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "even if",
+          "fa": "حتی اگر",
+          "emoji": "🤷"
+        },
+        {
+          "kind": "sentence",
+          "en": "I will call you unless I am busy.",
+          "fa": "بهت زنگ می‌زنم مگر اینکه سرم شلوغ باشد."
+        },
+        {
+          "kind": "sentence",
+          "en": "I will go unless it rains.",
+          "fa": "می‌روم مگر اینکه باران بیاید.",
+          "highlight": "unless"
+        },
+        {
+          "kind": "rule",
+          "title": "unless = if not",
+          "body": "بعد از unless فعل مثبت و حال ساده می‌آید، نه will: unless it rains.",
+          "examples": [
+            {
+              "en": "I will call you unless I am busy.",
+              "fa": "بهت زنگ می‌زنم مگر اینکه سرم شلوغ باشد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u1-unless-if.1",
+          "kind": "mcq",
+          "prompt": "معنی «unless» چیست؟",
+          "promptFa": "مگر اینکه",
+          "choices": [
+            "ای کاش",
+            "هنوز",
+            "مگر اینکه"
+          ],
+          "answer": 2,
+          "speak": "unless",
+          "aiHints": {
+            "example": "I know the word \"unless\".",
+            "explanation": "«unless» یعنی مگر اینکه."
+          }
+        },
+        {
+          "id": "b2-u1-unless-if.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⏳",
+          "choices": [
+            "as long as",
+            "in case",
+            "unless"
+          ],
+          "answer": 0,
+          "speak": "as long as"
+        },
+        {
+          "id": "b2-u1-unless-if.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "provided that",
+          "choices": [
+            "unless",
+            "in case",
+            "provided that"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u1-unless-if.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "even if",
+              "fa": "حتی اگر"
+            },
+            {
+              "en": "provided that",
+              "fa": "به شرطی که"
+            },
+            {
+              "en": "as long as",
+              "fa": "تا وقتی که"
+            },
+            {
+              "en": "unless",
+              "fa": "مگر اینکه"
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-unless-if.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌روم مگر اینکه باران بیاید.",
+          "sentence": "I will go ___ it rains.",
+          "choices": [
+            "could",
+            "provided that",
+            "unless"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u1-unless-if.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "بهت زنگ می‌زنم مگر اینکه سرم شلوغ باشد.",
+          "tokens": [
+            "I",
+            "unless",
+            "I",
+            "am",
+            "you",
+            "busy",
+            "will",
+            "call"
+          ],
+          "answer": "I will call you unless I am busy"
+        },
+        {
+          "id": "b2-u1-unless-if.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "will",
+            "go",
+            "unless",
+            "it",
+            "will",
+            "rain."
+          ],
+          "answer": 5,
+          "fix": "I will go unless it rains.",
+          "aiHints": {
+            "explanation": "درستش این است: I will go unless it rains."
+          }
+        },
+        {
+          "id": "b2-u1-unless-if.8",
+          "kind": "speed",
+          "prompt": "سریع! «in case» یعنی چه؟",
+          "speak": "in case",
+          "choices": [
+            "در صورتی که",
+            "می‌دانستم"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u1-unless-if.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «would be»",
+          "choices": [
+            "متوقف می‌شد",
+            "می‌بود",
+            "می‌دانستم"
+          ],
+          "answer": 1,
+          "speak": "would be",
+          "reviewOf": "b2-u1-mixed-conditionals"
+        },
+        {
+          "id": "b2-u1-unless-if.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "still",
+          "choices": [
+            "in case",
+            "even if",
+            "still"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u1-mixed-conditionals"
+        },
+        {
+          "id": "b2-u1-unless-if.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔄",
+          "choices": [
+            "regret",
+            "change",
+            "would have"
+          ],
+          "answer": 1,
+          "speak": "change",
+          "reviewOf": "b2-u1-mixed-conditionals"
+        },
+        {
+          "id": "b2-u1-unless-if.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «decision»",
+          "speak": "decision",
+          "choices": [
+            "می‌دانستم",
+            "تصمیم"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u1-mixed-conditionals"
+        },
+        {
+          "id": "b2-u1-unless-if.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "می‌توانی بمانی تا وقتی ساکت باشی.",
+          "sentence": "You can stay ___ you are quiet.",
+          "choices": [
+            "as long as",
+            "change",
+            "in case"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I will help you as long as you ask.",
+          "fa": "کمکت می‌کنم تا وقتی که بخواهی."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "unless = if not",
+        "body": "بعد از unless فعل مثبت و حال ساده می‌آید، نه will: unless it rains."
+      }
+    },
+    {
+      "id": "b2-u1-wish-hope",
+      "title": "I wish you would…",
+      "titleFa": "آرزو و امید",
+      "goal": "نارضایتی و امیدت را بگویی",
+      "buildsOn": [
+        "b2-u1-unless-if"
+      ],
+      "vocab": [
+        {
+          "en": "wish",
+          "fa": "آرزو",
+          "emoji": "🌠"
+        },
+        {
+          "en": "hope",
+          "fa": "امید",
+          "emoji": "🌟"
+        },
+        {
+          "en": "would stop",
+          "fa": "متوقف می‌شد",
+          "emoji": "⏹️"
+        },
+        {
+          "en": "could",
+          "fa": "می‌توانستم",
+          "emoji": "💪"
+        },
+        {
+          "en": "noisy",
+          "fa": "پرسروصدا",
+          "emoji": "🔊"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "wish",
+          "fa": "آرزو",
+          "emoji": "🌠"
+        },
+        {
+          "kind": "word",
+          "en": "hope",
+          "fa": "امید",
+          "emoji": "🌟"
+        },
+        {
+          "kind": "word",
+          "en": "would stop",
+          "fa": "متوقف می‌شد",
+          "emoji": "⏹️"
+        },
+        {
+          "kind": "word",
+          "en": "could",
+          "fa": "می‌توانستم",
+          "emoji": "💪"
+        },
+        {
+          "kind": "sentence",
+          "en": "I wish you would listen.",
+          "fa": "ای کاش گوش می‌کردی."
+        },
+        {
+          "kind": "sentence",
+          "en": "I wish it would stop raining.",
+          "fa": "ای کاش باران بند بیاید.",
+          "highlight": "would"
+        },
+        {
+          "kind": "rule",
+          "title": "wish یا hope",
+          "body": "wish + would برای نارضایتی از یک رفتار، hope + will برای امید واقعی.",
+          "examples": [
+            {
+              "en": "I wish you would listen.",
+              "fa": "ای کاش گوش می‌کردی."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u1-wish-hope.1",
+          "kind": "mcq",
+          "prompt": "معنی «wish» چیست؟",
+          "promptFa": "آرزو",
+          "choices": [
+            "می‌کردم",
+            "آرزو",
+            "پرسروصدا"
+          ],
+          "answer": 1,
+          "speak": "wish",
+          "aiHints": {
+            "example": "I know the word \"wish\".",
+            "explanation": "«wish» یعنی آرزو."
+          }
+        },
+        {
+          "id": "b2-u1-wish-hope.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌟",
+          "choices": [
+            "could",
+            "wish",
+            "hope"
+          ],
+          "answer": 2,
+          "speak": "hope"
+        },
+        {
+          "id": "b2-u1-wish-hope.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "would stop",
+          "choices": [
+            "would stop",
+            "still",
+            "noisy"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u1-wish-hope.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "would stop",
+              "fa": "متوقف می‌شد"
+            },
+            {
+              "en": "could",
+              "fa": "می‌توانستم"
+            },
+            {
+              "en": "wish",
+              "fa": "آرزو"
+            },
+            {
+              "en": "hope",
+              "fa": "امید"
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-wish-hope.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "ای کاش باران بند بیاید.",
+          "sentence": "I wish it ___ stop raining.",
+          "choices": [
+            "wish",
+            "would",
+            "as long as"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u1-wish-hope.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ای کاش گوش می‌کردی.",
+          "tokens": [
+            "wish",
+            "would",
+            "listen",
+            "you",
+            "I"
+          ],
+          "answer": "I wish you would listen"
+        },
+        {
+          "id": "b2-u1-wish-hope.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "wish",
+            "you",
+            "will",
+            "listen."
+          ],
+          "answer": 3,
+          "fix": "I wish you would listen.",
+          "aiHints": {
+            "explanation": "درستش این است: I wish you would listen."
+          }
+        },
+        {
+          "id": "b2-u1-wish-hope.8",
+          "kind": "speed",
+          "prompt": "سریع! «noisy» یعنی چه؟",
+          "speak": "noisy",
+          "choices": [
+            "پرسروصدا",
+            "می‌دانستم"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u1-wish-hope.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «as long as»",
+          "choices": [
+            "می‌توانستم",
+            "وگرنه",
+            "تا وقتی که"
+          ],
+          "answer": 2,
+          "speak": "as long as",
+          "reviewOf": "b2-u1-unless-if"
+        },
+        {
+          "id": "b2-u1-wish-hope.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "provided that",
+          "choices": [
+            "otherwise",
+            "in case",
+            "provided that"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u1-unless-if"
+        },
+        {
+          "id": "b2-u1-wish-hope.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🤷",
+          "choices": [
+            "still",
+            "wish",
+            "even if"
+          ],
+          "answer": 2,
+          "speak": "even if",
+          "reviewOf": "b2-u1-unless-if"
+        },
+        {
+          "id": "b2-u1-wish-hope.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «in case»",
+          "speak": "in case",
+          "choices": [
+            "در صورتی که",
+            "می‌دانستم"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u1-unless-if"
+        },
+        {
+          "id": "b2-u1-wish-hope.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "امیدوارم بیایی.",
+          "sentence": "I hope you ___ come.",
+          "choices": [
+            "hope",
+            "had known",
+            "will"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I wish the neighbours would stop being noisy.",
+          "fa": "ای کاش همسایه‌ها دست از سروصدا بردارند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "wish یا hope",
+        "body": "wish + would برای نارضایتی از یک رفتار، hope + will برای امید واقعی."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u1-boss",
+    "titleFa": "نبرد پایانی — شرط‌های پیشرفته",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u1-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «would have»",
+        "speak": "would have",
+        "choices": [
+          "به شرطی که",
+          "می‌دانستم",
+          "می‌کردم"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u1-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "regret",
+        "choices": [
+          "if only",
+          "hope",
+          "regret"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u1-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏳",
+        "choices": [
+          "if only",
+          "still",
+          "would be"
+        ],
+        "answer": 1,
+        "speak": "still"
+      },
+      {
+        "id": "b2-u1-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «unless»",
+        "speak": "unless",
+        "choices": [
+          "ای کاش",
+          "مگر اینکه"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u1-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «even if»",
+        "speak": "even if",
+        "choices": [
+          "حتی اگر",
+          "الان",
+          "پرسروصدا"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u1-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "hope",
+        "choices": [
+          "otherwise",
+          "hope",
+          "could"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u1-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔊",
+        "choices": [
+          "noisy",
+          "regret",
+          "would stop"
+        ],
+        "answer": 0,
+        "speak": "noisy"
+      },
+      {
+        "id": "b2-u1-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «if only»",
+        "speak": "if only",
+        "choices": [
+          "حتی اگر",
+          "ای کاش"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u1-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «now»",
+        "speak": "now",
+        "choices": [
+          "حتی اگر",
+          "الان",
+          "هنوز"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u1-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "change",
+        "choices": [
+          "change",
+          "regret",
+          "otherwise"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

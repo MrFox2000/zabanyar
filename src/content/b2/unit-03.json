@@ -1,0 +1,1276 @@
+{
+  "id": "b2-u3",
+  "level": "B2",
+  "index": 3,
+  "titleFa": "جامعه و استدلال",
+  "titleEn": "Society and arguments",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "b2-u3-society-words",
+      "title": "Society and culture",
+      "titleFa": "واژگان جامعه",
+      "goal": "دربارهٔ جامعه و فرهنگ حرف بزنی",
+      "buildsOn": [
+        "b2-u2-academic-linking"
+      ],
+      "vocab": [
+        {
+          "en": "society",
+          "fa": "جامعه",
+          "emoji": "🏙️"
+        },
+        {
+          "en": "government",
+          "fa": "دولت",
+          "emoji": "🏛️"
+        },
+        {
+          "en": "economy",
+          "fa": "اقتصاد",
+          "emoji": "💹"
+        },
+        {
+          "en": "culture",
+          "fa": "فرهنگ",
+          "emoji": "🎭"
+        },
+        {
+          "en": "generation",
+          "fa": "نسل",
+          "emoji": "👨‍👩‍👧"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "society",
+          "fa": "جامعه",
+          "emoji": "🏙️"
+        },
+        {
+          "kind": "word",
+          "en": "government",
+          "fa": "دولت",
+          "emoji": "🏛️"
+        },
+        {
+          "kind": "word",
+          "en": "economy",
+          "fa": "اقتصاد",
+          "emoji": "💹"
+        },
+        {
+          "kind": "word",
+          "en": "culture",
+          "fa": "فرهنگ",
+          "emoji": "🎭"
+        },
+        {
+          "kind": "sentence",
+          "en": "Culture shapes the way we think.",
+          "fa": "فرهنگ طرز فکر ما را می‌سازد."
+        },
+        {
+          "kind": "sentence",
+          "en": "The society has changed.",
+          "fa": "جامعه تغییر کرده است.",
+          "highlight": "society"
+        },
+        {
+          "kind": "rule",
+          "title": "اسم‌های کلی",
+          "body": "society و culture به‌صورت کلی بدون the می‌آیند: society has changed.",
+          "examples": [
+            {
+              "en": "Culture shapes the way we think.",
+              "fa": "فرهنگ طرز فکر ما را می‌سازد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u3-society-words.1",
+          "kind": "mcq",
+          "prompt": "معنی «society» چیست؟",
+          "promptFa": "جامعه",
+          "choices": [
+            "شواهد",
+            "دولت",
+            "جامعه"
+          ],
+          "answer": 2,
+          "speak": "society",
+          "aiHints": {
+            "example": "I know the word \"society\".",
+            "explanation": "«society» یعنی جامعه."
+          }
+        },
+        {
+          "id": "b2-u3-society-words.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏛️",
+          "choices": [
+            "culture",
+            "society",
+            "government"
+          ],
+          "answer": 2,
+          "speak": "government"
+        },
+        {
+          "id": "b2-u3-society-words.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "economy",
+          "choices": [
+            "society",
+            "economy",
+            "prove"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u3-society-words.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "society",
+              "fa": "جامعه"
+            },
+            {
+              "en": "government",
+              "fa": "دولت"
+            },
+            {
+              "en": "economy",
+              "fa": "اقتصاد"
+            },
+            {
+              "en": "culture",
+              "fa": "فرهنگ"
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-society-words.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "جامعه تغییر کرده است.",
+          "sentence": "The ___ has changed.",
+          "choices": [
+            "society",
+            "lead to",
+            "example"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u3-society-words.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فرهنگ طرز فکر ما را می‌سازد.",
+          "tokens": [
+            "Culture",
+            "way",
+            "think",
+            "shapes",
+            "the",
+            "we"
+          ],
+          "answer": "Culture shapes the way we think"
+        },
+        {
+          "id": "b2-u3-society-words.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "society",
+            "have",
+            "changed."
+          ],
+          "answer": 2,
+          "fix": "Society has changed.",
+          "aiHints": {
+            "explanation": "درستش این است: Society has changed."
+          }
+        },
+        {
+          "id": "b2-u3-society-words.8",
+          "kind": "speed",
+          "prompt": "سریع! «generation» یعنی چه؟",
+          "speak": "generation",
+          "choices": [
+            "نسل",
+            "جامعه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u3-society-words.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «moreover»",
+          "choices": [
+            "منجر شدن به",
+            "علاوه بر این",
+            "جامعه"
+          ],
+          "answer": 1,
+          "speak": "moreover",
+          "reviewOf": "b2-u2-academic-linking"
+        },
+        {
+          "id": "b2-u3-society-words.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "nevertheless",
+          "choices": [
+            "generation",
+            "in conclusion",
+            "nevertheless"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u2-academic-linking"
+        },
+        {
+          "id": "b2-u3-society-words.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📉",
+          "choices": [
+            "consequently",
+            "overall",
+            "culture"
+          ],
+          "answer": 0,
+          "speak": "consequently",
+          "reviewOf": "b2-u2-academic-linking"
+        },
+        {
+          "id": "b2-u3-society-words.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «in contrast»",
+          "speak": "in contrast",
+          "choices": [
+            "در مقابل",
+            "جامعه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u2-academic-linking"
+        },
+        {
+          "id": "b2-u3-society-words.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اقتصاد در حال رشد است.",
+          "sentence": "The ___ is growing.",
+          "choices": [
+            "briefly",
+            "lead to",
+            "economy"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Every generation changes the culture of society.",
+          "fa": "هر نسلی فرهنگ جامعه را تغییر می‌دهد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "اسم‌های کلی",
+        "body": "society و culture به‌صورت کلی بدون the می‌آیند: society has changed."
+      }
+    },
+    {
+      "id": "b2-u3-cause-effect",
+      "title": "Affect and influence",
+      "titleFa": "علت و اثر",
+      "goal": "رابطهٔ علت و معلول را بگویی",
+      "buildsOn": [
+        "b2-u3-society-words"
+      ],
+      "vocab": [
+        {
+          "en": "affect",
+          "fa": "اثر گذاشتن",
+          "emoji": "🎯"
+        },
+        {
+          "en": "influence",
+          "fa": "تأثیر گذاشتن",
+          "emoji": "🌊"
+        },
+        {
+          "en": "cause",
+          "fa": "باعث شدن",
+          "emoji": "⚡"
+        },
+        {
+          "en": "result",
+          "fa": "نتیجه",
+          "emoji": "📊"
+        },
+        {
+          "en": "lead to",
+          "fa": "منجر شدن به",
+          "emoji": "➡️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "affect",
+          "fa": "اثر گذاشتن",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "word",
+          "en": "influence",
+          "fa": "تأثیر گذاشتن",
+          "emoji": "🌊"
+        },
+        {
+          "kind": "word",
+          "en": "cause",
+          "fa": "باعث شدن",
+          "emoji": "⚡"
+        },
+        {
+          "kind": "word",
+          "en": "result",
+          "fa": "نتیجه",
+          "emoji": "📊"
+        },
+        {
+          "kind": "sentence",
+          "en": "Technology influences our culture.",
+          "fa": "فناوری بر فرهنگ ما اثر می‌گذارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "Stress can affect health.",
+          "fa": "استرس می‌تواند به سلامتی اثر بگذارد.",
+          "highlight": "affect"
+        },
+        {
+          "kind": "rule",
+          "title": "lead to + اسم",
+          "body": "بعد از lead to یک اسم می‌آید، نه فعل: leads to problems.",
+          "examples": [
+            {
+              "en": "Technology influences our culture.",
+              "fa": "فناوری بر فرهنگ ما اثر می‌گذارد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u3-cause-effect.1",
+          "kind": "mcq",
+          "prompt": "معنی «affect» چیست؟",
+          "promptFa": "اثر گذاشتن",
+          "choices": [
+            "تأثیر گذاشتن",
+            "اثر گذاشتن",
+            "استدلال"
+          ],
+          "answer": 1,
+          "speak": "affect",
+          "aiHints": {
+            "example": "I know the word \"affect\".",
+            "explanation": "«affect» یعنی اثر گذاشتن."
+          }
+        },
+        {
+          "id": "b2-u3-cause-effect.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌊",
+          "choices": [
+            "influence",
+            "cause",
+            "affect"
+          ],
+          "answer": 0,
+          "speak": "influence"
+        },
+        {
+          "id": "b2-u3-cause-effect.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "cause",
+          "choices": [
+            "cause",
+            "example",
+            "culture"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u3-cause-effect.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "influence",
+              "fa": "تأثیر گذاشتن"
+            },
+            {
+              "en": "cause",
+              "fa": "باعث شدن"
+            },
+            {
+              "en": "affect",
+              "fa": "اثر گذاشتن"
+            },
+            {
+              "en": "result",
+              "fa": "نتیجه"
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-cause-effect.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "استرس می‌تواند به سلامتی اثر بگذارد.",
+          "sentence": "Stress can ___ health.",
+          "choices": [
+            "affect",
+            "cause",
+            "lead to"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u3-cause-effect.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فناوری بر فرهنگ ما اثر می‌گذارد.",
+          "tokens": [
+            "culture",
+            "influences",
+            "Technology",
+            "our"
+          ],
+          "answer": "Technology influences our culture"
+        },
+        {
+          "id": "b2-u3-cause-effect.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Technology",
+            "influence",
+            "our",
+            "culture."
+          ],
+          "answer": 1,
+          "fix": "Technology influences our culture.",
+          "aiHints": {
+            "explanation": "درستش این است: Technology influences our culture."
+          }
+        },
+        {
+          "id": "b2-u3-cause-effect.8",
+          "kind": "speed",
+          "prompt": "سریع! «lead to» یعنی چه؟",
+          "speak": "lead to",
+          "choices": [
+            "جامعه",
+            "منجر شدن به"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u3-cause-effect.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «government»",
+          "choices": [
+            "خلاصه کردن",
+            "دولت",
+            "منجر شدن به"
+          ],
+          "answer": 1,
+          "speak": "government",
+          "reviewOf": "b2-u3-society-words"
+        },
+        {
+          "id": "b2-u3-cause-effect.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "economy",
+          "choices": [
+            "result",
+            "mainly",
+            "economy"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u3-society-words"
+        },
+        {
+          "id": "b2-u3-cause-effect.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎭",
+          "choices": [
+            "mainly",
+            "culture",
+            "argument"
+          ],
+          "answer": 1,
+          "speak": "culture",
+          "reviewOf": "b2-u3-society-words"
+        },
+        {
+          "id": "b2-u3-cause-effect.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «generation»",
+          "speak": "generation",
+          "choices": [
+            "جامعه",
+            "نسل"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u3-society-words"
+        },
+        {
+          "id": "b2-u3-cause-effect.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "خواب بد منجر به مشکلات می‌شود.",
+          "sentence": "Bad sleep ___ to problems.",
+          "choices": [
+            "cause",
+            "economy",
+            "leads"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Poor sleep can cause stress and lead to illness.",
+          "fa": "خواب کم می‌تواند استرس ایجاد کند و به بیماری منجر شود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "lead to + اسم",
+        "body": "بعد از lead to یک اسم می‌آید، نه فعل: leads to problems."
+      }
+    },
+    {
+      "id": "b2-u3-argument-evidence",
+      "title": "Evidence and arguments",
+      "titleFa": "استدلال و شواهد",
+      "goal": "استدلالت را با شاهد بگویی",
+      "buildsOn": [
+        "b2-u3-cause-effect"
+      ],
+      "vocab": [
+        {
+          "en": "evidence",
+          "fa": "شواهد",
+          "emoji": "🔍"
+        },
+        {
+          "en": "argument",
+          "fa": "استدلال",
+          "emoji": "💬"
+        },
+        {
+          "en": "point",
+          "fa": "نکته",
+          "emoji": "📍"
+        },
+        {
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "en": "prove",
+          "fa": "اثبات کردن",
+          "emoji": "✅"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "evidence",
+          "fa": "شواهد",
+          "emoji": "🔍"
+        },
+        {
+          "kind": "word",
+          "en": "argument",
+          "fa": "استدلال",
+          "emoji": "💬"
+        },
+        {
+          "kind": "word",
+          "en": "point",
+          "fa": "نکته",
+          "emoji": "📍"
+        },
+        {
+          "kind": "word",
+          "en": "example",
+          "fa": "مثال",
+          "emoji": "📎"
+        },
+        {
+          "kind": "sentence",
+          "en": "The evidence supports this argument.",
+          "fa": "شواهد این استدلال را حمایت می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "There is no evidence for that.",
+          "fa": "هیچ شواهدی برای آن نیست.",
+          "highlight": "evidence"
+        },
+        {
+          "kind": "rule",
+          "title": "evidence غیرقابل‌شمارش",
+          "body": "evidence جمع بسته نمی‌شود و با is می‌آید: the evidence is clear.",
+          "examples": [
+            {
+              "en": "The evidence supports this argument.",
+              "fa": "شواهد این استدلال را حمایت می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u3-argument-evidence.1",
+          "kind": "mcq",
+          "prompt": "معنی «evidence» چیست؟",
+          "promptFa": "شواهد",
+          "choices": [
+            "فرهنگ",
+            "منجر شدن به",
+            "شواهد"
+          ],
+          "answer": 2,
+          "speak": "evidence",
+          "aiHints": {
+            "example": "I know the word \"evidence\".",
+            "explanation": "«evidence» یعنی شواهد."
+          }
+        },
+        {
+          "id": "b2-u3-argument-evidence.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💬",
+          "choices": [
+            "argument",
+            "prove",
+            "point"
+          ],
+          "answer": 0,
+          "speak": "argument"
+        },
+        {
+          "id": "b2-u3-argument-evidence.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "point",
+          "choices": [
+            "sum up",
+            "point",
+            "affect"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u3-argument-evidence.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "example",
+              "fa": "مثال"
+            },
+            {
+              "en": "argument",
+              "fa": "استدلال"
+            },
+            {
+              "en": "evidence",
+              "fa": "شواهد"
+            },
+            {
+              "en": "point",
+              "fa": "نکته"
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-argument-evidence.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "هیچ شواهدی برای آن نیست.",
+          "sentence": "There is no ___ for that.",
+          "choices": [
+            "evidence",
+            "lead to",
+            "cause"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u3-argument-evidence.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "شواهد این استدلال را حمایت می‌کند.",
+          "tokens": [
+            "this",
+            "argument",
+            "The",
+            "supports",
+            "evidence"
+          ],
+          "answer": "The evidence supports this argument"
+        },
+        {
+          "id": "b2-u3-argument-evidence.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "There",
+            "are",
+            "no",
+            "evidence",
+            "for",
+            "that."
+          ],
+          "answer": 1,
+          "fix": "There is no evidence for that.",
+          "aiHints": {
+            "explanation": "درستش این است: There is no evidence for that."
+          }
+        },
+        {
+          "id": "b2-u3-argument-evidence.8",
+          "kind": "speed",
+          "prompt": "سریع! «prove» یعنی چه؟",
+          "speak": "prove",
+          "choices": [
+            "اثبات کردن",
+            "جامعه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u3-argument-evidence.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «influence»",
+          "choices": [
+            "منجر شدن به",
+            "تأثیر گذاشتن",
+            "نتیجه"
+          ],
+          "answer": 1,
+          "speak": "influence",
+          "reviewOf": "b2-u3-cause-effect"
+        },
+        {
+          "id": "b2-u3-argument-evidence.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "cause",
+          "choices": [
+            "point",
+            "culture",
+            "cause"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u3-cause-effect"
+        },
+        {
+          "id": "b2-u3-argument-evidence.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📊",
+          "choices": [
+            "result",
+            "lead to",
+            "government"
+          ],
+          "answer": 0,
+          "speak": "result",
+          "reviewOf": "b2-u3-cause-effect"
+        },
+        {
+          "id": "b2-u3-argument-evidence.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «lead to»",
+          "speak": "lead to",
+          "choices": [
+            "منجر شدن به",
+            "جامعه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u3-cause-effect"
+        },
+        {
+          "id": "b2-u3-argument-evidence.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این نکتهٔ خوبی است.",
+          "sentence": "That is a good ___.",
+          "choices": [
+            "point",
+            "example",
+            "society"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Can you prove your point with an example?",
+          "fa": "می‌توانی نکته‌ات را با یک مثال ثابت کنی؟"
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "evidence غیرقابل‌شمارش",
+        "body": "evidence جمع بسته نمی‌شود و با is می‌آید: the evidence is clear."
+      }
+    },
+    {
+      "id": "b2-u3-summarising",
+      "title": "Overall and in conclusion",
+      "titleFa": "جمع‌بندی و ارائه",
+      "goal": "یک بحث را جمع‌بندی کنی",
+      "buildsOn": [
+        "b2-u3-argument-evidence"
+      ],
+      "vocab": [
+        {
+          "en": "overall",
+          "fa": "در کل",
+          "emoji": "🧾"
+        },
+        {
+          "en": "in conclusion",
+          "fa": "در نتیجه‌گیری",
+          "emoji": "🏁"
+        },
+        {
+          "en": "mainly",
+          "fa": "عمدتاً",
+          "emoji": "🎯"
+        },
+        {
+          "en": "briefly",
+          "fa": "به‌طور خلاصه",
+          "emoji": "✂️"
+        },
+        {
+          "en": "sum up",
+          "fa": "خلاصه کردن",
+          "emoji": "📝"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "overall",
+          "fa": "در کل",
+          "emoji": "🧾"
+        },
+        {
+          "kind": "word",
+          "en": "in conclusion",
+          "fa": "در نتیجه‌گیری",
+          "emoji": "🏁"
+        },
+        {
+          "kind": "word",
+          "en": "mainly",
+          "fa": "عمدتاً",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "word",
+          "en": "briefly",
+          "fa": "به‌طور خلاصه",
+          "emoji": "✂️"
+        },
+        {
+          "kind": "sentence",
+          "en": "Overall, the plan works well.",
+          "fa": "در کل برنامه خوب کار می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "Overall, the results are positive.",
+          "fa": "در کل، نتایج مثبت است.",
+          "highlight": "Overall"
+        },
+        {
+          "kind": "rule",
+          "title": "برای پایان بحث",
+          "body": "overall، in conclusion و to sum up برای جمع‌بندی می‌آیند.",
+          "examples": [
+            {
+              "en": "Overall, the plan works well.",
+              "fa": "در کل برنامه خوب کار می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u3-summarising.1",
+          "kind": "mcq",
+          "prompt": "معنی «overall» چیست؟",
+          "promptFa": "در کل",
+          "choices": [
+            "در کل",
+            "منجر شدن به",
+            "دولت"
+          ],
+          "answer": 0,
+          "speak": "overall",
+          "aiHints": {
+            "example": "I know the word \"overall\".",
+            "explanation": "«overall» یعنی در کل."
+          }
+        },
+        {
+          "id": "b2-u3-summarising.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏁",
+          "choices": [
+            "in conclusion",
+            "briefly",
+            "mainly"
+          ],
+          "answer": 0,
+          "speak": "in conclusion"
+        },
+        {
+          "id": "b2-u3-summarising.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "mainly",
+          "choices": [
+            "mainly",
+            "in conclusion",
+            "affect"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u3-summarising.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "overall",
+              "fa": "در کل"
+            },
+            {
+              "en": "in conclusion",
+              "fa": "در نتیجه‌گیری"
+            },
+            {
+              "en": "mainly",
+              "fa": "عمدتاً"
+            },
+            {
+              "en": "briefly",
+              "fa": "به‌طور خلاصه"
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-summarising.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "در کل، نتایج مثبت است.",
+          "sentence": "___, the results are positive.",
+          "choices": [
+            "point",
+            "Overall",
+            "briefly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u3-summarising.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "در کل برنامه خوب کار می‌کند.",
+          "tokens": [
+            "works",
+            "well",
+            "plan",
+            "the",
+            "Overall,"
+          ],
+          "answer": "Overall, the plan works well"
+        },
+        {
+          "id": "b2-u3-summarising.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Overall,",
+            "the",
+            "results",
+            "is",
+            "positive."
+          ],
+          "answer": 3,
+          "fix": "Overall, the results are positive.",
+          "aiHints": {
+            "explanation": "درستش این است: Overall, the results are positive."
+          }
+        },
+        {
+          "id": "b2-u3-summarising.8",
+          "kind": "speed",
+          "prompt": "سریع! «sum up» یعنی چه؟",
+          "speak": "sum up",
+          "choices": [
+            "خلاصه کردن",
+            "جامعه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u3-summarising.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «argument»",
+          "choices": [
+            "استدلال",
+            "اثر گذاشتن",
+            "در نتیجه‌گیری"
+          ],
+          "answer": 0,
+          "speak": "argument",
+          "reviewOf": "b2-u3-argument-evidence"
+        },
+        {
+          "id": "b2-u3-summarising.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "point",
+          "choices": [
+            "example",
+            "economy",
+            "point"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u3-argument-evidence"
+        },
+        {
+          "id": "b2-u3-summarising.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📎",
+          "choices": [
+            "point",
+            "mainly",
+            "example"
+          ],
+          "answer": 2,
+          "speak": "example",
+          "reviewOf": "b2-u3-argument-evidence"
+        },
+        {
+          "id": "b2-u3-summarising.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «prove»",
+          "speak": "prove",
+          "choices": [
+            "جامعه",
+            "اثبات کردن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u3-argument-evidence"
+        },
+        {
+          "id": "b2-u3-summarising.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "در نتیجه‌گیری، دادهٔ بیشتری لازم داریم.",
+          "sentence": "___, we need more data.",
+          "choices": [
+            "overall",
+            "result",
+            "In conclusion"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Briefly, the evidence is strong and the plan works.",
+          "fa": "به‌طور خلاصه، شواهد قوی است و برنامه کار می‌کند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "برای پایان بحث",
+        "body": "overall، in conclusion و to sum up برای جمع‌بندی می‌آیند."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u3-boss",
+    "titleFa": "نبرد پایانی — جامعه و استدلال",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u3-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «government»",
+        "speak": "government",
+        "choices": [
+          "اقتصاد",
+          "اثبات کردن",
+          "دولت"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u3-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "generation",
+        "choices": [
+          "sum up",
+          "culture",
+          "generation"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u3-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⚡",
+        "choices": [
+          "generation",
+          "point",
+          "cause"
+        ],
+        "answer": 2,
+        "speak": "cause"
+      },
+      {
+        "id": "b2-u3-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «evidence»",
+        "speak": "evidence",
+        "choices": [
+          "در نتیجه‌گیری",
+          "شواهد"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u3-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «example»",
+        "speak": "example",
+        "choices": [
+          "شواهد",
+          "مثال",
+          "خلاصه کردن"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u3-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "in conclusion",
+        "choices": [
+          "point",
+          "lead to",
+          "in conclusion"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u3-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📝",
+        "choices": [
+          "example",
+          "sum up",
+          "cause"
+        ],
+        "answer": 1,
+        "speak": "sum up"
+      },
+      {
+        "id": "b2-u3-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «economy»",
+        "speak": "economy",
+        "choices": [
+          "منجر شدن به",
+          "اقتصاد"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u3-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «affect»",
+        "speak": "affect",
+        "choices": [
+          "اثر گذاشتن",
+          "اقتصاد",
+          "در کل"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u3-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "result",
+        "choices": [
+          "prove",
+          "mainly",
+          "result"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}
