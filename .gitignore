@@ -8,3 +8,11 @@ out/
 .vercel/
 .api-parked/
 build-static.log
+
+# Android signing material and build output
+android/keystore/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/app/google-services.json
