@@ -10,12 +10,13 @@ import { THEME_CLASS } from "@/lib/content";
 import { CorrectBurst, Game } from "@/components/game/Games";
 import { TeachStage } from "@/components/game/TeachStage";
 import { Character, characterFor } from "@/components/Character";
+import { BiText } from "@/components/BiText";
 import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
 import { playCombo, playCorrect, playWin, playWrong } from "@/lib/sound";
 import { completeLesson, HEART_MAX, loseHeart, useProgress, bumpDaily } from "@/lib/store/progress";
-import { cn, fa, mixedRuns, primeVoices, speak } from "@/lib/utils";
+import { cn, fa, primeVoices, speak } from "@/lib/utils";
 import { Volume2 } from "lucide-react";
 
 
@@ -229,7 +230,9 @@ export function LessonPlayer({
               <div className="flex-1">
                 <p className="text-xs font-bold text-fox-deep">{unitTitle}</p>
                 <h1 className="text-2xl font-extrabold text-plum">{lesson.titleFa}</h1>
-                <p className="mt-1 text-sm text-plum-soft">{lesson.goal}</p>
+                <p className="mt-1 text-sm text-plum-soft">
+                  <BiText text={lesson.goal} />
+                </p>
               </div>
             </div>
 
@@ -260,16 +263,8 @@ export function LessonPlayer({
                 <p className="mb-1 flex items-center gap-1.5 text-sm font-extrabold text-[#a16207]">
                   <BookOpen size={15} /> {lesson.tip.title}
                 </p>
-                <p className="text-sm leading-7 text-plum">
-                  {mixedRuns(lesson.tip.body).map((run, index) =>
-                    run.latin ? (
-                      <span key={index} className="en font-bold text-plum">
-                        {run.text}
-                      </span>
-                    ) : (
-                      <span key={index}>{run.text}</span>
-                    ),
-                  )}
+                <p className="text-sm leading-7 text-plum" dir="rtl">
+                  <BiText text={lesson.tip.body} />
                 </p>
               </div>
             )}

@@ -185,3 +185,9 @@ canvas.confetti-canvas {
 .float-up {
   animation: float-up 900ms ease-out both;
 }
+
+
+/* inline English inside Persian copy must never re-order the line */
+bdi {
+  unicode-bidi: isolate;
+}

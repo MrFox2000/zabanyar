@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Check, RotateCcw, Volume2, X } from "lucide-react";
 import type { Exercise } from "@/lib/content/schema";
 import { cn, shuffle, speak, speakSlow } from "@/lib/utils";
+import { BiText } from "@/components/BiText";
 
 export type Commit = (correct: boolean, given: string) => void;
 
@@ -102,7 +103,7 @@ export function McqGame({ exercise, locked, picked, onCommit }: Props<"mcq">) {
   return (
     <div className="space-y-5">
       <div className="text-center">
-        <p className="mb-2 text-sm text-plum-soft">{exercise.prompt}</p>
+        <p className="mb-2 text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
         <p className="text-3xl font-extrabold text-plum">
           <span className="en">{exercise.speak ?? correct}</span>
         </p>
@@ -119,7 +120,7 @@ export function ImageWordGame({ exercise, locked, picked, onCommit }: Props<"ima
   const correct = exercise.choices[exercise.answer];
   return (
     <div className="space-y-5">
-      <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
+      <p className="text-center text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
       <div className="pop-in mx-auto grid size-32 place-items-center rounded-[2rem] bg-sand text-6xl shadow-pop">
         {exercise.emoji}
       </div>
@@ -143,7 +144,7 @@ export function ListenGame({ exercise, locked, picked, onCommit }: Props<"listen
 
   return (
     <div className="space-y-5">
-      <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
+      <p className="text-center text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
       <SpeakerButton text={exercise.speak} big />
       <button
         type="button"
@@ -193,7 +194,7 @@ export function SpotErrorGame({ exercise, locked, picked, onCommit }: Props<"spo
   const correct = exercise.words[exercise.answer];
   return (
     <div className="space-y-5">
-      <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
+      <p className="text-center text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
       <div className="flex flex-wrap justify-center gap-2 rounded-2xl bg-white p-4 shadow-sm" dir="ltr">
         {exercise.words.map((word) => {
           const isPicked = picked === word;
@@ -250,7 +251,7 @@ export function SpeedGame({ exercise, locked, picked, onCommit }: Props<"speed">
 
   return (
     <div className="space-y-5">
-      <p className="text-center text-sm font-bold text-coral">{exercise.prompt}</p>
+      <p className="text-center text-sm font-bold text-coral"><BiText text={exercise.prompt} /></p>
       <div className="h-3 overflow-hidden rounded-full bg-sand">
         <div
           className={cn("h-full rounded-full transition-[width] duration-75", left > 45 ? "bg-mint" : left > 20 ? "bg-gold" : "bg-lose")}
@@ -406,7 +407,7 @@ export function MatchGame({ exercise, locked, onCommit }: Omit<Props<"match">, "
 
   return (
     <div className="space-y-4">
-      <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
+      <p className="text-center text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
       <div className="grid grid-cols-2 gap-3">
         <div className="space-y-2.5">
           {persian.map((fa) => {

@@ -49,7 +49,7 @@ const units = [
         e: [[["This", "is", "a", "cats."], 3, "This is a cat."]],
         tip: {
           title: "هر صدادار دو صدا دارد",
-          body: "a مثل cat، e مثل bed، i مثل sit، o مثل dog، u مثل cup — این‌ها صداهای کوتاه‌اند.",
+          body: "هر حرف صدادار یک صدای کوتاه دارد. کلمه‌های cat، bed، sit، dog و cup را بلند بخوان و صدای اولشان را بشنو.",
         },
         say: [["cat, bed, dog", "کلمه‌های یک‌صدایی"]],
       },
@@ -104,7 +104,7 @@ const units = [
         e: [[["She", "have", "a", "chair."], 1, "She has a chair."]],
         tip: {
           title: "دو حرف، یک صدا",
-          body: "sh مثل «ش»، ch مثل «چ»، th نوک زبان بین دندان‌ها: this, three, chair, shop.",
+          body: "گاهی دو حرف با هم یک صدا می‌سازند: sh صدای «ش»، ch صدای «چ» و th صدای نوک زبان بین دندان‌هاست.",
         },
         say: [["This shop has three chairs.", "این مغازه سه صندلی دارد."]],
       },

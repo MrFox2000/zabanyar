@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { ArrowLeft, Volume2 } from "lucide-react";
 import type { TeachStep } from "@/lib/content/schema";
 import { Character, type CharacterId } from "@/components/Character";
 import { Button } from "@/components/ui/Button";
-import { cn, fa, mixedRuns, speak, speakSlow } from "@/lib/utils";
+import { cn, fa, speak, speakSlow } from "@/lib/utils";
+import { BiText } from "@/components/BiText";
 
 /**
  * The teaching part of a lesson.
@@ -118,16 +120,8 @@ export function TeachStage({ steps, guide, onDone }: { steps: TeachStep[]; guide
         {step.kind === "rule" && (
           <div className="space-y-3 p-6">
             <p className="rounded-full bg-gold/20 px-3 py-1 text-center text-sm font-extrabold text-[#a16207]">{step.title}</p>
-            <p className="text-sm leading-8 text-plum">
-              {mixedRuns(step.body).map((run, i) =>
-                run.latin ? (
-                  <span key={i} className="en font-bold text-fox-deep">
-                    {run.text}
-                  </span>
-                ) : (
-                  <span key={i}>{run.text}</span>
-                ),
-              )}
+            <p className="text-sm leading-8 text-plum" dir="rtl">
+              <BiText text={step.body} />
             </p>
             {step.examples.length > 0 && (
               <ul className="space-y-2">
@@ -152,6 +146,13 @@ export function TeachStage({ steps, guide, onDone }: { steps: TeachStep[]; guide
           </div>
         )}
       </div>
+
+      <p className="text-center text-[11px] text-plum-soft">
+        صدا نمی‌آید؟{" "}
+        <Link href="/app/settings" className="font-bold text-fox-deep underline">
+          تنظیمات صدا
+        </Link>
+      </p>
 
       <div className="flex items-center gap-3">
         <div className="flex flex-1 items-center gap-1">

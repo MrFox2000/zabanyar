@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Flame, Heart, Volume2, VolumeX, Zap } from "lucide-react";
+import { Flame, Heart, Settings, Volume2, VolumeX, Zap } from "lucide-react";
 import { HEART_MAX, levelOf, useHydrated, useProgress } from "@/lib/store/progress";
 import { isMuted, setMuted } from "@/lib/sound";
 import { fa } from "@/lib/utils";
@@ -61,6 +61,13 @@ export function Hud() {
           >
             {muted ? <VolumeX size={15} /> : <Volume2 size={15} />}
           </button>
+          <Link
+            href="/app/settings"
+            aria-label="تنظیمات صدا"
+            className="grid size-8 place-items-center rounded-full bg-white text-plum-soft shadow-sm"
+          >
+            <Settings size={15} />
+          </Link>
           <Link
             href="/app/notebook"
             className="hidden rounded-full bg-sand px-3 py-1 text-xs font-bold text-plum sm:block"
