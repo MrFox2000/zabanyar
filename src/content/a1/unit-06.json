@@ -41,6 +41,54 @@
           "emoji": "🌳"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "kitchen",
+          "fa": "آشپزخانه",
+          "emoji": "🍳"
+        },
+        {
+          "kind": "word",
+          "en": "bedroom",
+          "fa": "اتاق خواب",
+          "emoji": "🛏️"
+        },
+        {
+          "kind": "word",
+          "en": "bathroom",
+          "fa": "حمام",
+          "emoji": "🛁"
+        },
+        {
+          "kind": "word",
+          "en": "living room",
+          "fa": "پذیرایی",
+          "emoji": "🛋️"
+        },
+        {
+          "kind": "sentence",
+          "en": "There is a table in the kitchen.",
+          "fa": "یک میز در آشپزخانه هست."
+        },
+        {
+          "kind": "sentence",
+          "en": "The kitchen is small.",
+          "fa": "آشپزخانه کوچک است.",
+          "highlight": "kitchen"
+        },
+        {
+          "kind": "rule",
+          "title": "in + اتاق",
+          "body": "برای گفتن «در اتاق» از in استفاده کن: in the kitchen، in the bedroom.",
+          "examples": [
+            {
+              "en": "There is a table in the kitchen.",
+              "fa": "یک میز در آشپزخانه هست."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u6-rooms.1",
@@ -281,6 +329,54 @@
           "emoji": "↔️"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "in",
+          "fa": "در / داخل",
+          "emoji": "📥"
+        },
+        {
+          "kind": "word",
+          "en": "on",
+          "fa": "روی",
+          "emoji": "🔝"
+        },
+        {
+          "kind": "word",
+          "en": "under",
+          "fa": "زیر",
+          "emoji": "⬇️"
+        },
+        {
+          "kind": "word",
+          "en": "behind",
+          "fa": "پشت",
+          "emoji": "🔙"
+        },
+        {
+          "kind": "sentence",
+          "en": "The book is on the table.",
+          "fa": "کتاب روی میز است."
+        },
+        {
+          "kind": "sentence",
+          "en": "The cat is under the table.",
+          "fa": "گربه زیر میز است.",
+          "highlight": "under"
+        },
+        {
+          "kind": "rule",
+          "title": "سه‌تای پرکاربرد",
+          "body": "in داخل، on روی سطح، under زیر. next to کنار و behind پشت.",
+          "examples": [
+            {
+              "en": "The book is on the table.",
+              "fa": "کتاب روی میز است."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u6-prepositions.1",
@@ -517,6 +613,54 @@
           "en": "far",
           "fa": "دور",
           "emoji": "🛣️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "left",
+          "fa": "چپ",
+          "emoji": "⬅️"
+        },
+        {
+          "kind": "word",
+          "en": "right",
+          "fa": "راست",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "straight",
+          "fa": "مستقیم",
+          "emoji": "⬆️"
+        },
+        {
+          "kind": "word",
+          "en": "turn",
+          "fa": "پیچیدن",
+          "emoji": "↩️"
+        },
+        {
+          "kind": "sentence",
+          "en": "Turn right at the park.",
+          "fa": "سر پارک به راست بپیچ."
+        },
+        {
+          "kind": "sentence",
+          "en": "Go straight ahead.",
+          "fa": "مستقیم برو جلو.",
+          "highlight": "straight"
+        },
+        {
+          "kind": "rule",
+          "title": "at + نقطه",
+          "body": "نقطه‌ای که می‌پیچی با at می‌آید: turn left at the bank. مسیر مستقیم: go straight.",
+          "examples": [
+            {
+              "en": "Turn right at the park.",
+              "fa": "سر پارک به راست بپیچ."
+            }
+          ]
         }
       ],
       "exercises": [
@@ -756,6 +900,54 @@
           "en": "waiting",
           "fa": "در حال انتظار",
           "emoji": "⏳"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "now",
+          "fa": "الان",
+          "emoji": "⌛"
+        },
+        {
+          "kind": "word",
+          "en": "working",
+          "fa": "در حال کار",
+          "emoji": "💼"
+        },
+        {
+          "kind": "word",
+          "en": "going",
+          "fa": "در حال رفتن",
+          "emoji": "🚶"
+        },
+        {
+          "kind": "word",
+          "en": "doing",
+          "fa": "در حال انجام",
+          "emoji": "🛠️"
+        },
+        {
+          "kind": "sentence",
+          "en": "He is working right now.",
+          "fa": "او همین الان مشغول کار است."
+        },
+        {
+          "kind": "sentence",
+          "en": "I am waiting for the bus.",
+          "fa": "من منتظر اتوبوس هستم.",
+          "highlight": "waiting"
+        },
+        {
+          "kind": "rule",
+          "title": "استمراری برای «الان»",
+          "body": "am/is/are + فعل ing: I am working now. فرقش با حال ساده: every day کارِ همیشگی، now کارِ همین لحظه.",
+          "examples": [
+            {
+              "en": "He is working right now.",
+              "fa": "او همین الان مشغول کار است."
+            }
+          ]
         }
       ],
       "exercises": [

@@ -4,19 +4,40 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import confetti from "canvas-confetti";
 import { ArrowLeft, BookOpen, Flame, Heart, Link2, Sparkles, X } from "lucide-react";
-import type { Lesson } from "@/lib/content/schema";
+import type { Exercise, Lesson } from "@/lib/content/schema";
 import { starsFor } from "@/lib/content/schema";
 import { THEME_CLASS } from "@/lib/content";
 import { CorrectBurst, Game } from "@/components/game/Games";
+import { TeachStage } from "@/components/game/TeachStage";
 import { Character, characterFor } from "@/components/Character";
 import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
 import { playCombo, playCorrect, playWin, playWrong } from "@/lib/sound";
 import { completeLesson, HEART_MAX, loseHeart, useProgress, bumpDaily } from "@/lib/store/progress";
-import { cn, fa, mixedRuns, primeVoices } from "@/lib/utils";
+import { cn, fa, mixedRuns, primeVoices, speak } from "@/lib/utils";
+import { Volume2 } from "lucide-react";
 
-type Stage = "intro" | "play" | "done" | "dead";
+
+/** the answer the learner should have given, for the feedback bar */
+function expectedAnswer(exercise: Exercise): string {
+  switch (exercise.kind) {
+    case "mcq":
+    case "imageWord":
+    case "listen":
+    case "fillBlank":
+    case "speed":
+      return exercise.choices[exercise.answer];
+    case "spotError":
+      return exercise.fix;
+    case "wordOrder":
+      return exercise.answer;
+    case "match":
+      return "";
+  }
+}
+
+type Stage = "intro" | "teach" | "play" | "done" | "dead";
 
 export function LessonPlayer({
   lesson,
@@ -258,7 +279,7 @@ export function LessonPlayer({
               className="w-full"
               onClick={() => {
                 startedAt.current = Date.now();
-                setStage("play");
+                setStage(lesson.teach?.length ? "teach" : "play");
               }}
             >
               شروع — {fa(total)} تمرین
@@ -266,8 +287,15 @@ export function LessonPlayer({
           </div>
         )}
 
+        {stage === "teach" && (
+          <TeachStage steps={lesson.teach} guide={guide} onDone={() => setStage("play")} />
+        )}
+
         {stage === "play" && exercise && (
           <div key={exercise.id} className="relative space-y-5">
+            <span className="pointer-events-none absolute -top-4 left-0 z-10">
+              <Character id={guide} size={48} mood={result === "correct" ? "cheer" : result === "wrong" ? "sad" : "happy"} />
+            </span>
             {result === "correct" && <CorrectBurst />}
             <div className="flex items-center justify-between text-xs font-bold text-plum-soft">
               <span>
@@ -361,13 +389,25 @@ export function LessonPlayer({
               <p className={cn("text-sm font-extrabold", result === "correct" ? "text-[#065f46]" : "text-lose")}>
                 {result === "correct" ? "درست بود!" : "اشتباه بود"}
               </p>
-              <p className="text-xs text-plum-soft">
-                {result === "correct"
-                  ? combo >= 2
-                    ? `کمبو ×${fa(combo)} — ادامه بده!`
-                    : "ادامه بده."
-                  : "یک جان کم شد."}
-              </p>
+              {result === "correct" ? (
+                <p className="text-xs text-plum-soft">
+                  {combo >= 2 ? `کمبو ×${fa(combo)} — ادامه بده!` : "ادامه بده."}
+                </p>
+              ) : (
+                <div className="flex items-center gap-1.5">
+                  <p className="text-xs text-plum-soft">
+                    درستش: <span className="en font-bold text-plum">{expectedAnswer(exercise)}</span>
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => speak(expectedAnswer(exercise))}
+                    aria-label="تلفظ جواب درست"
+                    className="grid size-6 place-items-center rounded-md bg-sky/15 text-[#0369a1]"
+                  >
+                    <Volume2 size={12} />
+                  </button>
+                </div>
+              )}
             </div>
             <Button variant={result === "correct" ? "success" : "primary"} onClick={next}>
               ادامه

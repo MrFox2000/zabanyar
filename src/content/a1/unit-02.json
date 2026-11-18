@@ -41,6 +41,54 @@
           "emoji": "📦"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "he",
+          "fa": "او (مرد)",
+          "emoji": "👨"
+        },
+        {
+          "kind": "word",
+          "en": "she",
+          "fa": "او (زن)",
+          "emoji": "👩"
+        },
+        {
+          "kind": "word",
+          "en": "we",
+          "fa": "ما",
+          "emoji": "👥"
+        },
+        {
+          "kind": "word",
+          "en": "they",
+          "fa": "آن‌ها",
+          "emoji": "👨‍👩‍👧"
+        },
+        {
+          "kind": "sentence",
+          "en": "We are ready.",
+          "fa": "ما آماده‌ایم."
+        },
+        {
+          "kind": "sentence",
+          "en": "He is my father.",
+          "fa": "او پدر من است.",
+          "highlight": "is"
+        },
+        {
+          "kind": "rule",
+          "title": "یک قانون، سه شکل",
+          "body": "I → am. he/she/it → is. you/we/they → are. فقط همین.",
+          "examples": [
+            {
+              "en": "We are ready.",
+              "fa": "ما آماده‌ایم."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u2-to-be.1",
@@ -272,6 +320,54 @@
           "en": "book",
           "fa": "کتاب",
           "emoji": "📕"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "this",
+          "fa": "این",
+          "emoji": "👉"
+        },
+        {
+          "kind": "word",
+          "en": "that",
+          "fa": "آن",
+          "emoji": "👈"
+        },
+        {
+          "kind": "word",
+          "en": "a",
+          "fa": "یک",
+          "emoji": "1️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "an",
+          "fa": "یک (قبل از صدادار)",
+          "emoji": "🅰️"
+        },
+        {
+          "kind": "sentence",
+          "en": "That is a chair.",
+          "fa": "آن یک صندلی است."
+        },
+        {
+          "kind": "sentence",
+          "en": "This is a book.",
+          "fa": "این یک کتاب است.",
+          "highlight": "This"
+        },
+        {
+          "kind": "rule",
+          "title": "a یا an",
+          "body": "قبل از a، e، i، o، u از an استفاده کن: an apple، an egg. بقیه با a: a book، a cat.",
+          "examples": [
+            {
+              "en": "That is a chair.",
+              "fa": "آن یک صندلی است."
+            }
+          ]
         }
       ],
       "exercises": [
@@ -508,6 +604,54 @@
           "emoji": "🚫"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "are",
+          "fa": "هستی",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "is",
+          "fa": "است؟",
+          "emoji": "❔"
+        },
+        {
+          "kind": "word",
+          "en": "yes",
+          "fa": "بله",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "no",
+          "fa": "نه",
+          "emoji": "❌"
+        },
+        {
+          "kind": "sentence",
+          "en": "Are you from Iran?",
+          "fa": "تو اهل ایران هستی؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Are you a student?",
+          "fa": "تو دانش‌آموزی؟",
+          "highlight": "Are"
+        },
+        {
+          "kind": "rule",
+          "title": "برای سؤال، جابه‌جا کن",
+          "body": "You are a student → Are you a student? فعل بودن به اول جمله می‌آید.",
+          "examples": [
+            {
+              "en": "Are you from Iran?",
+              "fa": "تو اهل ایران هستی؟"
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u2-questions-be.1",
@@ -740,6 +884,54 @@
           "en": "teacher",
           "fa": "معلم",
           "emoji": "👩‍🏫"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "where",
+          "fa": "کجا",
+          "emoji": "🗺️"
+        },
+        {
+          "kind": "word",
+          "en": "what",
+          "fa": "چه",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "country",
+          "fa": "کشور",
+          "emoji": "🌍"
+        },
+        {
+          "kind": "word",
+          "en": "job",
+          "fa": "شغل",
+          "emoji": "💼"
+        },
+        {
+          "kind": "sentence",
+          "en": "I am from Iran.",
+          "fa": "من اهل ایران هستم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Where are you from?",
+          "fa": "اهل کجایی؟",
+          "highlight": "Where"
+        },
+        {
+          "kind": "rule",
+          "title": "کلمه‌های پرسشی",
+          "body": "where = کجا، what = چه، who = چه کسی. این کلمه‌ها همیشه اول جمله می‌آیند.",
+          "examples": [
+            {
+              "en": "I am from Iran.",
+              "fa": "من اهل ایران هستم."
+            }
+          ]
         }
       ],
       "exercises": [

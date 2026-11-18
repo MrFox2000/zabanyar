@@ -39,6 +39,82 @@
           "emoji": "☕"
         }
       ],
+      "teach": [
+        {
+          "kind": "letter",
+          "letter": "a",
+          "sound": "/æ/",
+          "word": "cat",
+          "wordFa": "گربه",
+          "emoji": "🐱"
+        },
+        {
+          "kind": "letter",
+          "letter": "e",
+          "sound": "/e/",
+          "word": "bed",
+          "wordFa": "تخت",
+          "emoji": "🛏️"
+        },
+        {
+          "kind": "letter",
+          "letter": "i",
+          "sound": "/ɪ/",
+          "word": "sit",
+          "wordFa": "نشستن",
+          "emoji": "🪑"
+        },
+        {
+          "kind": "letter",
+          "letter": "o",
+          "sound": "/ɒ/",
+          "word": "dog",
+          "wordFa": "سگ",
+          "emoji": "🐕"
+        },
+        {
+          "kind": "letter",
+          "letter": "u",
+          "sound": "/ʌ/",
+          "word": "cup",
+          "wordFa": "فنجان",
+          "emoji": "☕"
+        },
+        {
+          "kind": "word",
+          "en": "cat",
+          "fa": "گربه",
+          "emoji": "🐱"
+        },
+        {
+          "kind": "word",
+          "en": "bed",
+          "fa": "تخت",
+          "emoji": "🛏️"
+        },
+        {
+          "kind": "sentence",
+          "en": "This is a cat.",
+          "fa": "این یک گربه است."
+        },
+        {
+          "kind": "sentence",
+          "en": "A cat says meow.",
+          "fa": "گربه میو می‌گوید.",
+          "highlight": "cat"
+        },
+        {
+          "kind": "rule",
+          "title": "هر صدادار دو صدا دارد",
+          "body": "a مثل cat، e مثل bed، i مثل sit، o مثل dog، u مثل cup — این‌ها صداهای کوتاه‌اند.",
+          "examples": [
+            {
+              "en": "This is a cat.",
+              "fa": "این یک گربه است."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u1-short-sounds.1",
@@ -230,6 +306,54 @@
           "en": "please",
           "fa": "لطفاً",
           "emoji": "🙏"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "spell",
+          "fa": "هجی کردن",
+          "emoji": "✍️"
+        },
+        {
+          "kind": "word",
+          "en": "name",
+          "fa": "نام",
+          "emoji": "🏷️"
+        },
+        {
+          "kind": "word",
+          "en": "letter",
+          "fa": "حرف",
+          "emoji": "🔤"
+        },
+        {
+          "kind": "word",
+          "en": "again",
+          "fa": "دوباره",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "sentence",
+          "en": "My name is Sara.",
+          "fa": "اسم من ساراست."
+        },
+        {
+          "kind": "sentence",
+          "en": "How do you spell your name?",
+          "fa": "اسمت را چطور هجی می‌کنی؟",
+          "highlight": "spell"
+        },
+        {
+          "kind": "rule",
+          "title": "۵ حرف صدادار",
+          "body": "حروف صدادار a، e، i، o، u هستند؛ بقیه بی‌صدا. اسم‌ها را حرف‌به‌حرف هجی می‌کنیم.",
+          "examples": [
+            {
+              "en": "My name is Sara.",
+              "fa": "اسم من ساراست."
+            }
+          ]
         }
       ],
       "exercises": [
@@ -467,6 +591,66 @@
           "emoji": "👉"
         }
       ],
+      "teach": [
+        {
+          "kind": "letter",
+          "letter": "sh",
+          "sound": "/ʃ/",
+          "word": "she",
+          "wordFa": "او",
+          "emoji": "👩"
+        },
+        {
+          "kind": "letter",
+          "letter": "ch",
+          "sound": "/tʃ/",
+          "word": "chair",
+          "wordFa": "صندلی",
+          "emoji": "🪑"
+        },
+        {
+          "kind": "letter",
+          "letter": "th",
+          "sound": "/θ/",
+          "word": "three",
+          "wordFa": "سه",
+          "emoji": "3️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "she",
+          "fa": "او (زن)",
+          "emoji": "👩"
+        },
+        {
+          "kind": "word",
+          "en": "chair",
+          "fa": "صندلی",
+          "emoji": "🪑"
+        },
+        {
+          "kind": "sentence",
+          "en": "This is my chair.",
+          "fa": "این صندلی من است."
+        },
+        {
+          "kind": "sentence",
+          "en": "She is my sister.",
+          "fa": "او خواهر من است.",
+          "highlight": "She"
+        },
+        {
+          "kind": "rule",
+          "title": "دو حرف، یک صدا",
+          "body": "sh مثل «ش»، ch مثل «چ»، th نوک زبان بین دندان‌ها: this, three, chair, shop.",
+          "examples": [
+            {
+              "en": "This is my chair.",
+              "fa": "این صندلی من است."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u1-digraphs.1",
@@ -699,6 +883,54 @@
           "en": "are",
           "fa": "هستی / هستند",
           "emoji": "🟣"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "I",
+          "fa": "من",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "word",
+          "en": "am",
+          "fa": "هستم",
+          "emoji": "🟢"
+        },
+        {
+          "kind": "word",
+          "en": "you",
+          "fa": "تو",
+          "emoji": "🫵"
+        },
+        {
+          "kind": "word",
+          "en": "is",
+          "fa": "است",
+          "emoji": "🔵"
+        },
+        {
+          "kind": "sentence",
+          "en": "I am a student.",
+          "fa": "من دانش‌آموزم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I am Ali.",
+          "fa": "من علی هستم.",
+          "highlight": "am"
+        },
+        {
+          "kind": "rule",
+          "title": "فعل بودن",
+          "body": "I am · you are · he is · she is · it is · we are · they are. با این هفت شکل، نصف جمله‌های اولیه ساخته می‌شود.",
+          "examples": [
+            {
+              "en": "I am a student.",
+              "fa": "من دانش‌آموزم."
+            }
+          ]
         }
       ],
       "exercises": [

@@ -2,7 +2,7 @@
 
 import { Foxy } from "@/components/Foxy";
 
-export type CharacterId = "foxy" | "cat" | "panda" | "owl" | "sara" | "maryam";
+export type CharacterId = "foxy" | "cat" | "panda" | "owl" | "sara" | "maryam" | "boy" | "man" | "grandma";
 export type Mood = "idle" | "happy" | "cheer" | "sad";
 
 export const CHARACTERS: { id: CharacterId; name: string }[] = [
@@ -12,6 +12,9 @@ export const CHARACTERS: { id: CharacterId; name: string }[] = [
   { id: "cat", name: "پیشی" },
   { id: "panda", name: "پاندا" },
   { id: "owl", name: "جغد" },
+  { id: "boy", name: "آرش" },
+  { id: "man", name: "آقای کریمی" },
+  { id: "grandma", name: "ننه‌جان" },
 ];
 
 const CHEEK = "#FB7185";
@@ -119,6 +122,55 @@ export function Character({ id, mood = "happy", size = 96, className }: { id: Ch
     );
   }
 
+
+  if (id === "boy") {
+    return (
+      <svg {...common} aria-label="آرش">
+        <path d="M22 120 C22 100 36 92 60 92 C84 92 98 100 98 120 Z" fill="#38BDF8" />
+        <circle cx="60" cy="58" r="34" fill="#FDE7D8" />
+        <path d="M26 52 C30 28 46 20 60 20 C74 20 90 28 94 52 C86 40 74 34 60 34 C46 34 34 40 26 52 Z" fill="#3F1D0B" />
+        <Eyes mood={mood} cx1={48} cx2={72} cy={58} r={5.5} />
+        <Mouth mood={mood} y={76} />
+        <ellipse cx="38" cy="68" rx="5.5" ry="3.4" fill={CHEEK} opacity="0.55" />
+        <ellipse cx="82" cy="68" rx="5.5" ry="3.4" fill={CHEEK} opacity="0.55" />
+      </svg>
+    );
+  }
+
+  if (id === "man") {
+    return (
+      <svg {...common} aria-label="آقای کریمی">
+        <path d="M20 120 C20 100 36 92 60 92 C84 92 100 100 100 120 Z" fill="#0E7490" />
+        <path d="M52 92 h16 v14 l-8 8 l-8 -8 Z" fill="#F9FAFB" />
+        <circle cx="60" cy="56" r="32" fill="#FDE7D8" />
+        <path d="M28 50 C32 28 46 22 60 22 C74 22 88 28 92 50 C84 38 72 33 60 33 C48 33 36 38 28 50 Z" fill="#27272A" />
+        <Eyes mood={mood} cx1={48} cx2={72} cy={56} r={5.2} />
+        <path d="M40 72 C46 66 54 66 60 70 C66 66 74 66 80 72 C74 80 46 80 40 72 Z" fill="#3F1D0B" />
+        <Mouth mood={mood} y={84} />
+        <path d="M34 44 q5 -3 10 -1" stroke="#27272A" strokeWidth={2.6} fill="none" strokeLinecap="round" />
+        <path d="M86 44 q-5 -3 -10 -1" stroke="#27272A" strokeWidth={2.6} fill="none" strokeLinecap="round" />
+      </svg>
+    );
+  }
+
+  if (id === "grandma") {
+    return (
+      <svg {...common} aria-label="ننه‌جان">
+        <path d="M20 120 C20 98 38 90 60 90 C82 90 100 98 100 120 Z" fill="#A78BFA" />
+        <circle cx="60" cy="56" r="33" fill="#FDE7D8" />
+        <path d="M26 54 C30 30 46 22 60 22 C74 22 90 30 94 54 C94 38 80 30 60 30 C40 30 26 38 26 54 Z" fill="#E5E7EB" />
+        <circle cx="60" cy="16" r="11" fill="#E5E7EB" />
+        <circle cx="42" cy="58" r="11" fill="none" stroke="#7C4A2D" strokeWidth={2} />
+        <circle cx="78" cy="58" r="11" fill="none" stroke="#7C4A2D" strokeWidth={2} />
+        <Eyes mood={mood} cx1={42} cx2={78} cy={58} r={4.6} />
+        <Mouth mood={mood} y={80} />
+        <path d="M46 88 q14 6 28 0" stroke="#C9A78F" strokeWidth={2} fill="none" strokeLinecap="round" opacity="0.7" />
+        <ellipse cx="32" cy="72" rx="5" ry="3" fill={CHEEK} opacity="0.45" />
+        <ellipse cx="88" cy="72" rx="5" ry="3" fill={CHEEK} opacity="0.45" />
+      </svg>
+    );
+  }
+
   const hijab = id === "sara" ? "#FB7185" : "#34D399";
   const hijabDark = id === "sara" ? "#E11D48" : "#059669";
 
@@ -150,6 +202,6 @@ export function Character({ id, mood = "happy", size = 96, className }: { id: Ch
 export function characterFor(seed: string): CharacterId {
   let value = 7;
   for (const character of seed) value = (value * 31 + (character.codePointAt(0) ?? 0)) % 100003;
-  const cast: CharacterId[] = ["foxy", "sara", "maryam", "cat", "panda", "owl"];
+  const cast: CharacterId[] = ["foxy", "sara", "maryam", "boy", "man", "grandma", "cat", "panda", "owl"];
   return cast[value % cast.length];
 }

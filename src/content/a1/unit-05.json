@@ -41,6 +41,54 @@
           "emoji": "👨‍👩‍👧"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "mother",
+          "fa": "مادر",
+          "emoji": "👩"
+        },
+        {
+          "kind": "word",
+          "en": "father",
+          "fa": "پدر",
+          "emoji": "👨"
+        },
+        {
+          "kind": "word",
+          "en": "sister",
+          "fa": "خواهر",
+          "emoji": "👧"
+        },
+        {
+          "kind": "word",
+          "en": "brother",
+          "fa": "برادر",
+          "emoji": "👦"
+        },
+        {
+          "kind": "sentence",
+          "en": "This is my brother.",
+          "fa": "این برادر من است."
+        },
+        {
+          "kind": "sentence",
+          "en": "This is my mother.",
+          "fa": "این مادرم است.",
+          "highlight": "mother"
+        },
+        {
+          "kind": "rule",
+          "title": "مالِ کسی: 's",
+          "body": "با اضافه‌کردن 's بگو چیزی مال کسی است: Ali's car (ماشین علی)، my sister's bag.",
+          "examples": [
+            {
+              "en": "This is my brother.",
+              "fa": "این برادر من است."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u5-family.1",
@@ -273,6 +321,54 @@
           "en": "young",
           "fa": "جوان",
           "emoji": "🧒"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "tall",
+          "fa": "قدبلند",
+          "emoji": "📏"
+        },
+        {
+          "kind": "word",
+          "en": "short",
+          "fa": "کوتاه‌قد",
+          "emoji": "📐"
+        },
+        {
+          "kind": "word",
+          "en": "kind",
+          "fa": "مهربان",
+          "emoji": "💚"
+        },
+        {
+          "kind": "word",
+          "en": "funny",
+          "fa": "بامزه",
+          "emoji": "😄"
+        },
+        {
+          "kind": "sentence",
+          "en": "She is kind and funny.",
+          "fa": "او مهربان و بامزه است."
+        },
+        {
+          "kind": "sentence",
+          "en": "My father is very kind.",
+          "fa": "پدرم خیلی مهربان است.",
+          "highlight": "kind"
+        },
+        {
+          "kind": "rule",
+          "title": "صفت بعد از is",
+          "body": "صفت همیشه بعد از فعل بودن می‌آید: He is tall. She is kind. بدون is نمی‌شود.",
+          "examples": [
+            {
+              "en": "She is kind and funny.",
+              "fa": "او مهربان و بامزه است."
+            }
+          ]
         }
       ],
       "exercises": [
@@ -510,6 +606,54 @@
           "emoji": "🚗"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "can",
+          "fa": "می‌توانم",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "can't",
+          "fa": "نمی‌توانم",
+          "emoji": "❌"
+        },
+        {
+          "kind": "word",
+          "en": "swim",
+          "fa": "شنا کردن",
+          "emoji": "🏊"
+        },
+        {
+          "kind": "word",
+          "en": "cook",
+          "fa": "آشپزی کردن",
+          "emoji": "🍳"
+        },
+        {
+          "kind": "sentence",
+          "en": "I can cook.",
+          "fa": "من می‌توانم آشپزی کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I can swim very well.",
+          "fa": "من خیلی خوب شنا می‌کنم.",
+          "highlight": "can"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از can، فعل ساده",
+          "body": "can + فعل بدون to و بدون s: I can swim، she can cook. منفی: can't.",
+          "examples": [
+            {
+              "en": "I can cook.",
+              "fa": "من می‌توانم آشپزی کنم."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u5-can.1",
@@ -741,6 +885,54 @@
           "en": "music",
           "fa": "موسیقی",
           "emoji": "🎵"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "reading",
+          "fa": "کتاب خواندن",
+          "emoji": "📖"
+        },
+        {
+          "kind": "word",
+          "en": "cooking",
+          "fa": "آشپزی",
+          "emoji": "🍳"
+        },
+        {
+          "kind": "word",
+          "en": "swimming",
+          "fa": "شنا",
+          "emoji": "🏊"
+        },
+        {
+          "kind": "word",
+          "en": "running",
+          "fa": "دویدن",
+          "emoji": "🏃"
+        },
+        {
+          "kind": "sentence",
+          "en": "I enjoy watching films.",
+          "fa": "من از تماشای فیلم لذت می‌برم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I like reading books.",
+          "fa": "من کتاب خواندن را دوست دارم.",
+          "highlight": "reading"
+        },
+        {
+          "kind": "rule",
+          "title": "like / love / enjoy",
+          "body": "بعد از این فعل‌ها، فعل ing می‌گیرد: I like reading، she enjoys cooking. نه «to read».",
+          "examples": [
+            {
+              "en": "I enjoy watching films.",
+              "fa": "من از تماشای فیلم لذت می‌برم."
+            }
+          ]
         }
       ],
       "exercises": [

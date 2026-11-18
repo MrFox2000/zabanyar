@@ -26,6 +26,14 @@ const units = [
         titleFa: "صداهای کوتاه",
         goal: "صدای کوتاه a، e، i، o، u را بشناسی",
         buildsOn: [],
+        // absolute beginners start with sounds, not sentences
+        letters: [
+          ["a", "/æ/", "cat", "گربه", "🐱"],
+          ["e", "/e/", "bed", "تخت", "🛏️"],
+          ["i", "/ɪ/", "sit", "نشستن", "🪑"],
+          ["o", "/ɒ/", "dog", "سگ", "🐕"],
+          ["u", "/ʌ/", "cup", "فنجان", "☕"],
+        ],
         w: [
           ["cat", "گربه", "🐱"],
           ["bed", "تخت", "🛏️"],
@@ -76,6 +84,11 @@ const units = [
         titleFa: "صداهای ترکیبی",
         goal: "صداهای sh، ch، th را بشناسی",
         buildsOn: ["a1-u1-short-sounds"],
+        letters: [
+          ["sh", "/ʃ/", "she", "او", "👩"],
+          ["ch", "/tʃ/", "chair", "صندلی", "🪑"],
+          ["th", "/θ/", "three", "سه", "3️⃣"],
+        ],
         w: [
           ["she", "او (زن)", "👩"],
           ["chair", "صندلی", "🪑"],

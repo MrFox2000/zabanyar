@@ -41,6 +41,54 @@
           "emoji": "💧"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "bread",
+          "fa": "نان",
+          "emoji": "🍞"
+        },
+        {
+          "kind": "word",
+          "en": "milk",
+          "fa": "شیر",
+          "emoji": "🥛"
+        },
+        {
+          "kind": "word",
+          "en": "apple",
+          "fa": "سیب",
+          "emoji": "🍎"
+        },
+        {
+          "kind": "word",
+          "en": "rice",
+          "fa": "برنج",
+          "emoji": "🍚"
+        },
+        {
+          "kind": "sentence",
+          "en": "I want some water, please.",
+          "fa": "لطفاً کمی آب می‌خواهم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I drink water every day.",
+          "fa": "من هر روز آب می‌نوشم.",
+          "highlight": "water"
+        },
+        {
+          "kind": "rule",
+          "title": "eat یا drink",
+          "body": "خوراکی را eat و نوشیدنی را drink: eat bread، drink milk.",
+          "examples": [
+            {
+              "en": "I want some water, please.",
+              "fa": "لطفاً کمی آب می‌خواهم."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u7-food.1",
@@ -275,6 +323,54 @@
           "en": "bottle",
           "fa": "بطری",
           "emoji": "🍾"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "some",
+          "fa": "مقداری",
+          "emoji": "➕"
+        },
+        {
+          "kind": "word",
+          "en": "any",
+          "fa": "هیچ / مقداری",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "much",
+          "fa": "زیاد (بی‌شمار)",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "many",
+          "fa": "زیاد (شمارش‌شدنی)",
+          "emoji": "🔢"
+        },
+        {
+          "kind": "sentence",
+          "en": "How much water do you drink?",
+          "fa": "چقدر آب می‌نوشی؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Do you have any apples?",
+          "fa": "سیب داری؟",
+          "highlight": "any"
+        },
+        {
+          "kind": "rule",
+          "title": "some یا any",
+          "body": "در جملهٔ مثبت some، در منفی و سؤالی any: I have some rice / I don't have any rice.",
+          "examples": [
+            {
+              "en": "How much water do you drink?",
+              "fa": "چقدر آب می‌نوشی؟"
+            }
+          ]
         }
       ],
       "exercises": [
@@ -514,6 +610,54 @@
           "emoji": "📝"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "menu",
+          "fa": "منو",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "coffee",
+          "fa": "قهوه",
+          "emoji": "☕"
+        },
+        {
+          "kind": "word",
+          "en": "tea",
+          "fa": "چای",
+          "emoji": "🍵"
+        },
+        {
+          "kind": "word",
+          "en": "bill",
+          "fa": "صورت‌حساب",
+          "emoji": "🧾"
+        },
+        {
+          "kind": "sentence",
+          "en": "Can I have a coffee, please?",
+          "fa": "لطفاً یک قهوه می‌دهید؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Can I have the bill, please?",
+          "fa": "لطفاً صورت‌حساب را می‌دهید؟",
+          "highlight": "bill"
+        },
+        {
+          "kind": "rule",
+          "title": "مؤدبانه سفارش بده",
+          "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea. برای درخواست: Can I have…?",
+          "examples": [
+            {
+              "en": "Can I have a coffee, please?",
+              "fa": "لطفاً یک قهوه می‌دهید؟"
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u7-cafe.1",
@@ -749,6 +893,54 @@
           "en": "money",
           "fa": "پول",
           "emoji": "💳"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "price",
+          "fa": "قیمت",
+          "emoji": "🏷️"
+        },
+        {
+          "kind": "word",
+          "en": "cheap",
+          "fa": "ارزان",
+          "emoji": "🪙"
+        },
+        {
+          "kind": "word",
+          "en": "expensive",
+          "fa": "گران",
+          "emoji": "💸"
+        },
+        {
+          "kind": "word",
+          "en": "dollar",
+          "fa": "دلار",
+          "emoji": "💵"
+        },
+        {
+          "kind": "sentence",
+          "en": "This shirt is very expensive.",
+          "fa": "این پیراهن خیلی گران است."
+        },
+        {
+          "kind": "sentence",
+          "en": "How much is it?",
+          "fa": "قیمتش چقدر است؟",
+          "highlight": "much"
+        },
+        {
+          "kind": "rule",
+          "title": "How much یا How many",
+          "body": "برای قیمت How much is it? برای چیزهای شمارش‌شدنی How many: How many books?",
+          "examples": [
+            {
+              "en": "This shirt is very expensive.",
+              "fa": "این پیراهن خیلی گران است."
+            }
+          ]
         }
       ],
       "exercises": [

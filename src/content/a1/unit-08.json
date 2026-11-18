@@ -41,6 +41,54 @@
           "emoji": "🌙"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "was",
+          "fa": "بود (مفرد)",
+          "emoji": "1️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "were",
+          "fa": "بودند",
+          "emoji": "👥"
+        },
+        {
+          "kind": "word",
+          "en": "yesterday",
+          "fa": "دیروز",
+          "emoji": "📅"
+        },
+        {
+          "kind": "word",
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        },
+        {
+          "kind": "sentence",
+          "en": "I was tired last night.",
+          "fa": "من دیشب خسته بودم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I was at home yesterday.",
+          "fa": "من دیروز خانه بودم.",
+          "highlight": "was"
+        },
+        {
+          "kind": "rule",
+          "title": "was و were",
+          "body": "I/he/she/it با was و you/we/they با were: I was at home، they were happy.",
+          "examples": [
+            {
+              "en": "I was tired last night.",
+              "fa": "من دیشب خسته بودم."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u8-was-were.1",
@@ -277,6 +325,54 @@
           "emoji": "📞"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "worked",
+          "fa": "کار کرد",
+          "emoji": "💼"
+        },
+        {
+          "kind": "word",
+          "en": "played",
+          "fa": "بازی کرد",
+          "emoji": "⚽"
+        },
+        {
+          "kind": "word",
+          "en": "watched",
+          "fa": "تماشا کرد",
+          "emoji": "📺"
+        },
+        {
+          "kind": "word",
+          "en": "visited",
+          "fa": "دیدار کرد",
+          "emoji": "🚪"
+        },
+        {
+          "kind": "sentence",
+          "en": "She played tennis yesterday.",
+          "fa": "او دیروز تنیس بازی کرد."
+        },
+        {
+          "kind": "sentence",
+          "en": "I watched TV last night.",
+          "fa": "دیشب تلویزیون تماشا کردم.",
+          "highlight": "watched"
+        },
+        {
+          "kind": "rule",
+          "title": "قانون ed",
+          "body": "بیشتر فعل‌ها با ed گذشته می‌شوند: work → worked، play → played، watch → watched.",
+          "examples": [
+            {
+              "en": "She played tennis yesterday.",
+              "fa": "او دیروز تنیس بازی کرد."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u8-past-regular.1",
@@ -509,6 +605,54 @@
           "en": "came",
           "fa": "آمد",
           "emoji": "🚪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "went",
+          "fa": "رفت",
+          "emoji": "🚶"
+        },
+        {
+          "kind": "word",
+          "en": "saw",
+          "fa": "دید",
+          "emoji": "👀"
+        },
+        {
+          "kind": "word",
+          "en": "ate",
+          "fa": "خورد",
+          "emoji": "🍽️"
+        },
+        {
+          "kind": "word",
+          "en": "bought",
+          "fa": "خرید",
+          "emoji": "🛍️"
+        },
+        {
+          "kind": "sentence",
+          "en": "We ate lunch at noon.",
+          "fa": "ما ظهر ناهار خوردیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I went to the park yesterday.",
+          "fa": "من دیروز به پارک رفتم.",
+          "highlight": "went"
+        },
+        {
+          "kind": "rule",
+          "title": "فعل‌های بی‌قاعده",
+          "body": "این‌ها ed نمی‌گیرند: go → went، see → saw، eat → ate، buy → bought، come → came.",
+          "examples": [
+            {
+              "en": "We ate lunch at noon.",
+              "fa": "ما ظهر ناهار خوردیم."
+            }
+          ]
         }
       ],
       "exercises": [
@@ -746,6 +890,54 @@
           "en": "free",
           "fa": "آزاد",
           "emoji": "🕊️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "tomorrow",
+          "fa": "فردا",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "tonight",
+          "fa": "امشب",
+          "emoji": "🌃"
+        },
+        {
+          "kind": "word",
+          "en": "going to",
+          "fa": "قرار است",
+          "emoji": "🔜"
+        },
+        {
+          "kind": "word",
+          "en": "meet",
+          "fa": "ملاقات کردن",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "sentence",
+          "en": "We are going to meet tonight.",
+          "fa": "قرار است امشب همدیگر را ببینیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I am going to travel tomorrow.",
+          "fa": "قرار است فردا سفر کنم.",
+          "highlight": "going"
+        },
+        {
+          "kind": "rule",
+          "title": "آیندهٔ نزدیک",
+          "body": "am/is/are + going to + فعل ساده: I am going to travel. برای قرار: Can we meet…?",
+          "examples": [
+            {
+              "en": "We are going to meet tonight.",
+              "fa": "قرار است امشب همدیگر را ببینیم."
+            }
+          ]
         }
       ],
       "exercises": [

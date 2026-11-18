@@ -75,6 +75,41 @@ function resolveId(unitId, reference) {
   return reference;
 }
 
+
+/** explicit teaching cards: sounds → words → a real sentence → the rule */
+function buildTeach(lesson) {
+  const teach = [];
+
+  for (const [letter, sound, word, wordFa, emoji] of lesson.letters ?? []) {
+    teach.push({ kind: "letter", letter, sound, word, wordFa, emoji });
+  }
+
+  for (const [en, fa, emoji] of lesson.w.slice(0, lesson.letters?.length ? 2 : 4)) {
+    teach.push({ kind: "word", en, fa, emoji });
+  }
+
+  // a full sentence, built from this lesson's own words so it is never alien
+  for (const [sentence, fa] of lesson.o.slice(0, 1)) {
+    teach.push({ kind: "sentence", en: sentence, fa });
+  }
+  if (lesson.b?.[0]) {
+    const [template, answer, fa] = lesson.b[0];
+    const filled = template.replace("___", answer);
+    teach.push({ kind: "sentence", en: filled, fa, highlight: answer });
+  }
+
+  if (lesson.tip) {
+    teach.push({
+      kind: "rule",
+      title: lesson.tip.title,
+      body: lesson.tip.body,
+      examples: lesson.o.slice(0, 2).map(([en, fa]) => ({ en, fa })),
+    });
+  }
+
+  return teach;
+}
+
 function buildExercises(unit, lesson) {
   const id = `${unit.id}-${lesson.slug}`;
   const rng = makeRng(hash(lesson.slug + unit.id));
@@ -316,6 +351,7 @@ UNITS.forEach((unit, position) => {
       goal: lesson.goal,
       buildsOn: lesson.buildsOn.map((reference) => resolveId(unit.id, reference)),
       vocab: lesson.w.map(([en, fa, emoji]) => ({ en, fa, emoji })),
+      teach: buildTeach(lesson),
       exercises,
       youCanSay: lesson.say.map(([en, fa]) => ({ en, fa })),
       xp: 40 + exercises.length * 4,

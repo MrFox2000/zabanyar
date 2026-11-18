@@ -41,6 +41,54 @@
           "emoji": "🔢"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "one",
+          "fa": "یک",
+          "emoji": "1️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "two",
+          "fa": "دو",
+          "emoji": "2️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "ten",
+          "fa": "ده",
+          "emoji": "🔟"
+        },
+        {
+          "kind": "word",
+          "en": "twenty",
+          "fa": "بیست",
+          "emoji": "2️⃣0️⃣"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have ten books.",
+          "fa": "من ده کتاب دارم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have many books.",
+          "fa": "من کتاب‌های زیادی دارم.",
+          "highlight": "many"
+        },
+        {
+          "kind": "rule",
+          "title": "جمع با s",
+          "body": "یک چیز cat، چند چیز cats. اگر کلمه به ch، sh، s، x ختم شود es می‌گیرد: boxes.",
+          "examples": [
+            {
+              "en": "I have ten books.",
+              "fa": "من ده کتاب دارم."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u3-numbers-plural.1",
@@ -273,6 +321,54 @@
           "en": "our",
           "fa": "مال ما",
           "emoji": "👥"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "my",
+          "fa": "مال من",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "word",
+          "en": "your",
+          "fa": "مال تو",
+          "emoji": "🫵"
+        },
+        {
+          "kind": "word",
+          "en": "his",
+          "fa": "مال او (مرد)",
+          "emoji": "👨"
+        },
+        {
+          "kind": "word",
+          "en": "her",
+          "fa": "مال او (زن)",
+          "emoji": "👩"
+        },
+        {
+          "kind": "sentence",
+          "en": "What is your name?",
+          "fa": "اسم تو چیست؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "This is my book.",
+          "fa": "این کتاب من است.",
+          "highlight": "my"
+        },
+        {
+          "kind": "rule",
+          "title": "his و her",
+          "body": "برای مرد his، برای زن her: his car، her bag. برای اشیا از its استفاده می‌کنیم.",
+          "examples": [
+            {
+              "en": "What is your name?",
+              "fa": "اسم تو چیست؟"
+            }
+          ]
         }
       ],
       "exercises": [
@@ -509,6 +605,54 @@
           "emoji": "👜"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "have",
+          "fa": "داشتن",
+          "emoji": "🤲"
+        },
+        {
+          "kind": "word",
+          "en": "has",
+          "fa": "دارد",
+          "emoji": "👉"
+        },
+        {
+          "kind": "word",
+          "en": "pet",
+          "fa": "حیوان خانگی",
+          "emoji": "🐾"
+        },
+        {
+          "kind": "word",
+          "en": "phone",
+          "fa": "گوشی",
+          "emoji": "📱"
+        },
+        {
+          "kind": "sentence",
+          "en": "My sister has a pet.",
+          "fa": "خواهرم یک حیوان خانگی دارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have a phone.",
+          "fa": "من یک گوشی دارم.",
+          "highlight": "have"
+        },
+        {
+          "kind": "rule",
+          "title": "have یا has",
+          "body": "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم.",
+          "examples": [
+            {
+              "en": "My sister has a pet.",
+              "fa": "خواهرم یک حیوان خانگی دارد."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u3-have-has.1",
@@ -742,6 +886,54 @@
           "en": "room",
           "fa": "اتاق",
           "emoji": "🚪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "there",
+          "fa": "آنجا",
+          "emoji": "👉"
+        },
+        {
+          "kind": "word",
+          "en": "here",
+          "fa": "اینجا",
+          "emoji": "🫱"
+        },
+        {
+          "kind": "word",
+          "en": "near",
+          "fa": "نزدیک",
+          "emoji": "📍"
+        },
+        {
+          "kind": "word",
+          "en": "table",
+          "fa": "میز",
+          "emoji": "🪑"
+        },
+        {
+          "kind": "sentence",
+          "en": "There is a book on the table.",
+          "fa": "یک کتاب روی میز هست."
+        },
+        {
+          "kind": "sentence",
+          "en": "There is a table here.",
+          "fa": "اینجا یک میز هست.",
+          "highlight": "There"
+        },
+        {
+          "kind": "rule",
+          "title": "is یا are",
+          "body": "برای یک چیز There is، برای چند چیز There are: There is a cat / There are two cats.",
+          "examples": [
+            {
+              "en": "There is a book on the table.",
+              "fa": "یک کتاب روی میز هست."
+            }
+          ]
         }
       ],
       "exercises": [

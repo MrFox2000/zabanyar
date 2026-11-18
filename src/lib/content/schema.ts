@@ -104,6 +104,41 @@ export const vocabSchema = z.object({
 
 export type Vocab = z.infer<typeof vocabSchema>;
 
+
+/** one card of explicit instruction, shown before any exercise */
+export const teachStepSchema = z.discriminatedUnion("kind", [
+  z.object({
+    kind: z.literal("letter"),
+    letter: z.string().min(1),
+    sound: z.string().min(1),
+    word: z.string().min(1),
+    wordFa: z.string().min(1),
+    emoji: z.string().optional(),
+  }),
+  z.object({
+    kind: z.literal("word"),
+    en: z.string().min(1),
+    fa: z.string().min(1),
+    emoji: z.string().optional(),
+    note: z.string().optional(),
+  }),
+  z.object({
+    kind: z.literal("sentence"),
+    en: z.string().min(1),
+    fa: z.string().min(1),
+    /** the word the sentence is built around, highlighted on the card */
+    highlight: z.string().optional(),
+  }),
+  z.object({
+    kind: z.literal("rule"),
+    title: z.string().min(1),
+    body: z.string().min(1),
+    examples: z.array(z.object({ en: z.string(), fa: z.string() })).default([]),
+  }),
+]);
+
+export type TeachStep = z.infer<typeof teachStepSchema>;
+
 export const lessonSchema = z.object({
   id,
   title: z.string().min(1),
@@ -112,6 +147,8 @@ export const lessonSchema = z.object({
   /** prerequisite lesson ids; drives unlocking and the review mix */
   buildsOn: z.array(id).default([]),
   exercises: z.array(exerciseSchema).min(6),
+  /** everything the lesson explains before it tests — the teaching part */
+  teach: z.array(teachStepSchema).min(1),
   /** the words and phrases this lesson teaches (notebook source) */
   vocab: z.array(vocabSchema).default([]),
   /** the "what you can now say" card at the end */

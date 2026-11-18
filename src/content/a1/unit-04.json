@@ -41,6 +41,54 @@
           "emoji": "🗓️"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "work",
+          "fa": "کار کردن",
+          "emoji": "💻"
+        },
+        {
+          "kind": "word",
+          "en": "live",
+          "fa": "زندگی کردن",
+          "emoji": "🏠"
+        },
+        {
+          "kind": "word",
+          "en": "eat",
+          "fa": "خوردن",
+          "emoji": "🍽️"
+        },
+        {
+          "kind": "word",
+          "en": "study",
+          "fa": "درس خواندن",
+          "emoji": "📚"
+        },
+        {
+          "kind": "sentence",
+          "en": "I work every day.",
+          "fa": "من هر روز کار می‌کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I live in Tehran.",
+          "fa": "من در تهران زندگی می‌کنم.",
+          "highlight": "live"
+        },
+        {
+          "kind": "rule",
+          "title": "حال ساده چیست؟",
+          "body": "برای کارهای تکراری: I work, you live, we study, they eat. بدون ing و بدون to.",
+          "examples": [
+            {
+              "en": "I work every day.",
+              "fa": "من هر روز کار می‌کنم."
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u4-present-simple-i.1",
@@ -273,6 +321,54 @@
           "en": "wakes up",
           "fa": "بیدار می‌شود",
           "emoji": "⏰"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "goes",
+          "fa": "می‌رود",
+          "emoji": "🚶"
+        },
+        {
+          "kind": "word",
+          "en": "works",
+          "fa": "کار می‌کند",
+          "emoji": "💼"
+        },
+        {
+          "kind": "word",
+          "en": "likes",
+          "fa": "دوست دارد",
+          "emoji": "❤️"
+        },
+        {
+          "kind": "word",
+          "en": "plays",
+          "fa": "بازی می‌کند",
+          "emoji": "⚽"
+        },
+        {
+          "kind": "sentence",
+          "en": "My brother plays football.",
+          "fa": "برادرم فوتبال بازی می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "He wakes up at seven.",
+          "fa": "او ساعت هفت بیدار می‌شود.",
+          "highlight": "wakes up"
+        },
+        {
+          "kind": "rule",
+          "title": "s سوم‌شخص",
+          "body": "با he/she/it به فعل s اضافه می‌شود: work → works. اگر به o، sh، ch ختم شود es: go → goes.",
+          "examples": [
+            {
+              "en": "My brother plays football.",
+              "fa": "برادرم فوتبال بازی می‌کند."
+            }
+          ]
         }
       ],
       "exercises": [
@@ -509,6 +605,54 @@
           "emoji": "❤️"
         }
       ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "do",
+          "fa": "انجام دادن",
+          "emoji": "🛠️"
+        },
+        {
+          "kind": "word",
+          "en": "does",
+          "fa": "انجام می‌دهد (سؤال)",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "don't",
+          "fa": "نمی",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "doesn't",
+          "fa": "نمی (او)",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "sentence",
+          "en": "Do you speak English?",
+          "fa": "انگلیسی صحبت می‌کنی؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Do you like tea?",
+          "fa": "چای دوست داری؟",
+          "highlight": "Do"
+        },
+        {
+          "kind": "rule",
+          "title": "do و does",
+          "body": "سؤال با do/does و منفی با don't/doesn't. با does، فعل دیگر s نمی‌گیرد: Does she like…?",
+          "examples": [
+            {
+              "en": "Do you speak English?",
+              "fa": "انگلیسی صحبت می‌کنی؟"
+            }
+          ]
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u4-do-questions.1",
@@ -741,6 +885,54 @@
           "en": "never",
           "fa": "هرگز",
           "emoji": "🚫"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "always",
+          "fa": "همیشه",
+          "emoji": "♾️"
+        },
+        {
+          "kind": "word",
+          "en": "usually",
+          "fa": "معمولاً",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "word",
+          "en": "often",
+          "fa": "اغلب",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "sometimes",
+          "fa": "گاهی",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "sentence",
+          "en": "I always study at night.",
+          "fa": "من همیشه شب درس می‌خوانم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I never drink coffee at night.",
+          "fa": "من هرگز شب قهوه نمی‌نوشم.",
+          "highlight": "never"
+        },
+        {
+          "kind": "rule",
+          "title": "جای قید",
+          "body": "قید تکرار قبل از فعل اصلی می‌آید: I always work. ولی بعد از am/is/are: I am always late.",
+          "examples": [
+            {
+              "en": "I always study at night.",
+              "fa": "من همیشه شب درس می‌خوانم."
+            }
+          ]
         }
       ],
       "exercises": [
