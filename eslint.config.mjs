@@ -14,6 +14,12 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // local capture/QA scripts (CommonJS, not shipped)
     "shots/**",
+    // build artefacts and logs
+    "out/**",
+    ".next/**",
+    ".vercel/**",
+    ".api-parked/**",
+    "build-static.log",
   ]),
 ]);
 
