@@ -1,0 +1,1290 @@
+{
+  "id": "a2-u9",
+  "level": "A2",
+  "index": 9,
+  "titleFa": "اگر و وقتی",
+  "titleEn": "If and when",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "a2-u9-first-conditional",
+      "title": "If it rains…",
+      "titleFa": "شرط با if",
+      "goal": "بگویی اگر چیزی بشود، چه می‌کنی",
+      "buildsOn": [
+        "a2-u8-opinions"
+      ],
+      "vocab": [
+        {
+          "en": "if",
+          "fa": "اگر",
+          "emoji": "🔀"
+        },
+        {
+          "en": "rain",
+          "fa": "باران",
+          "emoji": "🌧️"
+        },
+        {
+          "en": "stay",
+          "fa": "ماندن",
+          "emoji": "🏠"
+        },
+        {
+          "en": "umbrella",
+          "fa": "چتر",
+          "emoji": "☂️"
+        },
+        {
+          "en": "tomorrow",
+          "fa": "فردا",
+          "emoji": "➡️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "if",
+          "fa": "اگر",
+          "emoji": "🔀"
+        },
+        {
+          "kind": "word",
+          "en": "rain",
+          "fa": "باران",
+          "emoji": "🌧️"
+        },
+        {
+          "kind": "word",
+          "en": "stay",
+          "fa": "ماندن",
+          "emoji": "🏠"
+        },
+        {
+          "kind": "word",
+          "en": "umbrella",
+          "fa": "چتر",
+          "emoji": "☂️"
+        },
+        {
+          "kind": "sentence",
+          "en": "If I have time, I will call you.",
+          "fa": "اگر وقت داشته باشم، بهت زنگ می‌زنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "If it rains, I will stay home.",
+          "fa": "اگر باران بیاید، خانه می‌مانم.",
+          "highlight": "rains"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از if، حال ساده",
+          "body": "قسمت if با حال ساده می‌آید و قسمت دوم با will: if it rains, I will stay.",
+          "examples": [
+            {
+              "en": "If I have time, I will call you.",
+              "fa": "اگر وقت داشته باشم، بهت زنگ می‌زنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u9-first-conditional.1",
+          "kind": "mcq",
+          "prompt": "معنی «if» چیست؟",
+          "promptFa": "اگر",
+          "choices": [
+            "فهمیدن",
+            "اگر",
+            "روشن/عوض شدن"
+          ],
+          "answer": 1,
+          "speak": "if",
+          "aiHints": {
+            "example": "I know the word \"if\".",
+            "explanation": "«if» یعنی اگر."
+          }
+        },
+        {
+          "id": "a2-u9-first-conditional.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌧️",
+          "choices": [
+            "umbrella",
+            "rain",
+            "tomorrow"
+          ],
+          "answer": 1,
+          "speak": "rain"
+        },
+        {
+          "id": "a2-u9-first-conditional.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "stay",
+          "choices": [
+            "tomorrow",
+            "yesterday",
+            "stay"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u9-first-conditional.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "if",
+              "fa": "اگر"
+            },
+            {
+              "en": "stay",
+              "fa": "ماندن"
+            },
+            {
+              "en": "umbrella",
+              "fa": "چتر"
+            },
+            {
+              "en": "rain",
+              "fa": "باران"
+            }
+          ]
+        },
+        {
+          "id": "a2-u9-first-conditional.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر باران بیاید، خانه می‌مانم.",
+          "sentence": "If it ___, I will stay home.",
+          "choices": [
+            "look after",
+            "next year",
+            "rains"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u9-first-conditional.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اگر وقت داشته باشم، بهت زنگ می‌زنم.",
+          "tokens": [
+            "have",
+            "time,",
+            "will",
+            "I",
+            "you",
+            "call",
+            "If",
+            "I"
+          ],
+          "answer": "If I have time, I will call you"
+        },
+        {
+          "id": "a2-u9-first-conditional.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "If",
+            "it",
+            "will",
+            "rain",
+            "I",
+            "stay",
+            "home."
+          ],
+          "answer": 2,
+          "fix": "If it rains, I will stay home.",
+          "aiHints": {
+            "explanation": "درستش این است: If it rains, I will stay home."
+          }
+        },
+        {
+          "id": "a2-u9-first-conditional.8",
+          "kind": "speed",
+          "prompt": "سریع! «tomorrow» یعنی چه؟",
+          "speak": "tomorrow",
+          "choices": [
+            "اگر",
+            "فردا"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u9-first-conditional.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «in my opinion»",
+          "choices": [
+            "به نظر من",
+            "دیروز",
+            "فهمیدن"
+          ],
+          "answer": 0,
+          "speak": "in my opinion",
+          "reviewOf": "a2-u8-opinions"
+        },
+        {
+          "id": "a2-u9-first-conditional.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "agree",
+          "choices": [
+            "if",
+            "turn",
+            "agree"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u8-opinions"
+        },
+        {
+          "id": "a2-u9-first-conditional.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👎",
+          "choices": [
+            "pick up",
+            "disagree",
+            "rain"
+          ],
+          "answer": 1,
+          "speak": "disagree",
+          "reviewOf": "a2-u8-opinions"
+        },
+        {
+          "id": "a2-u9-first-conditional.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «because»",
+          "speak": "because",
+          "choices": [
+            "اگر",
+            "چون"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u8-opinions"
+        },
+        {
+          "id": "a2-u9-first-conditional.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر درس بخوانی، قبول می‌شوی.",
+          "sentence": "If you study, you ___ pass.",
+          "choices": [
+            "umbrella",
+            "give up",
+            "will"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "If it rains, I will take my umbrella.",
+          "fa": "اگر باران بیاید، چترم را برمی‌دارم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از if، حال ساده",
+        "body": "قسمت if با حال ساده می‌آید و قسمت دوم با will: if it rains, I will stay."
+      }
+    },
+    {
+      "id": "a2-u9-zero-conditional",
+      "title": "If you heat ice",
+      "titleFa": "واقعیت‌های همیشگی",
+      "goal": "یک قانون طبیعی را بگویی",
+      "buildsOn": [
+        "a2-u9-first-conditional"
+      ],
+      "vocab": [
+        {
+          "en": "heat",
+          "fa": "گرم کردن",
+          "emoji": "🔥"
+        },
+        {
+          "en": "melt",
+          "fa": "آب شدن",
+          "emoji": "💧"
+        },
+        {
+          "en": "mix",
+          "fa": "قاطی کردن",
+          "emoji": "🥣"
+        },
+        {
+          "en": "press",
+          "fa": "فشردن",
+          "emoji": "👆"
+        },
+        {
+          "en": "turn",
+          "fa": "روشن/عوض شدن",
+          "emoji": "🔘"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "heat",
+          "fa": "گرم کردن",
+          "emoji": "🔥"
+        },
+        {
+          "kind": "word",
+          "en": "melt",
+          "fa": "آب شدن",
+          "emoji": "💧"
+        },
+        {
+          "kind": "word",
+          "en": "mix",
+          "fa": "قاطی کردن",
+          "emoji": "🥣"
+        },
+        {
+          "kind": "word",
+          "en": "press",
+          "fa": "فشردن",
+          "emoji": "👆"
+        },
+        {
+          "kind": "sentence",
+          "en": "If you mix red and blue, you get purple.",
+          "fa": "اگر قرمز و آبی را قاطی کنی، بنفش می‌شود."
+        },
+        {
+          "kind": "sentence",
+          "en": "If you heat ice, it melts.",
+          "fa": "اگر یخ را گرم کنی، آب می‌شود.",
+          "highlight": "melts"
+        },
+        {
+          "kind": "rule",
+          "title": "هر دو طرف حال ساده",
+          "body": "برای چیزهای همیشه‌درست، هر دو قسمت جمله حال ساده است.",
+          "examples": [
+            {
+              "en": "If you mix red and blue, you get purple.",
+              "fa": "اگر قرمز و آبی را قاطی کنی، بنفش می‌شود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u9-zero-conditional.1",
+          "kind": "mcq",
+          "prompt": "معنی «heat» چیست؟",
+          "promptFa": "گرم کردن",
+          "choices": [
+            "فردا",
+            "برداشتن / سوار کردن",
+            "گرم کردن"
+          ],
+          "answer": 2,
+          "speak": "heat",
+          "aiHints": {
+            "example": "I know the word \"heat\".",
+            "explanation": "«heat» یعنی گرم کردن."
+          }
+        },
+        {
+          "id": "a2-u9-zero-conditional.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💧",
+          "choices": [
+            "turn",
+            "melt",
+            "heat"
+          ],
+          "answer": 1,
+          "speak": "melt"
+        },
+        {
+          "id": "a2-u9-zero-conditional.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "mix",
+          "choices": [
+            "rain",
+            "mix",
+            "tomorrow"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u9-zero-conditional.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "melt",
+              "fa": "آب شدن"
+            },
+            {
+              "en": "press",
+              "fa": "فشردن"
+            },
+            {
+              "en": "mix",
+              "fa": "قاطی کردن"
+            },
+            {
+              "en": "heat",
+              "fa": "گرم کردن"
+            }
+          ]
+        },
+        {
+          "id": "a2-u9-zero-conditional.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اگر یخ را گرم کنی، آب می‌شود.",
+          "sentence": "If you heat ice, it ___.",
+          "choices": [
+            "melts",
+            "ago",
+            "stay"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u9-zero-conditional.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اگر قرمز و آبی را قاطی کنی، بنفش می‌شود.",
+          "tokens": [
+            "and",
+            "you",
+            "blue,",
+            "mix",
+            "purple",
+            "If",
+            "get",
+            "you",
+            "red"
+          ],
+          "answer": "If you mix red and blue, you get purple"
+        },
+        {
+          "id": "a2-u9-zero-conditional.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "If",
+            "you",
+            "will",
+            "heat",
+            "ice",
+            "it",
+            "melts."
+          ],
+          "answer": 2,
+          "fix": "If you heat ice, it melts.",
+          "aiHints": {
+            "explanation": "درستش این است: If you heat ice, it melts."
+          }
+        },
+        {
+          "id": "a2-u9-zero-conditional.8",
+          "kind": "speed",
+          "prompt": "سریع! «turn» یعنی چه؟",
+          "speak": "turn",
+          "choices": [
+            "اگر",
+            "روشن/عوض شدن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u9-zero-conditional.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «rain»",
+          "choices": [
+            "فشردن",
+            "باران",
+            "قبلاً"
+          ],
+          "answer": 1,
+          "speak": "rain",
+          "reviewOf": "a2-u9-first-conditional"
+        },
+        {
+          "id": "a2-u9-zero-conditional.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "stay",
+          "choices": [
+            "stay",
+            "umbrella",
+            "find out"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u9-first-conditional"
+        },
+        {
+          "id": "a2-u9-zero-conditional.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "☂️",
+          "choices": [
+            "yesterday",
+            "already",
+            "umbrella"
+          ],
+          "answer": 2,
+          "speak": "umbrella",
+          "reviewOf": "a2-u9-first-conditional"
+        },
+        {
+          "id": "a2-u9-zero-conditional.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «tomorrow»",
+          "speak": "tomorrow",
+          "choices": [
+            "فردا",
+            "اگر"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u9-first-conditional"
+        },
+        {
+          "id": "a2-u9-zero-conditional.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر این را بزنی، چراغ روشن می‌شود.",
+          "sentence": "If you press this, the light ___ on.",
+          "choices": [
+            "turns",
+            "umbrella",
+            "stay"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "If you mix these two, you get green.",
+          "fa": "اگر این دو را قاطی کنی، سبز می‌شود."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "هر دو طرف حال ساده",
+        "body": "برای چیزهای همیشه‌درست، هر دو قسمت جمله حال ساده است."
+      }
+    },
+    {
+      "id": "a2-u9-phrasal",
+      "title": "Turn it on",
+      "titleFa": "افعال دو کلمه‌ای",
+      "goal": "افعال روزمرهٔ دو کلمه‌ای را بشناسی",
+      "buildsOn": [
+        "a2-u9-zero-conditional"
+      ],
+      "vocab": [
+        {
+          "en": "turn on",
+          "fa": "روشن کردن",
+          "emoji": "💡"
+        },
+        {
+          "en": "pick up",
+          "fa": "برداشتن / سوار کردن",
+          "emoji": "🚗"
+        },
+        {
+          "en": "give up",
+          "fa": "ترک کردن",
+          "emoji": "🛑"
+        },
+        {
+          "en": "look after",
+          "fa": "مراقبت کردن",
+          "emoji": "👶"
+        },
+        {
+          "en": "find out",
+          "fa": "فهمیدن",
+          "emoji": "🔍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "turn on",
+          "fa": "روشن کردن",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "pick up",
+          "fa": "برداشتن / سوار کردن",
+          "emoji": "🚗"
+        },
+        {
+          "kind": "word",
+          "en": "give up",
+          "fa": "ترک کردن",
+          "emoji": "🛑"
+        },
+        {
+          "kind": "word",
+          "en": "look after",
+          "fa": "مراقبت کردن",
+          "emoji": "👶"
+        },
+        {
+          "kind": "sentence",
+          "en": "She looks after her sister.",
+          "fa": "او از خواهرش مراقبت می‌کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "Please turn on the light.",
+          "fa": "لطفاً چراغ را روشن کن.",
+          "highlight": "turn"
+        },
+        {
+          "kind": "rule",
+          "title": "دو کلمه، یک معنی",
+          "body": "این فعل‌ها با هم معنی می‌دهند: turn on، pick up، give up، look after، find out.",
+          "examples": [
+            {
+              "en": "She looks after her sister.",
+              "fa": "او از خواهرش مراقبت می‌کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u9-phrasal.1",
+          "kind": "mcq",
+          "prompt": "معنی «turn on» چیست؟",
+          "promptFa": "روشن کردن",
+          "choices": [
+            "ترک کردن",
+            "اگر",
+            "روشن کردن"
+          ],
+          "answer": 2,
+          "speak": "turn on",
+          "aiHints": {
+            "example": "I know the word \"turn on\".",
+            "explanation": "«turn on» یعنی روشن کردن."
+          }
+        },
+        {
+          "id": "a2-u9-phrasal.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚗",
+          "choices": [
+            "turn on",
+            "find out",
+            "pick up"
+          ],
+          "answer": 2,
+          "speak": "pick up"
+        },
+        {
+          "id": "a2-u9-phrasal.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "give up",
+          "choices": [
+            "mix",
+            "umbrella",
+            "give up"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u9-phrasal.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "look after",
+              "fa": "مراقبت کردن"
+            },
+            {
+              "en": "give up",
+              "fa": "ترک کردن"
+            },
+            {
+              "en": "turn on",
+              "fa": "روشن کردن"
+            },
+            {
+              "en": "pick up",
+              "fa": "برداشتن / سوار کردن"
+            }
+          ]
+        },
+        {
+          "id": "a2-u9-phrasal.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "لطفاً چراغ را روشن کن.",
+          "sentence": "Please ___ on the light.",
+          "choices": [
+            "press",
+            "turn",
+            "twice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u9-phrasal.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او از خواهرش مراقبت می‌کند.",
+          "tokens": [
+            "sister",
+            "after",
+            "her",
+            "She",
+            "looks"
+          ],
+          "answer": "She looks after her sister"
+        },
+        {
+          "id": "a2-u9-phrasal.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "looks",
+            "after",
+            "to",
+            "her",
+            "sister."
+          ],
+          "answer": 3,
+          "fix": "She looks after her sister.",
+          "aiHints": {
+            "explanation": "درستش این است: She looks after her sister."
+          }
+        },
+        {
+          "id": "a2-u9-phrasal.8",
+          "kind": "speed",
+          "prompt": "سریع! «find out» یعنی چه؟",
+          "speak": "find out",
+          "choices": [
+            "فهمیدن",
+            "اگر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u9-phrasal.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «melt»",
+          "choices": [
+            "آب شدن",
+            "روشن/عوض شدن",
+            "باران"
+          ],
+          "answer": 0,
+          "speak": "melt",
+          "reviewOf": "a2-u9-zero-conditional"
+        },
+        {
+          "id": "a2-u9-phrasal.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "mix",
+          "choices": [
+            "ago",
+            "find out",
+            "mix"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u9-zero-conditional"
+        },
+        {
+          "id": "a2-u9-phrasal.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👆",
+          "choices": [
+            "press",
+            "mix",
+            "look after"
+          ],
+          "answer": 0,
+          "speak": "press",
+          "reviewOf": "a2-u9-zero-conditional"
+        },
+        {
+          "id": "a2-u9-phrasal.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «turn»",
+          "speak": "turn",
+          "choices": [
+            "روشن/عوض شدن",
+            "اگر"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u9-zero-conditional"
+        },
+        {
+          "id": "a2-u9-phrasal.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "دوستم را سوار می‌کنم.",
+          "sentence": "I will ___ up my friend.",
+          "choices": [
+            "give up",
+            "ago",
+            "pick"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I found out and I will not give up.",
+          "fa": "فهمیدم و تسلیم نمی‌شوم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "دو کلمه، یک معنی",
+        "body": "این فعل‌ها با هم معنی می‌دهند: turn on، pick up، give up، look after، find out."
+      }
+    },
+    {
+      "id": "a2-u9-mixed-review",
+      "title": "Everything together",
+      "titleFa": "همه با هم",
+      "goal": "گذشته، حال کامل و آینده را کنار هم استفاده کنی",
+      "buildsOn": [
+        "a2-u9-phrasal"
+      ],
+      "vocab": [
+        {
+          "en": "yesterday",
+          "fa": "دیروز",
+          "emoji": "📅"
+        },
+        {
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "en": "next year",
+          "fa": "سال آینده",
+          "emoji": "🔜"
+        },
+        {
+          "en": "twice",
+          "fa": "دو بار",
+          "emoji": "✌️"
+        },
+        {
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "yesterday",
+          "fa": "دیروز",
+          "emoji": "📅"
+        },
+        {
+          "kind": "word",
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "next year",
+          "fa": "سال آینده",
+          "emoji": "🔜"
+        },
+        {
+          "kind": "word",
+          "en": "twice",
+          "fa": "دو بار",
+          "emoji": "✌️"
+        },
+        {
+          "kind": "sentence",
+          "en": "Next year I will study abroad.",
+          "fa": "سال آینده در خارج درس می‌خوانم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I went to the park yesterday.",
+          "fa": "دیروز به پارک رفتم.",
+          "highlight": "went"
+        },
+        {
+          "kind": "rule",
+          "title": "سه زمان در یک جمله",
+          "body": "گذشته با ed یا شکل دوم، تجربه با have + قسمت سوم، آینده با will.",
+          "examples": [
+            {
+              "en": "Next year I will study abroad.",
+              "fa": "سال آینده در خارج درس می‌خوانم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u9-mixed-review.1",
+          "kind": "mcq",
+          "prompt": "معنی «yesterday» چیست؟",
+          "promptFa": "دیروز",
+          "choices": [
+            "روشن کردن",
+            "دیروز",
+            "چتر"
+          ],
+          "answer": 1,
+          "speak": "yesterday",
+          "aiHints": {
+            "example": "I know the word \"yesterday\".",
+            "explanation": "«yesterday» یعنی دیروز."
+          }
+        },
+        {
+          "id": "a2-u9-mixed-review.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "already",
+            "twice",
+            "next year"
+          ],
+          "answer": 0,
+          "speak": "already"
+        },
+        {
+          "id": "a2-u9-mixed-review.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "next year",
+          "choices": [
+            "heat",
+            "next year",
+            "yesterday"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u9-mixed-review.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "next year",
+              "fa": "سال آینده"
+            },
+            {
+              "en": "already",
+              "fa": "قبلاً"
+            },
+            {
+              "en": "twice",
+              "fa": "دو بار"
+            },
+            {
+              "en": "yesterday",
+              "fa": "دیروز"
+            }
+          ]
+        },
+        {
+          "id": "a2-u9-mixed-review.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دیروز به پارک رفتم.",
+          "sentence": "I ___ to the park yesterday.",
+          "choices": [
+            "pick up",
+            "went",
+            "turn on"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u9-mixed-review.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "سال آینده در خارج درس می‌خوانم.",
+          "tokens": [
+            "year",
+            "study",
+            "Next",
+            "abroad",
+            "I",
+            "will"
+          ],
+          "answer": "Next year I will study abroad"
+        },
+        {
+          "id": "a2-u9-mixed-review.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "went",
+            "there",
+            "twice."
+          ],
+          "answer": 2,
+          "fix": "I have been there twice.",
+          "aiHints": {
+            "explanation": "درستش این است: I have been there twice."
+          }
+        },
+        {
+          "id": "a2-u9-mixed-review.8",
+          "kind": "speed",
+          "prompt": "سریع! «ago» یعنی چه؟",
+          "speak": "ago",
+          "choices": [
+            "پیش",
+            "اگر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u9-mixed-review.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «pick up»",
+          "choices": [
+            "چتر",
+            "برداشتن / سوار کردن",
+            "پیش"
+          ],
+          "answer": 1,
+          "speak": "pick up",
+          "reviewOf": "a2-u9-phrasal"
+        },
+        {
+          "id": "a2-u9-mixed-review.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "give up",
+          "choices": [
+            "if",
+            "already",
+            "give up"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u9-phrasal"
+        },
+        {
+          "id": "a2-u9-mixed-review.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👶",
+          "choices": [
+            "stay",
+            "twice",
+            "look after"
+          ],
+          "answer": 2,
+          "speak": "look after",
+          "reviewOf": "a2-u9-phrasal"
+        },
+        {
+          "id": "a2-u9-mixed-review.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «find out»",
+          "speak": "find out",
+          "choices": [
+            "اگر",
+            "فهمیدن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u9-phrasal"
+        },
+        {
+          "id": "a2-u9-mixed-review.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "قبلاً غذا خورده‌ام.",
+          "sentence": "I have ___ eaten.",
+          "choices": [
+            "if",
+            "already",
+            "twice"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I went there last year and I will go again.",
+          "fa": "سال پیش رفتم و باز هم می‌روم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "سه زمان در یک جمله",
+        "body": "گذشته با ed یا شکل دوم، تجربه با have + قسمت سوم، آینده با will."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u9-boss",
+    "titleFa": "نبرد پایانی — اگر و وقتی",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u9-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «rain»",
+        "speak": "rain",
+        "choices": [
+          "قبلاً",
+          "باران",
+          "پیش"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u9-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "tomorrow",
+        "choices": [
+          "if",
+          "tomorrow",
+          "mix"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u9-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🥣",
+        "choices": [
+          "turn on",
+          "mix",
+          "look after"
+        ],
+        "answer": 1,
+        "speak": "mix"
+      },
+      {
+        "id": "a2-u9-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «turn on»",
+        "speak": "turn on",
+        "choices": [
+          "ترک کردن",
+          "روشن کردن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u9-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «look after»",
+        "speak": "look after",
+        "choices": [
+          "مراقبت کردن",
+          "اگر",
+          "دیروز"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u9-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "already",
+        "choices": [
+          "tomorrow",
+          "already",
+          "give up"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u9-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "⏪",
+        "choices": [
+          "ago",
+          "already",
+          "rain"
+        ],
+        "answer": 0,
+        "speak": "ago"
+      },
+      {
+        "id": "a2-u9-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «stay»",
+        "speak": "stay",
+        "choices": [
+          "آب شدن",
+          "ماندن"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u9-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «heat»",
+        "speak": "heat",
+        "choices": [
+          "گرم کردن",
+          "چتر",
+          "فشردن"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u9-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "press",
+        "choices": [
+          "next year",
+          "give up",
+          "press"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

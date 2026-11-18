@@ -130,6 +130,9 @@ for (const unit of flatUnits) {
       }
 
       if (exercise.kind === "wordOrder") {
+        // the app renders at most 9 tokens in the sentence builder
+        const words = exercise.answer.trim().split(/\s+/).length;
+        check(words <= 9, `${tag}: answer has ${words} words (max 9)`);
         const tokens = [...exercise.tokens].sort();
         const answerTokens = exercise.answer.split(" ").sort();
         check(

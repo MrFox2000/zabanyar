@@ -1,0 +1,1285 @@
+{
+  "id": "a2-u8",
+  "level": "A2",
+  "index": 8,
+  "titleFa": "ارتباط و رسانه",
+  "titleEn": "Messages and media",
+  "theme": "gold",
+  "lessons": [
+    {
+      "id": "a2-u8-messages",
+      "title": "Send me a message",
+      "titleFa": "پیام و تماس",
+      "goal": "دربارهٔ پیام و تماس حرف بزنی",
+      "buildsOn": [
+        "a2-u7-review"
+      ],
+      "vocab": [
+        {
+          "en": "message",
+          "fa": "پیام",
+          "emoji": "✉️"
+        },
+        {
+          "en": "call",
+          "fa": "تماس",
+          "emoji": "📞"
+        },
+        {
+          "en": "send",
+          "fa": "فرستادن",
+          "emoji": "📤"
+        },
+        {
+          "en": "receive",
+          "fa": "دریافت کردن",
+          "emoji": "📥"
+        },
+        {
+          "en": "chat",
+          "fa": "گفت‌وگو",
+          "emoji": "💬"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "message",
+          "fa": "پیام",
+          "emoji": "✉️"
+        },
+        {
+          "kind": "word",
+          "en": "call",
+          "fa": "تماس",
+          "emoji": "📞"
+        },
+        {
+          "kind": "word",
+          "en": "send",
+          "fa": "فرستادن",
+          "emoji": "📤"
+        },
+        {
+          "kind": "word",
+          "en": "receive",
+          "fa": "دریافت کردن",
+          "emoji": "📥"
+        },
+        {
+          "kind": "sentence",
+          "en": "I send messages every day.",
+          "fa": "هر روز پیام می‌فرستم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I will send you a message.",
+          "fa": "برایت پیام می‌فرستم.",
+          "highlight": "send"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از will ساده",
+          "body": "will + فعل ساده: will send، will call. s نمی‌گیرد.",
+          "examples": [
+            {
+              "en": "I send messages every day.",
+              "fa": "هر روز پیام می‌فرستم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u8-messages.1",
+          "kind": "mcq",
+          "prompt": "معنی «message» چیست؟",
+          "promptFa": "پیام",
+          "choices": [
+            "پیام",
+            "زیاد",
+            "به‌اندازهٔ کافی"
+          ],
+          "answer": 0,
+          "speak": "message",
+          "aiHints": {
+            "example": "I know the word \"message\".",
+            "explanation": "«message» یعنی پیام."
+          }
+        },
+        {
+          "id": "a2-u8-messages.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📞",
+          "choices": [
+            "chat",
+            "call",
+            "receive"
+          ],
+          "answer": 1,
+          "speak": "call"
+        },
+        {
+          "id": "a2-u8-messages.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "send",
+          "choices": [
+            "person",
+            "send",
+            "a lot of"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u8-messages.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "message",
+              "fa": "پیام"
+            },
+            {
+              "en": "receive",
+              "fa": "دریافت کردن"
+            },
+            {
+              "en": "send",
+              "fa": "فرستادن"
+            },
+            {
+              "en": "call",
+              "fa": "تماس"
+            }
+          ]
+        },
+        {
+          "id": "a2-u8-messages.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "برایت پیام می‌فرستم.",
+          "sentence": "I will ___ you a message.",
+          "choices": [
+            "I think",
+            "send",
+            "enough"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u8-messages.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "هر روز پیام می‌فرستم.",
+          "tokens": [
+            "I",
+            "send",
+            "messages",
+            "every",
+            "day"
+          ],
+          "answer": "I send messages every day"
+        },
+        {
+          "id": "a2-u8-messages.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "will",
+            "sends",
+            "it."
+          ],
+          "answer": 2,
+          "fix": "I will send it.",
+          "aiHints": {
+            "explanation": "درستش این است: I will send it."
+          }
+        },
+        {
+          "id": "a2-u8-messages.8",
+          "kind": "speed",
+          "prompt": "سریع! «chat» یعنی چه؟",
+          "speak": "chat",
+          "choices": [
+            "گفت‌وگو",
+            "پیام"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u8-messages.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «biggest»",
+          "choices": [
+            "چیز",
+            "تماس",
+            "بزرگ‌ترین"
+          ],
+          "answer": 2,
+          "speak": "biggest",
+          "reviewOf": "a2-u7-review"
+        },
+        {
+          "id": "a2-u8-messages.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "will",
+          "choices": [
+            "because",
+            "disagree",
+            "will"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u7-review"
+        },
+        {
+          "id": "a2-u8-messages.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👍",
+          "choices": [
+            "better",
+            "thing",
+            "message"
+          ],
+          "answer": 0,
+          "speak": "better",
+          "reviewOf": "a2-u7-review"
+        },
+        {
+          "id": "a2-u8-messages.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «never»",
+          "speak": "never",
+          "choices": [
+            "هرگز",
+            "پیام"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u7-review"
+        },
+        {
+          "id": "a2-u8-messages.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ایمیل من را گرفتی؟",
+          "sentence": "Did you ___ my email?",
+          "choices": [
+            "receive",
+            "chat",
+            "because"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I will send you a message tonight.",
+          "fa": "امشب برایت پیام می‌فرستم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از will ساده",
+        "body": "will + فعل ساده: will send، will call. s نمی‌گیرد."
+      }
+    },
+    {
+      "id": "a2-u8-relative",
+      "title": "The man who called",
+      "titleFa": "who و which",
+      "goal": "دو جمله را با هم وصل کنی",
+      "buildsOn": [
+        "a2-u8-messages"
+      ],
+      "vocab": [
+        {
+          "en": "who",
+          "fa": "که (برای آدم)",
+          "emoji": "🧑"
+        },
+        {
+          "en": "which",
+          "fa": "که (برای چیز)",
+          "emoji": "📦"
+        },
+        {
+          "en": "that",
+          "fa": "که",
+          "emoji": "🔗"
+        },
+        {
+          "en": "person",
+          "fa": "شخص",
+          "emoji": "🙋"
+        },
+        {
+          "en": "thing",
+          "fa": "چیز",
+          "emoji": "🔹"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "who",
+          "fa": "که (برای آدم)",
+          "emoji": "🧑"
+        },
+        {
+          "kind": "word",
+          "en": "which",
+          "fa": "که (برای چیز)",
+          "emoji": "📦"
+        },
+        {
+          "kind": "word",
+          "en": "that",
+          "fa": "که",
+          "emoji": "🔗"
+        },
+        {
+          "kind": "word",
+          "en": "person",
+          "fa": "شخص",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "sentence",
+          "en": "This is the app that I use.",
+          "fa": "این اپی است که استفاده می‌کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "The man who called is my boss.",
+          "fa": "مردی که زنگ زد رئیسم است.",
+          "highlight": "who"
+        },
+        {
+          "kind": "rule",
+          "title": "who یا which",
+          "body": "برای آدم who، برای چیز which، و that برای هر دو.",
+          "examples": [
+            {
+              "en": "This is the app that I use.",
+              "fa": "این اپی است که استفاده می‌کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u8-relative.1",
+          "kind": "mcq",
+          "prompt": "معنی «who» چیست؟",
+          "promptFa": "که (برای آدم)",
+          "choices": [
+            "که (برای آدم)",
+            "چیز",
+            "فرستادن"
+          ],
+          "answer": 0,
+          "speak": "who",
+          "aiHints": {
+            "example": "I know the word \"who\".",
+            "explanation": "«who» یعنی که (برای آدم)."
+          }
+        },
+        {
+          "id": "a2-u8-relative.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📦",
+          "choices": [
+            "who",
+            "which",
+            "person"
+          ],
+          "answer": 1,
+          "speak": "which"
+        },
+        {
+          "id": "a2-u8-relative.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "that",
+          "choices": [
+            "who",
+            "that",
+            "send"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u8-relative.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "which",
+              "fa": "که (برای چیز)"
+            },
+            {
+              "en": "that",
+              "fa": "که"
+            },
+            {
+              "en": "who",
+              "fa": "که (برای آدم)"
+            },
+            {
+              "en": "person",
+              "fa": "شخص"
+            }
+          ]
+        },
+        {
+          "id": "a2-u8-relative.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "مردی که زنگ زد رئیسم است.",
+          "sentence": "The man ___ called is my boss.",
+          "choices": [
+            "enough",
+            "which",
+            "who"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u8-relative.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این اپی است که استفاده می‌کنم.",
+          "tokens": [
+            "is",
+            "I",
+            "This",
+            "use",
+            "that",
+            "app",
+            "the"
+          ],
+          "answer": "This is the app that I use"
+        },
+        {
+          "id": "a2-u8-relative.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "man",
+            "which",
+            "called",
+            "me",
+            "is",
+            "my",
+            "boss."
+          ],
+          "answer": 2,
+          "fix": "The man who called me is my boss.",
+          "aiHints": {
+            "explanation": "درستش این است: The man who called me is my boss."
+          }
+        },
+        {
+          "id": "a2-u8-relative.8",
+          "kind": "speed",
+          "prompt": "سریع! «thing» یعنی چه؟",
+          "speak": "thing",
+          "choices": [
+            "چیز",
+            "پیام"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u8-relative.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «call»",
+          "choices": [
+            "که (برای چیز)",
+            "تماس",
+            "زیاد"
+          ],
+          "answer": 1,
+          "speak": "call",
+          "reviewOf": "a2-u8-messages"
+        },
+        {
+          "id": "a2-u8-relative.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "send",
+          "choices": [
+            "enough",
+            "send",
+            "disagree"
+          ],
+          "answer": 1,
+          "reviewOf": "a2-u8-messages"
+        },
+        {
+          "id": "a2-u8-relative.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📥",
+          "choices": [
+            "that",
+            "chat",
+            "receive"
+          ],
+          "answer": 2,
+          "speak": "receive",
+          "reviewOf": "a2-u8-messages"
+        },
+        {
+          "id": "a2-u8-relative.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «chat»",
+          "speak": "chat",
+          "choices": [
+            "پیام",
+            "گفت‌وگو"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u8-messages"
+        },
+        {
+          "id": "a2-u8-relative.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "کتابی که خواندم خوب بود.",
+          "sentence": "The book ___ I read was good.",
+          "choices": [
+            "a lot of",
+            "because",
+            "which"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The friend who helped me lives here.",
+          "fa": "دوستی که کمکم کرد اینجا زندگی می‌کند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "who یا which",
+        "body": "برای آدم who، برای چیز which، و that برای هر دو."
+      }
+    },
+    {
+      "id": "a2-u8-quantifiers",
+      "title": "A few, a little",
+      "titleFa": "مقدار و تعداد",
+      "goal": "بگویی چقدر از چیزی داری",
+      "buildsOn": [
+        "a2-u8-relative"
+      ],
+      "vocab": [
+        {
+          "en": "a lot of",
+          "fa": "زیاد",
+          "emoji": "🔝"
+        },
+        {
+          "en": "a few",
+          "fa": "چندتا",
+          "emoji": "3️⃣"
+        },
+        {
+          "en": "a little",
+          "fa": "کمی",
+          "emoji": "🤏"
+        },
+        {
+          "en": "enough",
+          "fa": "به‌اندازهٔ کافی",
+          "emoji": "✅"
+        },
+        {
+          "en": "too much",
+          "fa": "بیش از حد",
+          "emoji": "📈"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "a lot of",
+          "fa": "زیاد",
+          "emoji": "🔝"
+        },
+        {
+          "kind": "word",
+          "en": "a few",
+          "fa": "چندتا",
+          "emoji": "3️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "a little",
+          "fa": "کمی",
+          "emoji": "🤏"
+        },
+        {
+          "kind": "word",
+          "en": "enough",
+          "fa": "به‌اندازهٔ کافی",
+          "emoji": "✅"
+        },
+        {
+          "kind": "sentence",
+          "en": "I drink a lot of water.",
+          "fa": "آب زیادی می‌نوشم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have a lot of friends here.",
+          "fa": "اینجا دوستان زیادی دارم.",
+          "highlight": "a lot of"
+        },
+        {
+          "kind": "rule",
+          "title": "few یا little",
+          "body": "a few برای چیزهای شمارش‌شدنی (friends) و a little برای بی‌شمار (water).",
+          "examples": [
+            {
+              "en": "I drink a lot of water.",
+              "fa": "آب زیادی می‌نوشم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u8-quantifiers.1",
+          "kind": "mcq",
+          "prompt": "معنی «a lot of» چیست؟",
+          "promptFa": "زیاد",
+          "choices": [
+            "چون",
+            "زیاد",
+            "تماس"
+          ],
+          "answer": 1,
+          "speak": "a lot of",
+          "aiHints": {
+            "example": "I know the word \"a lot of\".",
+            "explanation": "«a lot of» یعنی زیاد."
+          }
+        },
+        {
+          "id": "a2-u8-quantifiers.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "3️⃣",
+          "choices": [
+            "a few",
+            "enough",
+            "a little"
+          ],
+          "answer": 0,
+          "speak": "a few"
+        },
+        {
+          "id": "a2-u8-quantifiers.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "a little",
+          "choices": [
+            "call",
+            "person",
+            "a little"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u8-quantifiers.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "a lot of",
+              "fa": "زیاد"
+            },
+            {
+              "en": "a few",
+              "fa": "چندتا"
+            },
+            {
+              "en": "enough",
+              "fa": "به‌اندازهٔ کافی"
+            },
+            {
+              "en": "a little",
+              "fa": "کمی"
+            }
+          ]
+        },
+        {
+          "id": "a2-u8-quantifiers.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اینجا دوستان زیادی دارم.",
+          "sentence": "I have ___ friends here.",
+          "choices": [
+            "agree",
+            "a lot of",
+            "a little"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u8-quantifiers.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "آب زیادی می‌نوشم.",
+          "tokens": [
+            "a",
+            "water",
+            "lot",
+            "I",
+            "drink",
+            "of"
+          ],
+          "answer": "I drink a lot of water"
+        },
+        {
+          "id": "a2-u8-quantifiers.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "a",
+            "few",
+            "of",
+            "money."
+          ],
+          "answer": 3,
+          "fix": "I have a little money.",
+          "aiHints": {
+            "explanation": "درستش این است: I have a little money."
+          }
+        },
+        {
+          "id": "a2-u8-quantifiers.8",
+          "kind": "speed",
+          "prompt": "سریع! «too much» یعنی چه؟",
+          "speak": "too much",
+          "choices": [
+            "پیام",
+            "بیش از حد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u8-quantifiers.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «which»",
+          "choices": [
+            "چیز",
+            "مخالف بودن",
+            "که (برای چیز)"
+          ],
+          "answer": 2,
+          "speak": "which",
+          "reviewOf": "a2-u8-relative"
+        },
+        {
+          "id": "a2-u8-quantifiers.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "that",
+          "choices": [
+            "that",
+            "receive",
+            "thing"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u8-relative"
+        },
+        {
+          "id": "a2-u8-quantifiers.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🙋",
+          "choices": [
+            "which",
+            "person",
+            "a lot of"
+          ],
+          "answer": 1,
+          "speak": "person",
+          "reviewOf": "a2-u8-relative"
+        },
+        {
+          "id": "a2-u8-quantifiers.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «thing»",
+          "speak": "thing",
+          "choices": [
+            "پیام",
+            "چیز"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u8-relative"
+        },
+        {
+          "id": "a2-u8-quantifiers.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "کمی آب هست.",
+          "sentence": "There is ___ water.",
+          "choices": [
+            "that",
+            "a little",
+            "disagree"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have a few friends and a little time.",
+          "fa": "چندتا دوست و کمی وقت دارم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "few یا little",
+        "body": "a few برای چیزهای شمارش‌شدنی (friends) و a little برای بی‌شمار (water)."
+      }
+    },
+    {
+      "id": "a2-u8-opinions",
+      "title": "In my opinion",
+      "titleFa": "نظر دادن",
+      "goal": "نظرت را بگویی و موافقت کنی",
+      "buildsOn": [
+        "a2-u8-quantifiers"
+      ],
+      "vocab": [
+        {
+          "en": "I think",
+          "fa": "فکر می‌کنم",
+          "emoji": "💭"
+        },
+        {
+          "en": "in my opinion",
+          "fa": "به نظر من",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "agree",
+          "fa": "موافق بودن",
+          "emoji": "👍"
+        },
+        {
+          "en": "disagree",
+          "fa": "مخالف بودن",
+          "emoji": "👎"
+        },
+        {
+          "en": "because",
+          "fa": "چون",
+          "emoji": "🔗"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "I think",
+          "fa": "فکر می‌کنم",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "in my opinion",
+          "fa": "به نظر من",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "agree",
+          "fa": "موافق بودن",
+          "emoji": "👍"
+        },
+        {
+          "kind": "word",
+          "en": "disagree",
+          "fa": "مخالف بودن",
+          "emoji": "👎"
+        },
+        {
+          "kind": "sentence",
+          "en": "I think this is a good film.",
+          "fa": "فکر می‌کنم این فیلم خوبی است."
+        },
+        {
+          "kind": "sentence",
+          "en": "In my opinion, it is good.",
+          "fa": "به نظر من خوب است.",
+          "highlight": "In"
+        },
+        {
+          "kind": "rule",
+          "title": "نظر + جملهٔ کامل",
+          "body": "بعد از I think یا in my opinion یک جملهٔ کامل بیاور: I think it is good.",
+          "examples": [
+            {
+              "en": "I think this is a good film.",
+              "fa": "فکر می‌کنم این فیلم خوبی است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u8-opinions.1",
+          "kind": "mcq",
+          "prompt": "معنی «I think» چیست؟",
+          "promptFa": "فکر می‌کنم",
+          "choices": [
+            "فکر می‌کنم",
+            "که (برای آدم)",
+            "زیاد"
+          ],
+          "answer": 0,
+          "speak": "I think",
+          "aiHints": {
+            "example": "I know the word \"I think\".",
+            "explanation": "«I think» یعنی فکر می‌کنم."
+          }
+        },
+        {
+          "id": "a2-u8-opinions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗣️",
+          "choices": [
+            "in my opinion",
+            "I think",
+            "agree"
+          ],
+          "answer": 0,
+          "speak": "in my opinion"
+        },
+        {
+          "id": "a2-u8-opinions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "agree",
+          "choices": [
+            "agree",
+            "send",
+            "a few"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u8-opinions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "agree",
+              "fa": "موافق بودن"
+            },
+            {
+              "en": "disagree",
+              "fa": "مخالف بودن"
+            },
+            {
+              "en": "I think",
+              "fa": "فکر می‌کنم"
+            },
+            {
+              "en": "in my opinion",
+              "fa": "به نظر من"
+            }
+          ]
+        },
+        {
+          "id": "a2-u8-opinions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "به نظر من خوب است.",
+          "sentence": "___ my opinion, it is good.",
+          "choices": [
+            "In",
+            "disagree",
+            "I think"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u8-opinions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فکر می‌کنم این فیلم خوبی است.",
+          "tokens": [
+            "a",
+            "think",
+            "is",
+            "I",
+            "film",
+            "good",
+            "this"
+          ],
+          "answer": "I think this is a good film"
+        },
+        {
+          "id": "a2-u8-opinions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "think",
+            "this",
+            "are",
+            "good."
+          ],
+          "answer": 3,
+          "fix": "I think this is good.",
+          "aiHints": {
+            "explanation": "درستش این است: I think this is good."
+          }
+        },
+        {
+          "id": "a2-u8-opinions.8",
+          "kind": "speed",
+          "prompt": "سریع! «because» یعنی چه؟",
+          "speak": "because",
+          "choices": [
+            "پیام",
+            "چون"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u8-opinions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «a few»",
+          "choices": [
+            "چندتا",
+            "فرستادن",
+            "زیاد"
+          ],
+          "answer": 0,
+          "speak": "a few",
+          "reviewOf": "a2-u8-quantifiers"
+        },
+        {
+          "id": "a2-u8-opinions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "a little",
+          "choices": [
+            "that",
+            "a lot of",
+            "a little"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u8-quantifiers"
+        },
+        {
+          "id": "a2-u8-opinions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "a lot of",
+            "message",
+            "enough"
+          ],
+          "answer": 2,
+          "speak": "enough",
+          "reviewOf": "a2-u8-quantifiers"
+        },
+        {
+          "id": "a2-u8-opinions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «too much»",
+          "speak": "too much",
+          "choices": [
+            "پیام",
+            "بیش از حد"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u8-quantifiers"
+        },
+        {
+          "id": "a2-u8-opinions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "با تو موافقم.",
+          "sentence": "I ___ with you.",
+          "choices": [
+            "message",
+            "chat",
+            "agree"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I think it is good, but I disagree with you.",
+          "fa": "فکر می‌کنم خوب است، ولی با تو موافق نیستم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "نظر + جملهٔ کامل",
+        "body": "بعد از I think یا in my opinion یک جملهٔ کامل بیاور: I think it is good."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u8-boss",
+    "titleFa": "نبرد پایانی — ارتباط و رسانه",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u8-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «call»",
+        "speak": "call",
+        "choices": [
+          "که",
+          "چیز",
+          "تماس"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u8-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "chat",
+        "choices": [
+          "thing",
+          "receive",
+          "chat"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u8-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔗",
+        "choices": [
+          "that",
+          "who",
+          "person"
+        ],
+        "answer": 0,
+        "speak": "that"
+      },
+      {
+        "id": "a2-u8-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «a lot of»",
+        "speak": "a lot of",
+        "choices": [
+          "زیاد",
+          "چندتا"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u8-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «enough»",
+        "speak": "enough",
+        "choices": [
+          "که",
+          "مخالف بودن",
+          "به‌اندازهٔ کافی"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u8-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "in my opinion",
+        "choices": [
+          "in my opinion",
+          "I think",
+          "which"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u8-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔗",
+        "choices": [
+          "because",
+          "chat",
+          "message"
+        ],
+        "answer": 0,
+        "speak": "because"
+      },
+      {
+        "id": "a2-u8-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «send»",
+        "speak": "send",
+        "choices": [
+          "فرستادن",
+          "به‌اندازهٔ کافی"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u8-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «who»",
+        "speak": "who",
+        "choices": [
+          "که",
+          "چون",
+          "که (برای آدم)"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u8-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "person",
+        "choices": [
+          "person",
+          "in my opinion",
+          "thing"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

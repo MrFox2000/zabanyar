@@ -24,13 +24,26 @@ from them, so the language forms a web instead of a stack of unrelated lessons.
 |---|---|---|
 | Marketing site | `src/app/page.tsx` | landing, features, pricing, FAQ |
 | App | `src/app/app/*` | map, lesson runner, boss battle, profile, weekly view |
-| Content | `src/content/a1/*.json` | 8 units · 32 lessons · 493 exercises |
+| Content | `src/content/<level>/*.json` | 18 units (A1 + A2) · 72 lessons · 1113 exercises |
 | Content pipeline | `scripts/gen-content.mjs` | build-time generator for the JSON above |
 | AI layer | `src/lib/ai/*`, `src/app/api/ai/*` | flags, client, events, `useAi`, routes |
 
+## Levels
+
+| Level | Units | Lessons | Status |
+|---|---|---|---|
+| A1 | 8 | 32 | done |
+| A2 | 10 | 40 | done |
+| B1 | 12 | 48 | next |
+| B2 | 12 | 48 | planned |
+
+Add a level by dropping `scripts/curriculum/units-<level>-*.mjs` files, listing them in
+`scripts/curriculum/index.mjs`, and running `npm run content` — the loader, the map tabs,
+the notebook grouping and the word-image downloader all pick it up automatically.
+
 ## Numbers that are real
 
-- 8 units, 32 lessons, **493 exercises**, 8 boss battles
+- 18 units (A1 + A2), 72 lessons, **1113 exercises**, 18 boss battles
 - 8 game types: meaning, picture, listening, fill-the-blank, sentence building,
   match pairs, spot the mistake, speed round
 - 0 image or audio assets to license: the fox is inline SVG, audio is the browser's

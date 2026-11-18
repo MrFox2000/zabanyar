@@ -1,0 +1,1289 @@
+{
+  "id": "a2-u10",
+  "level": "A2",
+  "index": 10,
+  "titleFa": "جمع‌بندی A2",
+  "titleEn": "Putting A2 together",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "a2-u10-linking",
+      "title": "Because, but, so",
+      "titleFa": "وصل کردن جمله‌ها",
+      "goal": "داستانت را با دلیل و تضاد بگویی",
+      "buildsOn": [
+        "a2-u9-mixed-review"
+      ],
+      "vocab": [
+        {
+          "en": "because",
+          "fa": "چون",
+          "emoji": "🔗"
+        },
+        {
+          "en": "but",
+          "fa": "ولی",
+          "emoji": "↔️"
+        },
+        {
+          "en": "so",
+          "fa": "بنابراین",
+          "emoji": "➡️"
+        },
+        {
+          "en": "although",
+          "fa": "اگرچه",
+          "emoji": "🤔"
+        },
+        {
+          "en": "while",
+          "fa": "در حالی که",
+          "emoji": "⏳"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "because",
+          "fa": "چون",
+          "emoji": "🔗"
+        },
+        {
+          "kind": "word",
+          "en": "but",
+          "fa": "ولی",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "word",
+          "en": "so",
+          "fa": "بنابراین",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "although",
+          "fa": "اگرچه",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "sentence",
+          "en": "I wanted to go, but I was busy.",
+          "fa": "می‌خواستم بروم، ولی سرم شلوغ بود."
+        },
+        {
+          "kind": "sentence",
+          "en": "I stayed home because I was tired.",
+          "fa": "خانه ماندم چون خسته بودم.",
+          "highlight": "because"
+        },
+        {
+          "kind": "rule",
+          "title": "because یا because of",
+          "body": "بعد از because یک جمله می‌آید؛ بعد از because of یک اسم.",
+          "examples": [
+            {
+              "en": "I wanted to go, but I was busy.",
+              "fa": "می‌خواستم بروم، ولی سرم شلوغ بود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u10-linking.1",
+          "kind": "mcq",
+          "prompt": "معنی «because» چیست؟",
+          "promptFa": "چون",
+          "choices": [
+            "چون",
+            "گم‌شده",
+            "ولی"
+          ],
+          "answer": 0,
+          "speak": "because",
+          "aiHints": {
+            "example": "I know the word \"because\".",
+            "explanation": "«because» یعنی چون."
+          }
+        },
+        {
+          "id": "a2-u10-linking.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "↔️",
+          "choices": [
+            "but",
+            "although",
+            "because"
+          ],
+          "answer": 0,
+          "speak": "but"
+        },
+        {
+          "id": "a2-u10-linking.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "so",
+          "choices": [
+            "so",
+            "station",
+            "never"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u10-linking.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "although",
+              "fa": "اگرچه"
+            },
+            {
+              "en": "because",
+              "fa": "چون"
+            },
+            {
+              "en": "so",
+              "fa": "بنابراین"
+            },
+            {
+              "en": "but",
+              "fa": "ولی"
+            }
+          ]
+        },
+        {
+          "id": "a2-u10-linking.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "خانه ماندم چون خسته بودم.",
+          "sentence": "I stayed home ___ I was tired.",
+          "choices": [
+            "while",
+            "because",
+            "better"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u10-linking.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌خواستم بروم، ولی سرم شلوغ بود.",
+          "tokens": [
+            "wanted",
+            "I",
+            "I",
+            "was",
+            "but",
+            "to",
+            "busy",
+            "go,"
+          ],
+          "answer": "I wanted to go, but I was busy"
+        },
+        {
+          "id": "a2-u10-linking.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "stayed",
+            "home",
+            "because",
+            "of",
+            "I",
+            "was",
+            "tired."
+          ],
+          "answer": 4,
+          "fix": "I stayed home because I was tired.",
+          "aiHints": {
+            "explanation": "درستش این است: I stayed home because I was tired."
+          }
+        },
+        {
+          "id": "a2-u10-linking.8",
+          "kind": "speed",
+          "prompt": "سریع! «while» یعنی چه؟",
+          "speak": "while",
+          "choices": [
+            "در حالی که",
+            "چون"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u10-linking.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «already»",
+          "choices": [
+            "می‌خواهم",
+            "بنابراین",
+            "قبلاً"
+          ],
+          "answer": 2,
+          "speak": "already",
+          "reviewOf": "a2-u9-mixed-review"
+        },
+        {
+          "id": "a2-u10-linking.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "next year",
+          "choices": [
+            "want to",
+            "next year",
+            "because"
+          ],
+          "answer": 1,
+          "reviewOf": "a2-u9-mixed-review"
+        },
+        {
+          "id": "a2-u10-linking.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✌️",
+          "choices": [
+            "course",
+            "twice",
+            "miss"
+          ],
+          "answer": 1,
+          "speak": "twice",
+          "reviewOf": "a2-u9-mixed-review"
+        },
+        {
+          "id": "a2-u10-linking.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «ago»",
+          "speak": "ago",
+          "choices": [
+            "پیش",
+            "چون"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u9-mixed-review"
+        },
+        {
+          "id": "a2-u10-linking.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "سرد بود، بنابراین کت پوشیدم.",
+          "sentence": "It was cold, ___ I wore a coat.",
+          "choices": [
+            "while",
+            "so",
+            "will"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I was tired, so I stayed home.",
+          "fa": "خسته بودم، بنابراین خانه ماندم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "because یا because of",
+        "body": "بعد از because یک جمله می‌آید؛ بعد از because of یک اسم."
+      }
+    },
+    {
+      "id": "a2-u10-travel-problems",
+      "title": "I missed the train",
+      "titleFa": "مشکل در سفر",
+      "goal": "مشکلی که در سفر پیش آمده را بگویی",
+      "buildsOn": [
+        "a2-u10-linking"
+      ],
+      "vocab": [
+        {
+          "en": "lost",
+          "fa": "گم‌شده",
+          "emoji": "🧭"
+        },
+        {
+          "en": "late",
+          "fa": "دیر",
+          "emoji": "⌛"
+        },
+        {
+          "en": "miss",
+          "fa": "از دست دادن",
+          "emoji": "🚫"
+        },
+        {
+          "en": "change",
+          "fa": "تغییر دادن",
+          "emoji": "🔄"
+        },
+        {
+          "en": "station",
+          "fa": "ایستگاه",
+          "emoji": "🚉"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "lost",
+          "fa": "گم‌شده",
+          "emoji": "🧭"
+        },
+        {
+          "kind": "word",
+          "en": "late",
+          "fa": "دیر",
+          "emoji": "⌛"
+        },
+        {
+          "kind": "word",
+          "en": "miss",
+          "fa": "از دست دادن",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "change",
+          "fa": "تغییر دادن",
+          "emoji": "🔄"
+        },
+        {
+          "kind": "sentence",
+          "en": "I lost my bag at the station.",
+          "fa": "کیفم را در ایستگاه گم کردم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I missed my train.",
+          "fa": "قطارم را از دست دادم.",
+          "highlight": "missed"
+        },
+        {
+          "kind": "rule",
+          "title": "اتفاق دیروز",
+          "body": "وقتی می‌گویی دیروز، فعل باید گذشته باشد: I missed، I lost.",
+          "examples": [
+            {
+              "en": "I lost my bag at the station.",
+              "fa": "کیفم را در ایستگاه گم کردم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u10-travel-problems.1",
+          "kind": "mcq",
+          "prompt": "معنی «lost» چیست؟",
+          "promptFa": "گم‌شده",
+          "choices": [
+            "چون",
+            "گم‌شده",
+            "اگرچه"
+          ],
+          "answer": 1,
+          "speak": "lost",
+          "aiHints": {
+            "example": "I know the word \"lost\".",
+            "explanation": "«lost» یعنی گم‌شده."
+          }
+        },
+        {
+          "id": "a2-u10-travel-problems.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⌛",
+          "choices": [
+            "station",
+            "change",
+            "late"
+          ],
+          "answer": 2,
+          "speak": "late"
+        },
+        {
+          "id": "a2-u10-travel-problems.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "miss",
+          "choices": [
+            "never",
+            "miss",
+            "so"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u10-travel-problems.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "late",
+              "fa": "دیر"
+            },
+            {
+              "en": "change",
+              "fa": "تغییر دادن"
+            },
+            {
+              "en": "lost",
+              "fa": "گم‌شده"
+            },
+            {
+              "en": "miss",
+              "fa": "از دست دادن"
+            }
+          ]
+        },
+        {
+          "id": "a2-u10-travel-problems.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "قطارم را از دست دادم.",
+          "sentence": "I ___ my train.",
+          "choices": [
+            "missed",
+            "course",
+            "engineer"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u10-travel-problems.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "کیفم را در ایستگاه گم کردم.",
+          "tokens": [
+            "station",
+            "at",
+            "the",
+            "lost",
+            "bag",
+            "I",
+            "my"
+          ],
+          "answer": "I lost my bag at the station"
+        },
+        {
+          "id": "a2-u10-travel-problems.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "miss",
+            "the",
+            "train",
+            "yesterday."
+          ],
+          "answer": 1,
+          "fix": "I missed the train yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: I missed the train yesterday."
+          }
+        },
+        {
+          "id": "a2-u10-travel-problems.8",
+          "kind": "speed",
+          "prompt": "سریع! «station» یعنی چه؟",
+          "speak": "station",
+          "choices": [
+            "چون",
+            "ایستگاه"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u10-travel-problems.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «but»",
+          "choices": [
+            "ولی",
+            "قبلاً",
+            "ایستگاه"
+          ],
+          "answer": 0,
+          "speak": "but",
+          "reviewOf": "a2-u10-linking"
+        },
+        {
+          "id": "a2-u10-travel-problems.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "so",
+          "choices": [
+            "although",
+            "so",
+            "station"
+          ],
+          "answer": 1,
+          "reviewOf": "a2-u10-linking"
+        },
+        {
+          "id": "a2-u10-travel-problems.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🤔",
+          "choices": [
+            "want to",
+            "while",
+            "although"
+          ],
+          "answer": 2,
+          "speak": "although",
+          "reviewOf": "a2-u10-linking"
+        },
+        {
+          "id": "a2-u10-travel-problems.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «while»",
+          "speak": "while",
+          "choices": [
+            "چون",
+            "در حالی که"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u10-linking"
+        },
+        {
+          "id": "a2-u10-travel-problems.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "می‌شود بلیتم را عوض کنید؟",
+          "sentence": "Could you ___ my ticket?",
+          "choices": [
+            "station",
+            "change",
+            "engineer"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I was late and I missed my train.",
+          "fa": "دیر رسیدم و قطارم را از دست دادم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "اتفاق دیروز",
+        "body": "وقتی می‌گویی دیروز، فعل باید گذشته باشد: I missed، I lost."
+      }
+    },
+    {
+      "id": "a2-u10-plans-future",
+      "title": "I want to study abroad",
+      "titleFa": "هدف و برنامه",
+      "goal": "بگویی چه می‌خواهی بشوی یا بکنی",
+      "buildsOn": [
+        "a2-u10-travel-problems"
+      ],
+      "vocab": [
+        {
+          "en": "want to",
+          "fa": "می‌خواهم",
+          "emoji": "🎯"
+        },
+        {
+          "en": "abroad",
+          "fa": "خارج از کشور",
+          "emoji": "🌍"
+        },
+        {
+          "en": "course",
+          "fa": "دوره",
+          "emoji": "📚"
+        },
+        {
+          "en": "engineer",
+          "fa": "مهندس",
+          "emoji": "🛠️"
+        },
+        {
+          "en": "start",
+          "fa": "شروع کردن",
+          "emoji": "🚀"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "want to",
+          "fa": "می‌خواهم",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "word",
+          "en": "abroad",
+          "fa": "خارج از کشور",
+          "emoji": "🌍"
+        },
+        {
+          "kind": "word",
+          "en": "course",
+          "fa": "دوره",
+          "emoji": "📚"
+        },
+        {
+          "kind": "word",
+          "en": "engineer",
+          "fa": "مهندس",
+          "emoji": "🛠️"
+        },
+        {
+          "kind": "sentence",
+          "en": "I want to be an engineer.",
+          "fa": "می‌خواهم مهندس شوم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I want to study abroad.",
+          "fa": "می‌خواهم در خارج درس بخوانم.",
+          "highlight": "to"
+        },
+        {
+          "kind": "rule",
+          "title": "want + to",
+          "body": "بعد از want همیشه to می‌آید: want to study، want to go.",
+          "examples": [
+            {
+              "en": "I want to be an engineer.",
+              "fa": "می‌خواهم مهندس شوم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u10-plans-future.1",
+          "kind": "mcq",
+          "prompt": "معنی «want to» چیست؟",
+          "promptFa": "می‌خواهم",
+          "choices": [
+            "تغییر دادن",
+            "اگرچه",
+            "می‌خواهم"
+          ],
+          "answer": 2,
+          "speak": "want to",
+          "aiHints": {
+            "example": "I know the word \"want to\".",
+            "explanation": "«want to» یعنی می‌خواهم."
+          }
+        },
+        {
+          "id": "a2-u10-plans-future.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌍",
+          "choices": [
+            "start",
+            "abroad",
+            "course"
+          ],
+          "answer": 1,
+          "speak": "abroad"
+        },
+        {
+          "id": "a2-u10-plans-future.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "course",
+          "choices": [
+            "engineer",
+            "late",
+            "course"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u10-plans-future.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "want to",
+              "fa": "می‌خواهم"
+            },
+            {
+              "en": "abroad",
+              "fa": "خارج از کشور"
+            },
+            {
+              "en": "course",
+              "fa": "دوره"
+            },
+            {
+              "en": "engineer",
+              "fa": "مهندس"
+            }
+          ]
+        },
+        {
+          "id": "a2-u10-plans-future.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌خواهم در خارج درس بخوانم.",
+          "sentence": "I want ___ study abroad.",
+          "choices": [
+            "already",
+            "so",
+            "to"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u10-plans-future.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌خواهم مهندس شوم.",
+          "tokens": [
+            "I",
+            "an",
+            "to",
+            "be",
+            "want",
+            "engineer"
+          ],
+          "answer": "I want to be an engineer"
+        },
+        {
+          "id": "a2-u10-plans-future.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "want",
+            "study",
+            "abroad."
+          ],
+          "answer": 2,
+          "fix": "I want to study abroad.",
+          "aiHints": {
+            "explanation": "درستش این است: I want to study abroad."
+          }
+        },
+        {
+          "id": "a2-u10-plans-future.8",
+          "kind": "speed",
+          "prompt": "سریع! «start» یعنی چه؟",
+          "speak": "start",
+          "choices": [
+            "چون",
+            "شروع کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u10-plans-future.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «late»",
+          "choices": [
+            "دیر",
+            "گم‌شده",
+            "ایستگاه"
+          ],
+          "answer": 0,
+          "speak": "late",
+          "reviewOf": "a2-u10-travel-problems"
+        },
+        {
+          "id": "a2-u10-plans-future.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "miss",
+          "choices": [
+            "miss",
+            "abroad",
+            "change"
+          ],
+          "answer": 0,
+          "reviewOf": "a2-u10-travel-problems"
+        },
+        {
+          "id": "a2-u10-plans-future.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔄",
+          "choices": [
+            "late",
+            "change",
+            "lost"
+          ],
+          "answer": 1,
+          "speak": "change",
+          "reviewOf": "a2-u10-travel-problems"
+        },
+        {
+          "id": "a2-u10-plans-future.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «station»",
+          "speak": "station",
+          "choices": [
+            "چون",
+            "ایستگاه"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u10-travel-problems"
+        },
+        {
+          "id": "a2-u10-plans-future.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "قرار است دورهٔ جدیدی شروع کنیم.",
+          "sentence": "We are going to ___ a new course.",
+          "choices": [
+            "but",
+            "engineer",
+            "start"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I want to study and become an engineer.",
+          "fa": "می‌خواهم درس بخوانم و مهندس شوم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "want + to",
+        "body": "بعد از want همیشه to می‌آید: want to study، want to go."
+      }
+    },
+    {
+      "id": "a2-u10-a2-final",
+      "title": "A2 final review",
+      "titleFa": "مرور پایانی A2",
+      "goal": "آمادهٔ ورود به B1 شوی",
+      "buildsOn": [
+        "a2-u10-plans-future"
+      ],
+      "vocab": [
+        {
+          "en": "never",
+          "fa": "هرگز",
+          "emoji": "🚫"
+        },
+        {
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "en": "will",
+          "fa": "خواهد",
+          "emoji": "🔮"
+        },
+        {
+          "en": "better",
+          "fa": "بهتر",
+          "emoji": "👍"
+        },
+        {
+          "en": "because",
+          "fa": "چون",
+          "emoji": "🔗"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "never",
+          "fa": "هرگز",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "already",
+          "fa": "قبلاً",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "will",
+          "fa": "خواهد",
+          "emoji": "🔮"
+        },
+        {
+          "kind": "word",
+          "en": "better",
+          "fa": "بهتر",
+          "emoji": "👍"
+        },
+        {
+          "kind": "sentence",
+          "en": "I have studied English for a year.",
+          "fa": "یک سال است انگلیسی می‌خوانم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I have never been to London.",
+          "fa": "هرگز به لندن نرفته‌ام.",
+          "highlight": "have"
+        },
+        {
+          "kind": "rule",
+          "title": "قبل از B1 چک کن",
+          "body": "حال کامل با قسمت سوم فعل، شرط با if + حال ساده، و مقایسه با er/est.",
+          "examples": [
+            {
+              "en": "I have studied English for a year.",
+              "fa": "یک سال است انگلیسی می‌خوانم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u10-a2-final.1",
+          "kind": "mcq",
+          "prompt": "معنی «never» چیست؟",
+          "promptFa": "هرگز",
+          "choices": [
+            "از دست دادن",
+            "می‌خواهم",
+            "هرگز"
+          ],
+          "answer": 2,
+          "speak": "never",
+          "aiHints": {
+            "example": "I know the word \"never\".",
+            "explanation": "«never» یعنی هرگز."
+          }
+        },
+        {
+          "id": "a2-u10-a2-final.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "because",
+            "already",
+            "better"
+          ],
+          "answer": 1,
+          "speak": "already"
+        },
+        {
+          "id": "a2-u10-a2-final.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "will",
+          "choices": [
+            "engineer",
+            "late",
+            "will"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u10-a2-final.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "already",
+              "fa": "قبلاً"
+            },
+            {
+              "en": "better",
+              "fa": "بهتر"
+            },
+            {
+              "en": "will",
+              "fa": "خواهد"
+            },
+            {
+              "en": "never",
+              "fa": "هرگز"
+            }
+          ]
+        },
+        {
+          "id": "a2-u10-a2-final.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "هرگز به لندن نرفته‌ام.",
+          "sentence": "I ___ never been to London.",
+          "choices": [
+            "because",
+            "although",
+            "have"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u10-a2-final.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "یک سال است انگلیسی می‌خوانم.",
+          "tokens": [
+            "year",
+            "for",
+            "have",
+            "studied",
+            "English",
+            "I",
+            "a"
+          ],
+          "answer": "I have studied English for a year"
+        },
+        {
+          "id": "a2-u10-a2-final.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "have",
+            "study",
+            "English",
+            "for",
+            "a",
+            "year."
+          ],
+          "answer": 2,
+          "fix": "I have studied English for a year.",
+          "aiHints": {
+            "explanation": "درستش این است: I have studied English for a year."
+          }
+        },
+        {
+          "id": "a2-u10-a2-final.8",
+          "kind": "speed",
+          "prompt": "سریع! «because» یعنی چه؟",
+          "speak": "because",
+          "choices": [
+            "چون",
+            "ولی"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u10-a2-final.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «abroad»",
+          "choices": [
+            "خارج از کشور",
+            "از دست دادن",
+            "ولی"
+          ],
+          "answer": 0,
+          "speak": "abroad",
+          "reviewOf": "a2-u10-plans-future"
+        },
+        {
+          "id": "a2-u10-a2-final.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "course",
+          "choices": [
+            "better",
+            "will",
+            "course"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u10-plans-future"
+        },
+        {
+          "id": "a2-u10-a2-final.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛠️",
+          "choices": [
+            "engineer",
+            "late",
+            "change"
+          ],
+          "answer": 0,
+          "speak": "engineer",
+          "reviewOf": "a2-u10-plans-future"
+        },
+        {
+          "id": "a2-u10-a2-final.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «start»",
+          "speak": "start",
+          "choices": [
+            "شروع کردن",
+            "چون"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u10-plans-future"
+        },
+        {
+          "id": "a2-u10-a2-final.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر باران بیاید، خانه می‌مانم.",
+          "sentence": "If it rains, I ___ stay home.",
+          "choices": [
+            "will",
+            "abroad",
+            "while"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have learned a lot and I am ready for B1.",
+          "fa": "خیلی یاد گرفته‌ام و آمادهٔ B1 هستم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "قبل از B1 چک کن",
+        "body": "حال کامل با قسمت سوم فعل، شرط با if + حال ساده، و مقایسه با er/est."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u10-boss",
+    "titleFa": "نبرد پایانی — جمع‌بندی A2",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u10-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «but»",
+        "speak": "but",
+        "choices": [
+          "ایستگاه",
+          "ولی",
+          "قبلاً"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u10-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "while",
+        "choices": [
+          "while",
+          "engineer",
+          "change"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u10-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚫",
+        "choices": [
+          "miss",
+          "station",
+          "because"
+        ],
+        "answer": 0,
+        "speak": "miss"
+      },
+      {
+        "id": "a2-u10-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «want to»",
+        "speak": "want to",
+        "choices": [
+          "می‌خواهم",
+          "خواهد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u10-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «engineer»",
+        "speak": "engineer",
+        "choices": [
+          "گم‌شده",
+          "هرگز",
+          "مهندس"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u10-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "already",
+        "choices": [
+          "already",
+          "station",
+          "abroad"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u10-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔗",
+        "choices": [
+          "abroad",
+          "late",
+          "because"
+        ],
+        "answer": 2,
+        "speak": "because"
+      },
+      {
+        "id": "a2-u10-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «so»",
+        "speak": "so",
+        "choices": [
+          "بنابراین",
+          "ایستگاه"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u10-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «lost»",
+        "speak": "lost",
+        "choices": [
+          "گم‌شده",
+          "تغییر دادن",
+          "خواهد"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u10-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "change",
+        "choices": [
+          "engineer",
+          "change",
+          "want to"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}
