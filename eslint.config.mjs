@@ -14,6 +14,9 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // local capture/QA scripts (CommonJS, not shipped)
     "shots/**",
+    // native shell + generated web assets (not linted)
+    "android/**",
+    "store/**",
     // build artefacts and logs
     "out/**",
     ".next/**",
