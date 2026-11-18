@@ -48,9 +48,9 @@ function ChoiceGrid({
             onClick={() => onPick(choice)}
             className={cn(
               "btn-pop card min-h-16 px-3 py-3 text-center text-base font-bold transition-all",
-              isCorrect && "border-mint bg-mint/20 text-[#065f46]",
-              isWrong && "border-lose bg-lose/10 text-lose shake",
-              !locked && "hover:border-fox/50 hover:bg-sand active:scale-[0.99]",
+              isCorrect && "pop-in border-mint bg-mint/20 text-[#065f46] ring-2 ring-mint",
+              isWrong && "shake border-lose bg-lose/10 text-lose",
+              !locked && "hover:border-fox/50 hover:bg-sand active:scale-[0.98]",
             )}
           >
             {choice}
@@ -58,6 +58,19 @@ function ChoiceGrid({
         );
       })}
     </div>
+  );
+}
+
+/** the little celebration that fires on a correct answer */
+export function CorrectBurst() {
+  return (
+    <span className="pointer-events-none absolute inset-x-0 top-8 flex justify-center" aria-hidden>
+      {["✨", "⭐", "✨"].map((emoji, index) => (
+        <span key={index} className="burst-piece text-2xl" style={{ animationDelay: `${index * 70}ms` }}>
+          {emoji}
+        </span>
+      ))}
+    </span>
   );
 }
 
@@ -148,7 +161,7 @@ export function FillBlankGame({ exercise, locked, picked, onCommit }: Props<"fil
         <p className="mb-1 text-sm text-plum-soft">{exercise.prompt}</p>
         {exercise.promptFa && <p className="mb-4 text-xs text-plum-soft/70">{exercise.promptFa}</p>}
       </div>
-      <p className="card flex flex-wrap items-center justify-center gap-2 px-4 py-5 text-center text-lg font-bold text-plum">
+      <p className="card flex flex-wrap items-center justify-center gap-2 px-4 py-5 text-center text-lg font-bold text-plum" dir="ltr">
         <span>{before}</span>
         <span
           className={cn(
@@ -174,7 +187,7 @@ export function SpotErrorGame({ exercise, locked, picked, onCommit }: Props<"spo
   return (
     <div className="space-y-5">
       <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
-      <div className="flex flex-wrap justify-center gap-2 rounded-2xl bg-white p-4 shadow-sm">
+      <div className="flex flex-wrap justify-center gap-2 rounded-2xl bg-white p-4 shadow-sm" dir="ltr">
         {exercise.words.map((word) => {
           const isPicked = picked === word;
           const isCorrect = locked && word === correct;
@@ -341,9 +354,11 @@ export function WordOrderGame({ exercise, locked, onCommit }: Omit<Props<"wordOr
 /* ── 8. match pairs ──────────────────────────────────────────────────── */
 
 export function MatchGame({ exercise, locked, onCommit }: Omit<Props<"match">, "picked">) {
-  const left = useMemo(() => shuffle(exercise.pairs.map((p) => p.en)), [exercise.pairs]);
-  const right = useMemo(() => shuffle(exercise.pairs.map((p) => p.fa)), [exercise.pairs]);
-  const [selected, setSelected] = useState<string | null>(null);
+  // Persian sits on the right (first column in RTL), English on the left — the
+  // order a Persian speaker reads a dictionary in.
+  const persian = useMemo(() => shuffle(exercise.pairs.map((pair) => pair.fa)), [exercise.pairs]);
+  const english = useMemo(() => shuffle(exercise.pairs.map((pair) => pair.en)), [exercise.pairs]);
+  const [selected, setSelected] = useState<{ side: "fa" | "en"; value: string } | null>(null);
   const [done, setDone] = useState<string[]>([]);
   const [wrong, setWrong] = useState<string | null>(null);
   const [mistakes, setMistakes] = useState(0);
@@ -355,61 +370,52 @@ export function MatchGame({ exercise, locked, onCommit }: Omit<Props<"match">, "
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [done.length]);
 
-  const pairOf = (en: string) => exercise.pairs.find((p) => p.en === en)?.fa;
+  const englishForPersian = (fa: string) => exercise.pairs.find((pair) => pair.fa === fa)?.en;
+
+  const choose = (side: "fa" | "en", value: string) => {
+    if (side === "en") speak(value);
+
+    if (!selected) {
+      setSelected({ side, value });
+      return;
+    }
+    if (selected.side === side) {
+      setSelected({ side, value });
+      return;
+    }
+
+    const en = side === "en" ? value : selected.value;
+    const fa = side === "fa" ? value : selected.value;
+    if (exercise.pairs.some((pair) => pair.en === en && pair.fa === fa)) {
+      setDone((current) => [...current, en]);
+      setSelected(null);
+      setWrong(null);
+    } else {
+      setMistakes((count) => count + 1);
+      setWrong(value);
+      setTimeout(() => setWrong(null), 450);
+    }
+  };
 
   return (
     <div className="space-y-4">
       <p className="text-center text-sm text-plum-soft">{exercise.prompt}</p>
       <div className="grid grid-cols-2 gap-3">
         <div className="space-y-2.5">
-          {left.map((en) => {
-            const isDone = done.includes(en);
-            return (
-              <button
-                key={en}
-                type="button"
-                disabled={isDone}
-                onClick={() => {
-                  speak(en);
-                  setSelected(en);
-                }}
-                className={cn(
-                  "w-full rounded-2xl border bg-white px-2 py-3 text-sm font-bold shadow-sm transition-all",
-                  isDone && "border-mint/40 bg-mint/10 text-plum/30 line-through",
-                  selected === en && !isDone && "border-fox bg-sand text-fox-deep",
-                )}
-              >
-                {en}
-              </button>
-            );
-          })}
-        </div>
-        <div className="space-y-2.5">
-          {right.map((fa) => {
-            const owner = exercise.pairs.find((p) => p.fa === fa)?.en ?? "";
+          {persian.map((fa) => {
+            const owner = englishForPersian(fa) ?? "";
             const isDone = done.includes(owner);
             return (
               <button
                 key={fa}
                 type="button"
                 disabled={isDone}
-                onClick={() => {
-                  if (!selected) return;
-                  if (pairOf(selected) === fa) {
-                    setDone((current) => [...current, selected]);
-                    setSelected(null);
-                    setWrong(null);
-                  } else {
-                    setMistakes((n) => n + 1);
-                    setWrong(fa);
-                    setTimeout(() => setWrong(null), 450);
-                  }
-                }}
+                onClick={() => choose("fa", fa)}
                 className={cn(
                   "w-full rounded-2xl border bg-white px-2 py-3 text-sm font-bold shadow-sm transition-all",
-                  isDone && "border-mint/40 bg-mint/10 text-plum/30",
-                  wrong === fa && "border-lose bg-lose/10 text-lose shake",
-                  selected && !isDone && "border-fox/30",
+                  isDone && "border-mint/40 bg-mint/10 text-plum/30 line-through",
+                  !isDone && selected?.side === "fa" && selected.value === fa && "border-fox bg-sand text-fox-deep",
+                  wrong === fa && "shake border-lose bg-lose/10 text-lose",
                 )}
               >
                 {fa}
@@ -417,10 +423,31 @@ export function MatchGame({ exercise, locked, onCommit }: Omit<Props<"match">, "
             );
           })}
         </div>
+        <div className="space-y-2.5" dir="ltr">
+          {english.map((en) => {
+            const isDone = done.includes(en);
+            return (
+              <button
+                key={en}
+                type="button"
+                disabled={isDone}
+                onClick={() => choose("en", en)}
+                className={cn(
+                  "w-full rounded-2xl border bg-white px-2 py-3 text-sm font-bold shadow-sm transition-all",
+                  isDone && "border-mint/40 bg-mint/10 text-plum/30 line-through",
+                  !isDone && selected?.side === "en" && selected.value === en && "border-fox bg-sand text-fox-deep",
+                  wrong === en && "shake border-lose bg-lose/10 text-lose",
+                )}
+              >
+                {en}
+              </button>
+            );
+          })}
+        </div>
       </div>
       <div className="flex items-center justify-center gap-2 text-xs text-plum-soft">
         {done.length === exercise.pairs.length ? (
-          <span className="flex items-center gap-1 font-bold text-[#065f46]">
+          <span className="pop-in flex items-center gap-1 font-bold text-[#065f46]">
             <Check size={14} /> همه را وصل کردی
           </span>
         ) : (

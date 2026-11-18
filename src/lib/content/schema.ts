@@ -94,6 +94,16 @@ export const exerciseSchema = z.discriminatedUnion("kind", [
 export type Exercise = z.infer<typeof exerciseSchema>;
 export type ExerciseKind = Exercise["kind"];
 
+/** one word/phrase the lesson teaches — this is what the notebook collects */
+export const vocabSchema = z.object({
+  en: z.string().min(1),
+  fa: z.string().min(1),
+  emoji: z.string().optional(),
+  note: z.string().optional(),
+});
+
+export type Vocab = z.infer<typeof vocabSchema>;
+
 export const lessonSchema = z.object({
   id,
   title: z.string().min(1),
@@ -102,6 +112,8 @@ export const lessonSchema = z.object({
   /** prerequisite lesson ids; drives unlocking and the review mix */
   buildsOn: z.array(id).default([]),
   exercises: z.array(exerciseSchema).min(6),
+  /** the words and phrases this lesson teaches (notebook source) */
+  vocab: z.array(vocabSchema).default([]),
   /** the "what you can now say" card at the end */
   youCanSay: z.array(z.object({ en: z.string(), fa: z.string() })).min(1),
   /** one grammar rule shown before practice — application over theory */

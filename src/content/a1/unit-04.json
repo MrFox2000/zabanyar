@@ -14,6 +14,33 @@
       "buildsOn": [
         "a1-u3-routine"
       ],
+      "vocab": [
+        {
+          "en": "bread",
+          "fa": "نان",
+          "emoji": "🍞"
+        },
+        {
+          "en": "milk",
+          "fa": "شیر",
+          "emoji": "🥛"
+        },
+        {
+          "en": "apple",
+          "fa": "سیب",
+          "emoji": "🍎"
+        },
+        {
+          "en": "rice",
+          "fa": "برنج",
+          "emoji": "🍚"
+        },
+        {
+          "en": "water",
+          "fa": "آب",
+          "emoji": "💧"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u4-food.1",
@@ -222,6 +249,33 @@
       "goal": "دربارهٔ مقدار حرف بزنی",
       "buildsOn": [
         "a1-u4-food"
+      ],
+      "vocab": [
+        {
+          "en": "some",
+          "fa": "مقداری",
+          "emoji": "➕"
+        },
+        {
+          "en": "any",
+          "fa": "هیچ / مقداری (سؤالی)",
+          "emoji": "❓"
+        },
+        {
+          "en": "much",
+          "fa": "زیاد (بی‌شمار)",
+          "emoji": "📈"
+        },
+        {
+          "en": "many",
+          "fa": "زیاد (شمارش‌شدنی)",
+          "emoji": "🔢"
+        },
+        {
+          "en": "bottle",
+          "fa": "بطری",
+          "emoji": "🍾"
+        }
       ],
       "exercises": [
         {
@@ -434,6 +488,33 @@
         "a1-u4-food",
         "a1-u1-polite"
       ],
+      "vocab": [
+        {
+          "en": "menu",
+          "fa": "منو",
+          "emoji": "📋"
+        },
+        {
+          "en": "coffee",
+          "fa": "قهوه",
+          "emoji": "☕"
+        },
+        {
+          "en": "tea",
+          "fa": "چای",
+          "emoji": "🍵"
+        },
+        {
+          "en": "bill",
+          "fa": "صورت‌حساب",
+          "emoji": "🧾"
+        },
+        {
+          "en": "order",
+          "fa": "سفارش دادن",
+          "emoji": "📝"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u4-cafe.1",
@@ -643,6 +724,33 @@
       "goal": "قیمت بپرسی و بگویی گران است",
       "buildsOn": [
         "a1-u1-numbers-age"
+      ],
+      "vocab": [
+        {
+          "en": "price",
+          "fa": "قیمت",
+          "emoji": "🏷️"
+        },
+        {
+          "en": "cheap",
+          "fa": "ارزان",
+          "emoji": "🪙"
+        },
+        {
+          "en": "expensive",
+          "fa": "گران",
+          "emoji": "💸"
+        },
+        {
+          "en": "dollar",
+          "fa": "دلار",
+          "emoji": "💵"
+        },
+        {
+          "en": "money",
+          "fa": "پول",
+          "emoji": "💳"
+        }
       ],
       "exercises": [
         {

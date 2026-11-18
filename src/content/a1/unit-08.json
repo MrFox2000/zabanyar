@@ -14,6 +14,33 @@
       "buildsOn": [
         "a1-u5-places"
       ],
+      "vocab": [
+        {
+          "en": "airport",
+          "fa": "فرودگاه",
+          "emoji": "✈️"
+        },
+        {
+          "en": "hotel",
+          "fa": "هتل",
+          "emoji": "🏨"
+        },
+        {
+          "en": "ticket",
+          "fa": "بلیت",
+          "emoji": "🎫"
+        },
+        {
+          "en": "passport",
+          "fa": "پاسپورت",
+          "emoji": "🛂"
+        },
+        {
+          "en": "trip",
+          "fa": "سفر",
+          "emoji": "🧳"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u8-travel.1",
@@ -220,6 +247,33 @@
       "goal": "بگویی دیروز کجا بودی و چه حالی داشتی",
       "buildsOn": [
         "a1-u8-travel"
+      ],
+      "vocab": [
+        {
+          "en": "was",
+          "fa": "بود (مفرد)",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "were",
+          "fa": "بودند",
+          "emoji": "👥"
+        },
+        {
+          "en": "yesterday",
+          "fa": "دیروز",
+          "emoji": "📅"
+        },
+        {
+          "en": "ago",
+          "fa": "پیش",
+          "emoji": "⏪"
+        },
+        {
+          "en": "last night",
+          "fa": "دیشب",
+          "emoji": "🌙"
+        }
       ],
       "exercises": [
         {
@@ -430,6 +484,33 @@
       "buildsOn": [
         "a1-u8-was-were"
       ],
+      "vocab": [
+        {
+          "en": "went",
+          "fa": "رفت",
+          "emoji": "🚶"
+        },
+        {
+          "en": "saw",
+          "fa": "دید",
+          "emoji": "👀"
+        },
+        {
+          "en": "ate",
+          "fa": "خورد",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "bought",
+          "fa": "خرید",
+          "emoji": "🛍️"
+        },
+        {
+          "en": "came",
+          "fa": "آمد",
+          "emoji": "🚪"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u8-past-simple.1",
@@ -639,6 +720,33 @@
       "goal": "در هتل اتاق بگیری و کمک بخواهی",
       "buildsOn": [
         "a1-u8-travel"
+      ],
+      "vocab": [
+        {
+          "en": "key",
+          "fa": "کلید",
+          "emoji": "🔑"
+        },
+        {
+          "en": "room",
+          "fa": "اتاق",
+          "emoji": "🚪"
+        },
+        {
+          "en": "breakfast",
+          "fa": "صبحانه",
+          "emoji": "🥐"
+        },
+        {
+          "en": "help",
+          "fa": "کمک",
+          "emoji": "🆘"
+        },
+        {
+          "en": "night",
+          "fa": "شب",
+          "emoji": "🌙"
+        }
       ],
       "exercises": [
         {

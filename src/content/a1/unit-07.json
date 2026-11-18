@@ -14,6 +14,33 @@
       "buildsOn": [
         "a1-u5-there-is"
       ],
+      "vocab": [
+        {
+          "en": "reading",
+          "fa": "کتاب خواندن",
+          "emoji": "📖"
+        },
+        {
+          "en": "cooking",
+          "fa": "آشپزی",
+          "emoji": "🍳"
+        },
+        {
+          "en": "painting",
+          "fa": "نقاشی",
+          "emoji": "🎨"
+        },
+        {
+          "en": "hiking",
+          "fa": "کوهنوردی",
+          "emoji": "🥾"
+        },
+        {
+          "en": "music",
+          "fa": "موسیقی",
+          "emoji": "🎵"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u7-hobbies.1",
@@ -221,6 +248,33 @@
       "buildsOn": [
         "a1-u7-hobbies"
       ],
+      "vocab": [
+        {
+          "en": "playing",
+          "fa": "بازی کردن",
+          "emoji": "🎮"
+        },
+        {
+          "en": "watching",
+          "fa": "تماشا کردن",
+          "emoji": "📺"
+        },
+        {
+          "en": "swimming",
+          "fa": "شنا کردن",
+          "emoji": "🏊"
+        },
+        {
+          "en": "running",
+          "fa": "دویدن",
+          "emoji": "🏃"
+        },
+        {
+          "en": "cooking",
+          "fa": "آشپزی کردن",
+          "emoji": "🥘"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u7-like-ing.1",
@@ -427,6 +481,33 @@
       "goal": "دربارهٔ مسابقه و تیم حرف بزنی",
       "buildsOn": [
         "a1-u7-hobbies"
+      ],
+      "vocab": [
+        {
+          "en": "team",
+          "fa": "تیم",
+          "emoji": "👥"
+        },
+        {
+          "en": "match",
+          "fa": "مسابقه",
+          "emoji": "🏅"
+        },
+        {
+          "en": "win",
+          "fa": "بردن",
+          "emoji": "🏆"
+        },
+        {
+          "en": "lose",
+          "fa": "باختن",
+          "emoji": "😞"
+        },
+        {
+          "en": "coach",
+          "fa": "مربی",
+          "emoji": "📣"
+        }
       ],
       "exercises": [
         {
@@ -636,6 +717,33 @@
       "goal": "کسی را دعوت کنی و جواب بدهی",
       "buildsOn": [
         "a1-u6-plans"
+      ],
+      "vocab": [
+        {
+          "en": "join",
+          "fa": "ملحق شدن",
+          "emoji": "🤝"
+        },
+        {
+          "en": "invite",
+          "fa": "دعوت کردن",
+          "emoji": "✉️"
+        },
+        {
+          "en": "maybe",
+          "fa": "شاید",
+          "emoji": "🤔"
+        },
+        {
+          "en": "sure",
+          "fa": "حتماً",
+          "emoji": "👍"
+        },
+        {
+          "en": "sorry",
+          "fa": "متأسفم",
+          "emoji": "😔"
+        }
       ],
       "exercises": [
         {

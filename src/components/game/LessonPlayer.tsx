@@ -1,19 +1,20 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import confetti from "canvas-confetti";
-import { ArrowLeft, BookOpen, Check, Flame, Heart, Link2, Sparkles, X } from "lucide-react";
+import { ArrowLeft, BookOpen, Flame, Heart, Link2, Sparkles, X } from "lucide-react";
 import type { Lesson } from "@/lib/content/schema";
 import { starsFor } from "@/lib/content/schema";
 import { THEME_CLASS } from "@/lib/content";
-import { Game } from "@/components/game/Games";
-import { Foxy } from "@/components/Foxy";
+import { CorrectBurst, Game } from "@/components/game/Games";
+import { Character, characterFor } from "@/components/Character";
 import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
-import { completeLesson, HEART_MAX, loseHeart, useProgress } from "@/lib/store/progress";
-import { cn, fa } from "@/lib/utils";
+import { playCombo, playCorrect, playWin, playWrong } from "@/lib/sound";
+import { completeLesson, HEART_MAX, loseHeart, useProgress, bumpDaily } from "@/lib/store/progress";
+import { cn, fa, mixedRuns, primeVoices } from "@/lib/utils";
 
 type Stage = "intro" | "play" | "done" | "dead";
 
@@ -31,6 +32,7 @@ export function LessonPlayer({
   unitTitle: string;
 }) {
   const progress = useProgress();
+  const guide = useMemo(() => characterFor(lesson.id), [lesson.id]);
   const [stage, setStage] = useState<Stage>("intro");
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<string | null>(null);
@@ -40,6 +42,10 @@ export function LessonPlayer({
   const [wrongCount, setWrongCount] = useState(0);
   const [combo, setCombo] = useState(0);
   const [xp, setXp] = useState(0);
+  useEffect(() => {
+    primeVoices();
+  }, []);
+
   const startedAt = useRef(0);
   const saved = useRef(false);
 
@@ -67,12 +73,23 @@ export function LessonPlayer({
 
       if (isCorrect) {
         const nextCombo = combo + 1;
+        const earned = 10 + Math.min(10, nextCombo * 2);
         setCombo(nextCombo);
         setCorrectCount((n) => n + 1);
-        setXp((current) => current + 10 + Math.min(10, nextCombo * 2));
+        setXp((current) => current + earned);
+        playCorrect(nextCombo);
+        if (nextCombo >= 3) playCombo(nextCombo);
+        bumpDaily({
+          answered: 1,
+          correct: 1,
+          xp: earned,
+          ...(exercise.reviewOf ? { review: 1 } : {}),
+        });
       } else {
         setCombo(0);
         setWrongCount((n) => n + 1);
+        bumpDaily({ answered: 1 });
+        playWrong();
         const hearts = loseHeart();
         emit({
           type: "mistake_made",
@@ -119,6 +136,7 @@ export function LessonPlayer({
     saved.current = true;
     completeLesson(lesson.id, accuracy, stars, xp);
     emit({ type: "lesson_finished", lessonId: lesson.id, accuracy, stars, xp });
+    playWin();
     confetti({
       particleCount: accuracy >= 0.95 ? 120 : 60,
       spread: accuracy >= 0.95 ? 78 : 60,
@@ -165,7 +183,7 @@ export function LessonPlayer({
         {stage === "intro" && (
           <div className="pop-in space-y-5">
             <div className="flex items-start gap-4">
-              <Foxy size={72} mood="happy" className="bob shrink-0" />
+              <Character id={guide} size={76} mood="happy" className="bob shrink-0" />
               <div className="flex-1">
                 <p className="text-xs font-bold text-fox-deep">{unitTitle}</p>
                 <h1 className="text-2xl font-extrabold text-plum">{lesson.titleFa}</h1>
@@ -200,7 +218,17 @@ export function LessonPlayer({
                 <p className="mb-1 flex items-center gap-1.5 text-sm font-extrabold text-[#a16207]">
                   <BookOpen size={15} /> {lesson.tip.title}
                 </p>
-                <p className="text-sm leading-7 text-plum">{lesson.tip.body}</p>
+                <p className="text-sm leading-7 text-plum">
+                  {mixedRuns(lesson.tip.body).map((run, index) =>
+                    run.latin ? (
+                      <span key={index} className="en font-bold text-plum">
+                        {run.text}
+                      </span>
+                    ) : (
+                      <span key={index}>{run.text}</span>
+                    ),
+                  )}
+                </p>
               </div>
             )}
 
@@ -218,7 +246,8 @@ export function LessonPlayer({
         )}
 
         {stage === "play" && exercise && (
-          <div key={exercise.id} className="space-y-5">
+          <div key={exercise.id} className="relative space-y-5">
+            {result === "correct" && <CorrectBurst />}
             <div className="flex items-center justify-between text-xs font-bold text-plum-soft">
               <span>
                 تمرین {fa(index + 1)} از {fa(total)}
@@ -236,7 +265,7 @@ export function LessonPlayer({
 
         {stage === "dead" && (
           <div className="pop-in card space-y-4 p-6 text-center">
-            <Foxy size={96} mood="oops" className="mx-auto" />
+            <Character id={guide} size={96} mood="sad" className="mx-auto" />
             <h2 className="text-xl font-extrabold">جان‌ها تمام شد</h2>
             <p className="text-sm leading-6 text-plum-soft">
               هر ۱۵ دقیقه یک جان برمی‌گردد. می‌خواهی همین حالا از اول امتحان کنی؟
@@ -254,7 +283,7 @@ export function LessonPlayer({
 
         {stage === "done" && (
           <div className="pop-in space-y-5 text-center">
-            <Foxy size={110} mood={stars >= 2 ? "cheer" : "happy"} className="bob mx-auto" />
+            <Character id={guide} size={112} mood={stars >= 2 ? "cheer" : "happy"} className="bob mx-auto" />
             <div>
               <h2 className="text-2xl font-extrabold text-plum">درس تمام شد!</h2>
               <Stars earned={stars} size={30} className="mt-2 justify-center" />
@@ -304,13 +333,8 @@ export function LessonPlayer({
           )}
         >
           <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-3">
-            <span
-              className={cn(
-                "grid size-10 shrink-0 place-items-center rounded-full text-white",
-                result === "correct" ? "bg-mint" : "bg-lose",
-              )}
-            >
-              {result === "correct" ? <Check size={20} /> : <X size={20} />}
+            <span className="shrink-0">
+              <Character id={guide} size={44} mood={result === "correct" ? "cheer" : "sad"} />
             </span>
             <div className="flex-1">
               <p className={cn("text-sm font-extrabold", result === "correct" ? "text-[#065f46]" : "text-lose")}>

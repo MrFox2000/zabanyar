@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { ChevronLeft, Flame, Lock, Play, Star, Swords, Trophy } from "lucide-react";
+import { ChevronLeft, Flame, Lock, Play, Star, Swords, Trophy, BookOpen } from "lucide-react";
 import type { MapUnit } from "@/lib/content/map";
 import { THEME_CLASS } from "@/lib/content";
 import { Foxy } from "@/components/Foxy";
 import { Stars } from "@/components/Stars";
 import { Hud } from "@/components/Hud";
+import { DailyMissions } from "@/components/app/DailyMissions";
 import { isUnlocked, levelOf, starsOf, useHydrated, useProgress } from "@/lib/store/progress";
 import { cn, fa } from "@/lib/utils";
 
@@ -49,6 +50,8 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
             </p>
           </div>
         </section>
+
+        <DailyMissions />
 
         <div className="mb-4 flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
           {units.map((unit) => (
@@ -173,6 +176,15 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
         </div>
 
         <div className="mt-6 grid grid-cols-2 gap-3">
+          <Link href="/app/notebook" className="card flex items-center gap-3 p-4">
+            <span className="grid size-10 place-items-center rounded-xl bg-mint/20 text-[#065f46]">
+              <BookOpen size={18} />
+            </span>
+            <div>
+              <p className="text-sm font-extrabold text-plum">دفتر من</p>
+              <p className="text-[11px] text-plum-soft">کلمه‌ها و نکته‌ها</p>
+            </div>
+          </Link>
           <Link href="/app/league" className="card flex items-center gap-3 p-4">
             <span className="grid size-10 place-items-center rounded-xl bg-gold/20 text-[#a16207]">
               <Flame size={18} />

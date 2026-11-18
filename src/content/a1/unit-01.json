@@ -12,6 +12,33 @@
       "titleFa": "سلام کردن",
       "goal": "خودت را معرفی کنی و اسم بپرسی",
       "buildsOn": [],
+      "vocab": [
+        {
+          "en": "hello",
+          "fa": "سلام",
+          "emoji": "👋"
+        },
+        {
+          "en": "name",
+          "fa": "نام",
+          "emoji": "🏷️"
+        },
+        {
+          "en": "friend",
+          "fa": "دوست",
+          "emoji": "🧑‍🤝‍🧑"
+        },
+        {
+          "en": "good",
+          "fa": "خوب",
+          "emoji": "👍"
+        },
+        {
+          "en": "morning",
+          "fa": "صبح",
+          "emoji": "🌅"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u1-hello-name.1",
@@ -178,6 +205,33 @@
       "goal": "بگویی اهل کجایی و شغلت چیست",
       "buildsOn": [
         "a1-u1-hello-name"
+      ],
+      "vocab": [
+        {
+          "en": "from",
+          "fa": "از",
+          "emoji": "📍"
+        },
+        {
+          "en": "country",
+          "fa": "کشور",
+          "emoji": "🌍"
+        },
+        {
+          "en": "Iran",
+          "fa": "ایران",
+          "emoji": "🇮🇷"
+        },
+        {
+          "en": "job",
+          "fa": "شغل",
+          "emoji": "💼"
+        },
+        {
+          "en": "student",
+          "fa": "دانش‌آموز",
+          "emoji": "🎒"
+        }
       ],
       "exercises": [
         {
@@ -386,6 +440,33 @@
       "buildsOn": [
         "a1-u1-hello-name"
       ],
+      "vocab": [
+        {
+          "en": "one",
+          "fa": "یک",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "two",
+          "fa": "دو",
+          "emoji": "2️⃣"
+        },
+        {
+          "en": "five",
+          "fa": "پنج",
+          "emoji": "5️⃣"
+        },
+        {
+          "en": "ten",
+          "fa": "ده",
+          "emoji": "🔟"
+        },
+        {
+          "en": "year",
+          "fa": "سال",
+          "emoji": "📅"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u1-numbers-age.1",
@@ -592,6 +673,33 @@
       "goal": "مؤدبانه درخواست کنی و تشکر کنی",
       "buildsOn": [
         "a1-u1-hello-name"
+      ],
+      "vocab": [
+        {
+          "en": "please",
+          "fa": "لطفاً",
+          "emoji": "🙏"
+        },
+        {
+          "en": "thanks",
+          "fa": "ممنون",
+          "emoji": "💐"
+        },
+        {
+          "en": "sorry",
+          "fa": "ببخشید",
+          "emoji": "😔"
+        },
+        {
+          "en": "yes",
+          "fa": "بله",
+          "emoji": "✅"
+        },
+        {
+          "en": "no",
+          "fa": "نه",
+          "emoji": "❌"
+        }
       ],
       "exercises": [
         {

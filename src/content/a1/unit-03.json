@@ -14,6 +14,33 @@
       "buildsOn": [
         "a1-u2-have-got"
       ],
+      "vocab": [
+        {
+          "en": "wake up",
+          "fa": "بیدار شدن",
+          "emoji": "⏰"
+        },
+        {
+          "en": "work",
+          "fa": "کار کردن",
+          "emoji": "💻"
+        },
+        {
+          "en": "eat",
+          "fa": "خوردن",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "sleep",
+          "fa": "خوابیدن",
+          "emoji": "😴"
+        },
+        {
+          "en": "study",
+          "fa": "درس خواندن",
+          "emoji": "📚"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u3-routine.1",
@@ -222,6 +249,33 @@
       "goal": "از کارهای همیشگی حرف بزنی",
       "buildsOn": [
         "a1-u3-routine"
+      ],
+      "vocab": [
+        {
+          "en": "go",
+          "fa": "رفتن",
+          "emoji": "🚶"
+        },
+        {
+          "en": "like",
+          "fa": "دوست داشتن",
+          "emoji": "❤️"
+        },
+        {
+          "en": "live",
+          "fa": "زندگی کردن",
+          "emoji": "🏠"
+        },
+        {
+          "en": "play",
+          "fa": "بازی کردن",
+          "emoji": "⚽"
+        },
+        {
+          "en": "do",
+          "fa": "انجام دادن",
+          "emoji": "🛠️"
+        }
       ],
       "exercises": [
         {
@@ -432,6 +486,33 @@
       "buildsOn": [
         "a1-u1-numbers-age"
       ],
+      "vocab": [
+        {
+          "en": "morning",
+          "fa": "صبح",
+          "emoji": "🌅"
+        },
+        {
+          "en": "evening",
+          "fa": "عصر",
+          "emoji": "🌇"
+        },
+        {
+          "en": "night",
+          "fa": "شب",
+          "emoji": "🌙"
+        },
+        {
+          "en": "time",
+          "fa": "زمان",
+          "emoji": "⏱️"
+        },
+        {
+          "en": "clock",
+          "fa": "ساعت دیواری",
+          "emoji": "🕰️"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u3-time.1",
@@ -639,6 +720,33 @@
       "goal": "بگویی هر چند وقت یک بار کاری می‌کنی",
       "buildsOn": [
         "a1-u3-present-simple"
+      ],
+      "vocab": [
+        {
+          "en": "often",
+          "fa": "اغلب",
+          "emoji": "🔁"
+        },
+        {
+          "en": "rarely",
+          "fa": "به‌ندرت",
+          "emoji": "🌘"
+        },
+        {
+          "en": "twice",
+          "fa": "دو بار",
+          "emoji": "✌️"
+        },
+        {
+          "en": "once",
+          "fa": "یک بار",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "early",
+          "fa": "زود",
+          "emoji": "🐓"
+        }
       ],
       "exercises": [
         {

@@ -14,6 +14,33 @@
       "buildsOn": [
         "a1-u1-hello-name"
       ],
+      "vocab": [
+        {
+          "en": "mother",
+          "fa": "مادر",
+          "emoji": "👩"
+        },
+        {
+          "en": "father",
+          "fa": "پدر",
+          "emoji": "👨"
+        },
+        {
+          "en": "sister",
+          "fa": "خواهر",
+          "emoji": "👧"
+        },
+        {
+          "en": "brother",
+          "fa": "برادر",
+          "emoji": "👦"
+        },
+        {
+          "en": "family",
+          "fa": "خانواده",
+          "emoji": "👨‍👩‍👧"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u2-family.1",
@@ -221,6 +248,33 @@
       "goal": "بگویی چه چیزی داری",
       "buildsOn": [
         "a1-u2-family"
+      ],
+      "vocab": [
+        {
+          "en": "have",
+          "fa": "داشتن",
+          "emoji": "🤲"
+        },
+        {
+          "en": "has",
+          "fa": "دارد",
+          "emoji": "👉"
+        },
+        {
+          "en": "pet",
+          "fa": "حیوان خانگی",
+          "emoji": "🐾"
+        },
+        {
+          "en": "cat",
+          "fa": "گربه",
+          "emoji": "🐱"
+        },
+        {
+          "en": "dog",
+          "fa": "سگ",
+          "emoji": "🐕"
+        }
       ],
       "exercises": [
         {
@@ -430,6 +484,33 @@
       "buildsOn": [
         "a1-u2-family"
       ],
+      "vocab": [
+        {
+          "en": "tall",
+          "fa": "قدبلند",
+          "emoji": "📏"
+        },
+        {
+          "en": "kind",
+          "fa": "مهربان",
+          "emoji": "💚"
+        },
+        {
+          "en": "funny",
+          "fa": "بامزه",
+          "emoji": "😄"
+        },
+        {
+          "en": "young",
+          "fa": "جوان",
+          "emoji": "🧒"
+        },
+        {
+          "en": "happy",
+          "fa": "شاد",
+          "emoji": "😊"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u2-describe.1",
@@ -638,6 +719,33 @@
       "buildsOn": [
         "a1-u2-family",
         "a1-u1-hello-name"
+      ],
+      "vocab": [
+        {
+          "en": "my",
+          "fa": "مال من",
+          "emoji": "🙋"
+        },
+        {
+          "en": "your",
+          "fa": "مال تو",
+          "emoji": "🫵"
+        },
+        {
+          "en": "his",
+          "fa": "مال او (مرد)",
+          "emoji": "👨"
+        },
+        {
+          "en": "her",
+          "fa": "مال او (زن)",
+          "emoji": "👩"
+        },
+        {
+          "en": "our",
+          "fa": "مال ما",
+          "emoji": "👨‍👩‍👦"
+        }
       ],
       "exercises": [
         {

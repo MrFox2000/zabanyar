@@ -1093,6 +1093,7 @@ UNITS.forEach((unit, position) => {
       titleFa: lesson.titleFa,
       goal: lesson.goal,
       buildsOn: lesson.buildsOn.map((reference) => resolveId(unit.id, reference)),
+      vocab: lesson.w.map(([en, fa, emoji]) => ({ en, fa, emoji })),
       exercises,
       youCanSay: lesson.say.map(([en, fa]) => ({ en, fa })),
       xp: 40 + exercises.length * 4,

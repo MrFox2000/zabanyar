@@ -15,6 +15,18 @@ export const HEART_REGEN_MS = 15 * 60 * 1000;
 
 export type LessonRecord = { stars: 1 | 2 | 3; accuracy: number; xp: number; at: number };
 
+/** real counters for the current day — the only source daily missions use */
+export type DailyCounters = {
+  day: string;
+  answered: number;
+  correct: number;
+  review: number;
+  xp: number;
+  lessons: number;
+  bossWins: number;
+  chestOpened: boolean;
+};
+
 export type Progress = {
   v: 1;
   xp: number;
@@ -25,9 +37,21 @@ export type Progress = {
   lessons: Record<string, LessonRecord>;
   bosses: Record<string, { stars: 1 | 2 | 3; at: number }>;
   badges: string[];
+  daily: DailyCounters;
 };
 
 const KEY = "zabanyar.progress.v1";
+
+export const emptyDaily = (day = ""): DailyCounters => ({
+  day,
+  answered: 0,
+  correct: 0,
+  review: 0,
+  xp: 0,
+  lessons: 0,
+  bossWins: 0,
+  chestOpened: false,
+});
 
 export const EMPTY: Progress = {
   v: 1,
@@ -39,6 +63,7 @@ export const EMPTY: Progress = {
   lessons: {},
   bosses: {},
   badges: [],
+  daily: emptyDaily(),
 };
 
 function today(): string {
@@ -53,15 +78,21 @@ export function applyHeartRegen(p: Progress, now = Date.now()): Progress {
   return { ...p, hearts, heartsAt: hearts >= HEART_MAX ? 0 : p.heartsAt + gained * HEART_REGEN_MS };
 }
 
+function rollDaily(p: Progress): Progress {
+  const day = today();
+  if (p.daily?.day === day) return p;
+  return { ...p, daily: emptyDaily(day) };
+}
+
 function load(): Progress {
   if (typeof window === "undefined") return EMPTY;
   try {
     const raw = window.localStorage.getItem(KEY);
-    if (!raw) return { ...EMPTY, heartsAt: Date.now() };
+    if (!raw) return rollDaily({ ...EMPTY, heartsAt: Date.now() });
     const parsed = JSON.parse(raw) as Partial<Progress>;
-    return applyHeartRegen({ ...EMPTY, ...parsed, v: 1 });
+    return rollDaily(applyHeartRegen({ ...EMPTY, ...parsed, v: 1 }));
   } catch {
-    return { ...EMPTY, heartsAt: Date.now() };
+    return rollDaily({ ...EMPTY, heartsAt: Date.now() });
   }
 }
 
@@ -122,22 +153,58 @@ export function update(mutate: (p: Progress) => Progress): Progress {
   return next;
 }
 
+/** pure: add to today's counters, rolling the day over first if needed */
+function withDaily(p: Progress, fields: Partial<Pick<DailyCounters, "answered" | "correct" | "review" | "xp" | "lessons" | "bossWins">>): Progress {
+  const base = rollDaily(p);
+  const daily = { ...base.daily };
+  for (const [key, value] of Object.entries(fields) as [keyof DailyCounters, number][]) {
+    if (typeof value === "number") (daily[key] as number) = ((daily[key] as number) ?? 0) + value;
+  }
+  return { ...base, daily };
+}
+
 /** register a finished lesson: best stars win, XP is only added on improvement */
 export function completeLesson(lessonId: string, accuracy: number, stars: 1 | 2 | 3, xp: number) {
   return update((p) => {
     const previous = p.lessons[lessonId];
     const best = previous && previous.stars >= stars ? previous : { stars, accuracy, xp, at: Date.now() };
     const gainedXp = previous ? Math.max(0, xp - Math.round(previous.xp * 0.5)) : xp;
-    return bumpStreak({
+    const next = bumpStreak({
       ...p,
       xp: p.xp + gainedXp,
       lessons: { ...p.lessons, [lessonId]: best },
     });
+    return withDaily(next, { lessons: 1 });
   });
 }
 
 export function completeBoss(bossId: string, stars: 1 | 2 | 3, xp: number) {
-  return update((p) => bumpStreak({ ...p, xp: p.xp + xp, bosses: { ...p.bosses, [bossId]: { stars, at: Date.now() } } }));
+  return update((p) =>
+    withDaily(
+      bumpStreak({ ...p, xp: p.xp + xp, bosses: { ...p.bosses, [bossId]: { stars, at: Date.now() } } }),
+      { bossWins: 1 },
+    ),
+  );
+}
+
+/**
+ * Real counters for today's missions. Called from the lesson runner and the boss
+ * battle as answers happen — no invented progress anywhere.
+ */
+export function bumpDaily(fields: Partial<Pick<DailyCounters, "answered" | "correct" | "review" | "xp" | "lessons" | "bossWins">>) {
+  return update((p) => withDaily(p, fields));
+}
+
+/** the daily chest: once per day, only when all three missions are done */
+export function openDailyChest(reward = 60) {
+  let opened = false;
+  update((p) => {
+    const base = rollDaily(p);
+    if (base.daily.chestOpened) return base;
+    opened = true;
+    return { ...base, xp: base.xp + reward, daily: { ...base.daily, chestOpened: true } };
+  });
+  return opened;
 }
 
 export function loseHeart(): number {

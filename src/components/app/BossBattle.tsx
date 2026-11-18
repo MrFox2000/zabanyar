@@ -10,7 +10,7 @@ import { Foxy } from "@/components/Foxy";
 import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
-import { completeBoss, HEART_MAX, loseHeart, useProgress } from "@/lib/store/progress";
+import { completeBoss, HEART_MAX, loseHeart, useProgress, bumpDaily } from "@/lib/store/progress";
 import { starsFor } from "@/lib/content/schema";
 import { cn, fa } from "@/lib/utils";
 
@@ -63,6 +63,7 @@ export function BossBattle({ boss, unitTitle, nextHref }: { boss: Boss; unitTitl
 
       if (isCorrect) {
         setCorrectCount((n) => n + 1);
+        bumpDaily({ answered: 1, correct: 1, xp: Math.round(boss.rewardXp / boss.hp) });
         setHp((current) => {
           const next = Math.max(0, current - 1);
           if (next === 0) setTimeout(() => setStage("won"), 500);
@@ -70,11 +71,12 @@ export function BossBattle({ boss, unitTitle, nextHref }: { boss: Boss; unitTitl
         });
       } else {
         setWrongCount((n) => n + 1);
+        bumpDaily({ answered: 1 });
         const hearts = loseHeart();
         if (hearts === 0) setTimeout(() => setStage("lost"), 600);
       }
     },
-    [boss.id, exercise.id, exercise.kind, locked],
+    [boss.hp, boss.id, boss.rewardXp, exercise.id, exercise.kind, locked],
   );
 
   const next = () => {

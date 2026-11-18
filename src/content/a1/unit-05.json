@@ -14,6 +14,33 @@
       "buildsOn": [
         "a1-u3-routine"
       ],
+      "vocab": [
+        {
+          "en": "bank",
+          "fa": "بانک",
+          "emoji": "🏦"
+        },
+        {
+          "en": "park",
+          "fa": "پارک",
+          "emoji": "🌳"
+        },
+        {
+          "en": "shop",
+          "fa": "مغازه",
+          "emoji": "🏪"
+        },
+        {
+          "en": "hospital",
+          "fa": "بیمارستان",
+          "emoji": "🏥"
+        },
+        {
+          "en": "street",
+          "fa": "خیابان",
+          "emoji": "🛣️"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u5-places.1",
@@ -223,6 +250,33 @@
       "buildsOn": [
         "a1-u5-places"
       ],
+      "vocab": [
+        {
+          "en": "there",
+          "fa": "آنجا",
+          "emoji": "👉"
+        },
+        {
+          "en": "near",
+          "fa": "نزدیک",
+          "emoji": "📍"
+        },
+        {
+          "en": "next to",
+          "fa": "کنارِ",
+          "emoji": "↔️"
+        },
+        {
+          "en": "between",
+          "fa": "بینِ",
+          "emoji": "↕️"
+        },
+        {
+          "en": "here",
+          "fa": "اینجا",
+          "emoji": "🫱"
+        }
+      ],
       "exercises": [
         {
           "id": "a1-u5-there-is.1",
@@ -431,6 +485,33 @@
       "goal": "راه را بپرسی و مسیر بدهی",
       "buildsOn": [
         "a1-u5-places"
+      ],
+      "vocab": [
+        {
+          "en": "left",
+          "fa": "چپ",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "right",
+          "fa": "راست",
+          "emoji": "➡️"
+        },
+        {
+          "en": "straight",
+          "fa": "مستقیم",
+          "emoji": "⬆️"
+        },
+        {
+          "en": "turn",
+          "fa": "پیچیدن",
+          "emoji": "↩️"
+        },
+        {
+          "en": "far",
+          "fa": "دور",
+          "emoji": "🛣️"
+        }
       ],
       "exercises": [
         {
@@ -643,6 +724,33 @@
       "goal": "بگویی چیزی کجاست",
       "buildsOn": [
         "a1-u5-places"
+      ],
+      "vocab": [
+        {
+          "en": "in",
+          "fa": "در / داخل",
+          "emoji": "📥"
+        },
+        {
+          "en": "on",
+          "fa": "روی",
+          "emoji": "🔝"
+        },
+        {
+          "en": "under",
+          "fa": "زیر",
+          "emoji": "⬇️"
+        },
+        {
+          "en": "behind",
+          "fa": "پشت",
+          "emoji": "🔙"
+        },
+        {
+          "en": "in front of",
+          "fa": "جلوی",
+          "emoji": "🔜"
+        }
       ],
       "exercises": [
         {
