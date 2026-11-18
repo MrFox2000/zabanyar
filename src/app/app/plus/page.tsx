@@ -8,6 +8,7 @@ import { Hud } from "@/components/Hud";
 import { activatePlus, cancelPlus, isPlus, useHydrated, useProgress, type Subscription } from "@/lib/store/progress";
 import { cn, fa } from "@/lib/utils";
 import { PAYMENTS_READY } from "@/lib/demo";
+import { buyPlan, billingPossible } from "@/lib/billing";
 
 type Plan = { id: NonNullable<Subscription["plan"]>; label: string; price: number; months: number; badge?: string };
 
@@ -33,6 +34,7 @@ export default function PlusPage() {
   const progress = useProgress();
   const hydrated = useHydrated();
   const [chosen, setChosen] = useState<Plan["id"]>("quarterly");
+  const [message, setMessage] = useState<string | null>(null);
   const plus = isPlus(progress);
   const until = progress.subscription?.until;
   const [now, setNow] = useState(0);
@@ -45,8 +47,21 @@ export default function PlusPage() {
 
   const daysLeft = until && now ? Math.max(0, Math.ceil((until - now) / 86_400_000)) : 0;
 
-  const activate = () => {
+  /** true inside the Android app when Poolakey is configured */
+  const canPurchase = PAYMENTS_READY || billingPossible();
+
+  const activate = async () => {
+    if (billingPossible()) {
+      try {
+        await buyPlan(chosen);
+      } catch (error) {
+        const reason = error instanceof Error ? error.message : "failed";
+        setMessage(reason === "canceled" ? "خرید لغو شد" : "خرید انجام نشد — دوباره تلاش کن");
+        return;
+      }
+    }
     activatePlus(chosen);
+    setMessage("پلاس فعال شد");
     confetti({ particleCount: 110, spread: 75, origin: { y: 0.7 }, colors: ["#FBBF24", "#F97316", "#34D399"] });
   };
 
@@ -129,7 +144,11 @@ export default function PlusPage() {
           })}
         </section>
 
-        {PAYMENTS_READY ? (
+        {message && (
+          <p className="rounded-xl bg-mint/15 px-3 py-2 text-center text-xs font-bold text-[#065f46]">{message}</p>
+        )}
+
+        {canPurchase ? (
           <button
             type="button"
             onClick={activate}
@@ -147,7 +166,7 @@ export default function PlusPage() {
           </div>
         )}
 
-        {PAYMENTS_READY && plus && (
+        {canPurchase && plus && (
           <button type="button" onClick={cancelPlus} className="w-full rounded-2xl bg-sand py-2.5 text-[11px] font-bold text-plum-soft">
             لغو پلاس
           </button>

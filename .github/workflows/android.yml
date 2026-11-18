@@ -50,9 +50,11 @@ jobs:
 
       - name: Build signed APK
         working-directory: android
+        env:
+          BAZAAR_RSA_KEY: ${{ secrets.BAZAAR_RSA_KEY }}
         run: |
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon --stacktrace
+          ./gradlew assembleRelease --no-daemon --stacktrace -PzabanyarRsaKey="$BAZAAR_RSA_KEY"
 
       - name: Show artifact
         run: ls -lh android/app/build/outputs/apk/release/ || true
