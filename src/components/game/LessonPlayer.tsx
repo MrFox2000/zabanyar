@@ -15,7 +15,7 @@ import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
 import { playCombo, playCorrect, playWin, playWrong } from "@/lib/sound";
-import { completeLesson, HEART_MAX, loseHeart, useProgress, bumpDaily } from "@/lib/store/progress";
+import { completeLesson, HEART_MAX, loseHeart, recordMistake, useProgress, bumpDaily } from "@/lib/store/progress";
 import { cn, fa, primeVoices, speak } from "@/lib/utils";
 import { Volume2 } from "lucide-react";
 
@@ -121,6 +121,7 @@ export function LessonPlayer({
         setCombo(0);
         setWrongCount((n) => n + 1);
         bumpDaily({ answered: 1 });
+        recordMistake(lesson.id);
         playWrong();
         setFx({ kind: "wrong" });
         setTimeout(() => setFx(null), 950);

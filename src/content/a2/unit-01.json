@@ -1,0 +1,1276 @@
+{
+  "id": "a2-u1",
+  "level": "A2",
+  "index": 1,
+  "titleFa": "از دیروز بگو",
+  "titleEn": "Tell me about yesterday",
+  "theme": "orange",
+  "lessons": [
+    {
+      "id": "a2-u1-story-past",
+      "title": "Irregular past",
+      "titleFa": "گذشتهٔ بی‌قاعده",
+      "goal": "با فعل‌های پرکاربرد گذشته داستان بگویی",
+      "buildsOn": [
+        "a1-u8-past-irregular"
+      ],
+      "vocab": [
+        {
+          "en": "met",
+          "fa": "ملاقات کرد",
+          "emoji": "🤝"
+        },
+        {
+          "en": "told",
+          "fa": "گفت",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "took",
+          "fa": "برد / گرفت",
+          "emoji": "✋"
+        },
+        {
+          "en": "made",
+          "fa": "ساخت",
+          "emoji": "🔨"
+        },
+        {
+          "en": "felt",
+          "fa": "احساس کرد",
+          "emoji": "💭"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "met",
+          "fa": "ملاقات کرد",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "word",
+          "en": "told",
+          "fa": "گفت",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "took",
+          "fa": "برد / گرفت",
+          "emoji": "✋"
+        },
+        {
+          "kind": "word",
+          "en": "made",
+          "fa": "ساخت",
+          "emoji": "🔨"
+        },
+        {
+          "kind": "sentence",
+          "en": "I met my friend last week.",
+          "fa": "هفتهٔ پیش دوستم را دیدم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I met my friend yesterday.",
+          "fa": "دیروز دوستم را دیدم.",
+          "highlight": "met"
+        },
+        {
+          "kind": "rule",
+          "title": "شکل فعل عوض می‌شود",
+          "body": "بعضی فعل‌ها در گذشته ed نمی‌گیرند و شکلشان عوض می‌شود. آن‌ها را با یک جمله حفظ کن، نه با قاعده.",
+          "examples": [
+            {
+              "en": "I met my friend last week.",
+              "fa": "هفتهٔ پیش دوستم را دیدم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u1-story-past.1",
+          "kind": "mcq",
+          "prompt": "معنی «met» چیست؟",
+          "promptFa": "ملاقات کرد",
+          "choices": [
+            "بعدتر",
+            "ملاقات کرد",
+            "بعد"
+          ],
+          "answer": 1,
+          "speak": "met",
+          "aiHints": {
+            "example": "I know the word \"met\".",
+            "explanation": "«met» یعنی ملاقات کرد."
+          }
+        },
+        {
+          "id": "a2-u1-story-past.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗣️",
+          "choices": [
+            "took",
+            "told",
+            "made"
+          ],
+          "answer": 1,
+          "speak": "told"
+        },
+        {
+          "id": "a2-u1-story-past.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "took",
+          "choices": [
+            "took",
+            "happen",
+            "weekend"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u1-story-past.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "met",
+              "fa": "ملاقات کرد"
+            },
+            {
+              "en": "told",
+              "fa": "گفت"
+            },
+            {
+              "en": "made",
+              "fa": "ساخت"
+            },
+            {
+              "en": "took",
+              "fa": "برد / گرفت"
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-story-past.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دیروز دوستم را دیدم.",
+          "sentence": "I ___ my friend yesterday.",
+          "choices": [
+            "surprised",
+            "later",
+            "met"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a2-u1-story-past.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "هفتهٔ پیش دوستم را دیدم.",
+          "tokens": [
+            "my",
+            "last",
+            "met",
+            "I",
+            "friend",
+            "week"
+          ],
+          "answer": "I met my friend last week"
+        },
+        {
+          "id": "a2-u1-story-past.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "meet",
+            "my",
+            "friend",
+            "yesterday."
+          ],
+          "answer": 1,
+          "fix": "I met my friend yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: I met my friend yesterday."
+          }
+        },
+        {
+          "id": "a2-u1-story-past.8",
+          "kind": "speed",
+          "prompt": "سریع! «felt» یعنی چه؟",
+          "speak": "felt",
+          "choices": [
+            "ملاقات کرد",
+            "احساس کرد"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u1-story-past.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «saw»",
+          "choices": [
+            "احساس کرد",
+            "دید",
+            "بعد"
+          ],
+          "answer": 1,
+          "speak": "saw",
+          "reviewOf": "a1-u8-past-irregular"
+        },
+        {
+          "id": "a2-u1-story-past.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "ate",
+          "choices": [
+            "told",
+            "ate",
+            "later"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u8-past-irregular"
+        },
+        {
+          "id": "a2-u1-story-past.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛍️",
+          "choices": [
+            "made",
+            "bought",
+            "met"
+          ],
+          "answer": 1,
+          "speak": "bought",
+          "reviewOf": "a1-u8-past-irregular"
+        },
+        {
+          "id": "a2-u1-story-past.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «came»",
+          "speak": "came",
+          "choices": [
+            "آمد",
+            "ملاقات کرد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u8-past-irregular"
+        },
+        {
+          "id": "a2-u1-story-past.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او برایم یک داستان گفت.",
+          "sentence": "She ___ me a story.",
+          "choices": [
+            "after that",
+            "felt",
+            "told"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We went to the park and met our friends.",
+          "fa": "به پارک رفتیم و دوستانمان را دیدیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "شکل فعل عوض می‌شود",
+        "body": "بعضی فعل‌ها در گذشته ed نمی‌گیرند و شکلشان عوض می‌شود. آن‌ها را با یک جمله حفظ کن، نه با قاعده."
+      }
+    },
+    {
+      "id": "a2-u1-story-links",
+      "title": "First, then, after that",
+      "titleFa": "ترتیب داستان",
+      "goal": "داستان را به‌ترتیب تعریف کنی",
+      "buildsOn": [
+        "a2-u1-story-past"
+      ],
+      "vocab": [
+        {
+          "en": "first",
+          "fa": "اول",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "then",
+          "fa": "بعد",
+          "emoji": "2️⃣"
+        },
+        {
+          "en": "after that",
+          "fa": "بعد از آن",
+          "emoji": "3️⃣"
+        },
+        {
+          "en": "finally",
+          "fa": "در آخر",
+          "emoji": "4️⃣"
+        },
+        {
+          "en": "later",
+          "fa": "بعدتر",
+          "emoji": "⏭️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "first",
+          "fa": "اول",
+          "emoji": "1️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "then",
+          "fa": "بعد",
+          "emoji": "2️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "after that",
+          "fa": "بعد از آن",
+          "emoji": "3️⃣"
+        },
+        {
+          "kind": "word",
+          "en": "finally",
+          "fa": "در آخر",
+          "emoji": "4️⃣"
+        },
+        {
+          "kind": "sentence",
+          "en": "First we ate, then we talked.",
+          "fa": "اول غذا خوردیم، بعد حرف زدیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Then we went home.",
+          "fa": "بعد به خانه رفتیم.",
+          "highlight": "Then"
+        },
+        {
+          "kind": "rule",
+          "title": "چهار کلمه برای ترتیب",
+          "body": "برای تعریف داستان از این‌ها استفاده کن: اول، بعد، بعد از آن، در آخر. جمله‌ها کوتاه بمانند.",
+          "examples": [
+            {
+              "en": "First we ate, then we talked.",
+              "fa": "اول غذا خوردیم، بعد حرف زدیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u1-story-links.1",
+          "kind": "mcq",
+          "prompt": "معنی «first» چیست؟",
+          "promptFa": "اول",
+          "choices": [
+            "آخر هفته",
+            "ملاقات کرد",
+            "اول"
+          ],
+          "answer": 2,
+          "speak": "first",
+          "aiHints": {
+            "example": "I know the word \"first\".",
+            "explanation": "«first» یعنی اول."
+          }
+        },
+        {
+          "id": "a2-u1-story-links.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "2️⃣",
+          "choices": [
+            "finally",
+            "later",
+            "then"
+          ],
+          "answer": 2,
+          "speak": "then"
+        },
+        {
+          "id": "a2-u1-story-links.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "after that",
+          "choices": [
+            "finally",
+            "after that",
+            "scared"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u1-story-links.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "after that",
+              "fa": "بعد از آن"
+            },
+            {
+              "en": "finally",
+              "fa": "در آخر"
+            },
+            {
+              "en": "first",
+              "fa": "اول"
+            },
+            {
+              "en": "then",
+              "fa": "بعد"
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-story-links.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بعد به خانه رفتیم.",
+          "sentence": "___ we went home.",
+          "choices": [
+            "felt",
+            "Then",
+            "told"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u1-story-links.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اول غذا خوردیم، بعد حرف زدیم.",
+          "tokens": [
+            "First",
+            "we",
+            "we",
+            "then",
+            "ate,",
+            "talked"
+          ],
+          "answer": "First we ate, then we talked"
+        },
+        {
+          "id": "a2-u1-story-links.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Then",
+            "we",
+            "go",
+            "home."
+          ],
+          "answer": 2,
+          "fix": "Then we went home.",
+          "aiHints": {
+            "explanation": "درستش این است: Then we went home."
+          }
+        },
+        {
+          "id": "a2-u1-story-links.8",
+          "kind": "speed",
+          "prompt": "سریع! «later» یعنی چه؟",
+          "speak": "later",
+          "choices": [
+            "ملاقات کرد",
+            "بعدتر"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u1-story-links.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «told»",
+          "choices": [
+            "گفت",
+            "بعد از آن",
+            "ملاقات کرد"
+          ],
+          "answer": 0,
+          "speak": "told",
+          "reviewOf": "a2-u1-story-past"
+        },
+        {
+          "id": "a2-u1-story-links.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "took",
+          "choices": [
+            "told",
+            "then",
+            "took"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u1-story-past"
+        },
+        {
+          "id": "a2-u1-story-links.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔨",
+          "choices": [
+            "made",
+            "surprised",
+            "scared"
+          ],
+          "answer": 0,
+          "speak": "made",
+          "reviewOf": "a2-u1-story-past"
+        },
+        {
+          "id": "a2-u1-story-links.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «felt»",
+          "speak": "felt",
+          "choices": [
+            "ملاقات کرد",
+            "احساس کرد"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u1-story-past"
+        },
+        {
+          "id": "a2-u1-story-links.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "غذا خوردیم و بعد از آن حرف زدیم.",
+          "sentence": "We ate, and ___ we talked.",
+          "choices": [
+            "bored",
+            "excited",
+            "after that"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "First I worked, then I went home.",
+          "fa": "اول کار کردم، بعد به خانه رفتم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "چهار کلمه برای ترتیب",
+        "body": "برای تعریف داستان از این‌ها استفاده کن: اول، بعد، بعد از آن، در آخر. جمله‌ها کوتاه بمانند."
+      }
+    },
+    {
+      "id": "a2-u1-past-questions",
+      "title": "Did you…?",
+      "titleFa": "سؤال در گذشته",
+      "goal": "دربارهٔ دیروز سؤال بپرسی",
+      "buildsOn": [
+        "a2-u1-story-links"
+      ],
+      "vocab": [
+        {
+          "en": "did",
+          "fa": "آیا (گذشته)",
+          "emoji": "❓"
+        },
+        {
+          "en": "didn't",
+          "fa": "نکرد",
+          "emoji": "🚫"
+        },
+        {
+          "en": "happen",
+          "fa": "اتفاق افتادن",
+          "emoji": "⚡"
+        },
+        {
+          "en": "weekend",
+          "fa": "آخر هفته",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "suddenly",
+          "fa": "یک‌هو",
+          "emoji": "💥"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "did",
+          "fa": "آیا (گذشته)",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "didn't",
+          "fa": "نکرد",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "happen",
+          "fa": "اتفاق افتادن",
+          "emoji": "⚡"
+        },
+        {
+          "kind": "word",
+          "en": "weekend",
+          "fa": "آخر هفته",
+          "emoji": "🗓️"
+        },
+        {
+          "kind": "sentence",
+          "en": "Where did you go?",
+          "fa": "کجا رفتی؟"
+        },
+        {
+          "kind": "sentence",
+          "en": "Did you go out last night?",
+          "fa": "دیشب بیرون رفتی؟",
+          "highlight": "Did"
+        },
+        {
+          "kind": "rule",
+          "title": "در سؤال، فعل ساده",
+          "body": "وقتی با did سؤال می‌پرسی، فعل اصلی ساده می‌ماند: Did you go؟ نه Did you went.",
+          "examples": [
+            {
+              "en": "Where did you go?",
+              "fa": "کجا رفتی؟"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u1-past-questions.1",
+          "kind": "mcq",
+          "prompt": "معنی «did» چیست؟",
+          "promptFa": "آیا (گذشته)",
+          "choices": [
+            "اتفاق افتادن",
+            "آیا (گذشته)",
+            "یک‌هو"
+          ],
+          "answer": 1,
+          "speak": "did",
+          "aiHints": {
+            "example": "I know the word \"did\".",
+            "explanation": "«did» یعنی آیا (گذشته)."
+          }
+        },
+        {
+          "id": "a2-u1-past-questions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚫",
+          "choices": [
+            "suddenly",
+            "didn't",
+            "happen"
+          ],
+          "answer": 1,
+          "speak": "didn't"
+        },
+        {
+          "id": "a2-u1-past-questions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "happen",
+          "choices": [
+            "after that",
+            "happen",
+            "met"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u1-past-questions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "weekend",
+              "fa": "آخر هفته"
+            },
+            {
+              "en": "did",
+              "fa": "آیا (گذشته)"
+            },
+            {
+              "en": "didn't",
+              "fa": "نکرد"
+            },
+            {
+              "en": "happen",
+              "fa": "اتفاق افتادن"
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-past-questions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دیشب بیرون رفتی؟",
+          "sentence": "___ you go out last night?",
+          "choices": [
+            "Did",
+            "then",
+            "suddenly"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u1-past-questions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "کجا رفتی؟",
+          "tokens": [
+            "go",
+            "did",
+            "Where",
+            "you"
+          ],
+          "answer": "Where did you go"
+        },
+        {
+          "id": "a2-u1-past-questions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Did",
+            "you",
+            "went",
+            "out?"
+          ],
+          "answer": 2,
+          "fix": "Did you go out?",
+          "aiHints": {
+            "explanation": "درستش این است: Did you go out?"
+          }
+        },
+        {
+          "id": "a2-u1-past-questions.8",
+          "kind": "speed",
+          "prompt": "سریع! «suddenly» یعنی چه؟",
+          "speak": "suddenly",
+          "choices": [
+            "ملاقات کرد",
+            "یک‌هو"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u1-past-questions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «then»",
+          "choices": [
+            "در آخر",
+            "بعد",
+            "احساس کرد"
+          ],
+          "answer": 1,
+          "speak": "then",
+          "reviewOf": "a2-u1-story-links"
+        },
+        {
+          "id": "a2-u1-past-questions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "after that",
+          "choices": [
+            "took",
+            "bored",
+            "after that"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u1-story-links"
+        },
+        {
+          "id": "a2-u1-past-questions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "4️⃣",
+          "choices": [
+            "bored",
+            "finally",
+            "felt"
+          ],
+          "answer": 1,
+          "speak": "finally",
+          "reviewOf": "a2-u1-story-links"
+        },
+        {
+          "id": "a2-u1-past-questions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «later»",
+          "speak": "later",
+          "choices": [
+            "بعدتر",
+            "ملاقات کرد"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a2-u1-story-links"
+        },
+        {
+          "id": "a2-u1-past-questions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او را ندیدم.",
+          "sentence": "I ___ see him.",
+          "choices": [
+            "didn't",
+            "bored",
+            "after that"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Did you see the film? Yes, I did.",
+          "fa": "فیلم را دیدی؟ بله."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "در سؤال، فعل ساده",
+        "body": "وقتی با did سؤال می‌پرسی، فعل اصلی ساده می‌ماند: Did you go؟ نه Did you went."
+      }
+    },
+    {
+      "id": "a2-u1-feelings-past",
+      "title": "I was tired",
+      "titleFa": "احساس در گذشته",
+      "goal": "بگویی دیروز چه حالی داشتی",
+      "buildsOn": [
+        "a2-u1-past-questions"
+      ],
+      "vocab": [
+        {
+          "en": "tired",
+          "fa": "خسته",
+          "emoji": "😴"
+        },
+        {
+          "en": "excited",
+          "fa": "هیجان‌زده",
+          "emoji": "🤩"
+        },
+        {
+          "en": "bored",
+          "fa": "بی‌حوصله",
+          "emoji": "😑"
+        },
+        {
+          "en": "scared",
+          "fa": "ترسیده",
+          "emoji": "😨"
+        },
+        {
+          "en": "surprised",
+          "fa": "شگفت‌زده",
+          "emoji": "😮"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "tired",
+          "fa": "خسته",
+          "emoji": "😴"
+        },
+        {
+          "kind": "word",
+          "en": "excited",
+          "fa": "هیجان‌زده",
+          "emoji": "🤩"
+        },
+        {
+          "kind": "word",
+          "en": "bored",
+          "fa": "بی‌حوصله",
+          "emoji": "😑"
+        },
+        {
+          "kind": "word",
+          "en": "scared",
+          "fa": "ترسیده",
+          "emoji": "😨"
+        },
+        {
+          "kind": "sentence",
+          "en": "I was happy to see them.",
+          "fa": "از دیدنشان خوشحال بودم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I was very tired after work.",
+          "fa": "بعد از کار خیلی خسته بودم.",
+          "highlight": "tired"
+        },
+        {
+          "kind": "rule",
+          "title": "احساس با was / were",
+          "body": "برای یک نفر was و برای چند نفر were: I was tired / we were tired.",
+          "examples": [
+            {
+              "en": "I was happy to see them.",
+              "fa": "از دیدنشان خوشحال بودم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a2-u1-feelings-past.1",
+          "kind": "mcq",
+          "prompt": "معنی «tired» چیست؟",
+          "promptFa": "خسته",
+          "choices": [
+            "اتفاق افتادن",
+            "خسته",
+            "اول"
+          ],
+          "answer": 1,
+          "speak": "tired",
+          "aiHints": {
+            "example": "I know the word \"tired\".",
+            "explanation": "«tired» یعنی خسته."
+          }
+        },
+        {
+          "id": "a2-u1-feelings-past.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤩",
+          "choices": [
+            "tired",
+            "bored",
+            "excited"
+          ],
+          "answer": 2,
+          "speak": "excited"
+        },
+        {
+          "id": "a2-u1-feelings-past.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "bored",
+          "choices": [
+            "bored",
+            "did",
+            "happen"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a2-u1-feelings-past.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "bored",
+              "fa": "بی‌حوصله"
+            },
+            {
+              "en": "scared",
+              "fa": "ترسیده"
+            },
+            {
+              "en": "tired",
+              "fa": "خسته"
+            },
+            {
+              "en": "excited",
+              "fa": "هیجان‌زده"
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-feelings-past.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "بعد از کار خیلی خسته بودم.",
+          "sentence": "I was very ___ after work.",
+          "choices": [
+            "weekend",
+            "tired",
+            "took"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a2-u1-feelings-past.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "از دیدنشان خوشحال بودم.",
+          "tokens": [
+            "I",
+            "happy",
+            "them",
+            "was",
+            "to",
+            "see"
+          ],
+          "answer": "I was happy to see them"
+        },
+        {
+          "id": "a2-u1-feelings-past.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "were",
+            "happy",
+            "yesterday."
+          ],
+          "answer": 1,
+          "fix": "I was happy yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: I was happy yesterday."
+          }
+        },
+        {
+          "id": "a2-u1-feelings-past.8",
+          "kind": "speed",
+          "prompt": "سریع! «surprised» یعنی چه؟",
+          "speak": "surprised",
+          "choices": [
+            "شگفت‌زده",
+            "ملاقات کرد"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a2-u1-feelings-past.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «didn't»",
+          "choices": [
+            "ملاقات کرد",
+            "آیا (گذشته)",
+            "نکرد"
+          ],
+          "answer": 2,
+          "speak": "didn't",
+          "reviewOf": "a2-u1-past-questions"
+        },
+        {
+          "id": "a2-u1-feelings-past.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "happen",
+          "choices": [
+            "didn't",
+            "suddenly",
+            "happen"
+          ],
+          "answer": 2,
+          "reviewOf": "a2-u1-past-questions"
+        },
+        {
+          "id": "a2-u1-feelings-past.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🗓️",
+          "choices": [
+            "weekend",
+            "suddenly",
+            "felt"
+          ],
+          "answer": 0,
+          "speak": "weekend",
+          "reviewOf": "a2-u1-past-questions"
+        },
+        {
+          "id": "a2-u1-feelings-past.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «suddenly»",
+          "speak": "suddenly",
+          "choices": [
+            "ملاقات کرد",
+            "یک‌هو"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a2-u1-past-questions"
+        },
+        {
+          "id": "a2-u1-feelings-past.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او برای سفر هیجان‌زده بود.",
+          "sentence": "She was ___ about the trip.",
+          "choices": [
+            "told",
+            "excited",
+            "surprised"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I was tired but happy.",
+          "fa": "خسته بودم ولی خوشحال."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "احساس با was / were",
+        "body": "برای یک نفر was و برای چند نفر were: I was tired / we were tired."
+      }
+    }
+  ],
+  "boss": {
+    "id": "a2-u1-boss",
+    "titleFa": "نبرد پایانی — از دیروز بگو",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "a2-u1-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «told»",
+        "speak": "told",
+        "choices": [
+          "هیجان‌زده",
+          "گفت",
+          "بعد"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "a2-u1-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "felt",
+        "choices": [
+          "happen",
+          "first",
+          "felt"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u1-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "3️⃣",
+        "choices": [
+          "bored",
+          "after that",
+          "excited"
+        ],
+        "answer": 1,
+        "speak": "after that"
+      },
+      {
+        "id": "a2-u1-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «did»",
+        "speak": "did",
+        "choices": [
+          "در آخر",
+          "آیا (گذشته)"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u1-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «weekend»",
+        "speak": "weekend",
+        "choices": [
+          "ترسیده",
+          "بعدتر",
+          "آخر هفته"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u1-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "excited",
+        "choices": [
+          "excited",
+          "weekend",
+          "suddenly"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "a2-u1-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "😮",
+        "choices": [
+          "surprised",
+          "took",
+          "happen"
+        ],
+        "answer": 0,
+        "speak": "surprised"
+      },
+      {
+        "id": "a2-u1-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «took»",
+        "speak": "took",
+        "choices": [
+          "برد / گرفت",
+          "خسته"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "a2-u1-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «first»",
+        "speak": "first",
+        "choices": [
+          "ساخت",
+          "برد / گرفت",
+          "اول"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "a2-u1-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "finally",
+        "choices": [
+          "finally",
+          "after that",
+          "scared"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

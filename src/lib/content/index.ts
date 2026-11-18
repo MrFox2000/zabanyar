@@ -8,14 +8,26 @@ import unit05 from "@/content/a1/unit-05.json";
 import unit06 from "@/content/a1/unit-06.json";
 import unit07 from "@/content/a1/unit-07.json";
 import unit08 from "@/content/a1/unit-08.json";
+import a2unit01 from "@/content/a2/unit-01.json";
 
 /**
  * The content is validated once, at load. A broken JSON file fails loudly in
  * development instead of silently shipping a lesson with no right answer.
  */
-const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08];
+const raw = [unit01, unit02, unit03, unit04, unit05, unit06, unit07, unit08, a2unit01];
 
 export const units: Unit[] = z.array(unitSchema).parse(raw);
+
+/** every level that actually has content, in CEFR order */
+export const LEVELS: Unit["level"][] = [...new Set(units.map((unit) => unit.level))];
+
+export function unitsOfLevel(level: Unit["level"]): Unit[] {
+  return units.filter((unit) => unit.level === level);
+}
+
+export function levelOfUnit(unit: Unit): Unit["level"] {
+  return unit.level;
+}
 
 export const allLessons: Lesson[] = units.flatMap((unit) => unit.lessons);
 

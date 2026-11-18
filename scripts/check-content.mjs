@@ -16,17 +16,33 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = dirname(fileURLToPath(import.meta.url));
-const dir = join(here, "..", "src", "content", "a1");
-const units = readdirSync(dir)
-  .filter((file) => file.endsWith(".json"))
-  .sort()
-  .map((file) => JSON.parse(readFileSync(join(dir, file), "utf8")));
+const contentRoot = join(here, "..", "src", "content");
+const levelDirs = readdirSync(contentRoot, { withFileTypes: true })
+  .filter((entry) => entry.isDirectory())
+  .map((entry) => entry.name)
+  .sort();
+
+const units = levelDirs.flatMap((level) =>
+  readdirSync(join(contentRoot, level))
+    .filter((file) => file.endsWith(".json"))
+    .sort()
+    .map((file) => ({ level, unit: JSON.parse(readFileSync(join(contentRoot, level, file), "utf8")) })),
+);
+
+// the folder and the payload must agree, otherwise the map shows the wrong level
+for (const { level, unit } of units) {
+  if (unit.level.toLowerCase() !== level) {
+    problems.push(`${unit.id}: level "${unit.level}" inside folder "${level}"`);
+  }
+}
+
+const flatUnits = units.map(({ unit }) => unit);
 
 const problems = [];
 const order = [];
 const lessonIds = new Set();
 
-for (const unit of units) {
+for (const unit of flatUnits) {
   for (const lesson of unit.lessons) {
     const id = lesson.id;
     if (lessonIds.has(id)) problems.push(`${id}: duplicate lesson id`);
@@ -41,7 +57,7 @@ const check = (condition, message) => {
   if (!condition) problems.push(message);
 };
 
-for (const unit of units) {
+for (const unit of flatUnits) {
   for (const lesson of unit.lessons) {
     const where = lesson.id;
     check(lesson.exercises.length >= 6, `${where}: only ${lesson.exercises.length} exercises`);
@@ -138,9 +154,10 @@ for (const unit of units) {
 }
 
 const stats = {
-  units: units.length,
+  levels: levelDirs,
+  units: flatUnits.length,
   lessons: order.length,
-  exercises: units.reduce(
+  exercises: flatUnits.reduce(
     (sum, unit) => sum + unit.lessons.reduce((n, lesson) => n + lesson.exercises.length, 0) + unit.boss.exercises.length,
     0,
   ),

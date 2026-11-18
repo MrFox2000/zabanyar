@@ -12,6 +12,7 @@ export type MapLesson = {
 
 export type MapUnit = {
   id: string;
+  level: Unit["level"];
   index: number;
   titleFa: string;
   titleEn: string;
@@ -23,6 +24,7 @@ export type MapUnit = {
 export function buildMap(units: Unit[]): MapUnit[] {
   return units.map((unit) => ({
     id: unit.id,
+    level: unit.level,
     index: unit.index,
     titleFa: unit.titleFa,
     titleEn: unit.titleEn,

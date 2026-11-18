@@ -16,6 +16,7 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
   const progress = useProgress();
   const hydrated = useHydrated();
   const [openUnit, setOpenUnit] = useState<string | null>(null);
+  const [chosenLevel, setChosenLevel] = useState<MapUnit["level"] | null>(null);
 
   const nextLesson = useMemo(() => {
     for (const unit of units) {
@@ -28,7 +29,12 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
   }, [hydrated, progress, units]);
 
   const level = levelOf(progress.xp);
-  const activeUnit = openUnit ?? units.find((u) => u.lessons.some((l) => l.id === nextLesson?.id))?.id ?? units[0]?.id;
+  const levels = useMemo(() => [...new Set(units.map((unit) => unit.level))], [units]);
+  const activeLevel =
+    chosenLevel ?? units.find((unit) => unit.lessons.some((lesson) => lesson.id === nextLesson?.id))?.level ?? units[0]?.level;
+  const levelUnits = useMemo(() => units.filter((unit) => unit.level === activeLevel), [units, activeLevel]);
+  const activeUnit =
+    openUnit ?? levelUnits.find((unit) => unit.lessons.some((lesson) => lesson.id === nextLesson?.id))?.id ?? levelUnits[0]?.id;
 
   return (
     <div className="min-h-dvh">
@@ -53,8 +59,32 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
 
         <DailyMissions />
 
+        {levels.length > 1 && (
+          <div className="mb-3 flex items-center gap-2">
+            {levels.map((item) => (
+              <button
+                key={item}
+                type="button"
+                onClick={() => {
+                  setChosenLevel(item);
+                  setOpenUnit(null);
+                }}
+                className={cn(
+                  "rounded-xl px-4 py-1.5 text-xs font-extrabold transition-colors",
+                  item === activeLevel ? "bg-plum text-cream" : "bg-white text-plum-soft",
+                )}
+              >
+                {item}
+              </button>
+            ))}
+            <span className="text-[11px] text-plum-soft">
+              {fa(levelUnits.reduce((sum, unit) => sum + unit.lessons.length, 0))} درس در این سطح
+            </span>
+          </div>
+        )}
+
         <div className="mb-4 flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
-          {units.map((unit) => (
+          {levelUnits.map((unit) => (
             <button
               key={unit.id}
               type="button"
@@ -70,7 +100,7 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
         </div>
 
         <div className="space-y-6">
-          {units
+          {levelUnits
             .filter((unit) => unit.id === activeUnit)
             .map((unit) => {
               const tone = THEME_CLASS[unit.theme];

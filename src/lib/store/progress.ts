@@ -38,6 +38,8 @@ export type Progress = {
   bosses: Record<string, { stars: 1 | 2 | 3; at: number }>;
   badges: string[];
   daily: DailyCounters;
+  /** lessonId → how many answers went wrong there */
+  mistakes: Record<string, { count: number; at: number }>;
 };
 
 const KEY = "zabanyar.progress.v1";
@@ -64,6 +66,7 @@ export const EMPTY: Progress = {
   bosses: {},
   badges: [],
   daily: emptyDaily(),
+  mistakes: {},
 };
 
 function today(): string {
@@ -220,6 +223,20 @@ export function loseHeart(): number {
 
 export function refillHearts() {
   return update((p) => ({ ...p, hearts: HEART_MAX, heartsAt: 0 }));
+}
+
+/** called from the lesson runner on every wrong answer */
+export function recordMistake(lessonId: string) {
+  return update((p) => {
+    const previous = p.mistakes?.[lessonId];
+    return {
+      ...p,
+      mistakes: {
+        ...p.mistakes,
+        [lessonId]: { count: (previous?.count ?? 0) + 1, at: Date.now() },
+      },
+    };
+  });
 }
 
 export function awardBadge(badge: string) {

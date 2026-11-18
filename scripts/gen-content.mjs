@@ -9,12 +9,14 @@
  *   node scripts/gen-content.mjs
  */
 import { mkdirSync, writeFileSync } from "node:fs";
-import UNITS from "./curriculum/index.mjs";
+import LEVELS from "./curriculum/index.mjs";
+
+const ALL_UNITS = Object.values(LEVELS).flat();
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = dirname(fileURLToPath(import.meta.url));
-const outDir = join(here, "..", "src", "content", "a1");
+const contentRoot = join(here, "..", "src", "content");
 
 /* ── curated A1 material ─────────────────────────────────────────────── */
 // w: [english, persian, emoji] · b: [sentence with ___, answer, persian]
@@ -53,7 +55,7 @@ function pickChoices(rng, correct, pool, count) {
 }
 
 const lessonIndex = new Map();
-for (const unit of UNITS) {
+for (const unit of ALL_UNITS) {
   for (const lesson of unit.lessons) {
     lessonIndex.set(`${unit.id}-${lesson.slug}`, { unit, lesson });
   }
@@ -336,43 +338,49 @@ function buildBoss(unit) {
   };
 }
 
-mkdirSync(outDir, { recursive: true });
 let totalExercises = 0;
 const manifest = [];
 
-UNITS.forEach((unit, position) => {
-  const lessons = unit.lessons.map((lesson) => {
-    const exercises = buildExercises(unit, lesson);
-    totalExercises += exercises.length;
-    return {
-      id: `${unit.id}-${lesson.slug}`,
-      title: lesson.title,
-      titleFa: lesson.titleFa,
-      goal: lesson.goal,
-      buildsOn: lesson.buildsOn.map((reference) => resolveId(unit.id, reference)),
-      vocab: lesson.w.map(([en, fa, emoji]) => ({ en, fa, emoji })),
-      teach: buildTeach(lesson),
-      exercises,
-      youCanSay: lesson.say.map(([en, fa]) => ({ en, fa })),
-      xp: 40 + exercises.length * 4,
-      ...(lesson.tip ? { tip: lesson.tip } : {}),
+for (const [levelKey, units] of Object.entries(LEVELS)) {
+  const outDir = join(contentRoot, levelKey);
+  mkdirSync(outDir, { recursive: true });
+
+  units.forEach((unit, position) => {
+    const lessons = unit.lessons.map((lesson) => {
+      const exercises = buildExercises(unit, lesson);
+      totalExercises += exercises.length;
+      return {
+        id: `${unit.id}-${lesson.slug}`,
+        title: lesson.title,
+        titleFa: lesson.titleFa,
+        goal: lesson.goal,
+        buildsOn: lesson.buildsOn.map((reference) => resolveId(unit.id, reference)),
+        vocab: lesson.w.map(([en, fa, emoji]) => ({ en, fa, emoji })),
+        teach: buildTeach(lesson),
+        exercises,
+        youCanSay: lesson.say.map(([en, fa]) => ({ en, fa })),
+        xp: 40 + exercises.length * 4,
+        ...(lesson.tip ? { tip: lesson.tip } : {}),
+      };
+    });
+
+    const payload = {
+      id: unit.id,
+      level: unit.level,
+      index: unit.index,
+      titleFa: unit.titleFa,
+      titleEn: unit.titleEn,
+      theme: unit.theme,
+      lessons,
+      boss: buildBoss(unit),
     };
+
+    const file = `unit-${String(position + 1).padStart(2, "0")}.json`;
+    writeFileSync(join(outDir, file), JSON.stringify(payload, null, 2) + "\n", "utf8");
+    manifest.push({ level: levelKey, file, id: unit.id, lessons: lessons.length, exercises: lessons.reduce((n, l) => n + l.exercises.length, 0) });
   });
 
-  const payload = {
-    id: unit.id,
-    level: "A1",
-    index: unit.index,
-    titleFa: unit.titleFa,
-    titleEn: unit.titleEn,
-    theme: unit.theme,
-    lessons,
-    boss: buildBoss(unit),
-  };
+  console.log(`  ${levelKey}: ${units.length} units`);
+}
 
-  const file = `unit-${String(position + 1).padStart(2, "0")}.json`;
-  writeFileSync(join(outDir, file), JSON.stringify(payload, null, 2) + "\n", "utf8");
-  manifest.push({ file, id: unit.id, lessons: lessons.length, exercises: lessons.reduce((n, l) => n + l.exercises.length, 0) });
-});
-
-console.log(JSON.stringify({ units: UNITS.length, totalExercises, manifest }, null, 2));
+console.log(JSON.stringify({ totalExercises, manifest }, null, 2));
