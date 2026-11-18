@@ -4,6 +4,18 @@ A gamified English app **and** its marketing site, in one Next.js repo. Persian,
 mobile-first. Every lesson declares its prerequisites and 30–40% of its exercises come
 from them, so the language forms a web instead of a stack of unrelated lessons.
 
+## Look at it
+
+![landing](docs/landing.png)
+
+| Map | Lesson finished | Boss battle |
+|---|---|---|
+| ![map](docs/map.png) | ![lesson done](docs/lesson-done.png) | ![boss](docs/boss.png) |
+
+48-second walkthrough (recorded from the running app, not a mockup):
+
+![demo](docs/demo.gif)
+
 ## What is in here
 
 | Area | Path | What it is |
@@ -40,6 +52,8 @@ Those fields are ignored today and filled at runtime later — adding AI never c
 schema.
 
 ## AI-ready by construction, off by default
+
+Full detail: [`docs/AI.md`](docs/AI.md).
 
 1. `lib/ai/client.ts` is the only model caller, server-side, OpenAI-compatible endpoint.
 2. `lib/ai/flags.ts` gates each surface; all `false`.
