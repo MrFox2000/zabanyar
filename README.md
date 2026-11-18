@@ -1,5 +1,7 @@
 # زبان‌یار — English for Persian speakers
 
+**Live:** https://zabanyar-kappa.vercel.app · **Repo:** https://github.com/MrFox2000/zabanyar
+
 A gamified English app **and** its marketing site, in one Next.js repo. Persian, RTL,
 mobile-first. Every lesson declares its prerequisites and 30–40% of its exercises come
 from them, so the language forms a web instead of a stack of unrelated lessons.

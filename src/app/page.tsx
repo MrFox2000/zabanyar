@@ -118,7 +118,7 @@ export default function Landing() {
           <div className="relative">
             <div className="card relative mx-auto max-w-sm p-6">
               <div className="mb-4 flex items-center gap-2 text-xs font-bold text-plum-soft">
-                <span className="rounded-full bg-mint/15 px-2 py-1 text-[#067a55]">درس ۳ · اهل کجایی؟</span>
+                <span className="rounded-full bg-mint/15 px-2 py-1 text-[#067a55]">درس اهل کجایی؟</span>
                 <span className="rounded-full bg-sky/15 px-2 py-1 text-[#0369a1]">مرور درس قبل</span>
               </div>
               <p className="text-sm font-bold text-plum">معنی «from» چیست؟</p>
