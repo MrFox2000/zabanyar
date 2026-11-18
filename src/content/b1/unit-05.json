@@ -1,0 +1,1281 @@
+{
+  "id": "b1-u5",
+  "level": "B1",
+  "index": 5,
+  "titleFa": "کار و رزومه",
+  "titleEn": "Work and CV",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "b1-u5-job-application",
+      "title": "I applied for a job",
+      "titleFa": "درخواست کار",
+      "goal": "دربارهٔ درخواست کارت حرف بزنی",
+      "buildsOn": [
+        "b1-u4-opinions-b1"
+      ],
+      "vocab": [
+        {
+          "en": "apply",
+          "fa": "درخواست دادن",
+          "emoji": "📨"
+        },
+        {
+          "en": "CV",
+          "fa": "رزومه",
+          "emoji": "📄"
+        },
+        {
+          "en": "experience",
+          "fa": "تجربه",
+          "emoji": "🧠"
+        },
+        {
+          "en": "interview",
+          "fa": "مصاحبه",
+          "emoji": "🤵"
+        },
+        {
+          "en": "position",
+          "fa": "موقعیت شغلی",
+          "emoji": "🏷️"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "apply",
+          "fa": "درخواست دادن",
+          "emoji": "📨"
+        },
+        {
+          "kind": "word",
+          "en": "CV",
+          "fa": "رزومه",
+          "emoji": "📄"
+        },
+        {
+          "kind": "word",
+          "en": "experience",
+          "fa": "تجربه",
+          "emoji": "🧠"
+        },
+        {
+          "kind": "word",
+          "en": "interview",
+          "fa": "مصاحبه",
+          "emoji": "🤵"
+        },
+        {
+          "kind": "sentence",
+          "en": "I applied for a new position.",
+          "fa": "برای یک موقعیت جدید درخواست دادم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I want to apply for this job.",
+          "fa": "می‌خواهم برای این کار درخواست بدهم.",
+          "highlight": "apply"
+        },
+        {
+          "kind": "rule",
+          "title": "apply → applied",
+          "body": "وقتی زمان گذشته است، apply به applied تبدیل می‌شود: I applied yesterday.",
+          "examples": [
+            {
+              "en": "I applied for a new position.",
+              "fa": "برای یک موقعیت جدید درخواست دادم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u5-job-application.1",
+          "kind": "mcq",
+          "prompt": "معنی «apply» چیست؟",
+          "promptFa": "درخواست دادن",
+          "choices": [
+            "سازماندهی کردن",
+            "ارتباط برقرار کردن",
+            "درخواست دادن"
+          ],
+          "answer": 2,
+          "speak": "apply",
+          "aiHints": {
+            "example": "I know the word \"apply\".",
+            "explanation": "«apply» یعنی درخواست دادن."
+          }
+        },
+        {
+          "id": "b1-u5-job-application.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📄",
+          "choices": [
+            "experience",
+            "CV",
+            "apply"
+          ],
+          "answer": 1,
+          "speak": "CV"
+        },
+        {
+          "id": "b1-u5-job-application.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "experience",
+          "choices": [
+            "challenge",
+            "experience",
+            "team player"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u5-job-application.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "apply",
+              "fa": "درخواست دادن"
+            },
+            {
+              "en": "interview",
+              "fa": "مصاحبه"
+            },
+            {
+              "en": "experience",
+              "fa": "تجربه"
+            },
+            {
+              "en": "CV",
+              "fa": "رزومه"
+            }
+          ]
+        },
+        {
+          "id": "b1-u5-job-application.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌خواهم برای این کار درخواست بدهم.",
+          "sentence": "I want to ___ for this job.",
+          "choices": [
+            "full-time",
+            "solve",
+            "apply"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u5-job-application.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "برای یک موقعیت جدید درخواست دادم.",
+          "tokens": [
+            "new",
+            "applied",
+            "position",
+            "a",
+            "for",
+            "I"
+          ],
+          "answer": "I applied for a new position"
+        },
+        {
+          "id": "b1-u5-job-application.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "apply",
+            "for",
+            "the",
+            "job",
+            "yesterday."
+          ],
+          "answer": 1,
+          "fix": "I applied for the job yesterday.",
+          "aiHints": {
+            "explanation": "درستش این است: I applied for the job yesterday."
+          }
+        },
+        {
+          "id": "b1-u5-job-application.8",
+          "kind": "speed",
+          "prompt": "سریع! «position» یعنی چه؟",
+          "speak": "position",
+          "choices": [
+            "موقعیت شغلی",
+            "درخواست دادن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u5-job-application.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «in my view»",
+          "choices": [
+            "نقطهٔ ضعف",
+            "از نظر من",
+            "درخواست دادن"
+          ],
+          "answer": 1,
+          "speak": "in my view",
+          "reviewOf": "b1-u4-opinions-b1"
+        },
+        {
+          "id": "b1-u5-job-application.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "however",
+          "choices": [
+            "team player",
+            "however",
+            "CV"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u4-opinions-b1"
+        },
+        {
+          "id": "b1-u5-job-application.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "💭",
+          "choices": [
+            "CV",
+            "perhaps",
+            "lead"
+          ],
+          "answer": 1,
+          "speak": "perhaps",
+          "reviewOf": "b1-u4-opinions-b1"
+        },
+        {
+          "id": "b1-u5-job-application.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «agree»",
+          "speak": "agree",
+          "choices": [
+            "موافق بودن",
+            "درخواست دادن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u4-opinions-b1"
+        },
+        {
+          "id": "b1-u5-job-application.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "پنج سال تجربه دارم.",
+          "sentence": "I have five years of ___.",
+          "choices": [
+            "opportunity",
+            "manage",
+            "experience"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I sent my CV and applied for the position.",
+          "fa": "رزومه‌ام را فرستادم و برای موقعیت درخواست دادم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "apply → applied",
+        "body": "وقتی زمان گذشته است، apply به applied تبدیل می‌شود: I applied yesterday."
+      }
+    },
+    {
+      "id": "b1-u5-work-skills",
+      "title": "I can lead a team",
+      "titleFa": "مهارت‌های کاری",
+      "goal": "مهارت‌هایت را بگویی",
+      "buildsOn": [
+        "b1-u5-job-application"
+      ],
+      "vocab": [
+        {
+          "en": "manage",
+          "fa": "مدیریت کردن",
+          "emoji": "📋"
+        },
+        {
+          "en": "organize",
+          "fa": "سازماندهی کردن",
+          "emoji": "🗂️"
+        },
+        {
+          "en": "communicate",
+          "fa": "ارتباط برقرار کردن",
+          "emoji": "💬"
+        },
+        {
+          "en": "solve",
+          "fa": "حل کردن",
+          "emoji": "🧩"
+        },
+        {
+          "en": "lead",
+          "fa": "رهبری کردن",
+          "emoji": "🚩"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "manage",
+          "fa": "مدیریت کردن",
+          "emoji": "📋"
+        },
+        {
+          "kind": "word",
+          "en": "organize",
+          "fa": "سازماندهی کردن",
+          "emoji": "🗂️"
+        },
+        {
+          "kind": "word",
+          "en": "communicate",
+          "fa": "ارتباط برقرار کردن",
+          "emoji": "💬"
+        },
+        {
+          "kind": "word",
+          "en": "solve",
+          "fa": "حل کردن",
+          "emoji": "🧩"
+        },
+        {
+          "kind": "sentence",
+          "en": "I can organize my time well.",
+          "fa": "می‌توانم وقتم را خوب سازماندهی کنم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I can lead a team.",
+          "fa": "می‌توانم یک تیم را رهبری کنم.",
+          "highlight": "lead"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از can ساده",
+          "body": "can + فعل ساده، بدون s: I can lead، she can manage.",
+          "examples": [
+            {
+              "en": "I can organize my time well.",
+              "fa": "می‌توانم وقتم را خوب سازماندهی کنم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u5-work-skills.1",
+          "kind": "mcq",
+          "prompt": "معنی «manage» چیست؟",
+          "promptFa": "مدیریت کردن",
+          "choices": [
+            "قرارداد",
+            "حقوق",
+            "مدیریت کردن"
+          ],
+          "answer": 2,
+          "speak": "manage",
+          "aiHints": {
+            "example": "I know the word \"manage\".",
+            "explanation": "«manage» یعنی مدیریت کردن."
+          }
+        },
+        {
+          "id": "b1-u5-work-skills.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗂️",
+          "choices": [
+            "lead",
+            "manage",
+            "organize"
+          ],
+          "answer": 2,
+          "speak": "organize"
+        },
+        {
+          "id": "b1-u5-work-skills.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "communicate",
+          "choices": [
+            "position",
+            "communicate",
+            "lead"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u5-work-skills.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "organize",
+              "fa": "سازماندهی کردن"
+            },
+            {
+              "en": "communicate",
+              "fa": "ارتباط برقرار کردن"
+            },
+            {
+              "en": "manage",
+              "fa": "مدیریت کردن"
+            },
+            {
+              "en": "solve",
+              "fa": "حل کردن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u5-work-skills.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "می‌توانم یک تیم را رهبری کنم.",
+          "sentence": "I can ___ a team.",
+          "choices": [
+            "interview",
+            "full-time",
+            "lead"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u5-work-skills.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌توانم وقتم را خوب سازماندهی کنم.",
+          "tokens": [
+            "time",
+            "well",
+            "can",
+            "I",
+            "organize",
+            "my"
+          ],
+          "answer": "I can organize my time well"
+        },
+        {
+          "id": "b1-u5-work-skills.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "can",
+            "leads",
+            "a",
+            "team."
+          ],
+          "answer": 2,
+          "fix": "I can lead a team.",
+          "aiHints": {
+            "explanation": "درستش این است: I can lead a team."
+          }
+        },
+        {
+          "id": "b1-u5-work-skills.8",
+          "kind": "speed",
+          "prompt": "سریع! «lead» یعنی چه؟",
+          "speak": "lead",
+          "choices": [
+            "درخواست دادن",
+            "رهبری کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u5-work-skills.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «CV»",
+          "choices": [
+            "مصاحبه",
+            "رزومه",
+            "درخواست دادن"
+          ],
+          "answer": 1,
+          "speak": "CV",
+          "reviewOf": "b1-u5-job-application"
+        },
+        {
+          "id": "b1-u5-work-skills.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "experience",
+          "choices": [
+            "experience",
+            "solve",
+            "lead"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u5-job-application"
+        },
+        {
+          "id": "b1-u5-work-skills.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🤵",
+          "choices": [
+            "CV",
+            "interview",
+            "opportunity"
+          ],
+          "answer": 1,
+          "speak": "interview",
+          "reviewOf": "b1-u5-job-application"
+        },
+        {
+          "id": "b1-u5-work-skills.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «position»",
+          "speak": "position",
+          "choices": [
+            "موقعیت شغلی",
+            "درخواست دادن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u5-job-application"
+        },
+        {
+          "id": "b1-u5-work-skills.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "دوست دارم مشکلات را حل کنم.",
+          "sentence": "I like to ___ problems.",
+          "choices": [
+            "solve",
+            "manage",
+            "lead"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I can manage time and communicate well.",
+          "fa": "می‌توانم زمان را مدیریت کنم و خوب ارتباط بگیرم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از can ساده",
+        "body": "can + فعل ساده، بدون s: I can lead، she can manage."
+      }
+    },
+    {
+      "id": "b1-u5-work-conditions",
+      "title": "Full-time or remote",
+      "titleFa": "شرایط کاری",
+      "goal": "دربارهٔ نوع قراردادت بگویی",
+      "buildsOn": [
+        "b1-u5-work-skills"
+      ],
+      "vocab": [
+        {
+          "en": "salary",
+          "fa": "حقوق",
+          "emoji": "💰"
+        },
+        {
+          "en": "contract",
+          "fa": "قرارداد",
+          "emoji": "📝"
+        },
+        {
+          "en": "full-time",
+          "fa": "تمام‌وقت",
+          "emoji": "🕗"
+        },
+        {
+          "en": "part-time",
+          "fa": "پاره‌وقت",
+          "emoji": "🕓"
+        },
+        {
+          "en": "remote",
+          "fa": "دورکاری",
+          "emoji": "🏠"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "salary",
+          "fa": "حقوق",
+          "emoji": "💰"
+        },
+        {
+          "kind": "word",
+          "en": "contract",
+          "fa": "قرارداد",
+          "emoji": "📝"
+        },
+        {
+          "kind": "word",
+          "en": "full-time",
+          "fa": "تمام‌وقت",
+          "emoji": "🕗"
+        },
+        {
+          "kind": "word",
+          "en": "part-time",
+          "fa": "پاره‌وقت",
+          "emoji": "🕓"
+        },
+        {
+          "kind": "sentence",
+          "en": "My contract is for one year.",
+          "fa": "قراردادم یک‌ساله است."
+        },
+        {
+          "kind": "sentence",
+          "en": "I work remote from home.",
+          "fa": "دورکاری از خانه کار می‌کنم.",
+          "highlight": "remote"
+        },
+        {
+          "kind": "rule",
+          "title": "has برای سوم‌شخص",
+          "body": "با he/she/it فعل have به has تبدیل می‌شود.",
+          "examples": [
+            {
+              "en": "My contract is for one year.",
+              "fa": "قراردادم یک‌ساله است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u5-work-conditions.1",
+          "kind": "mcq",
+          "prompt": "معنی «salary» چیست؟",
+          "promptFa": "حقوق",
+          "choices": [
+            "حقوق",
+            "مدیریت کردن",
+            "حل کردن"
+          ],
+          "answer": 0,
+          "speak": "salary",
+          "aiHints": {
+            "example": "I know the word \"salary\".",
+            "explanation": "«salary» یعنی حقوق."
+          }
+        },
+        {
+          "id": "b1-u5-work-conditions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📝",
+          "choices": [
+            "full-time",
+            "contract",
+            "salary"
+          ],
+          "answer": 1,
+          "speak": "contract"
+        },
+        {
+          "id": "b1-u5-work-conditions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "full-time",
+          "choices": [
+            "full-time",
+            "position",
+            "contract"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u5-work-conditions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "contract",
+              "fa": "قرارداد"
+            },
+            {
+              "en": "full-time",
+              "fa": "تمام‌وقت"
+            },
+            {
+              "en": "salary",
+              "fa": "حقوق"
+            },
+            {
+              "en": "part-time",
+              "fa": "پاره‌وقت"
+            }
+          ]
+        },
+        {
+          "id": "b1-u5-work-conditions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "دورکاری از خانه کار می‌کنم.",
+          "sentence": "I work ___ from home.",
+          "choices": [
+            "remote",
+            "communicate",
+            "experience"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u5-work-conditions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "قراردادم یک‌ساله است.",
+          "tokens": [
+            "My",
+            "contract",
+            "for",
+            "is",
+            "year",
+            "one"
+          ],
+          "answer": "My contract is for one year"
+        },
+        {
+          "id": "b1-u5-work-conditions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "have",
+            "a",
+            "full-time",
+            "job."
+          ],
+          "answer": 1,
+          "fix": "She has a full-time job.",
+          "aiHints": {
+            "explanation": "درستش این است: She has a full-time job."
+          }
+        },
+        {
+          "id": "b1-u5-work-conditions.8",
+          "kind": "speed",
+          "prompt": "سریع! «remote» یعنی چه؟",
+          "speak": "remote",
+          "choices": [
+            "دورکاری",
+            "درخواست دادن"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u5-work-conditions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «organize»",
+          "choices": [
+            "سازماندهی کردن",
+            "درخواست دادن",
+            "قرارداد"
+          ],
+          "answer": 0,
+          "speak": "organize",
+          "reviewOf": "b1-u5-work-skills"
+        },
+        {
+          "id": "b1-u5-work-conditions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "communicate",
+          "choices": [
+            "communicate",
+            "lead",
+            "position"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u5-work-skills"
+        },
+        {
+          "id": "b1-u5-work-conditions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🧩",
+          "choices": [
+            "team player",
+            "solve",
+            "part-time"
+          ],
+          "answer": 1,
+          "speak": "solve",
+          "reviewOf": "b1-u5-work-skills"
+        },
+        {
+          "id": "b1-u5-work-conditions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «lead»",
+          "speak": "lead",
+          "choices": [
+            "رهبری کردن",
+            "درخواست دادن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u5-work-skills"
+        },
+        {
+          "id": "b1-u5-work-conditions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او کار پاره‌وقت دارد.",
+          "sentence": "She has a ___ job.",
+          "choices": [
+            "solve",
+            "remote",
+            "part-time"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have a full-time contract with a good salary.",
+          "fa": "قرارداد تمام‌وقت با حقوق خوبی دارم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "has برای سوم‌شخص",
+        "body": "با he/she/it فعل have به has تبدیل می‌شود."
+      }
+    },
+    {
+      "id": "b1-u5-interview-phrases",
+      "title": "At the interview",
+      "titleFa": "در مصاحبه",
+      "goal": "در مصاحبه دربارهٔ خودت حرف بزنی",
+      "buildsOn": [
+        "b1-u5-work-conditions"
+      ],
+      "vocab": [
+        {
+          "en": "strength",
+          "fa": "نقطهٔ قوت",
+          "emoji": "💪"
+        },
+        {
+          "en": "weakness",
+          "fa": "نقطهٔ ضعف",
+          "emoji": "🩹"
+        },
+        {
+          "en": "team player",
+          "fa": "کار تیمی",
+          "emoji": "🤝"
+        },
+        {
+          "en": "challenge",
+          "fa": "چالش",
+          "emoji": "⛰️"
+        },
+        {
+          "en": "opportunity",
+          "fa": "فرصت",
+          "emoji": "🚪"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "strength",
+          "fa": "نقطهٔ قوت",
+          "emoji": "💪"
+        },
+        {
+          "kind": "word",
+          "en": "weakness",
+          "fa": "نقطهٔ ضعف",
+          "emoji": "🩹"
+        },
+        {
+          "kind": "word",
+          "en": "team player",
+          "fa": "کار تیمی",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "word",
+          "en": "challenge",
+          "fa": "چالش",
+          "emoji": "⛰️"
+        },
+        {
+          "kind": "sentence",
+          "en": "I am a team player.",
+          "fa": "من اهل کار تیمی هستم."
+        },
+        {
+          "kind": "sentence",
+          "en": "My strength is my patience.",
+          "fa": "نقطهٔ قوتم صبرم است.",
+          "highlight": "strength"
+        },
+        {
+          "kind": "rule",
+          "title": "با I am / I can",
+          "body": "در مصاحبه با «I am» و «I can» شروع کن: I am reliable، I can manage a team.",
+          "examples": [
+            {
+              "en": "I am a team player.",
+              "fa": "من اهل کار تیمی هستم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u5-interview-phrases.1",
+          "kind": "mcq",
+          "prompt": "معنی «strength» چیست؟",
+          "promptFa": "نقطهٔ قوت",
+          "choices": [
+            "تجربه",
+            "نقطهٔ قوت",
+            "سازماندهی کردن"
+          ],
+          "answer": 1,
+          "speak": "strength",
+          "aiHints": {
+            "example": "I know the word \"strength\".",
+            "explanation": "«strength» یعنی نقطهٔ قوت."
+          }
+        },
+        {
+          "id": "b1-u5-interview-phrases.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🩹",
+          "choices": [
+            "weakness",
+            "opportunity",
+            "team player"
+          ],
+          "answer": 0,
+          "speak": "weakness"
+        },
+        {
+          "id": "b1-u5-interview-phrases.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "team player",
+          "choices": [
+            "challenge",
+            "opportunity",
+            "team player"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u5-interview-phrases.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "team player",
+              "fa": "کار تیمی"
+            },
+            {
+              "en": "strength",
+              "fa": "نقطهٔ قوت"
+            },
+            {
+              "en": "challenge",
+              "fa": "چالش"
+            },
+            {
+              "en": "weakness",
+              "fa": "نقطهٔ ضعف"
+            }
+          ]
+        },
+        {
+          "id": "b1-u5-interview-phrases.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "نقطهٔ قوتم صبرم است.",
+          "sentence": "My ___ is my patience.",
+          "choices": [
+            "salary",
+            "strength",
+            "communicate"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u5-interview-phrases.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من اهل کار تیمی هستم.",
+          "tokens": [
+            "am",
+            "a",
+            "team",
+            "player",
+            "I"
+          ],
+          "answer": "I am a team player"
+        },
+        {
+          "id": "b1-u5-interview-phrases.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "am",
+            "a",
+            "team",
+            "players."
+          ],
+          "answer": 4,
+          "fix": "I am a team player.",
+          "aiHints": {
+            "explanation": "درستش این است: I am a team player."
+          }
+        },
+        {
+          "id": "b1-u5-interview-phrases.8",
+          "kind": "speed",
+          "prompt": "سریع! «opportunity» یعنی چه؟",
+          "speak": "opportunity",
+          "choices": [
+            "درخواست دادن",
+            "فرصت"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u5-interview-phrases.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «contract»",
+          "choices": [
+            "نقطهٔ قوت",
+            "قرارداد",
+            "موقعیت شغلی"
+          ],
+          "answer": 1,
+          "speak": "contract",
+          "reviewOf": "b1-u5-work-conditions"
+        },
+        {
+          "id": "b1-u5-interview-phrases.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "full-time",
+          "choices": [
+            "opportunity",
+            "lead",
+            "full-time"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u5-work-conditions"
+        },
+        {
+          "id": "b1-u5-interview-phrases.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🕓",
+          "choices": [
+            "part-time",
+            "communicate",
+            "strength"
+          ],
+          "answer": 0,
+          "speak": "part-time",
+          "reviewOf": "b1-u5-work-conditions"
+        },
+        {
+          "id": "b1-u5-interview-phrases.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «remote»",
+          "speak": "remote",
+          "choices": [
+            "درخواست دادن",
+            "دورکاری"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u5-work-conditions"
+        },
+        {
+          "id": "b1-u5-interview-phrases.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "فرصت بزرگی بود.",
+          "sentence": "It was a great ___.",
+          "choices": [
+            "opportunity",
+            "CV",
+            "strength"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I am a team player and I can solve problems.",
+          "fa": "من اهل کار تیمی هستم و می‌توانم مشکل حل کنم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "با I am / I can",
+        "body": "در مصاحبه با «I am» و «I can» شروع کن: I am reliable، I can manage a team."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u5-boss",
+    "titleFa": "نبرد پایانی — کار و رزومه",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u5-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «CV»",
+        "speak": "CV",
+        "choices": [
+          "دورکاری",
+          "رزومه",
+          "قرارداد"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u5-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "position",
+        "choices": [
+          "salary",
+          "position",
+          "manage"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u5-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "💬",
+        "choices": [
+          "strength",
+          "communicate",
+          "organize"
+        ],
+        "answer": 1,
+        "speak": "communicate"
+      },
+      {
+        "id": "b1-u5-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «salary»",
+        "speak": "salary",
+        "choices": [
+          "کار تیمی",
+          "حقوق"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u5-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «part-time»",
+        "speak": "part-time",
+        "choices": [
+          "فرصت",
+          "پاره‌وقت",
+          "نقطهٔ ضعف"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u5-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "weakness",
+        "choices": [
+          "position",
+          "weakness",
+          "CV"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u5-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚪",
+        "choices": [
+          "manage",
+          "opportunity",
+          "team player"
+        ],
+        "answer": 1,
+        "speak": "opportunity"
+      },
+      {
+        "id": "b1-u5-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «experience»",
+        "speak": "experience",
+        "choices": [
+          "تجربه",
+          "درخواست دادن"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u5-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «manage»",
+        "speak": "manage",
+        "choices": [
+          "رزومه",
+          "درخواست دادن",
+          "مدیریت کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u5-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "solve",
+        "choices": [
+          "experience",
+          "remote",
+          "solve"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

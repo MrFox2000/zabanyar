@@ -1,0 +1,1284 @@
+{
+  "id": "b1-u6",
+  "level": "B1",
+  "index": 6,
+  "titleFa": "شهر و محیط زیست",
+  "titleEn": "City and environment",
+  "theme": "mint",
+  "lessons": [
+    {
+      "id": "b1-u6-environment",
+      "title": "Recycle and stop pollution",
+      "titleFa": "محیط زیست",
+      "goal": "دربارهٔ محیط زیست حرف بزنی",
+      "buildsOn": [
+        "b1-u5-interview-phrases"
+      ],
+      "vocab": [
+        {
+          "en": "pollution",
+          "fa": "آلودگی",
+          "emoji": "🏭"
+        },
+        {
+          "en": "rubbish",
+          "fa": "زباله",
+          "emoji": "🗑️"
+        },
+        {
+          "en": "recycle",
+          "fa": "بازیافت کردن",
+          "emoji": "♻️"
+        },
+        {
+          "en": "energy",
+          "fa": "انرژی",
+          "emoji": "⚡"
+        },
+        {
+          "en": "climate",
+          "fa": "اقلیم",
+          "emoji": "🌍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "pollution",
+          "fa": "آلودگی",
+          "emoji": "🏭"
+        },
+        {
+          "kind": "word",
+          "en": "rubbish",
+          "fa": "زباله",
+          "emoji": "🗑️"
+        },
+        {
+          "kind": "word",
+          "en": "recycle",
+          "fa": "بازیافت کردن",
+          "emoji": "♻️"
+        },
+        {
+          "kind": "word",
+          "en": "energy",
+          "fa": "انرژی",
+          "emoji": "⚡"
+        },
+        {
+          "kind": "sentence",
+          "en": "We should use less energy.",
+          "fa": "باید انرژی کمتری مصرف کنیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "We should recycle plastic.",
+          "fa": "باید پلاستیک را بازیافت کنیم.",
+          "highlight": "recycle"
+        },
+        {
+          "kind": "rule",
+          "title": "should + ساده",
+          "body": "بعد از should فعل ساده بدون to می‌آید: we should recycle.",
+          "examples": [
+            {
+              "en": "We should use less energy.",
+              "fa": "باید انرژی کمتری مصرف کنیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u6-environment.1",
+          "kind": "mcq",
+          "prompt": "معنی «pollution» چیست؟",
+          "promptFa": "آلودگی",
+          "choices": [
+            "حمایت کردن",
+            "همسایه",
+            "آلودگی"
+          ],
+          "answer": 2,
+          "speak": "pollution",
+          "aiHints": {
+            "example": "I know the word \"pollution\".",
+            "explanation": "«pollution» یعنی آلودگی."
+          }
+        },
+        {
+          "id": "b1-u6-environment.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗑️",
+          "choices": [
+            "climate",
+            "rubbish",
+            "recycle"
+          ],
+          "answer": 1,
+          "speak": "rubbish"
+        },
+        {
+          "id": "b1-u6-environment.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "recycle",
+          "choices": [
+            "recycle",
+            "community",
+            "crowded"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u6-environment.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "energy",
+              "fa": "انرژی"
+            },
+            {
+              "en": "rubbish",
+              "fa": "زباله"
+            },
+            {
+              "en": "pollution",
+              "fa": "آلودگی"
+            },
+            {
+              "en": "recycle",
+              "fa": "بازیافت کردن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u6-environment.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باید پلاستیک را بازیافت کنیم.",
+          "sentence": "We should ___ plastic.",
+          "choices": [
+            "cycle",
+            "neighbour",
+            "recycle"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u6-environment.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "باید انرژی کمتری مصرف کنیم.",
+          "tokens": [
+            "less",
+            "We",
+            "should",
+            "energy",
+            "use"
+          ],
+          "answer": "We should use less energy"
+        },
+        {
+          "id": "b1-u6-environment.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "should",
+            "to",
+            "recycle",
+            "plastic."
+          ],
+          "answer": 2,
+          "fix": "We should recycle plastic.",
+          "aiHints": {
+            "explanation": "درستش این است: We should recycle plastic."
+          }
+        },
+        {
+          "id": "b1-u6-environment.8",
+          "kind": "speed",
+          "prompt": "سریع! «climate» یعنی چه؟",
+          "speak": "climate",
+          "choices": [
+            "آلودگی",
+            "اقلیم"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u6-environment.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «weakness»",
+          "choices": [
+            "آلودگی",
+            "شلوغ",
+            "نقطهٔ ضعف"
+          ],
+          "answer": 2,
+          "speak": "weakness",
+          "reviewOf": "b1-u5-interview-phrases"
+        },
+        {
+          "id": "b1-u6-environment.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "team player",
+          "choices": [
+            "crowded",
+            "team player",
+            "cycle"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u5-interview-phrases"
+        },
+        {
+          "id": "b1-u6-environment.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⛰️",
+          "choices": [
+            "challenge",
+            "lively",
+            "traffic"
+          ],
+          "answer": 0,
+          "speak": "challenge",
+          "reviewOf": "b1-u5-interview-phrases"
+        },
+        {
+          "id": "b1-u6-environment.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «opportunity»",
+          "speak": "opportunity",
+          "choices": [
+            "فرصت",
+            "آلودگی"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u5-interview-phrases"
+        },
+        {
+          "id": "b1-u6-environment.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آلودگی هوا مشکل بزرگی است.",
+          "sentence": "Air ___ is a big problem.",
+          "choices": [
+            "pollution",
+            "neighbour",
+            "cycle"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We should recycle more and use less energy.",
+          "fa": "باید بیشتر بازیافت کنیم و انرژی کمتری مصرف کنیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "should + ساده",
+        "body": "بعد از should فعل ساده بدون to می‌آید: we should recycle."
+      }
+    },
+    {
+      "id": "b1-u6-transport",
+      "title": "Metro or bus?",
+      "titleFa": "حمل‌ونقل",
+      "goal": "دربارهٔ رفت‌وآمدت حرف بزنی",
+      "buildsOn": [
+        "b1-u6-environment"
+      ],
+      "vocab": [
+        {
+          "en": "metro",
+          "fa": "مترو",
+          "emoji": "🚇"
+        },
+        {
+          "en": "cycle",
+          "fa": "دوچرخه‌سواری کردن",
+          "emoji": "🚲"
+        },
+        {
+          "en": "traffic",
+          "fa": "ترافیک",
+          "emoji": "🚦"
+        },
+        {
+          "en": "journey",
+          "fa": "سفر (مسیر)",
+          "emoji": "🛤️"
+        },
+        {
+          "en": "crowded",
+          "fa": "شلوغ",
+          "emoji": "👥"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "metro",
+          "fa": "مترو",
+          "emoji": "🚇"
+        },
+        {
+          "kind": "word",
+          "en": "cycle",
+          "fa": "دوچرخه‌سواری کردن",
+          "emoji": "🚲"
+        },
+        {
+          "kind": "word",
+          "en": "traffic",
+          "fa": "ترافیک",
+          "emoji": "🚦"
+        },
+        {
+          "kind": "word",
+          "en": "journey",
+          "fa": "سفر (مسیر)",
+          "emoji": "🛤️"
+        },
+        {
+          "kind": "sentence",
+          "en": "I cycle to work every day.",
+          "fa": "هر روز با دوچرخه به کار می‌روم."
+        },
+        {
+          "kind": "sentence",
+          "en": "The metro is faster than the bus.",
+          "fa": "مترو از اتوبوس سریع‌تر است.",
+          "highlight": "metro"
+        },
+        {
+          "kind": "rule",
+          "title": "every day",
+          "body": "عبارت درست every day است (نه every days).",
+          "examples": [
+            {
+              "en": "I cycle to work every day.",
+              "fa": "هر روز با دوچرخه به کار می‌روم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u6-transport.1",
+          "kind": "mcq",
+          "prompt": "معنی «metro» چیست؟",
+          "promptFa": "مترو",
+          "choices": [
+            "محله / جامعه",
+            "پرسروصدا",
+            "مترو"
+          ],
+          "answer": 2,
+          "speak": "metro",
+          "aiHints": {
+            "example": "I know the word \"metro\".",
+            "explanation": "«metro» یعنی مترو."
+          }
+        },
+        {
+          "id": "b1-u6-transport.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🚲",
+          "choices": [
+            "traffic",
+            "journey",
+            "cycle"
+          ],
+          "answer": 2,
+          "speak": "cycle"
+        },
+        {
+          "id": "b1-u6-transport.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "traffic",
+          "choices": [
+            "traffic",
+            "convenient",
+            "neighbour"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u6-transport.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "journey",
+              "fa": "سفر (مسیر)"
+            },
+            {
+              "en": "traffic",
+              "fa": "ترافیک"
+            },
+            {
+              "en": "metro",
+              "fa": "مترو"
+            },
+            {
+              "en": "cycle",
+              "fa": "دوچرخه‌سواری کردن"
+            }
+          ]
+        },
+        {
+          "id": "b1-u6-transport.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "مترو از اتوبوس سریع‌تر است.",
+          "sentence": "The ___ is faster than the bus.",
+          "choices": [
+            "convenient",
+            "metro",
+            "journey"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u6-transport.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "هر روز با دوچرخه به کار می‌روم.",
+          "tokens": [
+            "work",
+            "every",
+            "day",
+            "cycle",
+            "I",
+            "to"
+          ],
+          "answer": "I cycle to work every day"
+        },
+        {
+          "id": "b1-u6-transport.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "go",
+            "to",
+            "work",
+            "on",
+            "foot",
+            "every",
+            "days."
+          ],
+          "answer": 7,
+          "fix": "I go to work on foot every day.",
+          "aiHints": {
+            "explanation": "درستش این است: I go to work on foot every day."
+          }
+        },
+        {
+          "id": "b1-u6-transport.8",
+          "kind": "speed",
+          "prompt": "سریع! «crowded» یعنی چه؟",
+          "speak": "crowded",
+          "choices": [
+            "شلوغ",
+            "آلودگی"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u6-transport.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «rubbish»",
+          "choices": [
+            "همسایه",
+            "بهتر کردن",
+            "زباله"
+          ],
+          "answer": 2,
+          "speak": "rubbish",
+          "reviewOf": "b1-u6-environment"
+        },
+        {
+          "id": "b1-u6-transport.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "recycle",
+          "choices": [
+            "recycle",
+            "lively",
+            "pollution"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u6-environment"
+        },
+        {
+          "id": "b1-u6-transport.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⚡",
+          "choices": [
+            "recycle",
+            "journey",
+            "energy"
+          ],
+          "answer": 2,
+          "speak": "energy",
+          "reviewOf": "b1-u6-environment"
+        },
+        {
+          "id": "b1-u6-transport.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «climate»",
+          "speak": "climate",
+          "choices": [
+            "آلودگی",
+            "اقلیم"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u6-environment"
+        },
+        {
+          "id": "b1-u6-transport.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "امروز ترافیک زیادی است.",
+          "sentence": "There is a lot of ___ today.",
+          "choices": [
+            "rubbish",
+            "metro",
+            "traffic"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The metro is crowded but it is fast.",
+          "fa": "مترو شلوغ است ولی سریع است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "every day",
+        "body": "عبارت درست every day است (نه every days)."
+      }
+    },
+    {
+      "id": "b1-u6-city-life",
+      "title": "Living in the city",
+      "titleFa": "زندگی شهری",
+      "goal": "مزایا و معایب شهر را بگویی",
+      "buildsOn": [
+        "b1-u6-transport"
+      ],
+      "vocab": [
+        {
+          "en": "convenient",
+          "fa": "راحت / در دسترس",
+          "emoji": "🏙️"
+        },
+        {
+          "en": "safe",
+          "fa": "امن",
+          "emoji": "🛡️"
+        },
+        {
+          "en": "lively",
+          "fa": "پرجنب‌وجوش",
+          "emoji": "🎉"
+        },
+        {
+          "en": "noisy",
+          "fa": "پرسروصدا",
+          "emoji": "🔊"
+        },
+        {
+          "en": "expensive",
+          "fa": "گران",
+          "emoji": "💸"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "convenient",
+          "fa": "راحت / در دسترس",
+          "emoji": "🏙️"
+        },
+        {
+          "kind": "word",
+          "en": "safe",
+          "fa": "امن",
+          "emoji": "🛡️"
+        },
+        {
+          "kind": "word",
+          "en": "lively",
+          "fa": "پرجنب‌وجوش",
+          "emoji": "🎉"
+        },
+        {
+          "kind": "word",
+          "en": "noisy",
+          "fa": "پرسروصدا",
+          "emoji": "🔊"
+        },
+        {
+          "kind": "sentence",
+          "en": "Living here is convenient and lively.",
+          "fa": "زندگی اینجا راحت و پرجنب‌وجوش است."
+        },
+        {
+          "kind": "sentence",
+          "en": "The city is convenient but expensive.",
+          "fa": "شهر راحت است ولی گران.",
+          "highlight": "convenient"
+        },
+        {
+          "kind": "rule",
+          "title": "فعل ing به‌جای فاعل",
+          "body": "وقتی فعل ing فاعل جمله است، فعل مفرد می‌آید: living here is…",
+          "examples": [
+            {
+              "en": "Living here is convenient and lively.",
+              "fa": "زندگی اینجا راحت و پرجنب‌وجوش است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u6-city-life.1",
+          "kind": "mcq",
+          "prompt": "معنی «convenient» چیست؟",
+          "promptFa": "راحت / در دسترس",
+          "choices": [
+            "داوطلب شدن",
+            "راحت / در دسترس",
+            "بهتر کردن"
+          ],
+          "answer": 1,
+          "speak": "convenient",
+          "aiHints": {
+            "example": "I know the word \"convenient\".",
+            "explanation": "«convenient» یعنی راحت / در دسترس."
+          }
+        },
+        {
+          "id": "b1-u6-city-life.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🛡️",
+          "choices": [
+            "lively",
+            "convenient",
+            "safe"
+          ],
+          "answer": 2,
+          "speak": "safe"
+        },
+        {
+          "id": "b1-u6-city-life.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "lively",
+          "choices": [
+            "lively",
+            "neighbour",
+            "rubbish"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u6-city-life.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "convenient",
+              "fa": "راحت / در دسترس"
+            },
+            {
+              "en": "safe",
+              "fa": "امن"
+            },
+            {
+              "en": "noisy",
+              "fa": "پرسروصدا"
+            },
+            {
+              "en": "lively",
+              "fa": "پرجنب‌وجوش"
+            }
+          ]
+        },
+        {
+          "id": "b1-u6-city-life.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "شهر راحت است ولی گران.",
+          "sentence": "The city is ___ but expensive.",
+          "choices": [
+            "expensive",
+            "convenient",
+            "noisy"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u6-city-life.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "زندگی اینجا راحت و پرجنب‌وجوش است.",
+          "tokens": [
+            "and",
+            "lively",
+            "is",
+            "convenient",
+            "Living",
+            "here"
+          ],
+          "answer": "Living here is convenient and lively"
+        },
+        {
+          "id": "b1-u6-city-life.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Living",
+            "here",
+            "are",
+            "very",
+            "convenient."
+          ],
+          "answer": 2,
+          "fix": "Living here is very convenient.",
+          "aiHints": {
+            "explanation": "درستش این است: Living here is very convenient."
+          }
+        },
+        {
+          "id": "b1-u6-city-life.8",
+          "kind": "speed",
+          "prompt": "سریع! «expensive» یعنی چه؟",
+          "speak": "expensive",
+          "choices": [
+            "گران",
+            "آلودگی"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u6-city-life.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «cycle»",
+          "choices": [
+            "دوچرخه‌سواری کردن",
+            "امن",
+            "بهتر کردن"
+          ],
+          "answer": 0,
+          "speak": "cycle",
+          "reviewOf": "b1-u6-transport"
+        },
+        {
+          "id": "b1-u6-city-life.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "traffic",
+          "choices": [
+            "traffic",
+            "lively",
+            "neighbour"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u6-transport"
+        },
+        {
+          "id": "b1-u6-city-life.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛤️",
+          "choices": [
+            "safe",
+            "journey",
+            "traffic"
+          ],
+          "answer": 1,
+          "speak": "journey",
+          "reviewOf": "b1-u6-transport"
+        },
+        {
+          "id": "b1-u6-city-life.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «crowded»",
+          "speak": "crowded",
+          "choices": [
+            "آلودگی",
+            "شلوغ"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u6-transport"
+        },
+        {
+          "id": "b1-u6-city-life.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این منطقه خیلی امن است.",
+          "sentence": "This area is very ___.",
+          "choices": [
+            "cycle",
+            "traffic",
+            "safe"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Living here is lively but noisy.",
+          "fa": "زندگی اینجا پرجنب‌وجوش ولی پرسروصداست."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "فعل ing به‌جای فاعل",
+        "body": "وقتی فعل ing فاعل جمله است، فعل مفرد می‌آید: living here is…"
+      }
+    },
+    {
+      "id": "b1-u6-community",
+      "title": "Our community",
+      "titleFa": "محله و همسایه",
+      "goal": "دربارهٔ محله‌ات حرف بزنی",
+      "buildsOn": [
+        "b1-u6-city-life"
+      ],
+      "vocab": [
+        {
+          "en": "neighbour",
+          "fa": "همسایه",
+          "emoji": "🏘️"
+        },
+        {
+          "en": "volunteer",
+          "fa": "داوطلب شدن",
+          "emoji": "🙋"
+        },
+        {
+          "en": "community",
+          "fa": "محله / جامعه",
+          "emoji": "👥"
+        },
+        {
+          "en": "support",
+          "fa": "حمایت کردن",
+          "emoji": "🤝"
+        },
+        {
+          "en": "improve",
+          "fa": "بهتر کردن",
+          "emoji": "📈"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "neighbour",
+          "fa": "همسایه",
+          "emoji": "🏘️"
+        },
+        {
+          "kind": "word",
+          "en": "volunteer",
+          "fa": "داوطلب شدن",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "word",
+          "en": "community",
+          "fa": "محله / جامعه",
+          "emoji": "👥"
+        },
+        {
+          "kind": "word",
+          "en": "support",
+          "fa": "حمایت کردن",
+          "emoji": "🤝"
+        },
+        {
+          "kind": "sentence",
+          "en": "We want to improve our community.",
+          "fa": "می‌خواهیم محله‌مان را بهتر کنیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "My neighbour is very kind.",
+          "fa": "همسایه‌ام خیلی مهربان است.",
+          "highlight": "neighbour"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از to ساده",
+          "body": "بعد از to همیشه فعل ساده می‌آید: to improve، to support.",
+          "examples": [
+            {
+              "en": "We want to improve our community.",
+              "fa": "می‌خواهیم محله‌مان را بهتر کنیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u6-community.1",
+          "kind": "mcq",
+          "prompt": "معنی «neighbour» چیست؟",
+          "promptFa": "همسایه",
+          "choices": [
+            "همسایه",
+            "محله / جامعه",
+            "ترافیک"
+          ],
+          "answer": 0,
+          "speak": "neighbour",
+          "aiHints": {
+            "example": "I know the word \"neighbour\".",
+            "explanation": "«neighbour» یعنی همسایه."
+          }
+        },
+        {
+          "id": "b1-u6-community.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🙋",
+          "choices": [
+            "improve",
+            "support",
+            "volunteer"
+          ],
+          "answer": 2,
+          "speak": "volunteer"
+        },
+        {
+          "id": "b1-u6-community.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "community",
+          "choices": [
+            "journey",
+            "neighbour",
+            "community"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u6-community.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "volunteer",
+              "fa": "داوطلب شدن"
+            },
+            {
+              "en": "support",
+              "fa": "حمایت کردن"
+            },
+            {
+              "en": "community",
+              "fa": "محله / جامعه"
+            },
+            {
+              "en": "neighbour",
+              "fa": "همسایه"
+            }
+          ]
+        },
+        {
+          "id": "b1-u6-community.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "همسایه‌ام خیلی مهربان است.",
+          "sentence": "My ___ is very kind.",
+          "choices": [
+            "support",
+            "neighbour",
+            "pollution"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u6-community.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "می‌خواهیم محله‌مان را بهتر کنیم.",
+          "tokens": [
+            "want",
+            "to",
+            "community",
+            "our",
+            "We",
+            "improve"
+          ],
+          "answer": "We want to improve our community"
+        },
+        {
+          "id": "b1-u6-community.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "want",
+            "to",
+            "improves",
+            "our",
+            "community."
+          ],
+          "answer": 3,
+          "fix": "We want to improve our community.",
+          "aiHints": {
+            "explanation": "درستش این است: We want to improve our community."
+          }
+        },
+        {
+          "id": "b1-u6-community.8",
+          "kind": "speed",
+          "prompt": "سریع! «improve» یعنی چه؟",
+          "speak": "improve",
+          "choices": [
+            "آلودگی",
+            "بهتر کردن"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u6-community.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «safe»",
+          "choices": [
+            "داوطلب شدن",
+            "امن",
+            "اقلیم"
+          ],
+          "answer": 1,
+          "speak": "safe",
+          "reviewOf": "b1-u6-city-life"
+        },
+        {
+          "id": "b1-u6-community.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "lively",
+          "choices": [
+            "lively",
+            "cycle",
+            "rubbish"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u6-city-life"
+        },
+        {
+          "id": "b1-u6-community.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔊",
+          "choices": [
+            "convenient",
+            "neighbour",
+            "noisy"
+          ],
+          "answer": 2,
+          "speak": "noisy",
+          "reviewOf": "b1-u6-city-life"
+        },
+        {
+          "id": "b1-u6-community.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «expensive»",
+          "speak": "expensive",
+          "choices": [
+            "گران",
+            "آلودگی"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u6-city-life"
+        },
+        {
+          "id": "b1-u6-community.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "هر ماه در پارک داوطلب می‌شویم.",
+          "sentence": "We ___ in the park every month.",
+          "choices": [
+            "neighbour",
+            "volunteer",
+            "journey"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We volunteer to support our community.",
+          "fa": "داوطلب می‌شویم تا محله‌مان را حمایت کنیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از to ساده",
+        "body": "بعد از to همیشه فعل ساده می‌آید: to improve، to support."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u6-boss",
+    "titleFa": "نبرد پایانی — شهر و محیط زیست",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u6-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «rubbish»",
+        "speak": "rubbish",
+        "choices": [
+          "زباله",
+          "انرژی",
+          "راحت / در دسترس"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u6-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "climate",
+        "choices": [
+          "improve",
+          "safe",
+          "climate"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u6-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🚦",
+        "choices": [
+          "lively",
+          "convenient",
+          "traffic"
+        ],
+        "answer": 2,
+        "speak": "traffic"
+      },
+      {
+        "id": "b1-u6-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «convenient»",
+        "speak": "convenient",
+        "choices": [
+          "زباله",
+          "راحت / در دسترس"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u6-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «noisy»",
+        "speak": "noisy",
+        "choices": [
+          "پرسروصدا",
+          "حمایت کردن",
+          "راحت / در دسترس"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u6-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "volunteer",
+        "choices": [
+          "volunteer",
+          "convenient",
+          "support"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u6-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "📈",
+        "choices": [
+          "climate",
+          "improve",
+          "community"
+        ],
+        "answer": 1,
+        "speak": "improve"
+      },
+      {
+        "id": "b1-u6-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «recycle»",
+        "speak": "recycle",
+        "choices": [
+          "بازیافت کردن",
+          "سفر (مسیر)"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u6-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «metro»",
+        "speak": "metro",
+        "choices": [
+          "زباله",
+          "مترو",
+          "پرجنب‌وجوش"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u6-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "journey",
+        "choices": [
+          "journey",
+          "safe",
+          "energy"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

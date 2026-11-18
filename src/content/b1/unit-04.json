@@ -1,0 +1,1284 @@
+{
+  "id": "b1-u4",
+  "level": "B1",
+  "index": 4,
+  "titleFa": "توصیف دقیق",
+  "titleEn": "Describing things",
+  "theme": "gold",
+  "lessons": [
+    {
+      "id": "b1-u4-relative-clauses",
+      "title": "Whose, where, that",
+      "titleFa": "جملهٔ موصولی کامل",
+      "goal": "با who/which/whose/where جمله را دقیق‌تر کنی",
+      "buildsOn": [
+        "b1-u3-conditionals-compare"
+      ],
+      "vocab": [
+        {
+          "en": "whose",
+          "fa": "که مالِ",
+          "emoji": "👤"
+        },
+        {
+          "en": "where",
+          "fa": "که (جا)",
+          "emoji": "📍"
+        },
+        {
+          "en": "place",
+          "fa": "جا",
+          "emoji": "🗺️"
+        },
+        {
+          "en": "reason",
+          "fa": "دلیل",
+          "emoji": "❓"
+        },
+        {
+          "en": "famous",
+          "fa": "معروف",
+          "emoji": "⭐"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "whose",
+          "fa": "که مالِ",
+          "emoji": "👤"
+        },
+        {
+          "kind": "word",
+          "en": "where",
+          "fa": "که (جا)",
+          "emoji": "📍"
+        },
+        {
+          "kind": "word",
+          "en": "place",
+          "fa": "جا",
+          "emoji": "🗺️"
+        },
+        {
+          "kind": "word",
+          "en": "reason",
+          "fa": "دلیل",
+          "emoji": "❓"
+        },
+        {
+          "kind": "sentence",
+          "en": "The book that I bought is interesting.",
+          "fa": "کتابی که خریدم جالب است."
+        },
+        {
+          "kind": "sentence",
+          "en": "This is the man whose car was stolen.",
+          "fa": "این مردی است که ماشینش دزدیده شد.",
+          "highlight": "whose"
+        },
+        {
+          "kind": "rule",
+          "title": "کدام یک؟",
+          "body": "who برای آدم، which برای چیز، whose برای مالکیت و where برای جا.",
+          "examples": [
+            {
+              "en": "The book that I bought is interesting.",
+              "fa": "کتابی که خریدم جالب است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u4-relative-clauses.1",
+          "kind": "mcq",
+          "prompt": "معنی «whose» چیست؟",
+          "promptFa": "که مالِ",
+          "choices": [
+            "که (جا)",
+            "خوش‌برخورد",
+            "که مالِ"
+          ],
+          "answer": 2,
+          "speak": "whose",
+          "aiHints": {
+            "example": "I know the word \"whose\".",
+            "explanation": "«whose» یعنی که مالِ."
+          }
+        },
+        {
+          "id": "b1-u4-relative-clauses.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📍",
+          "choices": [
+            "famous",
+            "place",
+            "where"
+          ],
+          "answer": 2,
+          "speak": "where"
+        },
+        {
+          "id": "b1-u4-relative-clauses.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "place",
+          "choices": [
+            "friendly",
+            "place",
+            "famous"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u4-relative-clauses.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "where",
+              "fa": "که (جا)"
+            },
+            {
+              "en": "place",
+              "fa": "جا"
+            },
+            {
+              "en": "whose",
+              "fa": "که مالِ"
+            },
+            {
+              "en": "reason",
+              "fa": "دلیل"
+            }
+          ]
+        },
+        {
+          "id": "b1-u4-relative-clauses.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این مردی است که ماشینش دزدیده شد.",
+          "sentence": "This is the man ___ car was stolen.",
+          "choices": [
+            "whose",
+            "famous",
+            "fragile"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u4-relative-clauses.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "کتابی که خریدم جالب است.",
+          "tokens": [
+            "book",
+            "is",
+            "that",
+            "bought",
+            "interesting",
+            "I",
+            "The"
+          ],
+          "answer": "The book that I bought is interesting"
+        },
+        {
+          "id": "b1-u4-relative-clauses.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "That",
+            "is",
+            "the",
+            "place",
+            "which",
+            "we",
+            "met."
+          ],
+          "answer": 4,
+          "fix": "That is the place where we met.",
+          "aiHints": {
+            "explanation": "درستش این است: That is the place where we met."
+          }
+        },
+        {
+          "id": "b1-u4-relative-clauses.8",
+          "kind": "speed",
+          "prompt": "سریع! «famous» یعنی چه؟",
+          "speak": "famous",
+          "choices": [
+            "که مالِ",
+            "معروف"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u4-relative-clauses.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «imaginary»",
+          "choices": [
+            "دلیل",
+            "بااعتمادبه‌نفس",
+            "خیالی"
+          ],
+          "answer": 2,
+          "speak": "imaginary",
+          "reviewOf": "b1-u3-conditionals-compare"
+        },
+        {
+          "id": "b1-u4-relative-clauses.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "study",
+          "choices": [
+            "useful",
+            "study",
+            "however"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u3-conditionals-compare"
+        },
+        {
+          "id": "b1-u4-relative-clauses.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎓",
+          "choices": [
+            "friendly",
+            "portable",
+            "pass"
+          ],
+          "answer": 2,
+          "speak": "pass",
+          "reviewOf": "b1-u3-conditionals-compare"
+        },
+        {
+          "id": "b1-u4-relative-clauses.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «rich»",
+          "speak": "rich",
+          "choices": [
+            "که مالِ",
+            "ثروتمند"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b1-u3-conditionals-compare"
+        },
+        {
+          "id": "b1-u4-relative-clauses.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آن جایی است که همدیگر را دیدیم.",
+          "sentence": "That is the place ___ we met.",
+          "choices": [
+            "where",
+            "place",
+            "famous"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This is the café where we met.",
+          "fa": "این همان کافه‌ای است که آشنا شدیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "کدام یک؟",
+        "body": "who برای آدم، which برای چیز، whose برای مالکیت و where برای جا."
+      }
+    },
+    {
+      "id": "b1-u4-describing-people",
+      "title": "A patient person",
+      "titleFa": "توصیف آدم‌ها",
+      "goal": "اخلاق آدم‌ها را دقیق‌تر توصیف کنی",
+      "buildsOn": [
+        "b1-u4-relative-clauses"
+      ],
+      "vocab": [
+        {
+          "en": "friendly",
+          "fa": "خوش‌برخورد",
+          "emoji": "😊"
+        },
+        {
+          "en": "patient",
+          "fa": "صبور",
+          "emoji": "🧘"
+        },
+        {
+          "en": "confident",
+          "fa": "بااعتمادبه‌نفس",
+          "emoji": "💪"
+        },
+        {
+          "en": "talented",
+          "fa": "بااستعداد",
+          "emoji": "🌟"
+        },
+        {
+          "en": "reliable",
+          "fa": "قابل‌اعتماد",
+          "emoji": "🤝"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "friendly",
+          "fa": "خوش‌برخورد",
+          "emoji": "😊"
+        },
+        {
+          "kind": "word",
+          "en": "patient",
+          "fa": "صبور",
+          "emoji": "🧘"
+        },
+        {
+          "kind": "word",
+          "en": "confident",
+          "fa": "بااعتمادبه‌نفس",
+          "emoji": "💪"
+        },
+        {
+          "kind": "word",
+          "en": "talented",
+          "fa": "بااستعداد",
+          "emoji": "🌟"
+        },
+        {
+          "kind": "sentence",
+          "en": "My teacher is patient and friendly.",
+          "fa": "معلمم صبور و خوش‌برخورد است."
+        },
+        {
+          "kind": "sentence",
+          "en": "She is very patient.",
+          "fa": "او خیلی صبور است.",
+          "highlight": "patient"
+        },
+        {
+          "kind": "rule",
+          "title": "صفت بعد از فعل بودن",
+          "body": "صفت بعد از am/is/are می‌آید: she is patient.",
+          "examples": [
+            {
+              "en": "My teacher is patient and friendly.",
+              "fa": "معلمم صبور و خوش‌برخورد است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u4-describing-people.1",
+          "kind": "mcq",
+          "prompt": "معنی «friendly» چیست؟",
+          "promptFa": "خوش‌برخورد",
+          "choices": [
+            "خوش‌برخورد",
+            "که (جا)",
+            "جا"
+          ],
+          "answer": 0,
+          "speak": "friendly",
+          "aiHints": {
+            "example": "I know the word \"friendly\".",
+            "explanation": "«friendly» یعنی خوش‌برخورد."
+          }
+        },
+        {
+          "id": "b1-u4-describing-people.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🧘",
+          "choices": [
+            "confident",
+            "talented",
+            "patient"
+          ],
+          "answer": 2,
+          "speak": "patient"
+        },
+        {
+          "id": "b1-u4-describing-people.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "confident",
+          "choices": [
+            "however",
+            "portable",
+            "confident"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u4-describing-people.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "patient",
+              "fa": "صبور"
+            },
+            {
+              "en": "confident",
+              "fa": "بااعتمادبه‌نفس"
+            },
+            {
+              "en": "talented",
+              "fa": "بااستعداد"
+            },
+            {
+              "en": "friendly",
+              "fa": "خوش‌برخورد"
+            }
+          ]
+        },
+        {
+          "id": "b1-u4-describing-people.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او خیلی صبور است.",
+          "sentence": "She is very ___.",
+          "choices": [
+            "confident",
+            "however",
+            "patient"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u4-describing-people.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "معلمم صبور و خوش‌برخورد است.",
+          "tokens": [
+            "is",
+            "My",
+            "patient",
+            "friendly",
+            "teacher",
+            "and"
+          ],
+          "answer": "My teacher is patient and friendly"
+        },
+        {
+          "id": "b1-u4-describing-people.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "My",
+            "teacher",
+            "are",
+            "very",
+            "patient."
+          ],
+          "answer": 2,
+          "fix": "My teacher is very patient.",
+          "aiHints": {
+            "explanation": "درستش این است: My teacher is very patient."
+          }
+        },
+        {
+          "id": "b1-u4-describing-people.8",
+          "kind": "speed",
+          "prompt": "سریع! «reliable» یعنی چه؟",
+          "speak": "reliable",
+          "choices": [
+            "قابل‌اعتماد",
+            "که مالِ"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u4-describing-people.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «where»",
+          "choices": [
+            "خوش‌برخورد",
+            "سنگین",
+            "که (جا)"
+          ],
+          "answer": 2,
+          "speak": "where",
+          "reviewOf": "b1-u4-relative-clauses"
+        },
+        {
+          "id": "b1-u4-describing-people.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "place",
+          "choices": [
+            "place",
+            "useful",
+            "reliable"
+          ],
+          "answer": 0,
+          "reviewOf": "b1-u4-relative-clauses"
+        },
+        {
+          "id": "b1-u4-describing-people.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "❓",
+          "choices": [
+            "place",
+            "agree",
+            "reason"
+          ],
+          "answer": 2,
+          "speak": "reason",
+          "reviewOf": "b1-u4-relative-clauses"
+        },
+        {
+          "id": "b1-u4-describing-people.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «famous»",
+          "speak": "famous",
+          "choices": [
+            "معروف",
+            "که مالِ"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u4-relative-clauses"
+        },
+        {
+          "id": "b1-u4-describing-people.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او کارگر قابل‌اعتمادی است.",
+          "sentence": "He is a ___ worker.",
+          "choices": [
+            "it seems",
+            "reliable",
+            "heavy"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "He is confident, talented and reliable.",
+          "fa": "او بااعتمادبه‌نفس، بااستعداد و قابل‌اعتماد است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "صفت بعد از فعل بودن",
+        "body": "صفت بعد از am/is/are می‌آید: she is patient."
+      }
+    },
+    {
+      "id": "b1-u4-describing-objects",
+      "title": "Useful and portable",
+      "titleFa": "توصیف چیزها",
+      "goal": "یک چیز را توصیف کنی",
+      "buildsOn": [
+        "b1-u4-describing-people"
+      ],
+      "vocab": [
+        {
+          "en": "useful",
+          "fa": "مفید",
+          "emoji": "🛠️"
+        },
+        {
+          "en": "heavy",
+          "fa": "سنگین",
+          "emoji": "🏋️"
+        },
+        {
+          "en": "fragile",
+          "fa": "شکستنی",
+          "emoji": "🥚"
+        },
+        {
+          "en": "portable",
+          "fa": "قابل‌حمل",
+          "emoji": "🎒"
+        },
+        {
+          "en": "complicated",
+          "fa": "پیچیده",
+          "emoji": "🧩"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "useful",
+          "fa": "مفید",
+          "emoji": "🛠️"
+        },
+        {
+          "kind": "word",
+          "en": "heavy",
+          "fa": "سنگین",
+          "emoji": "🏋️"
+        },
+        {
+          "kind": "word",
+          "en": "fragile",
+          "fa": "شکستنی",
+          "emoji": "🥚"
+        },
+        {
+          "kind": "word",
+          "en": "portable",
+          "fa": "قابل‌حمل",
+          "emoji": "🎒"
+        },
+        {
+          "kind": "sentence",
+          "en": "This tool is useful and portable.",
+          "fa": "این ابزار مفید و قابل‌حمل است."
+        },
+        {
+          "kind": "sentence",
+          "en": "This box is very heavy.",
+          "fa": "این جعبه خیلی سنگین است.",
+          "highlight": "heavy"
+        },
+        {
+          "kind": "rule",
+          "title": "مفرد و جمع",
+          "body": "this tool is … ولی these tools are … — فعل هم با اسم جمع می‌شود.",
+          "examples": [
+            {
+              "en": "This tool is useful and portable.",
+              "fa": "این ابزار مفید و قابل‌حمل است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u4-describing-objects.1",
+          "kind": "mcq",
+          "prompt": "معنی «useful» چیست؟",
+          "promptFa": "مفید",
+          "choices": [
+            "سنگین",
+            "شاید",
+            "مفید"
+          ],
+          "answer": 2,
+          "speak": "useful",
+          "aiHints": {
+            "example": "I know the word \"useful\".",
+            "explanation": "«useful» یعنی مفید."
+          }
+        },
+        {
+          "id": "b1-u4-describing-objects.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🏋️",
+          "choices": [
+            "fragile",
+            "portable",
+            "heavy"
+          ],
+          "answer": 2,
+          "speak": "heavy"
+        },
+        {
+          "id": "b1-u4-describing-objects.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "fragile",
+          "choices": [
+            "complicated",
+            "agree",
+            "fragile"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b1-u4-describing-objects.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "useful",
+              "fa": "مفید"
+            },
+            {
+              "en": "heavy",
+              "fa": "سنگین"
+            },
+            {
+              "en": "portable",
+              "fa": "قابل‌حمل"
+            },
+            {
+              "en": "fragile",
+              "fa": "شکستنی"
+            }
+          ]
+        },
+        {
+          "id": "b1-u4-describing-objects.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این جعبه خیلی سنگین است.",
+          "sentence": "This box is very ___.",
+          "choices": [
+            "heavy",
+            "useful",
+            "talented"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u4-describing-objects.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این ابزار مفید و قابل‌حمل است.",
+          "tokens": [
+            "tool",
+            "portable",
+            "is",
+            "useful",
+            "This",
+            "and"
+          ],
+          "answer": "This tool is useful and portable"
+        },
+        {
+          "id": "b1-u4-describing-objects.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "This",
+            "tools",
+            "is",
+            "very",
+            "useful."
+          ],
+          "answer": 1,
+          "fix": "This tool is very useful.",
+          "aiHints": {
+            "explanation": "درستش این است: This tool is very useful."
+          }
+        },
+        {
+          "id": "b1-u4-describing-objects.8",
+          "kind": "speed",
+          "prompt": "سریع! «complicated» یعنی چه؟",
+          "speak": "complicated",
+          "choices": [
+            "که مالِ",
+            "پیچیده"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u4-describing-objects.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «patient»",
+          "choices": [
+            "که (جا)",
+            "از نظر من",
+            "صبور"
+          ],
+          "answer": 2,
+          "speak": "patient",
+          "reviewOf": "b1-u4-describing-people"
+        },
+        {
+          "id": "b1-u4-describing-objects.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "confident",
+          "choices": [
+            "heavy",
+            "friendly",
+            "confident"
+          ],
+          "answer": 2,
+          "reviewOf": "b1-u4-describing-people"
+        },
+        {
+          "id": "b1-u4-describing-objects.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🌟",
+          "choices": [
+            "confident",
+            "whose",
+            "talented"
+          ],
+          "answer": 2,
+          "speak": "talented",
+          "reviewOf": "b1-u4-describing-people"
+        },
+        {
+          "id": "b1-u4-describing-objects.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «reliable»",
+          "speak": "reliable",
+          "choices": [
+            "قابل‌اعتماد",
+            "که مالِ"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u4-describing-people"
+        },
+        {
+          "id": "b1-u4-describing-objects.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "مراقب باش، شکستنی است.",
+          "sentence": "Be careful, it is ___.",
+          "choices": [
+            "heavy",
+            "portable",
+            "fragile"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "These tools are useful but heavy.",
+          "fa": "این ابزارها مفید ولی سنگین‌اند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "مفرد و جمع",
+        "body": "this tool is … ولی these tools are … — فعل هم با اسم جمع می‌شود."
+      }
+    },
+    {
+      "id": "b1-u4-opinions-b1",
+      "title": "It seems that…",
+      "titleFa": "نظر و برداشت",
+      "goal": "نظرت را با عبارت‌های متنوع بگویی",
+      "buildsOn": [
+        "b1-u4-describing-objects"
+      ],
+      "vocab": [
+        {
+          "en": "it seems",
+          "fa": "به نظر می‌رسد",
+          "emoji": "🤔"
+        },
+        {
+          "en": "in my view",
+          "fa": "از نظر من",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "however",
+          "fa": "اما / با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "en": "perhaps",
+          "fa": "شاید",
+          "emoji": "💭"
+        },
+        {
+          "en": "agree",
+          "fa": "موافق بودن",
+          "emoji": "👍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "it seems",
+          "fa": "به نظر می‌رسد",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "in my view",
+          "fa": "از نظر من",
+          "emoji": "🗣️"
+        },
+        {
+          "kind": "word",
+          "en": "however",
+          "fa": "اما / با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "word",
+          "en": "perhaps",
+          "fa": "شاید",
+          "emoji": "💭"
+        },
+        {
+          "kind": "sentence",
+          "en": "It seems that everyone agrees.",
+          "fa": "به نظر می‌رسد همه موافق‌اند."
+        },
+        {
+          "kind": "sentence",
+          "en": "In my view, it is good.",
+          "fa": "از نظر من خوب است.",
+          "highlight": "In"
+        },
+        {
+          "kind": "rule",
+          "title": "it seems that",
+          "body": "برای برداشت خودت: it seems that + جمله‌ٔ کامل.",
+          "examples": [
+            {
+              "en": "It seems that everyone agrees.",
+              "fa": "به نظر می‌رسد همه موافق‌اند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b1-u4-opinions-b1.1",
+          "kind": "mcq",
+          "prompt": "معنی «it seems» چیست؟",
+          "promptFa": "به نظر می‌رسد",
+          "choices": [
+            "که مالِ",
+            "قابل‌حمل",
+            "به نظر می‌رسد"
+          ],
+          "answer": 2,
+          "speak": "it seems",
+          "aiHints": {
+            "example": "I know the word \"it seems\".",
+            "explanation": "«it seems» یعنی به نظر می‌رسد."
+          }
+        },
+        {
+          "id": "b1-u4-opinions-b1.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🗣️",
+          "choices": [
+            "in my view",
+            "perhaps",
+            "however"
+          ],
+          "answer": 0,
+          "speak": "in my view"
+        },
+        {
+          "id": "b1-u4-opinions-b1.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "however",
+          "choices": [
+            "fragile",
+            "however",
+            "patient"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b1-u4-opinions-b1.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "it seems",
+              "fa": "به نظر می‌رسد"
+            },
+            {
+              "en": "however",
+              "fa": "اما / با این حال"
+            },
+            {
+              "en": "perhaps",
+              "fa": "شاید"
+            },
+            {
+              "en": "in my view",
+              "fa": "از نظر من"
+            }
+          ]
+        },
+        {
+          "id": "b1-u4-opinions-b1.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "از نظر من خوب است.",
+          "sentence": "___ my view, it is good.",
+          "choices": [
+            "In",
+            "friendly",
+            "where"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b1-u4-opinions-b1.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "به نظر می‌رسد همه موافق‌اند.",
+          "tokens": [
+            "agrees",
+            "everyone",
+            "seems",
+            "It",
+            "that"
+          ],
+          "answer": "It seems that everyone agrees"
+        },
+        {
+          "id": "b1-u4-opinions-b1.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "seem",
+            "that",
+            "he",
+            "is",
+            "right."
+          ],
+          "answer": 1,
+          "fix": "It seems that he is right.",
+          "aiHints": {
+            "explanation": "درستش این است: It seems that he is right."
+          }
+        },
+        {
+          "id": "b1-u4-opinions-b1.8",
+          "kind": "speed",
+          "prompt": "سریع! «agree» یعنی چه؟",
+          "speak": "agree",
+          "choices": [
+            "موافق بودن",
+            "که مالِ"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b1-u4-opinions-b1.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «heavy»",
+          "choices": [
+            "سنگین",
+            "معروف",
+            "به نظر می‌رسد"
+          ],
+          "answer": 0,
+          "speak": "heavy",
+          "reviewOf": "b1-u4-describing-objects"
+        },
+        {
+          "id": "b1-u4-opinions-b1.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "fragile",
+          "choices": [
+            "reliable",
+            "fragile",
+            "heavy"
+          ],
+          "answer": 1,
+          "reviewOf": "b1-u4-describing-objects"
+        },
+        {
+          "id": "b1-u4-opinions-b1.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎒",
+          "choices": [
+            "portable",
+            "perhaps",
+            "in my view"
+          ],
+          "answer": 0,
+          "speak": "portable",
+          "reviewOf": "b1-u4-describing-objects"
+        },
+        {
+          "id": "b1-u4-opinions-b1.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «complicated»",
+          "speak": "complicated",
+          "choices": [
+            "پیچیده",
+            "که مالِ"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b1-u4-describing-objects"
+        },
+        {
+          "id": "b1-u4-opinions-b1.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "به نظر من درست می‌گوید.",
+          "sentence": "It ___ to me that he is right.",
+          "choices": [
+            "complicated",
+            "seems",
+            "in my view"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "It seems that we agree, however it is difficult.",
+          "fa": "به نظر می‌رسد موافقیم، با این حال سخت است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "it seems that",
+        "body": "برای برداشت خودت: it seems that + جمله‌ٔ کامل."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b1-u4-boss",
+    "titleFa": "نبرد پایانی — توصیف دقیق",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b1-u4-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «where»",
+        "speak": "where",
+        "choices": [
+          "صبور",
+          "که (جا)",
+          "بااعتمادبه‌نفس"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b1-u4-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "famous",
+        "choices": [
+          "heavy",
+          "reason",
+          "famous"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b1-u4-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "💪",
+        "choices": [
+          "confident",
+          "whose",
+          "place"
+        ],
+        "answer": 0,
+        "speak": "confident"
+      },
+      {
+        "id": "b1-u4-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «useful»",
+        "speak": "useful",
+        "choices": [
+          "مفید",
+          "قابل‌اعتماد"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u4-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «portable»",
+        "speak": "portable",
+        "choices": [
+          "قابل‌حمل",
+          "شاید",
+          "شکستنی"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u4-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "in my view",
+        "choices": [
+          "in my view",
+          "famous",
+          "patient"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u4-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "👍",
+        "choices": [
+          "perhaps",
+          "useful",
+          "agree"
+        ],
+        "answer": 2,
+        "speak": "agree"
+      },
+      {
+        "id": "b1-u4-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «place»",
+        "speak": "place",
+        "choices": [
+          "مفید",
+          "جا"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b1-u4-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «friendly»",
+        "speak": "friendly",
+        "choices": [
+          "خوش‌برخورد",
+          "از نظر من",
+          "موافق بودن"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b1-u4-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "talented",
+        "choices": [
+          "it seems",
+          "talented",
+          "fragile"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}
