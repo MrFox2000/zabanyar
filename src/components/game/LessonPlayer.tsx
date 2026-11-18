@@ -16,7 +16,17 @@ import { Stars } from "@/components/Stars";
 import { Button, ButtonLink } from "@/components/ui/Button";
 import { emit } from "@/lib/ai/events";
 import { playCombo, playCorrect, playWin, playWrong } from "@/lib/sound";
-import { completeLesson, HEART_MAX, loseHeart, recordMistake, useProgress, bumpDaily } from "@/lib/store/progress";
+import {
+  bumpDaily,
+  completeLesson,
+  grantAdHeart,
+  HEART_MAX,
+  isPlus,
+  loseHeart,
+  recordMistake,
+  refillHeartsWithGems,
+  useProgress,
+} from "@/lib/store/progress";
 import { cn, fa, primeVoices, speak } from "@/lib/utils";
 import { Volume2 } from "lucide-react";
 
@@ -126,7 +136,7 @@ export function LessonPlayer({
         playWrong();
         setFx({ kind: "wrong" });
         setTimeout(() => setFx(null), 950);
-        const hearts = loseHeart();
+        const hearts = isPlus() ? HEART_MAX : loseHeart();
         emit({
           type: "mistake_made",
           lessonId: lesson.id,
@@ -328,16 +338,50 @@ export function LessonPlayer({
             <Character id={guide} size={96} mood="sad" className="mx-auto" />
             <h2 className="text-xl font-extrabold">جان‌ها تمام شد</h2>
             <p className="text-sm leading-6 text-plum-soft">
-              هر ۱۵ دقیقه یک جان برمی‌گردد. می‌خواهی همین حالا از اول امتحان کنی؟
+              هر ۲۰ دقیقه یک جان برمی‌گردد. یا همین حالا با جم / یک تبلیغ کوتاه ادامه بده:
             </p>
+
+            <div className="grid grid-cols-2 gap-2">
+              <Button
+                variant="soft"
+                onClick={() => {
+                  if (refillHeartsWithGems(30)) {
+                    setStage("play");
+                    setLocked(false);
+                    setPicked(null);
+                    setResult(null);
+                  }
+                }}
+              >
+                پر کردن جان‌ها — ۳۰ جم
+              </Button>
+              <Button
+                variant="success"
+                onClick={() => {
+                  grantAdHeart();
+                  setStage("play");
+                  setLocked(false);
+                  setPicked(null);
+                  setResult(null);
+                }}
+              >
+                تبلیغ ببین + ۱ جان
+              </Button>
+            </div>
+
+            <ButtonLink href="/app/plus" className="w-full">
+              زبان‌یار پلاس: جان بی‌نهایت
+            </ButtonLink>
+
             <div className="flex gap-2">
-              <Button className="flex-1" onClick={restart}>
+              <Button variant="ghost" className="flex-1" onClick={restart}>
                 از اول
               </Button>
-              <ButtonLink href="/app" variant="soft" className="flex-1">
+              <ButtonLink href="/app" variant="ghost" className="flex-1">
                 نقشه
               </ButtonLink>
             </div>
+            <p className="num text-[11px] text-plum-soft">جم فعلی: {fa(progress.gems)}</p>
           </div>
         )}
 

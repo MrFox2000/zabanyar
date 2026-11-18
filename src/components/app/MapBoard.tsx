@@ -11,6 +11,7 @@ import { Hud } from "@/components/Hud";
 import { DailyMissions } from "@/components/app/DailyMissions";
 import { SkinBackdrop } from "@/components/SkinBackdrop";
 import { isUnlocked, levelOf, starsOf, useHydrated, useProgress } from "@/lib/store/progress";
+import { unlockLessonWithGems } from "@/lib/store/progress";
 import { cn, fa } from "@/lib/utils";
 
 export function MapBoard({ units }: { units: MapUnit[] }) {
@@ -172,22 +173,36 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
                               {!unlocked ? <Lock size={20} /> : stars >= 2 ? <Star size={22} className="fill-white" /> : fa(position + 1)}
                             </span>
 
-                            <Link
-                              href={unlocked ? `/app/lesson/${lesson.id}` : "/app"}
-                              aria-disabled={!unlocked}
+                            <button
+                              type="button"
+                              onClick={() => {
+                                if (unlocked) return;
+                                unlockLessonWithGems(lesson.id);
+                              }}
                               className={cn(
-                                "flex-1 rounded-2xl border border-transparent bg-white/70 p-3 transition-colors",
-                                unlocked ? "hover:border-fox/30 hover:bg-white" : "pointer-events-none opacity-60",
+                                "flex-1 rounded-2xl border border-transparent bg-white/70 p-3 text-right transition-colors",
+                                unlocked ? "hover:border-fox/30 hover:bg-white" : "opacity-70",
                               )}
                             >
                               <div className="flex items-center justify-between gap-2">
                                 <p className="text-sm font-extrabold text-plum">{lesson.titleFa}</p>
-                                {isNext ? (
-                                  <span className="flex items-center gap-1 rounded-full bg-fox px-2 py-0.5 text-[10px] font-bold text-white">
-                                    <Play size={10} /> شروع
-                                  </span>
+                                {unlocked ? (
+                                  isNext ? (
+                                    <Link
+                                      href={`/app/lesson/${lesson.id}`}
+                                      className="flex items-center gap-1 rounded-full bg-fox px-2 py-0.5 text-[10px] font-bold text-white"
+                                    >
+                                      <Play size={10} /> شروع
+                                    </Link>
+                                  ) : (
+                                    <Link href={`/app/lesson/${lesson.id}`} aria-label={lesson.titleFa}>
+                                      <Stars earned={stars} />
+                                    </Link>
+                                  )
                                 ) : (
-                                  <Stars earned={stars} />
+                                  <span className="num flex items-center gap-1 rounded-full bg-gold/25 px-2 py-0.5 text-[10px] font-bold text-[#a16207]">
+                                    <Gem size={10} /> ۲۵ جم
+                                  </span>
                                 )}
                               </div>
                               <p className="mt-0.5 text-[11px] text-plum-soft">{lesson.goal}</p>
@@ -195,7 +210,7 @@ export function MapBoard({ units }: { units: MapUnit[] }) {
                                 {fa(lesson.exercises)} تمرین · {fa(lesson.xp)} XP
                                 {lesson.buildsOn.length > 0 && " · پیوسته به درس‌های قبل"}
                               </p>
-                            </Link>
+                            </button>
                           </li>
                         );
                       })}

@@ -10,10 +10,16 @@ import { useEffect, useState, useSyncExternalStore } from "react";
  * screens that need real numbers mount-guard on `useHydrated()`.
  */
 
-export const HEART_MAX = 5;
-export const HEART_REGEN_MS = 15 * 60 * 1000;
+export const HEART_MAX = 3;
+export const HEART_REGEN_MS = 20 * 60 * 1000;
 
 export type LessonRecord = { stars: 1 | 2 | 3; accuracy: number; xp: number; at: number };
+
+export type Subscription = {
+  plan: "monthly" | "quarterly" | "biannual" | "yearly" | null;
+  /** epoch ms; null means no subscription */
+  until: number | null;
+};
 
 /** real counters for the current day — the only source daily missions use */
 export type DailyCounters = {
@@ -46,6 +52,7 @@ export type Progress = {
   activeSkin: string;
   /** streak freezes: buy with gems, spend to keep the streak alive */
   freezes: number;
+  subscription: Subscription;
 };
 
 const KEY = "zabanyar.progress.v1";
@@ -77,6 +84,7 @@ export const EMPTY: Progress = {
   ownedSkins: ["classic"],
   activeSkin: "classic",
   freezes: 0,
+  subscription: { plan: null, until: null },
 };
 
 function today(): string {
@@ -224,6 +232,10 @@ export function loseHeart(): number {
   let hearts = HEART_MAX;
   update((p) => {
     const now = Date.now();
+    if (isPlus(p)) {
+      hearts = HEART_MAX;
+      return p;
+    }
     const base = applyHeartRegen(p, now);
     hearts = Math.max(0, base.hearts - 1);
     return { ...base, hearts, heartsAt: base.hearts >= HEART_MAX ? now : base.heartsAt };
@@ -288,6 +300,71 @@ export function markPlaced(lessonIds: string[]) {
   });
 }
 
+export const PLUS_DAYS: Record<NonNullable<Subscription["plan"]>, number> = {
+  monthly: 30,
+  quarterly: 90,
+  biannual: 180,
+  yearly: 365,
+};
+
+export function isPlus(p: Progress = getProgress()): boolean {
+  return Boolean(p.subscription?.until && p.subscription.until > Date.now());
+}
+
+/**
+ * Activating plus happens server-side after a real payment (see
+ * app/api/billing/callback). This helper only writes the date.
+ */
+export function activatePlus(plan: NonNullable<Subscription["plan"]>) {
+  return update((p) => ({
+    ...p,
+    subscription: { plan, until: Date.now() + PLUS_DAYS[plan] * 86_400_000 },
+    hearts: HEART_MAX,
+    heartsAt: 0,
+  }));
+}
+
+export function cancelPlus() {
+  return update((p) => ({ ...p, subscription: { plan: null, until: null } }));
+}
+
+/** refill every heart for gems — the "I don't want to wait" button */
+export function refillHeartsWithGems(price = 30): boolean {
+  let ok = false;
+  update((p) => {
+    if (isPlus(p) || p.hearts >= HEART_MAX || p.gems < price) return p;
+    ok = true;
+    return { ...p, gems: p.gems - price, hearts: HEART_MAX, heartsAt: 0 };
+  });
+  return ok;
+}
+
+/** a rewarded ad hands out one heart (placeholder until a real ad network exists) */
+export function grantAdHeart(): boolean {
+  let ok = false;
+  update((p) => {
+    if (p.hearts >= HEART_MAX) return p;
+    ok = true;
+    return { ...p, hearts: Math.min(HEART_MAX, p.hearts + 1), heartsAt: p.hearts === 0 ? 0 : p.heartsAt };
+  });
+  return ok;
+}
+
+/** skip ahead: pay gems to open one lesson without playing its prerequisites */
+export function unlockLessonWithGems(lessonId: string, price = 25): boolean {
+  let ok = false;
+  update((p) => {
+    if (p.lessons[lessonId] || p.gems < price) return p;
+    ok = true;
+    return {
+      ...p,
+      gems: p.gems - price,
+      lessons: { ...p.lessons, [lessonId]: { stars: 2, accuracy: 0.8, xp: 0, at: Date.now() } },
+    };
+  });
+  return ok;
+}
+
 export function activateSkin(id: string) {
   return update((p) => (p.ownedSkins.includes(id) ? { ...p, activeSkin: id } : p));
 }
@@ -336,6 +413,7 @@ export function starsOf(p: Progress, lessonId: string): number {
 
 /** unlocks exactly follow the content graph: prerequisites need ≥ 2 stars */
 export function isUnlocked(p: Progress, lessonId: string, buildsOn: string[]): boolean {
+  if (isPlus(p)) return true;
   if (buildsOn.length === 0) return true;
   return buildsOn.every((id) => starsOf(p, id) >= 2);
 }
