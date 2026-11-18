@@ -1,0 +1,1281 @@
+{
+  "id": "b2-u4",
+  "level": "B2",
+  "index": 4,
+  "titleFa": "گزارش و مقاله",
+  "titleEn": "Reports and essays",
+  "theme": "gold",
+  "lessons": [
+    {
+      "id": "b2-u4-essay-structure",
+      "title": "How an essay works",
+      "titleFa": "ساختار مقاله",
+      "goal": "یک متن رسمی کوتاه بنویسی",
+      "buildsOn": [
+        "b2-u3-summarising"
+      ],
+      "vocab": [
+        {
+          "en": "introduction",
+          "fa": "مقدمه",
+          "emoji": "📝"
+        },
+        {
+          "en": "paragraph",
+          "fa": "پاراگراف",
+          "emoji": "📄"
+        },
+        {
+          "en": "conclusion",
+          "fa": "نتیجه‌گیری",
+          "emoji": "🏁"
+        },
+        {
+          "en": "topic",
+          "fa": "موضوع",
+          "emoji": "🎯"
+        },
+        {
+          "en": "formal",
+          "fa": "رسمی",
+          "emoji": "👔"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "introduction",
+          "fa": "مقدمه",
+          "emoji": "📝"
+        },
+        {
+          "kind": "word",
+          "en": "paragraph",
+          "fa": "پاراگراف",
+          "emoji": "📄"
+        },
+        {
+          "kind": "word",
+          "en": "conclusion",
+          "fa": "نتیجه‌گیری",
+          "emoji": "🏁"
+        },
+        {
+          "kind": "word",
+          "en": "topic",
+          "fa": "موضوع",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "sentence",
+          "en": "This essay has four paragraphs.",
+          "fa": "این مقاله چهار پاراگراف دارد."
+        },
+        {
+          "kind": "sentence",
+          "en": "The introduction introduces the topic.",
+          "fa": "مقدمه موضوع را معرفی می‌کند.",
+          "highlight": "introduction"
+        },
+        {
+          "kind": "rule",
+          "title": "یک ایده در هر پاراگراف",
+          "body": "مقدمه موضوع را می‌گوید، هر پاراگراف یک ایده و نتیجه‌گیری جمع‌بندی می‌کند.",
+          "examples": [
+            {
+              "en": "This essay has four paragraphs.",
+              "fa": "این مقاله چهار پاراگراف دارد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u4-essay-structure.1",
+          "kind": "mcq",
+          "prompt": "معنی «introduction» چیست؟",
+          "promptFa": "مقدمه",
+          "choices": [
+            "مقدمه",
+            "نتیجه‌گیری",
+            "باقی ماندن"
+          ],
+          "answer": 0,
+          "speak": "introduction",
+          "aiHints": {
+            "example": "I know the word \"introduction\".",
+            "explanation": "«introduction» یعنی مقدمه."
+          }
+        },
+        {
+          "id": "b2-u4-essay-structure.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📄",
+          "choices": [
+            "paragraph",
+            "formal",
+            "conclusion"
+          ],
+          "answer": 0,
+          "speak": "paragraph"
+        },
+        {
+          "id": "b2-u4-essay-structure.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "conclusion",
+          "choices": [
+            "conclusion",
+            "double",
+            "paragraph"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u4-essay-structure.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "topic",
+              "fa": "موضوع"
+            },
+            {
+              "en": "introduction",
+              "fa": "مقدمه"
+            },
+            {
+              "en": "conclusion",
+              "fa": "نتیجه‌گیری"
+            },
+            {
+              "en": "paragraph",
+              "fa": "پاراگراف"
+            }
+          ]
+        },
+        {
+          "id": "b2-u4-essay-structure.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "مقدمه موضوع را معرفی می‌کند.",
+          "sentence": "The ___ introduces the topic.",
+          "choices": [
+            "because of",
+            "introduction",
+            "significantly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u4-essay-structure.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این مقاله چهار پاراگراف دارد.",
+          "tokens": [
+            "essay",
+            "paragraphs",
+            "has",
+            "This",
+            "four"
+          ],
+          "answer": "This essay has four paragraphs"
+        },
+        {
+          "id": "b2-u4-essay-structure.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "This",
+            "essay",
+            "have",
+            "four",
+            "paragraphs."
+          ],
+          "answer": 2,
+          "fix": "This essay has four paragraphs.",
+          "aiHints": {
+            "explanation": "درستش این است: This essay has four paragraphs."
+          }
+        },
+        {
+          "id": "b2-u4-essay-structure.8",
+          "kind": "speed",
+          "prompt": "سریع! «formal» یعنی چه؟",
+          "speak": "formal",
+          "choices": [
+            "مقدمه",
+            "رسمی"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u4-essay-structure.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «in conclusion»",
+          "choices": [
+            "به دلیل",
+            "در نتیجه‌گیری",
+            "روشن است"
+          ],
+          "answer": 1,
+          "speak": "in conclusion",
+          "reviewOf": "b2-u3-summarising"
+        },
+        {
+          "id": "b2-u4-essay-structure.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "mainly",
+          "choices": [
+            "owing to",
+            "mainly",
+            "arguably"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u3-summarising"
+        },
+        {
+          "id": "b2-u4-essay-structure.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✂️",
+          "choices": [
+            "decrease",
+            "in my view",
+            "briefly"
+          ],
+          "answer": 2,
+          "speak": "briefly",
+          "reviewOf": "b2-u3-summarising"
+        },
+        {
+          "id": "b2-u4-essay-structure.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «sum up»",
+          "speak": "sum up",
+          "choices": [
+            "مقدمه",
+            "خلاصه کردن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u3-summarising"
+        },
+        {
+          "id": "b2-u4-essay-structure.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "در هر پاراگراف یک ایده بنویس.",
+          "sentence": "Write one idea per ___.",
+          "choices": [
+            "significantly",
+            "paragraph",
+            "formal"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The introduction is short and the conclusion is clear.",
+          "fa": "مقدمه کوتاه است و نتیجه‌گیری روشن."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "یک ایده در هر پاراگراف",
+        "body": "مقدمه موضوع را می‌گوید، هر پاراگراف یک ایده و نتیجه‌گیری جمع‌بندی می‌کند."
+      }
+    },
+    {
+      "id": "b2-u4-cause-effect",
+      "title": "Due to and as a result",
+      "titleFa": "علت و نتیجه در متن",
+      "goal": "رابطهٔ علت و نتیجه را رسمی بگویی",
+      "buildsOn": [
+        "b2-u4-essay-structure"
+      ],
+      "vocab": [
+        {
+          "en": "due to",
+          "fa": "به دلیل",
+          "emoji": "⚡"
+        },
+        {
+          "en": "as a result",
+          "fa": "در نتیجه",
+          "emoji": "📊"
+        },
+        {
+          "en": "lead to",
+          "fa": "منجر شدن به",
+          "emoji": "➡️"
+        },
+        {
+          "en": "owing to",
+          "fa": "به‌خاطر",
+          "emoji": "📌"
+        },
+        {
+          "en": "because of",
+          "fa": "به دلیل",
+          "emoji": "🔗"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "due to",
+          "fa": "به دلیل",
+          "emoji": "⚡"
+        },
+        {
+          "kind": "word",
+          "en": "as a result",
+          "fa": "در نتیجه",
+          "emoji": "📊"
+        },
+        {
+          "kind": "word",
+          "en": "lead to",
+          "fa": "منجر شدن به",
+          "emoji": "➡️"
+        },
+        {
+          "kind": "word",
+          "en": "owing to",
+          "fa": "به‌خاطر",
+          "emoji": "📌"
+        },
+        {
+          "kind": "sentence",
+          "en": "This leads to more traffic.",
+          "fa": "این منجر به ترافیک بیشتری می‌شود."
+        },
+        {
+          "kind": "sentence",
+          "en": "Prices rose due to demand.",
+          "fa": "قیمت‌ها به دلیل تقاضا بالا رفت.",
+          "highlight": "due"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از due to اسم",
+          "body": "due to و because of با اسم می‌آیند، نه با جمله: due to demand.",
+          "examples": [
+            {
+              "en": "This leads to more traffic.",
+              "fa": "این منجر به ترافیک بیشتری می‌شود."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u4-cause-effect.1",
+          "kind": "mcq",
+          "prompt": "معنی «due to» چیست؟",
+          "promptFa": "به دلیل",
+          "choices": [
+            "پاراگراف",
+            "موضوع",
+            "به دلیل"
+          ],
+          "answer": 2,
+          "speak": "due to",
+          "aiHints": {
+            "example": "I know the word \"due to\".",
+            "explanation": "«due to» یعنی به دلیل."
+          }
+        },
+        {
+          "id": "b2-u4-cause-effect.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📊",
+          "choices": [
+            "because of",
+            "owing to",
+            "as a result"
+          ],
+          "answer": 2,
+          "speak": "as a result"
+        },
+        {
+          "id": "b2-u4-cause-effect.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "lead to",
+          "choices": [
+            "significantly",
+            "in my view",
+            "lead to"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u4-cause-effect.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "lead to",
+              "fa": "منجر شدن به"
+            },
+            {
+              "en": "as a result",
+              "fa": "در نتیجه"
+            },
+            {
+              "en": "due to",
+              "fa": "به دلیل"
+            },
+            {
+              "en": "owing to",
+              "fa": "به‌خاطر"
+            }
+          ]
+        },
+        {
+          "id": "b2-u4-cause-effect.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "قیمت‌ها به دلیل تقاضا بالا رفت.",
+          "sentence": "Prices rose ___ to demand.",
+          "choices": [
+            "there is no doubt",
+            "due",
+            "paragraph"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u4-cause-effect.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این منجر به ترافیک بیشتری می‌شود.",
+          "tokens": [
+            "This",
+            "leads",
+            "more",
+            "traffic",
+            "to"
+          ],
+          "answer": "This leads to more traffic"
+        },
+        {
+          "id": "b2-u4-cause-effect.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Prices",
+            "rose",
+            "due",
+            "of",
+            "demand."
+          ],
+          "answer": 3,
+          "fix": "Prices rose due to demand.",
+          "aiHints": {
+            "explanation": "درستش این است: Prices rose due to demand."
+          }
+        },
+        {
+          "id": "b2-u4-cause-effect.8",
+          "kind": "speed",
+          "prompt": "سریع! «because of» یعنی چه؟",
+          "speak": "because of",
+          "choices": [
+            "به دلیل",
+            "مقدمه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u4-cause-effect.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «paragraph»",
+          "choices": [
+            "به‌احتمال قوی",
+            "پاراگراف",
+            "مقدمه"
+          ],
+          "answer": 1,
+          "speak": "paragraph",
+          "reviewOf": "b2-u4-essay-structure"
+        },
+        {
+          "id": "b2-u4-cause-effect.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "conclusion",
+          "choices": [
+            "lead to",
+            "as a result",
+            "conclusion"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u4-essay-structure"
+        },
+        {
+          "id": "b2-u4-cause-effect.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🎯",
+          "choices": [
+            "in my view",
+            "topic",
+            "due to"
+          ],
+          "answer": 1,
+          "speak": "topic",
+          "reviewOf": "b2-u4-essay-structure"
+        },
+        {
+          "id": "b2-u4-cause-effect.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «formal»",
+          "speak": "formal",
+          "choices": [
+            "مقدمه",
+            "رسمی"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u4-essay-structure"
+        },
+        {
+          "id": "b2-u4-cause-effect.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "در نتیجه، فروش کم شد.",
+          "sentence": "As a ___, sales dropped.",
+          "choices": [
+            "it is clear",
+            "owing to",
+            "result"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Sales rose due to advertising, and as a result profit increased.",
+          "fa": "فروش به دلیل تبلیغات بالا رفت و در نتیجه سود بیشتر شد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از due to اسم",
+        "body": "due to و because of با اسم می‌آیند، نه با جمله: due to demand."
+      }
+    },
+    {
+      "id": "b2-u4-comparing-data",
+      "title": "Increased by 20%",
+      "titleFa": "توصیف داده",
+      "goal": "آمار و تغییرها را توصیف کنی",
+      "buildsOn": [
+        "b2-u4-cause-effect"
+      ],
+      "vocab": [
+        {
+          "en": "increase",
+          "fa": "افزایش",
+          "emoji": "📈"
+        },
+        {
+          "en": "decrease",
+          "fa": "کاهش",
+          "emoji": "📉"
+        },
+        {
+          "en": "double",
+          "fa": "دو برابر شدن",
+          "emoji": "✖️"
+        },
+        {
+          "en": "remain",
+          "fa": "باقی ماندن",
+          "emoji": "⏸️"
+        },
+        {
+          "en": "significantly",
+          "fa": "به‌طور قابل‌توجه",
+          "emoji": "❗"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "increase",
+          "fa": "افزایش",
+          "emoji": "📈"
+        },
+        {
+          "kind": "word",
+          "en": "decrease",
+          "fa": "کاهش",
+          "emoji": "📉"
+        },
+        {
+          "kind": "word",
+          "en": "double",
+          "fa": "دو برابر شدن",
+          "emoji": "✖️"
+        },
+        {
+          "kind": "word",
+          "en": "remain",
+          "fa": "باقی ماندن",
+          "emoji": "⏸️"
+        },
+        {
+          "kind": "sentence",
+          "en": "The number doubled last year.",
+          "fa": "تعداد سال گذشته دو برابر شد."
+        },
+        {
+          "kind": "sentence",
+          "en": "Sales increased by 20%.",
+          "fa": "فروش ۲۰٪ افزایش یافت.",
+          "highlight": "increased"
+        },
+        {
+          "kind": "rule",
+          "title": "by برای مقدار",
+          "body": "increase/decrease by + عدد: it increased by 20%.",
+          "examples": [
+            {
+              "en": "The number doubled last year.",
+              "fa": "تعداد سال گذشته دو برابر شد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u4-comparing-data.1",
+          "kind": "mcq",
+          "prompt": "معنی «increase» چیست؟",
+          "promptFa": "افزایش",
+          "choices": [
+            "منجر شدن به",
+            "افزایش",
+            "روشن است"
+          ],
+          "answer": 1,
+          "speak": "increase",
+          "aiHints": {
+            "example": "I know the word \"increase\".",
+            "explanation": "«increase» یعنی افزایش."
+          }
+        },
+        {
+          "id": "b2-u4-comparing-data.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📉",
+          "choices": [
+            "decrease",
+            "significantly",
+            "increase"
+          ],
+          "answer": 0,
+          "speak": "decrease"
+        },
+        {
+          "id": "b2-u4-comparing-data.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "double",
+          "choices": [
+            "there is no doubt",
+            "double",
+            "as a result"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u4-comparing-data.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "double",
+              "fa": "دو برابر شدن"
+            },
+            {
+              "en": "decrease",
+              "fa": "کاهش"
+            },
+            {
+              "en": "remain",
+              "fa": "باقی ماندن"
+            },
+            {
+              "en": "increase",
+              "fa": "افزایش"
+            }
+          ]
+        },
+        {
+          "id": "b2-u4-comparing-data.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "فروش ۲۰٪ افزایش یافت.",
+          "sentence": "Sales ___ by 20%.",
+          "choices": [
+            "there is no doubt",
+            "increased",
+            "significantly"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u4-comparing-data.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "تعداد سال گذشته دو برابر شد.",
+          "tokens": [
+            "year",
+            "doubled",
+            "The",
+            "number",
+            "last"
+          ],
+          "answer": "The number doubled last year"
+        },
+        {
+          "id": "b2-u4-comparing-data.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Sales",
+            "increase",
+            "significantly",
+            "last",
+            "year."
+          ],
+          "answer": 1,
+          "fix": "Sales increased significantly last year.",
+          "aiHints": {
+            "explanation": "درستش این است: Sales increased significantly last year."
+          }
+        },
+        {
+          "id": "b2-u4-comparing-data.8",
+          "kind": "speed",
+          "prompt": "سریع! «significantly» یعنی چه؟",
+          "speak": "significantly",
+          "choices": [
+            "به‌طور قابل‌توجه",
+            "مقدمه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u4-comparing-data.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «as a result»",
+          "choices": [
+            "در نتیجه",
+            "رسمی",
+            "به‌احتمال قوی"
+          ],
+          "answer": 0,
+          "speak": "as a result",
+          "reviewOf": "b2-u4-cause-effect"
+        },
+        {
+          "id": "b2-u4-comparing-data.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "lead to",
+          "choices": [
+            "increase",
+            "significantly",
+            "lead to"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u4-cause-effect"
+        },
+        {
+          "id": "b2-u4-comparing-data.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📌",
+          "choices": [
+            "decrease",
+            "owing to",
+            "because of"
+          ],
+          "answer": 1,
+          "speak": "owing to",
+          "reviewOf": "b2-u4-cause-effect"
+        },
+        {
+          "id": "b2-u4-comparing-data.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «because of»",
+          "speak": "because of",
+          "choices": [
+            "مقدمه",
+            "به دلیل"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u4-cause-effect"
+        },
+        {
+          "id": "b2-u4-comparing-data.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "قیمت‌ها ثابت ماند.",
+          "sentence": "Prices remained ___.",
+          "choices": [
+            "conclusion",
+            "stable",
+            "increase"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Costs decreased significantly last year.",
+          "fa": "هزینه‌ها سال پیش به‌طور قابل‌توجهی کاهش یافت."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "by برای مقدار",
+        "body": "increase/decrease by + عدد: it increased by 20%."
+      }
+    },
+    {
+      "id": "b2-u4-essay-opinions",
+      "title": "There is no doubt that",
+      "titleFa": "بیان نظر در متن",
+      "goal": "نظرت را در متن رسمی بیان کنی",
+      "buildsOn": [
+        "b2-u4-comparing-data"
+      ],
+      "vocab": [
+        {
+          "en": "there is no doubt",
+          "fa": "هیچ شکی نیست",
+          "emoji": "✔️"
+        },
+        {
+          "en": "it is clear",
+          "fa": "روشن است",
+          "emoji": "💡"
+        },
+        {
+          "en": "arguably",
+          "fa": "به‌احتمال قوی",
+          "emoji": "🤔"
+        },
+        {
+          "en": "in my view",
+          "fa": "از نظر من",
+          "emoji": "👤"
+        },
+        {
+          "en": "evidence",
+          "fa": "شواهد",
+          "emoji": "🔍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "there is no doubt",
+          "fa": "هیچ شکی نیست",
+          "emoji": "✔️"
+        },
+        {
+          "kind": "word",
+          "en": "it is clear",
+          "fa": "روشن است",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "arguably",
+          "fa": "به‌احتمال قوی",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "in my view",
+          "fa": "از نظر من",
+          "emoji": "👤"
+        },
+        {
+          "kind": "sentence",
+          "en": "There is no doubt that education matters.",
+          "fa": "هیچ شکی نیست که آموزش مهم است."
+        },
+        {
+          "kind": "sentence",
+          "en": "There is no doubt that it works.",
+          "fa": "هیچ شکی نیست که کار می‌کند.",
+          "highlight": "There"
+        },
+        {
+          "kind": "rule",
+          "title": "there is no doubt that",
+          "body": "بعد از این عبارت یک جملهٔ کامل می‌آید: there is no doubt that it works.",
+          "examples": [
+            {
+              "en": "There is no doubt that education matters.",
+              "fa": "هیچ شکی نیست که آموزش مهم است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u4-essay-opinions.1",
+          "kind": "mcq",
+          "prompt": "معنی «there is no doubt» چیست؟",
+          "promptFa": "هیچ شکی نیست",
+          "choices": [
+            "پاراگراف",
+            "منجر شدن به",
+            "هیچ شکی نیست"
+          ],
+          "answer": 2,
+          "speak": "there is no doubt",
+          "aiHints": {
+            "example": "I know the word \"there is no doubt\".",
+            "explanation": "«there is no doubt» یعنی هیچ شکی نیست."
+          }
+        },
+        {
+          "id": "b2-u4-essay-opinions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💡",
+          "choices": [
+            "it is clear",
+            "in my view",
+            "evidence"
+          ],
+          "answer": 0,
+          "speak": "it is clear"
+        },
+        {
+          "id": "b2-u4-essay-opinions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "arguably",
+          "choices": [
+            "arguably",
+            "double",
+            "topic"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u4-essay-opinions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "it is clear",
+              "fa": "روشن است"
+            },
+            {
+              "en": "arguably",
+              "fa": "به‌احتمال قوی"
+            },
+            {
+              "en": "there is no doubt",
+              "fa": "هیچ شکی نیست"
+            },
+            {
+              "en": "in my view",
+              "fa": "از نظر من"
+            }
+          ]
+        },
+        {
+          "id": "b2-u4-essay-opinions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "هیچ شکی نیست که کار می‌کند.",
+          "sentence": "___ is no doubt that it works.",
+          "choices": [
+            "there is no doubt",
+            "introduction",
+            "There"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u4-essay-opinions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "هیچ شکی نیست که آموزش مهم است.",
+          "tokens": [
+            "doubt",
+            "matters",
+            "that",
+            "is",
+            "There",
+            "no",
+            "education"
+          ],
+          "answer": "There is no doubt that education matters"
+        },
+        {
+          "id": "b2-u4-essay-opinions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "There",
+            "is",
+            "no",
+            "doubt",
+            "that",
+            "education",
+            "matter."
+          ],
+          "answer": 6,
+          "fix": "There is no doubt that education matters.",
+          "aiHints": {
+            "explanation": "درستش این است: There is no doubt that education matters."
+          }
+        },
+        {
+          "id": "b2-u4-essay-opinions.8",
+          "kind": "speed",
+          "prompt": "سریع! «evidence» یعنی چه؟",
+          "speak": "evidence",
+          "choices": [
+            "شواهد",
+            "مقدمه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u4-essay-opinions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «decrease»",
+          "choices": [
+            "کاهش",
+            "موضوع",
+            "به‌طور قابل‌توجه"
+          ],
+          "answer": 0,
+          "speak": "decrease",
+          "reviewOf": "b2-u4-comparing-data"
+        },
+        {
+          "id": "b2-u4-essay-opinions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "double",
+          "choices": [
+            "topic",
+            "double",
+            "because of"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u4-comparing-data"
+        },
+        {
+          "id": "b2-u4-essay-opinions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "⏸️",
+          "choices": [
+            "decrease",
+            "arguably",
+            "remain"
+          ],
+          "answer": 2,
+          "speak": "remain",
+          "reviewOf": "b2-u4-comparing-data"
+        },
+        {
+          "id": "b2-u4-essay-opinions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «significantly»",
+          "speak": "significantly",
+          "choices": [
+            "به‌طور قابل‌توجه",
+            "مقدمه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u4-comparing-data"
+        },
+        {
+          "id": "b2-u4-essay-opinions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "روشن است که این بهترین است.",
+          "sentence": "It is ___ that this is best.",
+          "choices": [
+            "lead to",
+            "clear",
+            "there is no doubt"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "In my view, it is clear that the plan helps.",
+          "fa": "از نظر من روشن است که برنامه کمک می‌کند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "there is no doubt that",
+        "body": "بعد از این عبارت یک جملهٔ کامل می‌آید: there is no doubt that it works."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u4-boss",
+    "titleFa": "نبرد پایانی — گزارش و مقاله",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u4-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «paragraph»",
+        "speak": "paragraph",
+        "choices": [
+          "کاهش",
+          "روشن است",
+          "پاراگراف"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u4-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "formal",
+        "choices": [
+          "formal",
+          "double",
+          "as a result"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u4-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "➡️",
+        "choices": [
+          "it is clear",
+          "lead to",
+          "double"
+        ],
+        "answer": 1,
+        "speak": "lead to"
+      },
+      {
+        "id": "b2-u4-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «increase»",
+        "speak": "increase",
+        "choices": [
+          "افزایش",
+          "از نظر من"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u4-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «remain»",
+        "speak": "remain",
+        "choices": [
+          "منجر شدن به",
+          "کاهش",
+          "باقی ماندن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u4-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "it is clear",
+        "choices": [
+          "it is clear",
+          "significantly",
+          "formal"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u4-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🔍",
+        "choices": [
+          "decrease",
+          "evidence",
+          "due to"
+        ],
+        "answer": 1,
+        "speak": "evidence"
+      },
+      {
+        "id": "b2-u4-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «conclusion»",
+        "speak": "conclusion",
+        "choices": [
+          "شواهد",
+          "نتیجه‌گیری"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u4-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «due to»",
+        "speak": "due to",
+        "choices": [
+          "به‌احتمال قوی",
+          "منجر شدن به",
+          "به دلیل"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u4-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "owing to",
+        "choices": [
+          "introduction",
+          "owing to",
+          "topic"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}

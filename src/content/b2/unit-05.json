@@ -1,0 +1,1283 @@
+{
+  "id": "b2-u5",
+  "level": "B2",
+  "index": 5,
+  "titleFa": "تأکید و ساختارهای پیشرفته",
+  "titleEn": "Emphasis and structures",
+  "theme": "coral",
+  "lessons": [
+    {
+      "id": "b2-u5-cleft",
+      "title": "It was Ali who called",
+      "titleFa": "جملهٔ تأکیدی",
+      "goal": "روی یک بخش جمله تأکید کنی",
+      "buildsOn": [
+        "b2-u4-essay-opinions"
+      ],
+      "vocab": [
+        {
+          "en": "it was",
+          "fa": "همان … بود که",
+          "emoji": "🔦"
+        },
+        {
+          "en": "what I need",
+          "fa": "چیزی که لازم دارم",
+          "emoji": "🎯"
+        },
+        {
+          "en": "who",
+          "fa": "که (آدم)",
+          "emoji": "🧑"
+        },
+        {
+          "en": "indeed",
+          "fa": "در واقع",
+          "emoji": "✅"
+        },
+        {
+          "en": "exactly",
+          "fa": "دقیقاً",
+          "emoji": "🎯"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "it was",
+          "fa": "همان … بود که",
+          "emoji": "🔦"
+        },
+        {
+          "kind": "word",
+          "en": "what I need",
+          "fa": "چیزی که لازم دارم",
+          "emoji": "🎯"
+        },
+        {
+          "kind": "word",
+          "en": "who",
+          "fa": "که (آدم)",
+          "emoji": "🧑"
+        },
+        {
+          "kind": "word",
+          "en": "indeed",
+          "fa": "در واقع",
+          "emoji": "✅"
+        },
+        {
+          "kind": "sentence",
+          "en": "It was Ali who called you.",
+          "fa": "علی بود که بهت زنگ زد."
+        },
+        {
+          "kind": "sentence",
+          "en": "It was my mother who helped me.",
+          "fa": "این مادرم بود که کمکم کرد.",
+          "highlight": "It was"
+        },
+        {
+          "kind": "rule",
+          "title": "ابعاد تأکید",
+          "body": "برای تأکید روی آدم: it was + نام + who…، روی چیز: it was + چیز + that…",
+          "examples": [
+            {
+              "en": "It was Ali who called you.",
+              "fa": "علی بود که بهت زنگ زد."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u5-cleft.1",
+          "kind": "mcq",
+          "prompt": "معنی «it was» چیست؟",
+          "promptFa": "همان … بود که",
+          "choices": [
+            "شرکت کردن",
+            "چیزی که لازم دارم",
+            "همان … بود که"
+          ],
+          "answer": 2,
+          "speak": "it was",
+          "aiHints": {
+            "example": "I know the word \"it was\".",
+            "explanation": "«it was» یعنی همان … بود که."
+          }
+        },
+        {
+          "id": "b2-u5-cleft.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🎯",
+          "choices": [
+            "indeed",
+            "who",
+            "what I need"
+          ],
+          "answer": 2,
+          "speak": "what I need"
+        },
+        {
+          "id": "b2-u5-cleft.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "who",
+          "choices": [
+            "who",
+            "it was",
+            "rarely"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u5-cleft.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "what I need",
+              "fa": "چیزی که لازم دارم"
+            },
+            {
+              "en": "indeed",
+              "fa": "در واقع"
+            },
+            {
+              "en": "who",
+              "fa": "که (آدم)"
+            },
+            {
+              "en": "it was",
+              "fa": "همان … بود که"
+            }
+          ]
+        },
+        {
+          "id": "b2-u5-cleft.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این مادرم بود که کمکم کرد.",
+          "sentence": "___ my mother who helped me.",
+          "choices": [
+            "It was",
+            "in fact",
+            "who"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u5-cleft.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "علی بود که بهت زنگ زد.",
+          "tokens": [
+            "was",
+            "you",
+            "called",
+            "It",
+            "who",
+            "Ali"
+          ],
+          "answer": "It was Ali who called you"
+        },
+        {
+          "id": "b2-u5-cleft.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "was",
+            "Ali",
+            "which",
+            "called",
+            "you."
+          ],
+          "answer": 3,
+          "fix": "It was Ali who called you.",
+          "aiHints": {
+            "explanation": "درستش این است: It was Ali who called you."
+          }
+        },
+        {
+          "id": "b2-u5-cleft.8",
+          "kind": "speed",
+          "prompt": "سریع! «exactly» یعنی چه؟",
+          "speak": "exactly",
+          "choices": [
+            "دقیقاً",
+            "همان … بود که"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u5-cleft.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «it is clear»",
+          "choices": [
+            "واقعاً می‌کند",
+            "هرگز نکرده‌ام",
+            "روشن است"
+          ],
+          "answer": 2,
+          "speak": "it is clear",
+          "reviewOf": "b2-u4-essay-opinions"
+        },
+        {
+          "id": "b2-u5-cleft.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "arguably",
+          "choices": [
+            "such",
+            "arguably",
+            "believe"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u4-essay-opinions"
+        },
+        {
+          "id": "b2-u5-cleft.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👤",
+          "choices": [
+            "do research",
+            "in my view",
+            "make a decision"
+          ],
+          "answer": 1,
+          "speak": "in my view",
+          "reviewOf": "b2-u4-essay-opinions"
+        },
+        {
+          "id": "b2-u5-cleft.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «evidence»",
+          "speak": "evidence",
+          "choices": [
+            "همان … بود که",
+            "شواهد"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u4-essay-opinions"
+        },
+        {
+          "id": "b2-u5-cleft.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "چیزی که لازم دارم وقت است.",
+          "sentence": "___ I need is time.",
+          "choices": [
+            "What",
+            "who",
+            "believe"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "It was my teacher who encouraged me.",
+          "fa": "این معلمم بود که تشویقم کرد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "ابعاد تأکید",
+        "body": "برای تأکید روی آدم: it was + نام + who…، روی چیز: it was + چیز + that…"
+      }
+    },
+    {
+      "id": "b2-u5-inversion",
+      "title": "Never have I seen",
+      "titleFa": "وارونگی بعد از قید منفی",
+      "goal": "با تأکید قوی حرف بزنی",
+      "buildsOn": [
+        "b2-u5-cleft"
+      ],
+      "vocab": [
+        {
+          "en": "never have I",
+          "fa": "هرگز نکرده‌ام",
+          "emoji": "🚫"
+        },
+        {
+          "en": "rarely",
+          "fa": "به‌ندرت",
+          "emoji": "🌘"
+        },
+        {
+          "en": "hardly",
+          "fa": "به‌سختی",
+          "emoji": "😮"
+        },
+        {
+          "en": "not only",
+          "fa": "نه تنها",
+          "emoji": "➕"
+        },
+        {
+          "en": "such",
+          "fa": "چنین",
+          "emoji": "🔁"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "never have I",
+          "fa": "هرگز نکرده‌ام",
+          "emoji": "🚫"
+        },
+        {
+          "kind": "word",
+          "en": "rarely",
+          "fa": "به‌ندرت",
+          "emoji": "🌘"
+        },
+        {
+          "kind": "word",
+          "en": "hardly",
+          "fa": "به‌سختی",
+          "emoji": "😮"
+        },
+        {
+          "kind": "word",
+          "en": "not only",
+          "fa": "نه تنها",
+          "emoji": "➕"
+        },
+        {
+          "kind": "sentence",
+          "en": "Never have I seen such a view.",
+          "fa": "هرگز چنین منظری ندیده‌ام."
+        },
+        {
+          "kind": "sentence",
+          "en": "Never have I seen such a thing.",
+          "fa": "هرگز چنین چیزی ندیده‌ام.",
+          "highlight": "have"
+        },
+        {
+          "kind": "rule",
+          "title": "فعل کمکی جلو می‌آید",
+          "body": "بعد از never/rarely/hardly فعل کمکی قبل از فاعل می‌آید: never have I seen.",
+          "examples": [
+            {
+              "en": "Never have I seen such a view.",
+              "fa": "هرگز چنین منظری ندیده‌ام."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u5-inversion.1",
+          "kind": "mcq",
+          "prompt": "معنی «never have I» چیست؟",
+          "promptFa": "هرگز نکرده‌ام",
+          "choices": [
+            "هرگز نکرده‌ام",
+            "به‌ندرت",
+            "چیزی که لازم دارم"
+          ],
+          "answer": 0,
+          "speak": "never have I",
+          "aiHints": {
+            "example": "I know the word \"never have I\".",
+            "explanation": "«never have I» یعنی هرگز نکرده‌ام."
+          }
+        },
+        {
+          "id": "b2-u5-inversion.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🌘",
+          "choices": [
+            "never have I",
+            "rarely",
+            "hardly"
+          ],
+          "answer": 1,
+          "speak": "rarely"
+        },
+        {
+          "id": "b2-u5-inversion.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "hardly",
+          "choices": [
+            "hardly",
+            "believe",
+            "take part"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u5-inversion.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "hardly",
+              "fa": "به‌سختی"
+            },
+            {
+              "en": "not only",
+              "fa": "نه تنها"
+            },
+            {
+              "en": "never have I",
+              "fa": "هرگز نکرده‌ام"
+            },
+            {
+              "en": "rarely",
+              "fa": "به‌ندرت"
+            }
+          ]
+        },
+        {
+          "id": "b2-u5-inversion.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "هرگز چنین چیزی ندیده‌ام.",
+          "sentence": "Never ___ I seen such a thing.",
+          "choices": [
+            "really",
+            "have",
+            "such"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u5-inversion.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "هرگز چنین منظری ندیده‌ام.",
+          "tokens": [
+            "I",
+            "view",
+            "seen",
+            "have",
+            "such",
+            "Never",
+            "a"
+          ],
+          "answer": "Never have I seen such a view"
+        },
+        {
+          "id": "b2-u5-inversion.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Never",
+            "I",
+            "have",
+            "seen",
+            "such",
+            "a",
+            "view."
+          ],
+          "answer": 1,
+          "fix": "Never have I seen such a view.",
+          "aiHints": {
+            "explanation": "درستش این است: Never have I seen such a view."
+          }
+        },
+        {
+          "id": "b2-u5-inversion.8",
+          "kind": "speed",
+          "prompt": "سریع! «such» یعنی چه؟",
+          "speak": "such",
+          "choices": [
+            "چنین",
+            "همان … بود که"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u5-inversion.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «what I need»",
+          "choices": [
+            "تصمیم گرفتن",
+            "چیزی که لازم دارم",
+            "توجه کردن"
+          ],
+          "answer": 1,
+          "speak": "what I need",
+          "reviewOf": "b2-u5-cleft"
+        },
+        {
+          "id": "b2-u5-inversion.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "who",
+          "choices": [
+            "who",
+            "not only",
+            "does"
+          ],
+          "answer": 0,
+          "reviewOf": "b2-u5-cleft"
+        },
+        {
+          "id": "b2-u5-inversion.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "✅",
+          "choices": [
+            "believe",
+            "rarely",
+            "indeed"
+          ],
+          "answer": 2,
+          "speak": "indeed",
+          "reviewOf": "b2-u5-cleft"
+        },
+        {
+          "id": "b2-u5-inversion.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «exactly»",
+          "speak": "exactly",
+          "choices": [
+            "همان … بود که",
+            "دقیقاً"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u5-cleft"
+        },
+        {
+          "id": "b2-u5-inversion.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "نه تنها می‌خواند، بلکه می‌رقصد.",
+          "sentence": "Not only ___ he sing, but he dances.",
+          "choices": [
+            "it was",
+            "does",
+            "never have I"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Not only is it cheap, it is also useful.",
+          "fa": "نه تنها ارزان است، بلکه مفید هم هست."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "فعل کمکی جلو می‌آید",
+        "body": "بعد از never/rarely/hardly فعل کمکی قبل از فاعل می‌آید: never have I seen."
+      }
+    },
+    {
+      "id": "b2-u5-emphasis-do",
+      "title": "I do like it",
+      "titleFa": "تأکید با do",
+      "goal": "بیانیه‌ات را قوی‌تر کنی",
+      "buildsOn": [
+        "b2-u5-inversion"
+      ],
+      "vocab": [
+        {
+          "en": "do",
+          "fa": "واقعاً",
+          "emoji": "❗"
+        },
+        {
+          "en": "does",
+          "fa": "واقعاً می‌کند",
+          "emoji": "❗"
+        },
+        {
+          "en": "really",
+          "fa": "واقعاً (تأکید)",
+          "emoji": "✅"
+        },
+        {
+          "en": "in fact",
+          "fa": "در واقع",
+          "emoji": "📌"
+        },
+        {
+          "en": "believe",
+          "fa": "باور کردن",
+          "emoji": "💭"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "do",
+          "fa": "واقعاً",
+          "emoji": "❗"
+        },
+        {
+          "kind": "word",
+          "en": "does",
+          "fa": "واقعاً می‌کند",
+          "emoji": "❗"
+        },
+        {
+          "kind": "word",
+          "en": "really",
+          "fa": "واقعاً (تأکید)",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "in fact",
+          "fa": "در واقع",
+          "emoji": "📌"
+        },
+        {
+          "kind": "sentence",
+          "en": "I do believe you.",
+          "fa": "واقعاً باورت دارم."
+        },
+        {
+          "kind": "sentence",
+          "en": "I do like this song!",
+          "fa": "من واقعاً این آهنگ را دوست دارم!",
+          "highlight": "do"
+        },
+        {
+          "kind": "rule",
+          "title": "do/does برای تأکید",
+          "body": "در جملهٔ مثبت هم می‌شود do/does آورد تا تأکید بیشتر شود.",
+          "examples": [
+            {
+              "en": "I do believe you.",
+              "fa": "واقعاً باورت دارم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u5-emphasis-do.1",
+          "kind": "mcq",
+          "prompt": "معنی «do» چیست؟",
+          "promptFa": "واقعاً",
+          "choices": [
+            "در واقع",
+            "به‌سختی",
+            "واقعاً"
+          ],
+          "answer": 2,
+          "speak": "do",
+          "aiHints": {
+            "example": "I know the word \"do\".",
+            "explanation": "«do» یعنی واقعاً."
+          }
+        },
+        {
+          "id": "b2-u5-emphasis-do.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "❗",
+          "choices": [
+            "does",
+            "in fact",
+            "really"
+          ],
+          "answer": 0,
+          "speak": "does"
+        },
+        {
+          "id": "b2-u5-emphasis-do.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "really",
+          "choices": [
+            "never have I",
+            "what I need",
+            "really"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u5-emphasis-do.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "does",
+              "fa": "واقعاً می‌کند"
+            },
+            {
+              "en": "do",
+              "fa": "واقعاً"
+            },
+            {
+              "en": "in fact",
+              "fa": "در واقع"
+            },
+            {
+              "en": "really",
+              "fa": "واقعاً (تأکید)"
+            }
+          ]
+        },
+        {
+          "id": "b2-u5-emphasis-do.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من واقعاً این آهنگ را دوست دارم!",
+          "sentence": "I ___ like this song!",
+          "choices": [
+            "believe",
+            "hardly",
+            "do"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u5-emphasis-do.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "واقعاً باورت دارم.",
+          "tokens": [
+            "you",
+            "I",
+            "do",
+            "believe"
+          ],
+          "answer": "I do believe you"
+        },
+        {
+          "id": "b2-u5-emphasis-do.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "does",
+            "like",
+            "it."
+          ],
+          "answer": 1,
+          "fix": "I do like it.",
+          "aiHints": {
+            "explanation": "درستش این است: I do like it."
+          }
+        },
+        {
+          "id": "b2-u5-emphasis-do.8",
+          "kind": "speed",
+          "prompt": "سریع! «believe» یعنی چه؟",
+          "speak": "believe",
+          "choices": [
+            "باور کردن",
+            "همان … بود که"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u5-emphasis-do.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «rarely»",
+          "choices": [
+            "واقعاً",
+            "شرکت کردن",
+            "به‌ندرت"
+          ],
+          "answer": 2,
+          "speak": "rarely",
+          "reviewOf": "b2-u5-inversion"
+        },
+        {
+          "id": "b2-u5-emphasis-do.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "hardly",
+          "choices": [
+            "in fact",
+            "hardly",
+            "take part"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u5-inversion"
+        },
+        {
+          "id": "b2-u5-emphasis-do.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "➕",
+          "choices": [
+            "not only",
+            "give advice",
+            "indeed"
+          ],
+          "answer": 0,
+          "speak": "not only",
+          "reviewOf": "b2-u5-inversion"
+        },
+        {
+          "id": "b2-u5-emphasis-do.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «such»",
+          "speak": "such",
+          "choices": [
+            "چنین",
+            "همان … بود که"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u5-inversion"
+        },
+        {
+          "id": "b2-u5-emphasis-do.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او واقعاً می‌خواهد کمک کند.",
+          "sentence": "She ___ want to help.",
+          "choices": [
+            "does",
+            "believe",
+            "really"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "In fact, I do enjoy this class.",
+          "fa": "در واقع من از این کلاس لذت می‌برم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "do/does برای تأکید",
+        "body": "در جملهٔ مثبت هم می‌شود do/does آورد تا تأکید بیشتر شود."
+      }
+    },
+    {
+      "id": "b2-u5-collocations",
+      "title": "Make a decision",
+      "titleFa": "ترکیب‌های طبیعی",
+      "goal": "با فعل‌های درست ترکیب بسازی",
+      "buildsOn": [
+        "b2-u5-emphasis-do"
+      ],
+      "vocab": [
+        {
+          "en": "make a decision",
+          "fa": "تصمیم گرفتن",
+          "emoji": "✅"
+        },
+        {
+          "en": "take part",
+          "fa": "شرکت کردن",
+          "emoji": "🙋"
+        },
+        {
+          "en": "give advice",
+          "fa": "توصیه دادن",
+          "emoji": "💡"
+        },
+        {
+          "en": "do research",
+          "fa": "تحقیق کردن",
+          "emoji": "🔬"
+        },
+        {
+          "en": "pay attention",
+          "fa": "توجه کردن",
+          "emoji": "👀"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "make a decision",
+          "fa": "تصمیم گرفتن",
+          "emoji": "✅"
+        },
+        {
+          "kind": "word",
+          "en": "take part",
+          "fa": "شرکت کردن",
+          "emoji": "🙋"
+        },
+        {
+          "kind": "word",
+          "en": "give advice",
+          "fa": "توصیه دادن",
+          "emoji": "💡"
+        },
+        {
+          "kind": "word",
+          "en": "do research",
+          "fa": "تحقیق کردن",
+          "emoji": "🔬"
+        },
+        {
+          "kind": "sentence",
+          "en": "Please pay attention to the details.",
+          "fa": "لطفاً به جزئیات توجه کن."
+        },
+        {
+          "kind": "sentence",
+          "en": "We need to make a decision.",
+          "fa": "باید تصمیم بگیریم.",
+          "highlight": "make"
+        },
+        {
+          "kind": "rule",
+          "title": "make، نه do",
+          "body": "در انگلیسی می‌گوییم make a decision، take part، pay attention — نه do.",
+          "examples": [
+            {
+              "en": "Please pay attention to the details.",
+              "fa": "لطفاً به جزئیات توجه کن."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u5-collocations.1",
+          "kind": "mcq",
+          "prompt": "معنی «make a decision» چیست؟",
+          "promptFa": "تصمیم گرفتن",
+          "choices": [
+            "دقیقاً",
+            "تصمیم گرفتن",
+            "توجه کردن"
+          ],
+          "answer": 1,
+          "speak": "make a decision",
+          "aiHints": {
+            "example": "I know the word \"make a decision\".",
+            "explanation": "«make a decision» یعنی تصمیم گرفتن."
+          }
+        },
+        {
+          "id": "b2-u5-collocations.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🙋",
+          "choices": [
+            "take part",
+            "do research",
+            "give advice"
+          ],
+          "answer": 0,
+          "speak": "take part"
+        },
+        {
+          "id": "b2-u5-collocations.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "give advice",
+          "choices": [
+            "exactly",
+            "give advice",
+            "who"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u5-collocations.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "make a decision",
+              "fa": "تصمیم گرفتن"
+            },
+            {
+              "en": "give advice",
+              "fa": "توصیه دادن"
+            },
+            {
+              "en": "do research",
+              "fa": "تحقیق کردن"
+            },
+            {
+              "en": "take part",
+              "fa": "شرکت کردن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u5-collocations.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "باید تصمیم بگیریم.",
+          "sentence": "We need to ___ a decision.",
+          "choices": [
+            "make",
+            "pay attention",
+            "do research"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u5-collocations.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "لطفاً به جزئیات توجه کن.",
+          "tokens": [
+            "details",
+            "attention",
+            "the",
+            "Please",
+            "to",
+            "pay"
+          ],
+          "answer": "Please pay attention to the details"
+        },
+        {
+          "id": "b2-u5-collocations.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "We",
+            "need",
+            "to",
+            "do",
+            "a",
+            "decision."
+          ],
+          "answer": 3,
+          "fix": "We need to make a decision.",
+          "aiHints": {
+            "explanation": "درستش این است: We need to make a decision."
+          }
+        },
+        {
+          "id": "b2-u5-collocations.8",
+          "kind": "speed",
+          "prompt": "سریع! «pay attention» یعنی چه؟",
+          "speak": "pay attention",
+          "choices": [
+            "توجه کردن",
+            "همان … بود که"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u5-collocations.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «does»",
+          "choices": [
+            "هرگز نکرده‌ام",
+            "همان … بود که",
+            "واقعاً می‌کند"
+          ],
+          "answer": 2,
+          "speak": "does",
+          "reviewOf": "b2-u5-emphasis-do"
+        },
+        {
+          "id": "b2-u5-collocations.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "really",
+          "choices": [
+            "make a decision",
+            "really",
+            "never have I"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u5-emphasis-do"
+        },
+        {
+          "id": "b2-u5-collocations.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📌",
+          "choices": [
+            "hardly",
+            "never have I",
+            "in fact"
+          ],
+          "answer": 2,
+          "speak": "in fact",
+          "reviewOf": "b2-u5-emphasis-do"
+        },
+        {
+          "id": "b2-u5-collocations.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «believe»",
+          "speak": "believe",
+          "choices": [
+            "همان … بود که",
+            "باور کردن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u5-emphasis-do"
+        },
+        {
+          "id": "b2-u5-collocations.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او در پروژه شرکت کرد.",
+          "sentence": "She ___ part in the project.",
+          "choices": [
+            "do research",
+            "took",
+            "take part"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "We did research and made a decision.",
+          "fa": "تحقیق کردیم و تصمیم گرفتیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "make، نه do",
+        "body": "در انگلیسی می‌گوییم make a decision، take part، pay attention — نه do."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u5-boss",
+    "titleFa": "نبرد پایانی — تأکید و ساختارهای پیشرفته",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u5-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «what I need»",
+        "speak": "what I need",
+        "choices": [
+          "توصیه دادن",
+          "چیزی که لازم دارم",
+          "واقعاً"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u5-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "exactly",
+        "choices": [
+          "exactly",
+          "who",
+          "really"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u5-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "😮",
+        "choices": [
+          "do",
+          "make a decision",
+          "hardly"
+        ],
+        "answer": 2,
+        "speak": "hardly"
+      },
+      {
+        "id": "b2-u5-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «do»",
+        "speak": "do",
+        "choices": [
+          "در واقع",
+          "واقعاً"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u5-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «in fact»",
+        "speak": "in fact",
+        "choices": [
+          "دقیقاً",
+          "واقعاً (تأکید)",
+          "در واقع"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u5-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "take part",
+        "choices": [
+          "really",
+          "take part",
+          "what I need"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u5-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "👀",
+        "choices": [
+          "pay attention",
+          "does",
+          "exactly"
+        ],
+        "answer": 0,
+        "speak": "pay attention"
+      },
+      {
+        "id": "b2-u5-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «who»",
+        "speak": "who",
+        "choices": [
+          "که (آدم)",
+          "به‌ندرت"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u5-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «never have I»",
+        "speak": "never have I",
+        "choices": [
+          "باور کردن",
+          "توجه کردن",
+          "هرگز نکرده‌ام"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u5-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "not only",
+        "choices": [
+          "not only",
+          "such",
+          "hardly"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

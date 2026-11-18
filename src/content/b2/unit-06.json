@@ -1,0 +1,1281 @@
+{
+  "id": "b2-u6",
+  "level": "B2",
+  "index": 6,
+  "titleFa": "بحث‌های پیچیده",
+  "titleEn": "Complex discussion",
+  "theme": "sky",
+  "lessons": [
+    {
+      "id": "b2-u6-hedging",
+      "title": "To some extent",
+      "titleFa": "نرم کردن نظر",
+      "goal": "نظرت را محتاطانه بگویی",
+      "buildsOn": [
+        "b2-u5-collocations"
+      ],
+      "vocab": [
+        {
+          "en": "to some extent",
+          "fa": "تا حدی",
+          "emoji": "📐"
+        },
+        {
+          "en": "it depends",
+          "fa": "بستگی دارد",
+          "emoji": "🤔"
+        },
+        {
+          "en": "perhaps",
+          "fa": "شاید",
+          "emoji": "💭"
+        },
+        {
+          "en": "tend to",
+          "fa": "گرایش دارند",
+          "emoji": "📈"
+        },
+        {
+          "en": "generally",
+          "fa": "عموماً",
+          "emoji": "🌍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "to some extent",
+          "fa": "تا حدی",
+          "emoji": "📐"
+        },
+        {
+          "kind": "word",
+          "en": "it depends",
+          "fa": "بستگی دارد",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "perhaps",
+          "fa": "شاید",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "tend to",
+          "fa": "گرایش دارند",
+          "emoji": "📈"
+        },
+        {
+          "kind": "sentence",
+          "en": "To some extent, that is true.",
+          "fa": "تا حدی درست است."
+        },
+        {
+          "kind": "sentence",
+          "en": "It depends on the situation.",
+          "fa": "به موقعیت بستگی دارد.",
+          "highlight": "It depends"
+        },
+        {
+          "kind": "rule",
+          "title": "بستگی دارد",
+          "body": "it depends on + اسم: it depends on the situation. s را جا نگذار.",
+          "examples": [
+            {
+              "en": "To some extent, that is true.",
+              "fa": "تا حدی درست است."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u6-hedging.1",
+          "kind": "mcq",
+          "prompt": "معنی «to some extent» چیست؟",
+          "promptFa": "تا حدی",
+          "choices": [
+            "عمدتاً",
+            "با این حال",
+            "تا حدی"
+          ],
+          "answer": 2,
+          "speak": "to some extent",
+          "aiHints": {
+            "example": "I know the word \"to some extent\".",
+            "explanation": "«to some extent» یعنی تا حدی."
+          }
+        },
+        {
+          "id": "b2-u6-hedging.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤔",
+          "choices": [
+            "tend to",
+            "generally",
+            "it depends"
+          ],
+          "answer": 2,
+          "speak": "it depends"
+        },
+        {
+          "id": "b2-u6-hedging.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "perhaps",
+          "choices": [
+            "perhaps",
+            "that's fair",
+            "I see your point"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u6-hedging.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "tend to",
+              "fa": "گرایش دارند"
+            },
+            {
+              "en": "to some extent",
+              "fa": "تا حدی"
+            },
+            {
+              "en": "it depends",
+              "fa": "بستگی دارد"
+            },
+            {
+              "en": "perhaps",
+              "fa": "شاید"
+            }
+          ]
+        },
+        {
+          "id": "b2-u6-hedging.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "به موقعیت بستگی دارد.",
+          "sentence": "___ on the situation.",
+          "choices": [
+            "that's fair",
+            "imagine",
+            "It depends"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u6-hedging.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "تا حدی درست است.",
+          "tokens": [
+            "that",
+            "is",
+            "extent,",
+            "some",
+            "To",
+            "true"
+          ],
+          "answer": "To some extent, that is true"
+        },
+        {
+          "id": "b2-u6-hedging.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "It",
+            "depend",
+            "on",
+            "the",
+            "situation."
+          ],
+          "answer": 1,
+          "fix": "It depends on the situation.",
+          "aiHints": {
+            "explanation": "درستش این است: It depends on the situation."
+          }
+        },
+        {
+          "id": "b2-u6-hedging.8",
+          "kind": "speed",
+          "prompt": "سریع! «generally» یعنی چه؟",
+          "speak": "generally",
+          "choices": [
+            "عموماً",
+            "تا حدی"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u6-hedging.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «take part»",
+          "choices": [
+            "فایده",
+            "وگرنه",
+            "شرکت کردن"
+          ],
+          "answer": 2,
+          "speak": "take part",
+          "reviewOf": "b2-u5-collocations"
+        },
+        {
+          "id": "b2-u6-hedging.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "give advice",
+          "choices": [
+            "privacy",
+            "give advice",
+            "generally"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u5-collocations"
+        },
+        {
+          "id": "b2-u6-hedging.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔬",
+          "choices": [
+            "suppose",
+            "tend to",
+            "do research"
+          ],
+          "answer": 2,
+          "speak": "do research",
+          "reviewOf": "b2-u5-collocations"
+        },
+        {
+          "id": "b2-u6-hedging.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «pay attention»",
+          "speak": "pay attention",
+          "choices": [
+            "توجه کردن",
+            "تا حدی"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u5-collocations"
+        },
+        {
+          "id": "b2-u6-hedging.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "مردم گرایش دارند با دوستانشان موافق باشند.",
+          "sentence": "People ___ to agree with friends.",
+          "choices": [
+            "tend",
+            "generally",
+            "however"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Generally, older people tend to read more.",
+          "fa": "عموماً افراد مسن‌تر بیشتر می‌خوانند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بستگی دارد",
+        "body": "it depends on + اسم: it depends on the situation. s را جا نگذار."
+      }
+    },
+    {
+      "id": "b2-u6-hypothetical",
+      "title": "Imagine you had…",
+      "titleFa": "فرض کردن",
+      "goal": "موقعیت فرضی بسازی",
+      "buildsOn": [
+        "b2-u6-hedging"
+      ],
+      "vocab": [
+        {
+          "en": "imagine",
+          "fa": "تصور کردن",
+          "emoji": "💭"
+        },
+        {
+          "en": "suppose",
+          "fa": "فرض کردن",
+          "emoji": "🤔"
+        },
+        {
+          "en": "what if",
+          "fa": "اگر … چی",
+          "emoji": "❓"
+        },
+        {
+          "en": "otherwise",
+          "fa": "وگرنه",
+          "emoji": "↩️"
+        },
+        {
+          "en": "situation",
+          "fa": "موقعیت",
+          "emoji": "📍"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "imagine",
+          "fa": "تصور کردن",
+          "emoji": "💭"
+        },
+        {
+          "kind": "word",
+          "en": "suppose",
+          "fa": "فرض کردن",
+          "emoji": "🤔"
+        },
+        {
+          "kind": "word",
+          "en": "what if",
+          "fa": "اگر … چی",
+          "emoji": "❓"
+        },
+        {
+          "kind": "word",
+          "en": "otherwise",
+          "fa": "وگرنه",
+          "emoji": "↩️"
+        },
+        {
+          "kind": "sentence",
+          "en": "Suppose we try a different plan.",
+          "fa": "فرض کن برنامهٔ دیگری امتحان کنیم."
+        },
+        {
+          "kind": "sentence",
+          "en": "Imagine you had one day left.",
+          "fa": "تصور کن یک روز وقت داری.",
+          "highlight": "Imagine"
+        },
+        {
+          "kind": "rule",
+          "title": "بعد از imagine جمله",
+          "body": "بعد از imagine و suppose یک جملهٔ کامل می‌آید، نه ing.",
+          "examples": [
+            {
+              "en": "Suppose we try a different plan.",
+              "fa": "فرض کن برنامهٔ دیگری امتحان کنیم."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u6-hypothetical.1",
+          "kind": "mcq",
+          "prompt": "معنی «imagine» چیست؟",
+          "promptFa": "تصور کردن",
+          "choices": [
+            "تا حدی",
+            "تصور کردن",
+            "عموماً"
+          ],
+          "answer": 1,
+          "speak": "imagine",
+          "aiHints": {
+            "example": "I know the word \"imagine\".",
+            "explanation": "«imagine» یعنی تصور کردن."
+          }
+        },
+        {
+          "id": "b2-u6-hypothetical.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🤔",
+          "choices": [
+            "suppose",
+            "situation",
+            "what if"
+          ],
+          "answer": 0,
+          "speak": "suppose"
+        },
+        {
+          "id": "b2-u6-hypothetical.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "what if",
+          "choices": [
+            "imagine",
+            "generally",
+            "what if"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u6-hypothetical.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "what if",
+              "fa": "اگر … چی"
+            },
+            {
+              "en": "otherwise",
+              "fa": "وگرنه"
+            },
+            {
+              "en": "imagine",
+              "fa": "تصور کردن"
+            },
+            {
+              "en": "suppose",
+              "fa": "فرض کردن"
+            }
+          ]
+        },
+        {
+          "id": "b2-u6-hypothetical.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "تصور کن یک روز وقت داری.",
+          "sentence": "___ you had one day left.",
+          "choices": [
+            "situation",
+            "privacy",
+            "Imagine"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u6-hypothetical.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فرض کن برنامهٔ دیگری امتحان کنیم.",
+          "tokens": [
+            "a",
+            "plan",
+            "try",
+            "different",
+            "Suppose",
+            "we"
+          ],
+          "answer": "Suppose we try a different plan"
+        },
+        {
+          "id": "b2-u6-hypothetical.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Imagine",
+            "you",
+            "has",
+            "one",
+            "day",
+            "left."
+          ],
+          "answer": 2,
+          "fix": "Imagine you have one day left.",
+          "aiHints": {
+            "explanation": "درستش این است: Imagine you have one day left."
+          }
+        },
+        {
+          "id": "b2-u6-hypothetical.8",
+          "kind": "speed",
+          "prompt": "سریع! «situation» یعنی چه؟",
+          "speak": "situation",
+          "choices": [
+            "تا حدی",
+            "موقعیت"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u6-hypothetical.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «it depends»",
+          "choices": [
+            "بستگی دارد",
+            "اعتیاد",
+            "صفحه"
+          ],
+          "answer": 0,
+          "speak": "it depends",
+          "reviewOf": "b2-u6-hedging"
+        },
+        {
+          "id": "b2-u6-hypothetical.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "perhaps",
+          "choices": [
+            "otherwise",
+            "perhaps",
+            "however"
+          ],
+          "answer": 1,
+          "reviewOf": "b2-u6-hedging"
+        },
+        {
+          "id": "b2-u6-hypothetical.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📈",
+          "choices": [
+            "tend to",
+            "on balance",
+            "imagine"
+          ],
+          "answer": 0,
+          "speak": "tend to",
+          "reviewOf": "b2-u6-hedging"
+        },
+        {
+          "id": "b2-u6-hypothetical.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «generally»",
+          "speak": "generally",
+          "choices": [
+            "عموماً",
+            "تا حدی"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u6-hedging"
+        },
+        {
+          "id": "b2-u6-hypothetical.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اگر به خارج می‌رفتیم چه می‌شد؟",
+          "sentence": "What ___ we moved abroad?",
+          "choices": [
+            "addiction",
+            "if",
+            "on balance"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Suppose we had more time; otherwise we would go now.",
+          "fa": "فرض کن وقت بیشتری داشتیم؛ وگرنه الان می‌رفتیم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "بعد از imagine جمله",
+        "body": "بعد از imagine و suppose یک جملهٔ کامل می‌آید، نه ing."
+      }
+    },
+    {
+      "id": "b2-u6-tech-debate",
+      "title": "Privacy or convenience?",
+      "titleFa": "بحث فناوری",
+      "goal": "دربارهٔ فناوری بحث کنی",
+      "buildsOn": [
+        "b2-u6-hypothetical"
+      ],
+      "vocab": [
+        {
+          "en": "privacy",
+          "fa": "حریم خصوصی",
+          "emoji": "🔒"
+        },
+        {
+          "en": "screen",
+          "fa": "صفحه",
+          "emoji": "📱"
+        },
+        {
+          "en": "addiction",
+          "fa": "اعتیاد",
+          "emoji": "🔁"
+        },
+        {
+          "en": "replace",
+          "fa": "جایگزین کردن",
+          "emoji": "🔄"
+        },
+        {
+          "en": "benefit",
+          "fa": "فایده",
+          "emoji": "🎁"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "privacy",
+          "fa": "حریم خصوصی",
+          "emoji": "🔒"
+        },
+        {
+          "kind": "word",
+          "en": "screen",
+          "fa": "صفحه",
+          "emoji": "📱"
+        },
+        {
+          "kind": "word",
+          "en": "addiction",
+          "fa": "اعتیاد",
+          "emoji": "🔁"
+        },
+        {
+          "kind": "word",
+          "en": "replace",
+          "fa": "جایگزین کردن",
+          "emoji": "🔄"
+        },
+        {
+          "kind": "sentence",
+          "en": "Technology can replace some jobs.",
+          "fa": "فناوری می‌تواند برخی شغل‌ها را جایگزین کند."
+        },
+        {
+          "kind": "sentence",
+          "en": "Privacy is a big concern.",
+          "fa": "حریم خصوصی نگرانی بزرگی است.",
+          "highlight": "Privacy"
+        },
+        {
+          "kind": "rule",
+          "title": "can + ساده",
+          "body": "بعد از can فعل ساده می‌آید: can cause، can replace.",
+          "examples": [
+            {
+              "en": "Technology can replace some jobs.",
+              "fa": "فناوری می‌تواند برخی شغل‌ها را جایگزین کند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u6-tech-debate.1",
+          "kind": "mcq",
+          "prompt": "معنی «privacy» چیست؟",
+          "promptFa": "حریم خصوصی",
+          "choices": [
+            "موقعیت",
+            "با این حال",
+            "حریم خصوصی"
+          ],
+          "answer": 2,
+          "speak": "privacy",
+          "aiHints": {
+            "example": "I know the word \"privacy\".",
+            "explanation": "«privacy» یعنی حریم خصوصی."
+          }
+        },
+        {
+          "id": "b2-u6-tech-debate.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "📱",
+          "choices": [
+            "privacy",
+            "benefit",
+            "screen"
+          ],
+          "answer": 2,
+          "speak": "screen"
+        },
+        {
+          "id": "b2-u6-tech-debate.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "addiction",
+          "choices": [
+            "addiction",
+            "I see your point",
+            "suppose"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u6-tech-debate.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "replace",
+              "fa": "جایگزین کردن"
+            },
+            {
+              "en": "addiction",
+              "fa": "اعتیاد"
+            },
+            {
+              "en": "screen",
+              "fa": "صفحه"
+            },
+            {
+              "en": "privacy",
+              "fa": "حریم خصوصی"
+            }
+          ]
+        },
+        {
+          "id": "b2-u6-tech-debate.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "حریم خصوصی نگرانی بزرگی است.",
+          "sentence": "___ is a big concern.",
+          "choices": [
+            "Privacy",
+            "replace",
+            "privacy"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "b2-u6-tech-debate.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "فناوری می‌تواند برخی شغل‌ها را جایگزین کند.",
+          "tokens": [
+            "jobs",
+            "Technology",
+            "some",
+            "replace",
+            "can"
+          ],
+          "answer": "Technology can replace some jobs"
+        },
+        {
+          "id": "b2-u6-tech-debate.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Screens",
+            "can",
+            "causes",
+            "addiction."
+          ],
+          "answer": 2,
+          "fix": "Screens can cause addiction.",
+          "aiHints": {
+            "explanation": "درستش این است: Screens can cause addiction."
+          }
+        },
+        {
+          "id": "b2-u6-tech-debate.8",
+          "kind": "speed",
+          "prompt": "سریع! «benefit» یعنی چه؟",
+          "speak": "benefit",
+          "choices": [
+            "فایده",
+            "تا حدی"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u6-tech-debate.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «suppose»",
+          "choices": [
+            "منصفانه است",
+            "فرض کردن",
+            "در مجموع"
+          ],
+          "answer": 1,
+          "speak": "suppose",
+          "reviewOf": "b2-u6-hypothetical"
+        },
+        {
+          "id": "b2-u6-tech-debate.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "what if",
+          "choices": [
+            "I see your point",
+            "screen",
+            "what if"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u6-hypothetical"
+        },
+        {
+          "id": "b2-u6-tech-debate.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "↩️",
+          "choices": [
+            "what if",
+            "otherwise",
+            "I see your point"
+          ],
+          "answer": 1,
+          "speak": "otherwise",
+          "reviewOf": "b2-u6-hypothetical"
+        },
+        {
+          "id": "b2-u6-tech-debate.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «situation»",
+          "speak": "situation",
+          "choices": [
+            "موقعیت",
+            "تا حدی"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "b2-u6-hypothetical"
+        },
+        {
+          "id": "b2-u6-tech-debate.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "صفحه‌ها می‌توانند اعتیاد ایجاد کنند.",
+          "sentence": "Screens can cause ___.",
+          "choices": [
+            "screen",
+            "replace",
+            "addiction"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "The benefit is speed, but privacy is a real risk.",
+          "fa": "فایده‌اش سرعت است، ولی حریم خصوصی خطر واقعی است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "can + ساده",
+        "body": "بعد از can فعل ساده می‌آید: can cause، can replace."
+      }
+    },
+    {
+      "id": "b2-u6-debate-phrases",
+      "title": "I see your point",
+      "titleFa": "عبارت‌های بحث",
+      "goal": "در بحث، حرف طرف را بپذیری یا رد کنی",
+      "buildsOn": [
+        "b2-u6-tech-debate"
+      ],
+      "vocab": [
+        {
+          "en": "I see your point",
+          "fa": "حرفت را متوجه می‌شوم",
+          "emoji": "👂"
+        },
+        {
+          "en": "on balance",
+          "fa": "در مجموع",
+          "emoji": "⚖️"
+        },
+        {
+          "en": "that's fair",
+          "fa": "منصفانه است",
+          "emoji": "👍"
+        },
+        {
+          "en": "however",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "en": "mainly",
+          "fa": "عمدتاً",
+          "emoji": "🎯"
+        }
+      ],
+      "teach": [
+        {
+          "kind": "word",
+          "en": "I see your point",
+          "fa": "حرفت را متوجه می‌شوم",
+          "emoji": "👂"
+        },
+        {
+          "kind": "word",
+          "en": "on balance",
+          "fa": "در مجموع",
+          "emoji": "⚖️"
+        },
+        {
+          "kind": "word",
+          "en": "that's fair",
+          "fa": "منصفانه است",
+          "emoji": "👍"
+        },
+        {
+          "kind": "word",
+          "en": "however",
+          "fa": "با این حال",
+          "emoji": "↔️"
+        },
+        {
+          "kind": "sentence",
+          "en": "On balance, the benefits are bigger.",
+          "fa": "در مجموع مزایا بزرگ‌تر هستند."
+        },
+        {
+          "kind": "sentence",
+          "en": "I see your point.",
+          "fa": "حرفت را متوجه می‌شوم.",
+          "highlight": "point"
+        },
+        {
+          "kind": "rule",
+          "title": "on balance",
+          "body": "on balance یعنی همهٔ جوانب را سنجیده‌ام — برای جمع‌بندی بحث.",
+          "examples": [
+            {
+              "en": "On balance, the benefits are bigger.",
+              "fa": "در مجموع مزایا بزرگ‌تر هستند."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "b2-u6-debate-phrases.1",
+          "kind": "mcq",
+          "prompt": "معنی «I see your point» چیست؟",
+          "promptFa": "حرفت را متوجه می‌شوم",
+          "choices": [
+            "گرایش دارند",
+            "اگر … چی",
+            "حرفت را متوجه می‌شوم"
+          ],
+          "answer": 2,
+          "speak": "I see your point",
+          "aiHints": {
+            "example": "I know the word \"I see your point\".",
+            "explanation": "«I see your point» یعنی حرفت را متوجه می‌شوم."
+          }
+        },
+        {
+          "id": "b2-u6-debate-phrases.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "⚖️",
+          "choices": [
+            "on balance",
+            "mainly",
+            "however"
+          ],
+          "answer": 0,
+          "speak": "on balance"
+        },
+        {
+          "id": "b2-u6-debate-phrases.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "that's fair",
+          "choices": [
+            "otherwise",
+            "screen",
+            "that's fair"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "b2-u6-debate-phrases.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "I see your point",
+              "fa": "حرفت را متوجه می‌شوم"
+            },
+            {
+              "en": "that's fair",
+              "fa": "منصفانه است"
+            },
+            {
+              "en": "on balance",
+              "fa": "در مجموع"
+            },
+            {
+              "en": "however",
+              "fa": "با این حال"
+            }
+          ]
+        },
+        {
+          "id": "b2-u6-debate-phrases.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "حرفت را متوجه می‌شوم.",
+          "sentence": "I see your ___.",
+          "choices": [
+            "what if",
+            "point",
+            "screen"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "b2-u6-debate-phrases.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "در مجموع مزایا بزرگ‌تر هستند.",
+          "tokens": [
+            "the",
+            "bigger",
+            "are",
+            "On",
+            "benefits",
+            "balance,"
+          ],
+          "answer": "On balance, the benefits are bigger"
+        },
+        {
+          "id": "b2-u6-debate-phrases.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "On",
+            "balance,",
+            "the",
+            "benefits",
+            "is",
+            "bigger."
+          ],
+          "answer": 4,
+          "fix": "On balance, the benefits are bigger.",
+          "aiHints": {
+            "explanation": "درستش این است: On balance, the benefits are bigger."
+          }
+        },
+        {
+          "id": "b2-u6-debate-phrases.8",
+          "kind": "speed",
+          "prompt": "سریع! «mainly» یعنی چه؟",
+          "speak": "mainly",
+          "choices": [
+            "عمدتاً",
+            "تا حدی"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "b2-u6-debate-phrases.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «screen»",
+          "choices": [
+            "با این حال",
+            "صفحه",
+            "در مجموع"
+          ],
+          "answer": 1,
+          "speak": "screen",
+          "reviewOf": "b2-u6-tech-debate"
+        },
+        {
+          "id": "b2-u6-debate-phrases.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "addiction",
+          "choices": [
+            "situation",
+            "on balance",
+            "addiction"
+          ],
+          "answer": 2,
+          "reviewOf": "b2-u6-tech-debate"
+        },
+        {
+          "id": "b2-u6-debate-phrases.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔄",
+          "choices": [
+            "replace",
+            "imagine",
+            "however"
+          ],
+          "answer": 0,
+          "speak": "replace",
+          "reviewOf": "b2-u6-tech-debate"
+        },
+        {
+          "id": "b2-u6-debate-phrases.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «benefit»",
+          "speak": "benefit",
+          "choices": [
+            "تا حدی",
+            "فایده"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "b2-u6-tech-debate"
+        },
+        {
+          "id": "b2-u6-debate-phrases.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "در مجموع برنامه خوب است.",
+          "sentence": "On ___, the plan is good.",
+          "choices": [
+            "screen",
+            "balance",
+            "privacy"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I see your point, however on balance I disagree.",
+          "fa": "حرفت را می‌فهمم، با این حال در مجموع مخالفم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "on balance",
+        "body": "on balance یعنی همهٔ جوانب را سنجیده‌ام — برای جمع‌بندی بحث."
+      }
+    }
+  ],
+  "boss": {
+    "id": "b2-u6-boss",
+    "titleFa": "نبرد پایانی — بحث‌های پیچیده",
+    "hp": 10,
+    "seconds": 120,
+    "rewardXp": 120,
+    "exercises": [
+      {
+        "id": "b2-u6-boss.1",
+        "kind": "mcq",
+        "prompt": "معنی «it depends»",
+        "speak": "it depends",
+        "choices": [
+          "تصور کردن",
+          "بستگی دارد",
+          "فایده"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u6-boss.2",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "generally",
+        "choices": [
+          "I see your point",
+          "generally",
+          "suppose"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "b2-u6-boss.3",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "❓",
+        "choices": [
+          "what if",
+          "it depends",
+          "however"
+        ],
+        "answer": 0,
+        "speak": "what if"
+      },
+      {
+        "id": "b2-u6-boss.4",
+        "kind": "speed",
+        "prompt": "سریع! «privacy»",
+        "speak": "privacy",
+        "choices": [
+          "فایده",
+          "حریم خصوصی"
+        ],
+        "answer": 1,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u6-boss.5",
+        "kind": "mcq",
+        "prompt": "معنی «replace»",
+        "speak": "replace",
+        "choices": [
+          "جایگزین کردن",
+          "تا حدی",
+          "اعتیاد"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "b2-u6-boss.6",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "on balance",
+        "choices": [
+          "tend to",
+          "mainly",
+          "on balance"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u6-boss.7",
+        "kind": "imageWord",
+        "prompt": "این تصویر کدام کلمه است؟",
+        "emoji": "🎯",
+        "choices": [
+          "otherwise",
+          "situation",
+          "mainly"
+        ],
+        "answer": 2,
+        "speak": "mainly"
+      },
+      {
+        "id": "b2-u6-boss.8",
+        "kind": "speed",
+        "prompt": "سریع! «perhaps»",
+        "speak": "perhaps",
+        "choices": [
+          "شاید",
+          "منصفانه است"
+        ],
+        "answer": 0,
+        "ms": 5000
+      },
+      {
+        "id": "b2-u6-boss.9",
+        "kind": "mcq",
+        "prompt": "معنی «imagine»",
+        "speak": "imagine",
+        "choices": [
+          "اگر … چی",
+          "فرض کردن",
+          "تصور کردن"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "b2-u6-boss.10",
+        "kind": "listen",
+        "prompt": "چه شنیدی؟",
+        "speak": "otherwise",
+        "choices": [
+          "benefit",
+          "otherwise",
+          "replace"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+}
