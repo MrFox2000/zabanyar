@@ -9,7 +9,7 @@ import type { CapacitorConfig } from "@capacitor/cli";
  * can be added later by building a static export into `webDir`.
  */
 const config: CapacitorConfig = {
-  appId: "ir.zabanyar.app",
+  appId: "ir.mrfox2000.zabanyar",
   appName: "زبان‌یار",
   webDir: "public",
   android: {
