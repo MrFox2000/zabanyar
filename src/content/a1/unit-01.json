@@ -2,21 +2,214 @@
   "id": "a1-u1",
   "level": "A1",
   "index": 1,
-  "titleFa": "شروع و آشنایی",
-  "titleEn": "First words",
+  "titleFa": "صداها و اولین جمله",
+  "titleEn": "Sounds and first words",
   "theme": "orange",
   "lessons": [
     {
-      "id": "a1-u1-hello-name",
-      "title": "Hello, I'm…",
-      "titleFa": "سلام کردن",
-      "goal": "خودت را معرفی کنی و اسم بپرسی",
+      "id": "a1-u1-short-sounds",
+      "title": "Short sounds",
+      "titleFa": "صداهای کوتاه",
+      "goal": "صدای کوتاه a، e، i، o، u را بشناسی",
       "buildsOn": [],
       "vocab": [
         {
-          "en": "hello",
-          "fa": "سلام",
-          "emoji": "👋"
+          "en": "cat",
+          "fa": "گربه",
+          "emoji": "🐱"
+        },
+        {
+          "en": "bed",
+          "fa": "تخت",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "sit",
+          "fa": "نشستن",
+          "emoji": "🪑"
+        },
+        {
+          "en": "dog",
+          "fa": "سگ",
+          "emoji": "🐕"
+        },
+        {
+          "en": "cup",
+          "fa": "فنجان",
+          "emoji": "☕"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u1-short-sounds.1",
+          "kind": "mcq",
+          "prompt": "معنی «cat» چیست؟",
+          "promptFa": "گربه",
+          "choices": [
+            "گربه",
+            "سگ",
+            "هجی کردن"
+          ],
+          "answer": 0,
+          "speak": "cat",
+          "aiHints": {
+            "example": "I know the word \"cat\".",
+            "explanation": "«cat» یعنی گربه."
+          }
+        },
+        {
+          "id": "a1-u1-short-sounds.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🛏️",
+          "choices": [
+            "dog",
+            "bed",
+            "sit"
+          ],
+          "answer": 1,
+          "speak": "bed"
+        },
+        {
+          "id": "a1-u1-short-sounds.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "sit",
+          "choices": [
+            "is",
+            "letter",
+            "sit"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u1-short-sounds.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "dog",
+              "fa": "سگ"
+            },
+            {
+              "en": "bed",
+              "fa": "تخت"
+            },
+            {
+              "en": "sit",
+              "fa": "نشستن"
+            },
+            {
+              "en": "cat",
+              "fa": "گربه"
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-short-sounds.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "گربه میو می‌گوید.",
+          "sentence": "A ___ says meow.",
+          "choices": [
+            "spell",
+            "are",
+            "cat"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u1-short-sounds.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این یک گربه است.",
+          "tokens": [
+            "cat",
+            "is",
+            "a",
+            "This"
+          ],
+          "answer": "This is a cat"
+        },
+        {
+          "id": "a1-u1-short-sounds.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "This",
+            "is",
+            "a",
+            "cats."
+          ],
+          "answer": 3,
+          "fix": "This is a cat.",
+          "aiHints": {
+            "explanation": "درستش این است: This is a cat."
+          }
+        },
+        {
+          "id": "a1-u1-short-sounds.8",
+          "kind": "speed",
+          "prompt": "سریع! «cup» یعنی چه؟",
+          "speak": "cup",
+          "choices": [
+            "گربه",
+            "فنجان"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u1-short-sounds.9",
+          "kind": "mcq",
+          "prompt": "معنی «dog» چیست؟",
+          "choices": [
+            "سگ",
+            "مغازه",
+            "نشستن"
+          ],
+          "answer": 0,
+          "speak": "dog"
+        },
+        {
+          "id": "a1-u1-short-sounds.10",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "این فنجان من است.",
+          "sentence": "This is my ___.",
+          "choices": [
+            "dog",
+            "cup",
+            "please"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "cat, bed, dog",
+          "fa": "کلمه‌های یک‌صدایی"
+        }
+      ],
+      "xp": 80,
+      "tip": {
+        "title": "هر صدادار دو صدا دارد",
+        "body": "a مثل cat، e مثل bed، i مثل sit، o مثل dog، u مثل cup — این‌ها صداهای کوتاه‌اند."
+      }
+    },
+    {
+      "id": "a1-u1-spell-name",
+      "title": "Spell your name",
+      "titleFa": "اسمت را هجی کن",
+      "goal": "اسمت را حرف‌به‌حرف بگویی",
+      "buildsOn": [
+        "a1-u1-short-sounds"
+      ],
+      "vocab": [
+        {
+          "en": "spell",
+          "fa": "هجی کردن",
+          "emoji": "✍️"
         },
         {
           "en": "name",
@@ -24,80 +217,80 @@
           "emoji": "🏷️"
         },
         {
-          "en": "friend",
-          "fa": "دوست",
-          "emoji": "🧑‍🤝‍🧑"
+          "en": "letter",
+          "fa": "حرف",
+          "emoji": "🔤"
         },
         {
-          "en": "good",
-          "fa": "خوب",
-          "emoji": "👍"
+          "en": "again",
+          "fa": "دوباره",
+          "emoji": "🔁"
         },
         {
-          "en": "morning",
-          "fa": "صبح",
-          "emoji": "🌅"
+          "en": "please",
+          "fa": "لطفاً",
+          "emoji": "🙏"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u1-hello-name.1",
+          "id": "a1-u1-spell-name.1",
           "kind": "mcq",
-          "prompt": "معنی «hello» چیست؟",
-          "promptFa": "سلام",
+          "prompt": "معنی «spell» چیست؟",
+          "promptFa": "هجی کردن",
           "choices": [
-            "سلام",
-            "پنج",
-            "نه"
+            "هستی / هستند",
+            "هجی کردن",
+            "تخت"
           ],
-          "answer": 0,
-          "speak": "hello",
+          "answer": 1,
+          "speak": "spell",
           "aiHints": {
-            "example": "I know the word \"hello\".",
-            "explanation": "«hello» یعنی سلام."
+            "example": "I know the word \"spell\".",
+            "explanation": "«spell» یعنی هجی کردن."
           }
         },
         {
-          "id": "a1-u1-hello-name.2",
+          "id": "a1-u1-spell-name.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
           "emoji": "🏷️",
           "choices": [
-            "hello",
-            "morning",
-            "name"
+            "spell",
+            "name",
+            "please"
           ],
-          "answer": 2,
+          "answer": 1,
           "speak": "name"
         },
         {
-          "id": "a1-u1-hello-name.3",
+          "id": "a1-u1-spell-name.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "friend",
+          "speak": "letter",
           "choices": [
-            "good",
-            "friend",
-            "ten"
+            "are",
+            "please",
+            "letter"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "id": "a1-u1-hello-name.4",
+          "id": "a1-u1-spell-name.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "good",
-              "fa": "خوب"
+              "en": "again",
+              "fa": "دوباره"
             },
             {
-              "en": "hello",
-              "fa": "سلام"
+              "en": "letter",
+              "fa": "حرف"
             },
             {
-              "en": "friend",
-              "fa": "دوست"
+              "en": "spell",
+              "fa": "هجی کردن"
             },
             {
               "en": "name",
@@ -106,804 +299,611 @@
           ]
         },
         {
-          "id": "a1-u1-hello-name.5",
+          "id": "a1-u1-spell-name.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "صبح بخیر!",
-          "sentence": "___ morning!",
+          "promptFa": "اسمت را چطور هجی می‌کنی؟",
+          "sentence": "How do you ___ your name?",
           "choices": [
-            "student",
-            "friend",
-            "Good"
+            "is",
+            "spell",
+            "please"
           ],
-          "answer": 2
+          "answer": 1
         },
         {
-          "id": "a1-u1-hello-name.6",
+          "id": "a1-u1-spell-name.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "اسم من علی است.",
+          "promptFa": "اسم من ساراست.",
           "tokens": [
             "name",
+            "Sara",
             "is",
-            "My",
-            "Ali"
+            "My"
           ],
-          "answer": "My name is Ali"
+          "answer": "My name is Sara"
         },
         {
-          "id": "a1-u1-hello-name.7",
+          "id": "a1-u1-spell-name.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "Hello,",
-            "my",
-            "name",
-            "are",
-            "Sara."
+            "How",
+            "you",
+            "spell",
+            "your",
+            "name?"
           ],
-          "answer": 3,
-          "fix": "Hello, my name is Sara.",
+          "answer": 1,
+          "fix": "How do you spell your name?",
           "aiHints": {
-            "explanation": "درستش این است: Hello, my name is Sara."
+            "explanation": "درستش این است: How do you spell your name?"
           }
         },
         {
-          "id": "a1-u1-hello-name.8",
+          "id": "a1-u1-spell-name.8",
           "kind": "speed",
-          "prompt": "سریع! «morning» یعنی چه؟",
-          "speak": "morning",
+          "prompt": "سریع! «please» یعنی چه؟",
+          "speak": "please",
           "choices": [
-            "صبح",
-            "سلام"
+            "لطفاً",
+            "گربه"
           ],
           "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u1-hello-name.9",
+          "id": "a1-u1-spell-name.9",
           "kind": "mcq",
-          "prompt": "معنی «good» چیست؟",
+          "prompt": "یادت هست؟ معنی «bed»",
           "choices": [
-            "پنج",
-            "شغل",
-            "خوب"
+            "تخت",
+            "گربه",
+            "حرف"
           ],
-          "answer": 2,
-          "speak": "good"
+          "answer": 0,
+          "speak": "bed",
+          "reviewOf": "a1-u1-short-sounds"
         },
         {
-          "id": "a1-u1-hello-name.10",
+          "id": "a1-u1-spell-name.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "sit",
+          "choices": [
+            "cat",
+            "sit",
+            "dog"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-spell-name.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🐕",
+          "choices": [
+            "dog",
+            "is",
+            "I"
+          ],
+          "answer": 0,
+          "speak": "dog",
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-spell-name.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «cup»",
+          "speak": "cup",
+          "choices": [
+            "فنجان",
+            "گربه"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-spell-name.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "اسم من علی است.",
-          "sentence": "My ___ is Ali.",
+          "promptFa": "لطفاً دوباره بگو.",
+          "sentence": "Say it ___, please.",
           "choices": [
             "name",
-            "please",
-            "good"
+            "again",
+            "am"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "youCanSay": [
         {
-          "en": "Hi, my name is Ali.",
-          "fa": "سلام، اسم من علی است."
+          "en": "How do you spell your name?",
+          "fa": "اسمت را چطور هجی می‌کنی؟"
         }
       ],
-      "xp": 80,
+      "xp": 92,
       "tip": {
-        "title": "am / is / are",
-        "body": "با I از am استفاده کن، با he/she/it از is و با you/we/they از are."
+        "title": "۵ حرف صدادار",
+        "body": "حروف صدادار a، e، i، o، u هستند؛ بقیه بی‌صدا. اسم‌ها را حرف‌به‌حرف هجی می‌کنیم."
       }
     },
     {
-      "id": "a1-u1-from-jobs",
-      "title": "Where are you from?",
-      "titleFa": "اهل کجایی؟",
-      "goal": "بگویی اهل کجایی و شغلت چیست",
+      "id": "a1-u1-digraphs",
+      "title": "sh, ch, th",
+      "titleFa": "صداهای ترکیبی",
+      "goal": "صداهای sh، ch، th را بشناسی",
       "buildsOn": [
-        "a1-u1-hello-name"
+        "a1-u1-short-sounds"
       ],
       "vocab": [
         {
-          "en": "from",
-          "fa": "از",
-          "emoji": "📍"
+          "en": "she",
+          "fa": "او (زن)",
+          "emoji": "👩"
         },
         {
-          "en": "country",
-          "fa": "کشور",
-          "emoji": "🌍"
+          "en": "chair",
+          "fa": "صندلی",
+          "emoji": "🪑"
         },
         {
-          "en": "Iran",
-          "fa": "ایران",
-          "emoji": "🇮🇷"
+          "en": "three",
+          "fa": "سه",
+          "emoji": "3️⃣"
         },
         {
-          "en": "job",
-          "fa": "شغل",
-          "emoji": "💼"
+          "en": "shop",
+          "fa": "مغازه",
+          "emoji": "🏪"
         },
         {
-          "en": "student",
-          "fa": "دانش‌آموز",
-          "emoji": "🎒"
+          "en": "this",
+          "fa": "این",
+          "emoji": "👉"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u1-from-jobs.1",
+          "id": "a1-u1-digraphs.1",
           "kind": "mcq",
-          "prompt": "معنی «from» چیست؟",
-          "promptFa": "از",
+          "prompt": "معنی «she» چیست؟",
+          "promptFa": "او (زن)",
           "choices": [
-            "از",
-            "دو",
-            "بله"
+            "این",
+            "نام",
+            "او (زن)"
           ],
-          "answer": 0,
-          "speak": "from",
+          "answer": 2,
+          "speak": "she",
           "aiHints": {
-            "example": "I know the word \"from\".",
-            "explanation": "«from» یعنی از."
+            "example": "I know the word \"she\".",
+            "explanation": "«she» یعنی او (زن)."
           }
         },
         {
-          "id": "a1-u1-from-jobs.2",
+          "id": "a1-u1-digraphs.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🌍",
+          "emoji": "🪑",
           "choices": [
-            "country",
-            "Iran",
-            "student"
+            "chair",
+            "three",
+            "she"
           ],
           "answer": 0,
-          "speak": "country"
+          "speak": "chair"
         },
         {
-          "id": "a1-u1-from-jobs.3",
+          "id": "a1-u1-digraphs.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "Iran",
+          "speak": "three",
           "choices": [
-            "Iran",
-            "ten",
-            "from"
+            "chair",
+            "is",
+            "three"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "id": "a1-u1-from-jobs.4",
+          "id": "a1-u1-digraphs.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "Iran",
-              "fa": "ایران"
+              "en": "three",
+              "fa": "سه"
             },
             {
-              "en": "job",
-              "fa": "شغل"
+              "en": "shop",
+              "fa": "مغازه"
             },
             {
-              "en": "country",
-              "fa": "کشور"
+              "en": "chair",
+              "fa": "صندلی"
             },
             {
-              "en": "from",
-              "fa": "از"
+              "en": "she",
+              "fa": "او (زن)"
             }
           ]
         },
         {
-          "id": "a1-u1-from-jobs.5",
+          "id": "a1-u1-digraphs.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "من اهل ایران هستم.",
-          "sentence": "I am ___ Iran.",
+          "promptFa": "او خواهر من است.",
+          "sentence": "___ is my sister.",
           "choices": [
-            "student",
-            "from",
-            "ten"
+            "you",
+            "this",
+            "She"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u1-digraphs.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این صندلی من است.",
+          "tokens": [
+            "This",
+            "is",
+            "my",
+            "chair"
+          ],
+          "answer": "This is my chair"
+        },
+        {
+          "id": "a1-u1-digraphs.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "have",
+            "a",
+            "chair."
+          ],
+          "answer": 1,
+          "fix": "She has a chair.",
+          "aiHints": {
+            "explanation": "درستش این است: She has a chair."
+          }
+        },
+        {
+          "id": "a1-u1-digraphs.8",
+          "kind": "speed",
+          "prompt": "سریع! «this» یعنی چه؟",
+          "speak": "this",
+          "choices": [
+            "این",
+            "گربه"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u1-digraphs.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «bed»",
+          "choices": [
+            "است",
+            "تخت",
+            "هستی / هستند"
+          ],
+          "answer": 1,
+          "speak": "bed",
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-digraphs.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "sit",
+          "choices": [
+            "shop",
+            "sit",
+            "chair"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-digraphs.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🐕",
+          "choices": [
+            "again",
+            "are",
+            "dog"
+          ],
+          "answer": 2,
+          "speak": "dog",
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-digraphs.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «cup»",
+          "speak": "cup",
+          "choices": [
+            "گربه",
+            "فنجان"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u1-short-sounds"
+        },
+        {
+          "id": "a1-u1-digraphs.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من سه کتاب دارم.",
+          "sentence": "I have ___ books.",
+          "choices": [
+            "am",
+            "again",
+            "three"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "This shop has three chairs.",
+          "fa": "این مغازه سه صندلی دارد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "دو حرف، یک صدا",
+        "body": "sh مثل «ش»، ch مثل «چ»، th نوک زبان بین دندان‌ها: this, three, chair, shop."
+      }
+    },
+    {
+      "id": "a1-u1-first-sentence",
+      "title": "I am…",
+      "titleFa": "اولین جمله",
+      "goal": "با am / is / are جمله بسازی",
+      "buildsOn": [
+        "a1-u1-digraphs"
+      ],
+      "vocab": [
+        {
+          "en": "I",
+          "fa": "من",
+          "emoji": "🙋"
+        },
+        {
+          "en": "am",
+          "fa": "هستم",
+          "emoji": "🟢"
+        },
+        {
+          "en": "you",
+          "fa": "تو",
+          "emoji": "🫵"
+        },
+        {
+          "en": "is",
+          "fa": "است",
+          "emoji": "🔵"
+        },
+        {
+          "en": "are",
+          "fa": "هستی / هستند",
+          "emoji": "🟣"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u1-first-sentence.1",
+          "kind": "mcq",
+          "prompt": "معنی «I» چیست؟",
+          "promptFa": "من",
+          "choices": [
+            "تخت",
+            "من",
+            "صندلی"
+          ],
+          "answer": 1,
+          "speak": "I",
+          "aiHints": {
+            "example": "I know the word \"I\".",
+            "explanation": "«I» یعنی من."
+          }
+        },
+        {
+          "id": "a1-u1-first-sentence.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🟢",
+          "choices": [
+            "I",
+            "am",
+            "you"
+          ],
+          "answer": 1,
+          "speak": "am"
+        },
+        {
+          "id": "a1-u1-first-sentence.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "you",
+          "choices": [
+            "name",
+            "cup",
+            "you"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u1-first-sentence.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "am",
+              "fa": "هستم"
+            },
+            {
+              "en": "you",
+              "fa": "تو"
+            },
+            {
+              "en": "is",
+              "fa": "است"
+            },
+            {
+              "en": "I",
+              "fa": "من"
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-first-sentence.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من علی هستم.",
+          "sentence": "I ___ Ali.",
+          "choices": [
+            "again",
+            "am",
+            "name"
           ],
           "answer": 1
         },
         {
-          "id": "a1-u1-from-jobs.6",
+          "id": "a1-u1-first-sentence.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "تو اهل کجایی؟",
+          "promptFa": "من دانش‌آموزم.",
           "tokens": [
-            "Where",
-            "from",
-            "are",
-            "you"
+            "I",
+            "student",
+            "a",
+            "am"
           ],
-          "answer": "Where are you from"
+          "answer": "I am a student"
         },
         {
-          "id": "a1-u1-from-jobs.7",
+          "id": "a1-u1-first-sentence.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "He",
-            "are",
+            "I",
+            "is",
             "a",
             "student."
           ],
           "answer": 1,
-          "fix": "He is a student.",
+          "fix": "I am a student.",
           "aiHints": {
-            "explanation": "درستش این است: He is a student."
+            "explanation": "درستش این است: I am a student."
           }
         },
         {
-          "id": "a1-u1-from-jobs.8",
+          "id": "a1-u1-first-sentence.8",
           "kind": "speed",
-          "prompt": "سریع! «student» یعنی چه؟",
-          "speak": "student",
+          "prompt": "سریع! «are» یعنی چه؟",
+          "speak": "are",
           "choices": [
-            "دانش‌آموز",
-            "سلام"
+            "هستی / هستند",
+            "گربه"
           ],
           "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u1-from-jobs.9",
+          "id": "a1-u1-first-sentence.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «name»",
+          "prompt": "یادت هست؟ معنی «chair»",
           "choices": [
-            "سال",
             "نام",
-            "از"
+            "صندلی",
+            "سگ"
           ],
           "answer": 1,
-          "speak": "name",
-          "reviewOf": "a1-u1-hello-name"
+          "speak": "chair",
+          "reviewOf": "a1-u1-digraphs"
         },
         {
-          "id": "a1-u1-from-jobs.10",
+          "id": "a1-u1-first-sentence.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "friend",
+          "speak": "three",
           "choices": [
-            "one",
-            "friend",
-            "good"
-          ],
-          "answer": 1,
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-from-jobs.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👍",
-          "choices": [
-            "good",
-            "one",
-            "student"
-          ],
-          "answer": 0,
-          "speak": "good",
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-from-jobs.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «morning»",
-          "speak": "morning",
-          "choices": [
-            "سلام",
-            "صبح"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-from-jobs.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "او دانش‌آموز است.",
-          "sentence": "She is a ___.",
-          "choices": [
-            "hello",
-            "student",
-            "thanks"
-          ],
-          "answer": 1
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I am from Iran.",
-          "fa": "من اهل ایران هستم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "I am from…",
-        "body": "برای گفتن ملیت یا شهر از from استفاده می‌کنیم: I am from Iran."
-      }
-    },
-    {
-      "id": "a1-u1-numbers-age",
-      "title": "Numbers and age",
-      "titleFa": "عددها و سن",
-      "goal": "تا ده بشماری و سنت را بگویی",
-      "buildsOn": [
-        "a1-u1-hello-name"
-      ],
-      "vocab": [
-        {
-          "en": "one",
-          "fa": "یک",
-          "emoji": "1️⃣"
-        },
-        {
-          "en": "two",
-          "fa": "دو",
-          "emoji": "2️⃣"
-        },
-        {
-          "en": "five",
-          "fa": "پنج",
-          "emoji": "5️⃣"
-        },
-        {
-          "en": "ten",
-          "fa": "ده",
-          "emoji": "🔟"
-        },
-        {
-          "en": "year",
-          "fa": "سال",
-          "emoji": "📅"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u1-numbers-age.1",
-          "kind": "mcq",
-          "prompt": "معنی «one» چیست؟",
-          "promptFa": "یک",
-          "choices": [
-            "ده",
-            "یک",
-            "پنج"
-          ],
-          "answer": 1,
-          "speak": "one",
-          "aiHints": {
-            "example": "I know the word \"one\".",
-            "explanation": "«one» یعنی یک."
-          }
-        },
-        {
-          "id": "a1-u1-numbers-age.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "2️⃣",
-          "choices": [
-            "one",
-            "five",
-            "two"
-          ],
-          "answer": 2,
-          "speak": "two"
-        },
-        {
-          "id": "a1-u1-numbers-age.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "five",
-          "choices": [
-            "five",
-            "hello",
-            "one"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u1-numbers-age.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "one",
-              "fa": "یک"
-            },
-            {
-              "en": "ten",
-              "fa": "ده"
-            },
-            {
-              "en": "five",
-              "fa": "پنج"
-            },
-            {
-              "en": "two",
-              "fa": "دو"
-            }
-          ]
-        },
-        {
-          "id": "a1-u1-numbers-age.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "من ده ساله هستم.",
-          "sentence": "I am ten ___ old.",
-          "choices": [
-            "years",
-            "name",
-            "from"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u1-numbers-age.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "چند سال داری؟",
-          "tokens": [
-            "How",
-            "are",
-            "old",
-            "you"
-          ],
-          "answer": "How old are you"
-        },
-        {
-          "id": "a1-u1-numbers-age.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "I",
-            "have",
-            "five",
-            "cat."
-          ],
-          "answer": 3,
-          "fix": "I have five cats.",
-          "aiHints": {
-            "explanation": "درستش این است: I have five cats."
-          }
-        },
-        {
-          "id": "a1-u1-numbers-age.8",
-          "kind": "speed",
-          "prompt": "سریع! «year» یعنی چه؟",
-          "speak": "year",
-          "choices": [
-            "سال",
-            "سلام"
-          ],
-          "answer": 0,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u1-numbers-age.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «name»",
-          "choices": [
-            "سال",
-            "نام",
-            "خوب"
-          ],
-          "answer": 1,
-          "speak": "name",
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-numbers-age.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "friend",
-          "choices": [
-            "job",
-            "friend",
-            "five"
-          ],
-          "answer": 1,
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-numbers-age.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👍",
-          "choices": [
-            "five",
-            "good",
-            "please"
-          ],
-          "answer": 1,
-          "speak": "good",
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-numbers-age.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «morning»",
-          "speak": "morning",
-          "choices": [
-            "سلام",
-            "صبح"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-numbers-age.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "من دو گربه دارم.",
-          "sentence": "I have ___ cats.",
-          "choices": [
-            "no",
-            "one",
-            "two"
-          ],
-          "answer": 2
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I am twenty years old.",
-          "fa": "من بیست ساله هستم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "جمع بستن",
-        "body": "وقتی تعداد بیشتر از یکی است، اسم جمع می‌شود: two cats، five years."
-      }
-    },
-    {
-      "id": "a1-u1-polite",
-      "title": "Please and thank you",
-      "titleFa": "ادب روزمره",
-      "goal": "مؤدبانه درخواست کنی و تشکر کنی",
-      "buildsOn": [
-        "a1-u1-hello-name"
-      ],
-      "vocab": [
-        {
-          "en": "please",
-          "fa": "لطفاً",
-          "emoji": "🙏"
-        },
-        {
-          "en": "thanks",
-          "fa": "ممنون",
-          "emoji": "💐"
-        },
-        {
-          "en": "sorry",
-          "fa": "ببخشید",
-          "emoji": "😔"
-        },
-        {
-          "en": "yes",
-          "fa": "بله",
-          "emoji": "✅"
-        },
-        {
-          "en": "no",
-          "fa": "نه",
-          "emoji": "❌"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u1-polite.1",
-          "kind": "mcq",
-          "prompt": "معنی «please» چیست؟",
-          "promptFa": "لطفاً",
-          "choices": [
-            "دو",
-            "از",
-            "لطفاً"
-          ],
-          "answer": 2,
-          "speak": "please",
-          "aiHints": {
-            "example": "I know the word \"please\".",
-            "explanation": "«please» یعنی لطفاً."
-          }
-        },
-        {
-          "id": "a1-u1-polite.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "💐",
-          "choices": [
-            "thanks",
-            "no",
+            "three",
+            "spell",
             "please"
           ],
           "answer": 0,
-          "speak": "thanks"
+          "reviewOf": "a1-u1-digraphs"
         },
         {
-          "id": "a1-u1-polite.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "sorry",
+          "id": "a1-u1-first-sentence.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🏪",
           "choices": [
-            "year",
-            "sorry",
-            "student"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u1-polite.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "thanks",
-              "fa": "ممنون"
-            },
-            {
-              "en": "sorry",
-              "fa": "ببخشید"
-            },
-            {
-              "en": "please",
-              "fa": "لطفاً"
-            },
-            {
-              "en": "yes",
-              "fa": "بله"
-            }
-          ]
-        },
-        {
-          "id": "a1-u1-polite.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "لطفاً، می‌توانم اینجا بنشینم؟",
-          "sentence": "___, can I sit here?",
-          "choices": [
-            "yes",
-            "Please",
-            "morning"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u1-polite.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "خیلی ممنون.",
-          "tokens": [
-            "very",
-            "much",
+            "shop",
             "you",
-            "Thank"
+            "letter"
           ],
-          "answer": "Thank you very much"
+          "answer": 0,
+          "speak": "shop",
+          "reviewOf": "a1-u1-digraphs"
         },
         {
-          "id": "a1-u1-polite.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "Please",
-            "help",
-            "I",
-            "."
-          ],
-          "answer": 2,
-          "fix": "Please help me.",
-          "aiHints": {
-            "explanation": "درستش این است: Please help me."
-          }
-        },
-        {
-          "id": "a1-u1-polite.8",
+          "id": "a1-u1-first-sentence.12",
           "kind": "speed",
-          "prompt": "سریع! «no» یعنی چه؟",
-          "speak": "no",
+          "prompt": "مرور سریع! «this»",
+          "speak": "this",
           "choices": [
-            "سلام",
-            "نه"
-          ],
-          "answer": 1,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u1-polite.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «name»",
-          "choices": [
-            "خوب",
-            "نام",
-            "بله"
-          ],
-          "answer": 1,
-          "speak": "name",
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-polite.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "friend",
-          "choices": [
-            "one",
-            "yes",
-            "friend"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-polite.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👍",
-          "choices": [
-            "hello",
-            "friend",
-            "good"
-          ],
-          "answer": 2,
-          "speak": "good",
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u1-polite.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «morning»",
-          "speak": "morning",
-          "choices": [
-            "صبح",
-            "سلام"
+            "این",
+            "گربه"
           ],
           "answer": 0,
           "ms": 6000,
-          "reviewOf": "a1-u1-hello-name"
+          "reviewOf": "a1-u1-digraphs"
         },
         {
-          "id": "a1-u1-polite.13",
+          "id": "a1-u1-first-sentence.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "بله، ممنون.",
-          "sentence": "Yes, ___ you.",
+          "promptFa": "تو دوست من هستی.",
+          "sentence": "You ___ my friend.",
           "choices": [
-            "two",
-            "thanks",
-            "thank"
+            "name",
+            "are",
+            "cup"
           ],
-          "answer": 2
+          "answer": 1
         }
       ],
       "youCanSay": [
         {
-          "en": "Excuse me, can you help me, please?",
-          "fa": "ببخشید، می‌توانید کمکم کنید، لطفاً؟"
+          "en": "I am Ali and you are my friend.",
+          "fa": "من علی هستم و تو دوست من هستی."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "سه کلمهٔ جادویی",
-        "body": "Please برای درخواست، Thank you برای تشکر و Sorry برای عذرخواهی."
+        "title": "فعل بودن",
+        "body": "I am · you are · he is · she is · it is · we are · they are. با این هفت شکل، نصف جمله‌های اولیه ساخته می‌شود."
       }
     }
   ],
   "boss": {
     "id": "a1-u1-boss",
-    "titleFa": "نبرد پایانی — شروع و آشنایی",
+    "titleFa": "نبرد پایانی — صداها و اولین جمله",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -911,12 +911,12 @@
       {
         "id": "a1-u1-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «name»",
-        "speak": "name",
+        "prompt": "معنی «bed»",
+        "speak": "bed",
         "choices": [
-          "نام",
-          "بله",
-          "شغل"
+          "تخت",
+          "است",
+          "دوباره"
         ],
         "answer": 0
       },
@@ -924,11 +924,11 @@
         "id": "a1-u1-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "morning",
+        "speak": "cup",
         "choices": [
-          "morning",
-          "name",
-          "two"
+          "cup",
+          "bed",
+          "chair"
         ],
         "answer": 0
       },
@@ -936,23 +936,23 @@
         "id": "a1-u1-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🇮🇷",
+        "emoji": "🔤",
         "choices": [
-          "year",
-          "student",
-          "Iran"
+          "this",
+          "please",
+          "letter"
         ],
         "answer": 2,
-        "speak": "Iran"
+        "speak": "letter"
       },
       {
         "id": "a1-u1-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «one»",
-        "speak": "one",
+        "prompt": "سریع! «she»",
+        "speak": "she",
         "choices": [
-          "ایران",
-          "یک"
+          "حرف",
+          "او (زن)"
         ],
         "answer": 1,
         "ms": 5000
@@ -960,12 +960,12 @@
       {
         "id": "a1-u1-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «ten»",
-        "speak": "ten",
+        "prompt": "معنی «shop»",
+        "speak": "shop",
         "choices": [
-          "ده",
-          "لطفاً",
-          "دو"
+          "مغازه",
+          "من",
+          "صندلی"
         ],
         "answer": 0
       },
@@ -973,11 +973,11 @@
         "id": "a1-u1-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "thanks",
+        "speak": "am",
         "choices": [
-          "sorry",
-          "thanks",
-          "student"
+          "you",
+          "am",
+          "please"
         ],
         "answer": 1
       },
@@ -985,23 +985,23 @@
         "id": "a1-u1-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "❌",
+        "emoji": "🟣",
         "choices": [
-          "no",
-          "country",
-          "one"
+          "are",
+          "name",
+          "she"
         ],
         "answer": 0,
-        "speak": "no"
+        "speak": "are"
       },
       {
         "id": "a1-u1-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «friend»",
-        "speak": "friend",
+        "prompt": "سریع! «sit»",
+        "speak": "sit",
         "choices": [
-          "سال",
-          "دوست"
+          "این",
+          "نشستن"
         ],
         "answer": 1,
         "ms": 5000
@@ -1009,12 +1009,12 @@
       {
         "id": "a1-u1-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «from»",
-        "speak": "from",
+        "prompt": "معنی «spell»",
+        "speak": "spell",
         "choices": [
-          "ببخشید",
-          "از",
-          "ممنون"
+          "تو",
+          "هجی کردن",
+          "هستم"
         ],
         "answer": 1
       },
@@ -1022,11 +1022,11 @@
         "id": "a1-u1-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "job",
+        "speak": "again",
         "choices": [
-          "yes",
-          "Iran",
-          "job"
+          "is",
+          "letter",
+          "again"
         ],
         "answer": 2
       }

@@ -2,954 +2,949 @@
   "id": "a1-u2",
   "level": "A1",
   "index": 2,
-  "titleFa": "خانواده و آدم‌ها",
-  "titleEn": "Family and people",
+  "titleFa": "من و دیگران",
+  "titleEn": "Me and others",
   "theme": "coral",
   "lessons": [
     {
-      "id": "a1-u2-family",
-      "title": "My family",
-      "titleFa": "خانوادهٔ من",
-      "goal": "اعضای خانواده را معرفی کنی",
+      "id": "a1-u2-to-be",
+      "title": "Am, is, are",
+      "titleFa": "am / is / are",
+      "goal": "برای هر فاعل شکل درست to be را بگویی",
       "buildsOn": [
-        "a1-u1-hello-name"
+        "a1-u1-first-sentence"
       ],
       "vocab": [
         {
-          "en": "mother",
-          "fa": "مادر",
-          "emoji": "👩"
-        },
-        {
-          "en": "father",
-          "fa": "پدر",
+          "en": "he",
+          "fa": "او (مرد)",
           "emoji": "👨"
         },
         {
-          "en": "sister",
-          "fa": "خواهر",
-          "emoji": "👧"
+          "en": "she",
+          "fa": "او (زن)",
+          "emoji": "👩"
         },
         {
-          "en": "brother",
-          "fa": "برادر",
-          "emoji": "👦"
+          "en": "we",
+          "fa": "ما",
+          "emoji": "👥"
         },
         {
-          "en": "family",
-          "fa": "خانواده",
+          "en": "they",
+          "fa": "آن‌ها",
           "emoji": "👨‍👩‍👧"
+        },
+        {
+          "en": "it",
+          "fa": "آن",
+          "emoji": "📦"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u2-family.1",
+          "id": "a1-u2-to-be.1",
           "kind": "mcq",
-          "prompt": "معنی «mother» چیست؟",
-          "promptFa": "مادر",
+          "prompt": "معنی «he» چیست؟",
+          "promptFa": "او (مرد)",
           "choices": [
-            "مادر",
-            "حیوان خانگی",
-            "خانواده"
+            "نه",
+            "او (مرد)",
+            "هستی"
           ],
-          "answer": 0,
-          "speak": "mother",
+          "answer": 1,
+          "speak": "he",
           "aiHints": {
-            "example": "I know the word \"mother\".",
-            "explanation": "«mother» یعنی مادر."
+            "example": "I know the word \"he\".",
+            "explanation": "«he» یعنی او (مرد)."
           }
         },
         {
-          "id": "a1-u2-family.2",
+          "id": "a1-u2-to-be.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "👨",
+          "emoji": "👩",
           "choices": [
-            "sister",
-            "father",
-            "brother"
+            "she",
+            "it",
+            "they"
           ],
-          "answer": 1,
-          "speak": "father"
+          "answer": 0,
+          "speak": "she"
         },
         {
-          "id": "a1-u2-family.3",
+          "id": "a1-u2-to-be.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "sister",
+          "speak": "we",
           "choices": [
-            "has",
-            "sister",
-            "happy"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u2-family.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "father",
-              "fa": "پدر"
-            },
-            {
-              "en": "mother",
-              "fa": "مادر"
-            },
-            {
-              "en": "brother",
-              "fa": "برادر"
-            },
-            {
-              "en": "sister",
-              "fa": "خواهر"
-            }
-          ]
-        },
-        {
-          "id": "a1-u2-family.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "این مادرم است.",
-          "sentence": "This is my ___.",
-          "choices": [
-            "mother",
-            "tall",
-            "have"
+            "we",
+            "job",
+            "this"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u2-family.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "من یک خانوادهٔ بزرگ دارم.",
-          "tokens": [
-            "have",
-            "family",
-            "I",
-            "big",
-            "a"
-          ],
-          "answer": "I have a big family"
+          "id": "a1-u2-to-be.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "we",
+              "fa": "ما"
+            },
+            {
+              "en": "she",
+              "fa": "او (زن)"
+            },
+            {
+              "en": "he",
+              "fa": "او (مرد)"
+            },
+            {
+              "en": "they",
+              "fa": "آن‌ها"
+            }
+          ]
         },
         {
-          "id": "a1-u2-family.7",
+          "id": "a1-u2-to-be.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او پدر من است.",
+          "sentence": "He ___ my father.",
+          "choices": [
+            "is",
+            "teacher",
+            "are"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u2-to-be.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "ما آماده‌ایم.",
+          "tokens": [
+            "are",
+            "ready",
+            "We"
+          ],
+          "answer": "We are ready"
+        },
+        {
+          "id": "a1-u2-to-be.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "They",
+            "is",
+            "my",
+            "friends."
+          ],
+          "answer": 1,
+          "fix": "They are my friends.",
+          "aiHints": {
+            "explanation": "درستش این است: They are my friends."
+          }
+        },
+        {
+          "id": "a1-u2-to-be.8",
+          "kind": "speed",
+          "prompt": "سریع! «it» یعنی چه؟",
+          "speak": "it",
+          "choices": [
+            "آن",
+            "او (مرد)"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u2-to-be.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «am»",
+          "choices": [
+            "آن",
+            "هستم",
+            "است؟"
+          ],
+          "answer": 1,
+          "speak": "am",
+          "reviewOf": "a1-u1-first-sentence"
+        },
+        {
+          "id": "a1-u2-to-be.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "you",
+          "choices": [
+            "you",
+            "no",
+            "this"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u1-first-sentence"
+        },
+        {
+          "id": "a1-u2-to-be.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔵",
+          "choices": [
+            "they",
+            "are",
+            "is"
+          ],
+          "answer": 2,
+          "speak": "is",
+          "reviewOf": "a1-u1-first-sentence"
+        },
+        {
+          "id": "a1-u2-to-be.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «are»",
+          "speak": "are",
+          "choices": [
+            "هستی / هستند",
+            "او (مرد)"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u1-first-sentence"
+        },
+        {
+          "id": "a1-u2-to-be.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "آن‌ها دانش‌آموز هستند.",
+          "sentence": "They ___ students.",
+          "choices": [
+            "book",
+            "are",
+            "he"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "He is my brother and they are my friends.",
+          "fa": "او برادر من است و آن‌ها دوستان من‌اند."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "یک قانون، سه شکل",
+        "body": "I → am. he/she/it → is. you/we/they → are. فقط همین."
+      }
+    },
+    {
+      "id": "a1-u2-this-that",
+      "title": "This and that",
+      "titleFa": "this / that / a / an",
+      "goal": "به چیزهای نزدیک و دور اشاره کنی",
+      "buildsOn": [
+        "a1-u2-to-be"
+      ],
+      "vocab": [
+        {
+          "en": "this",
+          "fa": "این",
+          "emoji": "👉"
+        },
+        {
+          "en": "that",
+          "fa": "آن",
+          "emoji": "👈"
+        },
+        {
+          "en": "a",
+          "fa": "یک",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "an",
+          "fa": "یک (قبل از صدادار)",
+          "emoji": "🅰️"
+        },
+        {
+          "en": "book",
+          "fa": "کتاب",
+          "emoji": "📕"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u2-this-that.1",
+          "kind": "mcq",
+          "prompt": "معنی «this» چیست؟",
+          "promptFa": "این",
+          "choices": [
+            "نَـ — نمی",
+            "این",
+            "هستی"
+          ],
+          "answer": 1,
+          "speak": "this",
+          "aiHints": {
+            "example": "I know the word \"this\".",
+            "explanation": "«this» یعنی این."
+          }
+        },
+        {
+          "id": "a1-u2-this-that.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👈",
+          "choices": [
+            "that",
+            "book",
+            "an"
+          ],
+          "answer": 0,
+          "speak": "that"
+        },
+        {
+          "id": "a1-u2-this-that.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "a",
+          "choices": [
+            "a",
+            "no",
+            "this"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u2-this-that.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "this",
+              "fa": "این"
+            },
+            {
+              "en": "a",
+              "fa": "یک"
+            },
+            {
+              "en": "an",
+              "fa": "یک (قبل از صدادار)"
+            },
+            {
+              "en": "that",
+              "fa": "آن"
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-this-that.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این یک کتاب است.",
+          "sentence": "___ is a book.",
+          "choices": [
+            "job",
+            "an",
+            "This"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u2-this-that.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "آن یک صندلی است.",
+          "tokens": [
+            "chair",
+            "a",
+            "That",
+            "is"
+          ],
+          "answer": "That is a chair"
+        },
+        {
+          "id": "a1-u2-this-that.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
             "This",
             "are",
-            "my",
-            "sister."
+            "a",
+            "book."
           ],
           "answer": 1,
-          "fix": "This is my sister.",
+          "fix": "This is a book.",
           "aiHints": {
-            "explanation": "درستش این است: This is my sister."
+            "explanation": "درستش این است: This is a book."
           }
         },
         {
-          "id": "a1-u2-family.8",
+          "id": "a1-u2-this-that.8",
           "kind": "speed",
-          "prompt": "سریع! «family» یعنی چه؟",
-          "speak": "family",
+          "prompt": "سریع! «book» یعنی چه؟",
+          "speak": "book",
           "choices": [
-            "مادر",
-            "خانواده"
+            "او (مرد)",
+            "کتاب"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u2-family.9",
+          "id": "a1-u2-this-that.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «name»",
+          "prompt": "یادت هست؟ معنی «she»",
           "choices": [
-            "گربه",
-            "نام",
-            "دارد"
+            "کتاب",
+            "او (زن)",
+            "کشور"
           ],
           "answer": 1,
-          "speak": "name",
-          "reviewOf": "a1-u1-hello-name"
+          "speak": "she",
+          "reviewOf": "a1-u2-to-be"
         },
         {
-          "id": "a1-u2-family.10",
+          "id": "a1-u2-this-that.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "friend",
+          "speak": "we",
           "choices": [
-            "tall",
-            "sister",
-            "friend"
+            "book",
+            "country",
+            "we"
           ],
           "answer": 2,
-          "reviewOf": "a1-u1-hello-name"
+          "reviewOf": "a1-u2-to-be"
         },
         {
-          "id": "a1-u2-family.11",
+          "id": "a1-u2-this-that.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👍",
+          "emoji": "👨‍👩‍👧",
           "choices": [
-            "good",
-            "has",
-            "family"
+            "we",
+            "they",
+            "where"
           ],
-          "answer": 0,
-          "speak": "good",
-          "reviewOf": "a1-u1-hello-name"
+          "answer": 1,
+          "speak": "they",
+          "reviewOf": "a1-u2-to-be"
         },
         {
-          "id": "a1-u2-family.12",
+          "id": "a1-u2-this-that.12",
           "kind": "speed",
-          "prompt": "مرور سریع! «morning»",
-          "speak": "morning",
+          "prompt": "مرور سریع! «it»",
+          "speak": "it",
           "choices": [
-            "صبح",
-            "مادر"
+            "او (مرد)",
+            "آن"
           ],
-          "answer": 0,
+          "answer": 1,
           "ms": 6000,
-          "reviewOf": "a1-u1-hello-name"
+          "reviewOf": "a1-u2-to-be"
         },
         {
-          "id": "a1-u2-family.13",
+          "id": "a1-u2-this-that.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "من یک برادر دارم.",
-          "sentence": "I have one ___.",
+          "promptFa": "من یک سیب دارم.",
+          "sentence": "I have ___ apple.",
           "choices": [
-            "pet",
-            "brother",
-            "mother"
+            "book",
+            "an",
+            "yes"
           ],
           "answer": 1
         }
       ],
       "youCanSay": [
         {
-          "en": "This is my family.",
-          "fa": "این خانوادهٔ من است."
+          "en": "This is a book and that is an apple.",
+          "fa": "این یک کتاب است و آن یک سیب."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "This is…",
-        "body": "برای معرفی یک نفر از This is استفاده کن: This is my father."
+        "title": "a یا an",
+        "body": "قبل از a، e، i، o، u از an استفاده کن: an apple، an egg. بقیه با a: a book، a cat."
       }
     },
     {
-      "id": "a1-u2-have-got",
-      "title": "I have a pet",
-      "titleFa": "داشتن",
-      "goal": "بگویی چه چیزی داری",
+      "id": "a1-u2-questions-be",
+      "title": "Yes / no questions",
+      "titleFa": "سؤال بله و نه",
+      "goal": "با am / is / are سؤال بسازی و جواب بدهی",
       "buildsOn": [
-        "a1-u2-family"
+        "a1-u2-this-that"
       ],
       "vocab": [
         {
-          "en": "have",
-          "fa": "داشتن",
-          "emoji": "🤲"
+          "en": "are",
+          "fa": "هستی",
+          "emoji": "❓"
         },
         {
-          "en": "has",
-          "fa": "دارد",
-          "emoji": "👉"
+          "en": "is",
+          "fa": "است؟",
+          "emoji": "❔"
         },
         {
-          "en": "pet",
-          "fa": "حیوان خانگی",
-          "emoji": "🐾"
+          "en": "yes",
+          "fa": "بله",
+          "emoji": "✅"
         },
         {
-          "en": "cat",
-          "fa": "گربه",
-          "emoji": "🐱"
+          "en": "no",
+          "fa": "نه",
+          "emoji": "❌"
         },
         {
-          "en": "dog",
-          "fa": "سگ",
-          "emoji": "🐕"
+          "en": "not",
+          "fa": "نَـ — نمی",
+          "emoji": "🚫"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u2-have-got.1",
+          "id": "a1-u2-questions-be.1",
           "kind": "mcq",
-          "prompt": "معنی «have» چیست؟",
-          "promptFa": "داشتن",
+          "prompt": "معنی «are» چیست؟",
+          "promptFa": "هستی",
           "choices": [
-            "حیوان خانگی",
-            "داشتن",
-            "جوان"
+            "این",
+            "هستی",
+            "چه"
           ],
           "answer": 1,
-          "speak": "have",
+          "speak": "are",
           "aiHints": {
-            "example": "I know the word \"have\".",
-            "explanation": "«have» یعنی داشتن."
+            "example": "I know the word \"are\".",
+            "explanation": "«are» یعنی هستی."
           }
         },
         {
-          "id": "a1-u2-have-got.2",
+          "id": "a1-u2-questions-be.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "👉",
+          "emoji": "❔",
           "choices": [
-            "dog",
-            "has",
-            "pet"
+            "yes",
+            "is",
+            "no"
           ],
           "answer": 1,
-          "speak": "has"
+          "speak": "is"
         },
         {
-          "id": "a1-u2-have-got.3",
+          "id": "a1-u2-questions-be.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "pet",
+          "speak": "yes",
           "choices": [
-            "mother",
-            "pet",
-            "happy"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u2-have-got.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "have",
-              "fa": "داشتن"
-            },
-            {
-              "en": "pet",
-              "fa": "حیوان خانگی"
-            },
-            {
-              "en": "has",
-              "fa": "دارد"
-            },
-            {
-              "en": "cat",
-              "fa": "گربه"
-            }
-          ]
-        },
-        {
-          "id": "a1-u2-have-got.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "من دو گربه دارم.",
-          "sentence": "I ___ two cats.",
-          "choices": [
-            "my",
-            "father",
-            "have"
+            "where",
+            "teacher",
+            "yes"
           ],
           "answer": 2
         },
         {
-          "id": "a1-u2-have-got.6",
+          "id": "a1-u2-questions-be.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "are",
+              "fa": "هستی"
+            },
+            {
+              "en": "is",
+              "fa": "است؟"
+            },
+            {
+              "en": "no",
+              "fa": "نه"
+            },
+            {
+              "en": "yes",
+              "fa": "بله"
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-questions-be.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "تو دانش‌آموزی؟",
+          "sentence": "___ you a student?",
+          "choices": [
+            "that",
+            "teacher",
+            "Are"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u2-questions-be.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "خواهرم یک حیوان خانگی دارد.",
+          "promptFa": "تو اهل ایران هستی؟",
           "tokens": [
-            "pet",
-            "My",
-            "has",
-            "sister",
+            "Iran",
+            "from",
+            "you",
+            "Are"
+          ],
+          "answer": "Are you from Iran"
+        },
+        {
+          "id": "a1-u2-questions-be.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "You",
+            "is",
+            "a",
+            "teacher?"
+          ],
+          "answer": 1,
+          "fix": "Are you a teacher?",
+          "aiHints": {
+            "explanation": "درستش این است: Are you a teacher?"
+          }
+        },
+        {
+          "id": "a1-u2-questions-be.8",
+          "kind": "speed",
+          "prompt": "سریع! «not» یعنی چه؟",
+          "speak": "not",
+          "choices": [
+            "نَـ — نمی",
+            "او (مرد)"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u2-questions-be.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «that»",
+          "choices": [
+            "آن",
+            "چه",
+            "نه"
+          ],
+          "answer": 0,
+          "speak": "that",
+          "reviewOf": "a1-u2-this-that"
+        },
+        {
+          "id": "a1-u2-questions-be.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "a",
+          "choices": [
+            "no",
+            "a",
+            "she"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u2-this-that"
+        },
+        {
+          "id": "a1-u2-questions-be.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🅰️",
+          "choices": [
+            "are",
+            "an",
             "a"
           ],
-          "answer": "My sister has a pet"
-        },
-        {
-          "id": "a1-u2-have-got.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "She",
-            "have",
-            "a",
-            "cat."
-          ],
           "answer": 1,
-          "fix": "She has a cat.",
-          "aiHints": {
-            "explanation": "درستش این است: She has a cat."
-          }
+          "speak": "an",
+          "reviewOf": "a1-u2-this-that"
         },
         {
-          "id": "a1-u2-have-got.8",
+          "id": "a1-u2-questions-be.12",
           "kind": "speed",
-          "prompt": "سریع! «dog» یعنی چه؟",
-          "speak": "dog",
+          "prompt": "مرور سریع! «book»",
+          "speak": "book",
           "choices": [
-            "مادر",
-            "سگ"
-          ],
-          "answer": 1,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u2-have-got.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «father»",
-          "choices": [
-            "بامزه",
-            "داشتن",
-            "پدر"
-          ],
-          "answer": 2,
-          "speak": "father",
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-have-got.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "sister",
-          "choices": [
-            "mother",
-            "pet",
-            "sister"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-have-got.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👦",
-          "choices": [
-            "young",
-            "brother",
-            "has"
-          ],
-          "answer": 1,
-          "speak": "brother",
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-have-got.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «family»",
-          "speak": "family",
-          "choices": [
-            "مادر",
-            "خانواده"
+            "او (مرد)",
+            "کتاب"
           ],
           "answer": 1,
           "ms": 6000,
-          "reviewOf": "a1-u2-family"
+          "reviewOf": "a1-u2-this-that"
         },
         {
-          "id": "a1-u2-have-got.13",
+          "id": "a1-u2-questions-be.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "او یک سگ دارد.",
-          "sentence": "She ___ a dog.",
+          "promptFa": "نه، من معلم نیستم.",
+          "sentence": "No, I am ___ a teacher.",
           "choices": [
-            "have",
-            "our",
-            "has"
+            "is",
+            "not",
+            "country"
           ],
-          "answer": 2
+          "answer": 1
         }
       ],
       "youCanSay": [
         {
-          "en": "I have a cat and a dog.",
-          "fa": "من یک گربه و یک سگ دارم."
+          "en": "Are you from Iran? Yes, I am.",
+          "fa": "تو اهل ایران هستی؟ بله."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "have یا has",
-        "body": "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم."
+        "title": "برای سؤال، جابه‌جا کن",
+        "body": "You are a student → Are you a student? فعل بودن به اول جمله می‌آید."
       }
     },
     {
-      "id": "a1-u2-describe",
-      "title": "Describing people",
-      "titleFa": "توصیف آدم‌ها",
-      "goal": "ظاهر و اخلاق آدم‌ها را توصیف کنی",
+      "id": "a1-u2-where-from",
+      "title": "Where are you from?",
+      "titleFa": "اهل کجایی؟",
+      "goal": "ملیت و شغلت را بگویی",
       "buildsOn": [
-        "a1-u2-family"
+        "a1-u2-questions-be"
       ],
       "vocab": [
         {
-          "en": "tall",
-          "fa": "قدبلند",
-          "emoji": "📏"
+          "en": "where",
+          "fa": "کجا",
+          "emoji": "🗺️"
         },
         {
-          "en": "kind",
-          "fa": "مهربان",
-          "emoji": "💚"
+          "en": "what",
+          "fa": "چه",
+          "emoji": "❓"
         },
         {
-          "en": "funny",
-          "fa": "بامزه",
-          "emoji": "😄"
+          "en": "country",
+          "fa": "کشور",
+          "emoji": "🌍"
         },
         {
-          "en": "young",
-          "fa": "جوان",
-          "emoji": "🧒"
+          "en": "job",
+          "fa": "شغل",
+          "emoji": "💼"
         },
         {
-          "en": "happy",
-          "fa": "شاد",
-          "emoji": "😊"
+          "en": "teacher",
+          "fa": "معلم",
+          "emoji": "👩‍🏫"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u2-describe.1",
+          "id": "a1-u2-where-from.1",
           "kind": "mcq",
-          "prompt": "معنی «tall» چیست؟",
-          "promptFa": "قدبلند",
+          "prompt": "معنی «where» چیست؟",
+          "promptFa": "کجا",
           "choices": [
-            "بامزه",
-            "شاد",
-            "قدبلند"
+            "بله",
+            "کجا",
+            "کشور"
           ],
-          "answer": 2,
-          "speak": "tall",
+          "answer": 1,
+          "speak": "where",
           "aiHints": {
-            "example": "I know the word \"tall\".",
-            "explanation": "«tall» یعنی قدبلند."
+            "example": "I know the word \"where\".",
+            "explanation": "«where» یعنی کجا."
           }
         },
         {
-          "id": "a1-u2-describe.2",
+          "id": "a1-u2-where-from.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "💚",
+          "emoji": "❓",
           "choices": [
-            "kind",
-            "funny",
-            "happy"
+            "teacher",
+            "what",
+            "country"
           ],
-          "answer": 0,
-          "speak": "kind"
+          "answer": 1,
+          "speak": "what"
         },
         {
-          "id": "a1-u2-describe.3",
+          "id": "a1-u2-where-from.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "funny",
+          "speak": "country",
           "choices": [
-            "father",
-            "funny",
-            "sister"
+            "we",
+            "country",
+            "this"
           ],
           "answer": 1
         },
         {
-          "id": "a1-u2-describe.4",
+          "id": "a1-u2-where-from.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "young",
-              "fa": "جوان"
+              "en": "what",
+              "fa": "چه"
             },
             {
-              "en": "funny",
-              "fa": "بامزه"
+              "en": "where",
+              "fa": "کجا"
             },
             {
-              "en": "tall",
-              "fa": "قدبلند"
+              "en": "country",
+              "fa": "کشور"
             },
             {
-              "en": "kind",
-              "fa": "مهربان"
+              "en": "job",
+              "fa": "شغل"
             }
           ]
         },
         {
-          "id": "a1-u2-describe.5",
+          "id": "a1-u2-where-from.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "پدرم خیلی مهربان است.",
-          "sentence": "My father is very ___.",
+          "promptFa": "اهل کجایی؟",
+          "sentence": "___ are you from?",
           "choices": [
-            "her",
-            "young",
-            "kind"
+            "not",
+            "it",
+            "Where"
           ],
           "answer": 2
         },
         {
-          "id": "a1-u2-describe.6",
+          "id": "a1-u2-where-from.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "او مهربان و بامزه است.",
+          "promptFa": "من اهل ایران هستم.",
           "tokens": [
-            "funny",
-            "She",
-            "kind",
-            "is",
-            "and"
+            "Iran",
+            "from",
+            "I",
+            "am"
           ],
-          "answer": "She is kind and funny"
+          "answer": "I am from Iran"
         },
         {
-          "id": "a1-u2-describe.7",
+          "id": "a1-u2-where-from.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "My",
-            "mother",
+            "Where",
+            "you",
             "are",
-            "kind."
+            "from?"
           ],
-          "answer": 2,
-          "fix": "My mother is kind.",
+          "answer": 1,
+          "fix": "Where are you from?",
           "aiHints": {
-            "explanation": "درستش این است: My mother is kind."
+            "explanation": "درستش این است: Where are you from?"
           }
         },
         {
-          "id": "a1-u2-describe.8",
+          "id": "a1-u2-where-from.8",
           "kind": "speed",
-          "prompt": "سریع! «happy» یعنی چه؟",
-          "speak": "happy",
+          "prompt": "سریع! «teacher» یعنی چه؟",
+          "speak": "teacher",
           "choices": [
-            "مادر",
-            "شاد"
+            "او (مرد)",
+            "معلم"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u2-describe.9",
+          "id": "a1-u2-where-from.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «father»",
+          "prompt": "یادت هست؟ معنی «is»",
           "choices": [
-            "دارد",
-            "پدر",
-            "شاد"
+            "کشور",
+            "است؟",
+            "کتاب"
           ],
           "answer": 1,
-          "speak": "father",
-          "reviewOf": "a1-u2-family"
+          "speak": "is",
+          "reviewOf": "a1-u2-questions-be"
         },
         {
-          "id": "a1-u2-describe.10",
+          "id": "a1-u2-where-from.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "sister",
+          "speak": "yes",
           "choices": [
-            "has",
-            "sister",
-            "funny"
+            "book",
+            "yes",
+            "no"
           ],
           "answer": 1,
-          "reviewOf": "a1-u2-family"
+          "reviewOf": "a1-u2-questions-be"
         },
         {
-          "id": "a1-u2-describe.11",
+          "id": "a1-u2-where-from.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👦",
+          "emoji": "❌",
           "choices": [
-            "her",
-            "tall",
-            "brother"
-          ],
-          "answer": 2,
-          "speak": "brother",
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-describe.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «family»",
-          "speak": "family",
-          "choices": [
-            "خانواده",
-            "مادر"
-          ],
-          "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-describe.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "او قدبلند و بامزه است.",
-          "sentence": "She is tall and ___.",
-          "choices": [
-            "funny",
-            "our",
-            "kind"
-          ],
-          "answer": 0
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "My brother is young and funny.",
-          "fa": "برادرم جوان و بامزه است."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "صفت بعد از is",
-        "body": "صفت همیشه بعد از فعل to be می‌آید: He is tall. She is kind."
-      }
-    },
-    {
-      "id": "a1-u2-possessives",
-      "title": "My, your, his, her",
-      "titleFa": "مالِ کی؟",
-      "goal": "بگویی چیزی مال چه کسی است",
-      "buildsOn": [
-        "a1-u2-family",
-        "a1-u1-hello-name"
-      ],
-      "vocab": [
-        {
-          "en": "my",
-          "fa": "مال من",
-          "emoji": "🙋"
-        },
-        {
-          "en": "your",
-          "fa": "مال تو",
-          "emoji": "🫵"
-        },
-        {
-          "en": "his",
-          "fa": "مال او (مرد)",
-          "emoji": "👨"
-        },
-        {
-          "en": "her",
-          "fa": "مال او (زن)",
-          "emoji": "👩"
-        },
-        {
-          "en": "our",
-          "fa": "مال ما",
-          "emoji": "👨‍👩‍👦"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u2-possessives.1",
-          "kind": "mcq",
-          "prompt": "معنی «my» چیست؟",
-          "promptFa": "مال من",
-          "choices": [
-            "مال او (زن)",
-            "مال من",
-            "خانواده"
-          ],
-          "answer": 1,
-          "speak": "my",
-          "aiHints": {
-            "example": "I know the word \"my\".",
-            "explanation": "«my» یعنی مال من."
-          }
-        },
-        {
-          "id": "a1-u2-possessives.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🫵",
-          "choices": [
-            "our",
-            "his",
-            "your"
-          ],
-          "answer": 2,
-          "speak": "your"
-        },
-        {
-          "id": "a1-u2-possessives.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "his",
-          "choices": [
-            "his",
-            "funny",
-            "family"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u2-possessives.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "my",
-              "fa": "مال من"
-            },
-            {
-              "en": "his",
-              "fa": "مال او (مرد)"
-            },
-            {
-              "en": "her",
-              "fa": "مال او (زن)"
-            },
-            {
-              "en": "your",
-              "fa": "مال تو"
-            }
-          ]
-        },
-        {
-          "id": "a1-u2-possessives.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "این کتاب من است.",
-          "sentence": "This is ___ book.",
-          "choices": [
-            "my",
-            "our",
-            "cat"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u2-possessives.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "اسم تو چیست؟",
-          "tokens": [
-            "your",
-            "name",
-            "What",
+            "no",
+            "it",
             "is"
           ],
-          "answer": "What is your name"
-        },
-        {
-          "id": "a1-u2-possessives.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "His",
-            "name",
-            "are",
-            "Reza."
-          ],
-          "answer": 2,
-          "fix": "His name is Reza.",
-          "aiHints": {
-            "explanation": "درستش این است: His name is Reza."
-          }
-        },
-        {
-          "id": "a1-u2-possessives.8",
-          "kind": "speed",
-          "prompt": "سریع! «our» یعنی چه؟",
-          "speak": "our",
-          "choices": [
-            "مال ما",
-            "مادر"
-          ],
           "answer": 0,
-          "ms": 6000
+          "speak": "no",
+          "reviewOf": "a1-u2-questions-be"
         },
         {
-          "id": "a1-u2-possessives.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «father»",
-          "choices": [
-            "برادر",
-            "پدر",
-            "مال ما"
-          ],
-          "answer": 1,
-          "speak": "father",
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-possessives.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "friend",
-          "choices": [
-            "friend",
-            "have",
-            "kind"
-          ],
-          "answer": 0,
-          "reviewOf": "a1-u1-hello-name"
-        },
-        {
-          "id": "a1-u2-possessives.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "👦",
-          "choices": [
-            "her",
-            "tall",
-            "brother"
-          ],
-          "answer": 2,
-          "speak": "brother",
-          "reviewOf": "a1-u2-family"
-        },
-        {
-          "id": "a1-u2-possessives.12",
+          "id": "a1-u2-where-from.12",
           "kind": "speed",
-          "prompt": "مرور سریع! «morning»",
-          "speak": "morning",
+          "prompt": "مرور سریع! «not»",
+          "speak": "not",
           "choices": [
-            "صبح",
-            "مادر"
+            "نَـ — نمی",
+            "او (مرد)"
           ],
           "answer": 0,
           "ms": 6000,
-          "reviewOf": "a1-u1-hello-name"
+          "reviewOf": "a1-u2-questions-be"
         },
         {
-          "id": "a1-u2-possessives.13",
+          "id": "a1-u2-where-from.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "اسم او ساراست.",
-          "sentence": "___ name is Sara.",
+          "promptFa": "من معلم هستم.",
+          "sentence": "I am a ___.",
           "choices": [
-            "Her",
-            "sister",
-            "my"
+            "teacher",
+            "he",
+            "they"
           ],
           "answer": 0
         }
       ],
       "youCanSay": [
         {
-          "en": "Her brother is my friend.",
-          "fa": "برادر او دوست من است."
+          "en": "Where are you from? I am from Iran.",
+          "fa": "اهل کجایی؟ من اهل ایران هستم."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "his و her",
-        "body": "برای مرد his و برای زن her: his car, her bag."
+        "title": "کلمه‌های پرسشی",
+        "body": "where = کجا، what = چه، who = چه کسی. این کلمه‌ها همیشه اول جمله می‌آیند."
       }
     }
   ],
   "boss": {
     "id": "a1-u2-boss",
-    "titleFa": "نبرد پایانی — خانواده و آدم‌ها",
+    "titleFa": "نبرد پایانی — من و دیگران",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -957,12 +952,12 @@
       {
         "id": "a1-u2-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «father»",
-        "speak": "father",
+        "prompt": "معنی «she»",
+        "speak": "she",
         "choices": [
-          "پدر",
-          "مادر",
-          "خواهر"
+          "او (زن)",
+          "است؟",
+          "چه"
         ],
         "answer": 0
       },
@@ -970,35 +965,35 @@
         "id": "a1-u2-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "family",
+        "speak": "it",
         "choices": [
-          "father",
-          "family",
-          "sister"
+          "teacher",
+          "she",
+          "it"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
         "id": "a1-u2-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🐾",
+        "emoji": "1️⃣",
         "choices": [
-          "father",
-          "pet",
-          "her"
+          "teacher",
+          "a",
+          "she"
         ],
         "answer": 1,
-        "speak": "pet"
+        "speak": "a"
       },
       {
         "id": "a1-u2-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «tall»",
-        "speak": "tall",
+        "prompt": "سریع! «are»",
+        "speak": "are",
         "choices": [
-          "قدبلند",
-          "خانواده"
+          "هستی",
+          "آن"
         ],
         "answer": 0,
         "ms": 5000
@@ -1006,24 +1001,24 @@
       {
         "id": "a1-u2-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «young»",
-        "speak": "young",
+        "prompt": "معنی «no»",
+        "speak": "no",
         "choices": [
-          "بامزه",
-          "جوان",
-          "داشتن"
+          "نه",
+          "است؟",
+          "هستی"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "a1-u2-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "your",
+        "speak": "what",
         "choices": [
-          "your",
-          "his",
-          "mother"
+          "what",
+          "he",
+          "job"
         ],
         "answer": 0
       },
@@ -1031,23 +1026,23 @@
         "id": "a1-u2-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "👨‍👩‍👦",
+        "emoji": "👩‍🏫",
         "choices": [
-          "have",
-          "her",
-          "our"
+          "teacher",
+          "where",
+          "she"
         ],
-        "answer": 2,
-        "speak": "our"
+        "answer": 0,
+        "speak": "teacher"
       },
       {
         "id": "a1-u2-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «sister»",
-        "speak": "sister",
+        "prompt": "سریع! «we»",
+        "speak": "we",
         "choices": [
-          "قدبلند",
-          "خواهر"
+          "او (مرد)",
+          "ما"
         ],
         "answer": 1,
         "ms": 5000
@@ -1055,12 +1050,12 @@
       {
         "id": "a1-u2-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «have»",
-        "speak": "have",
+        "prompt": "معنی «this»",
+        "speak": "this",
         "choices": [
-          "مال من",
-          "داشتن",
-          "قدبلند"
+          "یک (قبل از صدادار)",
+          "این",
+          "یک"
         ],
         "answer": 1
       },
@@ -1068,11 +1063,11 @@
         "id": "a1-u2-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "cat",
+        "speak": "an",
         "choices": [
-          "your",
-          "cat",
-          "brother"
+          "it",
+          "an",
+          "where"
         ],
         "answer": 1
       }

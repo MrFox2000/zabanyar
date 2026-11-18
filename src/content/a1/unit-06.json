@@ -2,252 +2,734 @@
   "id": "a1-u6",
   "level": "A1",
   "index": 6,
-  "titleFa": "کار و وقت",
-  "titleEn": "Work and time",
+  "titleFa": "خانه و شهر",
+  "titleEn": "Home and city",
   "theme": "orange",
   "lessons": [
     {
-      "id": "a1-u6-jobs",
-      "title": "What do you do?",
-      "titleFa": "شغل‌ها",
-      "goal": "شغل خودت و دیگران را بگویی",
+      "id": "a1-u6-rooms",
+      "title": "Rooms in a home",
+      "titleFa": "اتاق‌های خانه",
+      "goal": "بگویی در خانه چه اتاق‌هایی هست",
       "buildsOn": [
-        "a1-u1-from-jobs"
+        "a1-u3-there-is"
       ],
       "vocab": [
         {
-          "en": "doctor",
-          "fa": "پزشک",
-          "emoji": "🩺"
+          "en": "kitchen",
+          "fa": "آشپزخانه",
+          "emoji": "🍳"
         },
         {
-          "en": "driver",
-          "fa": "راننده",
-          "emoji": "🚗"
+          "en": "bedroom",
+          "fa": "اتاق خواب",
+          "emoji": "🛏️"
         },
         {
-          "en": "cook",
-          "fa": "آشپز",
-          "emoji": "👨‍🍳"
+          "en": "bathroom",
+          "fa": "حمام",
+          "emoji": "🛁"
         },
         {
-          "en": "engineer",
-          "fa": "مهندس",
-          "emoji": "🛠️"
+          "en": "living room",
+          "fa": "پذیرایی",
+          "emoji": "🛋️"
         },
         {
-          "en": "nurse",
-          "fa": "پرستار",
-          "emoji": "💉"
+          "en": "garden",
+          "fa": "باغ",
+          "emoji": "🌳"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u6-jobs.1",
+          "id": "a1-u6-rooms.1",
           "kind": "mcq",
-          "prompt": "معنی «doctor» چیست؟",
-          "promptFa": "پزشک",
+          "prompt": "معنی «kitchen» چیست؟",
+          "promptFa": "آشپزخانه",
           "choices": [
-            "ماه",
-            "راننده",
-            "پزشک"
+            "دور",
+            "آشپزخانه",
+            "در حال رفتن"
           ],
-          "answer": 2,
-          "speak": "doctor",
+          "answer": 1,
+          "speak": "kitchen",
           "aiHints": {
-            "example": "I know the word \"doctor\".",
-            "explanation": "«doctor» یعنی پزشک."
+            "example": "I know the word \"kitchen\".",
+            "explanation": "«kitchen» یعنی آشپزخانه."
           }
         },
         {
-          "id": "a1-u6-jobs.2",
+          "id": "a1-u6-rooms.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🚗",
+          "emoji": "🛏️",
           "choices": [
-            "doctor",
-            "driver",
-            "cook"
+            "garden",
+            "living room",
+            "bedroom"
           ],
-          "answer": 1,
-          "speak": "driver"
+          "answer": 2,
+          "speak": "bedroom"
         },
         {
-          "id": "a1-u6-jobs.3",
+          "id": "a1-u6-rooms.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "cook",
+          "speak": "bathroom",
           "choices": [
-            "cook",
-            "Sunday",
-            "tomorrow"
+            "bathroom",
+            "under",
+            "bedroom"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u6-jobs.4",
+          "id": "a1-u6-rooms.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "driver",
-              "fa": "راننده"
+              "en": "living room",
+              "fa": "پذیرایی"
             },
             {
-              "en": "doctor",
-              "fa": "پزشک"
+              "en": "bathroom",
+              "fa": "حمام"
             },
             {
-              "en": "engineer",
-              "fa": "مهندس"
+              "en": "bedroom",
+              "fa": "اتاق خواب"
             },
             {
-              "en": "cook",
-              "fa": "آشپز"
+              "en": "kitchen",
+              "fa": "آشپزخانه"
             }
           ]
         },
         {
-          "id": "a1-u6-jobs.5",
+          "id": "a1-u6-rooms.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "او پزشک است.",
-          "sentence": "She is a ___.",
+          "promptFa": "آشپزخانه کوچک است.",
+          "sentence": "The ___ is small.",
           "choices": [
-            "doctor",
-            "working",
-            "driver"
+            "bedroom",
+            "far",
+            "kitchen"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "id": "a1-u6-jobs.6",
+          "id": "a1-u6-rooms.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "پدرم راننده است.",
+          "promptFa": "یک میز در آشپزخانه هست.",
           "tokens": [
-            "driver",
-            "father",
-            "a",
-            "My",
-            "is"
+            "the",
+            "kitchen",
+            "is",
+            "There",
+            "in",
+            "table",
+            "a"
           ],
-          "answer": "My father is a driver"
+          "answer": "There is a table in the kitchen"
         },
         {
-          "id": "a1-u6-jobs.7",
+          "id": "a1-u6-rooms.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "She",
-            "is",
+            "There",
+            "are",
             "a",
-            "nurses."
+            "bed",
+            "in",
+            "the",
+            "room."
           ],
-          "answer": 3,
-          "fix": "She is a nurse.",
+          "answer": 1,
+          "fix": "There is a bed in the room.",
           "aiHints": {
-            "explanation": "درستش این است: She is a nurse."
+            "explanation": "درستش این است: There is a bed in the room."
           }
         },
         {
-          "id": "a1-u6-jobs.8",
+          "id": "a1-u6-rooms.8",
           "kind": "speed",
-          "prompt": "سریع! «nurse» یعنی چه؟",
-          "speak": "nurse",
+          "prompt": "سریع! «garden» یعنی چه؟",
+          "speak": "garden",
           "choices": [
-            "پزشک",
-            "پرستار"
+            "آشپزخانه",
+            "باغ"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u6-jobs.9",
+          "id": "a1-u6-rooms.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «country»",
+          "prompt": "یادت هست؟ معنی «here»",
           "choices": [
-            "کشور",
-            "آشپز",
-            "الان"
-          ],
-          "answer": 0,
-          "speak": "country",
-          "reviewOf": "a1-u1-from-jobs"
-        },
-        {
-          "id": "a1-u6-jobs.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "Iran",
-          "choices": [
-            "working",
-            "doing",
-            "Iran"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u1-from-jobs"
-        },
-        {
-          "id": "a1-u6-jobs.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "💼",
-          "choices": [
-            "tomorrow",
-            "job",
-            "Monday"
+            "زیر",
+            "اینجا",
+            "در حال رفتن"
           ],
           "answer": 1,
-          "speak": "job",
-          "reviewOf": "a1-u1-from-jobs"
+          "speak": "here",
+          "reviewOf": "a1-u3-there-is"
         },
         {
-          "id": "a1-u6-jobs.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «student»",
-          "speak": "student",
+          "id": "a1-u6-rooms.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "near",
           "choices": [
-            "پزشک",
-            "دانش‌آموز"
+            "near",
+            "far",
+            "kitchen"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u3-there-is"
+        },
+        {
+          "id": "a1-u6-rooms.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🪑",
+          "choices": [
+            "table",
+            "waiting",
+            "kitchen"
+          ],
+          "answer": 0,
+          "speak": "table",
+          "reviewOf": "a1-u3-there-is"
+        },
+        {
+          "id": "a1-u6-rooms.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «room»",
+          "speak": "room",
+          "choices": [
+            "آشپزخانه",
+            "اتاق"
           ],
           "answer": 1,
           "ms": 6000,
-          "reviewOf": "a1-u1-from-jobs"
+          "reviewOf": "a1-u3-there-is"
         },
         {
-          "id": "a1-u6-jobs.13",
+          "id": "a1-u6-rooms.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "او به‌عنوان مهندس کار می‌کند.",
-          "sentence": "He works as an ___.",
+          "promptFa": "ما یک باغ داریم.",
+          "sentence": "We have a ___.",
           "choices": [
-            "month",
-            "weekend",
-            "engineer"
+            "garden",
+            "waiting",
+            "behind"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "There are two bedrooms and a garden.",
+          "fa": "دو اتاق خواب و یک باغ هست."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "in + اتاق",
+        "body": "برای گفتن «در اتاق» از in استفاده کن: in the kitchen، in the bedroom."
+      }
+    },
+    {
+      "id": "a1-u6-prepositions",
+      "title": "In, on, under",
+      "titleFa": "حروف مکان",
+      "goal": "بگویی چیزی کجاست",
+      "buildsOn": [
+        "a1-u6-rooms"
+      ],
+      "vocab": [
+        {
+          "en": "in",
+          "fa": "در / داخل",
+          "emoji": "📥"
+        },
+        {
+          "en": "on",
+          "fa": "روی",
+          "emoji": "🔝"
+        },
+        {
+          "en": "under",
+          "fa": "زیر",
+          "emoji": "⬇️"
+        },
+        {
+          "en": "behind",
+          "fa": "پشت",
+          "emoji": "🔙"
+        },
+        {
+          "en": "next to",
+          "fa": "کنارِ",
+          "emoji": "↔️"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u6-prepositions.1",
+          "kind": "mcq",
+          "prompt": "معنی «in» چیست؟",
+          "promptFa": "در / داخل",
+          "choices": [
+            "آشپزخانه",
+            "حمام",
+            "در / داخل"
+          ],
+          "answer": 2,
+          "speak": "in",
+          "aiHints": {
+            "example": "I know the word \"in\".",
+            "explanation": "«in» یعنی در / داخل."
+          }
+        },
+        {
+          "id": "a1-u6-prepositions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🔝",
+          "choices": [
+            "on",
+            "next to",
+            "under"
+          ],
+          "answer": 0,
+          "speak": "on"
+        },
+        {
+          "id": "a1-u6-prepositions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "under",
+          "choices": [
+            "under",
+            "behind",
+            "kitchen"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-prepositions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "on",
+              "fa": "روی"
+            },
+            {
+              "en": "behind",
+              "fa": "پشت"
+            },
+            {
+              "en": "in",
+              "fa": "در / داخل"
+            },
+            {
+              "en": "under",
+              "fa": "زیر"
+            }
+          ]
+        },
+        {
+          "id": "a1-u6-prepositions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "گربه زیر میز است.",
+          "sentence": "The cat is ___ the table.",
+          "choices": [
+            "under",
+            "now",
+            "right"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u6-prepositions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "کتاب روی میز است.",
+          "tokens": [
+            "on",
+            "book",
+            "the",
+            "table",
+            "is",
+            "The"
+          ],
+          "answer": "The book is on the table"
+        },
+        {
+          "id": "a1-u6-prepositions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "The",
+            "keys",
+            "is",
+            "in",
+            "the",
+            "bag."
+          ],
+          "answer": 2,
+          "fix": "The keys are in the bag.",
+          "aiHints": {
+            "explanation": "درستش این است: The keys are in the bag."
+          }
+        },
+        {
+          "id": "a1-u6-prepositions.8",
+          "kind": "speed",
+          "prompt": "سریع! «next to» یعنی چه؟",
+          "speak": "next to",
+          "choices": [
+            "آشپزخانه",
+            "کنارِ"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u6-prepositions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «bedroom»",
+          "choices": [
+            "اتاق خواب",
+            "روی",
+            "پیچیدن"
+          ],
+          "answer": 0,
+          "speak": "bedroom",
+          "reviewOf": "a1-u6-rooms"
+        },
+        {
+          "id": "a1-u6-prepositions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "bathroom",
+          "choices": [
+            "bathroom",
+            "going",
+            "right"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u6-rooms"
+        },
+        {
+          "id": "a1-u6-prepositions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🛋️",
+          "choices": [
+            "next to",
+            "garden",
+            "living room"
+          ],
+          "answer": 2,
+          "speak": "living room",
+          "reviewOf": "a1-u6-rooms"
+        },
+        {
+          "id": "a1-u6-prepositions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «garden»",
+          "speak": "garden",
+          "choices": [
+            "آشپزخانه",
+            "باغ"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u6-rooms"
+        },
+        {
+          "id": "a1-u6-prepositions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "کلیدهایم داخل کیفم هستند.",
+          "sentence": "My keys are ___ my bag.",
+          "choices": [
+            "far",
+            "working",
+            "in"
           ],
           "answer": 2
         }
       ],
       "youCanSay": [
         {
-          "en": "I am a cook and my sister is a nurse.",
-          "fa": "من آشپزم و خواهرم پرستار است."
+          "en": "My phone is on the table, next to the cup.",
+          "fa": "گوشی‌ام روی میز، کنار فنجان است."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "a / an",
-        "body": "قبل از حرف صدادار an و قبل از حرف بی‌صدا a: an engineer, a doctor."
+        "title": "سه‌تای پرکاربرد",
+        "body": "in داخل، on روی سطح، under زیر. next to کنار و behind پشت."
+      }
+    },
+    {
+      "id": "a1-u6-directions",
+      "title": "Which way?",
+      "titleFa": "مسیر پرسیدن",
+      "goal": "راه را بپرسی و مسیر بدهی",
+      "buildsOn": [
+        "a1-u6-prepositions"
+      ],
+      "vocab": [
+        {
+          "en": "left",
+          "fa": "چپ",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "right",
+          "fa": "راست",
+          "emoji": "➡️"
+        },
+        {
+          "en": "straight",
+          "fa": "مستقیم",
+          "emoji": "⬆️"
+        },
+        {
+          "en": "turn",
+          "fa": "پیچیدن",
+          "emoji": "↩️"
+        },
+        {
+          "en": "far",
+          "fa": "دور",
+          "emoji": "🛣️"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u6-directions.1",
+          "kind": "mcq",
+          "prompt": "معنی «left» چیست؟",
+          "promptFa": "چپ",
+          "choices": [
+            "آشپزخانه",
+            "چپ",
+            "حمام"
+          ],
+          "answer": 1,
+          "speak": "left",
+          "aiHints": {
+            "example": "I know the word \"left\".",
+            "explanation": "«left» یعنی چپ."
+          }
+        },
+        {
+          "id": "a1-u6-directions.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "➡️",
+          "choices": [
+            "right",
+            "straight",
+            "turn"
+          ],
+          "answer": 0,
+          "speak": "right"
+        },
+        {
+          "id": "a1-u6-directions.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "straight",
+          "choices": [
+            "under",
+            "waiting",
+            "straight"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u6-directions.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "right",
+              "fa": "راست"
+            },
+            {
+              "en": "turn",
+              "fa": "پیچیدن"
+            },
+            {
+              "en": "straight",
+              "fa": "مستقیم"
+            },
+            {
+              "en": "left",
+              "fa": "چپ"
+            }
+          ]
+        },
+        {
+          "id": "a1-u6-directions.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "مستقیم برو جلو.",
+          "sentence": "Go ___ ahead.",
+          "choices": [
+            "waiting",
+            "straight",
+            "now"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u6-directions.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "سر پارک به راست بپیچ.",
+          "tokens": [
+            "the",
+            "Turn",
+            "park",
+            "at",
+            "right"
+          ],
+          "answer": "Turn right at the park"
+        },
+        {
+          "id": "a1-u6-directions.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "Go",
+            "straight",
+            "and",
+            "turn",
+            "left",
+            "in",
+            "the",
+            "bank"
+          ],
+          "answer": 5,
+          "fix": "Go straight and turn left at the bank.",
+          "aiHints": {
+            "explanation": "درستش این است: Go straight and turn left at the bank."
+          }
+        },
+        {
+          "id": "a1-u6-directions.8",
+          "kind": "speed",
+          "prompt": "سریع! «far» یعنی چه؟",
+          "speak": "far",
+          "choices": [
+            "آشپزخانه",
+            "دور"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u6-directions.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «on»",
+          "choices": [
+            "مستقیم",
+            "روی",
+            "آشپزخانه"
+          ],
+          "answer": 1,
+          "speak": "on",
+          "reviewOf": "a1-u6-prepositions"
+        },
+        {
+          "id": "a1-u6-directions.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "under",
+          "choices": [
+            "right",
+            "behind",
+            "under"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u6-prepositions"
+        },
+        {
+          "id": "a1-u6-directions.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔙",
+          "choices": [
+            "garden",
+            "kitchen",
+            "behind"
+          ],
+          "answer": 2,
+          "speak": "behind",
+          "reviewOf": "a1-u6-prepositions"
+        },
+        {
+          "id": "a1-u6-directions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «next to»",
+          "speak": "next to",
+          "choices": [
+            "آشپزخانه",
+            "کنارِ"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u6-prepositions"
+        },
+        {
+          "id": "a1-u6-directions.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "سر بانک به چپ بپیچ.",
+          "sentence": "___ left at the bank.",
+          "choices": [
+            "bathroom",
+            "right",
+            "Turn"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Go straight, then turn right.",
+          "fa": "مستقیم برو، بعد به راست بپیچ."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "at + نقطه",
+        "body": "نقطه‌ای که می‌پیچی با at می‌آید: turn left at the bank. مسیر مستقیم: go straight."
       }
     },
     {
       "id": "a1-u6-present-continuous",
       "title": "Right now",
       "titleFa": "حال استمراری",
-      "goal": "بگویی الان چه کار می‌کنی",
+      "goal": "بگویی همین الان چه کار می‌کنی",
       "buildsOn": [
-        "a1-u3-present-simple"
+        "a1-u6-directions"
       ],
       "vocab": [
         {
@@ -283,9 +765,9 @@
           "prompt": "معنی «now» چیست؟",
           "promptFa": "الان",
           "choices": [
-            "دوشنبه",
+            "چپ",
             "الان",
-            "در حال رفتن"
+            "زیر"
           ],
           "answer": 1,
           "speak": "now",
@@ -313,8 +795,8 @@
           "prompt": "چه شنیدی؟",
           "speak": "going",
           "choices": [
-            "Sunday",
-            "nurse",
+            "right",
+            "garden",
             "going"
           ],
           "answer": 2
@@ -350,8 +832,8 @@
           "sentence": "I am ___ for the bus.",
           "choices": [
             "waiting",
-            "Monday",
-            "busy"
+            "left",
+            "going"
           ],
           "answer": 0
         },
@@ -391,7 +873,7 @@
           "prompt": "سریع! «waiting» یعنی چه؟",
           "speak": "waiting",
           "choices": [
-            "پزشک",
+            "آشپزخانه",
             "در حال انتظار"
           ],
           "answer": 1,
@@ -400,55 +882,55 @@
         {
           "id": "a1-u6-present-continuous.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «like»",
+          "prompt": "یادت هست؟ معنی «right»",
           "choices": [
-            "دوست داشتن",
-            "الان",
-            "ماه"
+            "راست",
+            "در / داخل",
+            "پیچیدن"
           ],
           "answer": 0,
-          "speak": "like",
-          "reviewOf": "a1-u3-present-simple"
+          "speak": "right",
+          "reviewOf": "a1-u6-directions"
         },
         {
           "id": "a1-u6-present-continuous.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "live",
+          "speak": "straight",
           "choices": [
-            "working",
-            "going",
-            "live"
+            "on",
+            "under",
+            "straight"
           ],
           "answer": 2,
-          "reviewOf": "a1-u3-present-simple"
+          "reviewOf": "a1-u6-directions"
         },
         {
           "id": "a1-u6-present-continuous.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "⚽",
+          "emoji": "↩️",
           "choices": [
-            "play",
-            "Sunday",
-            "doctor"
+            "turn",
+            "right",
+            "kitchen"
           ],
           "answer": 0,
-          "speak": "play",
-          "reviewOf": "a1-u3-present-simple"
+          "speak": "turn",
+          "reviewOf": "a1-u6-directions"
         },
         {
           "id": "a1-u6-present-continuous.12",
           "kind": "speed",
-          "prompt": "مرور سریع! «do»",
-          "speak": "do",
+          "prompt": "مرور سریع! «far»",
+          "speak": "far",
           "choices": [
-            "پزشک",
-            "انجام دادن"
+            "آشپزخانه",
+            "دور"
           ],
           "answer": 1,
           "ms": 6000,
-          "reviewOf": "a1-u3-present-simple"
+          "reviewOf": "a1-u6-directions"
         },
         {
           "id": "a1-u6-present-continuous.13",
@@ -458,7 +940,7 @@
           "sentence": "She is ___ now.",
           "choices": [
             "now",
-            "Monday",
+            "left",
             "working"
           ],
           "answer": 2
@@ -472,486 +954,14 @@
       ],
       "xp": 92,
       "tip": {
-        "title": "am/is/are + ing",
-        "body": "کاری که همین حالا در جریان است: I am working, she is waiting."
-      }
-    },
-    {
-      "id": "a1-u6-days",
-      "title": "Days of the week",
-      "titleFa": "روزهای هفته",
-      "goal": "روزها و برنامهٔ هفته را بگویی",
-      "buildsOn": [
-        "a1-u3-time"
-      ],
-      "vocab": [
-        {
-          "en": "Monday",
-          "fa": "دوشنبه",
-          "emoji": "1️⃣"
-        },
-        {
-          "en": "Sunday",
-          "fa": "یکشنبه",
-          "emoji": "🌞"
-        },
-        {
-          "en": "week",
-          "fa": "هفته",
-          "emoji": "🗓️"
-        },
-        {
-          "en": "month",
-          "fa": "ماه",
-          "emoji": "📆"
-        },
-        {
-          "en": "weekend",
-          "fa": "آخر هفته",
-          "emoji": "🎉"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u6-days.1",
-          "kind": "mcq",
-          "prompt": "معنی «Monday» چیست؟",
-          "promptFa": "دوشنبه",
-          "choices": [
-            "پرستار",
-            "در حال کار",
-            "دوشنبه"
-          ],
-          "answer": 2,
-          "speak": "Monday",
-          "aiHints": {
-            "example": "I know the word \"Monday\".",
-            "explanation": "«Monday» یعنی دوشنبه."
-          }
-        },
-        {
-          "id": "a1-u6-days.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🌞",
-          "choices": [
-            "month",
-            "Monday",
-            "Sunday"
-          ],
-          "answer": 2,
-          "speak": "Sunday"
-        },
-        {
-          "id": "a1-u6-days.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "week",
-          "choices": [
-            "month",
-            "busy",
-            "week"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u6-days.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "week",
-              "fa": "هفته"
-            },
-            {
-              "en": "Monday",
-              "fa": "دوشنبه"
-            },
-            {
-              "en": "Sunday",
-              "fa": "یکشنبه"
-            },
-            {
-              "en": "month",
-              "fa": "ماه"
-            }
-          ]
-        },
-        {
-          "id": "a1-u6-days.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "من از دوشنبه تا جمعه کار می‌کنم.",
-          "sentence": "I work from ___ to Friday.",
-          "choices": [
-            "Monday",
-            "busy",
-            "week"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u6-days.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "من یکشنبه آزاد هستم.",
-          "tokens": [
-            "on",
-            "am",
-            "Sunday",
-            "I",
-            "free"
-          ],
-          "answer": "I am free on Sunday"
-        },
-        {
-          "id": "a1-u6-days.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "I",
-            "have",
-            "a",
-            "meeting",
-            "in",
-            "Monday."
-          ],
-          "answer": 4,
-          "fix": "I have a meeting on Monday.",
-          "aiHints": {
-            "explanation": "درستش این است: I have a meeting on Monday."
-          }
-        },
-        {
-          "id": "a1-u6-days.8",
-          "kind": "speed",
-          "prompt": "سریع! «weekend» یعنی چه؟",
-          "speak": "weekend",
-          "choices": [
-            "آخر هفته",
-            "پزشک"
-          ],
-          "answer": 0,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u6-days.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «evening»",
-          "choices": [
-            "یکشنبه",
-            "عصر",
-            "آزاد"
-          ],
-          "answer": 1,
-          "speak": "evening",
-          "reviewOf": "a1-u3-time"
-        },
-        {
-          "id": "a1-u6-days.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "night",
-          "choices": [
-            "month",
-            "night",
-            "driver"
-          ],
-          "answer": 1,
-          "reviewOf": "a1-u3-time"
-        },
-        {
-          "id": "a1-u6-days.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "⏱️",
-          "choices": [
-            "tonight",
-            "driver",
-            "time"
-          ],
-          "answer": 2,
-          "speak": "time",
-          "reviewOf": "a1-u3-time"
-        },
-        {
-          "id": "a1-u6-days.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «clock»",
-          "speak": "clock",
-          "choices": [
-            "پزشک",
-            "ساعت دیواری"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u3-time"
-        },
-        {
-          "id": "a1-u6-days.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "آخر هفته برای خانواده است.",
-          "sentence": "The ___ is for family.",
-          "choices": [
-            "weekend",
-            "working",
-            "tonight"
-          ],
-          "answer": 0
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I work on Monday and rest on the weekend.",
-          "fa": "دوشنبه کار می‌کنم و آخر هفته استراحت."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "on + روز",
-        "body": "روزهای هفته با on می‌آیند: on Monday, on Friday."
-      }
-    },
-    {
-      "id": "a1-u6-plans",
-      "title": "Making plans",
-      "titleFa": "قرار گذاشتن",
-      "goal": "قرار بگذاری و بگویی آزادی یا مشغولی",
-      "buildsOn": [
-        "a1-u6-present-continuous"
-      ],
-      "vocab": [
-        {
-          "en": "meeting",
-          "fa": "جلسه",
-          "emoji": "🤝"
-        },
-        {
-          "en": "free",
-          "fa": "آزاد",
-          "emoji": "🕊️"
-        },
-        {
-          "en": "busy",
-          "fa": "مشغول",
-          "emoji": "🚧"
-        },
-        {
-          "en": "tonight",
-          "fa": "امشب",
-          "emoji": "🌃"
-        },
-        {
-          "en": "tomorrow",
-          "fa": "فردا",
-          "emoji": "➡️"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u6-plans.1",
-          "kind": "mcq",
-          "prompt": "معنی «meeting» چیست؟",
-          "promptFa": "جلسه",
-          "choices": [
-            "جلسه",
-            "مهندس",
-            "در حال انتظار"
-          ],
-          "answer": 0,
-          "speak": "meeting",
-          "aiHints": {
-            "example": "I know the word \"meeting\".",
-            "explanation": "«meeting» یعنی جلسه."
-          }
-        },
-        {
-          "id": "a1-u6-plans.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🕊️",
-          "choices": [
-            "tonight",
-            "free",
-            "busy"
-          ],
-          "answer": 1,
-          "speak": "free"
-        },
-        {
-          "id": "a1-u6-plans.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "busy",
-          "choices": [
-            "busy",
-            "cook",
-            "weekend"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u6-plans.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "meeting",
-              "fa": "جلسه"
-            },
-            {
-              "en": "busy",
-              "fa": "مشغول"
-            },
-            {
-              "en": "tonight",
-              "fa": "امشب"
-            },
-            {
-              "en": "free",
-              "fa": "آزاد"
-            }
-          ]
-        },
-        {
-          "id": "a1-u6-plans.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "امشب آزادی؟",
-          "sentence": "Are you ___ tonight?",
-          "choices": [
-            "tonight",
-            "free",
-            "tomorrow"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u6-plans.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "می‌توانیم فردا همدیگر را ببینیم؟",
-          "tokens": [
-            "we",
-            "meet",
-            "tomorrow",
-            "Can"
-          ],
-          "answer": "Can we meet tomorrow"
-        },
-        {
-          "id": "a1-u6-plans.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "What",
-            "are",
-            "you",
-            "do",
-            "tonight?"
-          ],
-          "answer": 3,
-          "fix": "What are you doing tonight?",
-          "aiHints": {
-            "explanation": "درستش این است: What are you doing tonight?"
-          }
-        },
-        {
-          "id": "a1-u6-plans.8",
-          "kind": "speed",
-          "prompt": "سریع! «tomorrow» یعنی چه؟",
-          "speak": "tomorrow",
-          "choices": [
-            "فردا",
-            "پزشک"
-          ],
-          "answer": 0,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u6-plans.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «working»",
-          "choices": [
-            "الان",
-            "راننده",
-            "در حال کار"
-          ],
-          "answer": 2,
-          "speak": "working",
-          "reviewOf": "a1-u6-present-continuous"
-        },
-        {
-          "id": "a1-u6-plans.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "going",
-          "choices": [
-            "going",
-            "engineer",
-            "cook"
-          ],
-          "answer": 0,
-          "reviewOf": "a1-u6-present-continuous"
-        },
-        {
-          "id": "a1-u6-plans.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🛠️",
-          "choices": [
-            "driver",
-            "doing",
-            "cook"
-          ],
-          "answer": 1,
-          "speak": "doing",
-          "reviewOf": "a1-u6-present-continuous"
-        },
-        {
-          "id": "a1-u6-plans.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «waiting»",
-          "speak": "waiting",
-          "choices": [
-            "در حال انتظار",
-            "پزشک"
-          ],
-          "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u6-present-continuous"
-        },
-        {
-          "id": "a1-u6-plans.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "متأسفم، سرم شلوغ است.",
-          "sentence": "I am sorry, I am ___.",
-          "choices": [
-            "busy",
-            "tomorrow",
-            "engineer"
-          ],
-          "answer": 0
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I am busy tonight, but I am free tomorrow.",
-          "fa": "امشب سرم شلوغ است، ولی فردا آزادم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "قرار گذاشتن",
-        "body": "برای پیشنهاد قرار: Can we meet…? و برای پرسیدن برنامه: What are you doing…?"
+        "title": "استمراری برای «الان»",
+        "body": "am/is/are + فعل ing: I am working now. فرقش با حال ساده: every day کارِ همیشگی، now کارِ همین لحظه."
       }
     }
   ],
   "boss": {
     "id": "a1-u6-boss",
-    "titleFa": "نبرد پایانی — کار و وقت",
+    "titleFa": "نبرد پایانی — خانه و شهر",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -959,12 +969,12 @@
       {
         "id": "a1-u6-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «driver»",
-        "speak": "driver",
+        "prompt": "معنی «bedroom»",
+        "speak": "bedroom",
         "choices": [
-          "آزاد",
-          "راننده",
-          "فردا"
+          "در حال کار",
+          "اتاق خواب",
+          "در حال انتظار"
         ],
         "answer": 1
       },
@@ -972,11 +982,11 @@
         "id": "a1-u6-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "nurse",
+        "speak": "garden",
         "choices": [
-          "Monday",
-          "nurse",
-          "going"
+          "left",
+          "garden",
+          "under"
         ],
         "answer": 1
       },
@@ -984,23 +994,23 @@
         "id": "a1-u6-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🚶",
+        "emoji": "⬇️",
         "choices": [
-          "busy",
-          "engineer",
-          "going"
+          "going",
+          "living room",
+          "under"
         ],
         "answer": 2,
-        "speak": "going"
+        "speak": "under"
       },
       {
         "id": "a1-u6-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «Monday»",
-        "speak": "Monday",
+        "prompt": "سریع! «left»",
+        "speak": "left",
         "choices": [
-          "آشپز",
-          "دوشنبه"
+          "حمام",
+          "چپ"
         ],
         "answer": 1,
         "ms": 5000
@@ -1008,12 +1018,12 @@
       {
         "id": "a1-u6-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «month»",
-        "speak": "month",
+        "prompt": "معنی «turn»",
+        "speak": "turn",
         "choices": [
-          "در حال انجام",
-          "ماه",
-          "در حال کار"
+          "پشت",
+          "پیچیدن",
+          "روی"
         ],
         "answer": 1
       },
@@ -1021,11 +1031,11 @@
         "id": "a1-u6-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "free",
+        "speak": "working",
         "choices": [
-          "Monday",
-          "free",
-          "meeting"
+          "left",
+          "working",
+          "now"
         ],
         "answer": 1
       },
@@ -1033,23 +1043,23 @@
         "id": "a1-u6-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "➡️",
+        "emoji": "⏳",
         "choices": [
+          "next to",
           "waiting",
-          "tomorrow",
-          "working"
+          "on"
         ],
         "answer": 1,
-        "speak": "tomorrow"
+        "speak": "waiting"
       },
       {
         "id": "a1-u6-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «cook»",
-        "speak": "cook",
+        "prompt": "سریع! «bathroom»",
+        "speak": "bathroom",
         "choices": [
-          "آزاد",
-          "آشپز"
+          "در حال کار",
+          "حمام"
         ],
         "answer": 1,
         "ms": 5000
@@ -1057,12 +1067,12 @@
       {
         "id": "a1-u6-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «now»",
-        "speak": "now",
+        "prompt": "معنی «in»",
+        "speak": "in",
         "choices": [
-          "الان",
-          "پزشک",
-          "هفته"
+          "در / داخل",
+          "آشپزخانه",
+          "مستقیم"
         ],
         "answer": 0
       },
@@ -1070,11 +1080,11 @@
         "id": "a1-u6-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "doing",
+        "speak": "behind",
         "choices": [
-          "doing",
-          "going",
-          "tomorrow"
+          "behind",
+          "under",
+          "waiting"
         ],
         "answer": 0
       }

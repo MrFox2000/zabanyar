@@ -2,963 +2,950 @@
   "id": "a1-u5",
   "level": "A1",
   "index": 5,
-  "titleFa": "شهر و مسیر",
-  "titleEn": "In the city",
+  "titleFa": "خانواده و آدم‌ها",
+  "titleEn": "Family and people",
   "theme": "gold",
   "lessons": [
     {
-      "id": "a1-u5-places",
-      "title": "Places in town",
-      "titleFa": "جاهای شهر",
-      "goal": "جاهای مهم شهر را نام ببری",
+      "id": "a1-u5-family",
+      "title": "My family",
+      "titleFa": "خانوادهٔ من",
+      "goal": "اعضای خانواده را معرفی کنی و بگویی مالِ کیست",
       "buildsOn": [
-        "a1-u3-routine"
+        "a1-u3-possessive"
       ],
       "vocab": [
         {
-          "en": "bank",
-          "fa": "بانک",
-          "emoji": "🏦"
+          "en": "mother",
+          "fa": "مادر",
+          "emoji": "👩"
         },
         {
-          "en": "park",
-          "fa": "پارک",
-          "emoji": "🌳"
+          "en": "father",
+          "fa": "پدر",
+          "emoji": "👨"
         },
         {
-          "en": "shop",
-          "fa": "مغازه",
-          "emoji": "🏪"
+          "en": "sister",
+          "fa": "خواهر",
+          "emoji": "👧"
         },
         {
-          "en": "hospital",
-          "fa": "بیمارستان",
-          "emoji": "🏥"
+          "en": "brother",
+          "fa": "برادر",
+          "emoji": "👦"
         },
         {
-          "en": "street",
-          "fa": "خیابان",
-          "emoji": "🛣️"
+          "en": "family",
+          "fa": "خانواده",
+          "emoji": "👨‍👩‍👧"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u5-places.1",
+          "id": "a1-u5-family.1",
           "kind": "mcq",
-          "prompt": "معنی «bank» چیست؟",
-          "promptFa": "بانک",
+          "prompt": "معنی «mother» چیست؟",
+          "promptFa": "مادر",
           "choices": [
-            "بانک",
-            "بینِ",
-            "روی"
+            "مهربان",
+            "شنا کردن",
+            "مادر"
           ],
-          "answer": 0,
-          "speak": "bank",
+          "answer": 2,
+          "speak": "mother",
           "aiHints": {
-            "example": "I know the word \"bank\".",
-            "explanation": "«bank» یعنی بانک."
+            "example": "I know the word \"mother\".",
+            "explanation": "«mother» یعنی مادر."
           }
         },
         {
-          "id": "a1-u5-places.2",
+          "id": "a1-u5-family.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🌳",
+          "emoji": "👨",
           "choices": [
-            "bank",
-            "shop",
-            "park"
+            "father",
+            "sister",
+            "brother"
           ],
-          "answer": 2,
-          "speak": "park"
+          "answer": 0,
+          "speak": "father"
         },
         {
-          "id": "a1-u5-places.3",
+          "id": "a1-u5-family.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "shop",
+          "speak": "sister",
           "choices": [
-            "in front of",
-            "shop",
-            "next to"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u5-places.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "hospital",
-              "fa": "بیمارستان"
-            },
-            {
-              "en": "shop",
-              "fa": "مغازه"
-            },
-            {
-              "en": "park",
-              "fa": "پارک"
-            },
-            {
-              "en": "bank",
-              "fa": "بانک"
-            }
-          ]
-        },
-        {
-          "id": "a1-u5-places.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "بانک نزدیک پارک است.",
-          "sentence": "The ___ is near the park.",
-          "choices": [
-            "bank",
-            "on",
-            "here"
+            "sister",
+            "father",
+            "family"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u5-places.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "اینجا نزدیک بانک هست؟",
-          "tokens": [
-            "near",
-            "Is",
-            "there",
-            "bank",
-            "a",
-            "here"
-          ],
-          "answer": "Is there a bank near here"
+          "id": "a1-u5-family.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "brother",
+              "fa": "برادر"
+            },
+            {
+              "en": "sister",
+              "fa": "خواهر"
+            },
+            {
+              "en": "mother",
+              "fa": "مادر"
+            },
+            {
+              "en": "father",
+              "fa": "پدر"
+            }
+          ]
         },
         {
-          "id": "a1-u5-places.7",
+          "id": "a1-u5-family.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این مادرم است.",
+          "sentence": "This is my ___.",
+          "choices": [
+            "can't",
+            "mother",
+            "reading"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u5-family.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این برادر من است.",
+          "tokens": [
+            "is",
+            "brother",
+            "This",
+            "my"
+          ],
+          "answer": "This is my brother"
+        },
+        {
+          "id": "a1-u5-family.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "The",
-            "park",
+            "This",
             "are",
-            "big."
+            "my",
+            "sister."
           ],
-          "answer": 2,
-          "fix": "The park is big.",
+          "answer": 1,
+          "fix": "This is my sister.",
           "aiHints": {
-            "explanation": "درستش این است: The park is big."
+            "explanation": "درستش این است: This is my sister."
           }
         },
         {
-          "id": "a1-u5-places.8",
+          "id": "a1-u5-family.8",
           "kind": "speed",
-          "prompt": "سریع! «street» یعنی چه؟",
-          "speak": "street",
+          "prompt": "سریع! «family» یعنی چه؟",
+          "speak": "family",
           "choices": [
-            "خیابان",
-            "بانک"
+            "خانواده",
+            "مادر"
           ],
           "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u5-places.9",
+          "id": "a1-u5-family.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «work»",
+          "prompt": "یادت هست؟ معنی «your»",
           "choices": [
-            "بیمارستان",
-            "کار کردن",
-            "نزدیک"
+            "بامزه",
+            "مال تو",
+            "نمی‌توانم"
           ],
           "answer": 1,
-          "speak": "work",
-          "reviewOf": "a1-u3-routine"
+          "speak": "your",
+          "reviewOf": "a1-u3-possessive"
         },
         {
-          "id": "a1-u5-places.10",
+          "id": "a1-u5-family.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "eat",
+          "speak": "his",
           "choices": [
-            "eat",
-            "there",
-            "in"
+            "swim",
+            "his",
+            "can't"
           ],
-          "answer": 0,
-          "reviewOf": "a1-u3-routine"
+          "answer": 1,
+          "reviewOf": "a1-u3-possessive"
         },
         {
-          "id": "a1-u5-places.11",
+          "id": "a1-u5-family.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "😴",
+          "emoji": "👩",
           "choices": [
-            "near",
-            "hospital",
-            "sleep"
+            "father",
+            "brother",
+            "her"
           ],
           "answer": 2,
-          "speak": "sleep",
-          "reviewOf": "a1-u3-routine"
+          "speak": "her",
+          "reviewOf": "a1-u3-possessive"
         },
         {
-          "id": "a1-u5-places.12",
+          "id": "a1-u5-family.12",
           "kind": "speed",
-          "prompt": "مرور سریع! «study»",
-          "speak": "study",
+          "prompt": "مرور سریع! «our»",
+          "speak": "our",
           "choices": [
-            "درس خواندن",
-            "بانک"
+            "مال ما",
+            "مادر"
           ],
           "answer": 0,
           "ms": 6000,
-          "reviewOf": "a1-u3-routine"
+          "reviewOf": "a1-u3-possessive"
         },
         {
-          "id": "a1-u5-places.13",
+          "id": "a1-u5-family.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "من هر روز به مغازه می‌روم.",
-          "sentence": "I go to the ___ every day.",
+          "promptFa": "سارا خواهر من است.",
+          "sentence": "Sara is my ___.",
           "choices": [
-            "behind",
-            "park",
-            "shop"
+            "short",
+            "brother",
+            "sister"
           ],
           "answer": 2
         }
       ],
       "youCanSay": [
         {
-          "en": "There is a shop in my street.",
-          "fa": "در خیابان من یک مغازه هست."
+          "en": "This is my family.",
+          "fa": "این خانوادهٔ من است."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "the",
-        "body": "وقتی از یک جای مشخص حرف می‌زنی از the استفاده کن: the bank, the park."
+        "title": "مالِ کسی: 's",
+        "body": "با اضافه‌کردن 's بگو چیزی مال کسی است: Ali's car (ماشین علی)، my sister's bag."
       }
     },
     {
-      "id": "a1-u5-there-is",
-      "title": "There is / There are",
-      "titleFa": "هست / هستند",
-      "goal": "بگویی چیزی جایی هست",
+      "id": "a1-u5-describing",
+      "title": "Describing people",
+      "titleFa": "توصیف آدم‌ها",
+      "goal": "ظاهر و اخلاق آدم‌ها را توصیف کنی",
       "buildsOn": [
-        "a1-u5-places"
+        "a1-u5-family"
       ],
       "vocab": [
         {
-          "en": "there",
-          "fa": "آنجا",
-          "emoji": "👉"
+          "en": "tall",
+          "fa": "قدبلند",
+          "emoji": "📏"
         },
         {
-          "en": "near",
-          "fa": "نزدیک",
-          "emoji": "📍"
+          "en": "short",
+          "fa": "کوتاه‌قد",
+          "emoji": "📐"
         },
         {
-          "en": "next to",
-          "fa": "کنارِ",
-          "emoji": "↔️"
+          "en": "kind",
+          "fa": "مهربان",
+          "emoji": "💚"
         },
         {
-          "en": "between",
-          "fa": "بینِ",
-          "emoji": "↕️"
+          "en": "funny",
+          "fa": "بامزه",
+          "emoji": "😄"
         },
         {
-          "en": "here",
-          "fa": "اینجا",
-          "emoji": "🫱"
+          "en": "young",
+          "fa": "جوان",
+          "emoji": "🧒"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u5-there-is.1",
+          "id": "a1-u5-describing.1",
           "kind": "mcq",
-          "prompt": "معنی «there» چیست؟",
-          "promptFa": "آنجا",
+          "prompt": "معنی «tall» چیست؟",
+          "promptFa": "قدبلند",
           "choices": [
-            "آنجا",
-            "مغازه",
-            "مستقیم"
+            "قدبلند",
+            "دویدن",
+            "آشپزی کردن"
           ],
           "answer": 0,
-          "speak": "there",
+          "speak": "tall",
           "aiHints": {
-            "example": "I know the word \"there\".",
-            "explanation": "«there» یعنی آنجا."
+            "example": "I know the word \"tall\".",
+            "explanation": "«tall» یعنی قدبلند."
           }
         },
         {
-          "id": "a1-u5-there-is.2",
+          "id": "a1-u5-describing.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "📍",
+          "emoji": "📐",
           "choices": [
-            "next to",
-            "there",
-            "near"
-          ],
-          "answer": 2,
-          "speak": "near"
-        },
-        {
-          "id": "a1-u5-there-is.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "next to",
-          "choices": [
-            "next to",
-            "in front of",
-            "near"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u5-there-is.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "between",
-              "fa": "بینِ"
-            },
-            {
-              "en": "next to",
-              "fa": "کنارِ"
-            },
-            {
-              "en": "there",
-              "fa": "آنجا"
-            },
-            {
-              "en": "near",
-              "fa": "نزدیک"
-            }
-          ]
-        },
-        {
-          "id": "a1-u5-there-is.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "نزدیک خانهٔ من یک پارک هست.",
-          "sentence": "___ is a park near my house.",
-          "choices": [
-            "next to",
-            "There",
-            "there"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u5-there-is.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "اینجا نزدیک یک بیمارستان هست.",
-          "tokens": [
-            "hospital",
-            "is",
-            "There",
-            "a",
-            "here",
-            "near"
-          ],
-          "answer": "There is a hospital near here"
-        },
-        {
-          "id": "a1-u5-there-is.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "There",
-            "is",
-            "two",
-            "banks."
-          ],
-          "answer": 1,
-          "fix": "There are two banks.",
-          "aiHints": {
-            "explanation": "درستش این است: There are two banks."
-          }
-        },
-        {
-          "id": "a1-u5-there-is.8",
-          "kind": "speed",
-          "prompt": "سریع! «here» یعنی چه؟",
-          "speak": "here",
-          "choices": [
-            "بانک",
-            "اینجا"
-          ],
-          "answer": 1,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u5-there-is.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «park»",
-          "choices": [
-            "پارک",
-            "راست",
-            "جلوی"
+            "short",
+            "kind",
+            "tall"
           ],
           "answer": 0,
-          "speak": "park",
-          "reviewOf": "a1-u5-places"
+          "speak": "short"
         },
         {
-          "id": "a1-u5-there-is.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "shop",
-          "choices": [
-            "turn",
-            "in front of",
-            "shop"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u5-places"
-        },
-        {
-          "id": "a1-u5-there-is.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🏥",
-          "choices": [
-            "turn",
-            "on",
-            "hospital"
-          ],
-          "answer": 2,
-          "speak": "hospital",
-          "reviewOf": "a1-u5-places"
-        },
-        {
-          "id": "a1-u5-there-is.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «street»",
-          "speak": "street",
-          "choices": [
-            "بانک",
-            "خیابان"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u5-places"
-        },
-        {
-          "id": "a1-u5-there-is.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "مغازه کنار بانک است.",
-          "sentence": "The shop is ___ the bank.",
-          "choices": [
-            "straight",
-            "there",
-            "next to"
-          ],
-          "answer": 2
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "There is a café next to the bank.",
-          "fa": "کنار بانک یک کافه هست."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "is یا are",
-        "body": "برای یک چیز There is و برای چند چیز There are: There is a park / There are two parks."
-      }
-    },
-    {
-      "id": "a1-u5-directions",
-      "title": "Which way?",
-      "titleFa": "مسیر پرسیدن",
-      "goal": "راه را بپرسی و مسیر بدهی",
-      "buildsOn": [
-        "a1-u5-places"
-      ],
-      "vocab": [
-        {
-          "en": "left",
-          "fa": "چپ",
-          "emoji": "⬅️"
-        },
-        {
-          "en": "right",
-          "fa": "راست",
-          "emoji": "➡️"
-        },
-        {
-          "en": "straight",
-          "fa": "مستقیم",
-          "emoji": "⬆️"
-        },
-        {
-          "en": "turn",
-          "fa": "پیچیدن",
-          "emoji": "↩️"
-        },
-        {
-          "en": "far",
-          "fa": "دور",
-          "emoji": "🛣️"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u5-directions.1",
-          "kind": "mcq",
-          "prompt": "معنی «left» چیست؟",
-          "promptFa": "چپ",
-          "choices": [
-            "بیمارستان",
-            "چپ",
-            "اینجا"
-          ],
-          "answer": 1,
-          "speak": "left",
-          "aiHints": {
-            "example": "I know the word \"left\".",
-            "explanation": "«left» یعنی چپ."
-          }
-        },
-        {
-          "id": "a1-u5-directions.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "➡️",
-          "choices": [
-            "left",
-            "right",
-            "far"
-          ],
-          "answer": 1,
-          "speak": "right"
-        },
-        {
-          "id": "a1-u5-directions.3",
+          "id": "a1-u5-describing.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "straight",
+          "speak": "kind",
           "choices": [
-            "behind",
-            "straight",
-            "here"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u5-directions.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "straight",
-              "fa": "مستقیم"
-            },
-            {
-              "en": "right",
-              "fa": "راست"
-            },
-            {
-              "en": "left",
-              "fa": "چپ"
-            },
-            {
-              "en": "turn",
-              "fa": "پیچیدن"
-            }
-          ]
-        },
-        {
-          "id": "a1-u5-directions.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "مستقیم برو جلو.",
-          "sentence": "Go ___ ahead.",
-          "choices": [
-            "left",
-            "hospital",
-            "straight"
+            "sister",
+            "can't",
+            "kind"
           ],
           "answer": 2
         },
         {
-          "id": "a1-u5-directions.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "سر پارک به راست بپیچ.",
-          "tokens": [
-            "park",
-            "Turn",
-            "at",
-            "the",
-            "right"
-          ],
-          "answer": "Turn right at the park"
+          "id": "a1-u5-describing.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "funny",
+              "fa": "بامزه"
+            },
+            {
+              "en": "kind",
+              "fa": "مهربان"
+            },
+            {
+              "en": "tall",
+              "fa": "قدبلند"
+            },
+            {
+              "en": "short",
+              "fa": "کوتاه‌قد"
+            }
+          ]
         },
         {
-          "id": "a1-u5-directions.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "Go",
-            "straight",
+          "id": "a1-u5-describing.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "پدرم خیلی مهربان است.",
+          "sentence": "My father is very ___.",
+          "choices": [
+            "young",
+            "short",
+            "kind"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u5-describing.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "او مهربان و بامزه است.",
+          "tokens": [
+            "She",
+            "kind",
+            "is",
             "and",
-            "turn",
-            "left",
-            "in",
-            "the",
-            "bank"
+            "funny"
           ],
-          "answer": 5,
-          "fix": "Go straight and turn left at the bank.",
+          "answer": "She is kind and funny"
+        },
+        {
+          "id": "a1-u5-describing.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "My",
+            "mother",
+            "are",
+            "kind."
+          ],
+          "answer": 2,
+          "fix": "My mother is kind.",
           "aiHints": {
-            "explanation": "درستش این است: Go straight and turn left at the bank."
+            "explanation": "درستش این است: My mother is kind."
           }
         },
         {
-          "id": "a1-u5-directions.8",
+          "id": "a1-u5-describing.8",
           "kind": "speed",
-          "prompt": "سریع! «far» یعنی چه؟",
-          "speak": "far",
+          "prompt": "سریع! «young» یعنی چه؟",
+          "speak": "young",
           "choices": [
-            "بانک",
-            "دور"
+            "مادر",
+            "جوان"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u5-directions.9",
+          "id": "a1-u5-describing.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «park»",
+          "prompt": "یادت هست؟ معنی «father»",
           "choices": [
-            "مغازه",
-            "پارک",
-            "چپ"
-          ],
-          "answer": 1,
-          "speak": "park",
-          "reviewOf": "a1-u5-places"
-        },
-        {
-          "id": "a1-u5-directions.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "shop",
-          "choices": [
-            "behind",
-            "straight",
-            "shop"
+            "رانندگی کردن",
+            "خواهر",
+            "پدر"
           ],
           "answer": 2,
-          "reviewOf": "a1-u5-places"
+          "speak": "father",
+          "reviewOf": "a1-u5-family"
         },
         {
-          "id": "a1-u5-directions.11",
+          "id": "a1-u5-describing.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "sister",
+          "choices": [
+            "drive",
+            "sister",
+            "brother"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u5-family"
+        },
+        {
+          "id": "a1-u5-describing.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🏥",
+          "emoji": "👦",
           "choices": [
-            "hospital",
-            "shop",
-            "next to"
+            "brother",
+            "sister",
+            "cook"
           ],
           "answer": 0,
-          "speak": "hospital",
-          "reviewOf": "a1-u5-places"
+          "speak": "brother",
+          "reviewOf": "a1-u5-family"
         },
         {
-          "id": "a1-u5-directions.12",
+          "id": "a1-u5-describing.12",
           "kind": "speed",
-          "prompt": "مرور سریع! «street»",
-          "speak": "street",
+          "prompt": "مرور سریع! «family»",
+          "speak": "family",
           "choices": [
-            "خیابان",
-            "بانک"
+            "مادر",
+            "خانواده"
           ],
-          "answer": 0,
+          "answer": 1,
           "ms": 6000,
-          "reviewOf": "a1-u5-places"
+          "reviewOf": "a1-u5-family"
         },
         {
-          "id": "a1-u5-directions.13",
+          "id": "a1-u5-describing.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "سر بانک به چپ بپیچ.",
-          "sentence": "___ left at the bank.",
+          "promptFa": "برادرم بامزه است.",
+          "sentence": "My brother is ___.",
           "choices": [
-            "behind",
-            "under",
-            "Turn"
+            "funny",
+            "father",
+            "mother"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "youCanSay": [
         {
-          "en": "Go straight, then turn right.",
-          "fa": "مستقیم برو، بعد به راست بپیچ."
+          "en": "My brother is young and funny.",
+          "fa": "برادرم جوان و بامزه است."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "at",
-        "body": "نقطهٔ پیچیدن با at می‌آید: turn left at the bank."
+        "title": "صفت بعد از is",
+        "body": "صفت همیشه بعد از فعل بودن می‌آید: He is tall. She is kind. بدون is نمی‌شود."
       }
     },
     {
-      "id": "a1-u5-prepositions",
-      "title": "In, on, under",
-      "titleFa": "حروف مکان",
-      "goal": "بگویی چیزی کجاست",
+      "id": "a1-u5-can",
+      "title": "I can swim",
+      "titleFa": "can / can't",
+      "goal": "بگویی چه کاری را می‌توانی و چه کاری را نه",
       "buildsOn": [
-        "a1-u5-places"
+        "a1-u5-describing"
       ],
       "vocab": [
         {
-          "en": "in",
-          "fa": "در / داخل",
-          "emoji": "📥"
+          "en": "can",
+          "fa": "می‌توانم",
+          "emoji": "✅"
         },
         {
-          "en": "on",
-          "fa": "روی",
-          "emoji": "🔝"
+          "en": "can't",
+          "fa": "نمی‌توانم",
+          "emoji": "❌"
         },
         {
-          "en": "under",
-          "fa": "زیر",
-          "emoji": "⬇️"
+          "en": "swim",
+          "fa": "شنا کردن",
+          "emoji": "🏊"
         },
         {
-          "en": "behind",
-          "fa": "پشت",
-          "emoji": "🔙"
+          "en": "cook",
+          "fa": "آشپزی کردن",
+          "emoji": "🍳"
         },
         {
-          "en": "in front of",
-          "fa": "جلوی",
-          "emoji": "🔜"
+          "en": "drive",
+          "fa": "رانندگی کردن",
+          "emoji": "🚗"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u5-prepositions.1",
+          "id": "a1-u5-can.1",
           "kind": "mcq",
-          "prompt": "معنی «in» چیست؟",
-          "promptFa": "در / داخل",
+          "prompt": "معنی «can» چیست؟",
+          "promptFa": "می‌توانم",
           "choices": [
-            "کنارِ",
-            "روی",
-            "در / داخل"
+            "شنا",
+            "می‌توانم",
+            "خواهر"
           ],
-          "answer": 2,
-          "speak": "in",
+          "answer": 1,
+          "speak": "can",
           "aiHints": {
-            "example": "I know the word \"in\".",
-            "explanation": "«in» یعنی در / داخل."
+            "example": "I know the word \"can\".",
+            "explanation": "«can» یعنی می‌توانم."
           }
         },
         {
-          "id": "a1-u5-prepositions.2",
+          "id": "a1-u5-can.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🔝",
+          "emoji": "❌",
           "choices": [
-            "on",
-            "behind",
-            "in"
+            "drive",
+            "can",
+            "can't"
           ],
-          "answer": 0,
-          "speak": "on"
+          "answer": 2,
+          "speak": "can't"
         },
         {
-          "id": "a1-u5-prepositions.3",
+          "id": "a1-u5-can.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "under",
+          "speak": "swim",
           "choices": [
-            "right",
-            "in front of",
-            "under"
+            "cooking",
+            "swimming",
+            "swim"
           ],
           "answer": 2
         },
         {
-          "id": "a1-u5-prepositions.4",
+          "id": "a1-u5-can.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "in",
-              "fa": "در / داخل"
+              "en": "can",
+              "fa": "می‌توانم"
             },
             {
-              "en": "under",
-              "fa": "زیر"
+              "en": "can't",
+              "fa": "نمی‌توانم"
             },
             {
-              "en": "behind",
-              "fa": "پشت"
+              "en": "swim",
+              "fa": "شنا کردن"
             },
             {
-              "en": "on",
-              "fa": "روی"
+              "en": "cook",
+              "fa": "آشپزی کردن"
             }
           ]
         },
         {
-          "id": "a1-u5-prepositions.5",
+          "id": "a1-u5-can.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "گربه زیر میز است.",
-          "sentence": "The cat is ___ the table.",
+          "promptFa": "من خیلی خوب شنا می‌کنم.",
+          "sentence": "I ___ swim very well.",
           "choices": [
-            "under",
-            "shop",
-            "on"
+            "cook",
+            "swim",
+            "can"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "id": "a1-u5-prepositions.6",
+          "id": "a1-u5-can.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "کتاب روی میز است.",
+          "promptFa": "من می‌توانم آشپزی کنم.",
           "tokens": [
-            "is",
-            "the",
-            "table",
-            "book",
-            "on",
-            "The"
+            "can",
+            "cook",
+            "I"
           ],
-          "answer": "The book is on the table"
+          "answer": "I can cook"
         },
         {
-          "id": "a1-u5-prepositions.7",
+          "id": "a1-u5-can.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "The",
-            "keys",
-            "is",
-            "in",
-            "the",
-            "bag."
+            "She",
+            "can",
+            "swims",
+            "well."
           ],
           "answer": 2,
-          "fix": "The keys are in the bag.",
+          "fix": "She can swim well.",
           "aiHints": {
-            "explanation": "درستش این است: The keys are in the bag."
+            "explanation": "درستش این است: She can swim well."
           }
         },
         {
-          "id": "a1-u5-prepositions.8",
+          "id": "a1-u5-can.8",
           "kind": "speed",
-          "prompt": "سریع! «in front of» یعنی چه؟",
-          "speak": "in front of",
+          "prompt": "سریع! «drive» یعنی چه؟",
+          "speak": "drive",
           "choices": [
-            "بانک",
-            "جلوی"
+            "رانندگی کردن",
+            "مادر"
           ],
-          "answer": 1,
+          "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u5-prepositions.9",
+          "id": "a1-u5-can.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «park»",
+          "prompt": "یادت هست؟ معنی «short»",
           "choices": [
-            "پارک",
-            "جلوی",
-            "نزدیک"
+            "دویدن",
+            "کوتاه‌قد",
+            "خواهر"
           ],
-          "answer": 0,
-          "speak": "park",
-          "reviewOf": "a1-u5-places"
+          "answer": 1,
+          "speak": "short",
+          "reviewOf": "a1-u5-describing"
         },
         {
-          "id": "a1-u5-prepositions.10",
+          "id": "a1-u5-can.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "shop",
+          "speak": "kind",
           "choices": [
-            "turn",
-            "in",
-            "shop"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u5-places"
-        },
-        {
-          "id": "a1-u5-prepositions.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🏥",
-          "choices": [
-            "on",
-            "there",
-            "hospital"
-          ],
-          "answer": 2,
-          "speak": "hospital",
-          "reviewOf": "a1-u5-places"
-        },
-        {
-          "id": "a1-u5-prepositions.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «street»",
-          "speak": "street",
-          "choices": [
-            "خیابان",
-            "بانک"
+            "kind",
+            "drive",
+            "father"
           ],
           "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u5-places"
+          "reviewOf": "a1-u5-describing"
         },
         {
-          "id": "a1-u5-prepositions.13",
+          "id": "a1-u5-can.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "😄",
+          "choices": [
+            "can",
+            "drive",
+            "funny"
+          ],
+          "answer": 2,
+          "speak": "funny",
+          "reviewOf": "a1-u5-describing"
+        },
+        {
+          "id": "a1-u5-can.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «young»",
+          "speak": "young",
+          "choices": [
+            "مادر",
+            "جوان"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u5-describing"
+        },
+        {
+          "id": "a1-u5-can.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "کلیدهایم داخل کیفم هستند.",
-          "sentence": "My keys are ___ my bag.",
+          "promptFa": "او نمی‌تواند ماشین براند.",
+          "sentence": "She ___ drive a car.",
           "choices": [
-            "on",
-            "street",
-            "in"
+            "tall",
+            "music",
+            "can't"
           ],
           "answer": 2
         }
       ],
       "youCanSay": [
         {
-          "en": "My phone is on the table, behind the cup.",
-          "fa": "گوشی‌ام روی میز، پشت فنجان است."
+          "en": "I can cook but I can't drive.",
+          "fa": "می‌توانم آشپزی کنم ولی نمی‌توانم رانندگی کنم."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "in / on / under",
-        "body": "in داخل، on روی سطح و under زیر چیزی."
+        "title": "بعد از can، فعل ساده",
+        "body": "can + فعل بدون to و بدون s: I can swim، she can cook. منفی: can't."
+      }
+    },
+    {
+      "id": "a1-u5-like-ing",
+      "title": "I like reading",
+      "titleFa": "دوست داشتن + ing",
+      "goal": "علاقه‌هایت را با فعل ing بگویی",
+      "buildsOn": [
+        "a1-u5-can"
+      ],
+      "vocab": [
+        {
+          "en": "reading",
+          "fa": "کتاب خواندن",
+          "emoji": "📖"
+        },
+        {
+          "en": "cooking",
+          "fa": "آشپزی",
+          "emoji": "🍳"
+        },
+        {
+          "en": "swimming",
+          "fa": "شنا",
+          "emoji": "🏊"
+        },
+        {
+          "en": "running",
+          "fa": "دویدن",
+          "emoji": "🏃"
+        },
+        {
+          "en": "music",
+          "fa": "موسیقی",
+          "emoji": "🎵"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u5-like-ing.1",
+          "kind": "mcq",
+          "prompt": "معنی «reading» چیست؟",
+          "promptFa": "کتاب خواندن",
+          "choices": [
+            "آشپزی کردن",
+            "کتاب خواندن",
+            "پدر"
+          ],
+          "answer": 1,
+          "speak": "reading",
+          "aiHints": {
+            "example": "I know the word \"reading\".",
+            "explanation": "«reading» یعنی کتاب خواندن."
+          }
+        },
+        {
+          "id": "a1-u5-like-ing.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🍳",
+          "choices": [
+            "cooking",
+            "swimming",
+            "music"
+          ],
+          "answer": 0,
+          "speak": "cooking"
+        },
+        {
+          "id": "a1-u5-like-ing.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "swimming",
+          "choices": [
+            "swimming",
+            "running",
+            "tall"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u5-like-ing.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "reading",
+              "fa": "کتاب خواندن"
+            },
+            {
+              "en": "cooking",
+              "fa": "آشپزی"
+            },
+            {
+              "en": "running",
+              "fa": "دویدن"
+            },
+            {
+              "en": "swimming",
+              "fa": "شنا"
+            }
+          ]
+        },
+        {
+          "id": "a1-u5-like-ing.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من کتاب خواندن را دوست دارم.",
+          "sentence": "I like ___ books.",
+          "choices": [
+            "can",
+            "swim",
+            "reading"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u5-like-ing.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "من از تماشای فیلم لذت می‌برم.",
+          "tokens": [
+            "films",
+            "watching",
+            "I",
+            "enjoy"
+          ],
+          "answer": "I enjoy watching films"
+        },
+        {
+          "id": "a1-u5-like-ing.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "like",
+            "read",
+            "books."
+          ],
+          "answer": 2,
+          "fix": "I like reading books.",
+          "aiHints": {
+            "explanation": "درستش این است: I like reading books."
+          }
+        },
+        {
+          "id": "a1-u5-like-ing.8",
+          "kind": "speed",
+          "prompt": "سریع! «music» یعنی چه؟",
+          "speak": "music",
+          "choices": [
+            "موسیقی",
+            "مادر"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u5-like-ing.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «can't»",
+          "choices": [
+            "نمی‌توانم",
+            "مادر",
+            "دویدن"
+          ],
+          "answer": 0,
+          "speak": "can't",
+          "reviewOf": "a1-u5-can"
+        },
+        {
+          "id": "a1-u5-like-ing.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "swim",
+          "choices": [
+            "funny",
+            "mother",
+            "swim"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u5-can"
+        },
+        {
+          "id": "a1-u5-like-ing.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🍳",
+          "choices": [
+            "sister",
+            "cook",
+            "running"
+          ],
+          "answer": 1,
+          "speak": "cook",
+          "reviewOf": "a1-u5-can"
+        },
+        {
+          "id": "a1-u5-like-ing.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «drive»",
+          "speak": "drive",
+          "choices": [
+            "رانندگی کردن",
+            "مادر"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u5-can"
+        },
+        {
+          "id": "a1-u5-like-ing.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او عاشق موسیقی است.",
+          "sentence": "She loves ___.",
+          "choices": [
+            "music",
+            "cooking",
+            "brother"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I like reading and I love music.",
+          "fa": "کتاب خواندن را دوست دارم و عاشق موسیقی هستم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "like / love / enjoy",
+        "body": "بعد از این فعل‌ها، فعل ing می‌گیرد: I like reading، she enjoys cooking. نه «to read»."
       }
     }
   ],
   "boss": {
     "id": "a1-u5-boss",
-    "titleFa": "نبرد پایانی — شهر و مسیر",
+    "titleFa": "نبرد پایانی — خانواده و آدم‌ها",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -966,12 +953,12 @@
       {
         "id": "a1-u5-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «park»",
-        "speak": "park",
+        "prompt": "معنی «father»",
+        "speak": "father",
         "choices": [
-          "جلوی",
-          "در / داخل",
-          "پارک"
+          "موسیقی",
+          "کتاب خواندن",
+          "پدر"
         ],
         "answer": 2
       },
@@ -979,11 +966,11 @@
         "id": "a1-u5-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "street",
+        "speak": "family",
         "choices": [
-          "behind",
-          "street",
-          "shop"
+          "running",
+          "family",
+          "sister"
         ],
         "answer": 1
       },
@@ -991,23 +978,23 @@
         "id": "a1-u5-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "↔️",
+        "emoji": "💚",
         "choices": [
-          "between",
-          "shop",
-          "next to"
+          "funny",
+          "sister",
+          "kind"
         ],
         "answer": 2,
-        "speak": "next to"
+        "speak": "kind"
       },
       {
         "id": "a1-u5-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «left»",
-        "speak": "left",
+        "prompt": "سریع! «can»",
+        "speak": "can",
         "choices": [
-          "چپ",
-          "زیر"
+          "می‌توانم",
+          "شنا"
         ],
         "answer": 0,
         "ms": 5000
@@ -1015,12 +1002,12 @@
       {
         "id": "a1-u5-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «turn»",
-        "speak": "turn",
+        "prompt": "معنی «cook»",
+        "speak": "cook",
         "choices": [
-          "پیچیدن",
-          "مستقیم",
-          "مغازه"
+          "آشپزی کردن",
+          "شنا کردن",
+          "خواهر"
         ],
         "answer": 0
       },
@@ -1028,11 +1015,11 @@
         "id": "a1-u5-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "on",
+        "speak": "cooking",
         "choices": [
-          "there",
-          "on",
-          "here"
+          "tall",
+          "cooking",
+          "young"
         ],
         "answer": 1
       },
@@ -1040,23 +1027,23 @@
         "id": "a1-u5-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🔜",
+        "emoji": "🎵",
         "choices": [
-          "in front of",
-          "next to",
-          "far"
+          "music",
+          "kind",
+          "drive"
         ],
         "answer": 0,
-        "speak": "in front of"
+        "speak": "music"
       },
       {
         "id": "a1-u5-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «shop»",
-        "speak": "shop",
+        "prompt": "سریع! «sister»",
+        "speak": "sister",
         "choices": [
-          "مغازه",
-          "چپ"
+          "خواهر",
+          "می‌توانم"
         ],
         "answer": 0,
         "ms": 5000
@@ -1064,12 +1051,12 @@
       {
         "id": "a1-u5-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «there»",
-        "speak": "there",
+        "prompt": "معنی «tall»",
+        "speak": "tall",
         "choices": [
-          "پیچیدن",
-          "آنجا",
-          "اینجا"
+          "آشپزی کردن",
+          "قدبلند",
+          "جوان"
         ],
         "answer": 1
       },
@@ -1077,11 +1064,11 @@
         "id": "a1-u5-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "between",
+        "speak": "funny",
         "choices": [
-          "between",
-          "park",
-          "in front of"
+          "funny",
+          "father",
+          "music"
         ],
         "answer": 0
       }

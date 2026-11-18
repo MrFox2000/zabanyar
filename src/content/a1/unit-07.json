@@ -2,955 +2,960 @@
   "id": "a1-u7",
   "level": "A1",
   "index": 7,
-  "titleFa": "علاقه‌ها",
-  "titleEn": "Free time",
+  "titleFa": "خوراک و خرید",
+  "titleEn": "Food and shopping",
   "theme": "coral",
   "lessons": [
     {
-      "id": "a1-u7-hobbies",
-      "title": "My hobby",
-      "titleFa": "سرگرمی‌ها",
-      "goal": "سرگرمی‌هایت را بگویی",
+      "id": "a1-u7-food",
+      "title": "At the table",
+      "titleFa": "سر سفره",
+      "goal": "خوراکی‌های روزمره را بشناسی",
       "buildsOn": [
-        "a1-u5-there-is"
+        "a1-u4-present-simple-i"
       ],
       "vocab": [
         {
-          "en": "reading",
-          "fa": "کتاب خواندن",
-          "emoji": "📖"
+          "en": "bread",
+          "fa": "نان",
+          "emoji": "🍞"
         },
         {
-          "en": "cooking",
-          "fa": "آشپزی",
-          "emoji": "🍳"
+          "en": "milk",
+          "fa": "شیر",
+          "emoji": "🥛"
         },
         {
-          "en": "painting",
-          "fa": "نقاشی",
-          "emoji": "🎨"
+          "en": "apple",
+          "fa": "سیب",
+          "emoji": "🍎"
         },
         {
-          "en": "hiking",
-          "fa": "کوهنوردی",
-          "emoji": "🥾"
+          "en": "rice",
+          "fa": "برنج",
+          "emoji": "🍚"
         },
         {
-          "en": "music",
-          "fa": "موسیقی",
-          "emoji": "🎵"
+          "en": "water",
+          "fa": "آب",
+          "emoji": "💧"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u7-hobbies.1",
+          "id": "a1-u7-food.1",
           "kind": "mcq",
-          "prompt": "معنی «reading» چیست؟",
-          "promptFa": "کتاب خواندن",
+          "prompt": "معنی «bread» چیست؟",
+          "promptFa": "نان",
           "choices": [
-            "کتاب خواندن",
-            "ملحق شدن",
-            "کوهنوردی"
+            "نان",
+            "قهوه",
+            "منو"
           ],
           "answer": 0,
-          "speak": "reading",
+          "speak": "bread",
           "aiHints": {
-            "example": "I know the word \"reading\".",
-            "explanation": "«reading» یعنی کتاب خواندن."
+            "example": "I know the word \"bread\".",
+            "explanation": "«bread» یعنی نان."
           }
         },
         {
-          "id": "a1-u7-hobbies.2",
+          "id": "a1-u7-food.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🍳",
+          "emoji": "🥛",
           "choices": [
-            "cooking",
-            "painting",
-            "music"
+            "bread",
+            "apple",
+            "milk"
           ],
-          "answer": 0,
-          "speak": "cooking"
+          "answer": 2,
+          "speak": "milk"
         },
         {
-          "id": "a1-u7-hobbies.3",
+          "id": "a1-u7-food.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "painting",
+          "speak": "apple",
           "choices": [
-            "join",
-            "swimming",
-            "painting"
+            "price",
+            "apple",
+            "many"
           ],
-          "answer": 2
+          "answer": 1
         },
         {
-          "id": "a1-u7-hobbies.4",
+          "id": "a1-u7-food.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "painting",
-              "fa": "نقاشی"
+              "en": "rice",
+              "fa": "برنج"
             },
             {
-              "en": "reading",
-              "fa": "کتاب خواندن"
+              "en": "apple",
+              "fa": "سیب"
             },
             {
-              "en": "hiking",
-              "fa": "کوهنوردی"
+              "en": "milk",
+              "fa": "شیر"
             },
             {
-              "en": "cooking",
-              "fa": "آشپزی"
+              "en": "bread",
+              "fa": "نان"
             }
           ]
         },
         {
-          "id": "a1-u7-hobbies.5",
+          "id": "a1-u7-food.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "سرگرمی من کتاب خواندن است.",
-          "sentence": "My hobby is ___.",
+          "promptFa": "من هر روز آب می‌نوشم.",
+          "sentence": "I drink ___ every day.",
           "choices": [
-            "reading",
-            "join",
-            "cooking"
+            "water",
+            "dollar",
+            "some"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u7-hobbies.6",
+          "id": "a1-u7-food.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "من کتاب خواندن را دوست دارم.",
+          "promptFa": "لطفاً کمی آب می‌خواهم.",
           "tokens": [
+            "please",
+            "want",
             "I",
-            "reading",
-            "like",
-            "books"
+            "water,",
+            "some"
           ],
-          "answer": "I like reading books"
+          "answer": "I want some water, please"
         },
         {
-          "id": "a1-u7-hobbies.7",
+          "id": "a1-u7-food.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
             "I",
-            "like",
-            "read",
-            "books."
-          ],
-          "answer": 2,
-          "fix": "I like reading books.",
-          "aiHints": {
-            "explanation": "درستش این است: I like reading books."
-          }
-        },
-        {
-          "id": "a1-u7-hobbies.8",
-          "kind": "speed",
-          "prompt": "سریع! «music» یعنی چه؟",
-          "speak": "music",
-          "choices": [
-            "موسیقی",
-            "کتاب خواندن"
-          ],
-          "answer": 0,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u7-hobbies.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «near»",
-          "choices": [
-            "آشپزی",
-            "کوهنوردی",
-            "نزدیک"
-          ],
-          "answer": 2,
-          "speak": "near",
-          "reviewOf": "a1-u5-there-is"
-        },
-        {
-          "id": "a1-u7-hobbies.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "next to",
-          "choices": [
-            "watching",
-            "playing",
-            "next to"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u5-there-is"
-        },
-        {
-          "id": "a1-u7-hobbies.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "↕️",
-          "choices": [
-            "between",
-            "lose",
-            "invite"
-          ],
-          "answer": 0,
-          "speak": "between",
-          "reviewOf": "a1-u5-there-is"
-        },
-        {
-          "id": "a1-u7-hobbies.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «here»",
-          "speak": "here",
-          "choices": [
-            "اینجا",
-            "کتاب خواندن"
-          ],
-          "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u5-there-is"
-        },
-        {
-          "id": "a1-u7-hobbies.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "من عاشق موسیقی هستم.",
-          "sentence": "I love ___.",
-          "choices": [
-            "sure",
-            "join",
-            "music"
-          ],
-          "answer": 2
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "In my free time I like cooking and music.",
-          "fa": "در وقت آزادم آشپزی و موسیقی دوست دارم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "like + ing",
-        "body": "بعد از like فعل با ing می‌آید: I like reading."
-      }
-    },
-    {
-      "id": "a1-u7-like-ing",
-      "title": "Love it, hate it",
-      "titleFa": "دوست داشتن و دوست نداشتن",
-      "goal": "علاقه‌ات را با فعل ing بگویی",
-      "buildsOn": [
-        "a1-u7-hobbies"
-      ],
-      "vocab": [
-        {
-          "en": "playing",
-          "fa": "بازی کردن",
-          "emoji": "🎮"
-        },
-        {
-          "en": "watching",
-          "fa": "تماشا کردن",
-          "emoji": "📺"
-        },
-        {
-          "en": "swimming",
-          "fa": "شنا کردن",
-          "emoji": "🏊"
-        },
-        {
-          "en": "running",
-          "fa": "دویدن",
-          "emoji": "🏃"
-        },
-        {
-          "en": "cooking",
-          "fa": "آشپزی کردن",
-          "emoji": "🥘"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u7-like-ing.1",
-          "kind": "mcq",
-          "prompt": "معنی «playing» چیست؟",
-          "promptFa": "بازی کردن",
-          "choices": [
-            "موسیقی",
-            "بازی کردن",
-            "دعوت کردن"
-          ],
-          "answer": 1,
-          "speak": "playing",
-          "aiHints": {
-            "example": "I know the word \"playing\".",
-            "explanation": "«playing» یعنی بازی کردن."
-          }
-        },
-        {
-          "id": "a1-u7-like-ing.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "📺",
-          "choices": [
-            "watching",
-            "swimming",
-            "cooking"
-          ],
-          "answer": 0,
-          "speak": "watching"
-        },
-        {
-          "id": "a1-u7-like-ing.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "swimming",
-          "choices": [
-            "sure",
-            "lose",
-            "swimming"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u7-like-ing.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "swimming",
-              "fa": "شنا کردن"
-            },
-            {
-              "en": "running",
-              "fa": "دویدن"
-            },
-            {
-              "en": "playing",
-              "fa": "بازی کردن"
-            },
-            {
-              "en": "watching",
-              "fa": "تماشا کردن"
-            }
-          ]
-        },
-        {
-          "id": "a1-u7-like-ing.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "من از دویدن در پارک لذت می‌برم.",
-          "sentence": "I enjoy ___ in the park.",
-          "choices": [
-            "watching",
-            "playing",
-            "running"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u7-like-ing.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "من تماشای فیلم را ترجیح می‌دهم.",
-          "tokens": [
-            "prefer",
-            "watching",
-            "films",
-            "I"
-          ],
-          "answer": "I prefer watching films"
-        },
-        {
-          "id": "a1-u7-like-ing.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "I",
-            "enjoy",
-            "to",
-            "swim."
-          ],
-          "answer": 2,
-          "fix": "I enjoy swimming.",
-          "aiHints": {
-            "explanation": "درستش این است: I enjoy swimming."
-          }
-        },
-        {
-          "id": "a1-u7-like-ing.8",
-          "kind": "speed",
-          "prompt": "سریع! «cooking» یعنی چه؟",
-          "speak": "cooking",
-          "choices": [
-            "آشپزی کردن",
-            "کتاب خواندن"
-          ],
-          "answer": 0,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u7-like-ing.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «cooking»",
-          "choices": [
-            "شاید",
-            "آشپزی",
-            "آشپزی کردن"
-          ],
-          "answer": 1,
-          "speak": "cooking",
-          "reviewOf": "a1-u7-hobbies"
-        },
-        {
-          "id": "a1-u7-like-ing.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "painting",
-          "choices": [
-            "playing",
-            "hiking",
-            "painting"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u7-hobbies"
-        },
-        {
-          "id": "a1-u7-like-ing.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🥾",
-          "choices": [
-            "maybe",
-            "team",
-            "hiking"
-          ],
-          "answer": 2,
-          "speak": "hiking",
-          "reviewOf": "a1-u7-hobbies"
-        },
-        {
-          "id": "a1-u7-like-ing.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «music»",
-          "speak": "music",
-          "choices": [
-            "موسیقی",
-            "کتاب خواندن"
-          ],
-          "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u7-hobbies"
-        },
-        {
-          "id": "a1-u7-like-ing.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "او عاشق کتاب خواندن است.",
-          "sentence": "She loves ___ books.",
-          "choices": [
-            "playing",
-            "reading",
-            "cooking"
-          ],
-          "answer": 1
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I enjoy watching films but I hate running.",
-          "fa": "از تماشای فیلم لذت می‌برم ولی از دویدن بدم می‌آید."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "enjoy / love / prefer",
-        "body": "این فعل‌ها با ing می‌آیند، نه با to: I enjoy swimming."
-      }
-    },
-    {
-      "id": "a1-u7-sports",
-      "title": "The match",
-      "titleFa": "ورزش",
-      "goal": "دربارهٔ مسابقه و تیم حرف بزنی",
-      "buildsOn": [
-        "a1-u7-hobbies"
-      ],
-      "vocab": [
-        {
-          "en": "team",
-          "fa": "تیم",
-          "emoji": "👥"
-        },
-        {
-          "en": "match",
-          "fa": "مسابقه",
-          "emoji": "🏅"
-        },
-        {
-          "en": "win",
-          "fa": "بردن",
-          "emoji": "🏆"
-        },
-        {
-          "en": "lose",
-          "fa": "باختن",
-          "emoji": "😞"
-        },
-        {
-          "en": "coach",
-          "fa": "مربی",
-          "emoji": "📣"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u7-sports.1",
-          "kind": "mcq",
-          "prompt": "معنی «team» چیست؟",
-          "promptFa": "تیم",
-          "choices": [
-            "تیم",
-            "بردن",
-            "دعوت کردن"
-          ],
-          "answer": 0,
-          "speak": "team",
-          "aiHints": {
-            "example": "I know the word \"team\".",
-            "explanation": "«team» یعنی تیم."
-          }
-        },
-        {
-          "id": "a1-u7-sports.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🏅",
-          "choices": [
-            "lose",
-            "team",
-            "match"
-          ],
-          "answer": 2,
-          "speak": "match"
-        },
-        {
-          "id": "a1-u7-sports.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "win",
-          "choices": [
-            "watching",
-            "match",
-            "win"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u7-sports.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "win",
-              "fa": "بردن"
-            },
-            {
-              "en": "match",
-              "fa": "مسابقه"
-            },
-            {
-              "en": "lose",
-              "fa": "باختن"
-            },
-            {
-              "en": "team",
-              "fa": "تیم"
-            }
-          ]
-        },
-        {
-          "id": "a1-u7-sports.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "تیم ما مسابقه را برد.",
-          "sentence": "Our ___ won the match.",
-          "choices": [
-            "match",
-            "team",
-            "swimming"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u7-sports.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "تیم ما مسابقه را برد.",
-          "tokens": [
-            "team",
-            "match",
-            "Our",
-            "the",
-            "won"
-          ],
-          "answer": "Our team won the match"
-        },
-        {
-          "id": "a1-u7-sports.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "He",
-            "play",
-            "football",
+            "drink",
+            "bread",
             "every",
-            "week."
+            "day."
           ],
-          "answer": 1,
-          "fix": "He plays football every week.",
+          "answer": 2,
+          "fix": "I drink water every day.",
           "aiHints": {
-            "explanation": "درستش این است: He plays football every week."
+            "explanation": "درستش این است: I drink water every day."
           }
         },
         {
-          "id": "a1-u7-sports.8",
+          "id": "a1-u7-food.8",
           "kind": "speed",
-          "prompt": "سریع! «coach» یعنی چه؟",
-          "speak": "coach",
+          "prompt": "سریع! «water» یعنی چه؟",
+          "speak": "water",
           "choices": [
-            "کتاب خواندن",
-            "مربی"
+            "نان",
+            "آب"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u7-sports.9",
+          "id": "a1-u7-food.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «cooking»",
+          "prompt": "یادت هست؟ معنی «live»",
           "choices": [
-            "کتاب خواندن",
-            "باختن",
-            "آشپزی"
-          ],
-          "answer": 2,
-          "speak": "cooking",
-          "reviewOf": "a1-u7-hobbies"
-        },
-        {
-          "id": "a1-u7-sports.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "painting",
-          "choices": [
-            "maybe",
-            "match",
-            "painting"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u7-hobbies"
-        },
-        {
-          "id": "a1-u7-sports.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🥾",
-          "choices": [
-            "hiking",
-            "reading",
-            "playing"
+            "زندگی کردن",
+            "دلار",
+            "نان"
           ],
           "answer": 0,
-          "speak": "hiking",
-          "reviewOf": "a1-u7-hobbies"
+          "speak": "live",
+          "reviewOf": "a1-u4-present-simple-i"
         },
         {
-          "id": "a1-u7-sports.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «music»",
-          "speak": "music",
+          "id": "a1-u7-food.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "eat",
           "choices": [
-            "کتاب خواندن",
-            "موسیقی"
+            "eat",
+            "cheap",
+            "much"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u4-present-simple-i"
+        },
+        {
+          "id": "a1-u7-food.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "📚",
+          "choices": [
+            "cheap",
+            "study",
+            "expensive"
           ],
           "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u7-hobbies"
+          "speak": "study",
+          "reviewOf": "a1-u4-present-simple-i"
         },
         {
-          "id": "a1-u7-sports.13",
+          "id": "a1-u7-food.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «every day»",
+          "speak": "every day",
+          "choices": [
+            "هر روز",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u4-present-simple-i"
+        },
+        {
+          "id": "a1-u7-food.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "من می‌خواهم مسابقه را ببرم.",
-          "sentence": "I want to ___ the match.",
+          "promptFa": "ما ناهار برنج می‌خوریم.",
+          "sentence": "We eat ___ with lunch.",
           "choices": [
-            "win",
-            "join",
-            "playing"
+            "menu",
+            "rice",
+            "bill"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "youCanSay": [
         {
-          "en": "Our team plays on Friday and our coach is happy.",
-          "fa": "تیم ما جمعه بازی می‌کند و مربی‌مان خوشحال است."
+          "en": "I eat bread and drink milk for breakfast.",
+          "fa": "صبحانه نان می‌خورم و شیر می‌نوشم."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "play + ورزش",
-        "body": "با ورزش از play استفاده کن: play football, play tennis."
+        "title": "eat یا drink",
+        "body": "خوراکی را eat و نوشیدنی را drink: eat bread، drink milk."
       }
     },
     {
-      "id": "a1-u7-invitations",
-      "title": "Join us?",
-      "titleFa": "دعوت کردن",
-      "goal": "کسی را دعوت کنی و جواب بدهی",
+      "id": "a1-u7-some-any",
+      "title": "Some and any",
+      "titleFa": "some و any",
+      "goal": "دربارهٔ مقدار حرف بزنی",
       "buildsOn": [
-        "a1-u6-plans"
+        "a1-u7-food"
       ],
       "vocab": [
         {
-          "en": "join",
-          "fa": "ملحق شدن",
-          "emoji": "🤝"
+          "en": "some",
+          "fa": "مقداری",
+          "emoji": "➕"
         },
         {
-          "en": "invite",
-          "fa": "دعوت کردن",
-          "emoji": "✉️"
+          "en": "any",
+          "fa": "هیچ / مقداری",
+          "emoji": "❓"
         },
         {
-          "en": "maybe",
-          "fa": "شاید",
-          "emoji": "🤔"
+          "en": "much",
+          "fa": "زیاد (بی‌شمار)",
+          "emoji": "📈"
         },
         {
-          "en": "sure",
-          "fa": "حتماً",
-          "emoji": "👍"
+          "en": "many",
+          "fa": "زیاد (شمارش‌شدنی)",
+          "emoji": "🔢"
         },
         {
-          "en": "sorry",
-          "fa": "متأسفم",
-          "emoji": "😔"
+          "en": "bottle",
+          "fa": "بطری",
+          "emoji": "🍾"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u7-invitations.1",
+          "id": "a1-u7-some-any.1",
           "kind": "mcq",
-          "prompt": "معنی «join» چیست؟",
-          "promptFa": "ملحق شدن",
+          "prompt": "معنی «some» چیست؟",
+          "promptFa": "مقداری",
           "choices": [
-            "ملحق شدن",
-            "تیم",
-            "بازی کردن"
+            "برنج",
+            "مقداری",
+            "دلار"
           ],
-          "answer": 0,
-          "speak": "join",
+          "answer": 1,
+          "speak": "some",
           "aiHints": {
-            "example": "I know the word \"join\".",
-            "explanation": "«join» یعنی ملحق شدن."
+            "example": "I know the word \"some\".",
+            "explanation": "«some» یعنی مقداری."
           }
         },
         {
-          "id": "a1-u7-invitations.2",
+          "id": "a1-u7-some-any.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "✉️",
+          "emoji": "❓",
           "choices": [
-            "invite",
-            "sure",
-            "sorry"
+            "any",
+            "bottle",
+            "some"
           ],
           "answer": 0,
-          "speak": "invite"
+          "speak": "any"
         },
         {
-          "id": "a1-u7-invitations.3",
+          "id": "a1-u7-some-any.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "maybe",
+          "speak": "much",
           "choices": [
-            "maybe",
-            "join",
-            "coach"
+            "much",
+            "bill",
+            "money"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u7-invitations.4",
+          "id": "a1-u7-some-any.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "maybe",
-              "fa": "شاید"
+              "en": "much",
+              "fa": "زیاد (بی‌شمار)"
             },
             {
-              "en": "sure",
-              "fa": "حتماً"
+              "en": "some",
+              "fa": "مقداری"
             },
             {
-              "en": "invite",
-              "fa": "دعوت کردن"
+              "en": "any",
+              "fa": "هیچ / مقداری"
             },
             {
-              "en": "join",
-              "fa": "ملحق شدن"
+              "en": "many",
+              "fa": "زیاد (شمارش‌شدنی)"
             }
           ]
         },
         {
-          "id": "a1-u7-invitations.5",
+          "id": "a1-u7-some-any.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "می‌خواهی به ما ملحق شوی؟",
-          "sentence": "Do you want to ___ us?",
+          "promptFa": "سیب داری؟",
+          "sentence": "Do you have ___ apples?",
           "choices": [
-            "join",
-            "invite",
-            "watching"
+            "cheap",
+            "tea",
+            "any"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "id": "a1-u7-invitations.6",
+          "id": "a1-u7-some-any.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "دوست داری به ما ملحق شوی؟",
+          "promptFa": "چقدر آب می‌نوشی؟",
           "tokens": [
-            "join",
-            "like",
-            "to",
-            "Would",
+            "do",
+            "much",
             "you",
-            "us"
+            "How",
+            "water",
+            "drink"
           ],
-          "answer": "Would you like to join us"
+          "answer": "How much water do you drink"
         },
         {
-          "id": "a1-u7-invitations.7",
+          "id": "a1-u7-some-any.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
             "I",
-            "would",
-            "likes",
-            "to",
-            "come."
+            "don't",
+            "have",
+            "some",
+            "money."
           ],
-          "answer": 2,
-          "fix": "I would like to come.",
+          "answer": 3,
+          "fix": "I don't have any money.",
           "aiHints": {
-            "explanation": "درستش این است: I would like to come."
+            "explanation": "درستش این است: I don't have any money."
           }
         },
         {
-          "id": "a1-u7-invitations.8",
+          "id": "a1-u7-some-any.8",
           "kind": "speed",
-          "prompt": "سریع! «sorry» یعنی چه؟",
-          "speak": "sorry",
+          "prompt": "سریع! «bottle» یعنی چه؟",
+          "speak": "bottle",
           "choices": [
-            "کتاب خواندن",
-            "متأسفم"
+            "نان",
+            "بطری"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u7-invitations.9",
+          "id": "a1-u7-some-any.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «free»",
+          "prompt": "یادت هست؟ معنی «milk»",
           "choices": [
-            "نقاشی",
-            "ملحق شدن",
-            "آزاد"
+            "شیر",
+            "زیاد (بی‌شمار)",
+            "هیچ / مقداری"
           ],
-          "answer": 2,
-          "speak": "free",
-          "reviewOf": "a1-u6-plans"
+          "answer": 0,
+          "speak": "milk",
+          "reviewOf": "a1-u7-food"
         },
         {
-          "id": "a1-u7-invitations.10",
+          "id": "a1-u7-some-any.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "busy",
+          "speak": "apple",
           "choices": [
-            "busy",
-            "sorry",
-            "maybe"
+            "apple",
+            "bread",
+            "bill"
           ],
           "answer": 0,
-          "reviewOf": "a1-u6-plans"
+          "reviewOf": "a1-u7-food"
         },
         {
-          "id": "a1-u7-invitations.11",
+          "id": "a1-u7-some-any.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🌃",
+          "emoji": "🍚",
           "choices": [
-            "tonight",
-            "watching",
-            "maybe"
+            "cheap",
+            "bread",
+            "rice"
+          ],
+          "answer": 2,
+          "speak": "rice",
+          "reviewOf": "a1-u7-food"
+        },
+        {
+          "id": "a1-u7-some-any.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «water»",
+          "speak": "water",
+          "choices": [
+            "آب",
+            "نان"
           ],
           "answer": 0,
-          "speak": "tonight",
-          "reviewOf": "a1-u6-plans"
-        },
-        {
-          "id": "a1-u7-invitations.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «tomorrow»",
-          "speak": "tomorrow",
-          "choices": [
-            "کتاب خواندن",
-            "فردا"
-          ],
-          "answer": 1,
           "ms": 6000,
-          "reviewOf": "a1-u6-plans"
+          "reviewOf": "a1-u7-food"
         },
         {
-          "id": "a1-u7-invitations.13",
+          "id": "a1-u7-some-any.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "متأسفم، نمی‌توانم بیایم.",
-          "sentence": "___, I can't come.",
+          "promptFa": "من کمی نان دارم.",
+          "sentence": "I have ___ bread.",
           "choices": [
-            "Sorry",
-            "team",
-            "maybe"
+            "milk",
+            "any",
+            "some"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have some milk, but I don't have any water.",
+          "fa": "کمی شیر دارم ولی آب ندارم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "some یا any",
+        "body": "در جملهٔ مثبت some، در منفی و سؤالی any: I have some rice / I don't have any rice."
+      }
+    },
+    {
+      "id": "a1-u7-cafe",
+      "title": "At the café",
+      "titleFa": "در کافه",
+      "goal": "سفارش بدهی و صورت‌حساب بخواهی",
+      "buildsOn": [
+        "a1-u7-some-any"
+      ],
+      "vocab": [
+        {
+          "en": "menu",
+          "fa": "منو",
+          "emoji": "📋"
+        },
+        {
+          "en": "coffee",
+          "fa": "قهوه",
+          "emoji": "☕"
+        },
+        {
+          "en": "tea",
+          "fa": "چای",
+          "emoji": "🍵"
+        },
+        {
+          "en": "bill",
+          "fa": "صورت‌حساب",
+          "emoji": "🧾"
+        },
+        {
+          "en": "order",
+          "fa": "سفارش دادن",
+          "emoji": "📝"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u7-cafe.1",
+          "kind": "mcq",
+          "prompt": "معنی «menu» چیست؟",
+          "promptFa": "منو",
+          "choices": [
+            "منو",
+            "سیب",
+            "صورت‌حساب"
+          ],
+          "answer": 0,
+          "speak": "menu",
+          "aiHints": {
+            "example": "I know the word \"menu\".",
+            "explanation": "«menu» یعنی منو."
+          }
+        },
+        {
+          "id": "a1-u7-cafe.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "☕",
+          "choices": [
+            "menu",
+            "coffee",
+            "order"
+          ],
+          "answer": 1,
+          "speak": "coffee"
+        },
+        {
+          "id": "a1-u7-cafe.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "tea",
+          "choices": [
+            "tea",
+            "some",
+            "bread"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u7-cafe.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "coffee",
+              "fa": "قهوه"
+            },
+            {
+              "en": "tea",
+              "fa": "چای"
+            },
+            {
+              "en": "menu",
+              "fa": "منو"
+            },
+            {
+              "en": "bill",
+              "fa": "صورت‌حساب"
+            }
+          ]
+        },
+        {
+          "id": "a1-u7-cafe.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "لطفاً صورت‌حساب را می‌دهید؟",
+          "sentence": "Can I have the ___, please?",
+          "choices": [
+            "coffee",
+            "bill",
+            "rice"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u7-cafe.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "لطفاً یک قهوه می‌دهید؟",
+          "tokens": [
+            "have",
+            "please",
+            "I",
+            "coffee,",
+            "Can",
+            "a"
+          ],
+          "answer": "Can I have a coffee, please"
+        },
+        {
+          "id": "a1-u7-cafe.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "I",
+            "like",
+            "would",
+            "a",
+            "tea."
+          ],
+          "answer": 1,
+          "fix": "I would like a tea.",
+          "aiHints": {
+            "explanation": "درستش این است: I would like a tea."
+          }
+        },
+        {
+          "id": "a1-u7-cafe.8",
+          "kind": "speed",
+          "prompt": "سریع! «order» یعنی چه؟",
+          "speak": "order",
+          "choices": [
+            "سفارش دادن",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u7-cafe.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «any»",
+          "choices": [
+            "قیمت",
+            "هیچ / مقداری",
+            "ارزان"
+          ],
+          "answer": 1,
+          "speak": "any",
+          "reviewOf": "a1-u7-some-any"
+        },
+        {
+          "id": "a1-u7-cafe.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "much",
+          "choices": [
+            "much",
+            "bottle",
+            "price"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u7-some-any"
+        },
+        {
+          "id": "a1-u7-cafe.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🔢",
+          "choices": [
+            "milk",
+            "many",
+            "dollar"
+          ],
+          "answer": 1,
+          "speak": "many",
+          "reviewOf": "a1-u7-some-any"
+        },
+        {
+          "id": "a1-u7-cafe.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «bottle»",
+          "speak": "bottle",
+          "choices": [
+            "بطری",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u7-some-any"
+        },
+        {
+          "id": "a1-u7-cafe.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "من یک قهوه می‌خواهم.",
+          "sentence": "I would like a ___.",
+          "choices": [
+            "coffee",
+            "much",
+            "milk"
           ],
           "answer": 0
         }
       ],
       "youCanSay": [
         {
-          "en": "Would you like to join us tonight?",
-          "fa": "دوست داری امشب به ما ملحق شوی؟"
+          "en": "I would like a tea and the bill, please.",
+          "fa": "لطفاً یک چای و صورت‌حساب می‌خواهم."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "دعوت مؤدبانه",
-        "body": "Would you like to…? مؤدبانه‌ترین راه دعوت است."
+        "title": "مؤدبانه سفارش بده",
+        "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea. برای درخواست: Can I have…?"
+      }
+    },
+    {
+      "id": "a1-u7-prices",
+      "title": "How much is it?",
+      "titleFa": "قیمت و پول",
+      "goal": "قیمت بپرسی و بگویی گران است",
+      "buildsOn": [
+        "a1-u7-cafe"
+      ],
+      "vocab": [
+        {
+          "en": "price",
+          "fa": "قیمت",
+          "emoji": "🏷️"
+        },
+        {
+          "en": "cheap",
+          "fa": "ارزان",
+          "emoji": "🪙"
+        },
+        {
+          "en": "expensive",
+          "fa": "گران",
+          "emoji": "💸"
+        },
+        {
+          "en": "dollar",
+          "fa": "دلار",
+          "emoji": "💵"
+        },
+        {
+          "en": "money",
+          "fa": "پول",
+          "emoji": "💳"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u7-prices.1",
+          "kind": "mcq",
+          "prompt": "معنی «price» چیست؟",
+          "promptFa": "قیمت",
+          "choices": [
+            "قیمت",
+            "زیاد (بی‌شمار)",
+            "چای"
+          ],
+          "answer": 0,
+          "speak": "price",
+          "aiHints": {
+            "example": "I know the word \"price\".",
+            "explanation": "«price» یعنی قیمت."
+          }
+        },
+        {
+          "id": "a1-u7-prices.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🪙",
+          "choices": [
+            "cheap",
+            "expensive",
+            "dollar"
+          ],
+          "answer": 0,
+          "speak": "cheap"
+        },
+        {
+          "id": "a1-u7-prices.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "expensive",
+          "choices": [
+            "much",
+            "expensive",
+            "many"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "a1-u7-prices.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "price",
+              "fa": "قیمت"
+            },
+            {
+              "en": "dollar",
+              "fa": "دلار"
+            },
+            {
+              "en": "expensive",
+              "fa": "گران"
+            },
+            {
+              "en": "cheap",
+              "fa": "ارزان"
+            }
+          ]
+        },
+        {
+          "id": "a1-u7-prices.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "قیمتش چقدر است؟",
+          "sentence": "How ___ is it?",
+          "choices": [
+            "much",
+            "order",
+            "tea"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u7-prices.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "این پیراهن خیلی گران است.",
+          "tokens": [
+            "This",
+            "is",
+            "shirt",
+            "expensive",
+            "very"
+          ],
+          "answer": "This shirt is very expensive"
+        },
+        {
+          "id": "a1-u7-prices.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "How",
+            "many",
+            "is",
+            "this",
+            "book?"
+          ],
+          "answer": 1,
+          "fix": "How much is this book?",
+          "aiHints": {
+            "explanation": "درستش این است: How much is this book?"
+          }
+        },
+        {
+          "id": "a1-u7-prices.8",
+          "kind": "speed",
+          "prompt": "سریع! «money» یعنی چه؟",
+          "speak": "money",
+          "choices": [
+            "پول",
+            "نان"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u7-prices.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «coffee»",
+          "choices": [
+            "قهوه",
+            "زیاد (بی‌شمار)",
+            "هیچ / مقداری"
+          ],
+          "answer": 0,
+          "speak": "coffee",
+          "reviewOf": "a1-u7-cafe"
+        },
+        {
+          "id": "a1-u7-prices.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "tea",
+          "choices": [
+            "much",
+            "dollar",
+            "tea"
+          ],
+          "answer": 2,
+          "reviewOf": "a1-u7-cafe"
+        },
+        {
+          "id": "a1-u7-prices.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🧾",
+          "choices": [
+            "bill",
+            "expensive",
+            "coffee"
+          ],
+          "answer": 0,
+          "speak": "bill",
+          "reviewOf": "a1-u7-cafe"
+        },
+        {
+          "id": "a1-u7-prices.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «order»",
+          "speak": "order",
+          "choices": [
+            "نان",
+            "سفارش دادن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u7-cafe"
+        },
+        {
+          "id": "a1-u7-prices.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "خیلی گران است.",
+          "sentence": "It is too ___.",
+          "choices": [
+            "order",
+            "expensive",
+            "water"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "How much is this bag? It is too expensive.",
+          "fa": "این کیف چند است؟ خیلی گران است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "How much یا How many",
+        "body": "برای قیمت How much is it? برای چیزهای شمارش‌شدنی How many: How many books?"
       }
     }
   ],
   "boss": {
     "id": "a1-u7-boss",
-    "titleFa": "نبرد پایانی — علاقه‌ها",
+    "titleFa": "نبرد پایانی — خوراک و خرید",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -958,12 +963,12 @@
       {
         "id": "a1-u7-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «cooking»",
-        "speak": "cooking",
+        "prompt": "معنی «milk»",
+        "speak": "milk",
         "choices": [
-          "دعوت کردن",
-          "شاید",
-          "آشپزی"
+          "ارزان",
+          "گران",
+          "شیر"
         ],
         "answer": 2
       },
@@ -971,60 +976,60 @@
         "id": "a1-u7-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "music",
+        "speak": "water",
         "choices": [
-          "hiking",
-          "running",
-          "music"
+          "water",
+          "money",
+          "milk"
         ],
-        "answer": 2
+        "answer": 0
       },
       {
         "id": "a1-u7-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🏊",
+        "emoji": "📈",
         "choices": [
-          "swimming",
-          "coach",
-          "running"
+          "much",
+          "tea",
+          "price"
         ],
         "answer": 0,
-        "speak": "swimming"
+        "speak": "much"
       },
       {
         "id": "a1-u7-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «team»",
-        "speak": "team",
+        "prompt": "سریع! «menu»",
+        "speak": "menu",
         "choices": [
-          "بازی کردن",
-          "تیم"
+          "منو",
+          "ارزان"
         ],
-        "answer": 1,
+        "answer": 0,
         "ms": 5000
       },
       {
         "id": "a1-u7-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «lose»",
-        "speak": "lose",
+        "prompt": "معنی «bill»",
+        "speak": "bill",
         "choices": [
-          "ملحق شدن",
-          "باختن",
-          "بازی کردن"
+          "صورت‌حساب",
+          "نان",
+          "ارزان"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "a1-u7-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "invite",
+        "speak": "cheap",
         "choices": [
-          "invite",
-          "coach",
-          "painting"
+          "cheap",
+          "bottle",
+          "expensive"
         ],
         "answer": 0
       },
@@ -1032,36 +1037,36 @@
         "id": "a1-u7-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "😔",
+        "emoji": "💳",
         "choices": [
-          "running",
-          "watching",
-          "sorry"
+          "expensive",
+          "money",
+          "any"
         ],
-        "answer": 2,
-        "speak": "sorry"
+        "answer": 1,
+        "speak": "money"
       },
       {
         "id": "a1-u7-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «painting»",
-        "speak": "painting",
+        "prompt": "سریع! «apple»",
+        "speak": "apple",
         "choices": [
-          "دویدن",
-          "نقاشی"
+          "سیب",
+          "قیمت"
         ],
-        "answer": 1,
+        "answer": 0,
         "ms": 5000
       },
       {
         "id": "a1-u7-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «playing»",
-        "speak": "playing",
+        "prompt": "معنی «some»",
+        "speak": "some",
         "choices": [
-          "آشپزی کردن",
-          "بردن",
-          "بازی کردن"
+          "چای",
+          "ارزان",
+          "مقداری"
         ],
         "answer": 2
       },
@@ -1069,13 +1074,13 @@
         "id": "a1-u7-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "running",
+        "speak": "many",
         "choices": [
-          "invite",
-          "running",
-          "painting"
+          "bread",
+          "any",
+          "many"
         ],
-        "answer": 1
+        "answer": 2
       }
     ]
   }

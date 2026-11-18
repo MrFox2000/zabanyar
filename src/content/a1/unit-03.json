@@ -2,956 +2,954 @@
   "id": "a1-u3",
   "level": "A1",
   "index": 3,
-  "titleFa": "روزمره",
-  "titleEn": "Every day",
+  "titleFa": "چیزها و شمارش",
+  "titleEn": "Things and numbers",
   "theme": "mint",
   "lessons": [
     {
-      "id": "a1-u3-routine",
-      "title": "My day",
-      "titleFa": "روز من",
-      "goal": "کارهای روزانه‌ات را بگویی",
+      "id": "a1-u3-numbers-plural",
+      "title": "Numbers and plurals",
+      "titleFa": "عددها و جمع",
+      "goal": "تا بیست بشماری و اسم را جمع ببندی",
       "buildsOn": [
-        "a1-u2-have-got"
+        "a1-u2-to-be"
       ],
       "vocab": [
         {
-          "en": "wake up",
-          "fa": "بیدار شدن",
-          "emoji": "⏰"
+          "en": "one",
+          "fa": "یک",
+          "emoji": "1️⃣"
         },
         {
-          "en": "work",
-          "fa": "کار کردن",
-          "emoji": "💻"
+          "en": "two",
+          "fa": "دو",
+          "emoji": "2️⃣"
         },
         {
-          "en": "eat",
-          "fa": "خوردن",
-          "emoji": "🍽️"
+          "en": "ten",
+          "fa": "ده",
+          "emoji": "🔟"
         },
         {
-          "en": "sleep",
-          "fa": "خوابیدن",
-          "emoji": "😴"
+          "en": "twenty",
+          "fa": "بیست",
+          "emoji": "2️⃣0️⃣"
         },
         {
-          "en": "study",
-          "fa": "درس خواندن",
-          "emoji": "📚"
+          "en": "many",
+          "fa": "زیاد",
+          "emoji": "🔢"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u3-routine.1",
+          "id": "a1-u3-numbers-plural.1",
           "kind": "mcq",
-          "prompt": "معنی «wake up» چیست؟",
-          "promptFa": "بیدار شدن",
+          "prompt": "معنی «one» چیست؟",
+          "promptFa": "یک",
           "choices": [
-            "زمان",
-            "بیدار شدن",
-            "انجام دادن"
+            "مال من",
+            "گوشی",
+            "یک"
           ],
-          "answer": 1,
-          "speak": "wake up",
+          "answer": 2,
+          "speak": "one",
           "aiHints": {
-            "example": "I know the word \"wake up\".",
-            "explanation": "«wake up» یعنی بیدار شدن."
+            "example": "I know the word \"one\".",
+            "explanation": "«one» یعنی یک."
           }
         },
         {
-          "id": "a1-u3-routine.2",
+          "id": "a1-u3-numbers-plural.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "💻",
+          "emoji": "2️⃣",
           "choices": [
-            "eat",
-            "wake up",
-            "work"
+            "two",
+            "many",
+            "one"
           ],
-          "answer": 2,
-          "speak": "work"
+          "answer": 0,
+          "speak": "two"
         },
         {
-          "id": "a1-u3-routine.3",
+          "id": "a1-u3-numbers-plural.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "eat",
+          "speak": "ten",
           "choices": [
-            "eat",
-            "once",
-            "work"
+            "two",
+            "your",
+            "ten"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "id": "a1-u3-routine.4",
+          "id": "a1-u3-numbers-plural.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "work",
-              "fa": "کار کردن"
+              "en": "two",
+              "fa": "دو"
             },
             {
-              "en": "wake up",
-              "fa": "بیدار شدن"
+              "en": "ten",
+              "fa": "ده"
             },
             {
-              "en": "sleep",
-              "fa": "خوابیدن"
+              "en": "twenty",
+              "fa": "بیست"
             },
             {
-              "en": "eat",
-              "fa": "خوردن"
+              "en": "one",
+              "fa": "یک"
             }
           ]
         },
         {
-          "id": "a1-u3-routine.5",
+          "id": "a1-u3-numbers-plural.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "من ساعت هشت صبحانه می‌خورم.",
-          "sentence": "I ___ breakfast at eight.",
+          "promptFa": "من کتاب‌های زیادی دارم.",
+          "sentence": "I have ___ books.",
           "choices": [
-            "eat",
-            "study",
-            "once"
+            "phone",
+            "many",
+            "twenty"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
-          "id": "a1-u3-routine.6",
+          "id": "a1-u3-numbers-plural.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "من ساعت هفت بیدار می‌شوم.",
+          "promptFa": "من ده کتاب دارم.",
           "tokens": [
+            "books",
             "I",
-            "wake",
-            "at",
-            "up",
-            "seven"
+            "have",
+            "ten"
           ],
-          "answer": "I wake up at seven"
+          "answer": "I have ten books"
         },
         {
-          "id": "a1-u3-routine.7",
+          "id": "a1-u3-numbers-plural.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
             "I",
-            "wakes",
-            "up",
-            "at",
-            "seven."
+            "have",
+            "two",
+            "cat."
           ],
-          "answer": 1,
-          "fix": "I wake up at seven.",
+          "answer": 3,
+          "fix": "I have two cats.",
           "aiHints": {
-            "explanation": "درستش این است: I wake up at seven."
+            "explanation": "درستش این است: I have two cats."
           }
         },
         {
-          "id": "a1-u3-routine.8",
+          "id": "a1-u3-numbers-plural.8",
           "kind": "speed",
-          "prompt": "سریع! «study» یعنی چه؟",
-          "speak": "study",
+          "prompt": "سریع! «many» یعنی چه؟",
+          "speak": "many",
           "choices": [
-            "بیدار شدن",
-            "درس خواندن"
+            "زیاد",
+            "یک"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-numbers-plural.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «she»",
+          "choices": [
+            "ده",
+            "او (زن)",
+            "گوشی"
+          ],
+          "answer": 1,
+          "speak": "she",
+          "reviewOf": "a1-u2-to-be"
+        },
+        {
+          "id": "a1-u3-numbers-plural.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "we",
+          "choices": [
+            "there",
+            "we",
+            "two"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u2-to-be"
+        },
+        {
+          "id": "a1-u3-numbers-plural.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👨‍👩‍👧",
+          "choices": [
+            "table",
+            "pet",
+            "they"
+          ],
+          "answer": 2,
+          "speak": "they",
+          "reviewOf": "a1-u2-to-be"
+        },
+        {
+          "id": "a1-u3-numbers-plural.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «it»",
+          "speak": "it",
+          "choices": [
+            "یک",
+            "آن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u2-to-be"
+        },
+        {
+          "id": "a1-u3-numbers-plural.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "دو گربه هست.",
+          "sentence": "There are ___ cats.",
+          "choices": [
+            "two",
+            "bag",
+            "my"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have two sisters and ten books.",
+          "fa": "من دو خواهر و ده کتاب دارم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "جمع با s",
+        "body": "یک چیز cat، چند چیز cats. اگر کلمه به ch، sh، s، x ختم شود es می‌گیرد: boxes."
+      }
+    },
+    {
+      "id": "a1-u3-possessive",
+      "title": "My, your, his, her",
+      "titleFa": "مالِ من، مالِ تو",
+      "goal": "بگویی چیزی مال چه کسی است",
+      "buildsOn": [
+        "a1-u3-numbers-plural"
+      ],
+      "vocab": [
+        {
+          "en": "my",
+          "fa": "مال من",
+          "emoji": "🙋"
+        },
+        {
+          "en": "your",
+          "fa": "مال تو",
+          "emoji": "🫵"
+        },
+        {
+          "en": "his",
+          "fa": "مال او (مرد)",
+          "emoji": "👨"
+        },
+        {
+          "en": "her",
+          "fa": "مال او (زن)",
+          "emoji": "👩"
+        },
+        {
+          "en": "our",
+          "fa": "مال ما",
+          "emoji": "👥"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-possessive.1",
+          "kind": "mcq",
+          "prompt": "معنی «my» چیست؟",
+          "promptFa": "مال من",
+          "choices": [
+            "مال من",
+            "مال تو",
+            "میز"
+          ],
+          "answer": 0,
+          "speak": "my",
+          "aiHints": {
+            "example": "I know the word \"my\".",
+            "explanation": "«my» یعنی مال من."
+          }
+        },
+        {
+          "id": "a1-u3-possessive.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🫵",
+          "choices": [
+            "my",
+            "our",
+            "your"
+          ],
+          "answer": 2,
+          "speak": "your"
+        },
+        {
+          "id": "a1-u3-possessive.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "his",
+          "choices": [
+            "his",
+            "pet",
+            "her"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u3-possessive.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "her",
+              "fa": "مال او (زن)"
+            },
+            {
+              "en": "your",
+              "fa": "مال تو"
+            },
+            {
+              "en": "his",
+              "fa": "مال او (مرد)"
+            },
+            {
+              "en": "my",
+              "fa": "مال من"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-possessive.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "این کتاب من است.",
+          "sentence": "This is ___ book.",
+          "choices": [
+            "room",
+            "ten",
+            "my"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u3-possessive.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "اسم تو چیست؟",
+          "tokens": [
+            "What",
+            "name",
+            "is",
+            "your"
+          ],
+          "answer": "What is your name"
+        },
+        {
+          "id": "a1-u3-possessive.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "His",
+            "name",
+            "are",
+            "Reza."
+          ],
+          "answer": 2,
+          "fix": "His name is Reza.",
+          "aiHints": {
+            "explanation": "درستش این است: His name is Reza."
+          }
+        },
+        {
+          "id": "a1-u3-possessive.8",
+          "kind": "speed",
+          "prompt": "سریع! «our» یعنی چه؟",
+          "speak": "our",
+          "choices": [
+            "یک",
+            "مال ما"
           ],
           "answer": 1,
           "ms": 6000
         },
         {
-          "id": "a1-u3-routine.9",
+          "id": "a1-u3-possessive.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «two»",
+          "choices": [
+            "مال من",
+            "دو",
+            "نزدیک"
+          ],
+          "answer": 1,
+          "speak": "two",
+          "reviewOf": "a1-u3-numbers-plural"
+        },
+        {
+          "id": "a1-u3-possessive.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "ten",
+          "choices": [
+            "ten",
+            "pet",
+            "many"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u3-numbers-plural"
+        },
+        {
+          "id": "a1-u3-possessive.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "2️⃣0️⃣",
+          "choices": [
+            "room",
+            "have",
+            "twenty"
+          ],
+          "answer": 2,
+          "speak": "twenty",
+          "reviewOf": "a1-u3-numbers-plural"
+        },
+        {
+          "id": "a1-u3-possessive.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «many»",
+          "speak": "many",
+          "choices": [
+            "یک",
+            "زیاد"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u3-numbers-plural"
+        },
+        {
+          "id": "a1-u3-possessive.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "اسم او ساراست.",
+          "sentence": "___ name is Sara.",
+          "choices": [
+            "your",
+            "room",
+            "Her"
+          ],
+          "answer": 2
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "Her brother is my friend.",
+          "fa": "برادر او دوست من است."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "his و her",
+        "body": "برای مرد his، برای زن her: his car، her bag. برای اشیا از its استفاده می‌کنیم."
+      }
+    },
+    {
+      "id": "a1-u3-have-has",
+      "title": "Have and has",
+      "titleFa": "داشتن",
+      "goal": "بگویی چه چیزی داری و او چه دارد",
+      "buildsOn": [
+        "a1-u3-possessive"
+      ],
+      "vocab": [
+        {
+          "en": "have",
+          "fa": "داشتن",
+          "emoji": "🤲"
+        },
+        {
+          "en": "has",
+          "fa": "دارد",
+          "emoji": "👉"
+        },
+        {
+          "en": "pet",
+          "fa": "حیوان خانگی",
+          "emoji": "🐾"
+        },
+        {
+          "en": "phone",
+          "fa": "گوشی",
+          "emoji": "📱"
+        },
+        {
+          "en": "bag",
+          "fa": "کیف",
+          "emoji": "👜"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-have-has.1",
+          "kind": "mcq",
+          "prompt": "معنی «have» چیست؟",
+          "promptFa": "داشتن",
+          "choices": [
+            "مال تو",
+            "آنجا",
+            "داشتن"
+          ],
+          "answer": 2,
+          "speak": "have",
+          "aiHints": {
+            "example": "I know the word \"have\".",
+            "explanation": "«have» یعنی داشتن."
+          }
+        },
+        {
+          "id": "a1-u3-have-has.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "👉",
+          "choices": [
+            "phone",
+            "have",
+            "has"
+          ],
+          "answer": 2,
+          "speak": "has"
+        },
+        {
+          "id": "a1-u3-have-has.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "pet",
+          "choices": [
+            "phone",
+            "twenty",
+            "pet"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u3-have-has.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "pet",
+              "fa": "حیوان خانگی"
+            },
+            {
+              "en": "have",
+              "fa": "داشتن"
+            },
+            {
+              "en": "has",
+              "fa": "دارد"
+            },
+            {
+              "en": "phone",
+              "fa": "گوشی"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-have-has.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "من یک گوشی دارم.",
+          "sentence": "I ___ a phone.",
+          "choices": [
+            "ten",
+            "two",
+            "have"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u3-have-has.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "خواهرم یک حیوان خانگی دارد.",
+          "tokens": [
+            "has",
+            "My",
+            "a",
+            "sister",
+            "pet"
+          ],
+          "answer": "My sister has a pet"
+        },
+        {
+          "id": "a1-u3-have-has.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "She",
+            "have",
+            "a",
+            "cat."
+          ],
+          "answer": 1,
+          "fix": "She has a cat.",
+          "aiHints": {
+            "explanation": "درستش این است: She has a cat."
+          }
+        },
+        {
+          "id": "a1-u3-have-has.8",
+          "kind": "speed",
+          "prompt": "سریع! «bag» یعنی چه؟",
+          "speak": "bag",
+          "choices": [
+            "کیف",
+            "یک"
+          ],
+          "answer": 0,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-have-has.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «your»",
+          "choices": [
+            "مال تو",
+            "نزدیک",
+            "اتاق"
+          ],
+          "answer": 0,
+          "speak": "your",
+          "reviewOf": "a1-u3-possessive"
+        },
+        {
+          "id": "a1-u3-have-has.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "his",
+          "choices": [
+            "his",
+            "many",
+            "our"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u3-possessive"
+        },
+        {
+          "id": "a1-u3-have-has.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "👩",
+          "choices": [
+            "here",
+            "her",
+            "my"
+          ],
+          "answer": 1,
+          "speak": "her",
+          "reviewOf": "a1-u3-possessive"
+        },
+        {
+          "id": "a1-u3-have-has.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «our»",
+          "speak": "our",
+          "choices": [
+            "یک",
+            "مال ما"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u3-possessive"
+        },
+        {
+          "id": "a1-u3-have-has.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "او یک گربه دارد.",
+          "sentence": "She ___ a cat.",
+          "choices": [
+            "twenty",
+            "has",
+            "phone"
+          ],
+          "answer": 1
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I have a bag and she has a phone.",
+          "fa": "من یک کیف دارم و او یک گوشی دارد."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "have یا has",
+        "body": "با I/you/we/they از have و با he/she/it از has استفاده می‌کنیم."
+      }
+    },
+    {
+      "id": "a1-u3-there-is",
+      "title": "There is / There are",
+      "titleFa": "هست / هستند",
+      "goal": "بگویی چیزی جایی هست",
+      "buildsOn": [
+        "a1-u3-have-has"
+      ],
+      "vocab": [
+        {
+          "en": "there",
+          "fa": "آنجا",
+          "emoji": "👉"
+        },
+        {
+          "en": "here",
+          "fa": "اینجا",
+          "emoji": "🫱"
+        },
+        {
+          "en": "near",
+          "fa": "نزدیک",
+          "emoji": "📍"
+        },
+        {
+          "en": "table",
+          "fa": "میز",
+          "emoji": "🪑"
+        },
+        {
+          "en": "room",
+          "fa": "اتاق",
+          "emoji": "🚪"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u3-there-is.1",
+          "kind": "mcq",
+          "prompt": "معنی «there» چیست؟",
+          "promptFa": "آنجا",
+          "choices": [
+            "آنجا",
+            "مال ما",
+            "نزدیک"
+          ],
+          "answer": 0,
+          "speak": "there",
+          "aiHints": {
+            "example": "I know the word \"there\".",
+            "explanation": "«there» یعنی آنجا."
+          }
+        },
+        {
+          "id": "a1-u3-there-is.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "🫱",
+          "choices": [
+            "here",
+            "there",
+            "table"
+          ],
+          "answer": 0,
+          "speak": "here"
+        },
+        {
+          "id": "a1-u3-there-is.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "near",
+          "choices": [
+            "near",
+            "room",
+            "table"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u3-there-is.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "table",
+              "fa": "میز"
+            },
+            {
+              "en": "here",
+              "fa": "اینجا"
+            },
+            {
+              "en": "there",
+              "fa": "آنجا"
+            },
+            {
+              "en": "near",
+              "fa": "نزدیک"
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-there-is.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "اینجا یک میز هست.",
+          "sentence": "___ is a table here.",
+          "choices": [
+            "There",
+            "have",
+            "many"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u3-there-is.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "یک کتاب روی میز هست.",
+          "tokens": [
+            "table",
+            "on",
+            "book",
+            "is",
+            "There",
+            "a",
+            "the"
+          ],
+          "answer": "There is a book on the table"
+        },
+        {
+          "id": "a1-u3-there-is.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "There",
+            "is",
+            "two",
+            "chairs."
+          ],
+          "answer": 1,
+          "fix": "There are two chairs.",
+          "aiHints": {
+            "explanation": "درستش این است: There are two chairs."
+          }
+        },
+        {
+          "id": "a1-u3-there-is.8",
+          "kind": "speed",
+          "prompt": "سریع! «room» یعنی چه؟",
+          "speak": "room",
+          "choices": [
+            "یک",
+            "اتاق"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u3-there-is.9",
           "kind": "mcq",
           "prompt": "یادت هست؟ معنی «has»",
           "choices": [
-            "شب",
-            "دو بار",
+            "مال او (مرد)",
+            "مال تو",
             "دارد"
           ],
           "answer": 2,
           "speak": "has",
-          "reviewOf": "a1-u2-have-got"
+          "reviewOf": "a1-u3-have-has"
         },
         {
-          "id": "a1-u3-routine.10",
+          "id": "a1-u3-there-is.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
           "speak": "pet",
           "choices": [
             "pet",
-            "do",
-            "wake up"
+            "have",
+            "her"
           ],
           "answer": 0,
-          "reviewOf": "a1-u2-have-got"
+          "reviewOf": "a1-u3-have-has"
         },
         {
-          "id": "a1-u3-routine.11",
+          "id": "a1-u3-there-is.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🐱",
+          "emoji": "📱",
           "choices": [
-            "once",
-            "cat",
-            "play"
+            "phone",
+            "ten",
+            "near"
           ],
-          "answer": 1,
-          "speak": "cat",
-          "reviewOf": "a1-u2-have-got"
+          "answer": 0,
+          "speak": "phone",
+          "reviewOf": "a1-u3-have-has"
         },
         {
-          "id": "a1-u3-routine.12",
+          "id": "a1-u3-there-is.12",
           "kind": "speed",
-          "prompt": "مرور سریع! «dog»",
-          "speak": "dog",
+          "prompt": "مرور سریع! «bag»",
+          "speak": "bag",
           "choices": [
-            "بیدار شدن",
-            "سگ"
+            "کیف",
+            "یک"
           ],
-          "answer": 1,
+          "answer": 0,
           "ms": 6000,
-          "reviewOf": "a1-u2-have-got"
+          "reviewOf": "a1-u3-have-has"
         },
         {
-          "id": "a1-u3-routine.13",
+          "id": "a1-u3-there-is.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "من هر روز انگلیسی می‌خوانم.",
-          "sentence": "I ___ English every day.",
+          "promptFa": "دو صندلی هست.",
+          "sentence": "___ are two chairs.",
           "choices": [
-            "live",
-            "twice",
-            "study"
+            "your",
+            "here",
+            "There"
           ],
           "answer": 2
         }
       ],
       "youCanSay": [
         {
-          "en": "I wake up, eat breakfast and go to work.",
-          "fa": "بیدار می‌شوم، صبحانه می‌خورم و سر کار می‌روم."
+          "en": "There is a phone on the table.",
+          "fa": "یک گوشی روی میز هست."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "ترتیب روز",
-        "body": "wake up → eat → work → study → sleep. همین ترتیب را حفظ کن."
-      }
-    },
-    {
-      "id": "a1-u3-present-simple",
-      "title": "Every day and always",
-      "titleFa": "حال ساده",
-      "goal": "از کارهای همیشگی حرف بزنی",
-      "buildsOn": [
-        "a1-u3-routine"
-      ],
-      "vocab": [
-        {
-          "en": "go",
-          "fa": "رفتن",
-          "emoji": "🚶"
-        },
-        {
-          "en": "like",
-          "fa": "دوست داشتن",
-          "emoji": "❤️"
-        },
-        {
-          "en": "live",
-          "fa": "زندگی کردن",
-          "emoji": "🏠"
-        },
-        {
-          "en": "play",
-          "fa": "بازی کردن",
-          "emoji": "⚽"
-        },
-        {
-          "en": "do",
-          "fa": "انجام دادن",
-          "emoji": "🛠️"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u3-present-simple.1",
-          "kind": "mcq",
-          "prompt": "معنی «go» چیست؟",
-          "promptFa": "رفتن",
-          "choices": [
-            "رفتن",
-            "ساعت دیواری",
-            "دو بار"
-          ],
-          "answer": 0,
-          "speak": "go",
-          "aiHints": {
-            "example": "I know the word \"go\".",
-            "explanation": "«go» یعنی رفتن."
-          }
-        },
-        {
-          "id": "a1-u3-present-simple.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "❤️",
-          "choices": [
-            "live",
-            "play",
-            "like"
-          ],
-          "answer": 2,
-          "speak": "like"
-        },
-        {
-          "id": "a1-u3-present-simple.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "live",
-          "choices": [
-            "eat",
-            "live",
-            "night"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u3-present-simple.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "live",
-              "fa": "زندگی کردن"
-            },
-            {
-              "en": "like",
-              "fa": "دوست داشتن"
-            },
-            {
-              "en": "play",
-              "fa": "بازی کردن"
-            },
-            {
-              "en": "go",
-              "fa": "رفتن"
-            }
-          ]
-        },
-        {
-          "id": "a1-u3-present-simple.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "او در تهران زندگی می‌کند.",
-          "sentence": "He ___ in Tehran.",
-          "choices": [
-            "clock",
-            "wake up",
-            "lives"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u3-present-simple.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "او با اتوبوس سر کار می‌رود.",
-          "tokens": [
-            "bus",
-            "by",
-            "She",
-            "to",
-            "work",
-            "goes"
-          ],
-          "answer": "She goes to work by bus"
-        },
-        {
-          "id": "a1-u3-present-simple.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "He",
-            "go",
-            "to",
-            "work."
-          ],
-          "answer": 1,
-          "fix": "He goes to work.",
-          "aiHints": {
-            "explanation": "درستش این است: He goes to work."
-          }
-        },
-        {
-          "id": "a1-u3-present-simple.8",
-          "kind": "speed",
-          "prompt": "سریع! «do» یعنی چه؟",
-          "speak": "do",
-          "choices": [
-            "بیدار شدن",
-            "انجام دادن"
-          ],
-          "answer": 1,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u3-present-simple.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «work»",
-          "choices": [
-            "کار کردن",
-            "بازی کردن",
-            "ساعت دیواری"
-          ],
-          "answer": 0,
-          "speak": "work",
-          "reviewOf": "a1-u3-routine"
-        },
-        {
-          "id": "a1-u3-present-simple.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "eat",
-          "choices": [
-            "eat",
-            "work",
-            "live"
-          ],
-          "answer": 0,
-          "reviewOf": "a1-u3-routine"
-        },
-        {
-          "id": "a1-u3-present-simple.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "😴",
-          "choices": [
-            "sleep",
-            "study",
-            "twice"
-          ],
-          "answer": 0,
-          "speak": "sleep",
-          "reviewOf": "a1-u3-routine"
-        },
-        {
-          "id": "a1-u3-present-simple.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «study»",
-          "speak": "study",
-          "choices": [
-            "بیدار شدن",
-            "درس خواندن"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u3-routine"
-        },
-        {
-          "id": "a1-u3-present-simple.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "آن‌ها فوتبال بازی می‌کنند.",
-          "sentence": "They ___ football.",
-          "choices": [
-            "play",
-            "evening",
-            "rarely"
-          ],
-          "answer": 0
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "She lives in Tehran and works every day.",
-          "fa": "او در تهران زندگی می‌کند و هر روز کار می‌کند."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "s سوم‌شخص",
-        "body": "با he/she/it به فعل s اضافه می‌شود: he goes, she likes."
-      }
-    },
-    {
-      "id": "a1-u3-time",
-      "title": "What time is it?",
-      "titleFa": "ساعت و وقت",
-      "goal": "ساعت و بخش‌های روز را بگویی",
-      "buildsOn": [
-        "a1-u1-numbers-age"
-      ],
-      "vocab": [
-        {
-          "en": "morning",
-          "fa": "صبح",
-          "emoji": "🌅"
-        },
-        {
-          "en": "evening",
-          "fa": "عصر",
-          "emoji": "🌇"
-        },
-        {
-          "en": "night",
-          "fa": "شب",
-          "emoji": "🌙"
-        },
-        {
-          "en": "time",
-          "fa": "زمان",
-          "emoji": "⏱️"
-        },
-        {
-          "en": "clock",
-          "fa": "ساعت دیواری",
-          "emoji": "🕰️"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u3-time.1",
-          "kind": "mcq",
-          "prompt": "معنی «morning» چیست؟",
-          "promptFa": "صبح",
-          "choices": [
-            "صبح",
-            "بازی کردن",
-            "رفتن"
-          ],
-          "answer": 0,
-          "speak": "morning",
-          "aiHints": {
-            "example": "I know the word \"morning\".",
-            "explanation": "«morning» یعنی صبح."
-          }
-        },
-        {
-          "id": "a1-u3-time.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🌇",
-          "choices": [
-            "clock",
-            "morning",
-            "evening"
-          ],
-          "answer": 2,
-          "speak": "evening"
-        },
-        {
-          "id": "a1-u3-time.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "night",
-          "choices": [
-            "night",
-            "often",
-            "live"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u3-time.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "morning",
-              "fa": "صبح"
-            },
-            {
-              "en": "night",
-              "fa": "شب"
-            },
-            {
-              "en": "time",
-              "fa": "زمان"
-            },
-            {
-              "en": "evening",
-              "fa": "عصر"
-            }
-          ]
-        },
-        {
-          "id": "a1-u3-time.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "صبح بخیر، روز خوبی داشته باشی.",
-          "sentence": "Good ___, have a nice day.",
-          "choices": [
-            "twice",
-            "clock",
-            "morning"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u3-time.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "الان ساعت چند است؟",
-          "tokens": [
-            "is",
-            "What",
-            "it",
-            "now",
-            "time"
-          ],
-          "answer": "What time is it now"
-        },
-        {
-          "id": "a1-u3-time.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "What",
-            "time",
-            "are",
-            "it?"
-          ],
-          "answer": 2,
-          "fix": "What time is it?",
-          "aiHints": {
-            "explanation": "درستش این است: What time is it?"
-          }
-        },
-        {
-          "id": "a1-u3-time.8",
-          "kind": "speed",
-          "prompt": "سریع! «clock» یعنی چه؟",
-          "speak": "clock",
-          "choices": [
-            "بیدار شدن",
-            "ساعت دیواری"
-          ],
-          "answer": 1,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u3-time.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «two»",
-          "choices": [
-            "صبح",
-            "خوابیدن",
-            "دو"
-          ],
-          "answer": 2,
-          "speak": "two",
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u3-time.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "five",
-          "choices": [
-            "sleep",
-            "five",
-            "like"
-          ],
-          "answer": 1,
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u3-time.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🔟",
-          "choices": [
-            "sleep",
-            "work",
-            "ten"
-          ],
-          "answer": 2,
-          "speak": "ten",
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u3-time.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «year»",
-          "speak": "year",
-          "choices": [
-            "بیدار شدن",
-            "سال"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u3-time.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "من هر شب درس می‌خوانم.",
-          "sentence": "I study at ___ every day.",
-          "choices": [
-            "play",
-            "night",
-            "morning"
-          ],
-          "answer": 1
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I work from morning to evening.",
-          "fa": "من از صبح تا عصر کار می‌کنم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "سه بخش روز",
-        "body": "morning تا ظهر، afternoon بعد از ظهر، evening و night بعد از غروب."
-      }
-    },
-    {
-      "id": "a1-u3-frequency",
-      "title": "How often?",
-      "titleFa": "قیدهای تکرار",
-      "goal": "بگویی هر چند وقت یک بار کاری می‌کنی",
-      "buildsOn": [
-        "a1-u3-present-simple"
-      ],
-      "vocab": [
-        {
-          "en": "often",
-          "fa": "اغلب",
-          "emoji": "🔁"
-        },
-        {
-          "en": "rarely",
-          "fa": "به‌ندرت",
-          "emoji": "🌘"
-        },
-        {
-          "en": "twice",
-          "fa": "دو بار",
-          "emoji": "✌️"
-        },
-        {
-          "en": "once",
-          "fa": "یک بار",
-          "emoji": "1️⃣"
-        },
-        {
-          "en": "early",
-          "fa": "زود",
-          "emoji": "🐓"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u3-frequency.1",
-          "kind": "mcq",
-          "prompt": "معنی «often» چیست؟",
-          "promptFa": "اغلب",
-          "choices": [
-            "خوردن",
-            "اغلب",
-            "شب"
-          ],
-          "answer": 1,
-          "speak": "often",
-          "aiHints": {
-            "example": "I know the word \"often\".",
-            "explanation": "«often» یعنی اغلب."
-          }
-        },
-        {
-          "id": "a1-u3-frequency.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🌘",
-          "choices": [
-            "twice",
-            "rarely",
-            "often"
-          ],
-          "answer": 1,
-          "speak": "rarely"
-        },
-        {
-          "id": "a1-u3-frequency.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "twice",
-          "choices": [
-            "evening",
-            "go",
-            "twice"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u3-frequency.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "rarely",
-              "fa": "به‌ندرت"
-            },
-            {
-              "en": "often",
-              "fa": "اغلب"
-            },
-            {
-              "en": "twice",
-              "fa": "دو بار"
-            },
-            {
-              "en": "once",
-              "fa": "یک بار"
-            }
-          ]
-        },
-        {
-          "id": "a1-u3-frequency.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "من اغلب به باشگاه می‌روم.",
-          "sentence": "I ___ go to the gym.",
-          "choices": [
-            "night",
-            "often",
-            "rarely"
-          ],
-          "answer": 1
-        },
-        {
-          "id": "a1-u3-frequency.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "من معمولاً شب درس می‌خوانم.",
-          "tokens": [
-            "I",
-            "night",
-            "at",
-            "study",
-            "usually"
-          ],
-          "answer": "I usually study at night"
-        },
-        {
-          "id": "a1-u3-frequency.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "He",
-            "usually",
-            "studys",
-            "English."
-          ],
-          "answer": 2,
-          "fix": "He usually studies English.",
-          "aiHints": {
-            "explanation": "درستش این است: He usually studies English."
-          }
-        },
-        {
-          "id": "a1-u3-frequency.8",
-          "kind": "speed",
-          "prompt": "سریع! «early» یعنی چه؟",
-          "speak": "early",
-          "choices": [
-            "زود",
-            "بیدار شدن"
-          ],
-          "answer": 0,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u3-frequency.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «like»",
-          "choices": [
-            "دوست داشتن",
-            "زود",
-            "عصر"
-          ],
-          "answer": 0,
-          "speak": "like",
-          "reviewOf": "a1-u3-present-simple"
-        },
-        {
-          "id": "a1-u3-frequency.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "live",
-          "choices": [
-            "sleep",
-            "live",
-            "study"
-          ],
-          "answer": 1,
-          "reviewOf": "a1-u3-present-simple"
-        },
-        {
-          "id": "a1-u3-frequency.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "⚽",
-          "choices": [
-            "twice",
-            "play",
-            "often"
-          ],
-          "answer": 1,
-          "speak": "play",
-          "reviewOf": "a1-u3-present-simple"
-        },
-        {
-          "id": "a1-u3-frequency.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «do»",
-          "speak": "do",
-          "choices": [
-            "انجام دادن",
-            "بیدار شدن"
-          ],
-          "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u3-present-simple"
-        },
-        {
-          "id": "a1-u3-frequency.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "او زود بیدار می‌شود.",
-          "sentence": "She gets up ___.",
-          "choices": [
-            "like",
-            "study",
-            "early"
-          ],
-          "answer": 2
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I go to the gym twice a week.",
-          "fa": "من هفته‌ای دو بار به باشگاه می‌روم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "جای قید",
-        "body": "قید تکرار قبل از فعل اصلی می‌آید: I always eat rice."
+        "title": "is یا are",
+        "body": "برای یک چیز There is، برای چند چیز There are: There is a cat / There are two cats."
       }
     }
   ],
   "boss": {
     "id": "a1-u3-boss",
-    "titleFa": "نبرد پایانی — روزمره",
+    "titleFa": "نبرد پایانی — چیزها و شمارش",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -959,12 +957,12 @@
       {
         "id": "a1-u3-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «work»",
-        "speak": "work",
+        "prompt": "معنی «two»",
+        "speak": "two",
         "choices": [
-          "بازی کردن",
-          "ساعت دیواری",
-          "کار کردن"
+          "مال او (زن)",
+          "کیف",
+          "دو"
         ],
         "answer": 2
       },
@@ -972,11 +970,11 @@
         "id": "a1-u3-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "study",
+        "speak": "many",
         "choices": [
-          "night",
-          "study",
-          "like"
+          "pet",
+          "many",
+          "your"
         ],
         "answer": 1
       },
@@ -984,23 +982,23 @@
         "id": "a1-u3-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🏠",
+        "emoji": "👨",
         "choices": [
-          "go",
-          "live",
-          "clock"
+          "my",
+          "his",
+          "bag"
         ],
         "answer": 1,
-        "speak": "live"
+        "speak": "his"
       },
       {
         "id": "a1-u3-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «morning»",
-        "speak": "morning",
+        "prompt": "سریع! «have»",
+        "speak": "have",
         "choices": [
-          "دو بار",
-          "صبح"
+          "نزدیک",
+          "داشتن"
         ],
         "answer": 1,
         "ms": 5000
@@ -1008,12 +1006,12 @@
       {
         "id": "a1-u3-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «time»",
-        "speak": "time",
+        "prompt": "معنی «phone»",
+        "speak": "phone",
         "choices": [
-          "زمان",
-          "عصر",
-          "درس خواندن"
+          "گوشی",
+          "دارد",
+          "زیاد"
         ],
         "answer": 0
       },
@@ -1021,11 +1019,11 @@
         "id": "a1-u3-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "rarely",
+        "speak": "here",
         "choices": [
-          "rarely",
-          "like",
-          "wake up"
+          "here",
+          "your",
+          "one"
         ],
         "answer": 0
       },
@@ -1033,23 +1031,23 @@
         "id": "a1-u3-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "🐓",
+        "emoji": "🚪",
         "choices": [
-          "rarely",
-          "work",
-          "early"
+          "here",
+          "two",
+          "room"
         ],
         "answer": 2,
-        "speak": "early"
+        "speak": "room"
       },
       {
         "id": "a1-u3-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «eat»",
-        "speak": "eat",
+        "prompt": "سریع! «ten»",
+        "speak": "ten",
         "choices": [
-          "درس خواندن",
-          "خوردن"
+          "زیاد",
+          "ده"
         ],
         "answer": 1,
         "ms": 5000
@@ -1057,12 +1055,12 @@
       {
         "id": "a1-u3-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «go»",
-        "speak": "go",
+        "prompt": "معنی «my»",
+        "speak": "my",
         "choices": [
-          "یک بار",
-          "دوست داشتن",
-          "رفتن"
+          "میز",
+          "مال تو",
+          "مال من"
         ],
         "answer": 2
       },
@@ -1070,11 +1068,11 @@
         "id": "a1-u3-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "play",
+        "speak": "her",
         "choices": [
-          "early",
-          "play",
-          "once"
+          "room",
+          "her",
+          "table"
         ],
         "answer": 1
       }

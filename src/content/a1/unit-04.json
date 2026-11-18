@@ -2,961 +2,951 @@
   "id": "a1-u4",
   "level": "A1",
   "index": 4,
-  "titleFa": "خوراک و خرید",
-  "titleEn": "Food and shopping",
+  "titleFa": "روزمرهٔ من",
+  "titleEn": "Every day",
   "theme": "sky",
   "lessons": [
     {
-      "id": "a1-u4-food",
-      "title": "At the table",
-      "titleFa": "سر سفره",
-      "goal": "خوراکی‌های روزمره را بشناسی",
+      "id": "a1-u4-present-simple-i",
+      "title": "I work every day",
+      "titleFa": "حال ساده با I و we",
+      "goal": "از کارهای همیشگی‌ات بگویی",
       "buildsOn": [
-        "a1-u3-routine"
+        "a1-u3-there-is"
       ],
       "vocab": [
         {
-          "en": "bread",
-          "fa": "نان",
-          "emoji": "🍞"
+          "en": "work",
+          "fa": "کار کردن",
+          "emoji": "💻"
         },
         {
-          "en": "milk",
-          "fa": "شیر",
-          "emoji": "🥛"
+          "en": "live",
+          "fa": "زندگی کردن",
+          "emoji": "🏠"
         },
         {
-          "en": "apple",
-          "fa": "سیب",
-          "emoji": "🍎"
+          "en": "eat",
+          "fa": "خوردن",
+          "emoji": "🍽️"
         },
         {
-          "en": "rice",
-          "fa": "برنج",
-          "emoji": "🍚"
+          "en": "study",
+          "fa": "درس خواندن",
+          "emoji": "📚"
         },
         {
-          "en": "water",
-          "fa": "آب",
-          "emoji": "💧"
+          "en": "every day",
+          "fa": "هر روز",
+          "emoji": "🗓️"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u4-food.1",
+          "id": "a1-u4-present-simple-i.1",
           "kind": "mcq",
-          "prompt": "معنی «bread» چیست؟",
-          "promptFa": "نان",
+          "prompt": "معنی «work» چیست؟",
+          "promptFa": "کار کردن",
           "choices": [
-            "نان",
-            "منو",
-            "آب"
+            "هر روز",
+            "هرگز",
+            "کار کردن"
           ],
-          "answer": 0,
-          "speak": "bread",
+          "answer": 2,
+          "speak": "work",
           "aiHints": {
-            "example": "I know the word \"bread\".",
-            "explanation": "«bread» یعنی نان."
+            "example": "I know the word \"work\".",
+            "explanation": "«work» یعنی کار کردن."
           }
         },
         {
-          "id": "a1-u4-food.2",
+          "id": "a1-u4-present-simple-i.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🥛",
+          "emoji": "🏠",
           "choices": [
-            "apple",
-            "milk",
-            "rice"
+            "every day",
+            "study",
+            "live"
           ],
-          "answer": 1,
-          "speak": "milk"
+          "answer": 2,
+          "speak": "live"
         },
         {
-          "id": "a1-u4-food.3",
+          "id": "a1-u4-present-simple-i.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "apple",
+          "speak": "eat",
           "choices": [
-            "apple",
-            "cheap",
-            "water"
+            "eat",
+            "goes",
+            "never"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u4-food.4",
+          "id": "a1-u4-present-simple-i.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "apple",
-              "fa": "سیب"
+              "en": "eat",
+              "fa": "خوردن"
             },
             {
-              "en": "rice",
-              "fa": "برنج"
+              "en": "study",
+              "fa": "درس خواندن"
             },
             {
-              "en": "bread",
-              "fa": "نان"
+              "en": "live",
+              "fa": "زندگی کردن"
             },
             {
-              "en": "milk",
-              "fa": "شیر"
+              "en": "work",
+              "fa": "کار کردن"
             }
           ]
         },
         {
-          "id": "a1-u4-food.5",
+          "id": "a1-u4-present-simple-i.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "من هر روز آب می‌نوشم.",
-          "sentence": "I drink ___ every day.",
+          "promptFa": "من در تهران زندگی می‌کنم.",
+          "sentence": "I ___ in Tehran.",
           "choices": [
-            "water",
-            "bread",
-            "apple"
+            "live",
+            "likes",
+            "do"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u4-food.6",
+          "id": "a1-u4-present-simple-i.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "لطفاً کمی آب می‌خواهم.",
+          "promptFa": "من هر روز کار می‌کنم.",
           "tokens": [
-            "please",
-            "I",
-            "water,",
-            "some",
-            "want"
+            "every",
+            "day",
+            "work",
+            "I"
           ],
-          "answer": "I want some water, please"
+          "answer": "I work every day"
         },
         {
-          "id": "a1-u4-food.7",
+          "id": "a1-u4-present-simple-i.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
             "I",
-            "drink",
-            "bread",
+            "works",
             "every",
             "day."
           ],
-          "answer": 2,
-          "fix": "I drink water every day.",
+          "answer": 1,
+          "fix": "I work every day.",
           "aiHints": {
-            "explanation": "درستش این است: I drink water every day."
+            "explanation": "درستش این است: I work every day."
           }
         },
         {
-          "id": "a1-u4-food.8",
+          "id": "a1-u4-present-simple-i.8",
           "kind": "speed",
-          "prompt": "سریع! «water» یعنی چه؟",
-          "speak": "water",
+          "prompt": "سریع! «every day» یعنی چه؟",
+          "speak": "every day",
           "choices": [
-            "آب",
-            "نان"
+            "هر روز",
+            "کار کردن"
           ],
           "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u4-food.9",
+          "id": "a1-u4-present-simple-i.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «work»",
+          "prompt": "یادت هست؟ معنی «here»",
           "choices": [
-            "آب",
-            "کار کردن",
-            "منو"
+            "اینجا",
+            "خوردن",
+            "اغلب"
           ],
-          "answer": 1,
-          "speak": "work",
-          "reviewOf": "a1-u3-routine"
+          "answer": 0,
+          "speak": "here",
+          "reviewOf": "a1-u3-there-is"
         },
         {
-          "id": "a1-u4-food.10",
+          "id": "a1-u4-present-simple-i.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "near",
+          "choices": [
+            "likes",
+            "near",
+            "goes"
+          ],
+          "answer": 1,
+          "reviewOf": "a1-u3-there-is"
+        },
+        {
+          "id": "a1-u4-present-simple-i.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🪑",
+          "choices": [
+            "table",
+            "sometimes",
+            "does"
+          ],
+          "answer": 0,
+          "speak": "table",
+          "reviewOf": "a1-u3-there-is"
+        },
+        {
+          "id": "a1-u4-present-simple-i.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «room»",
+          "speak": "room",
+          "choices": [
+            "اتاق",
+            "کار کردن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u3-there-is"
+        },
+        {
+          "id": "a1-u4-present-simple-i.13",
+          "kind": "fillBlank",
+          "prompt": "یک جای خالی دیگر",
+          "promptFa": "ما هر روز انگلیسی می‌خوانیم.",
+          "sentence": "We ___ English every day.",
+          "choices": [
+            "study",
+            "like",
+            "live"
+          ],
+          "answer": 0
+        }
+      ],
+      "youCanSay": [
+        {
+          "en": "I live in Iran and I study English.",
+          "fa": "من در ایران زندگی می‌کنم و انگلیسی می‌خوانم."
+        }
+      ],
+      "xp": 92,
+      "tip": {
+        "title": "حال ساده چیست؟",
+        "body": "برای کارهای تکراری: I work, you live, we study, they eat. بدون ing و بدون to."
+      }
+    },
+    {
+      "id": "a1-u4-present-simple-s",
+      "title": "He works",
+      "titleFa": "حال ساده با he و she",
+      "goal": "s سوم‌شخص را درست بچسبانی",
+      "buildsOn": [
+        "a1-u4-present-simple-i"
+      ],
+      "vocab": [
+        {
+          "en": "goes",
+          "fa": "می‌رود",
+          "emoji": "🚶"
+        },
+        {
+          "en": "works",
+          "fa": "کار می‌کند",
+          "emoji": "💼"
+        },
+        {
+          "en": "likes",
+          "fa": "دوست دارد",
+          "emoji": "❤️"
+        },
+        {
+          "en": "plays",
+          "fa": "بازی می‌کند",
+          "emoji": "⚽"
+        },
+        {
+          "en": "wakes up",
+          "fa": "بیدار می‌شود",
+          "emoji": "⏰"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a1-u4-present-simple-s.1",
+          "kind": "mcq",
+          "prompt": "معنی «goes» چیست؟",
+          "promptFa": "می‌رود",
+          "choices": [
+            "زندگی کردن",
+            "می‌رود",
+            "نمی (او)"
+          ],
+          "answer": 1,
+          "speak": "goes",
+          "aiHints": {
+            "example": "I know the word \"goes\".",
+            "explanation": "«goes» یعنی می‌رود."
+          }
+        },
+        {
+          "id": "a1-u4-present-simple-s.2",
+          "kind": "imageWord",
+          "prompt": "این تصویر کدام کلمه است؟",
+          "emoji": "💼",
+          "choices": [
+            "works",
+            "plays",
+            "goes"
+          ],
+          "answer": 0,
+          "speak": "works"
+        },
+        {
+          "id": "a1-u4-present-simple-s.3",
+          "kind": "listen",
+          "prompt": "چه شنیدی؟",
+          "speak": "likes",
+          "choices": [
+            "plays",
+            "live",
+            "likes"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "a1-u4-present-simple-s.4",
+          "kind": "match",
+          "prompt": "هر کلمه را به معنی‌اش وصل کن",
+          "pairs": [
+            {
+              "en": "goes",
+              "fa": "می‌رود"
+            },
+            {
+              "en": "likes",
+              "fa": "دوست دارد"
+            },
+            {
+              "en": "works",
+              "fa": "کار می‌کند"
+            },
+            {
+              "en": "plays",
+              "fa": "بازی می‌کند"
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-present-simple-s.5",
+          "kind": "fillBlank",
+          "prompt": "جای خالی را پر کن",
+          "promptFa": "او ساعت هفت بیدار می‌شود.",
+          "sentence": "He ___ at seven.",
+          "choices": [
+            "wakes up",
+            "don't",
+            "work"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "a1-u4-present-simple-s.6",
+          "kind": "wordOrder",
+          "prompt": "جمله را بساز",
+          "promptFa": "برادرم فوتبال بازی می‌کند.",
+          "tokens": [
+            "brother",
+            "plays",
+            "My",
+            "football"
+          ],
+          "answer": "My brother plays football"
+        },
+        {
+          "id": "a1-u4-present-simple-s.7",
+          "kind": "spotError",
+          "prompt": "کدام کلمه غلط است؟",
+          "words": [
+            "He",
+            "go",
+            "to",
+            "work."
+          ],
+          "answer": 1,
+          "fix": "He goes to work.",
+          "aiHints": {
+            "explanation": "درستش این است: He goes to work."
+          }
+        },
+        {
+          "id": "a1-u4-present-simple-s.8",
+          "kind": "speed",
+          "prompt": "سریع! «wakes up» یعنی چه؟",
+          "speak": "wakes up",
+          "choices": [
+            "کار کردن",
+            "بیدار می‌شود"
+          ],
+          "answer": 1,
+          "ms": 6000
+        },
+        {
+          "id": "a1-u4-present-simple-s.9",
+          "kind": "mcq",
+          "prompt": "یادت هست؟ معنی «live»",
+          "choices": [
+            "معمولاً",
+            "هرگز",
+            "زندگی کردن"
+          ],
+          "answer": 2,
+          "speak": "live",
+          "reviewOf": "a1-u4-present-simple-i"
+        },
+        {
+          "id": "a1-u4-present-simple-s.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
           "speak": "eat",
           "choices": [
             "eat",
-            "money",
-            "milk"
+            "plays",
+            "always"
           ],
           "answer": 0,
-          "reviewOf": "a1-u3-routine"
+          "reviewOf": "a1-u4-present-simple-i"
         },
         {
-          "id": "a1-u4-food.11",
+          "id": "a1-u4-present-simple-s.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "😴",
+          "emoji": "📚",
           "choices": [
-            "bread",
-            "milk",
-            "sleep"
+            "study",
+            "wakes up",
+            "goes"
           ],
-          "answer": 2,
-          "speak": "sleep",
-          "reviewOf": "a1-u3-routine"
-        },
-        {
-          "id": "a1-u4-food.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «study»",
+          "answer": 0,
           "speak": "study",
-          "choices": [
-            "نان",
-            "درس خواندن"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u3-routine"
+          "reviewOf": "a1-u4-present-simple-i"
         },
         {
-          "id": "a1-u4-food.13",
+          "id": "a1-u4-present-simple-s.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «every day»",
+          "speak": "every day",
+          "choices": [
+            "هر روز",
+            "کار کردن"
+          ],
+          "answer": 0,
+          "ms": 6000,
+          "reviewOf": "a1-u4-present-simple-i"
+        },
+        {
+          "id": "a1-u4-present-simple-s.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "ما ناهار برنج می‌خوریم.",
-          "sentence": "We eat ___ with lunch.",
+          "promptFa": "او در یک بانک کار می‌کند.",
+          "sentence": "She ___ in a bank.",
           "choices": [
-            "bottle",
-            "rice",
-            "tea"
+            "works",
+            "like",
+            "study"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "youCanSay": [
         {
-          "en": "I eat bread and drink milk for breakfast.",
-          "fa": "صبحانه نان می‌خورم و شیر می‌نوشم."
+          "en": "She works in a bank and he goes to school.",
+          "fa": "او در بانک کار می‌کند و او به مدرسه می‌رود."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "eat یا drink",
-        "body": "خوراکی را eat و نوشیدنی را drink: eat bread, drink milk."
+        "title": "s سوم‌شخص",
+        "body": "با he/she/it به فعل s اضافه می‌شود: work → works. اگر به o، sh، ch ختم شود es: go → goes."
       }
     },
     {
-      "id": "a1-u4-some-any",
-      "title": "Some and any",
-      "titleFa": "some و any",
-      "goal": "دربارهٔ مقدار حرف بزنی",
+      "id": "a1-u4-do-questions",
+      "title": "Do you…?",
+      "titleFa": "سؤال با do و does",
+      "goal": "با do و does سؤال بسازی و منفی کنی",
       "buildsOn": [
-        "a1-u4-food"
+        "a1-u4-present-simple-s"
       ],
       "vocab": [
         {
-          "en": "some",
-          "fa": "مقداری",
-          "emoji": "➕"
+          "en": "do",
+          "fa": "انجام دادن",
+          "emoji": "🛠️"
         },
         {
-          "en": "any",
-          "fa": "هیچ / مقداری (سؤالی)",
+          "en": "does",
+          "fa": "انجام می‌دهد (سؤال)",
           "emoji": "❓"
         },
         {
-          "en": "much",
-          "fa": "زیاد (بی‌شمار)",
-          "emoji": "📈"
+          "en": "don't",
+          "fa": "نمی",
+          "emoji": "🚫"
         },
         {
-          "en": "many",
-          "fa": "زیاد (شمارش‌شدنی)",
-          "emoji": "🔢"
+          "en": "doesn't",
+          "fa": "نمی (او)",
+          "emoji": "🚫"
         },
         {
-          "en": "bottle",
-          "fa": "بطری",
-          "emoji": "🍾"
+          "en": "like",
+          "fa": "دوست داشتن",
+          "emoji": "❤️"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u4-some-any.1",
+          "id": "a1-u4-do-questions.1",
           "kind": "mcq",
-          "prompt": "معنی «some» چیست؟",
-          "promptFa": "مقداری",
+          "prompt": "معنی «do» چیست؟",
+          "promptFa": "انجام دادن",
           "choices": [
-            "قیمت",
-            "مقداری",
-            "بطری"
+            "انجام می‌دهد (سؤال)",
+            "انجام دادن",
+            "همیشه"
           ],
           "answer": 1,
-          "speak": "some",
+          "speak": "do",
           "aiHints": {
-            "example": "I know the word \"some\".",
-            "explanation": "«some» یعنی مقداری."
+            "example": "I know the word \"do\".",
+            "explanation": "«do» یعنی انجام دادن."
           }
         },
         {
-          "id": "a1-u4-some-any.2",
+          "id": "a1-u4-do-questions.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
           "emoji": "❓",
           "choices": [
-            "bottle",
-            "any",
-            "many"
-          ],
-          "answer": 1,
-          "speak": "any"
-        },
-        {
-          "id": "a1-u4-some-any.3",
-          "kind": "listen",
-          "prompt": "چه شنیدی؟",
-          "speak": "much",
-          "choices": [
-            "cheap",
-            "water",
-            "much"
-          ],
-          "answer": 2
-        },
-        {
-          "id": "a1-u4-some-any.4",
-          "kind": "match",
-          "prompt": "هر کلمه را به معنی‌اش وصل کن",
-          "pairs": [
-            {
-              "en": "much",
-              "fa": "زیاد (بی‌شمار)"
-            },
-            {
-              "en": "any",
-              "fa": "هیچ / مقداری (سؤالی)"
-            },
-            {
-              "en": "many",
-              "fa": "زیاد (شمارش‌شدنی)"
-            },
-            {
-              "en": "some",
-              "fa": "مقداری"
-            }
-          ]
-        },
-        {
-          "id": "a1-u4-some-any.5",
-          "kind": "fillBlank",
-          "prompt": "جای خالی را پر کن",
-          "promptFa": "سیب داری؟",
-          "sentence": "Do you have ___ apples?",
-          "choices": [
-            "any",
-            "some",
-            "bottle"
-          ],
-          "answer": 0
-        },
-        {
-          "id": "a1-u4-some-any.6",
-          "kind": "wordOrder",
-          "prompt": "جمله را بساز",
-          "promptFa": "چقدر آب می‌نوشی؟",
-          "tokens": [
-            "do",
-            "How",
-            "you",
-            "water",
-            "much",
-            "drink"
-          ],
-          "answer": "How much water do you drink"
-        },
-        {
-          "id": "a1-u4-some-any.7",
-          "kind": "spotError",
-          "prompt": "کدام کلمه غلط است؟",
-          "words": [
-            "I",
+            "does",
             "don't",
-            "have",
-            "some",
-            "money."
-          ],
-          "answer": 3,
-          "fix": "I don't have any money.",
-          "aiHints": {
-            "explanation": "درستش این است: I don't have any money."
-          }
-        },
-        {
-          "id": "a1-u4-some-any.8",
-          "kind": "speed",
-          "prompt": "سریع! «bottle» یعنی چه؟",
-          "speak": "bottle",
-          "choices": [
-            "نان",
-            "بطری"
-          ],
-          "answer": 1,
-          "ms": 6000
-        },
-        {
-          "id": "a1-u4-some-any.9",
-          "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «milk»",
-          "choices": [
-            "هیچ / مقداری (سؤالی)",
-            "شیر",
-            "دلار"
-          ],
-          "answer": 1,
-          "speak": "milk",
-          "reviewOf": "a1-u4-food"
-        },
-        {
-          "id": "a1-u4-some-any.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "apple",
-          "choices": [
-            "bill",
-            "apple",
-            "many"
-          ],
-          "answer": 1,
-          "reviewOf": "a1-u4-food"
-        },
-        {
-          "id": "a1-u4-some-any.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🍚",
-          "choices": [
-            "rice",
-            "dollar",
-            "some"
+            "do"
           ],
           "answer": 0,
-          "speak": "rice",
-          "reviewOf": "a1-u4-food"
+          "speak": "does"
         },
         {
-          "id": "a1-u4-some-any.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «water»",
-          "speak": "water",
-          "choices": [
-            "نان",
-            "آب"
-          ],
-          "answer": 1,
-          "ms": 6000,
-          "reviewOf": "a1-u4-food"
-        },
-        {
-          "id": "a1-u4-some-any.13",
-          "kind": "fillBlank",
-          "prompt": "یک جای خالی دیگر",
-          "promptFa": "من کمی نان دارم.",
-          "sentence": "I have ___ bread.",
-          "choices": [
-            "tea",
-            "some",
-            "water"
-          ],
-          "answer": 1
-        }
-      ],
-      "youCanSay": [
-        {
-          "en": "I have some milk, but I don't have any water.",
-          "fa": "کمی شیر دارم ولی آب ندارم."
-        }
-      ],
-      "xp": 92,
-      "tip": {
-        "title": "some یا any",
-        "body": "در جملهٔ مثبت some و در منفی و سؤالی any: I have some rice / I don't have any rice."
-      }
-    },
-    {
-      "id": "a1-u4-cafe",
-      "title": "At the café",
-      "titleFa": "در کافه",
-      "goal": "سفارش بدهی و صورت‌حساب بخواهی",
-      "buildsOn": [
-        "a1-u4-food",
-        "a1-u1-polite"
-      ],
-      "vocab": [
-        {
-          "en": "menu",
-          "fa": "منو",
-          "emoji": "📋"
-        },
-        {
-          "en": "coffee",
-          "fa": "قهوه",
-          "emoji": "☕"
-        },
-        {
-          "en": "tea",
-          "fa": "چای",
-          "emoji": "🍵"
-        },
-        {
-          "en": "bill",
-          "fa": "صورت‌حساب",
-          "emoji": "🧾"
-        },
-        {
-          "en": "order",
-          "fa": "سفارش دادن",
-          "emoji": "📝"
-        }
-      ],
-      "exercises": [
-        {
-          "id": "a1-u4-cafe.1",
-          "kind": "mcq",
-          "prompt": "معنی «menu» چیست؟",
-          "promptFa": "منو",
-          "choices": [
-            "مقداری",
-            "منو",
-            "زیاد (بی‌شمار)"
-          ],
-          "answer": 1,
-          "speak": "menu",
-          "aiHints": {
-            "example": "I know the word \"menu\".",
-            "explanation": "«menu» یعنی منو."
-          }
-        },
-        {
-          "id": "a1-u4-cafe.2",
-          "kind": "imageWord",
-          "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "☕",
-          "choices": [
-            "coffee",
-            "menu",
-            "tea"
-          ],
-          "answer": 0,
-          "speak": "coffee"
-        },
-        {
-          "id": "a1-u4-cafe.3",
+          "id": "a1-u4-do-questions.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "tea",
+          "speak": "don't",
           "choices": [
-            "menu",
-            "tea",
-            "expensive"
+            "often",
+            "usually",
+            "don't"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "id": "a1-u4-cafe.4",
+          "id": "a1-u4-do-questions.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "menu",
-              "fa": "منو"
+              "en": "doesn't",
+              "fa": "نمی (او)"
             },
             {
-              "en": "coffee",
-              "fa": "قهوه"
+              "en": "don't",
+              "fa": "نمی"
             },
             {
-              "en": "tea",
-              "fa": "چای"
+              "en": "does",
+              "fa": "انجام می‌دهد (سؤال)"
             },
             {
-              "en": "bill",
-              "fa": "صورت‌حساب"
+              "en": "do",
+              "fa": "انجام دادن"
             }
           ]
         },
         {
-          "id": "a1-u4-cafe.5",
+          "id": "a1-u4-do-questions.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "لطفاً صورت‌حساب را می‌دهید؟",
-          "sentence": "Can I have the ___, please?",
+          "promptFa": "چای دوست داری؟",
+          "sentence": "___ you like tea?",
           "choices": [
-            "bill",
-            "money",
-            "expensive"
+            "works",
+            "do",
+            "Do"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "id": "a1-u4-cafe.6",
+          "id": "a1-u4-do-questions.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "لطفاً یک قهوه می‌دهید؟",
+          "promptFa": "انگلیسی صحبت می‌کنی؟",
           "tokens": [
-            "Can",
-            "I",
-            "please",
-            "coffee,",
-            "a",
-            "have"
+            "Do",
+            "English",
+            "you",
+            "speak"
           ],
-          "answer": "Can I have a coffee, please"
+          "answer": "Do you speak English"
         },
         {
-          "id": "a1-u4-cafe.7",
+          "id": "a1-u4-do-questions.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "I",
+            "Does",
+            "you",
             "like",
-            "would",
-            "a",
-            "tea."
+            "tea?"
           ],
           "answer": 1,
-          "fix": "I would like a tea.",
+          "fix": "Do you like tea?",
           "aiHints": {
-            "explanation": "درستش این است: I would like a tea."
+            "explanation": "درستش این است: Do you like tea?"
           }
         },
         {
-          "id": "a1-u4-cafe.8",
+          "id": "a1-u4-do-questions.8",
           "kind": "speed",
-          "prompt": "سریع! «order» یعنی چه؟",
-          "speak": "order",
+          "prompt": "سریع! «like» یعنی چه؟",
+          "speak": "like",
           "choices": [
-            "سفارش دادن",
-            "نان"
+            "دوست داشتن",
+            "کار کردن"
           ],
           "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u4-cafe.9",
+          "id": "a1-u4-do-questions.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «milk»",
+          "prompt": "یادت هست؟ معنی «works»",
           "choices": [
-            "شیر",
-            "گران",
-            "سیب"
+            "کار می‌کند",
+            "نمی",
+            "می‌رود"
           ],
           "answer": 0,
-          "speak": "milk",
-          "reviewOf": "a1-u4-food"
+          "speak": "works",
+          "reviewOf": "a1-u4-present-simple-s"
         },
         {
-          "id": "a1-u4-cafe.10",
+          "id": "a1-u4-do-questions.10",
           "kind": "listen",
           "prompt": "مرور — چه شنیدی؟",
-          "speak": "sorry",
+          "speak": "likes",
           "choices": [
-            "sorry",
-            "apple",
-            "milk"
+            "plays",
+            "usually",
+            "likes"
           ],
-          "answer": 0,
-          "reviewOf": "a1-u1-polite"
+          "answer": 2,
+          "reviewOf": "a1-u4-present-simple-s"
         },
         {
-          "id": "a1-u4-cafe.11",
+          "id": "a1-u4-do-questions.11",
           "kind": "imageWord",
           "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🍚",
+          "emoji": "⚽",
           "choices": [
-            "menu",
-            "rice",
-            "money"
-          ],
-          "answer": 1,
-          "speak": "rice",
-          "reviewOf": "a1-u4-food"
-        },
-        {
-          "id": "a1-u4-cafe.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «no»",
-          "speak": "no",
-          "choices": [
-            "نه",
-            "نان"
+            "plays",
+            "usually",
+            "goes"
           ],
           "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u1-polite"
+          "speak": "plays",
+          "reviewOf": "a1-u4-present-simple-s"
         },
         {
-          "id": "a1-u4-cafe.13",
+          "id": "a1-u4-do-questions.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «wakes up»",
+          "speak": "wakes up",
+          "choices": [
+            "کار کردن",
+            "بیدار می‌شود"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u4-present-simple-s"
+        },
+        {
+          "id": "a1-u4-do-questions.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "من یک قهوه می‌خواهم.",
-          "sentence": "I would like a ___.",
+          "promptFa": "او قهوه دوست ندارد.",
+          "sentence": "She ___ like coffee.",
           "choices": [
-            "coffee",
-            "apple",
-            "tea"
+            "work",
+            "every day",
+            "doesn't"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "youCanSay": [
         {
-          "en": "I would like a tea and the bill, please.",
-          "fa": "لطفاً یک چای و صورت‌حساب می‌خواهم."
+          "en": "Do you like tea? No, I don't.",
+          "fa": "چای دوست داری؟ نه."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "مؤدبانه سفارش دادن",
-        "body": "I would like… مؤدبانه‌تر از I want است: I would like a tea."
+        "title": "do و does",
+        "body": "سؤال با do/does و منفی با don't/doesn't. با does، فعل دیگر s نمی‌گیرد: Does she like…?"
       }
     },
     {
-      "id": "a1-u4-prices",
-      "title": "How much is it?",
-      "titleFa": "قیمت و پول",
-      "goal": "قیمت بپرسی و بگویی گران است",
+      "id": "a1-u4-frequency",
+      "title": "Always, never",
+      "titleFa": "قیدهای تکرار",
+      "goal": "بگویی هر چند وقت یک بار کاری می‌کنی",
       "buildsOn": [
-        "a1-u1-numbers-age"
+        "a1-u4-do-questions"
       ],
       "vocab": [
         {
-          "en": "price",
-          "fa": "قیمت",
-          "emoji": "🏷️"
+          "en": "always",
+          "fa": "همیشه",
+          "emoji": "♾️"
         },
         {
-          "en": "cheap",
-          "fa": "ارزان",
-          "emoji": "🪙"
+          "en": "usually",
+          "fa": "معمولاً",
+          "emoji": "🔁"
         },
         {
-          "en": "expensive",
-          "fa": "گران",
-          "emoji": "💸"
+          "en": "often",
+          "fa": "اغلب",
+          "emoji": "📈"
         },
         {
-          "en": "dollar",
-          "fa": "دلار",
-          "emoji": "💵"
+          "en": "sometimes",
+          "fa": "گاهی",
+          "emoji": "🤔"
         },
         {
-          "en": "money",
-          "fa": "پول",
-          "emoji": "💳"
+          "en": "never",
+          "fa": "هرگز",
+          "emoji": "🚫"
         }
       ],
       "exercises": [
         {
-          "id": "a1-u4-prices.1",
+          "id": "a1-u4-frequency.1",
           "kind": "mcq",
-          "prompt": "معنی «price» چیست؟",
-          "promptFa": "قیمت",
+          "prompt": "معنی «always» چیست؟",
+          "promptFa": "همیشه",
           "choices": [
-            "قیمت",
-            "سیب",
-            "ارزان"
+            "همیشه",
+            "گاهی",
+            "انجام دادن"
           ],
           "answer": 0,
-          "speak": "price",
+          "speak": "always",
           "aiHints": {
-            "example": "I know the word \"price\".",
-            "explanation": "«price» یعنی قیمت."
+            "example": "I know the word \"always\".",
+            "explanation": "«always» یعنی همیشه."
           }
         },
         {
-          "id": "a1-u4-prices.2",
+          "id": "a1-u4-frequency.2",
           "kind": "imageWord",
           "prompt": "این تصویر کدام کلمه است؟",
-          "emoji": "🪙",
+          "emoji": "🔁",
           "choices": [
-            "price",
-            "dollar",
-            "cheap"
+            "never",
+            "sometimes",
+            "usually"
           ],
           "answer": 2,
-          "speak": "cheap"
+          "speak": "usually"
         },
         {
-          "id": "a1-u4-prices.3",
+          "id": "a1-u4-frequency.3",
           "kind": "listen",
           "prompt": "چه شنیدی؟",
-          "speak": "expensive",
+          "speak": "often",
           "choices": [
-            "expensive",
-            "menu",
-            "order"
+            "often",
+            "always",
+            "usually"
           ],
           "answer": 0
         },
         {
-          "id": "a1-u4-prices.4",
+          "id": "a1-u4-frequency.4",
           "kind": "match",
           "prompt": "هر کلمه را به معنی‌اش وصل کن",
           "pairs": [
             {
-              "en": "dollar",
-              "fa": "دلار"
+              "en": "sometimes",
+              "fa": "گاهی"
             },
             {
-              "en": "price",
-              "fa": "قیمت"
+              "en": "often",
+              "fa": "اغلب"
             },
             {
-              "en": "cheap",
-              "fa": "ارزان"
+              "en": "always",
+              "fa": "همیشه"
             },
             {
-              "en": "expensive",
-              "fa": "گران"
+              "en": "usually",
+              "fa": "معمولاً"
             }
           ]
         },
         {
-          "id": "a1-u4-prices.5",
+          "id": "a1-u4-frequency.5",
           "kind": "fillBlank",
           "prompt": "جای خالی را پر کن",
-          "promptFa": "قیمتش چقدر است؟",
-          "sentence": "How ___ is it?",
+          "promptFa": "من هرگز شب قهوه نمی‌نوشم.",
+          "sentence": "I ___ drink coffee at night.",
           "choices": [
-            "dollar",
-            "menu",
-            "much"
+            "sometimes",
+            "never",
+            "goes"
           ],
-          "answer": 2
+          "answer": 1
         },
         {
-          "id": "a1-u4-prices.6",
+          "id": "a1-u4-frequency.6",
           "kind": "wordOrder",
           "prompt": "جمله را بساز",
-          "promptFa": "این پیراهن خیلی گران است.",
+          "promptFa": "من همیشه شب درس می‌خوانم.",
           "tokens": [
-            "shirt",
-            "very",
-            "This",
-            "expensive",
-            "is"
+            "I",
+            "study",
+            "at",
+            "night",
+            "always"
           ],
-          "answer": "This shirt is very expensive"
+          "answer": "I always study at night"
         },
         {
-          "id": "a1-u4-prices.7",
+          "id": "a1-u4-frequency.7",
           "kind": "spotError",
           "prompt": "کدام کلمه غلط است؟",
           "words": [
-            "How",
-            "many",
-            "is",
-            "this",
-            "book?"
+            "He",
+            "usually",
+            "studys",
+            "English."
           ],
-          "answer": 1,
-          "fix": "How much is this book?",
+          "answer": 2,
+          "fix": "He usually studies English.",
           "aiHints": {
-            "explanation": "درستش این است: How much is this book?"
+            "explanation": "درستش این است: He usually studies English."
           }
         },
         {
-          "id": "a1-u4-prices.8",
+          "id": "a1-u4-frequency.8",
           "kind": "speed",
-          "prompt": "سریع! «money» یعنی چه؟",
-          "speak": "money",
+          "prompt": "سریع! «never» یعنی چه؟",
+          "speak": "never",
           "choices": [
-            "نان",
-            "پول"
+            "هرگز",
+            "کار کردن"
           ],
-          "answer": 1,
+          "answer": 0,
           "ms": 6000
         },
         {
-          "id": "a1-u4-prices.9",
+          "id": "a1-u4-frequency.9",
           "kind": "mcq",
-          "prompt": "یادت هست؟ معنی «two»",
+          "prompt": "یادت هست؟ معنی «does»",
           "choices": [
-            "مقداری",
-            "بطری",
-            "دو"
-          ],
-          "answer": 2,
-          "speak": "two",
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u4-prices.10",
-          "kind": "listen",
-          "prompt": "مرور — چه شنیدی؟",
-          "speak": "five",
-          "choices": [
-            "rice",
-            "menu",
-            "five"
-          ],
-          "answer": 2,
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u4-prices.11",
-          "kind": "imageWord",
-          "prompt": "مرور — این تصویر کدام کلمه است؟",
-          "emoji": "🔟",
-          "choices": [
-            "some",
-            "bill",
-            "ten"
-          ],
-          "answer": 2,
-          "speak": "ten",
-          "reviewOf": "a1-u1-numbers-age"
-        },
-        {
-          "id": "a1-u4-prices.12",
-          "kind": "speed",
-          "prompt": "مرور سریع! «year»",
-          "speak": "year",
-          "choices": [
-            "سال",
-            "نان"
+            "انجام می‌دهد (سؤال)",
+            "انجام دادن",
+            "بیدار می‌شود"
           ],
           "answer": 0,
-          "ms": 6000,
-          "reviewOf": "a1-u1-numbers-age"
+          "speak": "does",
+          "reviewOf": "a1-u4-do-questions"
         },
         {
-          "id": "a1-u4-prices.13",
+          "id": "a1-u4-frequency.10",
+          "kind": "listen",
+          "prompt": "مرور — چه شنیدی؟",
+          "speak": "don't",
+          "choices": [
+            "don't",
+            "work",
+            "works"
+          ],
+          "answer": 0,
+          "reviewOf": "a1-u4-do-questions"
+        },
+        {
+          "id": "a1-u4-frequency.11",
+          "kind": "imageWord",
+          "prompt": "مرور — این تصویر کدام کلمه است؟",
+          "emoji": "🚫",
+          "choices": [
+            "does",
+            "eat",
+            "doesn't"
+          ],
+          "answer": 2,
+          "speak": "doesn't",
+          "reviewOf": "a1-u4-do-questions"
+        },
+        {
+          "id": "a1-u4-frequency.12",
+          "kind": "speed",
+          "prompt": "مرور سریع! «like»",
+          "speak": "like",
+          "choices": [
+            "کار کردن",
+            "دوست داشتن"
+          ],
+          "answer": 1,
+          "ms": 6000,
+          "reviewOf": "a1-u4-do-questions"
+        },
+        {
+          "id": "a1-u4-frequency.13",
           "kind": "fillBlank",
           "prompt": "یک جای خالی دیگر",
-          "promptFa": "خیلی گران است.",
-          "sentence": "It is too ___.",
+          "promptFa": "او معمولاً جمعه کار می‌کند.",
+          "sentence": "She ___ works on Friday.",
           "choices": [
-            "much",
-            "coffee",
-            "expensive"
+            "likes",
+            "like",
+            "usually"
           ],
           "answer": 2
         }
       ],
       "youCanSay": [
         {
-          "en": "How much is this bag? It is too expensive.",
-          "fa": "این کیف چند است؟ خیلی گران است."
+          "en": "I usually study at night and I never work on Friday.",
+          "fa": "من معمولاً شب درس می‌خوانم و هرگز جمعه کار نمی‌کنم."
         }
       ],
       "xp": 92,
       "tip": {
-        "title": "How much",
-        "body": "برای قیمت How much is it? و برای تعداد How many?"
+        "title": "جای قید",
+        "body": "قید تکرار قبل از فعل اصلی می‌آید: I always work. ولی بعد از am/is/are: I am always late."
       }
     }
   ],
   "boss": {
     "id": "a1-u4-boss",
-    "titleFa": "نبرد پایانی — خوراک و خرید",
+    "titleFa": "نبرد پایانی — روزمرهٔ من",
     "hp": 10,
     "seconds": 120,
     "rewardXp": 120,
@@ -964,12 +954,12 @@
       {
         "id": "a1-u4-boss.1",
         "kind": "mcq",
-        "prompt": "معنی «milk»",
-        "speak": "milk",
+        "prompt": "معنی «live»",
+        "speak": "live",
         "choices": [
-          "شیر",
-          "آب",
-          "منو"
+          "زندگی کردن",
+          "هر روز",
+          "انجام دادن"
         ],
         "answer": 0
       },
@@ -977,11 +967,11 @@
         "id": "a1-u4-boss.2",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "water",
+        "speak": "every day",
         "choices": [
-          "water",
-          "coffee",
-          "bottle"
+          "every day",
+          "does",
+          "wakes up"
         ],
         "answer": 0
       },
@@ -989,23 +979,23 @@
         "id": "a1-u4-boss.3",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "📈",
+        "emoji": "❤️",
         "choices": [
-          "much",
-          "money",
-          "many"
+          "likes",
+          "never",
+          "plays"
         ],
         "answer": 0,
-        "speak": "much"
+        "speak": "likes"
       },
       {
         "id": "a1-u4-boss.4",
         "kind": "speed",
-        "prompt": "سریع! «menu»",
-        "speak": "menu",
+        "prompt": "سریع! «do»",
+        "speak": "do",
         "choices": [
-          "منو",
-          "بطری"
+          "انجام دادن",
+          "بیدار می‌شود"
         ],
         "answer": 0,
         "ms": 5000
@@ -1013,12 +1003,12 @@
       {
         "id": "a1-u4-boss.5",
         "kind": "mcq",
-        "prompt": "معنی «bill»",
-        "speak": "bill",
+        "prompt": "معنی «doesn't»",
+        "speak": "doesn't",
         "choices": [
-          "زیاد (شمارش‌شدنی)",
-          "دلار",
-          "صورت‌حساب"
+          "بازی می‌کند",
+          "گاهی",
+          "نمی (او)"
         ],
         "answer": 2
       },
@@ -1026,11 +1016,11 @@
         "id": "a1-u4-boss.6",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "cheap",
+        "speak": "usually",
         "choices": [
-          "cheap",
-          "any",
-          "dollar"
+          "usually",
+          "works",
+          "sometimes"
         ],
         "answer": 0
       },
@@ -1038,23 +1028,23 @@
         "id": "a1-u4-boss.7",
         "kind": "imageWord",
         "prompt": "این تصویر کدام کلمه است؟",
-        "emoji": "💳",
+        "emoji": "🚫",
         "choices": [
-          "money",
-          "tea",
-          "menu"
+          "never",
+          "don't",
+          "do"
         ],
         "answer": 0,
-        "speak": "money"
+        "speak": "never"
       },
       {
         "id": "a1-u4-boss.8",
         "kind": "speed",
-        "prompt": "سریع! «apple»",
-        "speak": "apple",
+        "prompt": "سریع! «eat»",
+        "speak": "eat",
         "choices": [
-          "ارزان",
-          "سیب"
+          "معمولاً",
+          "خوردن"
         ],
         "answer": 1,
         "ms": 5000
@@ -1062,12 +1052,12 @@
       {
         "id": "a1-u4-boss.9",
         "kind": "mcq",
-        "prompt": "معنی «some»",
-        "speak": "some",
+        "prompt": "معنی «goes»",
+        "speak": "goes",
         "choices": [
-          "سیب",
-          "دلار",
-          "مقداری"
+          "خوردن",
+          "گاهی",
+          "می‌رود"
         ],
         "answer": 2
       },
@@ -1075,11 +1065,11 @@
         "id": "a1-u4-boss.10",
         "kind": "listen",
         "prompt": "چه شنیدی؟",
-        "speak": "many",
+        "speak": "plays",
         "choices": [
-          "menu",
-          "price",
-          "many"
+          "do",
+          "always",
+          "plays"
         ],
         "answer": 2
       }
