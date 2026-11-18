@@ -8,6 +8,7 @@ import { Character, type CharacterId } from "@/components/Character";
 import { Button } from "@/components/ui/Button";
 import { cn, fa, speak, speakSlow } from "@/lib/utils";
 import { BiText } from "@/components/BiText";
+import { WordImage } from "@/components/WordImage";
 
 /**
  * The teaching part of a lesson.
@@ -59,7 +60,7 @@ export function TeachStage({ steps, guide, onDone }: { steps: TeachStep[]; guide
             <p className="en text-7xl font-extrabold leading-none text-fox-deep">{step.letter}</p>
             <p className="rounded-full bg-sand px-3 py-1 text-sm font-bold text-plum-soft">{step.sound}</p>
             <div className="mt-1 flex items-center gap-3 rounded-3xl bg-sand/70 px-5 py-3">
-              <span className="text-4xl">{step.emoji}</span>
+              <WordImage word={step.word} emoji={step.emoji} size={52} />
               <div className="text-right">
                 <p className="en text-xl font-extrabold text-plum">{step.word}</p>
                 <p className="text-xs text-plum-soft">{step.wordFa}</p>
@@ -79,7 +80,9 @@ export function TeachStage({ steps, guide, onDone }: { steps: TeachStep[]; guide
         {step.kind === "word" && (
           <div className="flex h-full flex-col items-center gap-3 p-6 text-center">
             <p className="text-xs font-bold text-plum-soft">کلمهٔ تازه</p>
-            <span className="grid size-24 place-items-center rounded-[1.75rem] bg-sand text-5xl shadow-pop">{step.emoji ?? "🔤"}</span>
+            <span className="grid size-24 place-items-center rounded-[1.75rem] bg-sand shadow-pop">
+              <WordImage word={step.en} emoji={step.emoji} size={68} />
+            </span>
             <p className="en text-3xl font-extrabold text-plum">{step.en}</p>
             <p className="text-base font-bold text-fox-deep">{step.fa}</p>
             {step.note && <p className="text-xs text-plum-soft">{step.note}</p>}

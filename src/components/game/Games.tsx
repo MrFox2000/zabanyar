@@ -5,6 +5,7 @@ import { Check, RotateCcw, Volume2, X } from "lucide-react";
 import type { Exercise } from "@/lib/content/schema";
 import { cn, shuffle, speak, speakSlow } from "@/lib/utils";
 import { BiText } from "@/components/BiText";
+import { WordImage } from "@/components/WordImage";
 
 export type Commit = (correct: boolean, given: string) => void;
 
@@ -121,8 +122,8 @@ export function ImageWordGame({ exercise, locked, picked, onCommit }: Props<"ima
   return (
     <div className="space-y-5">
       <p className="text-center text-sm text-plum-soft" dir="rtl"><BiText text={exercise.prompt} /></p>
-      <div className="pop-in mx-auto grid size-32 place-items-center rounded-[2rem] bg-sand text-6xl shadow-pop">
-        {exercise.emoji}
+      <div className="pop-in mx-auto grid size-32 place-items-center rounded-[2rem] bg-sand shadow-pop">
+        <WordImage word={correct} emoji={exercise.emoji} size={96} />
       </div>
       <ChoiceGrid choices={exercise.choices} picked={picked} correct={correct} locked={locked} onPick={(c) => onCommit(c === correct, c)} />
     </div>

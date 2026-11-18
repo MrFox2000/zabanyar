@@ -190,6 +190,17 @@ export default function SettingsPage() {
           </p>
         </section>
 
+        <section className="card p-4">
+          <h2 className="text-sm font-extrabold text-plum">تصویرها</h2>
+          <p className="mt-1 text-[11px] leading-5 text-plum-soft">
+            تصاویر کلمه‌ها از مجموعهٔ اپن‌سورس{" "}
+            <a href="https://openmoji.org/" target="_blank" rel="noreferrer" className="font-bold text-fox-deep underline">
+              OpenMoji
+            </a>{" "}
+            است (مجوز CC BY-SA 4.0) و داخل اپ ذخیره شده‌اند؛ برای همین آفلاین هم نمایش داده می‌شوند.
+          </p>
+        </section>
+
         <section className="card border-sky/30 bg-sky/10 p-4">
           <h2 className="flex items-center gap-1.5 text-sm font-extrabold text-[#0369a1]">
             <Info size={15} /> صدا نمی‌آید؟

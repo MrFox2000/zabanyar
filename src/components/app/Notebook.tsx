@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Lock, Search, Volume2 } from "lucide-react";
 import { Hud } from "@/components/Hud";
+import { WordImage } from "@/components/WordImage";
 import { useHydrated, useProgress } from "@/lib/store/progress";
 import { cn, fa, speak } from "@/lib/utils";
 
@@ -141,8 +142,8 @@ export function Notebook({ entries }: { entries: NotebookEntry[] }) {
                   !word.learned && "opacity-60",
                 )}
               >
-                <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-sand text-xl">
-                  {word.learned ? word.emoji ?? "🔤" : <Lock size={15} className="text-plum/40" />}
+                <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-sand">
+                  {word.learned ? <WordImage word={word.en} emoji={word.emoji} size={30} /> : <Lock size={15} className="text-plum/40" />}
                 </span>
                 <div className="min-w-0 flex-1">
                   <p className="en text-sm font-extrabold text-plum">{word.en}</p>
