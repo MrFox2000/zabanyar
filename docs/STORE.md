@@ -28,20 +28,35 @@
    - **ب) محافظه‌کارانه:** اپ فعلاً رایگان با تبلیغ باشد، اشتراک فقط روی وب بماند و در
      اپ هیچ اشاره‌ای به خرید بیرونی نشود.
 
-## دستورهای ساخت (بعد از نصب JDK 17 و Android SDK)
+## APK آماده است
+
+آخرین بیلد موفق CI: **`store/zabanyar-1.0.0.apk`** — ۳.۶۷ مگابایت، امضاشده با
+APK Signature Scheme v2 (بررسی شد).
+
+بیلد روی GitHub Actions انجام می‌شود (رونر خودش Android SDK دارد)، پس نیازی به نصب
+Android Studio روی این کامپیوتر نیست:
+
+- ورک‌فلو: `.github/workflows/android.yml`
+- اجرای دستی: تب Actions → android → Run workflow
+- خروجی: Artifact با نام `zabanyar-apk`
+
+کلید امضا (این‌ها **هرگز** کامیت نمی‌شوند):
+
+| فایل | مسیر |
+|---|---|
+| کی‌استور | `android/keystore/zabanyar-release.jks` |
+| مشخصات امضا | `android/keystore/keystore.properties` |
+| نسخهٔ پشتیبان رمز | `C:\Users\Cyber.s\Documents\zabanyar-keystore-password.txt` |
+
+⚠️ اگر کی‌استور گم شود، دیگر نمی‌شود اپ را در بازار/مایکت آپدیت کرد. از این دو فایل
+یک نسخهٔ پشتیبان بیرون از این کامپیوتر بگیر.
+
+## دستورهای ساخت محلی (اختیاری، اگر Android SDK نصب شد)
 
 ```bash
-# یک بار
 npx cap sync android
-
-# کی‌استور (یک بار) — رمز را خودت بگذار
-keytool -genkey -v -keystore zabanyar-release.keystore \
-  -alias zabanyar -keyalg RSA -keysize 2048 -validity 10000
-
-# ساخت نسخهٔ نهایی
 cd android
-./gradlew assembleRelease      # APK برای بازار/مایکت
-./gradlew bundleRelease        # AAB (اگر لازم شد)
+./gradlew assembleRelease   # یا از CI استفاده کن
 ```
 
 پس از امضا: `android/app/build/outputs/apk/release/app-release.apk`
