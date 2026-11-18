@@ -30,8 +30,12 @@ export default function AccountPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    setSession(getSession());
-    setReady(true);
+    // read the stored session after mount so render stays pure
+    const id = setTimeout(() => {
+      setSession(getSession());
+      setReady(true);
+    }, 0);
+    return () => clearTimeout(id);
   }, []);
 
   const submit = async () => {
