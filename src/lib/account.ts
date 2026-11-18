@@ -6,8 +6,10 @@
  * and the app keeps working in guest mode.
  */
 
-const URL_BASE = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
-const ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+import { SUPABASE_ANON_KEY, SUPABASE_URL } from "@/lib/supabase-public";
+
+const URL_BASE = SUPABASE_URL;
+const ANON_KEY = SUPABASE_ANON_KEY;
 const SESSION_KEY = "zabanyar.session.v1";
 
 export type Session = {
