@@ -19,7 +19,10 @@ export const metadata: Metadata = {
     "زبان‌یار انگلیسی را با بازی یاد می‌دهد و هر درس را به درس‌های قبلی وصل می‌کند؛ برای فارسی‌زبان‌ها.",
   applicationName: "زبان‌یار",
   manifest: "/manifest.webmanifest",
-  icons: { icon: "/icon.svg", apple: "/icon.svg" },
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }, { url: "/icon-192.png", sizes: "192x192", type: "image/png" }],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "زبان‌یار",
     description: "انگلیسی، بازی‌وار و پیوسته — ساخته‌شده برای فارسی‌زبان‌ها",
